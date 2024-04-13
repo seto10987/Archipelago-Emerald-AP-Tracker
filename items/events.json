@@ -1,0 +1,207 @@
+[
+  {
+    "name": "Rustboro City - Defeat Roxanne",
+    "type": "toggle",
+    "img": "/images/events/roxanne.png",
+    "codes": "defeat_roxanne"
+  },
+  {
+    "name": "Rustboro City - Talk to Mr. Stone",
+    "type": "toggle",
+    "img": "/images/events/mr_stone.png",
+    "codes": "talk_mr_stone"
+  },
+  {
+    "name": "Dewford Town - Defeat Brawly",
+    "type": "toggle",
+    "img": "/images/events/brawly.png",
+    "codes": "defeat_brawly"
+  },
+  {
+    "name": "Granite Cave - Deliver Letter",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "img_mods": "overlay|/images/overlays/letter.png",
+    "codes": "deliver_letter"
+  },
+  {
+    "name": "Slateport City - Rescue Captain Stern",
+    "type": "toggle",
+    "img": "/images/events/captain_stern.png",
+    "codes": "rescue_stern"
+  },
+  {
+    "name": "Mauville City - Defeat Wattson",
+    "type": "toggle",
+    "img": "/images/events/wattson.png",
+    "codes": "defeat_wattson"
+  },
+  {
+    "name": "Meteor Falls - Team Magma Steals Meteorite",
+    "type": "toggle",
+    "img": "/images/events/magma_grunt.png",
+    "img_mods": "overlay|/images/overlays/meteorite.png",
+    "codes": "magma_steals_meteorite"
+  },
+  {
+    "name": "Lavaridge Town - Defeat Flannery",
+    "type": "toggle",
+    "img": "/images/events/flannery.png",
+    "codes": "defeat_flannery"
+  },
+  {
+    "name": "Petalburg City - Defeat Norman",
+    "type": "toggle",
+    "img": "/images/events/norman.png",
+    "codes": "defeat_norman"
+  },
+  {
+    "name": "Weather Institute - Defeat Shelly",
+    "type": "toggle",
+    "img": "/images/events/shelly.png",
+    "codes": "defeat_shelly"
+  },
+  {
+    "name": "Fortree City - Defeat Winona",
+    "type": "toggle",
+    "img": "/images/events/winona.png",
+    "codes": "defeat_winona"
+  },
+  {
+    "name": "Magma Hideout - Release Groudon",
+    "type": "toggle",
+    "img": "/images/events/groudon.png",
+    "codes": "release_groudon"
+  },
+  {
+    "name": "Slateport City - Team Aqua Steals Submarine",
+    "type": "toggle",
+    "img": "/images/events/aqua_grunt.png",
+    "img_mods": "overlay|/images/overlays/submarine.png",
+    "codes": "aqua_steals_submarine"
+  },
+  {
+    "name": "Aqua Hideout - Defeat Matt",
+    "type": "toggle",
+    "img": "/images/events/matt.png",
+    "codes": "defeat_matt"
+  },
+  {
+    "name": "Mossdeep City - Defeat Tate & Liza",
+    "type": "toggle",
+    "img": "/images/events/tate_and_liza.png",
+    "codes": "defeat_tate_and_liza"
+  },
+  {
+    "name": "Space Station - Defeat Maxie",
+    "type": "toggle",
+    "img": "/images/events/maxie.png",
+    "codes": "defeat_maxie"
+  },
+  {
+    "name": "Mossdeep City - Steven Gives Dive",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "img_mods": "overlay|/images/overlays/water_hm.png",
+    "codes": "steven_gives_dive"
+  },
+  {
+    "name": "Seafloor Cavern - Release Kyogre",
+    "type": "toggle",
+    "img": "/images/events/kyogre.png",
+    "codes": "release_kyogre"
+  },
+  {
+    "name": "Sootopolis City - Defeat Juan",
+    "type": "toggle",
+    "img": "/images/events/juan.png",
+    "codes": "defeat_juan"
+  },
+  {
+    "name": "Pokemon League - Defeat Champion",
+    "type": "toggle",
+    "img": "/images/events/wallace.png",
+    "codes": "defeat_champion"
+  },
+  {
+    "name": "Meteor Falls - Defeat Steven",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "codes": "defeat_steven"
+  },
+  {
+    "name": "Legendaries Defeated/Caught",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": false,
+    "stages":
+    [
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/0.png,@disabled",
+        "codes": "legendary_hunt_count",
+        "name": "Legendaries Defeated/Caught - 0"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/1.png",
+        "name": "Legendaries Defeated/Caught - 1"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/2.png",
+        "name": "Legendaries Defeated/Caught - 2"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/3.png",
+        "name": "Legendaries Defeated/Caught - 3"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/4.png",
+        "name": "Legendaries Defeated/Caught - 4"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/5.png",
+        "name": "Legendaries Defeated/Caught - 5"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/6.png",
+        "name": "Legendaries Defeated/Caught - 6"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/7.png",
+        "name": "Legendaries Defeated/Caught - 7"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/8.png",
+        "name": "Legendaries Defeated/Caught - 8"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/9.png",
+        "name": "Legendaries Defeated/Caught - 9"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/10.png",
+        "name": "Legendaries Defeated/Caught - 10"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/11.png",
+        "name": "Legendaries Defeated/Caught - 11"
+      },
+      {
+        "img": "/images/events/legendary.png",
+        "img_mods": "overlay|/images/overlays/12.png",
+        "name": "Legendaries Defeated/Caught - 12"
+      }
+    ]
+  }
+]
