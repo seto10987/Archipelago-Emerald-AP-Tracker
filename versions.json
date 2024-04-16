@@ -1,0 +1,11 @@
+{
+	"versions": [
+		{
+			"package_version": "0.0.5.0",
+			"download_url": "",
+			"sha256": "",
+			"changelog": ["Couple typo fixes, Full Slot Data and new Apworld options Update, with multiple Portal Shuffle logic fixes"]
+		}
+	]
+}
+
