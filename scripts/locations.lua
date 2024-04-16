@@ -1,7 +1,0 @@
-Tracker:AddLocations("locations/hoenn/battle_frontier.json")
-Tracker:AddLocations("locations/hoenn/cities.json")
-Tracker:AddLocations("locations/hoenn/dungeons.json")
-Tracker:AddLocations("locations/hoenn/islands.json")
-Tracker:AddLocations("locations/hoenn/pokedex.json")
-Tracker:AddLocations("locations/hoenn/routes.json")
-Tracker:AddLocations("locations/hoenn/sub_areas.json")
