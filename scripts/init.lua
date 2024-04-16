@@ -2,6 +2,7 @@
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/events.json")
 Tracker:AddItems("items/settings.json")
+Tracker:AddItems("items/pokemon.json")
 -- Logic
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
@@ -20,6 +21,7 @@ Tracker:AddLayouts("layouts/items.json")
 Tracker:AddLayouts("layouts/tabs.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
+Tracker:AddLayouts("layouts/pokedex.json")
 
 -- AutoTracking for Poptracker
 if PopVersion and PopVersion >= "0.18.0" then

@@ -1,0 +1,2318 @@
+[
+  {
+    "name": "Bulbasaur",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/bulbasaur.png",
+    "codes": "bulbasaur"
+  },
+  {
+    "name": "Ivysaur",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ivysaur.png",
+    "codes": "ivysaur"
+  },
+  {
+    "name": "Venusaur",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/venusaur.png",
+    "codes": "venusaur"
+  },
+  {
+    "name": "Charmander",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/charmander.png",
+    "codes": "charmander"
+  },
+  {
+    "name": "Charmeleon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/charmeleon.png",
+    "codes": "charmeleon"
+  },
+  {
+    "name": "Charizard",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/charizard.png",
+    "codes": "charizard"
+  },
+  {
+    "name": "Squirtle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/squirtle.png",
+    "codes": "squirtle"
+  },
+  {
+    "name": "Wartortle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wartortle.png",
+    "codes": "wartortle"
+  },
+  {
+    "name": "Blastoise",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/blastoise.png",
+    "codes": "blastoise"
+  },
+  {
+    "name": "Caterpie",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/caterpie.png",
+    "codes": "caterpie"
+  },
+  {
+    "name": "Metapod",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/metapod.png",
+    "codes": "metapod"
+  },
+  {
+    "name": "Butterfree",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/butterfree.png",
+    "codes": "butterfree"
+  },
+  {
+    "name": "Weedle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/weedle.png",
+    "codes": "weedle"
+  },
+  {
+    "name": "Kakuna",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kakuna.png",
+    "codes": "kakuna"
+  },
+  {
+    "name": "Beedrill",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/beedrill.png",
+    "codes": "beedrill"
+  },
+  {
+    "name": "Pidgey",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pidgey.png",
+    "codes": "pidgey"
+  },
+  {
+    "name": "Pidgeotto",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pidgeotto.png",
+    "codes": "pidgeotto"
+  },
+  {
+    "name": "Pidgeot",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pidgeot.png",
+    "codes": "pidgeot"
+  },
+  {
+    "name": "Rattata",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/rattata.png",
+    "codes": "rattata"
+  },
+  {
+    "name": "Raticate",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/raticate.png",
+    "codes": "raticate"
+  },
+  {
+    "name": "Spearow",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/spearow.png",
+    "codes": "spearow"
+  },
+  {
+    "name": "Fearow",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/fearow.png",
+    "codes": "fearow"
+  },
+  {
+    "name": "Ekans",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ekans.png",
+    "codes": "ekans"
+  },
+  {
+    "name": "Arbok",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/arbok.png",
+    "codes": "arbok"
+  },
+  {
+    "name": "Pikachu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pikachu.png",
+    "codes": "pikachu"
+  },
+  {
+    "name": "Raichu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/raichu.png",
+    "codes": "raichu"
+  },
+  {
+    "name": "Sandshrew",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sandshrew.png",
+    "codes": "sandshrew"
+  },
+  {
+    "name": "Sandslash",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sandslash.png",
+    "codes": "sandslash"
+  },
+  {
+    "name": "Nidoran♀",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidoran_f.png",
+    "codes": "nidoranf"
+  },
+  {
+    "name": "Nidorina",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidorina.png",
+    "codes": "nidorina"
+  },
+  {
+    "name": "Nidoqueen",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidoqueen.png",
+    "codes": "nidoqueen"
+  },
+  {
+    "name": "Nidoran♂",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidoran_m.png",
+    "codes": "nidoranm"
+  },
+  {
+    "name": "Nidorino",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidorino.png",
+    "codes": "nidorino"
+  },
+  {
+    "name": "Nidoking",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nidoking.png",
+    "codes": "nidoking"
+  },
+  {
+    "name": "Clefairy",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/clefairy.png",
+    "codes": "clefairy"
+  },
+  {
+    "name": "Clefable",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/clefable.png",
+    "codes": "clefable"
+  },
+  {
+    "name": "Vulpix",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/vulpix.png",
+    "codes": "vulpix"
+  },
+  {
+    "name": "Ninetales",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ninetales.png",
+    "codes": "ninetales"
+  },
+  {
+    "name": "Jigglypuff",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/jigglypuff.png",
+    "codes": "jigglypuff"
+  },
+  {
+    "name": "Wigglytuff",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wigglytuff.png",
+    "codes": "wigglytuff"
+  },
+  {
+    "name": "Zubat",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/zubat.png",
+    "codes": "zubat"
+  },
+  {
+    "name": "Golbat",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/golbat.png",
+    "codes": "golbat"
+  },
+  {
+    "name": "Oddish",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/oddish.png",
+    "codes": "oddish"
+  },
+  {
+    "name": "Gloom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gloom.png",
+    "codes": "gloom"
+  },
+  {
+    "name": "Vileplume",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/vileplume.png",
+    "codes": "vileplume"
+  },
+  {
+    "name": "Paras",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/paras.png",
+    "codes": "paras"
+  },
+  {
+    "name": "Parasect",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/parasect.png",
+    "codes": "parasect"
+  },
+  {
+    "name": "Venonat",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/venonat.png",
+    "codes": "venonat"
+  },
+  {
+    "name": "Venomoth",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/venomoth.png",
+    "codes": "venomoth"
+  },
+  {
+    "name": "Diglett",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/diglett.png",
+    "codes": "diglett"
+  },
+  {
+    "name": "Dugtrio",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dugtrio.png",
+    "codes": "dugtrio"
+  },
+  {
+    "name": "Meowth",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/meowth.png",
+    "codes": "meowth"
+  },
+  {
+    "name": "Persian",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/persian.png",
+    "codes": "persian"
+  },
+  {
+    "name": "Psyduck",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/psyduck.png",
+    "codes": "psyduck"
+  },
+  {
+    "name": "Golduck",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/golduck.png",
+    "codes": "golduck"
+  },
+  {
+    "name": "Mankey",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mankey.png",
+    "codes": "mankey"
+  },
+  {
+    "name": "Primeape",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/primeape.png",
+    "codes": "primeape"
+  },
+  {
+    "name": "Growlithe",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/growlithe.png",
+    "codes": "growlithe"
+  },
+  {
+    "name": "Arcanine",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/arcanine.png",
+    "codes": "arcanine"
+  },
+  {
+    "name": "Poliwag",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/poliwag.png",
+    "codes": "poliwag"
+  },
+  {
+    "name": "Poliwhirl",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/poliwhirl.png",
+    "codes": "poliwhirl"
+  },
+  {
+    "name": "Poliwrath",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/poliwrath.png",
+    "codes": "poliwrath"
+  },
+  {
+    "name": "Abra",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/abra.png",
+    "codes": "abra"
+  },
+  {
+    "name": "Kadabra",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kadabra.png",
+    "codes": "kadabra"
+  },
+  {
+    "name": "Alakazam",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/alakazam.png",
+    "codes": "alakazam"
+  },
+  {
+    "name": "Machop",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/machop.png",
+    "codes": "machop"
+  },
+  {
+    "name": "Machoke",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/machoke.png",
+    "codes": "machoke"
+  },
+  {
+    "name": "Machamp",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/machamp.png",
+    "codes": "machamp"
+  },
+  {
+    "name": "Bellsprout",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/bellsprout.png",
+    "codes": "bellsprout"
+  },
+  {
+    "name": "Weepinbell",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/weepinbell.png",
+    "codes": "weepinbell"
+  },
+  {
+    "name": "Victreebel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/victreebel.png",
+    "codes": "victreebel"
+  },
+  {
+    "name": "Tentacool",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tentacool.png",
+    "codes": "tentacool"
+  },
+  {
+    "name": "Tentacruel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tentacruel.png",
+    "codes": "tentacruel"
+  },
+  {
+    "name": "Geodude",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/geodude.png",
+    "codes": "geodude"
+  },
+  {
+    "name": "Graveler",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/graveler.png",
+    "codes": "graveler"
+  },
+  {
+    "name": "Golem",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/golem.png",
+    "codes": "golem"
+  },
+  {
+    "name": "Ponyta",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ponyta.png",
+    "codes": "ponyta"
+  },
+  {
+    "name": "Rapidash",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/rapidash.png",
+    "codes": "rapidash"
+  },
+  {
+    "name": "Slowpoke",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slowpoke.png",
+    "codes": "slowpoke"
+  },
+  {
+    "name": "Slowbro",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slowbro.png",
+    "codes": "slowbro"
+  },
+  {
+    "name": "Magnemite",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magnemite.png",
+    "codes": "magnemite"
+  },
+  {
+    "name": "Magneton",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magneton.png",
+    "codes": "magneton"
+  },
+  {
+    "name": "Farfetch'd",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/farfetch'd.png",
+    "codes": "farfetchd"
+  },
+  {
+    "name": "Doduo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/doduo.png",
+    "codes": "doduo"
+  },
+  {
+    "name": "Dodrio",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dodrio.png",
+    "codes": "dodrio"
+  },
+  {
+    "name": "Seel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/seel.png",
+    "codes": "seel"
+  },
+  {
+    "name": "Dewgong",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dewgong.png",
+    "codes": "dewgong"
+  },
+  {
+    "name": "Grimer",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/grimer.png",
+    "codes": "grimer"
+  },
+  {
+    "name": "Muk",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/muk.png",
+    "codes": "muk"
+  },
+  {
+    "name": "Shellder",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shellder.png",
+    "codes": "shellder"
+  },
+  {
+    "name": "Cloyster",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cloyster.png",
+    "codes": "cloyster"
+  },
+  {
+    "name": "Gastly",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gastly.png",
+    "codes": "gastly"
+  },
+  {
+    "name": "Haunter",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/haunter.png",
+    "codes": "haunter"
+  },
+  {
+    "name": "Gengar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gengar.png",
+    "codes": "gengar"
+  },
+  {
+    "name": "Onix",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/onix.png",
+    "codes": "onix"
+  },
+  {
+    "name": "Drowzee",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/drowzee.png",
+    "codes": "drowzee"
+  },
+  {
+    "name": "Hypno",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hypno.png",
+    "codes": "hypno"
+  },
+  {
+    "name": "Krabby",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/krabby.png",
+    "codes": "krabby"
+  },
+  {
+    "name": "Kingler",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kingler.png",
+    "codes": "kingler"
+  },
+  {
+    "name": "Voltorb",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/voltorb.png",
+    "codes": "voltorb"
+  },
+  {
+    "name": "Electrode",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/electrode.png",
+    "codes": "electrode"
+  },
+  {
+    "name": "Exeggcute",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/exeggcute.png",
+    "codes": "exeggcute"
+  },
+  {
+    "name": "Exeggutor",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/exeggutor.png",
+    "codes": "exeggutor"
+  },
+  {
+    "name": "Cubone",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cubone.png",
+    "codes": "cubone"
+  },
+  {
+    "name": "Marowak",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/marowak.png",
+    "codes": "marowak"
+  },
+  {
+    "name": "Hitmonlee",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hitmonlee.png",
+    "codes": "hitmonlee"
+  },
+  {
+    "name": "Hitmonchan",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hitmonchan.png",
+    "codes": "hitmonchan"
+  },
+  {
+    "name": "Lickitung",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lickitung.png",
+    "codes": "lickitung"
+  },
+  {
+    "name": "Koffing",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/koffing.png",
+    "codes": "koffing"
+  },
+  {
+    "name": "Weezing",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/weezing.png",
+    "codes": "weezing"
+  },
+  {
+    "name": "Rhyhorn",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/rhyhorn.png",
+    "codes": "rhyhorn"
+  },
+  {
+    "name": "Rhydon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/rhydon.png",
+    "codes": "rhydon"
+  },
+  {
+    "name": "Chansey",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/chansey.png",
+    "codes": "chansey"
+  },
+  {
+    "name": "Tangela",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tangela.png",
+    "codes": "tangela"
+  },
+  {
+    "name": "Kangaskhan",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kangaskhan.png",
+    "codes": "kangaskhan"
+  },
+  {
+    "name": "Horsea",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/horsea.png",
+    "codes": "horsea"
+  },
+  {
+    "name": "Seadra",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/seadra.png",
+    "codes": "seadra"
+  },
+  {
+    "name": "Goldeen",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/goldeen.png",
+    "codes": "goldeen"
+  },
+  {
+    "name": "Seaking",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/seaking.png",
+    "codes": "seaking"
+  },
+  {
+    "name": "Staryu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/staryu.png",
+    "codes": "staryu"
+  },
+  {
+    "name": "Starmie",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/starmie.png",
+    "codes": "starmie"
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mr_mime.png",
+    "codes": "mrmime"
+  },
+  {
+    "name": "Scyther",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/scyther.png",
+    "codes": "scyther"
+  },
+  {
+    "name": "Jynx",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/jynx.png",
+    "codes": "jynx"
+  },
+  {
+    "name": "Electabuzz",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/electabuzz.png",
+    "codes": "electabuzz"
+  },
+  {
+    "name": "Magmar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magmar.png",
+    "codes": "magmar"
+  },
+  {
+    "name": "Pinsir",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pinsir.png",
+    "codes": "pinsir"
+  },
+  {
+    "name": "Tauros",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tauros.png",
+    "codes": "tauros"
+  },
+  {
+    "name": "Magikarp",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magikarp.png",
+    "codes": "magikarp"
+  },
+  {
+    "name": "Gyarados",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gyarados.png",
+    "codes": "gyarados"
+  },
+  {
+    "name": "Lapras",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lapras.png",
+    "codes": "lapras"
+  },
+  {
+    "name": "Ditto",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ditto.png",
+    "codes": "ditto"
+  },
+  {
+    "name": "Eevee",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/eevee.png",
+    "codes": "eevee"
+  },
+  {
+    "name": "Vaporeon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/vaporeon.png",
+    "codes": "vaporeon"
+  },
+  {
+    "name": "Jolteon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/jolteon.png",
+    "codes": "jolteon"
+  },
+  {
+    "name": "Flareon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/flareon.png",
+    "codes": "flareon"
+  },
+  {
+    "name": "Porygon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/porygon.png",
+    "codes": "porygon"
+  },
+  {
+    "name": "Omanyte",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/omanyte.png",
+    "codes": "omanyte"
+  },
+  {
+    "name": "Omastar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/omastar.png",
+    "codes": "omastar"
+  },
+  {
+    "name": "Kabuto",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kabuto.png",
+    "codes": "kabuto"
+  },
+  {
+    "name": "Kabutops",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kabutops.png",
+    "codes": "kabutops"
+  },
+  {
+    "name": "Aerodactyl",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/aerodactyl.png",
+    "codes": "aerodactyl"
+  },
+  {
+    "name": "Snorlax",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/snorlax.png",
+    "codes": "snorlax"
+  },
+  {
+    "name": "Articuno",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/articuno.png",
+    "codes": "articuno"
+  },
+  {
+    "name": "Zapdos",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/zapdos.png",
+    "codes": "zapdos"
+  },
+  {
+    "name": "Moltres",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/moltres.png",
+    "codes": "moltres"
+  },
+  {
+    "name": "Dratini",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dratini.png",
+    "codes": "dratini"
+  },
+  {
+    "name": "Dragonair",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dragonair.png",
+    "codes": "dragonair"
+  },
+  {
+    "name": "Dragonite",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dragonite.png",
+    "codes": "dragonite"
+  },
+  {
+    "name": "Mewtwo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mewtwo.png",
+    "codes": "mewtwo"
+  },
+  {
+    "name": "Mew",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mew.png",
+    "codes": "mew"
+  },
+  {
+    "name": "Chikorita",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/chikorita.png",
+    "codes": "chikorita"
+  },
+  {
+    "name": "Bayleef",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/bayleef.png",
+    "codes": "bayleef"
+  },
+  {
+    "name": "Meganium",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/meganium.png",
+    "codes": "meganium"
+  },
+  {
+    "name": "Cyndaquil",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cyndaquil.png",
+    "codes": "cyndaquil"
+  },
+  {
+    "name": "Quilava",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/quilava.png",
+    "codes": "quilava"
+  },
+  {
+    "name": "Typhlosion",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/typhlosion.png",
+    "codes": "typhlosion"
+  },
+  {
+    "name": "Totodile",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/totodile.png",
+    "codes": "totodile"
+  },
+  {
+    "name": "Croconaw",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/croconaw.png",
+    "codes": "croconaw"
+  },
+  {
+    "name": "Feraligatr",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/feraligatr.png",
+    "codes": "feraligatr"
+  },
+  {
+    "name": "Sentret",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sentret.png",
+    "codes": "sentret"
+  },
+  {
+    "name": "Furret",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/furret.png",
+    "codes": "furret"
+  },
+  {
+    "name": "Hoothoot",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hoothoot.png",
+    "codes": "hoothoot"
+  },
+  {
+    "name": "Noctowl",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/noctowl.png",
+    "codes": "noctowl"
+  },
+  {
+    "name": "Ledyba",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ledyba.png",
+    "codes": "ledyba"
+  },
+  {
+    "name": "Ledian",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ledian.png",
+    "codes": "ledian"
+  },
+  {
+    "name": "Spinarak",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/spinarak.png",
+    "codes": "spinarak"
+  },
+  {
+    "name": "Ariados",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ariados.png",
+    "codes": "ariados"
+  },
+  {
+    "name": "Crobat",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/crobat.png",
+    "codes": "crobat"
+  },
+  {
+    "name": "Chinchou",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/chinchou.png",
+    "codes": "chinchou"
+  },
+  {
+    "name": "Lanturn",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lanturn.png",
+    "codes": "lanturn"
+  },
+  {
+    "name": "Pichu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pichu.png",
+    "codes": "pichu"
+  },
+  {
+    "name": "Cleffa",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cleffa.png",
+    "codes": "cleffa"
+  },
+  {
+    "name": "Igglybuff",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/igglybuff.png",
+    "codes": "igglybuff"
+  },
+  {
+    "name": "Togepi",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/togepi.png",
+    "codes": "togepi"
+  },
+  {
+    "name": "Togetic",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/togetic.png",
+    "codes": "togetic"
+  },
+  {
+    "name": "Natu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/natu.png",
+    "codes": "natu"
+  },
+  {
+    "name": "Xatu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/xatu.png",
+    "codes": "xatu"
+  },
+  {
+    "name": "Mareep",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mareep.png",
+    "codes": "mareep"
+  },
+  {
+    "name": "Flaaffy",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/flaaffy.png",
+    "codes": "flaaffy"
+  },
+  {
+    "name": "Ampharos",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ampharos.png",
+    "codes": "ampharos"
+  },
+  {
+    "name": "Bellossom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/bellossom.png",
+    "codes": "bellossom"
+  },
+  {
+    "name": "Marill",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/marill.png",
+    "codes": "marill"
+  },
+  {
+    "name": "Azumarill",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/azumarill.png",
+    "codes": "azumarill"
+  },
+  {
+    "name": "Sudowoodo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sudowoodo.png",
+    "codes": "sudowoodo"
+  },
+  {
+    "name": "Politoed",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/politoed.png",
+    "codes": "politoed"
+  },
+  {
+    "name": "Hoppip",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hoppip.png",
+    "codes": "hoppip"
+  },
+  {
+    "name": "Skiploom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/skiploom.png",
+    "codes": "skiploom"
+  },
+  {
+    "name": "Jumpluff",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/jumpluff.png",
+    "codes": "jumpluff"
+  },
+  {
+    "name": "Aipom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/aipom.png",
+    "codes": "aipom"
+  },
+  {
+    "name": "Sunkern",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sunkern.png",
+    "codes": "sunkern"
+  },
+  {
+    "name": "Sunflora",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sunflora.png",
+    "codes": "sunflora"
+  },
+  {
+    "name": "Yanma",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/yanma.png",
+    "codes": "yanma"
+  },
+  {
+    "name": "Wooper",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wooper.png",
+    "codes": "wooper"
+  },
+  {
+    "name": "Quagsire",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/quagsire.png",
+    "codes": "quagsire"
+  },
+  {
+    "name": "Espeon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/espeon.png",
+    "codes": "espeon"
+  },
+  {
+    "name": "Umbreon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/umbreon.png",
+    "codes": "umbreon"
+  },
+  {
+    "name": "Murkrow",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/murkrow.png",
+    "codes": "murkrow"
+  },
+  {
+    "name": "Slowking",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slowking.png",
+    "codes": "slowking"
+  },
+  {
+    "name": "Misdreavus",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/misdreavus.png",
+    "codes": "misdreavus"
+  },
+  {
+    "name": "Unown",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/unown.png",
+    "codes": "unown"
+  },
+  {
+    "name": "Wobbuffet",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wobbuffet.png",
+    "codes": "wobbuffet"
+  },
+  {
+    "name": "Girafarig",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/girafarig.png",
+    "codes": "girafarig"
+  },
+  {
+    "name": "Pineco",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pineco.png",
+    "codes": "pineco"
+  },
+  {
+    "name": "Forretress",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/forretress.png",
+    "codes": "forretress"
+  },
+  {
+    "name": "Dunsparce",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dunsparce.png",
+    "codes": "dunsparce"
+  },
+  {
+    "name": "Gligar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gligar.png",
+    "codes": "gligar"
+  },
+  {
+    "name": "Steelix",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/steelix.png",
+    "codes": "steelix"
+  },
+  {
+    "name": "Snubbull",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/snubbull.png",
+    "codes": "snubbull"
+  },
+  {
+    "name": "Granbull",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/granbull.png",
+    "codes": "granbull"
+  },
+  {
+    "name": "Qwilfish",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/qwilfish.png",
+    "codes": "qwilfish"
+  },
+  {
+    "name": "Scizor",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/scizor.png",
+    "codes": "scizor"
+  },
+  {
+    "name": "Shuckle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shuckle.png",
+    "codes": "shuckle"
+  },
+  {
+    "name": "Heracross",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/heracross.png",
+    "codes": "heracross"
+  },
+  {
+    "name": "Sneasel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sneasel.png",
+    "codes": "sneasel"
+  },
+  {
+    "name": "Teddiursa",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/teddiursa.png",
+    "codes": "teddiursa"
+  },
+  {
+    "name": "Ursaring",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ursaring.png",
+    "codes": "ursaring"
+  },
+  {
+    "name": "Slugma",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slugma.png",
+    "codes": "slugma"
+  },
+  {
+    "name": "Magcargo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magcargo.png",
+    "codes": "magcargo"
+  },
+  {
+    "name": "Swinub",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/swinub.png",
+    "codes": "swinub"
+  },
+  {
+    "name": "Piloswine",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/piloswine.png",
+    "codes": "piloswine"
+  },
+  {
+    "name": "Corsola",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/corsola.png",
+    "codes": "corsola"
+  },
+  {
+    "name": "Remoraid",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/remoraid.png",
+    "codes": "remoraid"
+  },
+  {
+    "name": "Octillery",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/octillery.png",
+    "codes": "octillery"
+  },
+  {
+    "name": "Delibird",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/delibird.png",
+    "codes": "delibird"
+  },
+  {
+    "name": "Mantine",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mantine.png",
+    "codes": "mantine"
+  },
+  {
+    "name": "Skarmory",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/skarmory.png",
+    "codes": "skarmory"
+  },
+  {
+    "name": "Houndour",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/houndour.png",
+    "codes": "houndour"
+  },
+  {
+    "name": "Houndoom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/houndoom.png",
+    "codes": "houndoom"
+  },
+  {
+    "name": "Kingdra",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kingdra.png",
+    "codes": "kingdra"
+  },
+  {
+    "name": "Phanpy",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/phanpy.png",
+    "codes": "phanpy"
+  },
+  {
+    "name": "Donphan",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/donphan.png",
+    "codes": "donphan"
+  },
+  {
+    "name": "Porygon2",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/porygon2.png",
+    "codes": "porygon2"
+  },
+  {
+    "name": "Stantler",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/stantler.png",
+    "codes": "stantler"
+  },
+  {
+    "name": "Smeargle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/smeargle.png",
+    "codes": "smeargle"
+  },
+  {
+    "name": "Tyrogue",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tyrogue.png",
+    "codes": "tyrogue"
+  },
+  {
+    "name": "Hitmontop",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hitmontop.png",
+    "codes": "hitmontop"
+  },
+  {
+    "name": "Smoochum",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/smoochum.png",
+    "codes": "smoochum"
+  },
+  {
+    "name": "Elekid",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/elekid.png",
+    "codes": "elekid"
+  },
+  {
+    "name": "Magby",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/magby.png",
+    "codes": "magby"
+  },
+  {
+    "name": "Miltank",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/miltank.png",
+    "codes": "miltank"
+  },
+  {
+    "name": "Blissey",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/blissey.png",
+    "codes": "blissey"
+  },
+  {
+    "name": "Raikou",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/raikou.png",
+    "codes": "raikou"
+  },
+  {
+    "name": "Entei",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/entei.png",
+    "codes": "entei"
+  },
+  {
+    "name": "Suicune",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/suicune.png",
+    "codes": "suicune"
+  },
+  {
+    "name": "Larvitar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/larvitar.png",
+    "codes": "larvitar"
+  },
+  {
+    "name": "Pupitar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pupitar.png",
+    "codes": "pupitar"
+  },
+  {
+    "name": "Tyranitar",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tyranitar.png",
+    "codes": "tyranitar"
+  },
+  {
+    "name": "Lugia",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lugia.png",
+    "codes": "lugia"
+  },
+  {
+    "name": "Ho-Oh",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ho-oh.png",
+    "codes": "ho-oh"
+  },
+  {
+    "name": "Celebi",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/celebi.png",
+    "codes": "celebi"
+  },
+  {
+    "name": "Treecko",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/treecko.png",
+    "codes": "treecko"
+  },
+  {
+    "name": "Grovyle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/grovyle.png",
+    "codes": "grovyle"
+  },
+  {
+    "name": "Sceptile",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sceptile.png",
+    "codes": "sceptile"
+  },
+  {
+    "name": "Torchic",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/torchic.png",
+    "codes": "torchic"
+  },
+  {
+    "name": "Combusken",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/combusken.png",
+    "codes": "combusken"
+  },
+  {
+    "name": "Blaziken",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/blaziken.png",
+    "codes": "blaziken"
+  },
+  {
+    "name": "Mudkip",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mudkip.png",
+    "codes": "mudkip"
+  },
+  {
+    "name": "Marshtomp",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/marshtomp.png",
+    "codes": "marshtomp"
+  },
+  {
+    "name": "Swampert",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/swampert.png",
+    "codes": "swampert"
+  },
+  {
+    "name": "Poochyena",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/poochyena.png",
+    "codes": "poochyena"
+  },
+  {
+    "name": "Mightyena",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mightyena.png",
+    "codes": "mightyena"
+  },
+  {
+    "name": "Zigzagoon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/zigzagoon.png",
+    "codes": "zigzagoon"
+  },
+  {
+    "name": "Linoone",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/linoone.png",
+    "codes": "linoone"
+  },
+  {
+    "name": "Wurmple",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wurmple.png",
+    "codes": "wurmple"
+  },
+  {
+    "name": "Silcoon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/silcoon.png",
+    "codes": "silcoon"
+  },
+  {
+    "name": "Beautifly",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/beautifly.png",
+    "codes": "beautifly"
+  },
+  {
+    "name": "Cascoon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cascoon.png",
+    "codes": "cascoon"
+  },
+  {
+    "name": "Dustox",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dustox.png",
+    "codes": "dustox"
+  },
+  {
+    "name": "Lotad",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lotad.png",
+    "codes": "lotad"
+  },
+  {
+    "name": "Lombre",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lombre.png",
+    "codes": "lombre"
+  },
+  {
+    "name": "Ludicolo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ludicolo.png",
+    "codes": "ludicolo"
+  },
+  {
+    "name": "Seedot",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/seedot.png",
+    "codes": "seedot"
+  },
+  {
+    "name": "Nuzleaf",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nuzleaf.png",
+    "codes": "nuzleaf"
+  },
+  {
+    "name": "Shiftry",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shiftry.png",
+    "codes": "shiftry"
+  },
+  {
+    "name": "Taillow",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/taillow.png",
+    "codes": "taillow"
+  },
+  {
+    "name": "Swellow",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/swellow.png",
+    "codes": "swellow"
+  },
+  {
+    "name": "Wingull",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wingull.png",
+    "codes": "wingull"
+  },
+  {
+    "name": "Pelipper",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/pelipper.png",
+    "codes": "pelipper"
+  },
+  {
+    "name": "Ralts",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ralts.png",
+    "codes": "ralts"
+  },
+  {
+    "name": "Kirlia",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kirlia.png",
+    "codes": "kirlia"
+  },
+  {
+    "name": "Gardevoir",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gardevoir.png",
+    "codes": "gardevoir"
+  },
+  {
+    "name": "Surskit",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/surskit.png",
+    "codes": "surskit"
+  },
+  {
+    "name": "Masquerain",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/masquerain.png",
+    "codes": "masquerain"
+  },
+  {
+    "name": "Shroomish",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shroomish.png",
+    "codes": "shroomish"
+  },
+  {
+    "name": "Breloom",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/breloom.png",
+    "codes": "breloom"
+  },
+  {
+    "name": "Slakoth",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slakoth.png",
+    "codes": "slakoth"
+  },
+  {
+    "name": "Vigoroth",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/vigoroth.png",
+    "codes": "vigoroth"
+  },
+  {
+    "name": "Slaking",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/slaking.png",
+    "codes": "slaking"
+  },
+  {
+    "name": "Nincada",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nincada.png",
+    "codes": "nincada"
+  },
+  {
+    "name": "Ninjask",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/ninjask.png",
+    "codes": "ninjask"
+  },
+  {
+    "name": "Shedinja",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shedinja.png",
+    "codes": "shedinja"
+  },
+  {
+    "name": "Whismur",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/whismur.png",
+    "codes": "whismur"
+  },
+  {
+    "name": "Loudred",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/loudred.png",
+    "codes": "loudred"
+  },
+  {
+    "name": "Exploud",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/exploud.png",
+    "codes": "exploud"
+  },
+  {
+    "name": "Makuhita",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/makuhita.png",
+    "codes": "makuhita"
+  },
+  {
+    "name": "Hariyama",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/hariyama.png",
+    "codes": "hariyama"
+  },
+  {
+    "name": "Azurill",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/azurill.png",
+    "codes": "azurill"
+  },
+  {
+    "name": "Nosepass",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/nosepass.png",
+    "codes": "nosepass"
+  },
+  {
+    "name": "Skitty",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/skitty.png",
+    "codes": "skitty"
+  },
+  {
+    "name": "Delcatty",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/delcatty.png",
+    "codes": "delcatty"
+  },
+  {
+    "name": "Sableye",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sableye.png",
+    "codes": "sableye"
+  },
+  {
+    "name": "Mawile",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/mawile.png",
+    "codes": "mawile"
+  },
+  {
+    "name": "Aron",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/aron.png",
+    "codes": "aron"
+  },
+  {
+    "name": "Lairon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lairon.png",
+    "codes": "lairon"
+  },
+  {
+    "name": "Aggron",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/aggron.png",
+    "codes": "aggron"
+  },
+  {
+    "name": "Meditite",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/meditite.png",
+    "codes": "meditite"
+  },
+  {
+    "name": "Medicham",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/medicham.png",
+    "codes": "medicham"
+  },
+  {
+    "name": "Electrike",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/electrike.png",
+    "codes": "electrike"
+  },
+  {
+    "name": "Manectric",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/manectric.png",
+    "codes": "manectric"
+  },
+  {
+    "name": "Plusle",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/plusle.png",
+    "codes": "plusle"
+  },
+  {
+    "name": "Minun",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/minun.png",
+    "codes": "minun"
+  },
+  {
+    "name": "Volbeat",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/volbeat.png",
+    "codes": "volbeat"
+  },
+  {
+    "name": "Illumise",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/illumise.png",
+    "codes": "illumise"
+  },
+  {
+    "name": "Roselia",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/roselia.png",
+    "codes": "roselia"
+  },
+  {
+    "name": "Gulpin",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gulpin.png",
+    "codes": "gulpin"
+  },
+  {
+    "name": "Swalot",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/swalot.png",
+    "codes": "swalot"
+  },
+  {
+    "name": "Carvanha",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/carvanha.png",
+    "codes": "carvanha"
+  },
+  {
+    "name": "Sharpedo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sharpedo.png",
+    "codes": "sharpedo"
+  },
+  {
+    "name": "Wailmer",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wailmer.png",
+    "codes": "wailmer"
+  },
+  {
+    "name": "Wailord",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wailord.png",
+    "codes": "wailord"
+  },
+  {
+    "name": "Numel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/numel.png",
+    "codes": "numel"
+  },
+  {
+    "name": "Camerupt",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/camerupt.png",
+    "codes": "camerupt"
+  },
+  {
+    "name": "Torkoal",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/torkoal.png",
+    "codes": "torkoal"
+  },
+  {
+    "name": "Spoink",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/spoink.png",
+    "codes": "spoink"
+  },
+  {
+    "name": "Grumpig",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/grumpig.png",
+    "codes": "grumpig"
+  },
+  {
+    "name": "Spinda",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/spinda.png",
+    "codes": "spinda"
+  },
+  {
+    "name": "Trapinch",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/trapinch.png",
+    "codes": "trapinch"
+  },
+  {
+    "name": "Vibrava",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/vibrava.png",
+    "codes": "vibrava"
+  },
+  {
+    "name": "Flygon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/flygon.png",
+    "codes": "flygon"
+  },
+  {
+    "name": "Cacnea",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cacnea.png",
+    "codes": "cacnea"
+  },
+  {
+    "name": "Cacturne",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cacturne.png",
+    "codes": "cacturne"
+  },
+  {
+    "name": "Swablu",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/swablu.png",
+    "codes": "swablu"
+  },
+  {
+    "name": "Altaria",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/altaria.png",
+    "codes": "altaria"
+  },
+  {
+    "name": "Zangoose",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/zangoose.png",
+    "codes": "zangoose"
+  },
+  {
+    "name": "Seviper",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/seviper.png",
+    "codes": "seviper"
+  },
+  {
+    "name": "Lunatone",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lunatone.png",
+    "codes": "lunatone"
+  },
+  {
+    "name": "Solrock",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/solrock.png",
+    "codes": "solrock"
+  },
+  {
+    "name": "Barboach",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/barboach.png",
+    "codes": "barboach"
+  },
+  {
+    "name": "Whiscash",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/whiscash.png",
+    "codes": "whiscash"
+  },
+  {
+    "name": "Corphish",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/corphish.png",
+    "codes": "corphish"
+  },
+  {
+    "name": "Crawdaunt",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/crawdaunt.png",
+    "codes": "crawdaunt"
+  },
+  {
+    "name": "Baltoy",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/baltoy.png",
+    "codes": "baltoy"
+  },
+  {
+    "name": "Claydol",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/claydol.png",
+    "codes": "claydol"
+  },
+  {
+    "name": "Lileep",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/lileep.png",
+    "codes": "lileep"
+  },
+  {
+    "name": "Cradily",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/cradily.png",
+    "codes": "cradily"
+  },
+  {
+    "name": "Anorith",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/anorith.png",
+    "codes": "anorith"
+  },
+  {
+    "name": "Armaldo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/armaldo.png",
+    "codes": "armaldo"
+  },
+  {
+    "name": "Feebas",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/feebas.png",
+    "codes": "feebas"
+  },
+  {
+    "name": "Milotic",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/milotic.png",
+    "codes": "milotic"
+  },
+  {
+    "name": "Castform",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/castform.png",
+    "codes": "castform"
+  },
+  {
+    "name": "Kecleon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kecleon.png",
+    "codes": "kecleon"
+  },
+  {
+    "name": "Shuppet",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shuppet.png",
+    "codes": "shuppet"
+  },
+  {
+    "name": "Banette",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/banette.png",
+    "codes": "banette"
+  },
+  {
+    "name": "Duskull",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/duskull.png",
+    "codes": "duskull"
+  },
+  {
+    "name": "Dusclops",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/dusclops.png",
+    "codes": "dusclops"
+  },
+  {
+    "name": "Tropius",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/tropius.png",
+    "codes": "tropius"
+  },
+  {
+    "name": "Chimecho",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/chimecho.png",
+    "codes": "chimecho"
+  },
+  {
+    "name": "Absol",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/absol.png",
+    "codes": "absol"
+  },
+  {
+    "name": "Wynaut",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/wynaut.png",
+    "codes": "wynaut"
+  },
+  {
+    "name": "Snorunt",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/snorunt.png",
+    "codes": "snorunt"
+  },
+  {
+    "name": "Glalie",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/glalie.png",
+    "codes": "glalie"
+  },
+  {
+    "name": "Spheal",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/spheal.png",
+    "codes": "spheal"
+  },
+  {
+    "name": "Sealeo",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/sealeo.png",
+    "codes": "sealeo"
+  },
+  {
+    "name": "Walrein",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/walrein.png",
+    "codes": "walrein"
+  },
+  {
+    "name": "Clamperl",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/clamperl.png",
+    "codes": "clamperl"
+  },
+  {
+    "name": "Huntail",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/huntail.png",
+    "codes": "huntail"
+  },
+  {
+    "name": "Gorebyss",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/gorebyss.png",
+    "codes": "gorebyss"
+  },
+  {
+    "name": "Relicanth",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/relicanth.png",
+    "codes": "relicanth"
+  },
+  {
+    "name": "Luvdisc",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/luvdisc.png",
+    "codes": "luvdisc"
+  },
+  {
+    "name": "Bagon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/bagon.png",
+    "codes": "bagon"
+  },
+  {
+    "name": "Shelgon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/shelgon.png",
+    "codes": "shelgon"
+  },
+  {
+    "name": "Salamence",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/salamence.png",
+    "codes": "salamence"
+  },
+  {
+    "name": "Beldum",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/beldum.png",
+    "codes": "beldum"
+  },
+  {
+    "name": "Metang",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/metang.png",
+    "codes": "metang"
+  },
+  {
+    "name": "Metagross",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/metagross.png",
+    "codes": "metagross"
+  },
+  {
+    "name": "Regirock",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/regirock.png",
+    "codes": "regirock"
+  },
+  {
+    "name": "Regice",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/regice.png",
+    "codes": "regice"
+  },
+  {
+    "name": "Registeel",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/registeel.png",
+    "codes": "registeel"
+  },
+  {
+    "name": "Latias",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/latias.png",
+    "codes": "latias"
+  },
+  {
+    "name": "Latios",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/latios.png",
+    "codes": "latios"
+  },
+  {
+    "name": "Kyogre",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/kyogre.png",
+    "codes": "kyogre"
+  },
+  {
+    "name": "Groudon",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/groudon.png",
+    "codes": "groudon"
+  },
+  {
+    "name": "Rayquaza",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/rayquaza.png",
+    "codes": "rayquaza"
+  },
+  {
+    "name": "Jirachi",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/jirachi.png",
+    "codes": "jirachi"
+  },
+  {
+    "name": "Deoxys",
+    "type": "toggle",
+    "img": "/images/locations/pokedex/deoxys.png",
+    "codes": "deoxys"
+  }
+]

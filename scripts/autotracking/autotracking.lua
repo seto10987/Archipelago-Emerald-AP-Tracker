@@ -77,7 +77,11 @@ function locationHandler(location_id, location_name)
   end
   local object = Tracker:FindObjectForCode(location)
   if object then
-    object.AvailableChestCount = object.AvailableChestCount - 1
+    if location:sub(1,1) == "@" then
+      object.AvailableChestCount = object.AvailableChestCount - 1
+    else
+      object.Active = true
+    end
   else
     print(string.format("Error in locationHandler: Could not find object for location %s", location))
   end
