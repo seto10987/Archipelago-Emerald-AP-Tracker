@@ -78,6 +78,7 @@ end
 
 function resetLocations()
   for _, value in pairs(LOCATION_MAPPING) do
+    local object = Tracker:FindObjectForCode(value)
     if value then
               object.AvailableChestCount = object.ChestCount
             else
