@@ -78,10 +78,7 @@ end
 
 function resetLocations()
   for _, value in pairs(LOCATION_MAPPING) do
-    if value[1] then
-        local object = Tracker:FindObjectForCode(value[1])
-        if object then
-            if value[1]:sub(1, 1) == "@" then
+    if value then
               object.AvailableChestCount = object.ChestCount
             else
               object.Active = false
