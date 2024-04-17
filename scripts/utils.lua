@@ -26,7 +26,6 @@ end
 
 function get_access_level(name)
   local location = Tracker:FindObjectForCode(name)
-  print(location)
   local access = AccessibilityLevel.None
   if location then
     access = location.AccessibilityLevel
@@ -67,24 +66,6 @@ function and_access(...)
   return ACCESS_LEVEL[min_level]
 end
 
-function resetItems()
-  for _, value in pairs(ITEM_MAPPING) do
-    local object = Tracker:FindObjectForCode(value)
-    if object then
-      object.Active = false
-    end
-  end
-end
-
-function resetLocations()
-  for _, value in pairs(LOCATION_MAPPING) do
-    local object = Tracker:FindObjectForCode(value)
-    if object then
-      object.AvailableChestCount = object.ChestCount
-    end
-  end
-end
-
 function tableContains(table, element)
   for _, value in pairs(table) do
     if value == element then
@@ -92,4 +73,24 @@ function tableContains(table, element)
     end
   end
   return false
+end
+
+function dump_table(o, depth)
+	if depth == nil then
+		depth = 0
+	end
+	if type(o) == 'table' then
+		local tabs = ('\t'):rep(depth)
+		local tabs2 = ('\t'):rep(depth + 1)
+		local s = '{\n'
+		for k, v in pairs(o) do
+			if type(k) ~= 'number' then
+				k = '"' .. k .. '"'
+			end
+			s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+		end
+		return s .. tabs .. '}'
+	else
+		return tostring(o)
+	end
 end
