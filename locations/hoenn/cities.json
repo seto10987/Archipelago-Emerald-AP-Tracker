@@ -19,72 +19,72 @@
             "name": "Amulet Coin from Mom",
             "chest_unopened_img": "/images/locations/mom_amulet_coin.png",
 		        "chest_opened_img": "/images/locations/mom_amulet_coin_bw.png",
-            "access_rules": ["^$talk_mr_stone,balance_badge"],
+            "access_rules": ["talk_mr_stone,balance_badge"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "S.S. Ticket from Norman",
             "chest_unopened_img": "/images/locations/norman_ss_ticket.png",
 		        "chest_opened_img": "/images/locations/norman_ss_ticket_bw.png",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["key_items_on,$goal_not|champion"]
           },
           {
             "name": " S.S. Ticket from Norman",
             "hosted_item": "ss_ticket",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["key_items_off,$goal_not|champion"]
           },
           {
             "name": "Aurora Ticket from Norman",
             "chest_unopened_img": "/images/locations/norman_aurora_ticket.png",
 		        "chest_opened_img": "/images/locations/norman_aurora_ticket_bw.png",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
             "name": " Aurora Ticket from Norman",
             "hosted_item": "aurora_ticket",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
           {
             "name": "Mystic Ticket from Norman",
             "chest_unopened_img": "/images/locations/norman_mystic_ticket.png",
 		        "chest_opened_img": "/images/locations/norman_mystic_ticket_bw.png",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
             "name": " Mystic Ticket from Norman",
             "hosted_item": "mystic_ticket",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
           {
             "name": "Old Sea Map from Norman",
             "chest_unopened_img": "/images/locations/norman_old_sea_map.png",
 		        "chest_opened_img": "/images/locations/norman_old_sea_map_bw.png",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
             "name": " Old Sea Map from Norman",
             "hosted_item": "old_sea_map",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
           {
             "name": "Eon Ticket from Norman",
             "chest_unopened_img": "/images/locations/norman_eon_ticket.png",
 		        "chest_opened_img": "/images/locations/norman_eon_ticket_bw.png",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
             "name": " Eon Ticket from Norman",
             "hosted_item": "eon_ticket",
-            "access_rules": ["^$defeat_champion"],
+            "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           }
         ],
@@ -123,32 +123,32 @@
         [
           {
             "name": "Item Past Pond North",
-            "access_rules": ["^$surf"],
+            "access_rules": ["$surf"],
             "visibility_rules": ["overworld_on"]
           },
           {
             "name": "Hidden Item Past Pond South",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$surf,^$hidden"],
+            "access_rules": ["$surf,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Item Past Pond South",
-            "access_rules": ["^$surf"],
+            "access_rules": ["$surf"],
             "visibility_rules": ["overworld_on"]
           },
           {
             "name": "HM03 from Wally's Uncle",
             "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
 		        "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
-            "access_rules": ["^$defeat_norman"],
+            "access_rules": ["defeat_norman"],
             "visibility_rules": ["hms_any,$goal_not|norman","hms_shuffle,$goal_not|norman"]
           },
           {
             "name": " HM03 from Wally's Uncle",
             "hosted_item": "hm03_surf",
-            "access_rules": ["^$defeat_norman"],
+            "access_rules": ["defeat_norman"],
             "visibility_rules": ["hms_off,$goal_not|norman"]
           }
         ],
@@ -163,7 +163,7 @@
       },
       {
         "name": "Petalburg Gym",
-        "access_rules": ["^$has_norman_req"],
+        "access_rules": ["$has_norman_req"],
         "sections":
         [
           {
@@ -285,7 +285,7 @@
             "name": "Gift from Devon Employee",
             "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
 		        "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
-            "access_rules": ["^$defeat_roxanne"],
+            "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -297,14 +297,14 @@
             "name": "Letter from Mr. Stone",
             "chest_unopened_img": "/images/locations/mr_stone_letter.png",
 		        "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
-            "access_rules": ["^$defeat_roxanne"],
+            "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Exp. Share from Mr. Stone",
             "chest_unopened_img": "/images/locations/mr_stone_exp_share.png",
 		        "chest_opened_img": "/images/locations/mr_stone_exp_share_bw.png",
-            "access_rules": ["^$deliver_letter"],
+            "access_rules": ["deliver_letter"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -385,7 +385,7 @@
       },
       {
         "name": "Dewford Town",
-        "access_rules": ["^$dewford_access"],
+        "access_rules": ["$dewford_access"],
         "sections":
         [
           {
@@ -404,7 +404,7 @@
             "name": "TM36 from Sludge Bomb Man",
             "chest_unopened_img": "/images/locations/man_poison_tm.png",
 		        "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
-            "access_rules": ["^$defeat_norman"],
+            "access_rules": ["defeat_norman"],
             "visibility_rules": ["gifts_on,$goal_not|norman"]
           }
         ],
@@ -419,7 +419,7 @@
       },
       {
         "name": "Dewford Gym",
-        "access_rules": ["^$dewford_access"],
+        "access_rules": ["$dewford_access"],
         "sections":
         [
           {
@@ -497,7 +497,7 @@
       },
       {
         "name": "Slateport City",
-        "access_rules": ["^$slateport_access"],
+        "access_rules": ["$slateport_access"],
         "sections":
         [
           {
@@ -551,20 +551,20 @@
           {
             "name": "Team Aqua Steals Submarine",
             "hosted_item": "aqua_steals_submarine",
-            "access_rules": ["^$release_groudon"]
+            "access_rules": ["release_groudon"]
           },
           {
             "name": "Deep Sea Scale from Capt. Stern",
             "chest_unopened_img": "/images/locations/captain_stern_deep_sea_scale.png",
 		        "chest_opened_img": "/images/locations/captain_stern_deep_sea_scale_bw.png",
-            "access_rules": ["^$aqua_steals_submarine,scanner,mind_badge"],
+            "access_rules": ["aqua_steals_submarine,scanner,mind_badge"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Deep Sea Tooth from Capt. Stern",
             "chest_unopened_img": "/images/locations/captain_stern_deep_sea_tooth.png",
 		        "chest_opened_img": "/images/locations/captain_stern_deep_sea_tooth_bw.png",
-            "access_rules": ["^$aqua_steals_submarine,scanner,mind_badge"],
+            "access_rules": ["aqua_steals_submarine,scanner,mind_badge"],
             "visibility_rules": ["gifts_on"]
           }
         ],
@@ -579,7 +579,7 @@
       },
       {
         "name": "Mauville City",
-        "access_rules": ["^$mauville_access"],
+        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
@@ -608,14 +608,14 @@
             "name": "Basement Key from Wattson",
             "chest_unopened_img": "/images/locations/wattson_basement_key.png",
 		        "chest_opened_img": "/images/locations/wattson_basement_key_bw.png",
-            "access_rules": ["^$defeat_norman"],
+            "access_rules": ["defeat_norman"],
             "visibility_rules": ["gifts_on,$goal_not|norman"]
           },
           {
             "name": "TM24 from Wattson",
             "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
 		        "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
-            "access_rules": ["^$defeat_norman,@Dungeons/New Mauville/Turn off Generator"],
+            "access_rules": ["defeat_norman,@Dungeons/New Mauville/Turn off Generator"],
             "visibility_rules": ["gifts_on,$goal_not|norman"]
           },
           {
@@ -658,7 +658,7 @@
       },
       {
         "name": "Mauville Gym",
-        "access_rules": ["^$mauville_access"],
+        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
@@ -730,7 +730,7 @@
       },
       {
         "name": "Fallarbor Town",
-        "access_rules": ["^$fallarbor_access"],
+        "access_rules": ["$fallarbor_access"],
         "sections":
         [
           {
@@ -744,7 +744,7 @@
             "name": "Hidden Item in Crater",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           }
         ],
@@ -759,14 +759,14 @@
       },
       {
         "name": "Lavaridge Town",
-        "access_rules": ["^$lavaridge_access"],
+        "access_rules": ["$lavaridge_access"],
         "sections":
         [
           {
             "name": "Hidden Item in Springs",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
@@ -779,13 +779,13 @@
             "name": "Go Goggles from Rival",
             "chest_unopened_img": "/images/locations/rival_go_goggles.png",
 		        "chest_opened_img": "/images/locations/rival_go_goggles_bw.png",
-            "access_rules": ["^$defeat_flannery"],
+            "access_rules": ["defeat_flannery"],
             "visibility_rules": ["key_items_on"]
           },
           {
             "name": " Go Goggles from Rival",
             "hosted_item": "go_goggles",
-            "access_rules": ["^$defeat_flannery"],
+            "access_rules": ["defeat_flannery"],
             "visibility_rules": ["key_items_off"]
           }
         ],
@@ -800,7 +800,7 @@
       },
       {
         "name": "Lavaridge Gym",
-        "access_rules": ["^$lavaridge_access"],
+        "access_rules": ["$lavaridge_access"],
         "sections":
         [
           {
@@ -890,7 +890,7 @@
       },
       {
         "name": "Verdanturf Town",
-        "access_rules": ["^$mauville_access"],
+        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
@@ -911,7 +911,7 @@
       },
       {
         "name": "Fortree City",
-        "access_rules": ["^$fortree_access"],
+        "access_rules": ["$fortree_access"],
         "sections":
         [
           {
@@ -943,7 +943,7 @@
       },
       {
         "name": "Fortree Gym",
-        "access_rules": ["^$fortree_access,devon_scope"],
+        "access_rules": ["$fortree_access,devon_scope"],
         "sections":
         [
           {
@@ -1021,7 +1021,7 @@
       },
       {
         "name": "Lilycove City",
-        "access_rules": ["^$lilycove_access"],
+        "access_rules": ["$lilycove_access"],
         "sections":
         [
           {
@@ -1046,21 +1046,21 @@
             "name": "Hidden Item on Beach North",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item on Beach East",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item on Beach West",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
@@ -1085,7 +1085,7 @@
       },
       {
         "name": "S.S. Tidal",
-        "access_rules": ["^$slateport_access,ss_ticket","^$lilycove_access,ss_ticket"],
+        "access_rules": ["$slateport_access,ss_ticket","$lilycove_access,ss_ticket"],
         "sections":
         [
           {
@@ -1146,7 +1146,7 @@
             "name": "Hidden Item in Lower Deck Trash Can",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           }
         ],
@@ -1166,7 +1166,7 @@
       },
       {
         "name": "Mossdeep City",
-        "access_rules": ["^$mossdeep_access"],
+        "access_rules": ["$mossdeep_access"],
         "sections":
         [
           {
@@ -1192,19 +1192,19 @@
           {
             "name": "Steven Gives Dive",
             "hosted_item": "steven_gives_dive",
-            "access_rules": ["^$defeat_maxie"]
+            "access_rules": ["defeat_maxie"]
           },
           {
             "name": "HM08 from Steven",
             "chest_unopened_img": "/images/locations/steven_water_hm.png",
 		        "chest_opened_img": "/images/locations/steven_water_hm_bw.png",
-            "access_rules": ["^$defeat_maxie"],
+            "access_rules": ["defeat_maxie"],
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
             "name": " HM08 from Steven",
             "hosted_item": "hm08_dive",
-            "access_rules": ["^$defeat_maxie"],
+            "access_rules": ["defeat_maxie"],
             "visibility_rules": ["hms_off"]
           }
         ],
@@ -1219,7 +1219,7 @@
       },
       {
         "name": "Mossdeep Gym",
-        "access_rules": ["^$mossdeep_access"],
+        "access_rules": ["$mossdeep_access"],
         "sections":
         [
           {
@@ -1333,7 +1333,7 @@
       },
       {
         "name": "Space Center",
-        "access_rules": ["^$mossdeep_access"],
+        "access_rules": ["$mossdeep_access"],
         "sections":
         [
           {
@@ -1387,7 +1387,7 @@
           {
             "name": "Defeat Maxie",
             "hosted_item": "defeat_maxie",
-            "access_rules": ["^$defeat_tate_and_liza"]
+            "access_rules": ["defeat_tate_and_liza"]
           }
         ],
         "map_locations":
@@ -1401,12 +1401,12 @@
       },
       {
         "name": "Sootopolis City",
-        "access_rules": ["^$sootopolis_access"],
+        "access_rules": ["$sootopolis_access"],
         "sections":
         [
           {
             "name": "Rayquaza Stops Fight",
-            "access_rules": ["^$dive,^$release_kyogre"],
+            "access_rules": ["$dive,release_kyogre"],
             "visibility_rules": ["invisible"]
           },
           {
@@ -1414,14 +1414,14 @@
             "chest_unopened_img": "/images/locations/kiri_figy_berry.png",
 		        "chest_opened_img": "/images/locations/kiri_figy_berry_bw.png",
             "item_count": 2,
-            "access_rules": ["^$surf"],
+            "access_rules": ["$surf"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "TM31 from Black Belt in House",
             "chest_unopened_img": "/images/locations/black_belt_fighting_tm.png",
 		        "chest_opened_img": "/images/locations/black_belt_fighting_tm_bw.png",
-            "access_rules": ["^$surf"],
+            "access_rules": ["$surf"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -1449,7 +1449,7 @@
       },
       {
         "name": "Sootopolis Gym",
-        "access_rules": ["^$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
+        "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
         "sections":
         [
           {
@@ -1551,7 +1551,7 @@
       },
       {
         "name": "Pacifidlog Town",
-        "access_rules": ["^$route_124_access"],
+        "access_rules": ["$route_124_access"],
         "sections":
         [
           {
@@ -1578,7 +1578,7 @@
       },
       {
         "name": "Ever Grande City",
-        "access_rules": ["^$e4_access"],
+        "access_rules": ["$e4_access,[$flash|road]"],
         "sections":
         [
           {
