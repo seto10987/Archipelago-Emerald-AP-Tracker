@@ -2216,6 +2216,12 @@
             "visibility_rules": ["rods_on"]
           },
           {
+            "name": " Good Rod from Fisherman",
+            "hosted_item": "good_rod",
+            "access_rules": ["$route_119_access"],
+            "visibility_rules": ["rods_off"]
+          },
+          {
             "name": "Hidden Item East on Rock",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",

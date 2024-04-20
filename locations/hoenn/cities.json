@@ -407,6 +407,11 @@
             "visibility_rules": ["rods_on"]
           },
           {
+            "name": " Old Rod from Fisherman",
+            "hosted_item": "old_rod",
+            "visibility_rules": ["rods_off"]
+          },
+          {
             "name": "TM36 from Sludge Bomb Man",
             "chest_unopened_img": "/images/locations/man_poison_tm.png",
 		        "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
@@ -593,8 +598,14 @@
             "chest_unopened_img": "/images/locations/lady_coin_case.png",
 		        "chest_opened_img": "/images/locations/lady_coin_case_bw.png",
             "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
-            "visibility_rules": ["gifts_on"]
+            "visibility_rules": ["key_items_on"]
           },
+          // {
+          //   "name": "Coin Case from Lady in House",
+          //   "hosted_item": "coin_case",
+          //   "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
+          //   "visibility_rules": ["key_items_off"]
+          // },
           {
             "name": "HM06 from Rock Smash Guy",
             "chest_unopened_img": "/images/locations/rock_smash_guy_fighting_hm.png",
@@ -615,7 +626,13 @@
             "chest_unopened_img": "/images/locations/wattson_basement_key.png",
 		        "chest_opened_img": "/images/locations/wattson_basement_key_bw.png",
             "access_rules": ["defeat_norman"],
-            "visibility_rules": ["gifts_on,$goal_not|norman"]
+            "visibility_rules": ["key_items_on,$goal_not|norman"]
+          },
+          {
+            "name": " Basement Key from Wattson",
+            "hosted_item": "basement_key",
+            "access_rules": ["defeat_norman"],
+            "visibility_rules": ["key_items_off,$goal_not|norman"]
           },
           {
             "name": "TM24 from Wattson",
@@ -1077,7 +1094,12 @@
             "name": "Pokeblock Case from Contest Hall",
             "chest_unopened_img": "/images/locations/contest_hall_employee_pokeblock_case.png",
 		        "chest_opened_img": "/images/locations/contest_hall_employee_pokeblock_case_bw.png",
-            "visibility_rules": ["gifts_on"]
+            "visibility_rules": ["key_items_on"]
+          },
+          {
+            "name": " Pokeblock Case from Contest Hall",
+            "hosted_item": "pokeblock_case",
+            "visibility_rules": ["key_items_off"]
           }
         ],
         "map_locations":
@@ -1194,6 +1216,11 @@
             "chest_unopened_img": "/images/locations/fisherman_super_rod.png",
 		        "chest_opened_img": "/images/locations/fisherman_super_rod_bw.png",
             "visibility_rules": ["rods_on"]
+          },
+          {
+            "name": " Super Rod from Fisherman in House",
+            "hosted_item": "super_rod",
+            "visibility_rules": ["rods_off"]
           },
           {
             "name": "Steven Gives Dive",

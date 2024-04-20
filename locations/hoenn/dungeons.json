@@ -438,7 +438,12 @@
           },
           {
             "name": "Captain's Office Key",
-            "visibility_rules": ["overworld_on"]
+            "visibility_rules": ["key_items_on"]
+          },
+          {
+            "name": " Captain's Office Key",
+            "hosted_item": "storage_key",
+            "visibility_rules": ["key_items_off"]
           },
           {
             "name": "HF - Room 4 Key",
