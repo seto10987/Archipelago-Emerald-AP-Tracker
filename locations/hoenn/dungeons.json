@@ -681,7 +681,12 @@
             "name": "Summit - Magma Emblem from Old Lady",
             "chest_unopened_img": "/images/locations/old_lady_magma_emblem.png",
 		        "chest_opened_img": "/images/locations/old_lady_magma_emblem_bw.png",
-            "visibility_rules": ["gifts_on"]
+            "visibility_rules": ["key_items_on"]
+          },
+          {
+            "name": " Summit - Magma Emblem from Old Lady",
+            "hosted_item": "magma_emblem",
+            "visibility_rules": ["key_items_off"]
           }
         ],
         "map_locations":

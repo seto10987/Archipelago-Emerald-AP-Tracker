@@ -298,7 +298,13 @@
             "chest_unopened_img": "/images/locations/mr_stone_letter.png",
 		        "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
             "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["gifts_on"]
+            "visibility_rules": ["key_items_on"]
+          },
+          {
+            "name": " Letter from Mr. Stone",
+            "hosted_item": "letter",
+            "access_rules": ["defeat_roxanne"],
+            "visibility_rules": ["key_items_off"]
           },
           {
             "name": "Exp. Share from Mr. Stone",
@@ -597,7 +603,7 @@
           },
           {
             "name": " HM06 from Rock Smash Guy",
-            "hosted_item": "rock_smash",
+            "hosted_item": "hm06_rock_smash",
             "visibility_rules": ["hms_off"]
           },
           {
