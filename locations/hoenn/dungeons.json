@@ -124,7 +124,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Recover Devon Goods",
+            "name": "​Recover Devon Goods",
             "hosted_item": "devon_goods",
             "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["key_items_off"]
@@ -137,7 +137,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM04 from Tunneler",
+            "name": "​HM04 from Tunneler",
             "hosted_item": "hm04_strength",
             "access_rules": ["$rock_smash"],
             "visibility_rules": ["hms_off"]
@@ -176,7 +176,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎1F - HM05 from Hiker",
+            "name": "​1F - HM05 from Hiker",
             "hosted_item": "hm05_flash",
             "visibility_rules": ["hms_off"]
           },
@@ -441,7 +441,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Captain's Office Key",
+            "name": "​Captain's Office Key",
             "hosted_item": "storage_key",
             "visibility_rules": ["key_items_off"]
           },
@@ -451,7 +451,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎HF - Room 4 Key",
+            "name": "​HF - Room 4 Key",
             "hosted_item": "room_4_key",
             "access_rules": ["$dive,room_1_key"],
             "visibility_rules": ["key_items_off"]
@@ -467,7 +467,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎HF - Scanner",
+            "name": "​HF - Scanner",
             "hosted_item": "scanner",
             "access_rules": ["$dive,room_2_key"],
             "visibility_rules": ["key_items_off"]
@@ -478,7 +478,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎HF - Room 1 Key",
+            "name": "​HF - Room 1 Key",
             "hosted_item": "room_1_key",
             "access_rules": ["$dive"],
             "visibility_rules": ["key_items_off"]
@@ -494,7 +494,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎HF - Room 6 Key",
+            "name": "​HF - Room 6 Key",
             "hosted_item": "room_6_key",
             "access_rules": ["$dive,room_4_key"],
             "visibility_rules": ["key_items_off"]
@@ -505,7 +505,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎HF - Room 2 Key",
+            "name": "​HF - Room 2 Key",
             "hosted_item": "room_2_key",
             "access_rules": ["$dive,room_6_key"],
             "visibility_rules": ["key_items_off"]
@@ -689,7 +689,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Summit - Magma Emblem from Old Lady",
+            "name": "​Summit - Magma Emblem from Old Lady",
             "hosted_item": "magma_emblem",
             "visibility_rules": ["key_items_off"]
           }
