@@ -30,7 +30,7 @@
             "visibility_rules": ["key_items_on,$goal_not|champion"]
           },
           {
-            "name": "‎S.S. Ticket from Norman",
+            "name": "​S.S. Ticket from Norman",
             "hosted_item": "ss_ticket",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["key_items_off,$goal_not|champion"]
@@ -43,7 +43,7 @@
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
-            "name": "‎Aurora Ticket from Norman",
+            "name": "​Aurora Ticket from Norman",
             "hosted_item": "aurora_ticket",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
@@ -56,7 +56,7 @@
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
-            "name": "‎Mystic Ticket from Norman",
+            "name": "​Mystic Ticket from Norman",
             "hosted_item": "mystic_ticket",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
@@ -69,7 +69,7 @@
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
-            "name": "‎Old Sea Map from Norman",
+            "name": "​Old Sea Map from Norman",
             "hosted_item": "old_sea_map",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
@@ -82,7 +82,7 @@
             "visibility_rules": ["tickets_on,$goal_not|champion"]
           },
           {
-            "name": "‎Eon Ticket from Norman",
+            "name": "​Eon Ticket from Norman",
             "hosted_item": "eon_ticket",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
@@ -146,7 +146,7 @@
             "visibility_rules": ["hms_any,$goal_not|norman","hms_shuffle,$goal_not|norman"]
           },
           {
-            "name": "‎HM03 from Wally's Uncle",
+            "name": "​HM03 from Wally's Uncle",
             "hosted_item": "hm03_surf",
             "access_rules": ["defeat_norman"],
             "visibility_rules": ["hms_off,$goal_not|norman"]
@@ -225,7 +225,7 @@
             "visibility_rules": ["badges_any,$goal_not|norman","badges_shuffle,$goal_not|norman"]
           },
           {
-            "name": "‎Balance Badge",
+            "name": "​Balance Badge",
             "hosted_item": "balance_badge",
             "visibility_rules": ["badges_off,$goal_not|norman"]
           },
@@ -266,7 +266,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM01 from Cutter's House",
+            "name": "​HM01 from Cutter's House",
             "hosted_item": "hm01_cut",
             "visibility_rules": ["hms_off"]
           },
@@ -301,7 +301,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Letter from Mr. Stone",
+            "name": "​Letter from Mr. Stone",
             "hosted_item": "letter",
             "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["key_items_off"]
@@ -369,7 +369,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Stone Badge",
+            "name": "​Stone Badge",
             "hosted_item": "stone_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -407,7 +407,7 @@
             "visibility_rules": ["rods_on"]
           },
           {
-            "name": "‎Old Rod from Fisherman",
+            "name": "​Old Rod from Fisherman",
             "hosted_item": "old_rod",
             "visibility_rules": ["rods_off"]
           },
@@ -486,7 +486,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Knuckle Badge",
+            "name": "​Knuckle Badge",
             "hosted_item": "knuckle_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -613,7 +613,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM06 from Rock Smash Guy",
+            "name": "​HM06 from Rock Smash Guy",
             "hosted_item": "hm06_rock_smash",
             "visibility_rules": ["hms_off"]
           },
@@ -629,7 +629,7 @@
             "visibility_rules": ["key_items_on,$goal_not|norman"]
           },
           {
-            "name": "‎Basement Key from Wattson",
+            "name": "​Basement Key from Wattson",
             "hosted_item": "basement_key",
             "access_rules": ["defeat_norman"],
             "visibility_rules": ["key_items_off,$goal_not|norman"]
@@ -648,7 +648,7 @@
             "visibility_rules": ["bikes_on"]
           },
           {
-            "name": "‎Acro Bike",
+            "name": "​Acro Bike",
             "hosted_item": "acro_bike",
             "visibility_rules": ["bikes_off"]
           },
@@ -659,7 +659,7 @@
             "visibility_rules": ["bikes_on"]
           },
           {
-            "name": "‎Mach Bike",
+            "name": "​Mach Bike",
             "hosted_item": "mach_bike",
             "visibility_rules": ["bikes_off"]
           },
@@ -731,7 +731,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Dynamo Badge",
+            "name": "​Dynamo Badge",
             "hosted_item": "dynamo_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -806,7 +806,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Go Goggles from Rival",
+            "name": "​Go Goggles from Rival",
             "hosted_item": "go_goggles",
             "access_rules": ["defeat_flannery"],
             "visibility_rules": ["key_items_off"]
@@ -891,7 +891,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Heat Badge",
+            "name": "​Heat Badge",
             "hosted_item": "heat_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -1022,7 +1022,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Feather Badge",
+            "name": "​Feather Badge",
             "hosted_item": "feather_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -1097,7 +1097,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Pokeblock Case from Contest Hall",
+            "name": "​Pokeblock Case from Contest Hall",
             "hosted_item": "pokeblock_case",
             "visibility_rules": ["key_items_off"]
           }
@@ -1218,7 +1218,7 @@
             "visibility_rules": ["rods_on"]
           },
           {
-            "name": "‎Super Rod from Fisherman in House",
+            "name": "​Super Rod from Fisherman in House",
             "hosted_item": "super_rod",
             "visibility_rules": ["rods_off"]
           },
@@ -1235,7 +1235,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM08 from Steven",
+            "name": "​HM08 from Steven",
             "hosted_item": "hm08_dive",
             "access_rules": ["defeat_maxie"],
             "visibility_rules": ["hms_off"]
@@ -1344,7 +1344,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Mind Badge",
+            "name": "​Mind Badge",
             "hosted_item": "mind_badge",
             "visibility_rules": ["badges_off"]
           },
@@ -1465,7 +1465,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM07 from Wallace",
+            "name": "​HM07 from Wallace",
             "hosted_item": "hm07_waterfall",
             "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["hms_off"]
@@ -1562,7 +1562,7 @@
             "visibility_rules": ["badges_any","badges_shuffle"]
           },
           {
-            "name": "‎Rain Badge",
+            "name": "​Rain Badge",
             "hosted_item": "rain_badge",
             "visibility_rules": ["badges_off"]
           },
