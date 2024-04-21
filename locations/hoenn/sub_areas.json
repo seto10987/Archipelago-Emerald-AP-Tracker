@@ -239,6 +239,36 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Meteor Falls/1F - Old Couple John & Jay"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meteorfalls",
+                        "x": 600,
+                        "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Meteor Falls/1F - Dragon Tamer Nicolas"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "meteorfalls",
+                        "x": 695,
+                        "y": 38
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "ref": "Dungeons/Team Team Magma Hideout/1F - Item on Ledge"
                     }
                 ],
@@ -375,6 +405,15 @@
                 "sections": [
                     {
                         "ref": "Dungeons/Abandoned Ship/1F - Item in West Side North Room"
+                    },
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Ruin Maniac Garrison"
+                    },
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Tuber Jani"
+                    },
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Young Couple Kira & Dan"
                     }
                 ],
                 "map_locations": [
@@ -455,10 +494,10 @@
                         "ref": "Dungeons/Abandoned Ship/HF - Item in Room 1"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/HF - Hidden Item in Room 1"
+                        "ref": "Dungeons/Abandoned Ship/HF - Room 4 Key"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/​HF - Hidden Item in Room 1"
+                        "ref": "Dungeons/Abandoned Ship/​HF - Room 4 Key"
                     }
                 ],
                 "map_locations": [
@@ -473,10 +512,10 @@
                 "name": "Room 2",
                 "sections": [
                     {
-                        "ref": "Dungeons/Abandoned Ship/HF - Item in Room 2"
+                        "ref": "Dungeons/Abandoned Ship/HF - Scanner"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/​HF - Item in Room 2"
+                        "ref": "Dungeons/Abandoned Ship/​HF - Scanner"
                     }
                 ],
                 "map_locations": [
@@ -494,10 +533,10 @@
                         "ref": "Dungeons/Abandoned Ship/HF - Item in Room 3"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/HF - Hidden Item in Room 3"
+                        "ref": "Dungeons/Abandoned Ship/HF - Room 1 Key"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/​HF - Hidden Item in Room 3"
+                        "ref": "Dungeons/Abandoned Ship/​HF - Room 1 Key"
                     }
                 ],
                 "map_locations": [
@@ -512,10 +551,10 @@
                 "name": "Room 4",
                 "sections": [
                     {
-                        "ref": "Dungeons/Abandoned Ship/HF - Hidden Item in Room 4"
+                        "ref": "Dungeons/Abandoned Ship/HF - Room 6 Key"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/​HF - Hidden Item in Room 4"
+                        "ref": "Dungeons/Abandoned Ship/​HF - Room 6 Key"
                     }
                 ],
                 "map_locations": [
@@ -533,10 +572,10 @@
                         "ref": "Dungeons/Abandoned Ship/HF - Item in Room 6"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/HF - Hidden Item in Room 5"
+                        "ref": "Dungeons/Abandoned Ship/HF - Room 2 Key"
                     },
                     {
-                        "ref": "Dungeons/Abandoned Ship/​HF - Hidden Item in Room 5"
+                        "ref": "Dungeons/Abandoned Ship/​HF - Room 2 Key"
                     }
                 ],
                 "map_locations": [
@@ -544,6 +583,54 @@
                         "map": "abandonedship",
                         "x": 377,
                         "y": 276
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Youngster Demetrius"
+                    },
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Beauty Thalia"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abandonedship",
+                        "x": 493,
+                        "y": 123
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Abandoned Ship/B1F - Sailor Duncan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abandonedship",
+                        "x": 155,
+                        "y": 310
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Abandoned Ship/1F - Tuber Charlie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "abandonedship",
+                        "x": 350,
+                        "y": 145
                     }
                 ]
             },
@@ -776,6 +863,171 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Mt. Pyre/2F - Pokemaniac Mark"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 352,
+                        "y": 83
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/2F - Hex Maniac Leah"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 398,
+                        "y": 83
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/2F - Black Belt Zander"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 398,
+                        "y": 153
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/2F - Young Couple Dez & Luke"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 352,
+                        "y": 153
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/3F - Psychic Kayla"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 708,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/3F - Pokemon Breeder Gabrielle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 629,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/3F - Psychic William"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 550,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/4F - Hex Maniac Tasha"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 182,
+                        "y": 423
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/5F - Black Belt Atsushi"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 268,
+                        "y": 425
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/6F - Hex Maniac Valerie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 536,
+                        "y": 361
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/6F - Psychic Cedric"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_int",
+                        "x": 594,
+                        "y": 361
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "ref": "Dungeons/Mt. Pyre/Exterior - Item 2"
                     }
                 ],
@@ -884,6 +1136,66 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Mt. Pyre/Summit - Team Aqua Grunt 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_ext",
+                        "x": 1016,
+                        "y": 297
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/Summit - Team Aqua Grunt 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_ext",
+                        "x": 952,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/Summit - Team Aqua Grunt 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_ext",
+                        "x": 952,
+                        "y": 185
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Mt. Pyre/Summit - Team Aqua Grunt 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "mtpyre_ext",
+                        "x": 1016,
+                        "y": 185
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "ref": "Dungeons/Team Aqua Hideout/B1F - Item in Center Room 1"
                     }
                 ],
@@ -945,6 +1257,9 @@
                 "sections": [
                     {
                         "ref": "Dungeons/Team Aqua Hideout/B2F - Defeat Matt"
+                    },
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B2F - Aqua Admin Matt"
                     }
                 ],
                 "map_locations": [
@@ -952,6 +1267,126 @@
                         "map": "aquahideout",
                         "x": 934,
                         "y": 324
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/1F - Team Aqua Grunt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 477,
+                        "y": 23
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B1F - Team Aqua Grunt 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 336,
+                        "y": 307
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B1F - Team Aqua Grunt 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 458,
+                        "y": 271
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B1F - Team Aqua Grunt 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 458,
+                        "y": 344
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B2F - Team Aqua Grunt 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 902,
+                        "y": 121
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B1F - Team Aqua Grunt 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 110,
+                        "y": 103
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B2F - Team Aqua Grunt 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 772,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Team Aqua Hideout/B2F - Team Aqua Grunt 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "aquahideout",
+                        "x": 679,
+                        "y": 84
                     }
                 ]
             },
@@ -1169,6 +1604,261 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Victory Road/1F - Cooltrainer Albert"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 442,
+                        "y": 542
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/1F - Rival Wally"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 54,
+                        "y": 356
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/1F - Cooltrainer Hope"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 107,
+                        "y": 244
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B1F - Cooltrainer Shannon"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1174,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B1F - Cooltrainer Samuel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1343,
+                        "y": 215
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Julie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1318,
+                        "y": 869
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Owen"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1445,
+                        "y": 759
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Dianne"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1160,
+                        "y": 809
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Felix"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1160,
+                        "y": 854
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Caroline"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 790,
+                        "y": 790
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B2F - Cooltrainer Vito"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 1004,
+                        "y": 633
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B1F - Cooltrainer Michelle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 835,
+                        "y": 360
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B1F - Cooltrainer Mitchell"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 980,
+                        "y": 281
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/B1F - Cooltrainer Halle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 980,
+                        "y": 336
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/1F - Cooltrainer Edgar"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 531,
+                        "y": 355
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/1F - Cooltrainer Katelynn"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 475,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Victory Road/1F - Cooltrainer Quincy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "victoryroad",
+                        "x": 520,
+                        "y": 269
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "name": "Route 132 - Item 1",
                         "ref": "Routes/Route 132/Item 1"
                     }
@@ -1194,6 +1884,134 @@
                         "map": "rt132_134",
                         "x": 2316,
                         "y": 218
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Fisherman Ronald",
+                        "ref": "Routes/Route 132/Fisherman Ronald"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 3042,
+                        "y": 461
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Expert Paxton",
+                        "ref": "Routes/Route 132/Expert Paxton"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2781,
+                        "y": 424
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Cooltrainer Darcy",
+                        "ref": "Routes/Route 132/Cooltrainer Darcy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2781,
+                        "y": 494
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Expert Makayla",
+                        "ref": "Routes/Route 132/Expert Makayla"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2629,
+                        "y": 489
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Cooltrainer Jonathan",
+                        "ref": "Routes/Route 132/Cooltrainer Jonathan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2629,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Black Belt Kiyo",
+                        "ref": "Routes/Route 132/Black Belt Kiyo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2402,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Gilbert",
+                        "ref": "Routes/Route 132/Swimmer Gilbert"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2919,
+                        "y": 239
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Dana",
+                        "ref": "Routes/Route 132/Swimmer Dana"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2418,
+                        "y": 85
                     }
                 ]
             },
@@ -1249,6 +2067,118 @@
                 "name": "",
                 "sections": [
                     {
+                        "name": "Expert Conor",
+                        "ref": "Routes/Route 133/Expert Conor"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 1889,
+                        "y": 241
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Expert Mollie",
+                        "ref": "Routes/Route 133/Expert Mollie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 1889,
+                        "y": 192
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Bird Keeper Beck",
+                        "ref": "Routes/Route 133/Bird Keeper Beck"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 1088,
+                        "y": 237
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Cooltrainer Warren",
+                        "ref": "Routes/Route 133/Cooltrainer Warren"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 1562,
+                        "y": 251
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Debra",
+                        "ref": "Routes/Route 133/Swimmer Debra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2061,
+                        "y": 489
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Franklin",
+                        "ref": "Routes/Route 133/Swimmer Franklin"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 2061,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Linda",
+                        "ref": "Routes/Route 133/Swimmer Linda"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 1176,
+                        "y": 55
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "name": "Route 134 - Item 1",
                         "ref": "Routes/Route 134/Item 1"
                     }
@@ -1274,6 +2204,150 @@
                         "map": "rt132_134",
                         "x": 40,
                         "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Laurel",
+                        "ref": "Routes/Route 134/Swimmer Laurel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 624,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Swimmer Jack",
+                        "ref": "Routes/Route 134/Swimmer Jack"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 479,
+                        "y": 91
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Black Belt Hitoshi",
+                        "ref": "Routes/Route 134/Black Belt Hitoshi"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 463,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Battle Girl Reyna",
+                        "ref": "Routes/Route 134/Battle Girl Reyna"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 561,
+                        "y": 255
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Sailor Hudson",
+                        "ref": "Routes/Route 134/Sailor Hudson"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 715,
+                        "y": 231
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Dragon Tamer Aaron",
+                        "ref": "Routes/Route 134/Dragon Tamer Aaron"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 344,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Cooltrainer Marley",
+                        "ref": "Routes/Route 134/Cooltrainer Marley"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 393,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Bird Keeper Alex",
+                        "ref": "Routes/Route 134/Bird Keeper Alex"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 99,
+                        "y": 415
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "name": "Sailor Kelvin",
+                        "ref": "Routes/Route 134/Sailor Kelvin"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt132_134",
+                        "x": 99,
+                        "y": 465
                     }
                 ]
             },
