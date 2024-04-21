@@ -244,7 +244,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Wailmer Pail from Flower Shop Lady",
+            "name": "​Wailmer Pail from Flower Shop Lady",
             "hosted_item": "wailmer_pail",
             "visibility_rules": ["key_items_off"]
           },
@@ -826,7 +826,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Itemfinder from Rival",
+            "name": "​Itemfinder from Rival",
             "hosted_item": "itemfinder",
             "visibility_rules": ["key_items_off"]
           },
@@ -1805,7 +1805,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Meteorite from Machine",
+            "name": "​Meteorite from Machine",
             "hosted_item": "meteorite",
             "visibility_rules": ["key_items_off"]
           },
@@ -2216,7 +2216,7 @@
             "visibility_rules": ["rods_on"]
           },
           {
-            "name": "‎Good Rod from Fisherman",
+            "name": "​Good Rod from Fisherman",
             "hosted_item": "good_rod",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["rods_off"]
@@ -2525,7 +2525,7 @@
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
-            "name": "‎HM02 from Rival",
+            "name": "​HM02 from Rival",
             "hosted_item": "hm02_fly",
             "visibility_rules": ["hms_off"]
           },
@@ -2619,7 +2619,7 @@
             "visibility_rules": ["key_items_on"]
           },
           {
-            "name": "‎Devon Scope from Steven",
+            "name": "​Devon Scope from Steven",
             "hosted_item": "devon_scope",
             "visibility_rules": ["key_items_off"]
           },
