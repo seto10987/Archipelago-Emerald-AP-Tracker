@@ -7,14 +7,14 @@
     [
       {
         "name": "Artisan Cave",
-        "access_rules": ["^$battle_frontier_access,^$surf,wailmer_pail"],
+        "access_rules": ["$battle_frontier_access,$surf,wailmer_pail"],
         "sections":
         [
           {
             "name": "B1F - Hidden Item 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
@@ -25,21 +25,21 @@
             "name": "B1F - Hidden Item 4",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "B1F - Hidden Item 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "B1F - Hidden Item 3",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["^$hidden"],
+            "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {

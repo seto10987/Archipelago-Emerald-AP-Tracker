@@ -9,9 +9,8 @@
         [
           {
             "name": "Catch",
-            "chest_unopened_img": "/images/locations/pokedex/bulbasaur.png",
-		        "chest_opened_img": "/images/locations/pokedex/bulbasaur_bw.png",
-            "visibility_rules": ["pokedex_on"]
+            "hosted_item": "bulbasaur"
+            
           }
         ],
         "map_locations":

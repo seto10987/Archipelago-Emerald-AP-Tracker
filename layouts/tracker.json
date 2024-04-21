@@ -151,35 +151,64 @@
 									{
 											"title": "Pokedex",
 											"type": "tabbed",
+											"h_alignment": "center",
+											"v_alignment": "center",
 											"tabs": [
-											{
-												"title": "Pokedex 1-100",
-												"content": {
-												"type":"map",
-												"maps": ["pokedex_1"]
+												{
+													"type": "dock",
+													"dock": "right",
+													"title": "Gen 1 Pokedex 1-151",
+													"h_alignment": "center",
+													"v_alignment": "center",
+													"content": [
+														{
+															"type": "dock",
+															"dock": "right",
+															"content": {
+																"type": "layout",
+																"h_alignment": "center",
+																"v_alignment": "center",
+																"key": "pokedex_grid_1"
+															}
+														}
+													]
+												},
+												{
+													"type": "dock",
+													"dock": "top",
+													"title": "Gen 2 Pokedex 152-251",
+													"v_alignment": "stretch",
+													"content": [
+														{
+															"type": "dock",
+															"dock": "center",
+															"content": {
+																"type": "layout",
+																"h_alignment": "center",
+																"v_alignment": "center",
+																"key": "pokedex_grid_2"
+															}
+														}
+													]
+												},
+												{
+													"type": "dock",
+													"dock": "top",
+													"title": "Gen 3 Pokedex 252-386",
+													"v_alignment": "stretch",
+													"content": [
+														{
+															"type": "dock",
+															"dock": "center",
+															"content": {
+																"type": "layout",
+																"h_alignment": "center",
+																"v_alignment": "center",
+																"key": "pokedex_grid_3"
+															}
+														}
+													]
 												}
-											},
-											{
-												"title": "Pokedex 101-200",
-												"content": {
-												"type":"map",
-												"maps": ["pokedex_2"]
-												}
-											},
-											{
-												"title": "Pokedex 201-300",
-												"content": {
-												"type":"map",
-												"maps": ["pokedex_3"]
-												}
-											},
-											{
-												"title": "Pokedex 301-386",
-												"content": {
-												"type":"map",
-												"maps": ["pokedex_4"]
-												}
-											}
 										]
 									}
 								]

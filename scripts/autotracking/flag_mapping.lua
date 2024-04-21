@@ -375,6 +375,41 @@ KEY_ITEM_FLAG_MAPPING =
     bitmask = 0x2000000,
     setting = "key_items_off",
     codes = {"storage_key"}
+  },
+  {
+    bitmask = 0x4000000,
+    setting = "rods_off",
+    codes = {"old_rod"}
+  },
+  {
+    bitmask = 0x8000000,
+    setting = "rods_off",
+    codes = {"good_rod"}
+  },
+  {
+    bitmask = 0x10000000,
+    setting = "rods_off",
+    codes = {"super_rod"}
+  },
+  {
+    bitmask = 0x20000000,
+    setting = "tickets_off",
+    codes = {"eon_ticket"}
+  },
+  {
+    bitmask = 0x40000000,
+    setting = "tickets_off",
+    codes = {"aurora_ticket"}
+  },
+  {
+    bitmask = 0x80000000,
+    setting = "tickets_off",
+    codes = {"mystic_ticket"}
+  },
+  {
+    bitmask = 0x100000000,
+    setting = "tickets_off",
+    codes = {"old_sea_map"}
   }
 }
 

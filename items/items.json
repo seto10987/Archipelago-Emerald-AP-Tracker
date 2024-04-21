@@ -60,6 +60,12 @@
     "codes": "go_goggles"
   },
   {
+    "name": "Good Rod",
+    "type": "toggle",
+    "img": "/images/items/goodrod.png",
+    "codes": "good_rod"
+  },
+  {
     "name": "Harbor Mail",
     "type": "toggle",
     "img": "/images/items/harbor_mail.png",
@@ -176,6 +182,12 @@
     "codes": "mystic_ticket"
   },
   {
+    "name": "Old Rod",
+    "type": "toggle",
+    "img": "/images/items/oldrod.png",
+    "codes": "old_rod"
+  },
+  {
     "name": "Old Sea Map",
     "type": "toggle",
     "img": "/images/items/old_sea_map.png",
@@ -246,27 +258,15 @@
     "codes": "storage_key"
   },
   {
-    "name": "Wailmer Pail",
-    "type": "toggle",
-    "img": "/images/items/wailmer_pail.png",
-    "codes": "wailmer_pail"
-  },
-  {
-    "name": "Old Rod",
-    "type": "toggle",
-    "img": "/images/items/oldrod.png",
-    "codes": "old_rod"
-  },
-  {
-    "name": "Good Rod",
-    "type": "toggle",
-    "img": "/images/items/goodrod.png",
-    "codes": "good_rod"
-  },
-  {
     "name": "Super Rod",
     "type": "toggle",
     "img": "/images/items/superrod.png",
     "codes": "super_rod"
+  },
+  {
+    "name": "Wailmer Pail",
+    "type": "toggle",
+    "img": "/images/items/wailmer_pail.png",
+    "codes": "wailmer_pail"
   }
 ]
