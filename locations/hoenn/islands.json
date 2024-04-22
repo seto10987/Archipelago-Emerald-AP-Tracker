@@ -115,13 +115,13 @@
             "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Lugia"]
           },
           {
-            "name": "Defeat Ho-oh",
+            "name": "Defeat Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
 		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Ho-oh"]
           },
           {
-            "name": "Catch Ho-oh",
+            "name": "Catch Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
 		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
             "access_rules": ["[defeat_champion]"],
