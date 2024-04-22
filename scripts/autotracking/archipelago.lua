@@ -23,18 +23,18 @@ function resetItems()
 end
 
 function resetLocations()
-	for _, value in pairs(LOCATION_MAPPING) do
-		if value[1] then
-			local object = Tracker:FindObjectForCode(value[1])
-			if object then
-        if value[1]:sub(1,1) == "@" then
-				  object.AvailableChestCount = object.ChestCount
+  for _, value in pairs(LOCATION_MAPPING) do
+    for _, code in pairs(value) do
+      local object = Tracker:FindObjectForCode(code)
+      if object then
+        if code:sub(1,1) == "@" then
+          object.AvailableChestCount = object.ChestCount
         else
           object.Active = false
         end
-			end
-		end
-	end
+      end
+    end
+  end
 end
 
 function onClear(slot_data)
