@@ -1637,24 +1637,28 @@
           },
           {
             "name": "Defeat Juan",
+       	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "hosted_item": "defeat_juan",
             "visibility_rules": ["trainers_off"]
           },
           {
             "name": "Rain Badge",
             "chest_unopened_img": "/images/locations/juan_rain_badge.png",
-		        "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
+	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
+	    "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
             "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
           },
           {
             "name": "​Rain Badge",
             "hosted_item": "rain_badge",
+	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
             "name": "TM03 from Juan",
             "chest_unopened_img": "/images/locations/juan_water_tm.png",
-		        "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+	    "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+            "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["gifts_on,trainers_off"]
           }
         ],
