@@ -150,6 +150,32 @@
             "hosted_item": "hm03_surf",
             "access_rules": ["defeat_norman"],
             "visibility_rules": ["hms_off,$goal_not|norman"]
+          },
+          {
+            "name": "Defeat Norman",
+            "hosted_item": "defeat_norman",
+			"access_rules": ["$has_norman_req"],
+			"visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Balance Badge",
+            "chest_unopened_img": "/images/locations/norman_balance_badge.png",
+		    "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
+			"access_rules": ["$has_norman_req"],
+            "visibility_rules": ["badges_any,$goal_not|norman,trainers_off","badges_shuffle,$goal_not|norman,trainers_off"]
+          },
+          {
+            "name": "​Balance Badge",
+            "hosted_item": "balance_badge",
+			"access_rules": ["$has_norman_req"],
+            "visibility_rules": ["badges_off,$goal_not|norman,trainers_off"]
+          },
+          {
+            "name": "TM42 from Norman",
+            "chest_unopened_img": "/images/locations/norman_normal_tm.png",
+		    "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
+			"access_rules": ["$has_norman_req"],
+            "visibility_rules": ["gifts_on,$goal_not|norman,trainers_off"]
           }
         ],
         "map_locations":
@@ -164,6 +190,7 @@
       {
         "name": "Petalburg Gym",
         "access_rules": ["$has_norman_req"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -273,8 +300,30 @@
           {
             "name": "Quick Claw from School Teacher",
             "chest_unopened_img": "/images/locations/school_teacher_quick_claw.png",
-		        "chest_opened_img": "/images/locations/school_teacher_quick_claw_bw.png",
+		    "chest_opened_img": "/images/locations/school_teacher_quick_claw_bw.png",
             "visibility_rules": ["gifts_on"]
+          },
+          {
+            "name": "Defeat Roxanne",
+            "hosted_item": "defeat_roxanne",
+			"visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Stone Badge",
+            "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
+		    "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Stone Badge",
+            "hosted_item": "stone_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM39 from Roxanne",
+            "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
+		        "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
           },
           {
             "name": "Return Goods",
@@ -332,6 +381,7 @@
       },
       {
         "name": "Rustboro Gym",
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -417,6 +467,28 @@
 		        "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
             "access_rules": ["defeat_norman"],
             "visibility_rules": ["gifts_on,$goal_not|norman"]
+          },
+          {
+            "name": "Defeat Brawly",
+            "hosted_item": "defeat_brawly",
+			"visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Knuckle Badge",
+            "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
+		    "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Knuckle Badge",
+            "hosted_item": "knuckle_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM08 from Brawly",
+            "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
+		        "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
           }
         ],
         "map_locations":
@@ -431,6 +503,7 @@
       {
         "name": "Dewford Gym",
         "access_rules": ["$dewford_access"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -668,6 +741,28 @@
             "chest_unopened_img": "/images/locations/wally.png",
 		        "chest_opened_img": "/images/locations/wally_bw.png",
             "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Defeat Wattson",
+            "hosted_item": "defeat_wattson",
+            "visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Dynamo Badge",
+            "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
+		        "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Dynamo Badge",
+            "hosted_item": "dynamo_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM34 from Wattson",
+            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+		    "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
           }
         ],
         "map_locations":
@@ -682,6 +777,7 @@
       {
         "name": "Mauville Gym",
         "access_rules": ["$mauville_access"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -799,6 +895,28 @@
             "visibility_rules": ["gifts_on"]
           },
           {
+            "name": "Defeat Flannery",
+            "hosted_item": "defeat_flannery",
+            "visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Heat Badge",
+            "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
+		        "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Heat Badge",
+            "hosted_item": "heat_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM50 from Flannery",
+            "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
+		    "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
+          },
+          {
             "name": "Go Goggles from Rival",
             "chest_unopened_img": "/images/locations/rival_go_goggles.png",
 		        "chest_opened_img": "/images/locations/rival_go_goggles_bw.png",
@@ -824,6 +942,7 @@
       {
         "name": "Lavaridge Gym",
         "access_rules": ["$lavaridge_access"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -953,6 +1072,28 @@
 		        "chest_opened_img": "/images/locations/man_mental_herb_bw.png",
             "access_rules": ["@Cities/Mossdeep City/Wingull Quest"],
             "visibility_rules": ["gifts_on"]
+          },
+          {
+            "name": "Defeat Winona",
+            "hosted_item": "defeat_winona",
+            "visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Feather Badge",
+            "chest_unopened_img": "/images/locations/winona_feather_badge.png",
+		        "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Feather Badge",
+            "hosted_item": "feather_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM40 from Winona",
+            "chest_unopened_img": "/images/locations/winona_flying_tm.png",
+		        "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
           }
         ],
         "map_locations":
@@ -967,6 +1108,7 @@
       {
         "name": "Fortree Gym",
         "access_rules": ["$fortree_access,devon_scope"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -1223,6 +1365,28 @@
             "visibility_rules": ["rods_off"]
           },
           {
+            "name": "Defeat Tate & Liza",
+            "hosted_item": "defeat_tate_and_liza",
+            "visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Mind Badge",
+            "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
+		        "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Mind Badge",
+            "hosted_item": "mind_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
+		        "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
+          },
+          {
             "name": "Steven Gives Dive",
             "hosted_item": "steven_gives_dive",
             "access_rules": ["defeat_maxie"]
@@ -1253,6 +1417,7 @@
       {
         "name": "Mossdeep Gym",
         "access_rules": ["$mossdeep_access"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -1469,6 +1634,28 @@
             "hosted_item": "hm07_waterfall",
             "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["hms_off"]
+          },
+          {
+            "name": "Defeat Juan",
+            "hosted_item": "defeat_juan",
+            "visibility_rules": ["trainers_off"]
+          },
+          {
+            "name": "Rain Badge",
+            "chest_unopened_img": "/images/locations/juan_rain_badge.png",
+		        "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
+            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
+          },
+          {
+            "name": "​Rain Badge",
+            "hosted_item": "rain_badge",
+            "visibility_rules": ["badges_off,trainers_off"]
+          },
+          {
+            "name": "TM03 from Juan",
+            "chest_unopened_img": "/images/locations/juan_water_tm.png",
+		        "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+            "visibility_rules": ["gifts_on,trainers_off"]
           }
         ],
         "map_locations":
@@ -1483,6 +1670,7 @@
       {
         "name": "Sootopolis Gym",
         "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
+		"visibility_rules": ["trainers_on"],
         "sections":
         [
           {
