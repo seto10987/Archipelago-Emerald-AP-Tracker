@@ -2,7 +2,7 @@ BADGES = {"stone_badge","knuckle_badge","dynamo_badge","heat_badge","balance_bad
 
 GYMS = {"defeat_roxanne","defeat_brawly","defeat_wattson","defeat_flannery","defeat_norman","defeat_winona","defeat_tate_and_liza","defeat_juan"}
 
-LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-oh","Lugia"}
+LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-Oh","Lugia"}
 
 -- Access Functions
 function free_fly(location)
@@ -150,12 +150,14 @@ end
 
 function mt_chimney_access()
   return (fallarbor_access() and has("magma_steals_meteorite"))
+  or (fallarbor_access() and has("rt_112_grunts_on"))
   or (free_fly("lavaridge") and has("acro_bike"))
 end
 
 function lavaridge_access()
   return free_fly("lavaridge")
   or (fallarbor_access() and has("magma_steals_meteorite"))
+  or (fallarbor_access() and has("rt_112_grunts_on"))
 end
 
 function route_119_access()
