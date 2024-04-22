@@ -2,7 +2,7 @@ BADGES = {"stone_badge","knuckle_badge","dynamo_badge","heat_badge","balance_bad
 
 GYMS = {"defeat_roxanne","defeat_brawly","defeat_wattson","defeat_flannery","defeat_norman","defeat_winona","defeat_tate_and_liza","defeat_juan"}
 
-LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-oh","Lugia"}
+LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-Oh","Lugia"}
 
 -- Access Functions
 function free_fly(location)
