@@ -1360,6 +1360,7 @@
           },
           {
             "name": "Item on Ledges",
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["overworld_on"]
           }
         ],
