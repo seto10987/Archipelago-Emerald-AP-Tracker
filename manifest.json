@@ -1,7 +1,7 @@
 ﻿{
 	"name": "Pokémon Emerald AP Tracker Proposal",
 	"game_name": "Pokémon Emerald",
-	"package_version": "0.5.0",
+	"package_version": "0.5.1",
 	"package_uid": "ap_emerald",
 	"author": "Seto10987 & palex00 & Vyneras",
 	"variants": {
@@ -10,5 +10,5 @@
 			"flags": ["ap"]
 		}
 	},
-	"versions_url": "https://raw.githubusercontent.com/seto10987/emerald-ap-tracker/versions/versions.json"
+	"versions_url": "https://raw.githubusercontent.com/seto10987/Archipelago-Emerald-AP-Tracker/versions/versions.json"
 }
