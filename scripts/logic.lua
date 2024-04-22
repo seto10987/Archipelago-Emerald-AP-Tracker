@@ -105,12 +105,15 @@ function pass_route_118()
   return surf()
 end
 
-function pass_route_119(start_location)
+function pass_route_119()
   return has("rt_119_grunts_on") or has("defeat_shelly")
 end
 
-function pass_route_124(start_location)
-  return surf() and (has("wailmer_on") or has("defeat_matt"))
+function pass_route_124(direction)
+  if direction == "left" then
+    return surf() and (has("wailmer_on") or has("defeat_matt"))
+  end
+  return surf()
 end
 
 function dewford_access()
@@ -189,7 +192,7 @@ function aqua_hideout_access()
 end
 
 function route_124_access()
-  return (lilycove_access() and pass_route_124())
+  return (lilycove_access() and pass_route_124("left"))
   or (free_fly("mossdeep") and surf())
   or (free_fly("sootopolis") and dive() and surf())
   or (free_fly("ever_grande") and surf())
