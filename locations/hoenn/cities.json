@@ -1076,22 +1076,26 @@
           {
             "name": "Defeat Winona",
             "hosted_item": "defeat_winona",
+            "access_rules": ["$fortree_access,devon_scope"],
             "visibility_rules": ["trainers_off"]
           },
           {
             "name": "Feather Badge",
             "chest_unopened_img": "/images/locations/winona_feather_badge.png",
+            "access_rules": ["$fortree_access,devon_scope"],
 		        "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
             "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
           },
           {
             "name": "​Feather Badge",
             "hosted_item": "feather_badge",
+            "access_rules": ["$fortree_access,devon_scope"],
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
             "name": "TM40 from Winona",
             "chest_unopened_img": "/images/locations/winona_flying_tm.png",
+            "access_rules": ["$fortree_access,devon_scope"],
 		        "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
             "visibility_rules": ["gifts_on,trainers_off"]
           }
