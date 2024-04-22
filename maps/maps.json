@@ -78,6 +78,12 @@
 		"img": "images/maps/rt132_134.png"
 	},
 	{
+		"name": "artisancave",
+		"location_size": 10,
+		"location_border_thickness": 2,
+		"img": "images/maps/artisancave.png"
+	},
+	{
 	  "name": "pokedex_1",
 	  "location_size": 28,
 	  "location_border_thickness": 1,
