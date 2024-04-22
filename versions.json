@@ -1,11 +1,10 @@
 {
 	"versions": [
 		{
-			"package_version": "0.0.5.0",
-			"download_url": "",
-			"sha256": "",
-			"changelog": ["Couple typo fixes, Full Slot Data and new Apworld options Update, with multiple Portal Shuffle logic fixes"]
+			"package_version": "0.5.0",
+			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.0.zip",
+			"sha256": "fac423d939304e6fa172ccd85697692d31e63fd4d0f58dd761269e529b0ed2ce",
+			"changelog": ["Test Release"]
 		}
 	]
 }
-
