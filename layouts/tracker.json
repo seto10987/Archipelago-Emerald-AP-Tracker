@@ -30,7 +30,7 @@
 									{
 										"type": "group",
 										"header": "Events",
-										"dock": "left",
+										"dock": "right",
 										"margin": "0,0,3,0",
 										"content": {
 											"type": "layout",
@@ -151,64 +151,139 @@
 									{
 											"title": "Pokedex",
 											"type": "tabbed",
-											"h_alignment": "center",
-											"v_alignment": "center",
 											"tabs": [
 												{
 													"type": "dock",
-													"dock": "right",
+													"dock": "center",
 													"title": "Gen 1 Pokedex 1-151",
-													"h_alignment": "center",
-													"v_alignment": "center",
 													"content": [
 														{
-															"type": "dock",
-															"dock": "right",
-															"content": {
-																"type": "layout",
-																"h_alignment": "center",
-																"v_alignment": "center",
-																"key": "pokedex_grid_1"
-															}
+																"type": "array",
+																"content": [
+																{
+																	
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_1"
+																	
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_2"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_3"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_4"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_5"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_6"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_7"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_8"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_1_grid_9"
+																}
+															]
 														}
 													]
 												},
 												{
 													"type": "dock",
-													"dock": "top",
+													"dock": "center",
 													"title": "Gen 2 Pokedex 152-251",
-													"v_alignment": "stretch",
 													"content": [
 														{
-															"type": "dock",
-															"dock": "center",
-															"content": {
-																"type": "layout",
-																"h_alignment": "center",
-																"v_alignment": "center",
-																"key": "pokedex_grid_2"
-															}
+																"type": "array",
+																"content": [
+																{
+																	
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_1"
+																	
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_2"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_3"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_4"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_5"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_6"
+																}
+															]
 														}
 													]
 												},
 												{
 													"type": "dock",
-													"dock": "top",
+													"dock": "center",
 													"title": "Gen 3 Pokedex 252-386",
-													"v_alignment": "stretch",
 													"content": [
 														{
-															"type": "dock",
-															"dock": "center",
-															"content": {
-																"type": "layout",
-																"h_alignment": "center",
-																"v_alignment": "center",
-																"key": "pokedex_grid_3"
-															}
-														}
-													]
-												}
+																"type": "array",
+																"content": [
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_1"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_2"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_3"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_4"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_5"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_6"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_7"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_3_grid_8"
+																}
+															]
+													}
+												]
+											}
 										]
 									}
 								]
