@@ -1,7 +1,7 @@
 ﻿{
-	"name": "Pokémon Emerald AP Tracker 1.0.0",
+	"name": "Pokémon Emerald AP Tracker",
 	"game_name": "Pokémon Emerald",
-	"package_version": "1.0.0",
+	"package_version": "1.0.1",
 	"package_uid": "ap_emerald",
 	"author": "Seto10987 & palex00 & Vyneras",
 	"variants": {
