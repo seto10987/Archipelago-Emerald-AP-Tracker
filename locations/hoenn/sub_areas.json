@@ -2733,7 +2733,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/B1F - Hidden Item 2"
+                        "ref": "Battle Frontier/Artisan Cave/B1F - Hidden Item 2"
                     }
                 ],
                 "map_locations": [
@@ -2748,7 +2748,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/B1F - Item"
+                        "ref": "Battle Frontier/Artisan Cave/B1F - Item"
                     }
                 ],
                 "map_locations": [
@@ -2763,7 +2763,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/B1F - Hidden Item 4"
+                        "ref": "Battle Frontier/Artisan Cave/B1F - Hidden Item 4"
                     }
                 ],
                 "map_locations": [
@@ -2778,7 +2778,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/B1F - Hidden Item 1"
+                        "ref": "Battle Frontier/Artisan Cave/B1F - Hidden Item 1"
                     }
                 ],
                 "map_locations": [
@@ -2793,7 +2793,7 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/1F - Item"
+                        "ref": "Battle Frontier/Artisan Cave/1F - Item"
                     }
                 ],
                 "map_locations": [
@@ -2808,7 +2808,97 @@
                 "name": "",
                 "sections": [
                     {
-                        "ref": "Dungeons/Artisan Cave/B1F - Hidden Item 3"
+                        "ref": "Battle Frontier/Artisan Cave/B1F - Hidden Item 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 372,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/B1F - Hidden Item 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 506,
+                        "y": 483
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/B1F - Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 650,
+                        "y": 427
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/B1F - Hidden Item 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 649,
+                        "y": 327
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/B1F - Hidden Item 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 594,
+                        "y": 93
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/1F - Item"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "artisancave",
+                        "x": 216,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Hoenn/Artisan Cave/B1F - Hidden Item 3"
                     }
                 ],
                 "map_locations": [

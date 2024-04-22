@@ -1,4 +1,4 @@
-﻿{
+{
 	"layouts": {
 		"tracker_default": {
 			"type": "container",
@@ -144,6 +144,13 @@
 												"content": {
 												"type":"map",
 												"maps": ["rt132_134"]
+												}
+											},
+											{                      
+												"title": "Artisan Cave",
+												"content": {
+												"type":"map",
+												"maps": ["artisancave"]
 												}
 											}
 										]
