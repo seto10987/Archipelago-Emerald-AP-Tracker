@@ -118,14 +118,14 @@
             "name": "Defeat Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
 		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Ho-oh"]
+            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Ho-Oh"]
           },
           {
             "name": "Catch Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
 		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
             "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Ho-oh"]
+            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Ho-Oh"]
           }
         ],
         "map_locations":
