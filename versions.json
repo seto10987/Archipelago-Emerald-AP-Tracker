@@ -1,6 +1,12 @@
 {
 	"versions": [
 		{
+			"package_version": "1.1.0",
+			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.1.0.zip",
+			"sha256": "fa4526f76f3586f8a9b5f497ac0cc72b83d81072b61f5532495d034cc1fcda58",
+			"changelog": ["Bug/logic fixes"]
+		},
+		{
 			"package_version": "1.0.0",
 			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.0.0.zip",
 			"sha256": "70b10ae5d52fedf5b765b145a65ce83868788c9d572142e6b3c21781916dffe0",
