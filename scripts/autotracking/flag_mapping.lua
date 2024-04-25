@@ -468,7 +468,7 @@ LEGENDARY_FLAG_MAPPING =
   {
     bitmask = 0x400,
     name = "Ho-Oh",
-    locations = {"@Islands/Navel Rock/Defeat Ho-oh","@Islands/Navel Rock/Catch Ho-Oh"}
+    locations = {"@Islands/Navel Rock/Defeat Ho-Oh","@Islands/Navel Rock/Catch Ho-Oh"}
   },
   {
     bitmask = 0x800,
