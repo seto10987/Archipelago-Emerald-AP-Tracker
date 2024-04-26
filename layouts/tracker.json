@@ -242,6 +242,10 @@
 																{
 																	"type": "layout",
 																	"key": "pokedex_gen_2_grid_6"
+																},
+																{
+																	"type": "layout",
+																	"key": "pokedex_gen_2_grid_7"
 																}
 															]
 														}
@@ -290,6 +294,13 @@
 															]
 													}
 												]
+											},
+											{                      
+												"title": "Encounter Tracking",
+												"content": {
+												"type":"map",
+												"maps": ["encountermap"]
+												}
 											}
 										]
 									}

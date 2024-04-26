@@ -6,6 +6,12 @@
 		"img": "images/maps/hoennmap.png"
 	},
 	{
+		"name": "encountermap",
+		"location_size": 6,
+		"location_border_thickness": 1,
+		"img": "images/maps/encountermap.png"
+	},
+	{
 		"name": "granitecave",
 		"location_size": 24,
 		"location_border_thickness": 3,
