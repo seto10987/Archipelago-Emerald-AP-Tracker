@@ -4814,7 +4814,7 @@
 		        "chest_opened_img": "/images/locations/cave_bw.png"
           },
           {
-            "name": "Artisan Cave 2F Encounter 1, 100%",
+            "name": "Artisan Cave B1F Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/cave.png",
 		        "chest_opened_img": "/images/locations/cave_bw.png"
           }
