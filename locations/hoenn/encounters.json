@@ -1122,7 +1122,7 @@
       },
       {
         "name": "Mirage Tower 4F Encounters",
-        "access_rules": ["$fallarbor_access,go_goggles,mach_bike"],
+        "access_rules": ["$fallarbor_access,go_goggles,mach_bike,$rock_smash"],
         "sections":
         [
           {
@@ -2023,8 +2023,8 @@
         ]
       },
       {
-        "name": "Route 118 Encounters",,
-        "access_rules": ["$mauville_access"]
+        "name": "Route 118 Encounters",
+        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
@@ -3709,7 +3709,7 @@
       },
       {
         "name": "Seafloor Cavern Entrance",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
         "sections":
         [
           {
@@ -3734,7 +3734,7 @@
       },
       {
         "name": "Seafloor Cavern 1",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$route_124_access,$dive"],
         "sections":
         [
           {
@@ -3759,7 +3759,7 @@
       },
       {
         "name": "Seafloor Cavern 2",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
@@ -3784,7 +3784,7 @@
       },
       {
         "name": "Seafloor Cavern 3",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
@@ -3809,7 +3809,7 @@
       },
       {
         "name": "Seafloor Cavern 4",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
@@ -3870,7 +3870,7 @@
       },
       {
         "name": "Seafloor Cavern 5",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
@@ -3931,7 +3931,7 @@
       },
       {
         "name": "Seafloor Cavern 6",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
@@ -3956,7 +3956,7 @@
       },
       {
         "name": "Seafloor Cavern 7",
-        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
+        "access_rules": ["$seafloor_cavern_access"],
         "sections":
         [
           {
