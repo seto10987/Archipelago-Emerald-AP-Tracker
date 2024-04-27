@@ -3734,7 +3734,7 @@
       },
       {
         "name": "Seafloor Cavern 1",
-        "access_rules": ["$route_124_access,$dive"],
+        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
         "sections":
         [
           {
@@ -4563,19 +4563,19 @@
           {
             "name": "Surf Encounter 1, 60%",
             "chest_unopened_img": "/images/locations/surfing.png",
-		        "chest_opened_img": "/images/locations/surfing_bw.png"
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
         "access_rules": ["$surf"],
           },
           {
             "name": "Surf Encounter 2, 35%",
             "chest_unopened_img": "/images/locations/surfing.png",
-		        "chest_opened_img": "/images/locations/surfing_bw.png"
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
         "access_rules": ["$surf"],
           },
           {
             "name": "Surf Encounter 3, 5%",
             "chest_unopened_img": "/images/locations/surfing.png",
-		        "chest_opened_img": "/images/locations/surfing_bw.png"
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
         "access_rules": ["$surf"],
           },
           {
