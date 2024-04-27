@@ -591,7 +591,7 @@
       },
       {
         "name": "Granite Cave Steven's Room Encounters",
-        "access_rules": ["$dewford_access,[$flash]"],
+        "access_rules": ["$dewford_access,[$flash|cave]"],
         "sections":
         [
           {
@@ -830,7 +830,6 @@
       },
       {
         "name": "Route 110 Encounters",
-        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
@@ -1098,20 +1097,18 @@
       },
       {
         "name": "Mirage Tower 3F Encounters",
-        "access_rules": ["$fallarbor_access,go_goggles"],
+        "access_rules": ["$fallarbor_access,go_goggles,mach_bike"],
         "sections":
         [
           {
             "name": "Mirage Tower 3F Encounter 1, 50%",
             "chest_unopened_img": "/images/locations/desert.png",
-		        "chest_opened_img": "/images/locations/desert_bw.png",
-            "access_rules": ["mach_bike"]
+		        "chest_opened_img": "/images/locations/desert_bw.png"
           },
           {
             "name": "Mirage Tower 3F Encounter 2, 50%",
             "chest_unopened_img": "/images/locations/desert.png",
-		        "chest_opened_img": "/images/locations/desert_bw.png",
-            "access_rules": ["mach_bike"]
+		        "chest_opened_img": "/images/locations/desert_bw.png"
           }
         ],
         "map_locations":
@@ -1125,20 +1122,18 @@
       },
       {
         "name": "Mirage Tower 4F Encounters",
-        "access_rules": ["$fallarbor_access,go_goggles"],
+        "access_rules": ["$fallarbor_access,go_goggles,mach_bike"],
         "sections":
         [
           {
             "name": "Mirage Tower 4F Encounter 1, 50%",
             "chest_unopened_img": "/images/locations/desert.png",
-		        "chest_opened_img": "/images/locations/desert_bw.png",
-            "access_rules": ["mach_bike"]
+		        "chest_opened_img": "/images/locations/desert_bw.png"
           },
           {
             "name": "Mirage Tower 4F Encounter 2, 50%",
             "chest_unopened_img": "/images/locations/desert.png",
-		        "chest_opened_img": "/images/locations/desert_bw.png",
-            "access_rules": ["mach_bike"]
+		        "chest_opened_img": "/images/locations/desert_bw.png"
           }
         ],
         "map_locations":
@@ -1830,33 +1825,37 @@
       },
       {
         "name": "Route 115 Encounters",
-        "access_rules": ["$surf"],
         "sections":
         [
           {
             "name": "Grass Encounter 1, 40%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 2, 30%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 3, 10%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 4, 10%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 5, 10%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 1, 60%",
@@ -2024,39 +2023,45 @@
         ]
       },
       {
-        "name": "Route 118 Encounters",
-        "access_rules": ["$route_119_access"],
+        "name": "Route 118 Encounters",,
+        "access_rules": ["$mauville_access"]
         "sections":
         [
           {
             "name": "Grass Encounter 1, 30%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 2, 30%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 3, 19%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 4, 10%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 5, 10%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 6, 1%",
             "chest_unopened_img": "/images/locations/grass.png",
-		        "chest_opened_img": "/images/locations/grass_bw.png"
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
           },
           {
             "name": "Surf Encounter 1, 60%",
@@ -3532,7 +3537,8 @@
           {
             "name": "Surf Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/surfing.png",
-		        "chest_opened_img": "/images/locations/surfing_bw.png"
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+        "access_rules": ["$surf"]
           },
           {
             "name": "Old Rod Encounter 1, 30%",
@@ -3564,7 +3570,7 @@
       },
       {
         "name": "Cave of Origin Entrance Encounters",
-        "access_rules": ["$sootopolis_access"],
+        "access_rules": ["$sootopolis_access,release_kyogre"],
         "sections":
         [
           {
@@ -3589,7 +3595,7 @@
       },
       {
         "name": "Cave of Origin 1F Encounters",
-        "access_rules": ["$sootopolis_access"],
+        "access_rules": ["$sootopolis_access,release_kyogre"],
         "sections":
         [
           {
@@ -3619,7 +3625,7 @@
       },
       {
         "name": "Cave of Origin B1F Encounters",
-        "access_rules": ["$sootopolis_access"],
+        "access_rules": ["$sootopolis_access,release_kyogre"],
         "sections":
         [
           {
@@ -3753,7 +3759,7 @@
       },
       {
         "name": "Seafloor Cavern 2",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -3778,7 +3784,7 @@
       },
       {
         "name": "Seafloor Cavern 3",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -3803,7 +3809,7 @@
       },
       {
         "name": "Seafloor Cavern 4",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -3864,7 +3870,7 @@
       },
       {
         "name": "Seafloor Cavern 5",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -3925,7 +3931,7 @@
       },
       {
         "name": "Seafloor Cavern 6",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -3950,7 +3956,7 @@
       },
       {
         "name": "Seafloor Cavern 7",
-        "access_rules": ["$seafloor_cavern_access"],
+        "access_rules": ["$seafloor_cavern_access,$strength,$rock_smash"],
         "sections":
         [
           {
@@ -4558,16 +4564,19 @@
             "name": "Surf Encounter 1, 60%",
             "chest_unopened_img": "/images/locations/surfing.png",
 		        "chest_opened_img": "/images/locations/surfing_bw.png"
+        "access_rules": ["$surf"],
           },
           {
             "name": "Surf Encounter 2, 35%",
             "chest_unopened_img": "/images/locations/surfing.png",
 		        "chest_opened_img": "/images/locations/surfing_bw.png"
+        "access_rules": ["$surf"],
           },
           {
             "name": "Surf Encounter 3, 5%",
             "chest_unopened_img": "/images/locations/surfing.png",
 		        "chest_opened_img": "/images/locations/surfing_bw.png"
+        "access_rules": ["$surf"],
           },
           {
             "name": "Old/Good Rod Encounter 1, 70/60%",
@@ -4765,7 +4774,7 @@
       },
       {
         "name": "Desert Tunnel Encounters",
-        "access_rules": ["$defeat_champion,$fallarbor_access"],
+        "access_rules": ["defeat_champion,$fallarbor_access"],
         "visibility_rules": ["$goal_not|champion"],
         "sections":
         [
@@ -4796,7 +4805,7 @@
       },
       {
         "name": "Artisan Cave Encounters",
-        "access_rules": ["$battle_fronteir_access, wailmer_pail"],
+        "access_rules": ["$battle_frontier_access, wailmer_pail"],
         "sections":
         [
           {
