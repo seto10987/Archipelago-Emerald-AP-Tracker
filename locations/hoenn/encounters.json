@@ -2024,7 +2024,7 @@
       },
       {
         "name": "Route 118 Encounters",
-        "access_rules": ["$mauville_access"],
+        "access_rules": ["$mauville_access","$route_119_access"],
         "sections":
         [
           {
