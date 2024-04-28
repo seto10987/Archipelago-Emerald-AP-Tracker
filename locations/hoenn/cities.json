@@ -31,7 +31,7 @@
           },
           {
             "name": "​S.S. Ticket from Norman",
-            "hosted_item": "ss_ticket",
+            "hosted_item": "ss_ticket_hosted",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["key_items_off,$goal_not|champion"]
           },
@@ -44,7 +44,7 @@
           },
           {
             "name": "​Aurora Ticket from Norman",
-            "hosted_item": "aurora_ticket",
+            "hosted_item": "aurora_ticket_hosted",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
@@ -57,7 +57,7 @@
           },
           {
             "name": "​Mystic Ticket from Norman",
-            "hosted_item": "mystic_ticket",
+            "hosted_item": "mystic_ticket_hosted",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
@@ -70,7 +70,7 @@
           },
           {
             "name": "​Old Sea Map from Norman",
-            "hosted_item": "old_sea_map",
+            "hosted_item": "old_sea_map_hosted",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           },
@@ -83,7 +83,7 @@
           },
           {
             "name": "​Eon Ticket from Norman",
-            "hosted_item": "eon_ticket",
+            "hosted_item": "eon_ticket_hosted",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["tickets_off,$goal_not|champion"]
           }
@@ -139,21 +139,8 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "HM03 from Wally's Uncle",
-            "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
-		        "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["hms_any,$goal_not|norman","hms_shuffle,$goal_not|norman"]
-          },
-          {
-            "name": "​HM03 from Wally's Uncle",
-            "hosted_item": "hm03_surf",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["hms_off,$goal_not|norman"]
-          },
-          {
             "name": "Defeat Norman",
-            "hosted_item": "defeat_norman",
+            "hosted_item": "defeat_norman_hosted",
 			"access_rules": ["$has_norman_req"],
 			"visibility_rules": ["trainers_off"]
           },
@@ -166,7 +153,7 @@
           },
           {
             "name": "​Balance Badge",
-            "hosted_item": "balance_badge",
+            "hosted_item": "balance_badge_hosted",
 			"access_rules": ["$has_norman_req"],
             "visibility_rules": ["badges_off,$goal_not|norman,trainers_off"]
           },
@@ -176,6 +163,19 @@
 		    "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
 			"access_rules": ["$has_norman_req"],
             "visibility_rules": ["gifts_on,$goal_not|norman,trainers_off"]
+          },
+          {
+            "name": "HM03 from Wally's Uncle",
+            "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
+		        "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
+            "access_rules": ["defeat_norman"],
+            "visibility_rules": ["hms_any,$goal_not|norman","hms_shuffle,$goal_not|norman"]
+          },
+          {
+            "name": "​HM03 from Wally's Uncle",
+            "hosted_item": "hm03_surf_hosted",
+            "access_rules": ["defeat_norman"],
+            "visibility_rules": ["hms_off,$goal_not|norman"]
           }
         ],
         "map_locations":
@@ -237,7 +237,7 @@
           },
           {
             "name": "Defeat Norman",
-            "hosted_item": "defeat_norman"
+            "hosted_item": "defeat_norman_hosted"
           },
           {
             "name": "Leader Norman",
@@ -253,7 +253,7 @@
           },
           {
             "name": "​Balance Badge",
-            "hosted_item": "balance_badge",
+            "hosted_item": "balance_badge_hosted",
             "visibility_rules": ["badges_off,$goal_not|norman"]
           },
           {
@@ -294,7 +294,7 @@
           },
           {
             "name": "​HM01 from Cutter's House",
-            "hosted_item": "hm01_cut",
+            "hosted_item": "hm01_cut_hosted",
             "visibility_rules": ["hms_off"]
           },
           {
@@ -305,7 +305,7 @@
           },
           {
             "name": "Defeat Roxanne",
-            "hosted_item": "defeat_roxanne",
+            "hosted_item": "defeat_roxanne_hosted",
 			"visibility_rules": ["trainers_off"]
           },
           {
@@ -316,7 +316,7 @@
           },
           {
             "name": "​Stone Badge",
-            "hosted_item": "stone_badge",
+            "hosted_item": "stone_badge_hosted",
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
@@ -339,7 +339,7 @@
           },
           {
             "name": "Talk to Mr. Stone",
-            "hosted_item": "talk_mr_stone",
+            "hosted_item": "talk_mr_stone_hosted",
             "access_rules": ["@Cities/Rustboro City/Return Goods"]
           },
           {
@@ -351,7 +351,7 @@
           },
           {
             "name": "​Letter from Mr. Stone",
-            "hosted_item": "letter",
+            "hosted_item": "letter_hosted",
             "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["key_items_off"]
           },
@@ -404,7 +404,7 @@
           },
           {
             "name": "Defeat Roxanne",
-            "hosted_item": "defeat_roxanne"
+            "hosted_item": "defeat_roxanne_hosted"
           },
           {
             "name": "Leader Roxanne",
@@ -420,7 +420,7 @@
           },
           {
             "name": "​Stone Badge",
-            "hosted_item": "stone_badge",
+            "hosted_item": "stone_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -458,7 +458,7 @@
           },
           {
             "name": "​Old Rod from Fisherman",
-            "hosted_item": "old_rod",
+            "hosted_item": "old_rod_hosted",
             "visibility_rules": ["rods_off"]
           },
           {
@@ -470,7 +470,7 @@
           },
           {
             "name": "Defeat Brawly",
-            "hosted_item": "defeat_brawly",
+            "hosted_item": "defeat_brawly_hosted",
 			"visibility_rules": ["trainers_off"]
           },
           {
@@ -481,7 +481,7 @@
           },
           {
             "name": "​Knuckle Badge",
-            "hosted_item": "knuckle_badge",
+            "hosted_item": "knuckle_badge_hosted",
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
@@ -544,7 +544,7 @@
           },
           {
             "name": "Defeat Brawly",
-            "hosted_item": "defeat_brawly"
+            "hosted_item": "defeat_brawly_hosted"
           },
           {
             "name": "Leader Brawly",
@@ -560,7 +560,7 @@
           },
           {
             "name": "​Knuckle Badge",
-            "hosted_item": "knuckle_badge",
+            "hosted_item": "knuckle_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -598,7 +598,7 @@
           },
           {
             "name": "Buy Harbor Mail",
-            "hosted_item": "harbor_mail"
+            "hosted_item": "harbor_mail_hosted"
           },
           {
             "name": "Talk to Dock",
@@ -623,7 +623,7 @@
           },
           {
             "name": "Rescue Captain Stern",
-            "hosted_item": "rescue_stern",
+            "hosted_item": "rescue_stern_hosted",
             "access_rules": ["@Cities/Slateport City/Talk to Dock"]
           },
           {
@@ -634,7 +634,7 @@
           },
           {
             "name": "Team Aqua Steals Submarine",
-            "hosted_item": "aqua_steals_submarine",
+            "hosted_item": "aqua_steals_submarine_hosted",
             "access_rules": ["release_groudon"]
           },
           {
@@ -675,7 +675,7 @@
           },
           // {
           //   "name": "Coin Case from Lady in House",
-          //   "hosted_item": "coin_case",
+          //   "hosted_item": "coin_case_hosted",
           //   "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
           //   "visibility_rules": ["key_items_off"]
           // },
@@ -687,7 +687,7 @@
           },
           {
             "name": "​HM06 from Rock Smash Guy",
-            "hosted_item": "hm06_rock_smash",
+            "hosted_item": "hm06_rock_smash_hosted",
             "visibility_rules": ["hms_off"]
           },
           {
@@ -703,7 +703,7 @@
           },
           {
             "name": "​Basement Key from Wattson",
-            "hosted_item": "basement_key",
+            "hosted_item": "basement_key_hosted",
             "access_rules": ["defeat_norman"],
             "visibility_rules": ["key_items_off,$goal_not|norman"]
           },
@@ -722,7 +722,7 @@
           },
           {
             "name": "​Acro Bike",
-            "hosted_item": "acro_bike",
+            "hosted_item": "acro_bike_hosted",
             "visibility_rules": ["bikes_off"]
           },
           {
@@ -733,7 +733,7 @@
           },
           {
             "name": "​Mach Bike",
-            "hosted_item": "mach_bike",
+            "hosted_item": "mach_bike_hosted",
             "visibility_rules": ["bikes_off"]
           },
           {
@@ -744,7 +744,7 @@
           },
           {
             "name": "Defeat Wattson",
-            "hosted_item": "defeat_wattson",
+            "hosted_item": "defeat_wattson_hosted",
             "visibility_rules": ["trainers_off"]
           },
           {
@@ -755,7 +755,7 @@
           },
           {
             "name": "​Dynamo Badge",
-            "hosted_item": "dynamo_badge",
+            "hosted_item": "dynamo_badge_hosted",
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
@@ -812,7 +812,7 @@
           },
           {
             "name": "Defeat Wattson",
-            "hosted_item": "defeat_wattson"
+            "hosted_item": "defeat_wattson_hosted"
           },
           {
             "name": "Leader Wattson",
@@ -828,7 +828,7 @@
           },
           {
             "name": "​Dynamo Badge",
-            "hosted_item": "dynamo_badge",
+            "hosted_item": "dynamo_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -896,7 +896,7 @@
           },
           {
             "name": "Defeat Flannery",
-            "hosted_item": "defeat_flannery",
+            "hosted_item": "defeat_flannery_hosted",
             "visibility_rules": ["trainers_off"]
           },
           {
@@ -907,7 +907,7 @@
           },
           {
             "name": "​Heat Badge",
-            "hosted_item": "heat_badge",
+            "hosted_item": "heat_badge_hosted",
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
@@ -925,7 +925,7 @@
           },
           {
             "name": "​Go Goggles from Rival",
-            "hosted_item": "go_goggles",
+            "hosted_item": "go_goggles_hosted",
             "access_rules": ["defeat_flannery"],
             "visibility_rules": ["key_items_off"]
           }
@@ -995,7 +995,7 @@
           },
           {
             "name": "Defeat Flannery",
-            "hosted_item": "defeat_flannery"
+            "hosted_item": "defeat_flannery_hosted"
           },
           {
             "name": "Leader Flannery",
@@ -1011,7 +1011,7 @@
           },
           {
             "name": "​Heat Badge",
-            "hosted_item": "heat_badge",
+            "hosted_item": "heat_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -1075,7 +1075,7 @@
           },
           {
             "name": "Defeat Winona",
-            "hosted_item": "defeat_winona",
+            "hosted_item": "defeat_winona_hosted",
             "access_rules": ["$fortree_access,devon_scope"],
             "visibility_rules": ["trainers_off"]
           },
@@ -1088,7 +1088,7 @@
           },
           {
             "name": "​Feather Badge",
-            "hosted_item": "feather_badge",
+            "hosted_item": "feather_badge_hosted",
             "access_rules": ["$fortree_access,devon_scope"],
             "visibility_rules": ["badges_off,trainers_off"]
           },
@@ -1153,7 +1153,7 @@
           },
           {
             "name": "Defeat Winona",
-            "hosted_item": "defeat_winona"
+            "hosted_item": "defeat_winona_hosted"
           },
           {
             "name": "Leader Winona",
@@ -1169,7 +1169,7 @@
           },
           {
             "name": "​Feather Badge",
-            "hosted_item": "feather_badge",
+            "hosted_item": "feather_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -1244,7 +1244,7 @@
           },
           {
             "name": "​Pokeblock Case from Contest Hall",
-            "hosted_item": "pokeblock_case",
+            "hosted_item": "pokeblock_case_hosted",
             "visibility_rules": ["key_items_off"]
           }
         ],
@@ -1365,12 +1365,12 @@
           },
           {
             "name": "​Super Rod from Fisherman in House",
-            "hosted_item": "super_rod",
+            "hosted_item": "super_rod_hosted",
             "visibility_rules": ["rods_off"]
           },
           {
             "name": "Defeat Tate & Liza",
-            "hosted_item": "defeat_tate_and_liza",
+            "hosted_item": "defeat_tate_and_liza_hosted",
             "visibility_rules": ["trainers_off"]
           },
           {
@@ -1381,7 +1381,7 @@
           },
           {
             "name": "​Mind Badge",
-            "hosted_item": "mind_badge",
+            "hosted_item": "mind_badge_hosted",
             "visibility_rules": ["badges_off,trainers_off"]
           },
           {
@@ -1392,7 +1392,7 @@
           },
           {
             "name": "Steven Gives Dive",
-            "hosted_item": "steven_gives_dive",
+            "hosted_item": "steven_gives_dive_hosted",
             "access_rules": ["defeat_maxie"]
           },
           {
@@ -1404,7 +1404,7 @@
           },
           {
             "name": "​HM08 from Steven",
-            "hosted_item": "hm08_dive",
+            "hosted_item": "hm08_dive_hosted",
             "access_rules": ["defeat_maxie"],
             "visibility_rules": ["hms_off"]
           }
@@ -1498,7 +1498,7 @@
           },
           {
             "name": "Defeat Tate & Liza",
-            "hosted_item": "defeat_tate_and_liza"
+            "hosted_item": "defeat_tate_and_liza_hosted"
           },
           {
             "name": "Leaders Tate & Liza",
@@ -1514,7 +1514,7 @@
           },
           {
             "name": "​Mind Badge",
-            "hosted_item": "mind_badge",
+            "hosted_item": "mind_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -1588,7 +1588,7 @@
           },
           {
             "name": "Defeat Maxie",
-            "hosted_item": "defeat_maxie",
+            "hosted_item": "defeat_maxie_hosted",
             "access_rules": ["defeat_tate_and_liza"]
           }
         ],
@@ -1635,14 +1635,14 @@
           },
           {
             "name": "​HM07 from Wallace",
-            "hosted_item": "hm07_waterfall",
+            "hosted_item": "hm07_waterfall_hosted",
             "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["hms_off"]
           },
           {
             "name": "Defeat Juan",
        	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "hosted_item": "defeat_juan",
+            "hosted_item": "defeat_juan_hosted",
             "visibility_rules": ["trainers_off"]
           },
           {
@@ -1654,7 +1654,7 @@
           },
           {
             "name": "​Rain Badge",
-            "hosted_item": "rain_badge",
+            "hosted_item": "rain_badge_hosted",
 	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "visibility_rules": ["badges_off,trainers_off"]
           },
@@ -1743,7 +1743,7 @@
           },
           {
             "name": "Defeat Juan",
-            "hosted_item": "defeat_juan"
+            "hosted_item": "defeat_juan_hosted"
           },
           {
             "name": "Leader Juan",
@@ -1759,7 +1759,7 @@
           },
           {
             "name": "​Rain Badge",
-            "hosted_item": "rain_badge",
+            "hosted_item": "rain_badge_hosted",
             "visibility_rules": ["badges_off"]
           },
           {
@@ -1836,7 +1836,7 @@
           },
           {
             "name": "Defeat Champion",
-            "hosted_item": "defeat_champion"
+            "hosted_item": "defeat_champion_hosted"
           },
           {
             "name": "Champion Wallace",

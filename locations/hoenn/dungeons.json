@@ -125,7 +125,7 @@
           },
           {
             "name": "​Recover Devon Goods",
-            "hosted_item": "devon_goods",
+            "hosted_item": "devon_goods_hosted",
             "access_rules": ["defeat_roxanne"],
             "visibility_rules": ["key_items_off"]
           },
@@ -138,7 +138,7 @@
           },
           {
             "name": "​HM04 from Tunneler",
-            "hosted_item": "hm04_strength",
+            "hosted_item": "hm04_strength_hosted",
             "access_rules": ["$rock_smash"],
             "visibility_rules": ["hms_off"]
           },
@@ -177,7 +177,7 @@
           },
           {
             "name": "​1F - HM05 from Hiker",
-            "hosted_item": "hm05_flash",
+            "hosted_item": "hm05_flash_hosted",
             "visibility_rules": ["hms_off"]
           },
           {
@@ -198,7 +198,7 @@
           },
           {
             "name": "1F - Deliver Letter",
-            "hosted_item": "deliver_letter",
+            "hosted_item": "deliver_letter_hosted",
             "access_rules": ["[$flash|cave],letter"]
           },
           {
@@ -271,7 +271,7 @@
           },
           {
             "name": "1F - Team Magma Steals Meteorite",
-            "hosted_item": "magma_steals_meteorite"
+            "hosted_item": "magma_steals_meteorite_hosted"
           },
           {
             "name": "1F - Item West",
@@ -308,7 +308,7 @@
           },
           {
             "name": "1F - Defeat Steven",
-            "hosted_item": "defeat_steven",
+            "hosted_item": "defeat_steven_hosted",
             "access_rules": ["$surf,$waterfall,defeat_champion"],
             "visibility_rules": ["$goal_not|champion"]
           },
@@ -442,7 +442,7 @@
           },
           {
             "name": "​Captain's Office Key",
-            "hosted_item": "storage_key",
+            "hosted_item": "storage_key_hosted",
             "visibility_rules": ["key_items_off"]
           },
           {
@@ -452,7 +452,7 @@
           },
           {
             "name": "​HF - Room 4 Key",
-            "hosted_item": "room_4_key",
+            "hosted_item": "room_4_key_hosted",
             "access_rules": ["$dive,room_1_key"],
             "visibility_rules": ["key_items_off"]
           },
@@ -468,7 +468,7 @@
           },
           {
             "name": "​HF - Scanner",
-            "hosted_item": "scanner",
+            "hosted_item": "scanner_hosted",
             "access_rules": ["$dive,room_2_key"],
             "visibility_rules": ["key_items_off"]
           },
@@ -479,7 +479,7 @@
           },
           {
             "name": "​HF - Room 1 Key",
-            "hosted_item": "room_1_key",
+            "hosted_item": "room_1_key_hosted",
             "access_rules": ["$dive"],
             "visibility_rules": ["key_items_off"]
           },
@@ -495,7 +495,7 @@
           },
           {
             "name": "​HF - Room 6 Key",
-            "hosted_item": "room_6_key",
+            "hosted_item": "room_6_key_hosted",
             "access_rules": ["$dive,room_4_key"],
             "visibility_rules": ["key_items_off"]
           },
@@ -506,7 +506,7 @@
           },
           {
             "name": "​HF - Room 2 Key",
-            "hosted_item": "room_2_key",
+            "hosted_item": "room_2_key_hosted",
             "access_rules": ["$dive,room_6_key"],
             "visibility_rules": ["key_items_off"]
           },
@@ -690,7 +690,7 @@
           },
           {
             "name": "​Summit - Magma Emblem from Old Lady",
-            "hosted_item": "magma_emblem",
+            "hosted_item": "magma_emblem_hosted",
             "visibility_rules": ["key_items_off"]
           }
         ],
@@ -842,7 +842,7 @@
           },
           {
             "name": "Release Groudon",
-            "hosted_item": "release_groudon"
+            "hosted_item": "release_groudon_hosted"
           },
           {
             "name": "3F - Item After Groudon",
@@ -929,7 +929,7 @@
           },
           {
             "name": "B2F - Defeat Matt",
-            "hosted_item": "defeat_matt"
+            "hosted_item": "defeat_matt_hosted"
           },
           {
             "name": "B2F - Aqua Admin Matt",
@@ -1043,7 +1043,7 @@
           },
           {
             "name": "Room 9 - Release Kyogre",
-            "hosted_item": "release_kyogre"
+            "hosted_item": "release_kyogre_hosted"
           }
         ],
         "map_locations":
