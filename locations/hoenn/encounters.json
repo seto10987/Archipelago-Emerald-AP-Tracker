@@ -3703,7 +3703,7 @@
         [
           {
             "map": "encountermap",
-            "x": 180,
+            "x": 184,
             "y": 68
           }
         ]
@@ -3734,37 +3734,7 @@
           {
             "map": "encountermap",
             "x": 176,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Cave of Origin B1F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre"],
-        "sections":
-        [
-          {
-            "name": "Cave Encounter 1, 60%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 2, 30%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 3, 10%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "encountermap",
-            "x": 184,
-            "y": 60
+            "y": 68
           }
         ]
       },
