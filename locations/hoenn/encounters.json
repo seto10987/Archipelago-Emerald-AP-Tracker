@@ -4690,31 +4690,31 @@
             "access_rules": ["$surf"]
           },
           {
-            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "name": "Old Rod Encounter 1, 30%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod"]
+          },
+          {
+            "name": "Old/Good Rod Encounter 2, 70/60%",
             "chest_unopened_img": "/images/items/old_rod.png",
 		        "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
-            "name": "Old/Good Rod Encounter 2, 30/20%",
+            "name": "Good/Super Rod Encounter 3, 20/40%",
             "chest_unopened_img": "//images/items/old_rod.png",
-		        "chest_opened_img": "//images/items/old_rod_bw.png",
-            "access_rules": ["old_rod","good_rod"]
+		        "chest_opened_img": "//images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Good/Super Rod Encounter 3, 20/45%",
+            "name": "Good/Super Rod Encounter 4, 20/45%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Super Rod Encounter 4, 40%",
-            "chest_unopened_img": "/images/items/super_rod.png",
-		        "chest_opened_img": "/images/items/super_rod_bw.png",
-            "access_rules": ["super_rod"]
-          },
-          {
-            "name": "Super Rod Encounter 5, 40%",
+            "name": "Super Rod Encounter 5, 15%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["super_rod"]
