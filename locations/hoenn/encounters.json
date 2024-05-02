@@ -2902,7 +2902,7 @@
             "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Super Rod Encounter 4, 20%",
+            "name": "Super Rod Encounter 4, 15%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["super_rod"]
