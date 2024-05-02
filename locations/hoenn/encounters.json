@@ -1397,7 +1397,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 3F1R Encounters",
+        "name": "Team Magma Hideout 2F3R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1427,7 +1427,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 3F2R Encounters",
+        "name": "Team Magma Hideout 3F1R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1457,7 +1457,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 4F Encounters",
+        "name": "Team Magma Hideout 3F2R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1511,8 +1511,38 @@
         [
           {
             "map": "encountermap",
-            "x": 44,
-            "y": 44
+            "x": 36,
+            "y": 36
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 4F Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 1, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 36,
+            "y": 28
           }
         ]
       },
