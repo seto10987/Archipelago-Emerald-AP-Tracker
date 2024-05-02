@@ -727,6 +727,92 @@
         ]
       },
       {
+        "name": "Abandoned Ship Encounters",
+        "access_rules": ["$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old/Good/Super Rod Encounter 2, 30/40/80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 64,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Ship Hidden Area Encounters",
+        "access_rules": ["$surf,$dive"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old/Good/Super Rod Encounter 2, 30/40/80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 56,
+            "y": 124
+          }
+        ]
+      },
+      {
         "name": "Route 109 Encounters",
         "access_rules": ["$slateport_access"],
         "sections":
@@ -1943,6 +2029,25 @@
           {
             "map": "encountermap",
             "x": 20,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Rusturf Tunnel Encounter",
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
             "y": 60
           }
         ]
@@ -3434,7 +3539,7 @@
       },
       {
         "name": "Shoal Cave B2F Encounters",
-        "access_rules": ["$route_124_access"],
+        "access_rules": ["$route_124_access,$strength"],
         "sections":
         [
           {
@@ -3722,16 +3827,6 @@
         "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
         "sections":
         [
-          {
-            "name": "Cave Encounter 1, 90%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 2, 10%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
           {
             "name": "Surf Encounter 1, 60%",
             "chest_unopened_img": "/images/locations/surfing.png",
@@ -4294,7 +4389,7 @@
       },
       {
         "name": "Sky Pillar 3F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre,mach_bike"],
+        "access_rules": ["$sealed_chamber_access,mach_bike"],
         "sections":
         [
           {
@@ -4329,7 +4424,7 @@
       },
       {
         "name": "Sky Pillar 5F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre,mach_bike"],
+        "access_rules": ["$sealed_chamber_access,mach_bike"],
         "sections":
         [
           {
@@ -4543,7 +4638,7 @@
       },
       {
         "name": "Route 134 Encounters",
-        "access_rules": ["$route_124_access"],
+        "access_rules": ["$route_124_access","$slateport_access,$surf"],
         "sections":
         [
           {
@@ -4851,7 +4946,7 @@
       },
       {
         "name": "Artisan Cave Encounters",
-        "access_rules": ["$battle_frontier_access, wailmer_pail"],
+        "access_rules": ["$battle_frontier_access,wailmer_pail,$surf"],
         "sections":
         [
           {

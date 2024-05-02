@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "encountermap",
-		"location_size": 6,
+		"location_size": 5,
 		"location_border_thickness": 1,
 		"img": "images/maps/encountermap.png"
 	},
@@ -88,29 +88,5 @@
 		"location_size": 10,
 		"location_border_thickness": 2,
 		"img": "images/maps/artisancave.png"
-	},
-	{
-	  "name": "pokedex_1",
-	  "location_size": 28,
-	  "location_border_thickness": 1,
-	  "img": "images/maps/pokedex_1.png"
-	},
-	{
-	  "name": "pokedex_2",
-	  "location_size": 28,
-	  "location_border_thickness": 1,
-	  "img": "images/maps/pokedex_2.png"
-	},
-	{
-	  "name": "pokedex_3",
-	  "location_size": 28,
-	  "location_border_thickness": 1,
-	  "img": "images/maps/pokedex_3.png"
-	},
-	{
-	  "name": "pokedex_4",
-	  "location_size": 28,
-	  "location_border_thickness": 1,
-	  "img": "images/maps/pokedex_4.png"
 	}
 ]
