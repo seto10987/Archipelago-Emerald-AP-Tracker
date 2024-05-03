@@ -4354,7 +4354,7 @@
       },
       {
         "name": "Sky Pillar 1F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre"],
+        "access_rules": ["release_kyogre"],
         "sections":
         [
           {
@@ -4389,7 +4389,7 @@
       },
       {
         "name": "Sky Pillar 3F Encounters",
-        "access_rules": ["$sealed_chamber_access,mach_bike"],
+        "access_rules": ["release_kyogre,mach_bike"],
         "sections":
         [
           {
@@ -4424,7 +4424,7 @@
       },
       {
         "name": "Sky Pillar 5F Encounters",
-        "access_rules": ["$sealed_chamber_access,mach_bike"],
+        "access_rules": ["release_kyogre,mach_bike"],
         "sections":
         [
           {
