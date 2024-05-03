@@ -4121,6 +4121,31 @@
         ]
       },
       {
+        "name": "Seafloor Cavern 8",
+        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 172,
+            "y": 84
+          }
+        ]
+      },
+      {
         "name": "Route 128 Encounters",
         "access_rules": ["$route_124_access"],
         "sections":
@@ -4457,8 +4482,8 @@
         [
           {
             "map": "encountermap",
-            "x": 168,
-            "y": 84
+            "x": 156,
+            "y": 92
           }
         ]
       },
