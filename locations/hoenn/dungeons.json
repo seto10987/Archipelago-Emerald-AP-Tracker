@@ -105,9 +105,9 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "Recover Goods",
-            "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["invisible"]
+            "name": "Recover Devon Goods (Event)",
+            "hosted_item": "recover_devon_goods_hosted",
+            "access_rules": ["defeat_roxanne"]
           },
           {
             "name": "Team Aqua Grunt",
@@ -197,7 +197,7 @@
             "visibility_rules": ["hidden_on"]
           },
           {
-            "name": "1F - Deliver Letter",
+            "name": "1F - Deliver Letter (Event)",
             "hosted_item": "deliver_letter_hosted",
             "access_rules": ["[$flash|cave],letter"]
           },
@@ -270,7 +270,7 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "1F - Team Magma Steals Meteorite",
+            "name": "1F - Team Magma Steals Meteorite (Event)",
             "hosted_item": "magma_steals_meteorite_hosted"
           },
           {
@@ -307,7 +307,7 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "1F - Defeat Steven",
+            "name": "1F - Defeat Steven (Event)",
             "hosted_item": "defeat_steven_hosted",
             "access_rules": ["$surf,$waterfall,defeat_champion"],
             "visibility_rules": ["$goal_not|champion"]
@@ -841,7 +841,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Release Groudon",
+            "name": "Release Groudon (Event)",
             "hosted_item": "release_groudon_hosted"
           },
           {
@@ -928,7 +928,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "B2F - Defeat Matt",
+            "name": "B2F - Defeat Matt (Event)",
             "hosted_item": "defeat_matt_hosted"
           },
           {
@@ -1042,7 +1042,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Room 9 - Release Kyogre",
+            "name": "Room 9 - Release Kyogre (Event)",
             "hosted_item": "release_kyogre_hosted"
           }
         ],
@@ -1090,8 +1090,8 @@
         "sections":
         [
           {
-            "name": "Undo Regi Seal",
-            "visibility_rules": ["invisible"]
+            "name": "Undo Regi Seal (Event)",
+            "hosted_item": "undo_regi_seal_hosted"
           }
         ],
         "map_locations":
@@ -1105,7 +1105,7 @@
       },
       {
         "name": "Desert Ruins",
-        "access_rules": ["$desert_ruins_access,@Dungeons/Sealed Chamber/Undo Regi Seal"],
+        "access_rules": ["$desert_ruins_access,undo_regi_seal"],
         "sections":
         [
           {
@@ -1134,7 +1134,7 @@
       },
       {
         "name": "Island Cave",
-        "access_rules": ["$island_cave_access,@Dungeons/Sealed Chamber/Undo Regi Seal"],
+        "access_rules": ["$island_cave_access,undo_regi_seal"],
         "sections":
         [
           {
@@ -1162,7 +1162,7 @@
       },
       {
         "name": "Ancient Tomb",
-        "access_rules": ["$ancient_tomb_access,@Dungeons/Sealed Chamber/Undo Regi Seal"],
+        "access_rules": ["$ancient_tomb_access,undo_regi_seal"],
         "sections":
         [
           {

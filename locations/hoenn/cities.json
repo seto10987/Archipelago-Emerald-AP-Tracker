@@ -139,7 +139,7 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "Defeat Norman",
+            "name": "Defeat Norman (Event)",
             "hosted_item": "defeat_norman_hosted",
 			"access_rules": ["$has_norman_req"],
 			"visibility_rules": ["trainers_off"]
@@ -236,7 +236,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Norman",
+            "name": "Defeat Norman (Event)",
             "hosted_item": "defeat_norman_hosted"
           },
           {
@@ -304,7 +304,7 @@
             "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Defeat Roxanne",
+            "name": "Defeat Roxanne (Event)",
             "hosted_item": "defeat_roxanne_hosted",
 			"visibility_rules": ["trainers_off"]
           },
@@ -326,9 +326,9 @@
             "visibility_rules": ["gifts_on,trainers_off"]
           },
           {
-            "name": "Return Goods",
-            "access_rules": ["@Dungeons/Rusturf Tunnel/Recover Goods"],
-            "visibility_rules": ["invisible"]
+            "name": "Return Devon Goods (Event)",
+            "hosted_item": "return_devon_goods_hosted",
+            "access_rules": ["recover_devon_goods"]
           },
           {
             "name": "Gift from Devon Employee",
@@ -338,21 +338,21 @@
             "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Talk to Mr. Stone",
+            "name": "Talk to Mr. Stone (Event)",
             "hosted_item": "talk_mr_stone_hosted",
-            "access_rules": ["@Cities/Rustboro City/Return Goods"]
+            "access_rules": ["return_devon_goods"]
           },
           {
             "name": "Letter from Mr. Stone",
             "chest_unopened_img": "/images/locations/mr_stone_letter.png",
 		        "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
-            "access_rules": ["defeat_roxanne"],
+            "access_rules": ["return_devon_goods"],
             "visibility_rules": ["key_items_on"]
           },
           {
             "name": "​Letter from Mr. Stone",
             "hosted_item": "letter_hosted",
-            "access_rules": ["defeat_roxanne"],
+            "access_rules": ["return_devon_goods"],
             "visibility_rules": ["key_items_off"]
           },
           {
@@ -366,7 +366,7 @@
             "name": "Rival Brendan or May",
             "chest_unopened_img": "/images/locations/rival.png",
 		        "chest_opened_img": "/images/locations/rival_bw.png",
-            "access_rules": ["@Cities/Rustboro City/Return Goods"],
+            "access_rules": ["return_devon_goods"],
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -403,7 +403,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Roxanne",
+            "name": "Defeat Roxanne (Event)",
             "hosted_item": "defeat_roxanne_hosted"
           },
           {
@@ -469,7 +469,7 @@
             "visibility_rules": ["gifts_on,$goal_not|norman"]
           },
           {
-            "name": "Defeat Brawly",
+            "name": "Defeat Brawly (Event)",
             "hosted_item": "defeat_brawly_hosted",
 			"visibility_rules": ["trainers_off"]
           },
@@ -543,7 +543,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Brawly",
+            "name": "Defeat Brawly (Event)",
             "hosted_item": "defeat_brawly_hosted"
           },
           {
@@ -601,15 +601,15 @@
             "hosted_item": "harbor_mail_hosted"
           },
           {
-            "name": "Talk to Dock",
-            "access_rules": ["devon_goods"],
-            "visibility_rules": ["invisible"]
+            "name": "Talk to Dock (Event)",
+            "hosted_item": "talk_to_dock_hosted",
+            "access_rules": ["devon_goods"]
           },
           {
             "name": "TM46 from Aqua Grunt in Museum",
             "chest_unopened_img": "/images/locations/aqua_grunt_dark_tm.png",
 		        "chest_opened_img": "/images/locations/aqua_grunt_dark_tm_bw.png",
-            "access_rules": ["devon_goods"],
+            "access_rules": ["talk_to_dock"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -618,13 +618,13 @@
 		        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
             "item_count": 2,
             "clear_as_group": false,
-            "access_rules": ["devon_goods"],
+            "access_rules": ["talk_to_dock"],
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Rescue Captain Stern",
+            "name": "Rescue Captain Stern (Event)",
             "hosted_item": "rescue_stern_hosted",
-            "access_rules": ["@Cities/Slateport City/Talk to Dock"]
+            "access_rules": ["talk_to_dock"]
           },
           {
             "name": "TM41 from Sailor in Battle Tent",
@@ -633,7 +633,7 @@
             "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Team Aqua Steals Submarine",
+            "name": "Team Aqua Steals Submarine (Event)",
             "hosted_item": "aqua_steals_submarine_hosted",
             "access_rules": ["release_groudon"]
           },
@@ -743,7 +743,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Wattson",
+            "name": "Defeat Wattson (Event)",
             "hosted_item": "defeat_wattson_hosted",
             "visibility_rules": ["trainers_off"]
           },
@@ -811,7 +811,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Wattson",
+            "name": "Defeat Wattson (Event)",
             "hosted_item": "defeat_wattson_hosted"
           },
           {
@@ -856,7 +856,7 @@
             "name": "TM27 from Cozmo",
             "chest_unopened_img": "/images/locations/cozmo_normal_tm.png",
 		        "chest_opened_img": "/images/locations/cozmo_normal_tm_bw.png",
-            "access_rules": ["@Routes/Mt. Chimney/Recover Meteorite,meteorite"],
+            "access_rules": ["defeat_maxie_mt_chimney,meteorite"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -895,7 +895,7 @@
             "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Defeat Flannery",
+            "name": "Defeat Flannery (Event)",
             "hosted_item": "defeat_flannery_hosted",
             "visibility_rules": ["trainers_off"]
           },
@@ -994,7 +994,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Flannery",
+            "name": "Defeat Flannery (Event)",
             "hosted_item": "defeat_flannery_hosted"
           },
           {
@@ -1067,14 +1067,18 @@
             "visibility_rules": ["gifts_on"]
           },
           {
+            "name": "Wingull Quest 1 (Event)",
+            "hosted_item": "wingull_quest_1_hosted"
+          },
+          {
             "name": "Wingull Delivery Reward",
             "chest_unopened_img": "/images/locations/man_mental_herb.png",
 		        "chest_opened_img": "/images/locations/man_mental_herb_bw.png",
-            "access_rules": ["@Cities/Mossdeep City/Wingull Quest"],
+            "access_rules": ["wingull_quest_2"],
             "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Defeat Winona",
+            "name": "Defeat Winona (Event)",
             "hosted_item": "defeat_winona_hosted",
             "access_rules": ["$fortree_access,devon_scope"],
             "visibility_rules": ["trainers_off"]
@@ -1152,7 +1156,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Winona",
+            "name": "Defeat Winona (Event)",
             "hosted_item": "defeat_winona_hosted"
           },
           {
@@ -1354,8 +1358,9 @@
             "visibility_rules": ["overworld_on"]
           },
           {
-            "name": "Wingull Quest",
-            "visibility_rules": ["invisible"]
+            "name": "Wingull Quest 2 (Event)",
+            "hosted_item": "wingull_quest_2_hosted",
+            "access_rules": ["wingull_quest_1"]
           },
           {
             "name": "Super Rod from Fisherman in House",
@@ -1369,7 +1374,7 @@
             "visibility_rules": ["rods_off"]
           },
           {
-            "name": "Defeat Tate & Liza",
+            "name": "Defeat Tate & Liza (Event)",
             "hosted_item": "defeat_tate_and_liza_hosted",
             "visibility_rules": ["trainers_off"]
           },
@@ -1391,21 +1396,21 @@
             "visibility_rules": ["gifts_on,trainers_off"]
           },
           {
-            "name": "Steven Gives Dive",
+            "name": "Steven Gives Dive (Event)",
             "hosted_item": "steven_gives_dive_hosted",
-            "access_rules": ["defeat_maxie"]
+            "access_rules": ["defeat_maxie_space_center"]
           },
           {
             "name": "HM08 from Steven",
             "chest_unopened_img": "/images/locations/steven_water_hm.png",
 		        "chest_opened_img": "/images/locations/steven_water_hm_bw.png",
-            "access_rules": ["defeat_maxie"],
+            "access_rules": ["defeat_maxie_space_center"],
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
             "name": "​HM08 from Steven",
             "hosted_item": "hm08_dive_hosted",
-            "access_rules": ["defeat_maxie"],
+            "access_rules": ["defeat_maxie_space_center"],
             "visibility_rules": ["hms_off"]
           }
         ],
@@ -1497,7 +1502,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Tate & Liza",
+            "name": "Defeat Tate & Liza (Event)",
             "hosted_item": "defeat_tate_and_liza_hosted"
           },
           {
@@ -1587,8 +1592,8 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Maxie",
-            "hosted_item": "defeat_maxie_hosted",
+            "name": "Defeat Maxie (Event)",
+            "hosted_item": "defeat_maxie_space_center_hosted",
             "access_rules": ["defeat_tate_and_liza"]
           }
         ],
@@ -1640,7 +1645,7 @@
             "visibility_rules": ["hms_off"]
           },
           {
-            "name": "Defeat Juan",
+            "name": "Defeat Juan (Event)",
        	    "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
             "hosted_item": "defeat_juan_hosted",
             "visibility_rules": ["trainers_off"]
@@ -1742,7 +1747,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Juan",
+            "name": "Defeat Juan (Event)",
             "hosted_item": "defeat_juan_hosted"
           },
           {
@@ -1835,7 +1840,7 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Defeat Champion",
+            "name": "Defeat Champion (Event)",
             "hosted_item": "defeat_champion_hosted"
           },
           {

@@ -90,6 +90,10 @@ function pass_route_110()
   return has("rt_110_grunts_on") or has("rescue_stern") or bike()
 end
 
+function pass_cable_car()
+  return has("rt_112_grunts_on") or has("magma_steals_meteorite")
+end
+
 function route_115_boulders()
   return has("route_115_boulders_off") or strength()
 end
@@ -149,15 +153,13 @@ function fallarbor_access()
 end
 
 function mt_chimney_access()
-  return (fallarbor_access() and has("magma_steals_meteorite"))
-  or (fallarbor_access() and has("rt_112_grunts_on"))
+  return (fallarbor_access() and pass_cable_car())
   or (free_fly("lavaridge") and has("acro_bike"))
 end
 
 function lavaridge_access()
   return free_fly("lavaridge")
-  or (fallarbor_access() and has("magma_steals_meteorite"))
-  or (fallarbor_access() and has("rt_112_grunts_on"))
+  or (fallarbor_access() and pass_cable_car() and has("defeat_maxie_mt_chimney"))
 end
 
 function route_119_access()

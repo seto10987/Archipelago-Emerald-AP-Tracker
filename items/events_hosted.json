@@ -1,11 +1,35 @@
 [
   {
+    "name": "Route 104 - Meet with Flower Shop Owner",
+    "type": "toggle",
+    "img": "/images/events/flower_shop_owner.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "meet_flower_shop_owner_hosted"
+  },
+  {
     "name": "Rustboro City - Defeat Roxanne",
     "type": "toggle",
     "img": "/images/events/roxanne.png",
     "img_mods": "@disabled",
     "disabled_img_mods": "none",
     "codes": "defeat_roxanne_hosted"
+  },
+  {
+    "name": "Rusturf Tunnel - Recover Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/aqua_grunt.png",
+    "img_mods": "@disabled,overlay|/images/overlays/devon_goods.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/devon_goods.png",
+    "codes": "recover_devon_goods_hosted"
+  },
+  {
+    "name": "Rustboro City - Return Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/devon_employee.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "return_devon_goods_hosted"
   },
   {
     "name": "Rustboro City - Talk to Mr. Stone",
@@ -32,6 +56,14 @@
     "codes": "deliver_letter_hosted"
   },
   {
+    "name": "Slateport City - Talk to Dock",
+    "type": "toggle",
+    "img": "/images/events/dock.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "talk_to_dock_hosted"
+  },
+  {
     "name": "Slateport City - Rescue Captain Stern",
     "type": "toggle",
     "img": "/images/events/captain_stern.png",
@@ -56,6 +88,14 @@
     "codes": "magma_steals_meteorite_hosted"
   },
   {
+    "name": "Mt. Chimney - Defeat Maxie",
+    "type": "toggle",
+    "img": "/images/events/maxie.png",
+    "img_mods": "@disabled,overlay|/images/overlays/meteorite_machine.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/meteorite_machine.png",
+    "codes": "defeat_maxie_mt_chimney_hosted"
+  },
+  {
     "name": "Lavaridge Town - Defeat Flannery",
     "type": "toggle",
     "img": "/images/events/flannery.png",
@@ -78,6 +118,14 @@
     "img_mods": "@disabled",
     "disabled_img_mods": "none",
     "codes": "defeat_shelly_hosted"
+  },
+  {
+    "name": "Fortree City - Wingull Quest 1",
+    "type": "toggle",
+    "img": "/images/events/wingull_boy.png",
+    "img_mods": "@disabled,overlay|/images/overlays/wingull.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/wingull.png",
+    "codes": "wingull_quest_1_hosted"
   },
   {
     "name": "Fortree City - Defeat Winona",
@@ -112,6 +160,14 @@
     "codes": "defeat_matt_hosted"
   },
   {
+    "name": "Mossdeep City - Wingull Quest 2",
+    "type": "toggle",
+    "img": "/images/events/wingull.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "wingull_quest_2_hosted"
+  },
+  {
     "name": "Mossdeep City - Defeat Tate & Liza",
     "type": "toggle",
     "img": "/images/events/tate_and_liza.png",
@@ -120,12 +176,12 @@
     "codes": "defeat_tate_and_liza_hosted"
   },
   {
-    "name": "Space Station - Defeat Maxie",
+    "name": "Space Center - Defeat Maxie",
     "type": "toggle",
     "img": "/images/events/maxie.png",
-    "img_mods": "@disabled",
-    "disabled_img_mods": "none",
-    "codes": "defeat_maxie_hosted"
+    "img_mods": "@disabled,overlay|/images/overlays/space_center.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/space_center.png",
+    "codes": "defeat_maxie_space_center_hosted"
   },
   {
     "name": "Mossdeep City - Steven Gives Dive",
@@ -150,6 +206,14 @@
     "img_mods": "@disabled",
     "disabled_img_mods": "none",
     "codes": "defeat_juan_hosted"
+  },
+  {
+    "name": "Sealed Chamber - Undo Regi Seal",
+    "type": "toggle",
+    "img": "/images/events/regi_seal.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "undo_regi_seal_hosted"
   },
   {
     "name": "Pokemon League - Defeat Champion",
