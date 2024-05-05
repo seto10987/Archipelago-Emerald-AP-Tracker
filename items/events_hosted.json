@@ -1,0 +1,234 @@
+[
+  {
+    "name": "Route 104 - Meet with Flower Shop Owner",
+    "type": "toggle",
+    "img": "/images/events/flower_shop_owner.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "meet_flower_shop_owner_hosted"
+  },
+  {
+    "name": "Rustboro City - Defeat Roxanne",
+    "type": "toggle",
+    "img": "/images/events/roxanne.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_roxanne_hosted"
+  },
+  {
+    "name": "Rusturf Tunnel - Recover Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/aqua_grunt.png",
+    "img_mods": "@disabled,overlay|/images/overlays/devon_goods.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/devon_goods.png",
+    "codes": "recover_devon_goods_hosted"
+  },
+  {
+    "name": "Rustboro City - Return Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/devon_employee.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "return_devon_goods_hosted"
+  },
+  {
+    "name": "Rustboro City - Talk to Mr. Stone",
+    "type": "toggle",
+    "img": "/images/events/mr_stone.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "talk_mr_stone_hosted"
+  },
+  {
+    "name": "Dewford Town - Defeat Brawly",
+    "type": "toggle",
+    "img": "/images/events/brawly.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_brawly_hosted"
+  },
+  {
+    "name": "Granite Cave - Deliver Letter",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "img_mods": "@disabled,overlay|/images/overlays/letter.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/letter.png",
+    "codes": "deliver_letter_hosted"
+  },
+  {
+    "name": "Slateport City - Talk to Dock",
+    "type": "toggle",
+    "img": "/images/events/dock.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "talk_to_dock_hosted"
+  },
+  {
+    "name": "Slateport City - Rescue Captain Stern",
+    "type": "toggle",
+    "img": "/images/events/captain_stern.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "rescue_stern_hosted"
+  },
+  {
+    "name": "Mauville City - Defeat Wattson",
+    "type": "toggle",
+    "img": "/images/events/wattson.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_wattson_hosted"
+  },
+  {
+    "name": "Meteor Falls - Team Magma Steals Meteorite",
+    "type": "toggle",
+    "img": "/images/events/magma_grunt.png",
+    "img_mods": "@disabled,overlay|/images/overlays/meteorite.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/meteorite.png",
+    "codes": "magma_steals_meteorite_hosted"
+  },
+  {
+    "name": "Mt. Chimney - Defeat Maxie",
+    "type": "toggle",
+    "img": "/images/events/maxie.png",
+    "img_mods": "@disabled,overlay|/images/overlays/meteorite_machine.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/meteorite_machine.png",
+    "codes": "defeat_maxie_mt_chimney_hosted"
+  },
+  {
+    "name": "Lavaridge Town - Defeat Flannery",
+    "type": "toggle",
+    "img": "/images/events/flannery.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_flannery_hosted"
+  },
+  {
+    "name": "Petalburg City - Defeat Norman",
+    "type": "toggle",
+    "img": "/images/events/norman.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_norman_hosted"
+  },
+  {
+    "name": "Weather Institute - Defeat Shelly",
+    "type": "toggle",
+    "img": "/images/events/shelly.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_shelly_hosted"
+  },
+  {
+    "name": "Fortree City - Wingull Quest 1",
+    "type": "toggle",
+    "img": "/images/events/wingull_boy.png",
+    "img_mods": "@disabled,overlay|/images/overlays/wingull.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/wingull.png",
+    "codes": "wingull_quest_1_hosted"
+  },
+  {
+    "name": "Fortree City - Defeat Winona",
+    "type": "toggle",
+    "img": "/images/events/winona.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_winona_hosted"
+  },
+  {
+    "name": "Magma Hideout - Release Groudon",
+    "type": "toggle",
+    "img": "/images/events/groudon.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "release_groudon_hosted"
+  },
+  {
+    "name": "Slateport City - Team Aqua Steals Submarine",
+    "type": "toggle",
+    "img": "/images/events/aqua_grunt.png",
+    "img_mods": "@disabled,overlay|/images/overlays/submarine.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/submarine.png",
+    "codes": "aqua_steals_submarine_hosted"
+  },
+  {
+    "name": "Aqua Hideout - Defeat Matt",
+    "type": "toggle",
+    "img": "/images/events/matt.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_matt_hosted"
+  },
+  {
+    "name": "Mossdeep City - Wingull Quest 2",
+    "type": "toggle",
+    "img": "/images/events/wingull.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "wingull_quest_2_hosted"
+  },
+  {
+    "name": "Mossdeep City - Defeat Tate & Liza",
+    "type": "toggle",
+    "img": "/images/events/tate_and_liza.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_tate_and_liza_hosted"
+  },
+  {
+    "name": "Space Center - Defeat Maxie",
+    "type": "toggle",
+    "img": "/images/events/maxie.png",
+    "img_mods": "@disabled,overlay|/images/overlays/space_center.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/space_center.png",
+    "codes": "defeat_maxie_space_center_hosted"
+  },
+  {
+    "name": "Mossdeep City - Steven Gives Dive",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "img_mods": "@disabled,overlay|/images/overlays/water_hm.png|@disabled",
+    "disabled_img_mods": "overlay|/images/overlays/water_hm.png",
+    "codes": "steven_gives_dive_hosted"
+  },
+  {
+    "name": "Seafloor Cavern - Release Kyogre",
+    "type": "toggle",
+    "img": "/images/events/kyogre.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "release_kyogre_hosted"
+  },
+  {
+    "name": "Sootopolis City - Defeat Juan",
+    "type": "toggle",
+    "img": "/images/events/juan.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_juan_hosted"
+  },
+  {
+    "name": "Sealed Chamber - Undo Regi Seal",
+    "type": "toggle",
+    "img": "/images/events/regi_seal.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "undo_regi_seal_hosted"
+  },
+  {
+    "name": "Pokemon League - Defeat Champion",
+    "type": "toggle",
+    "img": "/images/events/wallace.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_champion_hosted"
+  },
+  {
+    "name": "Meteor Falls - Defeat Steven",
+    "type": "toggle",
+    "img": "/images/events/steven.png",
+    "img_mods": "@disabled",
+    "disabled_img_mods": "none",
+    "codes": "defeat_steven_hosted"
+  }
+]

@@ -1,9 +1,28 @@
 [
   {
+    "name": "Route 104 - Meet with Flower Shop Owner",
+    "type": "toggle",
+    "img": "/images/events/flower_shop_owner.png",
+    "codes": "meet_flower_shop_owner"
+  },
+  {
     "name": "Rustboro City - Defeat Roxanne",
     "type": "toggle",
     "img": "/images/events/roxanne.png",
     "codes": "defeat_roxanne"
+  },
+  {
+    "name": "Rusturf Tunnel - Recover Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/aqua_grunt.png",
+    "img_mods": "overlay|/images/overlays/devon_goods.png",
+    "codes": "recover_devon_goods"
+  },
+  {
+    "name": "Rustboro City - Return Devon Goods",
+    "type": "toggle",
+    "img": "/images/events/devon_employee.png",
+    "codes": "return_devon_goods"
   },
   {
     "name": "Rustboro City - Talk to Mr. Stone",
@@ -25,6 +44,12 @@
     "codes": "deliver_letter"
   },
   {
+    "name": "Slateport City - Talk to Dock",
+    "type": "toggle",
+    "img": "/images/events/dock.png",
+    "codes": "talk_to_dock"
+  },
+  {
     "name": "Slateport City - Rescue Captain Stern",
     "type": "toggle",
     "img": "/images/events/captain_stern.png",
@@ -44,6 +69,13 @@
     "codes": "magma_steals_meteorite"
   },
   {
+    "name": "Mt. Chimney - Defeat Maxie",
+    "type": "toggle",
+    "img": "/images/events/maxie.png",
+    "img_mods": "overlay|/images/overlays/meteorite_machine.png",
+    "codes": "defeat_maxie_mt_chimney"
+  },
+  {
     "name": "Lavaridge Town - Defeat Flannery",
     "type": "toggle",
     "img": "/images/events/flannery.png",
@@ -60,6 +92,13 @@
     "type": "toggle",
     "img": "/images/events/shelly.png",
     "codes": "defeat_shelly"
+  },
+  {
+    "name": "Fortree City - Wingull Quest 1",
+    "type": "toggle",
+    "img": "/images/events/wingull_boy.png",
+    "img_mods": "overlay|/images/overlays/wingull.png",
+    "codes": "wingull_quest_1"
   },
   {
     "name": "Fortree City - Defeat Winona",
@@ -87,16 +126,23 @@
     "codes": "defeat_matt"
   },
   {
+    "name": "Mossdeep City - Wingull Quest 2",
+    "type": "toggle",
+    "img": "/images/events/wingull.png",
+    "codes": "wingull_quest_2"
+  },
+  {
     "name": "Mossdeep City - Defeat Tate & Liza",
     "type": "toggle",
     "img": "/images/events/tate_and_liza.png",
     "codes": "defeat_tate_and_liza"
   },
   {
-    "name": "Space Station - Defeat Maxie",
+    "name": "Space Center - Defeat Maxie",
     "type": "toggle",
     "img": "/images/events/maxie.png",
-    "codes": "defeat_maxie"
+    "img_mods": "overlay|/images/overlays/space_center.png",
+    "codes": "defeat_maxie_space_center"
   },
   {
     "name": "Mossdeep City - Steven Gives Dive",
@@ -116,6 +162,12 @@
     "type": "toggle",
     "img": "/images/events/juan.png",
     "codes": "defeat_juan"
+  },
+  {
+    "name": "Sealed Chamber - Undo Regi Seal",
+    "type": "toggle",
+    "img": "/images/events/regi_seal.png",
+    "codes": "undo_regi_seal"
   },
   {
     "name": "Pokemon League - Defeat Champion",

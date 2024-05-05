@@ -11,6 +11,8 @@ EVENT_ID = ""
 KEY_ITEMS_ID = ""
 LEGENDARY_ID = ""
 
+OBTAINED_ITEMS = {}
+
 function resetItems()
 	for _, value in pairs(ITEM_MAPPING) do
 		if value[1] then
@@ -18,6 +20,10 @@ function resetItems()
 			if object then
 				object.Active = false
 			end
+      object = Tracker:FindObjectForCode(value[1].."_hosted")
+      if object then
+        object.Active = false
+      end
 		end
 	end
 end
@@ -41,10 +47,11 @@ function onClear(slot_data)
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	CUR_INDEX = -1
+  OBTAINED_ITEMS = {}
 	resetItems()
 	resetLocations()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-    dump_table(slot_data)
+    print(dump_table(slot_data))
   end
 	for key, value in pairs(slot_data) do
 	  if key == "hm_requirements" then
@@ -62,17 +69,14 @@ function onClear(slot_data)
         Tracker:FindObjectForCode(code).CurrentStage = tableContains(slot_data['remove_roadblocks'], roadblock) and 1 or 0
       end
 	  elseif key == "allowed_legendary_hunt_encounters" then
-      local allowed_legendaries = {}
-      for _,legendary in pairs(slot_data['allowed_legendary_hunt_encounters']) do
-        table.insert(allowed_legendaries, legendary)
-      end
-      LEGENDARIES_ALLOWED = allowed_legendaries
+      LEGENDARIES_ALLOWED = slot_data['allowed_legendary_hunt_encounters']
 	  elseif SLOT_CODES[key] then
 		  Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
 	  end
 	end
 	if PLAYER_NUMBER > -1 then
 	  updateEvents(0)
+    updateKeyItems(0)
 	  updateLegendaries(0)
 	  EVENT_ID = "pokemon_emerald_events_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
 	  KEY_ITEMS_ID = "pokemon_emerald_keys_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
@@ -101,9 +105,10 @@ function onItem(index, item_id, item_name, player_number)
     end
     return
   end
-	local object = Tracker:FindObjectForCode(value[1])
+	local object = Tracker:FindObjectForCode(value[1].."_hosted")
 	if object then
 		object.Active = true
+    table.insert(OBTAINED_ITEMS, value[1])
   elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("onItem: could not find object for code %s", v[1]))
 	end
@@ -155,13 +160,17 @@ end
 
 function updateEvents(value)
   if value ~= nil then
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("updateEvents: Value - %s", value))
+    end
     for _, event in pairs(EVENT_FLAG_MAPPING) do
+      local bitmask = 2 ^ event.bit
       for _, code in pairs(event.codes) do
         if code.setting == nil or has(code.setting) then
           if code.code == "harbor_mail" then
-            Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & event.bitmask ~= 0
+            Tracker:FindObjectForCode(code.code.."_hosted").Active = Tracker:FindObjectForCode(code.code.."_hosted").Active or value & bitmask ~= 0
           else
-            Tracker:FindObjectForCode(code.code).Active = value & event.bitmask ~= 0
+            Tracker:FindObjectForCode(code.code.."_hosted").Active = value & bitmask ~= 0
           end
         end
       end
@@ -171,10 +180,14 @@ end
 
 function updateKeyItems(value)
   if value ~= nil then
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("updateKeyItems: Value - %s", value))
+    end
     for _, key_item in pairs(KEY_ITEM_FLAG_MAPPING) do
-      if has(key_item.setting) then
-        for _, code in pairs(key_item.codes) do
-          Tracker:FindObjectForCode(code).Active = value & key_item.bitmask ~= 0
+      local bitmask = 2 ^ key_item.bit
+      for _, code in pairs(key_item.codes) do
+        if (code.setting == nil or has(code.setting)) and not tableContains(OBTAINED_ITEMS, code.code) then
+          Tracker:FindObjectForCode(code.code.."_hosted").Active = value & bitmask ~= 0
         end
       end
     end
@@ -183,15 +196,19 @@ end
 
 function updateLegendaries(value)
   if value ~= nil then
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+      print(string.format("updateLegendaries: Value - %s", value))
+    end
     local count = 0
     for _, legendary in pairs(LEGENDARY_FLAG_MAPPING) do
-      if value & legendary.bitmask ~= 0 and tableContains(LEGENDARIES_ALLOWED, legendary.name) then
+      local bitmask = 2 ^ legendary.bit
+      if value & bitmask ~= 0 and tableContains(LEGENDARIES_ALLOWED, legendary.name) then
         count = count + 1
       end
       for _, location in pairs(legendary.locations) do
         local object = Tracker:FindObjectForCode(location)
         if object then
-          if value & legendary.bitmask ~= 0 then
+          if value & bitmask ~= 0 then
             object.AvailableChestCount = 0
           else
             object.AvailableChestCount = object.ChestCount

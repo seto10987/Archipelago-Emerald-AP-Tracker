@@ -1,7 +1,7 @@
 EVENT_FLAG_MAPPING =
 {
   {
-    bitmask = 0x1,
+    bit = 0,
     codes =
     {
       {
@@ -15,7 +15,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x2,
+    bit = 1,
     codes =
     {
       {
@@ -29,7 +29,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x4,
+    bit = 2,
     codes =
     {
       {
@@ -43,7 +43,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x8,
+    bit = 3,
     codes =
     {
       {
@@ -57,7 +57,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x10,
+    bit = 4,
     codes =
     {
       {
@@ -71,7 +71,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x20,
+    bit = 5,
     codes =
     {
       {
@@ -85,7 +85,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x40,
+    bit = 6,
     codes =
     {
       {
@@ -99,7 +99,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x80,
+    bit = 7,
     codes =
     {
       {
@@ -113,7 +113,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x100,
+    bit = 8,
     codes =
     {
       {
@@ -123,7 +123,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x200,
+    bit = 9,
     codes =
     {
       {
@@ -133,7 +133,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x400,
+    bit = 10,
     codes =
     {
       {
@@ -143,7 +143,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x800,
+    bit = 11,
     codes =
     {
       {
@@ -153,7 +153,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x1000,
+    bit = 12,
     codes =
     {
       {
@@ -163,7 +163,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x2000,
+    bit = 13,
     codes =
     {
       {
@@ -173,7 +173,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x4000,
+    bit = 14,
     codes =
     {
       {
@@ -183,7 +183,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x8000,
+    bit = 15,
     codes =
     {
       {
@@ -193,17 +193,17 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x10000,
+    bit = 16,
     codes =
     {
       {
-        code = "defeat_maxie",
+        code = "defeat_maxie_space_center",
         setting = nil
       }
     }
   },
   {
-    bitmask = 0x20000,
+    bit = 17,
     codes =
     {
       {
@@ -213,7 +213,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x80000,
+    bit = 19,
     codes =
     {
       {
@@ -223,7 +223,7 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x100000,
+    bit = 20,
     codes =
     {
       {
@@ -233,11 +233,81 @@ EVENT_FLAG_MAPPING =
     }
   },
   {
-    bitmask = 0x200000,
+    bit = 21,
     codes =
     {
       {
         code = "harbor_mail",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 22,
+    codes =
+    {
+      {
+        code = "undo_regi_seal",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 23,
+    codes =
+    {
+      {
+        code = "return_devon_goods",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 24,
+    codes =
+    {
+      {
+        code = "talk_to_dock",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 25,
+    codes =
+    {
+      {
+        code = "defeat_maxie_mt_chimney",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 26,
+    codes =
+    {
+      {
+        code = "wingull_quest_1",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 27,
+    codes =
+    {
+      {
+        code = "wingull_quest_2",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 28,
+    codes =
+    {
+      {
+        code = "meet_flower_shop_owner",
         setting = nil
       }
     }
@@ -247,231 +317,404 @@ EVENT_FLAG_MAPPING =
 KEY_ITEM_FLAG_MAPPING =
 {
   {
-    bitmask = 0x1,
-    setting = "hms_off",
-    codes = {"hm01_cut"}
+    bit = 0,
+    codes =
+    {
+      {
+        code = "hm01_cut",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x2,
-    setting = "hms_off",
-    codes = {"hm02_fly"}
+    bit = 1,
+    codes =
+    {
+      {
+        code = "hm02_fly",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x4,
-    setting = "hms_off",
-    codes = {"hm03_surf"}
+    bit = 2,
+    codes =
+    {
+      {
+        code = "hm03_surf",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x8,
-    setting = "hms_off",
-    codes = {"hm04_strength"}
+    bit = 3,
+    codes =
+    {
+      {
+        code = "hm04_strength",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x10,
-    setting = "hms_off",
-    codes = {"hm05_flash"}
+    bit = 4,
+    codes =
+    {
+      {
+        code = "hm05_flash",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x20,
-    setting = "hms_off",
-    codes = {"hm06_rock_smash"}
+    bit = 5,
+    codes =
+    {
+      {
+        code = "hm06_rock_smash",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x40,
-    setting = "hms_off",
-    codes = {"hm07_waterfall"}
+    bit = 6,
+    codes =
+    {
+      {
+        code = "hm07_waterfall",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x80,
-    setting = "hms_off",
-    codes = {"hm08_dive"}
+    bit = 7,
+    codes =
+    {
+      {
+        code = "hm08_dive",
+        setting = "hms_off"
+      }
+    }
   },
   {
-    bitmask = 0x100,
-    setting = "bikes_off",
-    codes = {"acro_bike","mach_bike"}
+    bit = 8,
+    codes =
+    {
+      {
+        code = "acro_bike",
+        setting = "bikes_off"
+      },
+      {
+        code = "mach_bike",
+        setting = "bikes_off"
+      }
+    }
   },
   {
-    bitmask = 0x200,
-    setting = "key_items_off",
-    codes = {"wailmer_pail"}
+    bit = 9,
+    codes =
+    {
+      {
+        code = "wailmer_pail",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x400,
-    setting = "key_items_off",
-    codes = {"devon_goods"}
+    bit = 10,
+    codes =
+    {
+      {
+        code = "devon_goods",
+        setting = "key_items_off"
+      },
+      {
+        code = "recover_devon_goods",
+        setting = nil
+      }
+    }
   },
   {
-    bitmask = 0x800,
-    setting = "key_items_off",
-    codes = {"letter"}
+    bit = 11,
+    codes =
+    {
+      {
+        code = "letter",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x1000,
-    setting = "key_items_off",
-    codes = {"meteorite"}
+    bit = 12,
+    codes =
+    {
+      {
+        code = "meteorite",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x2000,
-    setting = "key_items_off",
-    codes = {"go_goggles"}
+    bit = 13,
+    codes =
+    {
+      {
+        code = "go_goggles",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x4000,
-    setting = "key_items_off",
-    codes = {"basement_key"}
+    bit = 14,
+    codes =
+    {
+      {
+        code = "basement_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x8000,
-    setting = "key_items_off",
-    codes = {"itemfinder"}
+    bit = 15,
+    codes =
+    {
+      {
+        code = "itemfinder",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x10000,
-    setting = "key_items_off",
-    codes = {"devon_scope"}
+    bit = 16,
+    codes =
+    {
+      {
+        code = "devon_scope",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x20000,
-    setting = "key_items_off",
-    codes = {"magma_emblem"}
+    bit = 17,
+    codes =
+    {
+      {
+        code = "magma_emblem",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x40000,
-    setting = "key_items_off",
-    codes = {"pokeblock_case"}
+    bit = 18,
+    codes =
+    {
+      {
+        code = "pokeblock_case",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x80000,
-    setting = "key_items_off",
-    codes = {"ss_ticket"}
+    bit = 19,
+    codes =
+    {
+      {
+        code = "ss_ticket",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x100000,
-    setting = "key_items_off",
-    codes = {"room_2_key"}
+    bit = 20,
+    codes =
+    {
+      {
+        code = "room_2_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x200000,
-    setting = "key_items_off",
-    codes = {"room_1_key"}
+    bit = 21,
+    codes =
+    {
+      {
+        code = "room_1_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x400000,
-    setting = "key_items_off",
-    codes = {"room_4_key"}
+    bit = 22,
+    codes =
+    {
+      {
+        code = "room_4_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x800000,
-    setting = "key_items_off",
-    codes = {"room_6_key"}
+    bit = 23,
+    codes =
+    {
+      {
+        code = "room_6_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x1000000,
-    setting = "key_items_off",
-    codes = {"scanner"}
+    bit = 24,
+    codes =
+    {
+      {
+        code = "scanner",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x2000000,
-    setting = "key_items_off",
-    codes = {"storage_key"}
+    bit = 25,
+    codes =
+    {
+      {
+        code = "storage_key",
+        setting = "key_items_off"
+      }
+    }
   },
   {
-    bitmask = 0x4000000,
-    setting = "rods_off",
-    codes = {"old_rod"}
+    bit = 26,
+    codes =
+    {
+      {
+        code = "old_rod",
+        setting = "rods_off"
+      }
+    }
   },
   {
-    bitmask = 0x8000000,
-    setting = "rods_off",
-    codes = {"good_rod"}
+    bit = 27,
+    codes =
+    {
+      {
+        code = "good_rod",
+        setting = "rods_off"
+      }
+    }
   },
   {
-    bitmask = 0x10000000,
-    setting = "rods_off",
-    codes = {"super_rod"}
+    bit = 28,
+    codes =
+    {
+      {
+        code = "super_rod",
+        setting = "rods_off"
+      }
+    }
   },
   {
-    bitmask = 0x20000000,
-    setting = "tickets_off",
-    codes = {"eon_ticket"}
+    bit = 29,
+    codes =
+    {
+      {
+        code = "eon_ticket",
+        setting = "tickets_off"
+      }
+    }
   },
   {
-    bitmask = 0x40000000,
-    setting = "tickets_off",
-    codes = {"aurora_ticket"}
+    bit = 30,
+    codes =
+    {
+      {
+        code = "aurora_ticket",
+        setting = "tickets_off"
+      }
+    }
   },
   {
-    bitmask = 0x80000000,
-    setting = "tickets_off",
-    codes = {"mystic_ticket"}
+    bit = 31,
+    codes =
+    {
+      {
+        code = "mystic_ticket",
+        setting = "tickets_off"
+      }
+    }
   },
   {
-    bitmask = 0x100000000,
-    setting = "tickets_off",
-    codes = {"old_sea_map"}
+    bit = 32,
+    codes =
+    {
+      {
+        code = "old_sea_map",
+        setting = "tickets_off"
+      }
+    }
   }
 }
 
 LEGENDARY_FLAG_MAPPING =
 {
   {
-    bitmask = 0x1,
+    bit = 0,
     name = "Groudon",
     locations = {"@Dungeons/Terra Cave (Route 114)/Defeat Groudon","@Dungeons/Terra Cave (Route 114)/Catch Groudon"}
   },
   {
-    bitmask = 0x2,
+    bit = 1,
     name = "Kyogre",
     locations = {"@Dungeons/Marine Cave (Route 105)/Defeat Kyogre","@Dungeons/Marine Cave (Route 105)/Catch Kyogre"}
   },
   {
-    bitmask = 0x4,
+    bit = 2,
     name = "Rayquaza",
     locations = {"@Dungeons/Sky Pillar/Defeat Rayquaza","@Dungeons/Sky Pillar/Catch Rayquaza"}
   },
   {
-    bitmask = 0x8,
+    bit = 3,
     name = "Latias",
     locations = {"@Islands/Southern Island/Defeat Latias","@Islands/Southern Island/Catch Latias"}
   },
   {
-    bitmask = 0x10,
+    bit = 4,
     name = "Latios",
     locations = {"@Routes/Route 117/Defeat Latios","@Routes/Route 117/Catch Latios"}
   },
   {
-    bitmask = 0x20,
+    bit = 5,
     name = "Regirock",
     locations = {"@Dungeons/Desert Ruins/Defeat Regirock","@Dungeons/Desert Ruins/Catch Regirock"}
   },
   {
-    bitmask = 0x40,
+    bit = 6,
     name = "Regice",
     locations = {"@Dungeons/Island Cave/Defeat Regice","@Dungeons/Island Cave/Catch Regice"}
   },
   {
-    bitmask = 0x80,
+    bit = 7,
     name = "Registeel",
     locations = {"@Dungeons/Ancient Tomb/Defeat Registeel","@Dungeons/Ancient Tomb/Catch Registeel"}
   },
   {
-    bitmask = 0x100,
+    bit = 8,
     name = "Mew",
     locations = {"@Islands/Faraway Island/Defeat Mew","@Islands/Faraway Island/Catch Mew"}
   },
   {
-    bitmask = 0x200,
+    bit = 9,
     name = "Deoxys",
     locations = {"@Islands/Birth Island/Defeat Deoxys","@Islands/Birth Island/Catch Deoxys"}
   },
   {
-    bitmask = 0x400,
+    bit = 10,
     name = "Ho-Oh",
     locations = {"@Islands/Navel Rock/Defeat Ho-Oh","@Islands/Navel Rock/Catch Ho-Oh"}
   },
   {
-    bitmask = 0x800,
+    bit = 11,
     name = "Lugia",
     locations = {"@Islands/Navel Rock/Defeat Lugia","@Islands/Navel Rock/Catch Lugia"}
   }

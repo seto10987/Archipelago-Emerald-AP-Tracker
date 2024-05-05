@@ -234,8 +234,8 @@
             "visibility_rules": ["berries_on"]
           },
           {
-            "name": "Meet with Flower Shop Owner",
-            "visibility_rules": ["invisible"]
+            "name": "Meet with Flower Shop Owner (Event)",
+            "hosted_item": "meet_flower_shop_owner_hosted"
           },
           {
             "name": "Wailmer Pail from Flower Shop Lady",
@@ -245,7 +245,7 @@
           },
           {
             "name": "​Wailmer Pail from Flower Shop Lady",
-            "hosted_item": "wailmer_pail",
+            "hosted_item": "wailmer_pail_hosted",
             "visibility_rules": ["key_items_off"]
           },
           {
@@ -258,7 +258,7 @@
             "name": "White Herb from Lady Near Flower Shop",
             "chest_unopened_img": "/images/locations/lady_white_herb.png",
 		        "chest_opened_img": "/images/locations/lady_white_herb_bw.png",
-            "access_rules": ["@Routes/Route 104 North/Meet with Flower Shop Owner,dynamo_badge"],
+            "access_rules": ["meet_flower_shop_owner,dynamo_badge"],
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -827,7 +827,7 @@
           },
           {
             "name": "​Itemfinder from Rival",
-            "hosted_item": "itemfinder",
+            "hosted_item": "itemfinder_hosted",
             "visibility_rules": ["key_items_off"]
           },
           {
@@ -1790,14 +1790,14 @@
             "visibility_rules": ["trainers_on"]
           },
           {
+            "name": "Defeat Maxie (Event)",
+            "hosted_item": "defeat_maxie_mt_chimney_hosted"
+          },
+          {
             "name": "Magma Leader Maxie",
             "chest_unopened_img": "/images/locations/maxie.png",
 		        "chest_opened_img": "/images/locations/maxie_bw.png",
             "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Recover Meteorite",
-            "visibility_rules": ["invisible"]
           },
           {
             "name": "Meteorite from Machine",
@@ -1807,37 +1807,42 @@
           },
           {
             "name": "​Meteorite from Machine",
-            "hosted_item": "meteorite",
+            "hosted_item": "meteorite_hosted",
             "visibility_rules": ["key_items_off"]
           },
           {
             "name": "Beauty Shirley",
             "chest_unopened_img": "/images/locations/beauty.png",
 		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Beauty Sheila",
             "chest_unopened_img": "/images/locations/beauty.png",
 		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Shelby",
             "chest_unopened_img": "/images/locations/expert_female.png",
 		        "chest_opened_img": "/images/locations/expert_female_bw.png",
+            "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Sawyer",
             "chest_unopened_img": "/images/locations/hiker.png",
 		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Beauty Melissa",
             "chest_unopened_img": "/images/locations/beauty.png",
 		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2218,7 +2223,7 @@
           },
           {
             "name": "​Good Rod from Fisherman",
-            "hosted_item": "good_rod",
+            "hosted_item": "good_rod_hosted",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["rods_off"]
           },
@@ -2453,8 +2458,8 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "2F - Defeat Shelly",
-            "hosted_item": "defeat_shelly"
+            "name": "2F - Defeat Shelly (Event)",
+            "hosted_item": "defeat_shelly_hosted"
           },
           {
             "name": "2F - Aqua Admin Shelly",
@@ -2527,7 +2532,7 @@
           },
           {
             "name": "​HM02 from Rival",
-            "hosted_item": "hm02_fly",
+            "hosted_item": "hm02_fly_hosted",
             "visibility_rules": ["hms_off"]
           },
           {
@@ -2621,7 +2626,7 @@
           },
           {
             "name": "​Devon Scope from Steven",
-            "hosted_item": "devon_scope",
+            "hosted_item": "devon_scope_hosted",
             "visibility_rules": ["key_items_off"]
           },
           {
