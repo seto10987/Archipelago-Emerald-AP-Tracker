@@ -4122,7 +4122,7 @@
       },
       {
         "name": "Seafloor Cavern 8",
-        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
+        "access_rules": ["$seafloor_cavern_access,$dive,sea_floor_grunts_on","$seafloor_cavern_access,$dive,steven_gives_dive"],
         "sections":
         [
           {
