@@ -727,6 +727,92 @@
         ]
       },
       {
+        "name": "Abandoned Ship Encounters",
+        "access_rules": ["$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old/Good/Super Rod Encounter 2, 30/40/80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 64,
+            "y": 124
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Ship Hidden Area Encounters",
+        "access_rules": ["$surf,$dive"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old/Good/Super Rod Encounter 2, 30/40/80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 56,
+            "y": 124
+          }
+        ]
+      },
+      {
         "name": "Route 109 Encounters",
         "access_rules": ["$slateport_access"],
         "sections":
@@ -1311,7 +1397,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 3F1R Encounters",
+        "name": "Team Magma Hideout 2F3R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1341,7 +1427,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 3F2R Encounters",
+        "name": "Team Magma Hideout 3F1R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1371,7 +1457,7 @@
         ]
       },
       {
-        "name": "Team Magma Hideout 4F Encounters",
+        "name": "Team Magma Hideout 3F2R Encounters",
         "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
         "sections":
         [
@@ -1425,8 +1511,38 @@
         [
           {
             "map": "encountermap",
-            "x": 44,
-            "y": 44
+            "x": 36,
+            "y": 36
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 4F Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 1, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 36,
+            "y": 28
           }
         ]
       },
@@ -1943,6 +2059,25 @@
           {
             "map": "encountermap",
             "x": 20,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Rusturf Tunnel Encounter",
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
             "y": 60
           }
         ]
@@ -2797,7 +2932,7 @@
             "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Super Rod Encounter 4, 20%",
+            "name": "Super Rod Encounter 4, 15%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["super_rod"]
@@ -3434,7 +3569,7 @@
       },
       {
         "name": "Shoal Cave B2F Encounters",
-        "access_rules": ["$route_124_access"],
+        "access_rules": ["$route_124_access,$strength"],
         "sections":
         [
           {
@@ -3598,7 +3733,7 @@
         [
           {
             "map": "encountermap",
-            "x": 180,
+            "x": 184,
             "y": 68
           }
         ]
@@ -3629,37 +3764,7 @@
           {
             "map": "encountermap",
             "x": 176,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Cave of Origin B1F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre"],
-        "sections":
-        [
-          {
-            "name": "Cave Encounter 1, 60%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 2, 30%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 3, 10%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "encountermap",
-            "x": 184,
-            "y": 60
+            "y": 68
           }
         ]
       },
@@ -3722,16 +3827,6 @@
         "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
         "sections":
         [
-          {
-            "name": "Cave Encounter 1, 90%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
-          {
-            "name": "Cave Encounter 2, 10%",
-            "chest_unopened_img": "/images/locations/cave.png",
-		        "chest_opened_img": "/images/locations/cave_bw.png"
-          },
           {
             "name": "Surf Encounter 1, 60%",
             "chest_unopened_img": "/images/locations/surfing.png",
@@ -4026,6 +4121,31 @@
         ]
       },
       {
+        "name": "Seafloor Cavern 8",
+        "access_rules": ["$seafloor_cavern_access,$dive,sea_floor_grunts_on","$seafloor_cavern_access,$dive,steven_gives_dive"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 172,
+            "y": 84
+          }
+        ]
+      },
+      {
         "name": "Route 128 Encounters",
         "access_rules": ["$route_124_access"],
         "sections":
@@ -4259,7 +4379,7 @@
       },
       {
         "name": "Sky Pillar 1F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre"],
+        "access_rules": ["release_kyogre"],
         "sections":
         [
           {
@@ -4294,7 +4414,7 @@
       },
       {
         "name": "Sky Pillar 3F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre,mach_bike"],
+        "access_rules": ["release_kyogre,mach_bike"],
         "sections":
         [
           {
@@ -4329,7 +4449,7 @@
       },
       {
         "name": "Sky Pillar 5F Encounters",
-        "access_rules": ["$sootopolis_access,release_kyogre,mach_bike"],
+        "access_rules": ["release_kyogre,mach_bike"],
         "sections":
         [
           {
@@ -4362,8 +4482,8 @@
         [
           {
             "map": "encountermap",
-            "x": 168,
-            "y": 84
+            "x": 156,
+            "y": 92
           }
         ]
       },
@@ -4543,7 +4663,7 @@
       },
       {
         "name": "Route 134 Encounters",
-        "access_rules": ["$route_124_access"],
+        "access_rules": ["$route_124_access","$slateport_access,$surf"],
         "sections":
         [
           {
@@ -4629,31 +4749,31 @@
 >>>>>>> a76d617 (updated hosted items to grey out instead of light up when clicked)
           },
           {
-            "name": "Old/Good Rod Encounter 1, 70/60%",
+            "name": "Old Rod Encounter 1, 30%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod"]
+          },
+          {
+            "name": "Old/Good Rod Encounter 2, 70/60%",
             "chest_unopened_img": "/images/items/old_rod.png",
 		        "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
-            "name": "Old/Good Rod Encounter 2, 30/20%",
+            "name": "Good/Super Rod Encounter 3, 20/40%",
             "chest_unopened_img": "//images/items/old_rod.png",
-		        "chest_opened_img": "//images/items/old_rod_bw.png",
-            "access_rules": ["old_rod","good_rod"]
+		        "chest_opened_img": "//images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Good/Super Rod Encounter 3, 20/45%",
+            "name": "Good/Super Rod Encounter 4, 20/45%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
           },
           {
-            "name": "Super Rod Encounter 4, 40%",
-            "chest_unopened_img": "/images/items/super_rod.png",
-		        "chest_opened_img": "/images/items/super_rod_bw.png",
-            "access_rules": ["super_rod"]
-          },
-          {
-            "name": "Super Rod Encounter 5, 40%",
+            "name": "Super Rod Encounter 5, 15%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["super_rod"]
@@ -4855,7 +4975,7 @@
       },
       {
         "name": "Artisan Cave Encounters",
-        "access_rules": ["$battle_frontier_access, wailmer_pail"],
+        "access_rules": ["$battle_frontier_access,wailmer_pail,$surf"],
         "sections":
         [
           {
