@@ -2941,15 +2941,15 @@
           {
             "name": "SE - Hidden Item in South Grass 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,$surf,[$hidden]","safari_on,$surf,[$hidden]"],
+	    "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
             "visibility_rules": ["hidden_on,$safari_visibility"]
           },
           {
             "name": "SE - Hidden Item in South Grass 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,$surf,[$hidden]","safari_on,$surf,[$hidden]"],
+	    "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
             "visibility_rules": ["hidden_on,$safari_visibility"]
           },
           {
