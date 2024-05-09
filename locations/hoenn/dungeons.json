@@ -1091,7 +1091,8 @@
         [
           {
             "name": "Undo Regi Seal (Event)",
-            "hosted_item": "undo_regi_seal_hosted"
+            "hosted_item": "undo_regi_seal_hosted",
+            "visibility_rules": ["goal_legendary_hunt"]
           }
         ],
         "map_locations":
