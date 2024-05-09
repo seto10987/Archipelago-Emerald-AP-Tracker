@@ -12,6 +12,7 @@ KEY_ITEMS_ID = ""
 LEGENDARY_ID = ""
 
 OBTAINED_ITEMS = {}
+LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-Oh","Lugia"}
 
 function resetItems()
 	for _, value in pairs(ITEM_MAPPING) do
@@ -65,6 +66,9 @@ function onClear(slot_data)
         Tracker:FindObjectForCode(code).CurrentStage = tableContains(slot_data['remove_roadblocks'], roadblock) and 1 or 0
       end
 	  elseif key == "allowed_legendary_hunt_encounters" then
+      for legendary, code in pairs(LEGENDARY_HUNT) do
+        Tracker:FindObjectForCode(code).Active = tableContains(slot_data['allowed_legendary_hunt_encounters'], legendary)
+      end
       LEGENDARIES_ALLOWED = slot_data['allowed_legendary_hunt_encounters']
 	  elseif SLOT_CODES[key] then
 		  Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]

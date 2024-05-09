@@ -4111,14 +4111,14 @@
             "chest_unopened_img": "/images/locations/latios.png",
 		        "chest_opened_img": "/images/locations/latios_bw.png",
             "access_rules": ["defeat_champion"],
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Latios"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_latios"]
           },
           {
             "name": "Catch Latios",
             "chest_unopened_img": "/images/locations/latios.png",
 		        "chest_opened_img": "/images/locations/latios_bw.png",
             "access_rules": ["defeat_champion"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Latios"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_latios"]
           }
         ],
         "map_locations":

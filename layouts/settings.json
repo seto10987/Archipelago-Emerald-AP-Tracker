@@ -8,7 +8,7 @@
     {
     "type": "tabbed",
     "dock": "top",
-    "content": [    
+    "content": [
       {
         "title": "Shuffles",
         "type": "array",
@@ -61,6 +61,25 @@
             "rows":
                 [
                   ["goal","e4_req_setting","e4_req_count","norman_req_setting","norman_req_count","legendary_hunt_req_setting","legendary_hunt_req_count"]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Legendary Hunt",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content":
+            [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "rows":
+                [
+                  ["legendary_hunt_groudon","legendary_hunt_kyogre","legendary_hunt_rayquaza","legendary_hunt_latios","legendary_hunt_latias","legendary_hunt_regirock"],
+                  ["legendary_hunt_registeel","legendary_hunt_regice","legendary_hunt_ho-oh","legendary_hunt_lugia","legendary_hunt_deoxys","legendary_hunt_mew"]
                 ]
               }
             ]

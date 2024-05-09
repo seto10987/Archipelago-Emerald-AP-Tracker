@@ -28,7 +28,7 @@
         "name": "Goal - Defeat Norman"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/hunt.png",
         "codes": "goal,goal_legendary_hunt",
         "inherit_codes": false,
@@ -553,14 +553,14 @@
     "stages":
     [
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/red_x.png",
         "codes":"legendary_hunt_req_setting,legendary_hunt_req_defeat",
         "inherit_codes": false,
         "name": "Legendary Hunt Requirement - Defeat"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/pokeball.png",
         "codes":"legendary_hunt_req_setting,legendary_hunt_req_catch",
         "inherit_codes": false,
@@ -577,63 +577,63 @@
     "stages":
     [
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/1.png",
         "codes":"legendary_hunt_req_count",
         "name": "Legendary Hunt Requirement Amount - 1"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/2.png",
         "name": "Legendary Hunt Requirement Amount - 2"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/3.png",
         "name": "Legendary Hunt Requirement Amount - 3"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/4.png",
         "name": "Legendary Hunt Requirement Amount - 4"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/5.png",
         "name": "Legendary Hunt Requirement Amount - 5"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/6.png",
         "name": "Legendary Hunt Requirement Amount - 6"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/7.png",
         "name": "Legendary Hunt Requirement Amount - 7"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/8.png",
         "name": "Legendary Hunt Requirement Amount - 8"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/9.png",
         "name": "Legendary Hunt Requirement Amount - 9"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/10.png",
         "name": "Legendary Hunt Requirement Amount - 10"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/11.png",
         "name": "Legendary Hunt Requirement Amount - 11"
       },
       {
-        "img": "/images/settings/legendary.png",
+        "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/12.png",
         "name": "Legendary Hunt Requirement Amount - 12"
       }
@@ -1080,26 +1080,75 @@
     ]
   },
   {
-
-    "name": "Assume Events Completed",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/events_completed_off.png",
-        "img_mods": "@disabled",
-        "codes": "events_completed_setting,events_completed_off",
-        "inherit_codes": false,
-        "name": "Assume Events Completed - Off"
-      },
-      {
-        "img": "/images/settings/events_completed_on.png",
-        "codes": "events_completed_setting,events_completed_on",
-        "inherit_codes": false,
-        "name": "Assume Events Completed - On"
-      }
-    ]
+    "name": "Groudon",
+    "type": "toggle",
+    "img": "/images/settings/groudon.png",
+    "codes": "legendary_hunt_groudon"
+  },
+  {
+    "name": "Kyogre",
+    "type": "toggle",
+    "img": "/images/settings/kyogre.png",
+    "codes": "legendary_hunt_kyogre"
+  },
+  {
+    "name": "Rayquaza",
+    "type": "toggle",
+    "img": "/images/settings/rayquaza.png",
+    "codes": "legendary_hunt_rayquaza"
+  },
+  {
+    "name": "Latios",
+    "type": "toggle",
+    "img": "/images/settings/latios.png",
+    "codes": "legendary_hunt_latios"
+  },
+  {
+    "name": "Latias",
+    "type": "toggle",
+    "img": "/images/settings/latias.png",
+    "codes": "legendary_hunt_latias"
+  },
+  {
+    "name": "Regirock",
+    "type": "toggle",
+    "img": "/images/settings/regirock.png",
+    "codes": "legendary_hunt_regirock"
+  },
+  {
+    "name": "Registeel",
+    "type": "toggle",
+    "img": "/images/settings/registeel.png",
+    "codes": "legendary_hunt_registeel"
+  },
+  {
+    "name": "Regice",
+    "type": "toggle",
+    "img": "/images/settings/regice.png",
+    "codes": "legendary_hunt_regice"
+  },
+  {
+    "name": "Ho-Oh",
+    "type": "toggle",
+    "img": "/images/settings/ho-oh.png",
+    "codes": "legendary_hunt_ho-oh"
+  },
+  {
+    "name": "Lugia",
+    "type": "toggle",
+    "img": "/images/settings/lugia.png",
+    "codes": "legendary_hunt_lugia"
+  },
+  {
+    "name": "Deoxys",
+    "type": "toggle",
+    "img": "/images/settings/deoxys.png",
+    "codes": "legendary_hunt_deoxys"
+  },
+  {
+    "name": "Mew",
+    "type": "toggle",
+    "img": "/images/settings/mew.png",
+    "codes": "legendary_hunt_mew"
   }
 ]

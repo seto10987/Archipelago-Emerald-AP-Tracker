@@ -2,8 +2,6 @@ BADGES = {"stone_badge","knuckle_badge","dynamo_badge","heat_badge","balance_bad
 
 GYMS = {"defeat_roxanne","defeat_brawly","defeat_wattson","defeat_flannery","defeat_norman","defeat_winona","defeat_tate_and_liza","defeat_juan"}
 
-LEGENDARIES_ALLOWED = {"Groudon","Kyogre","Rayquaza","Latias","Latios","Regirock","Regice","Registeel","Mew","Deoxys","Ho-Oh","Lugia"}
-
 -- Access Functions
 function free_fly(location)
   return has("free_fly_"..location) and fly()
@@ -265,8 +263,4 @@ end
 
 function legendary_hunt_catch()
   return has("goal_legendary_hunt") and has("legendary_hunt_req_catch")
-end
-
-function legendary_hunt(legendary)
-  return tableContains(LEGENDARIES_ALLOWED, legendary)
 end

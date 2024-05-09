@@ -681,7 +681,7 @@ LEGENDARY_FLAG_MAPPING =
   {
     bit = 4,
     name = "Latios",
-    locations = {"@Routes/Route 117/Defeat Latios","@Routes/Route 117/Catch Latios"}
+    locations = {"@Routes/Any Route/Defeat Latios","@Routes/Any Route/Catch Latios"}
   },
   {
     bit = 5,
