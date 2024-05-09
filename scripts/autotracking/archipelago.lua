@@ -20,10 +20,6 @@ function resetItems()
 			if object then
 				object.Active = false
 			end
-      object = Tracker:FindObjectForCode(value[1].."_hosted")
-      if object then
-        object.Active = false
-      end
 		end
 	end
 end
@@ -105,7 +101,7 @@ function onItem(index, item_id, item_name, player_number)
     end
     return
   end
-	local object = Tracker:FindObjectForCode(value[1].."_hosted")
+	local object = Tracker:FindObjectForCode(value[1])
 	if object then
 		object.Active = true
     table.insert(OBTAINED_ITEMS, value[1])
@@ -168,9 +164,9 @@ function updateEvents(value)
       for _, code in pairs(event.codes) do
         if code.setting == nil or has(code.setting) then
           if code.code == "harbor_mail" then
-            Tracker:FindObjectForCode(code.code.."_hosted").Active = Tracker:FindObjectForCode(code.code.."_hosted").Active or value & bitmask ~= 0
+            Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & bitmask ~= 0
           else
-            Tracker:FindObjectForCode(code.code.."_hosted").Active = value & bitmask ~= 0
+            Tracker:FindObjectForCode(code.code).Active = value & bitmask ~= 0
           end
         end
       end
@@ -187,7 +183,7 @@ function updateKeyItems(value)
       local bitmask = 2 ^ key_item.bit
       for _, code in pairs(key_item.codes) do
         if (code.setting == nil or has(code.setting)) and not tableContains(OBTAINED_ITEMS, code.code) then
-          Tracker:FindObjectForCode(code.code.."_hosted").Active = value & bitmask ~= 0
+          Tracker:FindObjectForCode(code.code).Active = value & bitmask ~= 0
         end
       end
     end
