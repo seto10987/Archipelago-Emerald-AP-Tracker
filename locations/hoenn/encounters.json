@@ -4742,11 +4742,7 @@
             "name": "Surf Encounter 3, 5%",
             "chest_unopened_img": "/images/locations/surfing.png",
 		        "chest_opened_img": "/images/locations/surfing_bw.png",
-<<<<<<< HEAD
-            "access_rules": ["$surf"]
-=======
         "access_rules": ["$surf"]
->>>>>>> a76d617 (updated hosted items to grey out instead of light up when clicked)
           },
           {
             "name": "Old Rod Encounter 1, 30%",
