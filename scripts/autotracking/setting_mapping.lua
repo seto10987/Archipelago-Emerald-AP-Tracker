@@ -245,6 +245,15 @@ SLOT_CODES =
       [1] = 1  -- Modify Route 118 On
     }
   },
+  normalize_encounters =
+  {
+    code = "normalize_encounters_setting",
+    mapping =
+    {
+      [0] = 0, -- Normalize Encounters Off
+      [1] = 1  -- Normalize Encounters On
+    }
+  },
   free_fly_location_id =
   {
     code = "free_fly_setting",
