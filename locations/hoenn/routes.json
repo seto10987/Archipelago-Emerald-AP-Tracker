@@ -2150,20 +2150,6 @@
             "chest_unopened_img": "/images/locations/lady.png",
 		        "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Latios",
-            "chest_unopened_img": "/images/locations/latios.png",
-		        "chest_opened_img": "/images/locations/latios_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Latios"]
-          },
-          {
-            "name": "Catch Latios",
-            "chest_unopened_img": "/images/locations/latios.png",
-		        "chest_opened_img": "/images/locations/latios_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Latios"]
           }
         ],
         "map_locations":
@@ -4112,6 +4098,35 @@
             "map": "hoennmap",
             "x": 92,
             "y": 100
+          }
+        ]
+      },
+      {
+        "name": "Any Route",
+        "access_rules": ["$mauville_access"],
+        "sections":
+        [
+          {
+            "name": "Defeat Latios",
+            "chest_unopened_img": "/images/locations/latios.png",
+		        "chest_opened_img": "/images/locations/latios_bw.png",
+            "access_rules": ["defeat_champion"],
+            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Latios"]
+          },
+          {
+            "name": "Catch Latios",
+            "chest_unopened_img": "/images/locations/latios.png",
+		        "chest_opened_img": "/images/locations/latios_bw.png",
+            "access_rules": ["defeat_champion"],
+            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Latios"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "hoennmap",
+            "x": 156,
+            "y": 12
           }
         ]
       }
