@@ -892,7 +892,7 @@
   },
   {
 
-    "name": "Normalize Encounters",
+    "name": "Normalize Encounter Rates",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 1,
