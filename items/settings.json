@@ -1082,72 +1082,84 @@
   {
     "name": "Groudon",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/groudon.png",
     "codes": "legendary_hunt_groudon"
   },
   {
     "name": "Kyogre",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/kyogre.png",
     "codes": "legendary_hunt_kyogre"
   },
   {
     "name": "Rayquaza",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/rayquaza.png",
     "codes": "legendary_hunt_rayquaza"
   },
   {
     "name": "Latios",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/latios.png",
     "codes": "legendary_hunt_latios"
   },
   {
     "name": "Latias",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/latias.png",
     "codes": "legendary_hunt_latias"
   },
   {
     "name": "Regirock",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/regirock.png",
     "codes": "legendary_hunt_regirock"
   },
   {
     "name": "Registeel",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/registeel.png",
     "codes": "legendary_hunt_registeel"
   },
   {
     "name": "Regice",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/regice.png",
     "codes": "legendary_hunt_regice"
   },
   {
     "name": "Ho-Oh",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/ho-oh.png",
     "codes": "legendary_hunt_ho-oh"
   },
   {
     "name": "Lugia",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/lugia.png",
     "codes": "legendary_hunt_lugia"
   },
   {
     "name": "Deoxys",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/deoxys.png",
     "codes": "legendary_hunt_deoxys"
   },
   {
     "name": "Mew",
     "type": "toggle",
+    "initial_active_state": true,
     "img": "/images/settings/mew.png",
     "codes": "legendary_hunt_mew"
   }
