@@ -1065,14 +1065,14 @@
             "chest_unopened_img": "/images/locations/rayquaza.png",
 		        "chest_opened_img": "/images/locations/rayquaza_bw.png",
             "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike"],
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Rayquaza"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_rayquaza"]
           },
           {
             "name": "Catch Rayquaza",
             "chest_unopened_img": "/images/locations/rayquaza.png",
 		        "chest_opened_img": "/images/locations/rayquaza_bw.png",
             "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Rayquaza"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_rayquaza"]
           }
         ],
         "map_locations":
@@ -1091,7 +1091,8 @@
         [
           {
             "name": "Undo Regi Seal (Event)",
-            "hosted_item": "undo_regi_seal_hosted"
+            "hosted_item": "undo_regi_seal_hosted",
+            "visibility_rules": ["goal_legendary_hunt"]
           }
         ],
         "map_locations":
@@ -1113,14 +1114,14 @@
             "chest_unopened_img": "/images/locations/regirock.png",
 		        "chest_opened_img": "/images/locations/regirock_bw.png",
             "access_rules": ["$rock_smash"],
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Regirock"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_regirock"]
           },
           {
             "name": "Catch Regirock",
             "chest_unopened_img": "/images/locations/regirock.png",
 		        "chest_opened_img": "/images/locations/regirock_bw.png",
             "access_rules": ["$rock_smash,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Regirock"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_regirock"]
           }
         ],
         "map_locations":
@@ -1141,14 +1142,14 @@
             "name": "Defeat Regice",
             "chest_unopened_img": "/images/locations/regice.png",
 		        "chest_opened_img": "/images/locations/regice_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Regice"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_regice"]
           },
           {
             "name": "Catch Regice",
             "chest_unopened_img": "/images/locations/regice.png",
 		        "chest_opened_img": "/images/locations/regice_bw.png",
             "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Regice"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_regice"]
           }
         ],
         "map_locations":
@@ -1170,14 +1171,14 @@
             "chest_unopened_img": "/images/locations/registeel.png",
 		        "chest_opened_img": "/images/locations/registeel_bw.png",
             "access_rules": ["$flash|tomb"],
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Registeel"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_registeel"]
           },
           {
             "name": "Catch Registeel",
             "chest_unopened_img": "/images/locations/registeel.png",
 		        "chest_opened_img": "/images/locations/registeel_bw.png",
             "access_rules": ["$flash|tomb,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Registeel"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_registeel"]
           }
         ],
         "map_locations":
@@ -1374,14 +1375,14 @@
             "name": "Defeat Groudon",
             "chest_unopened_img": "/images/locations/groudon.png",
 		        "chest_opened_img": "/images/locations/groudon_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Groudon"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_groudon"]
           },
           {
             "name": "Catch Groudon",
             "chest_unopened_img": "/images/locations/groudon.png",
 		        "chest_opened_img": "/images/locations/groudon_bw.png",
             "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Groudon"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_groudon"]
           }
         ],
         "map_locations":
@@ -1469,14 +1470,14 @@
             "name": "Defeat Kyogre",
             "chest_unopened_img": "/images/locations/kyogre.png",
 		        "chest_opened_img": "/images/locations/kyogre_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,$legendary_hunt|Kyogre"]
+            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_kyogre"]
           },
           {
             "name": "Catch Kyogre",
             "chest_unopened_img": "/images/locations/kyogre.png",
 		        "chest_opened_img": "/images/locations/kyogre_bw.png",
             "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,$legendary_hunt|Kyogre"]
+            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_kyogre"]
           }
         ],
         "map_locations":

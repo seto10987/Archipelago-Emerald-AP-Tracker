@@ -284,3 +284,19 @@ ROADBLOCKS =
   ["Aqua Hideout Grunts"] = "hideout_grunts_setting",
   ["Seafloor Cavern Aqua Grunt"] = "sea_floor_grunts_setting"
 }
+
+LEGENDARY_HUNT =
+{
+  ["Groudon"] = "legendary_hunt_groudon",
+  ["Kyogre"] = "legendary_hunt_kyogre",
+  ["Rayquaza"] = "legendary_hunt_rayquaza",
+  ["Latios"] = "legendary_hunt_latios",
+  ["Latias"] = "legendary_hunt_latias",
+  ["Regirock"] = "legendary_hunt_regirock",
+  ["Registeel"] = "legendary_hunt_registeel",
+  ["Regice"] = "legendary_hunt_regice",
+  ["Ho-Oh"] = "legendary_hunt_ho-oh",
+  ["Lugia"] = "legendary_hunt_lugia",
+  ["Deoxys"] = "legendary_hunt_deoxys",
+  ["Mew"] = "legendary_hunt_mew"
+}

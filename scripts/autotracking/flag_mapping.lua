@@ -242,76 +242,76 @@ EVENT_FLAG_MAPPING =
       }
     }
   },
-  {
-    bit = 22,
-    codes =
-    {
-      {
-        code = "undo_regi_seal",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 23,
-    codes =
-    {
-      {
-        code = "return_devon_goods",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 24,
-    codes =
-    {
-      {
-        code = "talk_to_dock",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 25,
-    codes =
-    {
-      {
-        code = "defeat_maxie_mt_chimney",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 26,
-    codes =
-    {
-      {
-        code = "wingull_quest_1",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 27,
-    codes =
-    {
-      {
-        code = "wingull_quest_2",
-        setting = nil
-      }
-    }
-  },
-  {
-    bit = 28,
-    codes =
-    {
-      {
-        code = "meet_flower_shop_owner",
-        setting = nil
-      }
-    }
-  }
+  -- {
+  --   bit = 22,
+  --   codes =
+  --   {
+  --     {
+  --       code = "undo_regi_seal",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 23,
+  --   codes =
+  --   {
+  --     {
+  --       code = "return_devon_goods",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 24,
+  --   codes =
+  --   {
+  --     {
+  --       code = "talk_to_dock",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 25,
+  --   codes =
+  --   {
+  --     {
+  --       code = "defeat_maxie_mt_chimney",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 26,
+  --   codes =
+  --   {
+  --     {
+  --       code = "wingull_quest_1",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 27,
+  --   codes =
+  --   {
+  --     {
+  --       code = "wingull_quest_2",
+  --       setting = nil
+  --     }
+  --   }
+  -- },
+  -- {
+  --   bit = 28,
+  --   codes =
+  --   {
+  --     {
+  --       code = "meet_flower_shop_owner",
+  --       setting = nil
+  --     }
+  --   }
+  -- }
 }
 
 KEY_ITEM_FLAG_MAPPING =
@@ -428,10 +428,10 @@ KEY_ITEM_FLAG_MAPPING =
         code = "devon_goods",
         setting = "key_items_off"
       },
-      {
-        code = "recover_devon_goods",
-        setting = nil
-      }
+      -- {
+      --   code = "recover_devon_goods",
+      --   setting = nil
+      -- }
     }
   },
   {
@@ -681,7 +681,7 @@ LEGENDARY_FLAG_MAPPING =
   {
     bit = 4,
     name = "Latios",
-    locations = {"@Routes/Route 117/Defeat Latios","@Routes/Route 117/Catch Latios"}
+    locations = {"@Routes/Any Route/Defeat Latios","@Routes/Any Route/Catch Latios"}
   },
   {
     bit = 5,

@@ -65,7 +65,9 @@ function onClear(slot_data)
         Tracker:FindObjectForCode(code).CurrentStage = tableContains(slot_data['remove_roadblocks'], roadblock) and 1 or 0
       end
 	  elseif key == "allowed_legendary_hunt_encounters" then
-      LEGENDARIES_ALLOWED = slot_data['allowed_legendary_hunt_encounters']
+      for legendary, code in pairs(LEGENDARY_HUNT) do
+        Tracker:FindObjectForCode(code).Active = tableContains(slot_data['allowed_legendary_hunt_encounters'], legendary)
+      end
 	  elseif SLOT_CODES[key] then
 		  Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
 	  end
@@ -198,7 +200,7 @@ function updateLegendaries(value)
     local count = 0
     for _, legendary in pairs(LEGENDARY_FLAG_MAPPING) do
       local bitmask = 2 ^ legendary.bit
-      if value & bitmask ~= 0 and tableContains(LEGENDARIES_ALLOWED, legendary.name) then
+      if value & bitmask ~= 0 and has(LEGENDARY_HUNT[legendary.name]) then
         count = count + 1
       end
       for _, location in pairs(legendary.locations) do
