@@ -1,12 +1,16 @@
 {
   "setting_grid":
   {
-    "type": "array",
-    "orientation": "vertical",
-    "margin": "0,0",
-    "content":
-    [
+  "type": "array",
+  "v_alignment": "stretch",
+  "margin": "0, 0",
+  "content": [
+    {
+    "type": "tabbed",
+    "dock": "top",
+    "content": [    
       {
+        "title": "Shuffles",
         "type": "array",
         "orientation": "horizontal",
         "margin": "0,0",
@@ -15,13 +19,50 @@
           {
             "type": "itemgrid",
             "item_margin": "2,2",
-            "h_alignment": "left",
+            "h_alignment": "center",
             "rows":
             [
-              ["goal","e4_req_setting","e4_req_count","norman_req_setting","norman_req_count","legendary_hunt_req_setting","legendary_hunt_req_count","feather_badge_setting"],
-              ["badges_setting","hms_setting","key_items_setting","bikes_setting","tickets_setting","rods_setting","overworld_setting","hidden_setting"],
-              ["gifts_setting","berries_setting","pokedex_setting","trainers_setting","itemfinder_setting","flash_setting","route_115_boulders_setting","route_115_bumpy_slope_setting"],
-              ["route_118_rails_setting","rt_110_grunts_setting","rt_112_grunts_setting","rt_119_grunts_setting","safari_setting","wailmer_setting","hideout_grunts_setting","sea_floor_grunts_setting"]
+              ["overworld_setting","hidden_setting","trainers_setting","pokedex_setting","berries_setting","gifts_setting"],
+              ["badges_setting","hms_setting","key_items_setting","bikes_setting","rods_setting","tickets_setting"]
+            ]
+          }
+        ]
+      },
+      {
+      "title": "Logic",
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+          "content":
+        [
+          {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "rows":
+            [
+              ["feather_badge_setting","itemfinder_setting","flash_setting","normalize_encounters_setting","route_115_boulders_setting","route_115_bumpy_slope_setting","route_118_rails_setting"],
+              ["rt_110_grunts_setting","rt_112_grunts_setting","rt_119_grunts_setting","safari_setting","wailmer_setting","hideout_grunts_setting","sea_floor_grunts_setting"]
+            ]
+          }
+        ]
+      },
+      {
+      "title": "Goal",
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+          "content":
+            [
+              {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+                [
+                  ["goal","e4_req_setting","e4_req_count","norman_req_setting","norman_req_count","legendary_hunt_req_setting","legendary_hunt_req_count"]
+                ]
+              }
             ]
           }
         ]

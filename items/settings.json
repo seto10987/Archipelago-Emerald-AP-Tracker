@@ -891,6 +891,32 @@
     ]
   },
   {
+
+    "name": "Normalize Encounter Rates",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "codes": "normalize_encounters_setting",
+    "stages":
+    [
+      {
+        "name": "Normalize Encounters - Off",
+        "img": "/images/locations/grass64.png",
+        "img_mods": "overlay|/images/overlays/vanilla.png",
+        "codes": "normalize_encounters_off",
+        "inherit_codes": false
+      },
+      {
+        "name": "Normalize Encounters - On",
+        "img": "/images/locations/grass64.png",
+        "img_mods": "overlay|/images/overlays/normal.png",
+        "codes": "normalize_encounters_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
     "name": "Free Fly Location",
     "type": "progressive",
     "allow_disabled": false,
