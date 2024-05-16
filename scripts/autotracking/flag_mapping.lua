@@ -2,6 +2,7 @@ EVENT_FLAG_MAPPING =
 {
   {
     bit = 0,
+    status = 0,
     codes =
     {
       {
@@ -16,6 +17,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 1,
+    status = 0,
     codes =
     {
       {
@@ -30,6 +32,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 2,
+    status = 0,
     codes =
     {
       {
@@ -44,6 +47,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 3,
+    status = 0,
     codes =
     {
       {
@@ -58,6 +62,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 4,
+    status = 0,
     codes =
     {
       {
@@ -72,6 +77,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 5,
+    status = 0,
     codes =
     {
       {
@@ -86,6 +92,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 6,
+    status = 0,
     codes =
     {
       {
@@ -100,6 +107,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 7,
+    status = 0,
     codes =
     {
       {
@@ -114,6 +122,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 8,
+    status = 0,
     codes =
     {
       {
@@ -124,6 +133,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 9,
+    status = 0,
     codes =
     {
       {
@@ -134,6 +144,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 10,
+    status = 0,
     codes =
     {
       {
@@ -144,6 +155,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 11,
+    status = 0,
     codes =
     {
       {
@@ -154,6 +166,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 12,
+    status = 0,
     codes =
     {
       {
@@ -164,6 +177,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 13,
+    status = 0,
     codes =
     {
       {
@@ -174,6 +188,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 14,
+    status = 0,
     codes =
     {
       {
@@ -184,6 +199,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 15,
+    status = 0,
     codes =
     {
       {
@@ -194,6 +210,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 16,
+    status = 0,
     codes =
     {
       {
@@ -204,6 +221,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 17,
+    status = 0,
     codes =
     {
       {
@@ -214,6 +232,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 19,
+    status = 0,
     codes =
     {
       {
@@ -224,6 +243,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 20,
+    status = 0,
     codes =
     {
       {
@@ -234,6 +254,7 @@ EVENT_FLAG_MAPPING =
   },
   {
     bit = 21,
+    status = 0,
     codes =
     {
       {
@@ -242,82 +263,90 @@ EVENT_FLAG_MAPPING =
       }
     }
   },
-  -- {
-  --   bit = 22,
-  --   codes =
-  --   {
-  --     {
-  --       code = "undo_regi_seal",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 23,
-  --   codes =
-  --   {
-  --     {
-  --       code = "return_devon_goods",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 24,
-  --   codes =
-  --   {
-  --     {
-  --       code = "talk_to_dock",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 25,
-  --   codes =
-  --   {
-  --     {
-  --       code = "defeat_maxie_mt_chimney",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 26,
-  --   codes =
-  --   {
-  --     {
-  --       code = "wingull_quest_1",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 27,
-  --   codes =
-  --   {
-  --     {
-  --       code = "wingull_quest_2",
-  --       setting = nil
-  --     }
-  --   }
-  -- },
-  -- {
-  --   bit = 28,
-  --   codes =
-  --   {
-  --     {
-  --       code = "meet_flower_shop_owner",
-  --       setting = nil
-  --     }
-  --   }
-  -- }
+  {
+    bit = 22,
+    status = 0,
+    codes =
+    {
+      {
+        code = "undo_regi_seal",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 23,
+    status = 0,
+    codes =
+    {
+      {
+        code = "return_devon_goods",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 24,
+    status = 0,
+    codes =
+    {
+      {
+        code = "talk_to_dock",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 25,
+    status = 0,
+    codes =
+    {
+      {
+        code = "defeat_maxie_mt_chimney",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 26,
+    status = 0,
+    codes =
+    {
+      {
+        code = "wingull_quest_1",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 27,
+    status = 0,
+    codes =
+    {
+      {
+        code = "wingull_quest_2",
+        setting = nil
+      }
+    }
+  },
+  {
+    bit = 28,
+    status = 0,
+    codes =
+    {
+      {
+        code = "meet_flower_shop_owner",
+        setting = nil
+      }
+    }
+  }
 }
 
 KEY_ITEM_FLAG_MAPPING =
 {
   {
     bit = 0,
+    status = 0,
     codes =
     {
       {
@@ -328,6 +357,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 1,
+    status = 0,
     codes =
     {
       {
@@ -338,6 +368,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 2,
+    status = 0,
     codes =
     {
       {
@@ -348,6 +379,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 3,
+    status = 0,
     codes =
     {
       {
@@ -358,6 +390,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 4,
+    status = 0,
     codes =
     {
       {
@@ -368,6 +401,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 5,
+    status = 0,
     codes =
     {
       {
@@ -378,6 +412,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 6,
+    status = 0,
     codes =
     {
       {
@@ -388,6 +423,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 7,
+    status = 0,
     codes =
     {
       {
@@ -398,6 +434,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 8,
+    status = 0,
     codes =
     {
       {
@@ -412,6 +449,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 9,
+    status = 0,
     codes =
     {
       {
@@ -422,20 +460,22 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 10,
+    status = 0,
     codes =
     {
       {
         code = "devon_goods",
         setting = "key_items_off"
       },
-      -- {
-      --   code = "recover_devon_goods",
-      --   setting = nil
-      -- }
+      {
+        code = "recover_devon_goods",
+        setting = nil
+      }
     }
   },
   {
     bit = 11,
+    status = 0,
     codes =
     {
       {
@@ -446,6 +486,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 12,
+    status = 0,
     codes =
     {
       {
@@ -456,6 +497,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 13,
+    status = 0,
     codes =
     {
       {
@@ -466,6 +508,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 14,
+    status = 0,
     codes =
     {
       {
@@ -476,6 +519,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 15,
+    status = 0,
     codes =
     {
       {
@@ -486,6 +530,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 16,
+    status = 0,
     codes =
     {
       {
@@ -496,6 +541,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 17,
+    status = 0,
     codes =
     {
       {
@@ -506,6 +552,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 18,
+    status = 0,
     codes =
     {
       {
@@ -516,6 +563,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 19,
+    status = 0,
     codes =
     {
       {
@@ -526,6 +574,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 20,
+    status = 0,
     codes =
     {
       {
@@ -536,6 +585,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 21,
+    status = 0,
     codes =
     {
       {
@@ -546,6 +596,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 22,
+    status = 0,
     codes =
     {
       {
@@ -556,6 +607,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 23,
+    status = 0,
     codes =
     {
       {
@@ -566,6 +618,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 24,
+    status = 0,
     codes =
     {
       {
@@ -576,6 +629,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 25,
+    status = 0,
     codes =
     {
       {
@@ -586,6 +640,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 26,
+    status = 0,
     codes =
     {
       {
@@ -596,6 +651,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 27,
+    status = 0,
     codes =
     {
       {
@@ -606,6 +662,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 28,
+    status = 0,
     codes =
     {
       {
@@ -616,6 +673,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 29,
+    status = 0,
     codes =
     {
       {
@@ -626,6 +684,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 30,
+    status = 0,
     codes =
     {
       {
@@ -636,6 +695,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 31,
+    status = 0,
     codes =
     {
       {
@@ -646,6 +706,7 @@ KEY_ITEM_FLAG_MAPPING =
   },
   {
     bit = 32,
+    status = 0,
     codes =
     {
       {
@@ -660,61 +721,73 @@ LEGENDARY_FLAG_MAPPING =
 {
   {
     bit = 0,
+    status = 0,
     name = "Groudon",
     locations = {"@Dungeons/Terra Cave (Route 114)/Defeat Groudon","@Dungeons/Terra Cave (Route 114)/Catch Groudon"}
   },
   {
     bit = 1,
+    status = 0,
     name = "Kyogre",
     locations = {"@Dungeons/Marine Cave (Route 105)/Defeat Kyogre","@Dungeons/Marine Cave (Route 105)/Catch Kyogre"}
   },
   {
     bit = 2,
+    status = 0,
     name = "Rayquaza",
     locations = {"@Dungeons/Sky Pillar/Defeat Rayquaza","@Dungeons/Sky Pillar/Catch Rayquaza"}
   },
   {
     bit = 3,
+    status = 0,
     name = "Latias",
     locations = {"@Islands/Southern Island/Defeat Latias","@Islands/Southern Island/Catch Latias"}
   },
   {
     bit = 4,
+    status = 0,
     name = "Latios",
     locations = {"@Routes/Any Route/Defeat Latios","@Routes/Any Route/Catch Latios"}
   },
   {
     bit = 5,
+    status = 0,
     name = "Regirock",
     locations = {"@Dungeons/Desert Ruins/Defeat Regirock","@Dungeons/Desert Ruins/Catch Regirock"}
   },
   {
     bit = 6,
+    status = 0,
     name = "Regice",
     locations = {"@Dungeons/Island Cave/Defeat Regice","@Dungeons/Island Cave/Catch Regice"}
   },
   {
     bit = 7,
+    status = 0,
     name = "Registeel",
     locations = {"@Dungeons/Ancient Tomb/Defeat Registeel","@Dungeons/Ancient Tomb/Catch Registeel"}
   },
   {
     bit = 8,
+    status = 0,
     name = "Mew",
     locations = {"@Islands/Faraway Island/Defeat Mew","@Islands/Faraway Island/Catch Mew"}
   },
   {
     bit = 9,
+    status = 0,
     name = "Deoxys",
     locations = {"@Islands/Birth Island/Defeat Deoxys","@Islands/Birth Island/Catch Deoxys"}
   },
   {
     bit = 10,
+    status = 0,
     name = "Ho-Oh",
     locations = {"@Islands/Navel Rock/Defeat Ho-Oh","@Islands/Navel Rock/Catch Ho-Oh"}
   },
   {
     bit = 11,
+    status = 0,
     name = "Lugia",
     locations = {"@Islands/Navel Rock/Defeat Lugia","@Islands/Navel Rock/Catch Lugia"}
   }
