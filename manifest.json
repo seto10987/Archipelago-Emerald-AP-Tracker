@@ -9,11 +9,11 @@
 			"display_name": "Map Tracker",
 			"flags": ["ap"]
 		},
-    "vertical": {
+    "standard_vertical": {
       "display_name": "Map Tracker (Vertical)",
 			"flags": ["ap"]
     },
-    "items_only": {
+    "var_items_only": {
       "display_name": "Item Tracker",
       "flags": ["ap"]
     }
