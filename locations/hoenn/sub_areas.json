@@ -2908,6 +2908,1161 @@
                         "y": 60
                     }
                 ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Berry Trees West"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1782,
+                        "y": 53
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Bird Keeper Alberto"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1270,
+                        "y": 611
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Collector Ed"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1942,
+                        "y": 548
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Cooltrainer Braxton"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1018,
+                        "y": 233
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Cooltrainer Wendy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1399,
+                        "y": 396
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Expert Fredrick"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 726,
+                        "y": 615
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Guitarist Fernando"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1270,
+                        "y": 525
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Hex Maniac Kindra"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1942,
+                        "y": 395
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Hidden Item in North Path Grass"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1558,
+                        "y": 47
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Hidden Item on Rock Before Ledges"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 2071,
+                        "y": 497
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Item on Ledges 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 1556,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Item on Ledges 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 992,
+                        "y": 520
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Item on Ledges 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 535,
+                        "y": 499
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 East/Item on Ledges 4"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 151,
+                        "y": 268
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 123 West/Twins Miu & Yuki"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt123",
+                        "x": 359,
+                        "y": 430
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Item in Northeast Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 4951,
+                        "y": 576
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Item in Northwest Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 3478,
+                        "y": 599
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Item in Southwest Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 3622,
+                        "y": 2569
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Sis and Bro Lila & Roy"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 2984,
+                        "y": 2129
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Chad"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 4930,
+                        "y": 2800
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Declan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 2484,
+                        "y": 1411
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Grace"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 2484,
+                        "y": 1122
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Jenny"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 4500,
+                        "y": 2173
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Roland"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 5074,
+                        "y": 3568
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Swimmer Spencer"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 3778,
+                        "y": 1219
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Triathlete Isabella"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 5459,
+                        "y": 3568
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in Big Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 991,
+                        "y": 1772
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in North Tunnel 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 1801,
+                        "y": 1658
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in North Tunnel 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 1653,
+                        "y": 168
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in Small Area Middle"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 6138,
+                        "y": 2339
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in Small Area North"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 6139,
+                        "y": 1017
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in Small Area South"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 6068,
+                        "y": 2700
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 124/Underwater - Hidden Item in Tunnel Alcove"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt124",
+                        "x": 1943,
+                        "y": 3033
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Item in Separated Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 1746,
+                        "y": 87
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Barry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 3538,
+                        "y": 3140
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Brenda"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 1521,
+                        "y": 2321
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Dean"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 3779,
+                        "y": 1072
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Leonardo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 3778,
+                        "y": 259
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Nikki"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 4113,
+                        "y": 2082
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Swimmer Sienna"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 1812,
+                        "y": 3188
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Triathlete Isobel"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 4159,
+                        "y": 259
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Triathlete Pablo"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 1424,
+                        "y": 3188
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in North Alcove"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 6230,
+                        "y": 932
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in Northwest Alcove"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 5700,
+                        "y": 839
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in Southwest Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 843,
+                        "y": 3505
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in West Area 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 936,
+                        "y": 1757
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in West Area 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 837,
+                        "y": 1806
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item in West Area 3"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 886,
+                        "y": 1948
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item Northeast"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 7287,
+                        "y": 936
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 126/Underwater - Hidden Item Southeast"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt126",
+                        "x": 7383,
+                        "y": 2902
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Bird Keeper Aidan"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 2128,
+                        "y": 1121
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Black Belt Koji"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 4430,
+                        "y": 3042
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Cooltrainer Athena"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 1985,
+                        "y": 1121
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Fisherman Henry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 4000,
+                        "y": 688
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Fisherman Jonah"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 3427,
+                        "y": 1025
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Fisherman Roger"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 4474,
+                        "y": 930
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Item Between Trainers"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 2036,
+                        "y": 1003
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Item East"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 4481,
+                        "y": 1904
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Item North"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 2060,
+                        "y": 303
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Triathlete Camden"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 3570,
+                        "y": 2037
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Triathlete Donny"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 2273,
+                        "y": 3286
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Underwater - Hidden Item in Center Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 974,
+                        "y": 2484
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Underwater - Hidden Item in East Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 5592,
+                        "y": 1670
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Underwater - Hidden Item in Northeast Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 5486,
+                        "y": 739
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 127/Underwater - Hidden Item in West Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt127",
+                        "x": 164,
+                        "y": 2653
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Cooltrainer Alexa"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 1173,
+                        "y": 404
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Cooltrainer Ruben"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 2277,
+                        "y": 450
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Fisherman Wayne"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 3049,
+                        "y": 1362
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Hidden Item Center Island"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 2760,
+                        "y": 1028
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Hidden Item North Island"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 2385,
+                        "y": 453
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Hidden Item Southwest Island"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 1509,
+                        "y": 1610
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Swimmer Carlee"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 4869,
+                        "y": 1409
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Swimmer Harrison"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 1708,
+                        "y": 1600
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Triathlete Isaiah"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 4869,
+                        "y": 1075
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Triathlete Katelyn"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 3769,
+                        "y": 1173
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Underwater - Hidden Item in East Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 3419,
+                        "y": 2913
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Routes/Route 128/Underwater - Hidden Item in Small Area"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt128",
+                        "x": 3446,
+                        "y": 2217
+                    }
+                ]
             }
         ]
     }
