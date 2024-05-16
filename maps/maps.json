@@ -84,9 +84,33 @@
 		"img": "images/maps/rt132_134.png"
 	},
 	{
-		"name": "artisancave",
-		"location_size": 10,
+		"name": "rt128",
+		"location_size": 75,
 		"location_border_thickness": 2,
-		"img": "images/maps/artisancave.png"
+		"img": "images/maps/rt_128.png"
+	},
+	{
+		"name": "rt127",
+		"location_size": 75,
+		"location_border_thickness": 2,
+		"img": "images/maps/rt_127.png"
+	},
+	{
+		"name": "rt126",
+		"location_size": 75,
+		"location_border_thickness": 2,
+		"img": "images/maps/rt_126.png"
+	},
+	{
+		"name": "rt124",
+		"location_size": 75,
+		"location_border_thickness": 2,
+		"img": "images/maps/rt_124.png"
+	},
+	{
+		"name": "rt123",
+		"location_size": 25,
+		"location_border_thickness": 2,
+		"img": "images/maps/Route_123_arrows.png"
 	}
 ]
