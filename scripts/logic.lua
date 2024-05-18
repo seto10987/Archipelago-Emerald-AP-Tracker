@@ -205,7 +205,7 @@ function mossdeep_access()
 end
 
 function sootopolis_access()
-  return (free_fly("sootopolis") or route_124_access()) and dive()
+  return free_fly("sootopolis") or (route_124_access() and dive())
 end
 
 function seafloor_cavern_access()
