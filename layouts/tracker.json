@@ -119,12 +119,46 @@
 												}
 											},
 											{
-												"title": "Mt Pyre Ext",
+												"title": "Aqua Hideout",
 												"content": {
 												"type":"map",
-												"maps": ["mtpyre_ext"]
+												"maps": ["aquahideout"]
 												}
 											},
+											{
+												"title": "Shoal Cave",
+												"content": {
+												"type":"map",
+												"maps": ["shoalcave"]
+												}
+											},
+											{
+												"title": "Seafloor Cavern",
+												"content": {
+												"type":"map",
+												"maps": ["seafloorcavern"]
+												}
+											},
+											{                      
+												"title": "Victory Road",
+												"content": {
+												"type":"map",
+												"maps": ["victoryroad"]
+												}
+											},
+											{                      
+												"title": "Artisan Cave",
+												"content": {
+												"type":"map",
+												"maps": ["artisancave"]
+												}
+											}
+										]
+									},
+									{
+											"title": "Routes",
+											"type": "tabbed",
+											"tabs": [
 											{
 												"title": "Route 123",
 												"content": {
@@ -133,24 +167,10 @@
 												}
 											},
 											{
-												"title": "Aqua Hideout",
-												"content": {
-												"type":"map",
-												"maps": ["aquahideout"]
-												}
-											},
-											{
 												"title": "Route 124",
 												"content": {
 												"type":"map",
 												"maps": ["rt124"]
-												}
-											},
-											{
-												"title": "Shoal Cave",
-												"content": {
-												"type":"map",
-												"maps": ["shoalcave"]
 												}
 											},
 											{
@@ -179,20 +199,6 @@
 												"content": {
 												"type":"map",
 												"maps": ["rt132_134"]
-												}
-											},
-											{                      
-												"title": "Victory Road",
-												"content": {
-												"type":"map",
-												"maps": ["victoryroad"]
-												}
-											},
-											{                      
-												"title": "Artisan Cave",
-												"content": {
-												"type":"map",
-												"maps": ["artisancave"]
 												}
 											}
 										]

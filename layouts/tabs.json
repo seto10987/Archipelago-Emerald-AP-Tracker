@@ -87,6 +87,13 @@
 				}
 			},
 			{
+				"title": "Seafloor Cavern",
+				"content": {
+					"type": "map",
+					"maps": ["seafloorcavern"]
+				}
+			},
+			{
 				"title": "Route 126",
 				"content": {
 					"type": "map",
