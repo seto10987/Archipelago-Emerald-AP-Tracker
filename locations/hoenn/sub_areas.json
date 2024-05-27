@@ -1484,6 +1484,141 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Seafloor Cavern/Room 1 - Team Aqua Grunt 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 131,
+                        "y": 305
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 1 - Team Aqua Grunt 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 237,
+                        "y": 368
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 4 - Team Aqua Grunt 1"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 390,
+                        "y": 385
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 4 - Team Aqua Grunt 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 390,
+                        "y": 447
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 3 - Team Aqua Grunt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 939,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 3 - Aqua Admin Shelly"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 1002,
+                        "y": 296
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 9 - Item Before Kyogre"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 1549,
+                        "y": 240
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 9 - Aqua Leader Archie"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 1584,
+                        "y": 799
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Seafloor Cavern/Room 9 - Release Kyogre (Event)"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "seafloorcavern",
+                        "x": 1601,
+                        "y": 744
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "ref": "Dungeons/Victory Road/1F - Item East"
                     }
                 ],

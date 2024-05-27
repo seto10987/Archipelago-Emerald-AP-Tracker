@@ -66,6 +66,12 @@
 		"img": "images/maps/shoalcave.png"
 	},
 	{
+		"name": "seafloorcavern",
+		"location_size": 26,
+		"location_border_thickness": 4,
+		"img": "images/maps/seafloorcavern.png"
+	},
+	{
 		"name": "victoryroad",
 		"location_size": 26,
 		"location_border_thickness": 3,
