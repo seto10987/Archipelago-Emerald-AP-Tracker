@@ -917,6 +917,7 @@
       },
       {
         "name": "Route 110 Encounters",
+        "access_rules": ["$mauville_access"],
         "sections":
         [
           {
