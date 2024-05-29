@@ -139,17 +139,58 @@
 												}
 											},
 											{
-												"title": "Rt. 132-134",
-												"content": {
-												"type":"map",
-												"maps": ["rt132_134"]
-												}
-											},
-											{
 												"title": "Artisan Cave",
 												"content": {
 												"type":"map",
 												"maps": ["artisancave"]
+												}
+											}
+										]
+									},
+									{
+											"title": "Routes",
+											"type": "tabbed",
+											"tabs": [
+											{
+												"title": "Route 123",
+												"content": {
+												"type":"map",
+												"maps": ["rt123"]
+												}
+											},
+											{
+												"title": "Route 124",
+												"content": {
+												"type":"map",
+												"maps": ["rt124"]
+												}
+											},
+											{
+												"title": "Route 126",
+												"content": {
+												"type":"map",
+												"maps": ["rt126"]
+												}
+											},
+											{
+												"title": "Route 127",
+												"content": {
+												"type":"map",
+												"maps": ["rt127"]
+												}
+											},
+											{
+												"title": "Route 128",
+												"content": {
+												"type":"map",
+												"maps": ["rt128"]
+												}
+											},
+											{                      
+												"title": "Rt. 132-134",
+												"content": {
+												"type":"map",
+												"maps": ["rt132_134"]
 												}
 											}
 										]
