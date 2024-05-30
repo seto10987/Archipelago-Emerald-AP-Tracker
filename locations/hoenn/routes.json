@@ -1161,8 +1161,22 @@
         "sections":
         [
           {
-            "name": "Item South",
-            "visibility_rules": ["overworld_on"]
+            "name": "Camper Drew",
+            "chest_unopened_img": "/images/locations/camper.png",
+		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Camper Beau",
+            "chest_unopened_img": "/images/locations/camper.png",
+		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Picnicker Heidi",
+            "chest_unopened_img": "/images/locations/picnicker.png",
+		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Item Near Tower",
@@ -1176,6 +1190,12 @@
             "visibility_rules": ["hidden_on"]
           },
           {
+            "name": "Picnicker Becky",
+            "chest_unopened_img": "/images/locations/picnicker.png",
+		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
             "name": "Hidden Item on Rock 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
@@ -1183,41 +1203,17 @@
             "visibility_rules": ["hidden_on"]
           },
           {
+            "name": "Ruin Maniac Dusty",
+            "chest_unopened_img": "/images/locations/hiker.png",
+		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
             "name": "Hidden Item on Rock 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
 		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Picnicker Heidi",
-            "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Camper Beau",
-            "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Camper Drew",
-            "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Picnicker Becky",
-            "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Ruin Maniac Dusty",
-            "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
-            "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Celia",
@@ -1236,6 +1232,10 @@
             "chest_unopened_img": "/images/locations/camper.png",
 		        "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Item South",
+            "visibility_rules": ["overworld_on"]
           }
         ],
         "map_locations":
