@@ -821,7 +821,46 @@
 										]
 									}
 								]
-						  	}
+						  	},
+							{
+								"type": "array",
+								"orientation": "vertical",
+								"margin": "0, 0",
+								"content": [
+								{
+										"type": "tabbed",
+										"dock": "top",
+										"content": [
+										{
+											"title": "Encounter Map",
+											"type": "array",
+											"dock": "top",
+											"content": {
+												"type":"map",
+												"maps": ["encountermap"]
+													}
+												}
+											]
+										},
+							{
+									"type": "tabbed",
+									"dock": "bottom",
+									"content": [
+										{
+
+										"title": "Hoenn Map",
+										"type": "array",
+										"dock": "top",
+										"content": {
+											"header": "Hoenn Map",
+											"type":"map",
+											"maps": ["hoennmap"]
+												}
+											}
+										]
+									}
+								]
+							}
 						]
 					}
 				]

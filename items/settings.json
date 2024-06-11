@@ -1162,5 +1162,21 @@
     "initial_active_state": true,
     "img": "/images/settings/mew.png",
     "codes": "legendary_hunt_mew"
-  }
+  },
+	{
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
+	},
+	{
+	  "name": "Auto-Tab",
+	  "type": "progressive",
+	  "loop": true,
+	  "img": "images/settings/autotab.png",
+    "initial_stage_idx": 1,
+	  "disabled_img": "images/settings/autotab_off.png",
+	  "codes": "tab_switch"
+	}
 ]

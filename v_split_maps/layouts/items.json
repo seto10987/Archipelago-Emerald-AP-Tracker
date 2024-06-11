@@ -1,0 +1,36 @@
+{
+  "item_grid":
+  {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content":
+    [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,-5,0",
+        "content":
+        [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+            [
+              ["hm01_cut","stone_badge","devon_goods","acro_bike","ss_ticket"],
+              ["hm02_fly","knuckle_badge","letter","mach_bike","aurora_ticket"],
+              ["hm03_surf","dynamo_badge","itemfinder","room_1_key","eon_ticket"],
+              ["hm04_strength","heat_badge","meteorite","room_2_key","mystic_ticket"],
+              ["hm05_flash","balance_badge","go_goggles","room_4_key","old_sea_map"],
+              ["hm06_rock_smash","feather_badge","scanner","room_6_key","pokeblock_case"],
+              ["hm07_waterfall","mind_badge","devon_scope","basement_key","wailmer_pail"],
+              ["hm08_dive","rain_badge","magma_emblem","storage_key","harbor_mail"],
+              ["old_rod","good_rod","super_rod"]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

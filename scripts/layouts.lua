@@ -1,6 +1,7 @@
 Tracker:AddLayouts("layouts/broadcast.json")
 Tracker:AddLayouts("layouts/events.json")
 Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/tab_switch.json")
 Tracker:AddLayouts("layouts/pokedex.json")
 Tracker:AddLayouts("layouts/pokedex_gen_1.json")
 Tracker:AddLayouts("layouts/pokedex_gen_2.json")

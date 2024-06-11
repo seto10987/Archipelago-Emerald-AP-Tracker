@@ -9,7 +9,7 @@
 				"content": [
 					{
 						"type": "dock",
-						"dock": "bottom",
+						"dock": "left",
 						"content": [
 							{
 								"type": "dock",
@@ -19,7 +19,7 @@
 									{
 										"type": "group",
 										"header": "Items",
-										"dock": "left",
+										"dock": "top",
 										"content": {
 											"type": "layout",
 											"h_alignment": "center",
@@ -30,24 +30,12 @@
 									{
 										"type": "group",
 										"header": "Events",
-										"dock": "left",
-										"margin": "0,0,3,0",
+										"dock": "bottom",
 										"content": {
 											"type": "layout",
 											"h_alignment": "center",
 											"v_alignment": "center",
 											"key": "event_grid"
-										}
-									},
-									{
-										"type": "group",
-										"dock": "right",
-										"margin": "0,0,3,0",
-										"content": {
-											"type": "layout",
-											"h_alignment": "center",
-											"v_alignment": "center",
-											"key": "tab_switch_grid"
 										}
 									}
 								]
@@ -821,7 +809,46 @@
 										]
 									}
 								]
-						  	}
+						  	},
+							{
+								"type": "array",
+								"orientation": "vertical",
+								"margin": "0, 0",
+								"content": [
+								{
+										"type": "tabbed",
+										"dock": "top",
+										"content": [
+										{
+											"title": "Encounter Map",
+											"type": "array",
+											"dock": "top",
+											"content": {
+												"type":"map",
+												"maps": ["encountermap"]
+													}
+												}
+											]
+										},
+							{
+									"type": "tabbed",
+									"dock": "bottom",
+									"content": [
+										{
+
+										"title": "Hoenn Map",
+										"type": "array",
+										"dock": "top",
+										"content": {
+											"header": "Hoenn Map",
+											"type":"map",
+											"maps": ["hoennmap"]
+												}
+											}
+										]
+									}
+								]
+							}
 						]
 					}
 				]

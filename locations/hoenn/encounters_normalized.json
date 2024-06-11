@@ -1767,10 +1767,16 @@
             "access_rules": ["old_rod","good_rod"]
           },
           {
-            "name": "Good/Super Rod Encounter 3, 33.3/100%",
+            "name": "Good/Super Rod Encounter 3, 33.3/40%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
           }
         ],
         "map_locations":
@@ -1822,10 +1828,16 @@
             "access_rules": ["old_rod","good_rod"]
           },
           {
-            "name": "Good/Super Rod Encounter 3, 33.3/100%",
+            "name": "Good/Super Rod Encounter 3, 33.3/40%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
           }
         ],
         "map_locations":
@@ -1882,10 +1894,16 @@
             "access_rules": ["old_rod","good_rod"]
           },
           {
-            "name": "Good/Super Rod Encounter 3, 33.3/100%",
+            "name": "Good/Super Rod Encounter 3, 33.3/40%",
             "chest_unopened_img": "/images/items/super_rod.png",
 		        "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
           }
         ],
         "map_locations":

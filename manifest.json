@@ -1,7 +1,7 @@
 ﻿{
 	"name": "Pokémon Emerald AP Tracker",
 	"game_name": "Pokémon Emerald",
-	"package_version": "1.3.0",
+	"package_version": "2.0.0",
 	"package_uid": "ap_emerald",
 	"author": "Seto10987 & palex00 & Vyneras",
 	"variants": {
@@ -9,14 +9,22 @@
 			"display_name": "Map Tracker",
 			"flags": ["ap"]
 		},
-    "standard_vertical": {
-      "display_name": "Map Tracker (Vertical)",
+		"v_standard": {
+			"display_name": "Map Tracker (Vertical)",
 			"flags": ["ap"]
-    },
-    "var_items_only": {
-      "display_name": "Item Tracker",
-      "flags": ["ap"]
-    }
+		},
+		"split_maps": {
+			"display_name": "Map Tracker (Split)",
+			"flags": ["ap"]
+		},
+		"v_split_maps": {
+			"display_name": "Split Map Tracker (Vertical)",
+			"flags": ["ap"]
+		},
+		"var_items_only": {
+			"display_name": "Item Tracker",
+			"flags": ["ap"]
+		}
 	},
 	"versions_url": "https://raw.githubusercontent.com/seto10987/archipelago-emerald-ap-tracker/versions/versions.json"
 }
