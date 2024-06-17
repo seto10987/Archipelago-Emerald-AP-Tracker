@@ -1,6 +1,6 @@
 [
   {
-    "name": "Routes",
+    "name": "Encounters Vanilla",
     "visibility_rules": ["normalize_encounters_off"],
     "children":
     [

@@ -1,7 +1,10 @@
+ScriptHost:LoadScript("scripts/autotracking/encounter_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/flag_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
 
 CUR_INDEX = -1
 PLAYER_ID = -1
@@ -12,6 +15,8 @@ KEY_ITEMS_ID = ""
 LEGENDARY_ID = ""
 
 OBTAINED_ITEMS = {}
+
+print("overall test")
 
 function resetItems()
 	for _, value in pairs(ITEM_MAPPING) do
@@ -86,6 +91,7 @@ function onClear(slot_data)
 	  Archipelago:SetNotify({LEGENDARY_ID})
 	  Archipelago:Get({LEGENDARY_ID})
 	end
+    Tracker:FindObjectForCode("tab_switch").Active = 1
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -230,8 +236,48 @@ function updateLegendaries(value, reset)
   end
 end
 
+function onBounce(json)
+  local data = json["data"]
+  if data then
+    if data["type"] == "MapUpdate" then
+      updateMap(data["mapId"])
+    elseif data["type"] == "Encounter" then
+      updateEncounter(data["species"], data["slot"], data["encounterType"], data["mapId"])
+      print("find me plz")
+    end
+  end
+end
+
+function updateMap(map_id)
+  local tabs = TAB_MAPPING[map_id]
+  if Tracker:FindObjectForCode("tab_switch").CurrentStage == 1 then
+      if tabs then
+        for _, tab in ipairs(tabs) do
+          Tracker:UiHint("ActivateTab", tab)
+        end
+      end
+    end
+end
+
+function updateEncounter(species_id, slot, encounter_type, map_id)
+  local locations = ENCOUNTER_MAPPING[map_id][encounter_type][slot]
+  if has("pokedex_off") or has(POKEMON_MAPPING[species_id]) then
+    if locations then
+      for _, location in pairs(locations) do
+        local object = Tracker:FindObjectForCode(location)
+        if object then
+          object.AvailableChestCount = 0
+        end
+      end
+    end
+  else
+    table.insert(UNCLEARED_ENCOUNTERS, {species_id, slot, encounter_type, map_id})
+  end
+end
+
 Archipelago:AddClearHandler("clear handler", onClear)
 Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+Archipelago:AddBouncedHandler("bounce handler", onBounce)

@@ -1,0 +1,51 @@
+{
+  "event_grid":
+  {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content":
+    [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,-5,0",
+        "content":
+        [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "item_size": "176,32",
+            "h_alignment": "center",
+            "rows":
+            [
+              ["free_fly_setting"]
+            ]
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0,-5,0",
+        "content":
+        [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+            [
+              ["defeat_roxanne","defeat_brawly","defeat_wattson","defeat_flannery","defeat_norman","terra_cave_setting"],
+              ["defeat_winona","defeat_tate_and_liza","defeat_juan","meet_flower_shop_owner","recover_devon_goods","marine_cave_setting"],
+              ["return_devon_goods","talk_mr_stone","deliver_letter","talk_to_dock","rescue_stern",""],
+              ["magma_steals_meteorite","defeat_maxie_mt_chimney","defeat_shelly","wingull_quest_1","release_groudon",""],
+              ["aqua_steals_submarine","defeat_matt","wingull_quest_2","defeat_maxie_space_center","steven_gives_dive",""],
+              ["release_kyogre","undo_regi_seal","defeat_champion","defeat_steven","legendary_hunt_count",""]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
