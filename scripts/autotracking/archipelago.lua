@@ -13,6 +13,28 @@ LEGENDARY_ID = ""
 
 OBTAINED_ITEMS = {}
 
+-- PopTracker updating JsonItems is very slow and single-threaded :P
+ITEM_QUEUE = {}
+ITEM_QUEUE_CURRENT_INDEX = 1
+FRAME_COUNT = 0
+
+function onFrame(elapsed)
+	FRAME_COUNT = (FRAME_COUNT + 1) % 256
+	-- process the next thing in the item queue
+	if (FRAME_COUNT % 8) == 0 then
+		if ITEM_QUEUE[1] then
+			local obj = ITEM_QUEUE[ITEM_QUEUE_CURRENT_INDEX]
+			if obj then
+				ITEM_QUEUE_CURRENT_INDEX = ITEM_QUEUE_CURRENT_INDEX + 1
+				obj.Active = true
+			else -- end of the queue
+				ITEM_QUEUE = {}
+				ITEM_QUEUE_CURRENT_INDEX = 1
+			end
+		end
+	end
+end
+
 function resetItems()
 	for _, value in pairs(ITEM_MAPPING) do
 		if value[1] then
@@ -126,7 +148,8 @@ function onLocation(location_id, location_name)
       if code:sub(1, 1) == "@" then
         object.AvailableChestCount = object.AvailableChestCount - 1
       else
-        object.Active = true
+        -- pokedex (386 JsonItems)
+        table.insert(ITEM_QUEUE, object)
       end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", code))
@@ -235,3 +258,4 @@ Archipelago:AddItemHandler("item handler", onItem)
 Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
+ScriptHost:AddOnFrameHandler("frame handler", onFrame)
