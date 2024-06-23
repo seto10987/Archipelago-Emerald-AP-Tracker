@@ -4724,7 +4724,7 @@
       },
       {
         "name": "Ever Grande City Encounters",
-        "access_rules": ["$victory_road_access"],
+        "access_rules": ["$route_124_access"],
         "sections":
         [
           {
