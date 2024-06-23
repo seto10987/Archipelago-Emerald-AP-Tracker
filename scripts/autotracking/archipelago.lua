@@ -195,7 +195,7 @@ function onItem(index, item_id, item_name, player_number)
 		if JSONITEM_RESET ~= -1 then
 			JSONITEM_TEMP_STATES[value[1]] = true
 		else
-			table.insert(JSONITEM_QUEUE, {object, true})
+			table.insert(JSONITEM_QUEUE, {value[1], true})
 			table.insert(OBTAINED_ITEMS, value[1])
 		end
 	elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -221,7 +221,7 @@ function onLocation(location_id, location_name)
         if JSONITEM_RESET ~= -1 then
           JSONITEM_TEMP_STATES_DEX[code] = true
         else
-          table.insert(JSONITEM_DEX_QUEUE, {object, true})
+          table.insert(JSONITEM_DEX_QUEUE, {code, true})
         end
       end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
