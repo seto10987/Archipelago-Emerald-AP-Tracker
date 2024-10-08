@@ -1,5 +1,5 @@
 {
-	"tracker_broadcast":
+  "tracker_broadcast":
   {
     "type": "dock",
     "dock": "top",

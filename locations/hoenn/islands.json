@@ -2,7 +2,7 @@
   {
     "name": "Islands",
     "chest_unopened_img": "/images/locations/pokeball_closed.png",
-		"chest_opened_img": "/images/locations/pokeball_open_bw.png",
+    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
     "children":
     [
       {
@@ -13,13 +13,13 @@
           {
             "name": "Defeat Latias",
             "chest_unopened_img": "/images/locations/latias.png",
-		        "chest_opened_img": "/images/locations/latias_bw.png",
+            "chest_opened_img": "/images/locations/latias_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_latias"]
           },
           {
             "name": "Catch Latias",
             "chest_unopened_img": "/images/locations/latias.png",
-		        "chest_opened_img": "/images/locations/latias_bw.png",
+            "chest_opened_img": "/images/locations/latias_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_latias"]
           }
@@ -41,13 +41,13 @@
           {
             "name": "Defeat Mew",
             "chest_unopened_img": "/images/locations/mew.png",
-		        "chest_opened_img": "/images/locations/mew_bw.png",
+            "chest_opened_img": "/images/locations/mew_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_mew"]
           },
           {
             "name": "Catch Mew",
             "chest_unopened_img": "/images/locations/mew.png",
-		        "chest_opened_img": "/images/locations/mew_bw.png",
+            "chest_opened_img": "/images/locations/mew_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_mew"]
           }
@@ -69,13 +69,13 @@
           {
             "name": "Defeat Deoxys",
             "chest_unopened_img": "/images/locations/deoxys.png",
-		        "chest_opened_img": "/images/locations/deoxys_bw.png",
+            "chest_opened_img": "/images/locations/deoxys_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_deoxys"]
           },
           {
             "name": "Catch Deoxys",
             "chest_unopened_img": "/images/locations/deoxys.png",
-		        "chest_opened_img": "/images/locations/deoxys_bw.png",
+            "chest_opened_img": "/images/locations/deoxys_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_deoxys"]
           }
@@ -97,33 +97,33 @@
           {
             "name": "Hidden Item Sacred Ash",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Defeat Lugia",
             "chest_unopened_img": "/images/locations/lugia.png",
-		        "chest_opened_img": "/images/locations/lugia_bw.png",
+            "chest_opened_img": "/images/locations/lugia_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_lugia"]
           },
           {
             "name": "Catch Lugia",
             "chest_unopened_img": "/images/locations/lugia.png",
-		        "chest_opened_img": "/images/locations/lugia_bw.png",
+            "chest_opened_img": "/images/locations/lugia_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_lugia"]
           },
           {
             "name": "Defeat Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
-		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
+            "chest_opened_img": "/images/locations/ho-oh_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_ho-oh"]
           },
           {
             "name": "Catch Ho-Oh",
             "chest_unopened_img": "/images/locations/ho-oh.png",
-		        "chest_opened_img": "/images/locations/ho-oh_bw.png",
+            "chest_opened_img": "/images/locations/ho-oh_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_ho-oh"]
           }

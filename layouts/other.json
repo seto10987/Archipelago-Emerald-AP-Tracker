@@ -1,376 +1,376 @@
 {
-	"other":
-	{
-		"type": "array",
-		"content": [
-			{
-				"type": "tabbed",
-				"dock": "left",
-				"tabs": [
-					{																		
-						"title": "S.S. Tidal",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-										"title": "Corridors",
-										"content": {
-										"type":"map",
-										"maps": ["ss_tidal_corridors"]
-									}
-								},
-								{
-										"title": "Rooms",
-										"content": {
-										"type":"map",
-										"maps": ["ss_tidal_rooms"]
-									}
-								},
-								{
-								"title": "Lower Deck",
-								"content": {
-								"type":"map",
-								"maps": ["ss_tidal_lower_deck"]
-									}
-								}
-							]
-						}
-					},
-					{																		
-						"title": "Battle Frontier",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Battle Frontier",
-									"content": {
-									"type":"map",
-									"maps": ["battle_frontier"]
-									}
-								},
-								{																		
-									"title": "Artisan Cave",
-									"content": {
-									"type": "tabbed",
-									"tabs": [
-											{
-												"title": "B1F",
-												"content": {
-												"type":"map",
-												"maps": ["artisan_cave_b1f"]
-												}
-											},
-											{
-												"title": "1F",
-												"content": {
-												"type":"map",
-												"maps": ["artisan_cave_1f"]
-												}
-											}
-										]
-									}
-								}
-							]
-						}
-					},
-					{																		
-						"title": "Navel Rock",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Harbor",
-									"content": {
-									"type":"map",
-									"maps": ["navel_rock_harbor"]
-									}
-								},
-								{
-									"title": "Exterior",
-									"content": {
-									"type":"map",
-									"maps": ["navel_rock_exterior"]
-									}
-								},
-								{
-									"title": "Entrance",
-									"content": {
-									"type":"map",
-									"maps": ["navel_rock_entrance"]
-									}
-								},
-								{
-									"title": "B1F",
-									"content": {
-									"type":"map",
-									"maps": ["navel_rock_b1f"]
-									}
-								},
-								{
-									"title": "Fork",
-									"content": {
-									"type":"map",
-									"maps": ["navel_rock_fork"]
-									}
-								},
-								{																		
-									"title": "Up",
-									"content": {
-									"type": "tabbed",
-									"tabs": [
-											{
-												"title": "1",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_up_1"]
-												}
-											},
-											{
-												"title": "2",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_up_2"]
-												}
-											},
-											{
-												"title": "3",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_up_3"]
-												}
-											},
-											{
-												"title": "4",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_up_4"]
-												}
-											},
-											{
-												"title": "Top",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_top"]
-												}
-											}
-										]
-									}
-								},
-								{																		
-									"title": "Down",
-									"content": {
-									"type": "tabbed",
-									"tabs": [
-											{
-												"title": "1",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_1"]
-												}
-											},
-											{
-												"title": "2",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_2"]
-												}
-											},
-											{
-												"title": "3",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_3"]
-												}
-											},
-											{
-												"title": "4",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_4"]
-												}
-											},
-											{
-												"title": "5",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_5"]
-												}
-											},
-											{
-												"title": "6",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_6"]
-												}
-											},
-											{
-												"title": "7",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_7"]
-												}
-											},
-											{
-												"title": "8",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_8"]
-												}
-											},
-											{
-												"title": "9",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_9"]
-												}
-											},
-											{
-												"title": "10",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_10"]
-												}
-											},
-											{
-												"title": "11",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_down_11"]
-												}
-											},
-											{
-												"title": "Bottom",
-												"content": {
-												"type":"map",
-												"maps": ["navel_rock_bottom"]
-												}
-											}
-										]
-									}
-								}
-							]
-						}
-					},
-					{																		
-						"title": "Southern Island",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Exterior",
-									"content": {
-									"type":"map",
-									"maps": ["southern_island_exterior"]
-									}
-								},
-								{
-									"title": "Interior",
-									"content": {
-									"type":"map",
-									"maps": ["southern_island_interior"]
-									}
-								}
-							]
-						}
-					},
-					{																		
-						"title": "Faraway Island",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Exterior",
-									"content": {
-									"type":"map",
-									"maps": ["faraway_island_exterior"]
-									}
-								},
-								{
-									"title": "Interior",
-									"content": {
-									"type":"map",
-									"maps": ["faraway_island_interior"]
-									}
-								}
-							]
-						}
-					},
-					{																		
-						"title": "Birth Island",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Harbor",
-									"content": {
-									"type":"map",
-									"maps": ["birth_island_harbor"]
-									}
-								},
-								{
-									"title": "Exterior",
-									"content": {
-									"type":"map",
-									"maps": ["birth_island_exterior"]
-									}
-								}
-							]
-						}
-					},
-					{
-						"title": "Terra Cave",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Entrance",
-									"content": {
-									"type":"map",
-									"maps": ["terra_cave_entrance"]
-									}
-								},
-								{
-									"title": "End",
-									"content": {
-									"type":"map",
-									"maps": ["terra_cave_end"]
-									}
-								}
-							]
-						}
-					},
-					{
-						"title": "Marine Cave",
-						"content": {
-						"type": "tabbed",
-						"tabs": [
-								{
-									"title": "Underwater",
-									"content": {
-									"type":"map",
-									"maps": ["marine_cave_underwater"]
-									}
-								},
-								{
-									"title": "Entrance",
-									"content": {
-									"type":"map",
-									"maps": ["marine_cave_entrance"]
-									}
-								},
-								{
-									"title": "End",
-									"content": {
-									"type":"map",
-									"maps": ["marine_cave_end"]
-									}
-								}
-							]
-						}
-					}
-				]
-			}
-		]
-	}
+  "other":
+  {
+    "type": "array",
+    "content": [
+      {
+        "type": "tabbed",
+        "dock": "left",
+        "tabs": [
+          {
+            "title": "S.S. Tidal",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                    "title": "Corridors",
+                    "content": {
+                    "type":"map",
+                    "maps": ["ss_tidal_corridors"]
+                  }
+                },
+                {
+                    "title": "Rooms",
+                    "content": {
+                    "type":"map",
+                    "maps": ["ss_tidal_rooms"]
+                  }
+                },
+                {
+                "title": "Lower Deck",
+                "content": {
+                "type":"map",
+                "maps": ["ss_tidal_lower_deck"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Battle Frontier",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Battle Frontier",
+                  "content": {
+                  "type":"map",
+                  "maps": ["battle_frontier"]
+                  }
+                },
+                {
+                  "title": "Artisan Cave",
+                  "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      {
+                        "title": "B1F",
+                        "content": {
+                        "type":"map",
+                        "maps": ["artisan_cave_b1f"]
+                        }
+                      },
+                      {
+                        "title": "1F",
+                        "content": {
+                        "type":"map",
+                        "maps": ["artisan_cave_1f"]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Navel Rock",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Harbor",
+                  "content": {
+                  "type":"map",
+                  "maps": ["navel_rock_harbor"]
+                  }
+                },
+                {
+                  "title": "Exterior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["navel_rock_exterior"]
+                  }
+                },
+                {
+                  "title": "Entrance",
+                  "content": {
+                  "type":"map",
+                  "maps": ["navel_rock_entrance"]
+                  }
+                },
+                {
+                  "title": "B1F",
+                  "content": {
+                  "type":"map",
+                  "maps": ["navel_rock_b1f"]
+                  }
+                },
+                {
+                  "title": "Fork",
+                  "content": {
+                  "type":"map",
+                  "maps": ["navel_rock_fork"]
+                  }
+                },
+                {
+                  "title": "Up",
+                  "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      {
+                        "title": "1",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_up_1"]
+                        }
+                      },
+                      {
+                        "title": "2",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_up_2"]
+                        }
+                      },
+                      {
+                        "title": "3",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_up_3"]
+                        }
+                      },
+                      {
+                        "title": "4",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_up_4"]
+                        }
+                      },
+                      {
+                        "title": "Top",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_top"]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "title": "Down",
+                  "content": {
+                  "type": "tabbed",
+                  "tabs": [
+                      {
+                        "title": "1",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_1"]
+                        }
+                      },
+                      {
+                        "title": "2",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_2"]
+                        }
+                      },
+                      {
+                        "title": "3",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_3"]
+                        }
+                      },
+                      {
+                        "title": "4",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_4"]
+                        }
+                      },
+                      {
+                        "title": "5",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_5"]
+                        }
+                      },
+                      {
+                        "title": "6",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_6"]
+                        }
+                      },
+                      {
+                        "title": "7",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_7"]
+                        }
+                      },
+                      {
+                        "title": "8",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_8"]
+                        }
+                      },
+                      {
+                        "title": "9",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_9"]
+                        }
+                      },
+                      {
+                        "title": "10",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_10"]
+                        }
+                      },
+                      {
+                        "title": "11",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_down_11"]
+                        }
+                      },
+                      {
+                        "title": "Bottom",
+                        "content": {
+                        "type":"map",
+                        "maps": ["navel_rock_bottom"]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Southern Island",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Exterior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["southern_island_exterior"]
+                  }
+                },
+                {
+                  "title": "Interior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["southern_island_interior"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Faraway Island",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Exterior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["faraway_island_exterior"]
+                  }
+                },
+                {
+                  "title": "Interior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["faraway_island_interior"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Birth Island",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Harbor",
+                  "content": {
+                  "type":"map",
+                  "maps": ["birth_island_harbor"]
+                  }
+                },
+                {
+                  "title": "Exterior",
+                  "content": {
+                  "type":"map",
+                  "maps": ["birth_island_exterior"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Terra Cave",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Entrance",
+                  "content": {
+                  "type":"map",
+                  "maps": ["terra_cave_entrance"]
+                  }
+                },
+                {
+                  "title": "End",
+                  "content": {
+                  "type":"map",
+                  "maps": ["terra_cave_end"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "title": "Marine Cave",
+            "content": {
+            "type": "tabbed",
+            "tabs": [
+                {
+                  "title": "Underwater",
+                  "content": {
+                  "type":"map",
+                  "maps": ["marine_cave_underwater"]
+                  }
+                },
+                {
+                  "title": "Entrance",
+                  "content": {
+                  "type":"map",
+                  "maps": ["marine_cave_entrance"]
+                  }
+                },
+                {
+                  "title": "End",
+                  "content": {
+                  "type":"map",
+                  "maps": ["marine_cave_end"]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
 }
 

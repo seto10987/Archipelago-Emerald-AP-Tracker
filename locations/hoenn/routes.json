@@ -2,7 +2,7 @@
   {
     "name": "Routes",
     "chest_unopened_img": "/images/locations/pokeball_closed.png",
-		"chest_opened_img": "/images/locations/pokeball_open_bw.png",
+    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
     "children":
     [
       {
@@ -12,25 +12,25 @@
           {
             "name": "Youngster Calvin",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bug Catcher Rick",
             "chest_unopened_img": "/images/locations/bug_catcher.png",
-		        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Youngster Allen",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -38,7 +38,7 @@
           {
             "name": "Lass Tiana",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -62,62 +62,62 @@
           {
             "name": "Rival Brendan or May",
             "chest_unopened_img": "/images/locations/rival.png",
-		        "chest_opened_img": "/images/locations/rival_bw.png",
+            "chest_opened_img": "/images/locations/rival_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Isabelle",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Pete",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Andrew",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokefan Miguel",
             "chest_unopened_img": "/images/locations/pokefan_male.png",
-		        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_male_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Twins Amy & Liv",
             "chest_unopened_img": "/images/locations/twins.png",
-		        "chest_opened_img": "/images/locations/twins_bw.png",
+            "chest_opened_img": "/images/locations/twins_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Aroma Lady Daisy",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Black Belt Rhett",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "access_rules": ["$mauville_access,$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Guitarist Marcos",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$mauville_access,$cut"],
             "visibility_rules": ["trainers_on"]
           },
@@ -129,7 +129,7 @@
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$mauville_access,$cut"],
@@ -157,40 +157,40 @@
           {
             "name": "Youngster Billy",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item on Beach 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Darian",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach 3",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -198,7 +198,7 @@
           {
             "name": "Lady Cindy",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -222,13 +222,13 @@
           {
             "name": "TM09 from Boy",
             "chest_unopened_img": "/images/locations/boy_grass_tm.png",
-		        "chest_opened_img": "/images/locations/boy_grass_tm_bw.png",
+            "chest_opened_img": "/images/locations/boy_grass_tm_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Berry Trees Flower Shop",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -240,7 +240,7 @@
           {
             "name": "Wailmer Pail from Flower Shop Lady",
             "chest_unopened_img": "/images/locations/flower_shop_girl_wailmer_pail.png",
-		        "chest_opened_img": "/images/locations/flower_shop_girl_wailmer_pail_bw.png",
+            "chest_opened_img": "/images/locations/flower_shop_girl_wailmer_pail_bw.png",
             "visibility_rules": ["key_items_on"]
           },
           {
@@ -251,20 +251,20 @@
           {
             "name": "Berry from Girl in Flower Shop",
             "chest_unopened_img": "/images/locations/flower_shop_girl_oran_berry.png",
-		        "chest_opened_img": "/images/locations/flower_shop_girl_oran_berry_bw.png",
+            "chest_opened_img": "/images/locations/flower_shop_girl_oran_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "White Herb from Lady Near Flower Shop",
             "chest_unopened_img": "/images/locations/lady_white_herb.png",
-		        "chest_opened_img": "/images/locations/lady_white_herb_bw.png",
+            "chest_opened_img": "/images/locations/lady_white_herb_bw.png",
             "access_rules": ["meet_flower_shop_owner,dynamo_badge"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Hidden Item Behind Flower Shop 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -275,20 +275,20 @@
           {
             "name": "Hidden Item Behind Flower Shop 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Rich Boy Winston",
             "chest_unopened_img": "/images/locations/rich_boy.png",
-		        "chest_opened_img": "/images/locations/rich_boy_bw.png",
+            "chest_opened_img": "/images/locations/rich_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Lass Haley",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -304,19 +304,19 @@
           {
             "name": "Twins Gina & Mina",
             "chest_unopened_img": "/images/locations/twins.png",
-		        "chest_opened_img": "/images/locations/twins_bw.png",
+            "chest_opened_img": "/images/locations/twins_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Ivan",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees North",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -324,7 +324,7 @@
           {
             "name": "Gift from Woman Near Berries",
             "chest_unopened_img": "/images/locations/old_lady_chesto_berry.png",
-		        "chest_opened_img": "/images/locations/old_lady_chesto_berry_bw.png",
+            "chest_opened_img": "/images/locations/old_lady_chesto_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           }
         ],
@@ -345,56 +345,56 @@
           {
             "name": "Swimmer Imani",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Dominik",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ruin Maniac Foster",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ruin Maniac Andres",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Josue",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Between Trainers",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Swimmer Beverly",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Luis",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Small Island",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -419,35 +419,35 @@
           {
             "name": "Hidden Item on Beach 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dewford_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Ned",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$dewford_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Elliot",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$dewford_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dewford_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item on Beach 3",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dewford_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -459,14 +459,14 @@
           {
             "name": "Swimmer Kyla",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Douglas",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           }
@@ -488,37 +488,37 @@
           {
             "name": "Swimmer Denise",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Tony",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sis and Bro Lisa & Ray",
             "chest_unopened_img": "/images/locations/sis_and_bro.png",
-		        "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
+            "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Darrin",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Beth",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Camron",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -539,38 +539,38 @@
           {
             "name": "Swimmer Missy",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Matthew",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Tara",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Rock",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Cooltrainer Carolina",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sailor Cory",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -580,7 +580,7 @@
           {
             "name": "Swimmer Jerome",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -601,89 +601,89 @@
           {
             "name": "Hidden Item on Beach Southwest",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Sailor Huey",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach Under Umbrella",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Soft Sand from Tuber",
             "chest_unopened_img": "/images/locations/tuber_soft_sand.png",
-		        "chest_opened_img": "/images/locations/tuber_soft_sand_bw.png",
+            "chest_opened_img": "/images/locations/tuber_soft_sand_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Hidden Item on Beach Southeast",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Sailor Edmond",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Tuber Hailey",
             "chest_unopened_img": "/images/locations/tuber_female.png",
-		        "chest_opened_img": "/images/locations/tuber_female_bw.png",
+            "chest_opened_img": "/images/locations/tuber_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Tuber Ricky",
             "chest_unopened_img": "/images/locations/tuber_male.png",
-		        "chest_opened_img": "/images/locations/tuber_male_bw.png",
+            "chest_opened_img": "/images/locations/tuber_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach West",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Tuber Simon",
             "chest_unopened_img": "/images/locations/tuber_male.png",
-		        "chest_opened_img": "/images/locations/tuber_male_bw.png",
+            "chest_opened_img": "/images/locations/tuber_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Beauty Johanna",
             "chest_unopened_img": "/images/locations/beauty.png",
-		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sailor Dwayne",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Seashore House Reward",
             "chest_unopened_img": "/images/locations/man_soda_pop.png",
-		        "chest_opened_img": "/images/locations/man_soda_pop_bw.png",
+            "chest_opened_img": "/images/locations/man_soda_pop_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Tuber Lola",
             "chest_unopened_img": "/images/locations/tuber_female.png",
-		        "chest_opened_img": "/images/locations/tuber_female_bw.png",
+            "chest_opened_img": "/images/locations/tuber_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -693,41 +693,41 @@
           {
             "name": "Tuber Chandler",
             "chest_unopened_img": "/images/locations/tuber_male.png",
-		        "chest_opened_img": "/images/locations/tuber_male_bw.png",
+            "chest_opened_img": "/images/locations/tuber_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Beach Behind Old Man",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Tuber Austina",
             "chest_unopened_img": "/images/locations/tuber_female.png",
-		        "chest_opened_img": "/images/locations/tuber_female_bw.png",
+            "chest_opened_img": "/images/locations/tuber_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Tuber Gwen",
             "chest_unopened_img": "/images/locations/tuber_female.png",
-		        "chest_opened_img": "/images/locations/tuber_female_bw.png",
+            "chest_opened_img": "/images/locations/tuber_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer David",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Alice",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
@@ -739,28 +739,28 @@
           {
             "name": "Fisherman Carter",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Elijah",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Young Couple Mel & Paul",
             "chest_unopened_img": "/images/locations/young_couple.png",
-		        "chest_opened_img": "/images/locations/young_couple_bw.png",
+            "chest_opened_img": "/images/locations/young_couple_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Front of Couple",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$surf,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           }
@@ -782,13 +782,13 @@
           {
             "name": "Pokefan Isabel",
             "chest_unopened_img": "/images/locations/pokefan_female.png",
-		        "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokefan Kaleb",
             "chest_unopened_img": "/images/locations/pokefan_male.png",
-		        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -803,26 +803,26 @@
           {
             "name": "Youngster Timmy",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item South of Rival",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Rival Brendan or May",
             "chest_unopened_img": "/images/locations/rival.png",
-		        "chest_opened_img": "/images/locations/rival_bw.png",
+            "chest_opened_img": "/images/locations/rival_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Itemfinder from Rival",
             "chest_unopened_img": "/images/locations/rival_itemfinder.png",
-		        "chest_opened_img": "/images/locations/rival_itemfinder_bw.png",
+            "chest_opened_img": "/images/locations/rival_itemfinder_bw.png",
             "visibility_rules": ["key_items_on"]
           },
           {
@@ -833,39 +833,39 @@
           {
             "name": "Hidden Item North of Rival",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Collector Edwin",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Guitarist Joseph",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Behind Two Trainers",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Alyssa",
             "chest_unopened_img": "/images/locations/triathlete_bike_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Psychic Edward",
             "chest_unopened_img": "/images/locations/psychic_male.png",
-		        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -875,20 +875,20 @@
           {
             "name": "Hidden Item South of Berries",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Dale",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -896,42 +896,42 @@
           {
             "name": "Psychic Jaclyn",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Abigail",
             "chest_unopened_img": "/images/locations/triathlete_bike_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Anthony",
             "chest_unopened_img": "/images/locations/triathlete_bike_male.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Benjamin",
             "chest_unopened_img": "/images/locations/triathlete_bike_male.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Jasmine",
             "chest_unopened_img": "/images/locations/triathlete_bike_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_female_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Jacob",
             "chest_unopened_img": "/images/locations/triathlete_bike_male.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
             "access_rules": ["$bike"],
             "visibility_rules": ["trainers_on"]
           }
@@ -958,7 +958,7 @@
           {
             "name": "Puzzle 1 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_rare_candy.png",
-		        "chest_opened_img": "/images/locations/trick_master_rare_candy_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_rare_candy_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["gifts_on"]
           },
@@ -975,7 +975,7 @@
           {
             "name": "Puzzle 2 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_timer_ball.png",
-		        "chest_opened_img": "/images/locations/trick_master_timer_ball_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_timer_ball_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 1 - Reward,dynamo_badge"],
             "visibility_rules": ["gifts_on"]
           },
@@ -992,7 +992,7 @@
           {
             "name": "Puzzle 3 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_hard_stone.png",
-		        "chest_opened_img": "/images/locations/trick_master_hard_stone_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_hard_stone_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 2 - Reward,heat_badge,$rock_smash"],
             "visibility_rules": ["gifts_on"]
           },
@@ -1004,14 +1004,14 @@
           {
             "name": "Puzzle 4 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_smoke_ball.png",
-		        "chest_opened_img": "/images/locations/trick_master_smoke_ball_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_smoke_ball_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 3 - Reward,balance_badge,$strength"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Puzzle 5 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_dark_tm.png",
-		        "chest_opened_img": "/images/locations/trick_master_dark_tm_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_dark_tm_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 4 - Reward,feather_badge"],
             "visibility_rules": ["gifts_on"]
           },
@@ -1023,7 +1023,7 @@
           {
             "name": "Puzzle 6 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_magnet.png",
-		        "chest_opened_img": "/images/locations/trick_master_magnet_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_magnet_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 5 - Reward,mind_badge"],
             "visibility_rules": ["gifts_on"]
           },
@@ -1035,7 +1035,7 @@
           {
             "name": "Puzzle 7 - Reward",
             "chest_unopened_img": "/images/locations/trick_master_pp_max.png",
-		        "chest_opened_img": "/images/locations/trick_master_pp_max_bw.png",
+            "chest_opened_img": "/images/locations/trick_master_pp_max_bw.png",
             "access_rules": ["@Routes/Trick House/Puzzle 6 - Reward,rain_badge"],
             "visibility_rules": ["gifts_on"]
           },
@@ -1061,28 +1061,28 @@
           {
             "name": "Aroma Lady Celina",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Camper Tyron",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Bianca",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Kindler Hayden",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
@@ -1099,49 +1099,49 @@
           {
             "name": "Winstrate Victor",
             "chest_unopened_img": "/images/locations/pokefan_male.png",
-		        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_male_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Winstrate Victoria",
             "chest_unopened_img": "/images/locations/pokefan_female.png",
-		        "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Winstrate Vivi",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Winstrate Vicky",
             "chest_unopened_img": "/images/locations/expert_female.png",
-		        "chest_opened_img": "/images/locations/expert_female_bw.png",
+            "chest_opened_img": "/images/locations/expert_female_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Winstrate Family Reward",
             "chest_unopened_img": "/images/locations/woman_macho_brace.png",
-		        "chest_opened_img": "/images/locations/woman_macho_brace_bw.png",
+            "chest_opened_img": "/images/locations/woman_macho_brace_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Picnicker Irene",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "access_rules": ["$fallarbor_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Camper Travis",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "access_rules": ["$fallarbor_access"],
             "visibility_rules": ["trainers_on"]
           }
@@ -1163,19 +1163,19 @@
           {
             "name": "Camper Drew",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Camper Beau",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Heidi",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1185,52 +1185,52 @@
           {
             "name": "Hidden Item Behind Tower",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Picnicker Becky",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Rock 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Ruin Maniac Dusty",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item on Rock 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Picnicker Celia",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ruin Maniac Bryan",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Camper Branden",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1255,25 +1255,25 @@
           {
             "name": "Cooltrainer Wilton",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "TM43 from Man Near Tree",
             "chest_unopened_img": "/images/locations/boy_normal_tm.png",
-		        "chest_opened_img": "/images/locations/boy_normal_tm_bw.png",
+            "chest_opened_img": "/images/locations/boy_normal_tm_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Berry from Girl Near Berry Trees",
             "chest_unopened_img": "/images/locations/girl_razz_berry.png",
-		        "chest_opened_img": "/images/locations/girl_razz_berry_bw.png",
+            "chest_opened_img": "/images/locations/girl_razz_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Berry Trees East",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -1281,7 +1281,7 @@
           {
             "name": "Berry Trees West",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -1289,13 +1289,13 @@
           {
             "name": "Cooltrainer Brooke",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Black Belt Daisuke",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "access_rules": ["mach_bike"],
             "visibility_rules": ["trainers_on"]
           }
@@ -1317,31 +1317,31 @@
           {
             "name": "Camper Larry",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Carol",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Trent",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Brice",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -1349,13 +1349,13 @@
           {
             "name": "Kindler Bryant",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Aroma Lady Shayla",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1381,38 +1381,38 @@
           {
             "name": "Youngster Jaylen",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Mound West of Three Trainers",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Camper Lawrence",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Lung",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemaniac Wyatt",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Mound Between Trainers",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -1423,13 +1423,13 @@
           {
             "name": "Parasol Lady Madeline",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Twins Tori & Tia",
             "chest_unopened_img": "/images/locations/twins.png",
-		        "chest_opened_img": "/images/locations/twins_bw.png",
+            "chest_opened_img": "/images/locations/twins_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1439,26 +1439,26 @@
           {
             "name": "Soot Sack from Glass Blower",
             "chest_unopened_img": "/images/locations/glass_blower_soot_sack.png",
-		        "chest_opened_img": "/images/locations/glass_blower_soot_sack_bw.png",
+            "chest_opened_img": "/images/locations/glass_blower_soot_sack_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Ninja Boy Lao",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Mound West of Workshop",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Youngster Dillon",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1468,13 +1468,13 @@
           {
             "name": "Picnicker Sophie",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Coby",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -1495,19 +1495,19 @@
           {
             "name": "TM28 from Fossil Maniac's Brother",
             "chest_unopened_img": "/images/locations/boy_ground_tm.png",
-		        "chest_opened_img": "/images/locations/boy_ground_tm_bw.png",
+            "chest_opened_img": "/images/locations/boy_ground_tm_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Fisherman Nolan",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "TM05 from Roaring Man",
             "chest_unopened_img": "/images/locations/roaring_man_normal_tm.png",
-		        "chest_opened_img": "/images/locations/roaring_man_normal_tm_bw.png",
+            "chest_opened_img": "/images/locations/roaring_man_normal_tm_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
@@ -1518,13 +1518,13 @@
           {
             "name": "Picnicker Charlotte",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Kai",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1534,26 +1534,26 @@
           {
             "name": "Fisherman Claude",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Nancy",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item West of Bridge",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -1561,31 +1561,31 @@
           {
             "name": "Sr. and Jr. Tyra & Ivy",
             "chest_unopened_img": "/images/locations/sr_and_jr.png",
-		        "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
+            "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry from Man Near House",
             "chest_unopened_img": "/images/locations/man_razz_berry.png",
-		        "chest_opened_img": "/images/locations/man_razz_berry_bw.png",
+            "chest_opened_img": "/images/locations/man_razz_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Camper Shane",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemaniac Steve",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Rock in Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -1597,25 +1597,25 @@
           {
             "name": "Kindler Bernie",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Lucas",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Picnicker Angelina",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Lenny",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -1635,7 +1635,7 @@
           {
             "name": "Black Belt Nob",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "access_rules": ["$fallarbor_access"],
             "visibility_rules": ["trainers_on"]
           },
@@ -1647,7 +1647,7 @@
           {
             "name": "Berry Trees Behind Smashable Rock",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$fallarbor_access,$rock_smash"],
@@ -1656,28 +1656,28 @@
           {
             "name": "Hidden Item Behind Trainer on Beach",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$surf,[$hidden]","$fallarbor_access,$route_115_boulders,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Battle Girl Cyndy",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "access_rules": ["$surf","$fallarbor_access,$route_115_boulders"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Collector Hector",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "access_rules": ["$fallarbor_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Psychic Marlene",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "access_rules": ["$fallarbor_access"],
             "visibility_rules": ["trainers_on"]
           },
@@ -1693,14 +1693,14 @@
           {
             "name": "Black Belt Koichi",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Kyra",
             "chest_unopened_img": "/images/locations/triathlete_runner_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
@@ -1712,35 +1712,35 @@
           {
             "name": "Expert Timothy",
             "chest_unopened_img": "/images/locations/expert_male.png",
-		        "chest_opened_img": "/images/locations/expert_male_bw.png",
+            "chest_opened_img": "/images/locations/expert_male_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Jaiden",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Battle Girl Helene",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Psychic Alix",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees North",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$surf"],
@@ -1774,19 +1774,19 @@
           {
             "name": "Team Magma Grunt East",
             "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Team Magma Grunt West",
             "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Magma Admin Tabitha",
             "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1796,13 +1796,13 @@
           {
             "name": "Magma Leader Maxie",
             "chest_unopened_img": "/images/locations/maxie.png",
-		        "chest_opened_img": "/images/locations/maxie_bw.png",
+            "chest_opened_img": "/images/locations/maxie_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Meteorite from Machine",
             "chest_unopened_img": "/images/locations/meteorite_machine.png",
-		        "chest_opened_img": "/images/locations/meteorite_machine_bw.png",
+            "chest_opened_img": "/images/locations/meteorite_machine_bw.png",
             "visibility_rules": ["key_items_on"]
           },
           {
@@ -1813,35 +1813,35 @@
           {
             "name": "Beauty Shirley",
             "chest_unopened_img": "/images/locations/beauty.png",
-		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
             "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Beauty Sheila",
             "chest_unopened_img": "/images/locations/beauty.png",
-		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
             "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Shelby",
             "chest_unopened_img": "/images/locations/expert_female.png",
-		        "chest_opened_img": "/images/locations/expert_female_bw.png",
+            "chest_opened_img": "/images/locations/expert_female_bw.png",
             "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Sawyer",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Beauty Melissa",
             "chest_unopened_img": "/images/locations/beauty.png",
-		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
             "access_rules": ["defeat_maxie_mt_chimney"],
             "visibility_rules": ["trainers_on"]
           }
@@ -1862,21 +1862,21 @@
           {
             "name": "Hiker Eric",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "access_rules": ["$mt_chimney_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$mt_chimney_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Picnicker Diana",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "access_rules": ["$mt_chimney_access"],
             "visibility_rules": ["trainers_on"]
           },
@@ -1888,28 +1888,28 @@
           {
             "name": "Picnicker Autumn",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "access_rules": ["$mt_chimney_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Julio",
             "chest_unopened_img": "/images/locations/triathlete_bike_male.png",
-		        "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
             "access_rules": ["$mt_chimney_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Corner",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$mt_chimney_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Camper Ethan",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["trainers_on"]
           }
@@ -1930,13 +1930,13 @@
           {
             "name": "Youngster Joey",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bug Catcher Jose",
             "chest_unopened_img": "/images/locations/bug_catcher.png",
-		        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -1946,31 +1946,31 @@
           {
             "name": "School Kid Karen",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Clark",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Youngster Johnson",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hiker Devan",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Gift from Devon Researcher",
             "chest_unopened_img": "/images/locations/devon_employee_repeat_ball.png",
-		        "chest_opened_img": "/images/locations/devon_employee_repeat_ball_bw.png",
+            "chest_opened_img": "/images/locations/devon_employee_repeat_ball_bw.png",
             "access_rules": ["rescue_stern"],
             "visibility_rules": ["gifts_on"]
           },
@@ -1981,28 +1981,28 @@
           {
             "name": "Lady Sarah",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Rich Boy Dawson",
             "chest_unopened_img": "/images/locations/boy.png",
-		        "chest_opened_img": "/images/locations/boy_bw.png",
+            "chest_opened_img": "/images/locations/boy_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Lass Janice",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "School Kid Jerry",
             "chest_unopened_img": "/images/locations/school_kid_male.png",
-		        "chest_opened_img": "/images/locations/school_kid_male_bw.png",
+            "chest_opened_img": "/images/locations/school_kid_male_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
@@ -2014,14 +2014,14 @@
           {
             "name": "Hidden Item in Tree Maze",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$cut,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "access_rules": ["$cut"],
@@ -2050,7 +2050,7 @@
           {
             "name": "Hidden Item in East",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -2076,13 +2076,13 @@
           {
             "name": "Triathlete Dylan",
             "chest_unopened_img": "/images/locations/triathlete_runner_male.png",
-		        "chest_opened_img": "/images/locations/triathlete_runner_male_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_runner_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2090,37 +2090,37 @@
           {
             "name": "Sr. and Jr. Anna & Meg",
             "chest_unopened_img": "/images/locations/sr_and_jr.png",
-		        "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
+            "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemon Breeder Isaac",
             "chest_unopened_img": "/images/locations/pokemon_breeder_male.png",
-		        "chest_opened_img": "/images/locations/pokemon_breeder_male_bw.png",
+            "chest_opened_img": "/images/locations/pokemon_breeder_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Maria",
             "chest_unopened_img": "/images/locations/triathlete_runner_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Battle Girl Aisha",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Melina",
             "chest_unopened_img": "/images/locations/triathlete_runner_female.png",
-		        "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
+            "chest_opened_img": "/images/locations/triathlete_runner_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Psychic Brandi",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2131,7 +2131,7 @@
           {
             "name": "Bug Maniac Derek",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2141,14 +2141,14 @@
           {
             "name": "Hidden Item Behind Flower Patch",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Pokemon Breeder Lydia",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2168,42 +2168,42 @@
           {
             "name": "Youngster Deandre",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Aroma Lady Rose",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item West on Rock",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$mauville_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Wade",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Guitarist Dalton",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$mauville_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Good Rod from Fisherman",
             "chest_unopened_img": "/images/locations/fisherman_good_rod.png",
-		        "chest_opened_img": "/images/locations/fisherman_good_rod_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_good_rod_bw.png",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["rods_on"]
           },
@@ -2216,35 +2216,35 @@
           {
             "name": "Hidden Item East on Rock",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$route_119_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Barny",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Perry",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Chester",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "access_rules": ["$route_119_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$route_119_access"],
@@ -2273,19 +2273,19 @@
           {
             "name": "Bug Catcher Kent",
             "chest_unopened_img": "/images/locations/bug_catcher.png",
-		        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bug Maniac Donald",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bug Catcher Greg",
             "chest_unopened_img": "/images/locations/bug_catcher.png",
-		        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2295,26 +2295,26 @@
           {
             "name": "Bug Maniac Taylor",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in South Tall Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Bug Catcher Doug",
             "chest_unopened_img": "/images/locations/bug_catcher.png",
-		        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bug Maniac Brent",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2324,7 +2324,7 @@
           {
             "name": "Fisherman Chris",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "access_rules": ["$surf"],
             "visibility_rules": ["trainers_on"]
           },
@@ -2336,7 +2336,7 @@
           {
             "name": "Berry Trees South",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2344,32 +2344,32 @@
           {
             "name": "Hidden Item Across South Rail",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["acro_bike,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Pokemon Ranger Catherine",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemon Ranger Jackson",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Parasol Lady Rachel",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Phil",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2383,19 +2383,19 @@
           {
             "name": "Kindler Dayton",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Takashi",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Hugh",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2416,31 +2416,31 @@
           {
             "name": "1F - Team Aqua Grunt 1",
             "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "1F - Team Aqua Grunt 2",
             "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "2F - Team Aqua Grunt 2",
             "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "2F - Team Aqua Grunt 1",
             "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "2F - Team Aqua Grunt 3",
             "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2450,7 +2450,7 @@
           {
             "name": "2F - Aqua Admin Shelly",
             "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-		        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2480,7 +2480,7 @@
                     {
             "name": "Hidden Item in East Tall Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$surf,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -2492,14 +2492,14 @@
           {
             "name": "Hidden Item Next to Waterfall",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$surf,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees Above Waterfall",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "access_rules": ["$surf,$waterfall"],
@@ -2518,7 +2518,7 @@
           {
             "name": "HM02 from Rival",
             "chest_unopened_img": "/images/locations/rival_flying_hm.png",
-		        "chest_opened_img": "/images/locations/rival_flying_hm_bw.png",
+            "chest_opened_img": "/images/locations/rival_flying_hm_bw.png",
             "visibility_rules": ["hms_any","hms_shuffle"]
           },
           {
@@ -2529,31 +2529,31 @@
           {
             "name": "Rival Brendan or May",
             "chest_unopened_img": "/images/locations/rival.png",
-		        "chest_opened_img": "/images/locations/rival_bw.png",
+            "chest_opened_img": "/images/locations/rival_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Guitarist Fabian",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Yasu",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Hideo",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees North",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2576,13 +2576,13 @@
           {
             "name": "Parasol Lady Clarissa",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Behind Trees",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$cut,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -2599,20 +2599,20 @@
           {
             "name": "Hidden Item in North Tall Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Bird Keeper Robert",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Devon Scope from Steven",
             "chest_unopened_img": "/images/locations/steven_devon_scope.png",
-		        "chest_opened_img": "/images/locations/steven_devon_scope_bw.png",
+            "chest_opened_img": "/images/locations/steven_devon_scope_bw.png",
             "visibility_rules": ["key_items_on"]
           },
           {
@@ -2623,31 +2623,31 @@
           {
             "name": "Bird Keeper Colin",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Leonel",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Parasol Lady Angelica",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Battle Girl Callie",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Riley",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2657,20 +2657,20 @@
           {
             "name": "Cooltrainer Jennifer",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Tall Grass Maze",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees in Side Area",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "access_rules": ["$cut"],
@@ -2679,13 +2679,13 @@
           {
             "name": "Pokemon Ranger Jenna",
             "chest_unopened_img": "/images/locations/picnicker.png",
-		        "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemon Ranger Lorenzo",
             "chest_unopened_img": "/images/locations/camper.png",
-		        "chest_opened_img": "/images/locations/camper_bw.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2695,7 +2695,7 @@
           {
             "name": "Bug Maniac Jeffrey",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2705,13 +2705,13 @@
           {
             "name": "Berry from Lady Near Berry Trees",
             "chest_unopened_img": "/images/locations/beauty_figy_berry.png",
-		        "chest_opened_img": "/images/locations/beauty_figy_berry_bw.png",
+            "chest_opened_img": "/images/locations/beauty_figy_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Berry Trees South",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2719,7 +2719,7 @@
           {
             "name": "Berry Trees Pond",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2732,20 +2732,20 @@
           {
             "name": "Hidden Item Behind Southwest Pool",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$surf,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Ninja Boy Keigo",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ruin Maniac Chip",
             "chest_unopened_img": "/images/locations/hiker.png",
-		        "chest_opened_img": "/images/locations/hiker_bw.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2766,26 +2766,26 @@
           {
             "name": "Bug Maniac Cale",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hex Maniac Tammy",
             "chest_unopened_img": "/images/locations/hex_maniac.png",
-		        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item West of Grunts",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees West",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2793,7 +2793,7 @@
           {
             "name": "Beauty Jessica",
             "chest_unopened_img": "/images/locations/beauty.png",
-		        "chest_opened_img": "/images/locations/beauty_bw.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -2818,19 +2818,19 @@
           {
             "name": "Sr. and Jr. Kate & Joy",
             "chest_unopened_img": "/images/locations/sr_and_jr.png",
-		        "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
+            "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemon Breeder Pat",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Pokemon Breeder Myles",
             "chest_unopened_img": "/images/locations/pokemon_breeder_male.png",
-		        "chest_opened_img": "/images/locations/pokemon_breeder_male_bw.png",
+            "chest_opened_img": "/images/locations/pokemon_breeder_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2840,7 +2840,7 @@
           {
             "name": "Gentleman Walter",
             "chest_unopened_img": "/images/locations/gentleman.png",
-		        "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "chest_opened_img": "/images/locations/gentleman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -2850,46 +2850,46 @@
           {
             "name": "Pokefan Vanessa",
             "chest_unopened_img": "/images/locations/pokefan_female.png",
-		        "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Behind Tree",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$cut,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item in Maze 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Cooltrainer Marcel",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Maze 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Cooltrainer Cristin",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees East",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 4,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2912,45 +2912,45 @@
           {
             "name": "Bug Catcher Davis",
             "chest_unopened_img": "/images/locations/youngster.png",
-		        "chest_opened_img": "/images/locations/youngster_bw.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Jazmyn",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berries from Berry Master",
             "chest_unopened_img": "/images/locations/berry_master_pomeg_berry.png",
-		        "chest_opened_img": "/images/locations/berry_master_pomeg_berry_bw.png",
+            "chest_opened_img": "/images/locations/berry_master_pomeg_berry_bw.png",
             "item_count": 2,
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Berry from Berry Master's Wife",
             "chest_unopened_img": "/images/locations/berry_master_wife_spelon_berry.png",
-		        "chest_opened_img": "/images/locations/berry_master_wife_spelon_berry_bw.png",
+            "chest_opened_img": "/images/locations/berry_master_wife_spelon_berry_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Hidden Item Behind House",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Aroma Lady Violet",
             "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees Berry Master SW",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2958,7 +2958,7 @@
           {
             "name": "Berry Trees Berry Master S",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2966,7 +2966,7 @@
           {
             "name": "Berry Trees Berry Master SE",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2974,7 +2974,7 @@
           {
             "name": "Berry Trees Berry Master NW",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2982,7 +2982,7 @@
           {
             "name": "Berry Trees Berry Master N",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -2990,7 +2990,7 @@
           {
             "name": "Berry Trees Berry Master NE",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -3002,7 +3002,7 @@
           {
             "name": "Twins Miu & Yuki",
             "chest_unopened_img": "/images/locations/twins.png",
-		        "chest_opened_img": "/images/locations/twins_bw.png",
+            "chest_opened_img": "/images/locations/twins_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3023,42 +3023,42 @@
           {
             "name": "Psychic Cameron",
             "chest_unopened_img": "/images/locations/psychic_male.png",
-		        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Ninja Boy Jonas",
             "chest_unopened_img": "/images/locations/ninja_boy.png",
-		        "chest_opened_img": "/images/locations/ninja_boy_bw.png",
+            "chest_opened_img": "/images/locations/ninja_boy_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Parasol Lady Kayley",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "access_rules": ["$cut"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item East Behind Tree 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$cut,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item East Behind Tree 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$cut,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Berry Trees East",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -3066,32 +3066,32 @@
           {
             "name": "TM19 from Girl near Berries",
             "chest_unopened_img": "/images/locations/girl_grass_tm.png",
-		        "chest_opened_img": "/images/locations/girl_grass_tm_bw.png",
+            "chest_opened_img": "/images/locations/girl_grass_tm_bw.png",
             "visibility_rules": ["gifts_on"]
           },
           {
             "name": "Hidden Item on Rock Before Ledges",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hex Maniac Kindra",
             "chest_unopened_img": "/images/locations/hex_maniac.png",
-		        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Collector Ed",
             "chest_unopened_img": "/images/locations/fossil_maniac.png",
-		        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Trees West",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 3,
             "clear_as_group": false,
             "visibility_rules": ["berries_on"]
@@ -3099,7 +3099,7 @@
           {
             "name": "Hidden Item in North Path Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -3110,25 +3110,25 @@
           {
             "name": "Cooltrainer Wendy",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Braxton",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Guitarist Fernando",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Alberto",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3138,13 +3138,13 @@
           {
             "name": "Psychic Jacki",
             "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Fredrick",
             "chest_unopened_img": "/images/locations/expert_male.png",
-		        "chest_opened_img": "/images/locations/expert_male_bw.png",
+            "chest_opened_img": "/images/locations/expert_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3173,26 +3173,26 @@
           {
             "name": "Swimmer Grace",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Declan",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in Big Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in Tunnel Alcove",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -3204,26 +3204,26 @@
           {
             "name": "Sis and Bro Lila & Roy",
             "chest_unopened_img": "/images/locations/sis_and_bro.png",
-		        "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
+            "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Spencer",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in North Tunnel 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in North Tunnel 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -3240,46 +3240,46 @@
           {
             "name": "Underwater - Hidden Item in Small Area North",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Swimmer Jenny",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Chad",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in Small Area Middle",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in Small Area South",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Isabella",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Roland",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3300,37 +3300,37 @@
           {
             "name": "Swimmer Sharon",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sailor Ernest",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Nolen",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Tanya",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Presley",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Auron",
             "chest_unopened_img": "/images/locations/expert_male.png",
-		        "chest_opened_img": "/images/locations/expert_male_bw.png",
+            "chest_opened_img": "/images/locations/expert_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3340,13 +3340,13 @@
           {
             "name": "Swimmer Stan",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sr. and Jr. Kim & Iris",
             "chest_unopened_img": "/images/locations/sr_and_jr.png",
-		        "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
+            "chest_opened_img": "/images/locations/sr_and_jr_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3372,105 +3372,105 @@
           {
             "name": "Swimmer Nikki",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Dean",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item Northeast",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Isobel",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Leonardo",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in North Alcove",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in Northwest Alcove",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in West Area 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in West Area 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in West Area 3",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Swimmer Brenda",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "access_rules": ["$dive"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Pablo",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Sienna",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in Southwest Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Swimmer Barry",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item Southeast",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           }
@@ -3496,13 +3496,13 @@
           {
             "name": "Bird Keeper Aidan",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Athena",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3512,53 +3512,53 @@
           {
             "name": "Underwater - Hidden Item in West Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in Center Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in East Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Jonah",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Henry",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Fisherman Roger",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in Northeast Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Camden",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3569,13 +3569,13 @@
           {
             "name": "Black Belt Koji",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Donny",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3596,78 +3596,78 @@
           {
             "name": "Cooltrainer Alexa",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Ruben",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item North Island",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Hidden Item Center Island",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Underwater - Hidden Item in Small Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Isaiah",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item Southwest Island",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Fisherman Wayne",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Underwater - Hidden Item in East Area",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["$dive,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Triathlete Katelyn",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Carlee",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Harrison",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3688,31 +3688,31 @@
           {
             "name": "Swimmer Reed",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Chase",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Allison",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Clarence",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Tisha",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3733,25 +3733,25 @@
           {
             "name": "Swimmer Rodney",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Berry Tree on Mirage Island",
             "chest_unopened_img": "/images/locations/berry_tree.png",
-		        "chest_opened_img": "/images/locations/berry_tree_bw.png",
+            "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": ["berries_on"]
           },
           {
             "name": "Swimmer Katie",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Santiago",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3772,43 +3772,43 @@
           {
             "name": "Swimmer Kevin",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Talia",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Richard",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Kara",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Herman",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Susie",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sis and Bro Reli & Ian",
             "chest_unopened_img": "/images/locations/sis_and_bro.png",
-		        "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
+            "chest_opened_img": "/images/locations/sis_and_bro_bw.png",
             "visibility_rules": ["trainers_on"]
           }
         ],
@@ -3829,31 +3829,31 @@
           {
             "name": "Fisherman Ronald",
             "chest_unopened_img": "/images/locations/fisherman.png",
-		        "chest_opened_img": "/images/locations/fisherman_bw.png",
+            "chest_opened_img": "/images/locations/fisherman_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Paxton",
             "chest_unopened_img": "/images/locations/expert_male.png",
-		        "chest_opened_img": "/images/locations/expert_male_bw.png",
+            "chest_opened_img": "/images/locations/expert_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Darcy",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Makayla",
             "chest_unopened_img": "/images/locations/expert_female.png",
-		        "chest_opened_img": "/images/locations/expert_female_bw.png",
+            "chest_opened_img": "/images/locations/expert_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Jonathan",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3863,19 +3863,19 @@
           {
             "name": "Black Belt Kiyo",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Gilbert",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Dana",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3900,19 +3900,19 @@
           {
             "name": "Expert Conor",
             "chest_unopened_img": "/images/locations/expert_male.png",
-		        "chest_opened_img": "/images/locations/expert_male_bw.png",
+            "chest_opened_img": "/images/locations/expert_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Expert Mollie",
             "chest_unopened_img": "/images/locations/expert_female.png",
-		        "chest_opened_img": "/images/locations/expert_female_bw.png",
+            "chest_opened_img": "/images/locations/expert_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Beck",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3922,7 +3922,7 @@
           {
             "name": "Cooltrainer Warren",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3932,19 +3932,19 @@
           {
             "name": "Swimmer Debra",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Franklin",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Linda",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3969,25 +3969,25 @@
           {
             "name": "Swimmer Laurel",
             "chest_unopened_img": "/images/locations/swimmer_female.png",
-		        "chest_opened_img": "/images/locations/swimmer_female_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Swimmer Jack",
             "chest_unopened_img": "/images/locations/swimmer_male.png",
-		        "chest_opened_img": "/images/locations/swimmer_male_bw.png",
+            "chest_opened_img": "/images/locations/swimmer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Black Belt Hitoshi",
             "chest_unopened_img": "/images/locations/black_belt.png",
-		        "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Battle Girl Reyna",
             "chest_unopened_img": "/images/locations/battle_girl.png",
-		        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -3997,31 +3997,31 @@
           {
             "name": "Sailor Hudson",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Dragon Tamer Aaron",
             "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Cooltrainer Marley",
             "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-		        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Bird Keeper Alex",
             "chest_unopened_img": "/images/locations/guitarist.png",
-		        "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Sailor Kelvin",
             "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
@@ -4046,14 +4046,14 @@
           {
             "name": "Defeat Latios",
             "chest_unopened_img": "/images/locations/latios.png",
-		        "chest_opened_img": "/images/locations/latios_bw.png",
+            "chest_opened_img": "/images/locations/latios_bw.png",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_latios"]
           },
           {
             "name": "Catch Latios",
             "chest_unopened_img": "/images/locations/latios.png",
-		        "chest_opened_img": "/images/locations/latios_bw.png",
+            "chest_opened_img": "/images/locations/latios_bw.png",
             "access_rules": ["defeat_champion"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_latios"]
           }
