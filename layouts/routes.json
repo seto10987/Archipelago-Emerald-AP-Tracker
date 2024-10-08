@@ -1,0 +1,1934 @@
+{
+	"routes":
+	{
+		"type": "array",
+		"content": [
+			{
+				"type": "tabbed",
+				"dock": "left",
+				"tabs": [
+					{
+						"title": "Routes 101-110",
+						"v_alignment": "stretch",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Rt 101",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_101"]
+									}
+								},
+								{
+									"title": "Rt 102",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_102"]
+									}
+								},
+								{
+									"title": "Rt 103",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_103"]
+									}
+								},
+								{
+									"title": "Rt 104",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 104",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_104"]
+												}
+											},
+											{
+												"title": "Mr. Briney's House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["brineys_house"]
+												}
+											},
+											{
+												"title": "Petalburg Woods",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["petalburg_woods"]
+												}
+											},
+											{
+												"title": "Pretty Petal Flower Shop",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["flower_shop"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 105",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 105",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 105",
+																"content": {
+																"type":"map",
+																"maps": ["rt_105"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_105_underwater"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Island Cave",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["island_cave"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 106",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 106",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_106"]
+												}
+											},
+											{
+												"title": "Granite Cave",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"tabbed",
+												"tabs": [
+														{
+															"title": "Granite Cave 1F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["granite_cave_1f"]
+															}
+														},
+														{
+															"title": "Granite Cave B1F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["granite_cave_b1f"]
+															}
+														},
+														{
+															"title": "Granite Cave B2F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["granite_cave_b2f"]
+															}
+														},
+														{
+															"title": "Granite Cave Steven's Room",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["granite_cave_s"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 107",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_107"]
+									}
+								},
+								{
+									"title": "Rt 108",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 108",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_108"]
+												}
+											},
+											{
+												"title": "Abandoned Ship",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+																	{
+																	"title": "Abandoned Ship 1F",
+																	"v_alignment": "stretch",
+																	"h_alignment": "stretch",
+																	"content": {
+																	"type": "tabbed",
+																	"tabs": [
+																	{
+																		"title": "Abandoned Ship Deck",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_deck"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Corridors 1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_corridors_1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Rooms 1 1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_rooms_1_1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Rooms 2 1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_rooms_2_1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Captain's Office",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_captains_office"]
+																		}
+																	}
+																]
+															}
+														},
+											{
+												"title": "Abandoned Ship B1F",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+																	{
+																		"title": "Abandoned Ship Corridors B1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_corridors_b1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Rooms 1 B1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_rooms_1_b1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Rooms 2 B1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_rooms_2_b1f"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Storage Room B1F",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_storage_room_b1f"]
+																		}
+																	}
+																]
+															}
+														},
+														{
+															"title": "Abandoned Ship Hidden Floor",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "tabbed",
+															"tabs": [
+																	{
+																		"title": "Abandoned Ship Underwater 1",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_underwater_1"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Underwater 2",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_underwater_2"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Hidden Floor Corridors",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_hidden_floor_corridors"]
+																		}
+																	},
+																	{
+																		"title": "Abandoned Ship Hidden Floor Rooms",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["abandoned_ship_hidden_floor_rooms"]
+																		}
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 109",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 109",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_109"]
+												}
+											},
+											{
+												"title": "Seashore House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["seashore_house"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 110",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 110",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_110"]
+												}
+											},
+											{
+												"title": "Cycling Road",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"tabbed",
+												"tabs": [
+														{
+															"title": "Cycling Road Entrance South",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["cycling_road_entrance"]
+															}
+														},
+														{
+															"title": "Cycling Road Entrance North",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["cycling_road_entrance"]
+															}
+														}
+													]
+												}
+											
+											},
+											{																		
+												"title": "New Mauville",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "New Mauville Entrance",
+																"v_alignment": "stretch",
+																"h_alignment": "stretch",
+																"content": {
+																"type":"map",
+																"maps": ["new_mauville_entrance"]
+															}
+														},
+														{
+																"title": "New Mauville",
+																"v_alignment": "stretch",
+																"h_alignment": "stretch",
+																"content": {
+																"type":"map",
+																"maps": ["new_mauville"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Trick House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+															"title": "Trick House Entrance",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_main"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 1",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_1"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 2",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_2"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 3",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_3"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 4",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_4"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 5",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_5"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 6",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_6"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 7",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_7"]
+															}
+														},
+														{
+															"title": "Trick House Puzzle 8",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_8"]
+															}
+														},
+														{
+															"title": "Trick House Corridor",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_hallway"]
+															}
+														},
+														{
+															"title": "Trick House End",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["trick_house_end"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Routes 111-120",
+						"v_alignment": "stretch",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Rt 111",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 111",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_111"]
+												}
+											},
+											{
+												"title": "Winstrate Family's House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["winstrate_familys_house"]
+												}
+											},
+											{
+												"title": "Old Lady's Rest Stop",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["old_ladys_rest_stop"]
+												}
+											},
+											{
+												"title": "Mirage Tower",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"tabbed",
+												"tabs": [
+														{
+															"title": "1F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["mirage_tower_1f"]
+															}
+														},
+														{
+															"title": "2F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["mirage_tower_2f"]
+															}
+														},
+														{
+															"title": "3F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["mirage_tower_3f"]
+															}
+														},
+														{
+															"title": "4F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["mirage_tower_4f"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Desert Ruins",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["desert_ruins"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 112",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 112",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_112"]
+												}
+											},
+											{
+												"title": "Fiery Path",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["fiery_path"]
+												}
+											},
+											{
+												"title": "Cable Car Station",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["cable_car_station"]
+												}
+											},
+											{
+												"title": "Mt. Chimney",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["mt_chimney"]
+												}
+											},
+											{
+												"title": "Jagged Pass",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["jagged_pass"]
+												}
+											},
+											{
+												"title": "Magma Hideout",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"tabbed",
+												"tabs": [
+														{
+															"title": "1F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_1f"]
+															}
+														},
+														{
+															"title": "2F1R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_2f1r"]
+															}
+														},
+														{
+															"title": "2F2R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_2f2r"]
+															}
+														},
+														{
+															"title": "2F3R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_2f3r"]
+															}
+														},
+														{
+															"title": "3F1R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_3f1r"]
+															}
+														},
+														{
+															"title": "3F2R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_3f2r"]
+															}
+														},
+														{
+															"title": "3F3R",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_3f3r"]
+															}
+														},
+														{
+															"title": "4F",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "map",
+															"maps": ["magma_hideout_4f"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 113",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 113",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_113"]
+												}
+											},
+											{
+												"title": "Glass Workshop",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["glass_workshop"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 114",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 114",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_114"]
+												}
+											},
+											{
+												"title": "Fossil Maniac",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+															"title": "House",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["fossil_maniac_house"]
+															}
+														},
+														{
+															"title": "Tunnel",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["fossil_maniac_tunnel"]
+															}
+														},
+														{
+															"title": "Desert Underpass",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type":"map",
+															"maps": ["desert_underpass"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Lanette's House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["lanettes_house"]
+												}
+											},
+											{
+												"title": "Meteor Falls",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+															"title": "1F1R",
+															"content": {
+															"type":"map",
+															"maps": ["meteor_falls_1f1r"]
+															}
+														},
+														{
+															"title": "1F2R",
+															"content": {
+															"type":"map",
+															"maps": ["meteor_falls_1f2r"]
+															}
+														},
+														{
+															"title": "B1F1R",
+															"content": {
+															"type":"map",
+															"maps": ["meteor_falls_b1f1r"]
+															}
+														},
+														{
+															"title": "B1F2R",
+															"content": {
+															"type":"map",
+															"maps": ["meteor_falls_b1f2r"]
+															}
+														},
+														{
+															"title": "Steven's Room",
+															"content": {
+															"type":"map",
+															"maps": ["meteor_falls_steven"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								
+								{
+									"title": "Rt 115",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_115"]
+									}
+								},
+								{
+									"title": "Rt 116",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 116",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_116"]
+												}
+											},
+											{
+												"title": "Rusturf Tunnel",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rusturf_tunnel"]
+												}
+											},
+											{
+												"title": "Tunneler's Rest House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_116_tunnelers_rest_house"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 117",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 117",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_117"]
+												}
+											},
+											{
+												"title": "Pokemon Daycare",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["pokemon_daycare"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 118",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_118"]
+									}
+								},
+								{
+									"title": "Rt 119",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 119",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_119"]
+												}
+											},
+											{
+												"title": "Weather Institute",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Weather Institute 1F",
+																"content": {
+																"type":"map",
+																"maps": ["weather_institute_1f"]
+															}
+														},
+														{
+																"title": "Weather Institute 2F",
+																"content": {
+																"type":"map",
+																"maps": ["weather_institute_2f"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 120",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+										"type": "tabbed",
+										"tabs": [
+												{
+														"title": "Rt 120",
+														"content": {
+														"type":"map",
+														"maps": ["rt_120"]
+													}
+												},
+												{
+														"title": "Scorched Slab",
+														"content": {
+														"type":"map",
+														"maps": ["scorched_slab"]
+													}
+												},
+												{
+														"title": "Ancient Tomb",
+														"content": {
+														"type":"map",
+														"maps": ["ancient_tomb"]
+													}
+												}
+											]
+										}
+								}
+							]
+						}
+					},
+					{
+						"title": "Routes 121-130",
+						"v_alignment": "stretch",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+								{
+									"title": "Rt 121",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+													"title": "Rt 121",
+													"content": {
+													"type":"map",
+													"maps": ["rt_121"]
+												}
+											},
+											{
+												"title": "Safari Zone",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Lobby",
+																"content": {
+																"type":"map",
+																"maps": ["safari_lobby"]
+															}
+														},
+														{
+																"title": "South",
+																"content": {
+																"type":"map",
+																"maps": ["safari_south"]
+															}
+														},
+														{
+															"title": "Southwest",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+																"type": "tabbed",
+																"tabs": [
+																		{
+																				"title": "Southwest",
+																				"content": {
+																				"type":"map",
+																				"maps": ["safari_southwest"]
+																			}
+																		},
+																		{
+																				"title": "Rest House",
+																				"content": {
+																				"type":"map",
+																				"maps": ["safari_rest_house"]
+																			}
+																		}
+																	]
+																}
+														},
+														{
+																"title": "Northwest",
+																"content": {
+																"type":"map",
+																"maps": ["safari_northwest"]
+															}
+														},
+														{
+																"title": "North",
+																"content": {
+																"type":"map",
+																"maps": ["safari_north"]
+															}
+														},
+														{
+																"title": "Northeast",
+																"content": {
+																"type":"map",
+																"maps": ["safari_northeast"]
+															}
+														},
+														{
+																"title": "Southeast",
+																"content": {
+																"type":"map",
+																"maps": ["safari_southeast"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 122",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 122",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_122"]
+												}
+											},
+											{
+												"title": "Mt. Pyre",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+															"title": "Interior",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "tabbed",
+															"tabs": [
+																	{
+																			"title": "1F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_1f"]
+																		}
+																	},
+																	{
+																			"title": "2F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_2f"]
+																		}
+																	},
+																	{
+																			"title": "3F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_3f"]
+																		}
+																	},
+																	{
+																			"title": "4F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_4f"]
+																		}
+																	},
+																	{
+																			"title": "5F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_5f"]
+																		}
+																	},
+																	{
+																			"title": "6F",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_6f"]
+																		}
+																	}
+																]
+															}
+														},
+														{
+															"title": "Exterior",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "tabbed",
+															"tabs": [
+																	{
+																			"title": "Exterior",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_ext"]
+																		}
+																	},
+																	{
+																			"title": "Summit",
+																			"content": {
+																			"type":"map",
+																			"maps": ["mt_pyre_summit"]
+																		}
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 123",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 123",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["rt_123"]
+												}
+											},
+											{
+												"title": "Berry Master's House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["berry_masters_house"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 124",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 124",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 124",
+																"content": {
+																"type":"map",
+																"maps": ["rt_124"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_124_underwater"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Diving Treasure Hunter's House",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type":"map",
+												"maps": ["diving_treasure_hunters_house"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 125",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 125",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 125",
+																"content": {
+																"type":"map",
+																"maps": ["rt_125"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_125_underwater"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Shoal Cave",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+															"title": "High Tide",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "tabbed",
+															"tabs": [
+																	{
+																		"title": "Entrance Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_entrance_high"]
+																		}
+																	},
+																	{
+																		"title": "Inner Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_entrance_high"]
+																		}
+																	}
+																]
+															}
+														},
+														{
+															"title": "Low Tide",
+															"v_alignment": "stretch",
+															"h_alignment": "stretch",
+															"content": {
+															"type": "tabbed",
+															"tabs": [
+																	{
+																		"title": "Entrance Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_entrance_low"]
+																		}
+																	},
+																	{
+																		"title": "Inner Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_inner_room_low"]
+																		}
+																	},
+																	{
+																		"title": "Stairs Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_stairs_room"]
+																		}
+																	},
+																	{
+																		"title": "Lower Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_lower_room"]
+																		}
+																	},
+																	{
+																		"title": "Ice Room",
+																		"v_alignment": "stretch",
+																		"h_alignment": "stretch",
+																		"content": {
+																		"type":"map",
+																		"maps": ["shoal_cave_ice_room"]
+																		}
+																	}
+																]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 126",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 126",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 126",
+																"content": {
+																"type":"map",
+																"maps": ["rt_126"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_126_underwater"]
+															}
+														},
+														{
+																"title": "Underwater Entry",
+																"content": {
+																"type":"map",
+																"maps": ["rt_126_underwater_entry"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 127",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 127",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 127",
+																"content": {
+																"type":"map",
+																"maps": ["rt_127"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_127_underwater"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 128",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+												"title": "Rt 128",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Rt 128",
+																"content": {
+																"type":"map",
+																"maps": ["rt_128"]
+															}
+														},
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["rt_128_underwater"]
+															}
+														}
+													]
+												}
+											},
+											{
+												"title": "Seafloor Cavern",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Underwater",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_underwater"]
+															}
+														},
+														{
+																"title": "Entrance",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_ent"]
+															}
+														},
+														{
+																"title": "1",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_1"]
+															}
+														},
+														{
+																"title": "2",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_2"]
+															}
+														},
+														{
+																"title": "3",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_3"]
+															}
+														},
+														{
+																"title": "4",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_4"]
+															}
+														},
+														{
+																"title": "5",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_5"]
+															}
+														},
+														{
+																"title": "6",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_6"]
+															}
+														},
+														{
+																"title": "7",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_7"]
+															}
+														},
+														{
+																"title": "8",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_8"]
+															}
+														},
+														{
+																"title": "9",
+																"content": {
+																"type":"map",
+																"maps": ["seafloor_cavern_9"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 129",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+													"title": "Rt 129",
+													"content": {
+													"type":"map",
+													"maps": ["rt_129"]
+												}
+											},
+											{
+													"title": "Underwater",
+													"content": {
+													"type":"map",
+													"maps": ["rt_129_underwater"]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 130",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_130"]
+									}
+								}
+							]
+						}
+					},
+					{
+						"title": "Routes 131-134",
+						"v_alignment": "stretch",
+						"content": {
+						"type": "tabbed",
+						"tabs": [
+							{
+								"title": "Rt 131",
+								"v_alignment": "stretch",
+								"h_alignment": "stretch",
+								"content": {
+								"type": "tabbed",
+								"tabs": [
+											{
+													"title": "Rt 131",
+													"content": {
+													"type":"map",
+													"maps": ["rt_131"]
+												}
+											},
+											{
+												"title": "Sky Pillar",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Entrance",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_entrance"]
+															}
+														},
+														{
+																"title": "Outside",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_after_entrance"]
+															}
+														},
+														{
+																"title": "1F",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_1f"]
+															}
+														},
+														{
+																"title": "2F",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_2f"]
+															}
+														},
+														{
+																"title": "3F",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_3f"]
+															}
+														},
+														{
+																"title": "4F",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_4f"]
+															}
+														},
+														{
+																"title": "5F",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_5f"]
+															}
+														},
+														{
+																"title": "Top",
+																"content": {
+																"type":"map",
+																"maps": ["sky_pillar_top"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								},
+								{
+									"title": "Rt 132",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_132"]
+									}
+								},
+								{
+									"title": "Rt 133",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type":"map",
+									"maps": ["rt_133"]
+									}
+								},
+								{
+									"title": "Rt 134",
+									"v_alignment": "stretch",
+									"h_alignment": "stretch",
+									"content": {
+									"type": "tabbed",
+									"tabs": [
+											{
+													"title": "Rt 134",
+													"content": {
+													"type":"map",
+													"maps": ["rt_134"]
+												}
+											},
+											{
+												"title": "Sealed Chamber",
+												"v_alignment": "stretch",
+												"h_alignment": "stretch",
+												"content": {
+												"type": "tabbed",
+												"tabs": [
+														{
+																"title": "Underwater Entry",
+																"content": {
+																"type":"map",
+																"maps": ["sealed_chamber_underwater_entry"]
+															}
+														},
+														{
+																"title": "Underwater Path",
+																"content": {
+																"type":"map",
+																"maps": ["sealed_chamber_underwater_path"]
+															}
+														},
+														{
+																"title": "Outer Room",
+																"content": {
+																"type":"map",
+																"maps": ["sealed_chamber_outer_room"]
+															}
+														},
+														{
+																"title": "Inner Room",
+																"content": {
+																"type":"map",
+																"maps": ["sealed_chamber_inner_room"]
+															}
+														}
+													]
+												}
+											}
+										]
+									}
+								}
+							]
+						}
+					}
+				]
+			}
+		]
+	}
+}
+

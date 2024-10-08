@@ -15,16 +15,95 @@ KEY_ITEMS_ID = ""
 LEGENDARY_ID = ""
 
 OBTAINED_ITEMS = {}
+UNCLEARED_ENCOUNTERS = {}
+ADJUSTED_TABS = {}
+
+JSONITEM_RESET = -1
+JSONITEM_TEMP_STATES = {}
+JSONITEM_TEMP_STATES_DEX = {}
+JSONITEM_QUEUE = {}
+JSONITEM_QUEUE_CURRENT_INDEX = 1
+JSONITEM_DEX_QUEUE = {}
+JSONITEM_DEX_QUEUE_CURRENT_INDEX = 1
+
+FRAME_COUNT = 0
+
+function onFrame(elapsed)
+	FRAME_COUNT = (FRAME_COUNT + 1) % 256
+
+	-- (onClear) Smarter reset and update of JsonItems
+	if (FRAME_COUNT % 64) == 0 then
+		if JSONITEM_RESET ~= -1 then
+			JSONITEM_RESET = -1
+			for code, value in pairs(JSONITEM_TEMP_STATES) do
+				table.insert(JSONITEM_QUEUE, {code, value})
+			end
+			for code, value in pairs(JSONITEM_TEMP_STATES_DEX) do
+				table.insert(JSONITEM_DEX_QUEUE, {code, value})
+			end
+		end
+	end
+
+	--[[
+		Process the next thing in the JsonItem queue.
+		Prioritize updating Key Items and Events over Dexsanity checks.
+		Once every 8 frames seems to be enough breathing room.
+	]]
+	if (FRAME_COUNT % 8) == 0 then
+		if JSONITEM_QUEUE[1] then
+			Tracker.BulkUpdate = true
+			local queue_entry = JSONITEM_QUEUE[JSONITEM_QUEUE_CURRENT_INDEX]
+			if queue_entry then
+				JSONITEM_QUEUE_CURRENT_INDEX = JSONITEM_QUEUE_CURRENT_INDEX + 1
+				if queue_entry[1] and (queue_entry[2] ~= nil) then
+					local obj = Tracker:FindObjectForCode(queue_entry[1])
+					if obj then
+						if obj.Active ~= queue_entry[2] then
+							obj.Active = queue_entry[2]
+						end
+					elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print(string.format("JsonItem Queue: could not find object for code %s", code))
+					end
+				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("JsonItem Queue: data not formatted properly") -- code logic error
+				end
+			else -- end of the queue
+				Tracker.BulkUpdate = false
+				JSONITEM_QUEUE = {}
+				JSONITEM_QUEUE_CURRENT_INDEX = 1
+			end
+		elseif JSONITEM_DEX_QUEUE[1] then
+			local queue_entry = JSONITEM_DEX_QUEUE[JSONITEM_DEX_QUEUE_CURRENT_INDEX]
+			if queue_entry then
+				JSONITEM_DEX_QUEUE_CURRENT_INDEX = JSONITEM_DEX_QUEUE_CURRENT_INDEX + 1
+				if queue_entry[1] and (queue_entry[2] ~= nil) then
+					local obj = Tracker:FindObjectForCode(queue_entry[1])
+					if obj then
+						if obj.Active ~= queue_entry[2] then
+							obj.Active = queue_entry[2]
+              processUnclearedEncounters(species_id)
+						end
+					elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+						print(string.format("JsonItem Queue: could not find object for code %s", code))
+					end
+				elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+					print("JsonItem Queue: data not formatted properly") -- code logic error
+				end
+			else -- end of the queue
+				JSONITEM_DEX_QUEUE = {}
+				JSONITEM_DEX_QUEUE_CURRENT_INDEX = 1
+			end
+		end
+	end
+end
 
 print("overall test")
 
 function resetItems()
+  JSONITEM_RESET = 1
 	for _, value in pairs(ITEM_MAPPING) do
 		if value[1] then
-			local object = Tracker:FindObjectForCode(value[1])
-			if object then
-				object.Active = false
-			end
+      JSONITEM_TEMP_STATES[value[1]] = false
 		end
 	end
 end
@@ -37,7 +116,9 @@ function resetLocations()
         if code:sub(1,1) == "@" then
           object.AvailableChestCount = object.ChestCount
         else
-          object.Active = false
+          -- pokedex (386 JsonItems)
+          JSONITEM_RESET = 1
+          JSONITEM_TEMP_STATES_DEX[code] = false
         end
       end
     end
@@ -48,7 +129,14 @@ function onClear(slot_data)
 	PLAYER_NUMBER = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
 	CUR_INDEX = -1
+  Tracker.BulkUpdate = true
   OBTAINED_ITEMS = {}
+  JSONITEM_RESET = 1
+	FRAME_COUNT = 1
+	JSONITEM_QUEUE = {}
+	JSONITEM_DEX_QUEUE = {}
+	JSONITEM_TEMP_STATES = {}
+	JSONITEM_TEMP_STATES_DEX = {}
 	resetItems()
 	resetLocations()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -92,6 +180,7 @@ function onClear(slot_data)
 	  Archipelago:Get({LEGENDARY_ID})
 	end
     Tracker:FindObjectForCode("tab_switch").Active = 1
+    Tracker.BulkUpdate = false
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -111,9 +200,13 @@ function onItem(index, item_id, item_name, player_number)
   end
 	local object = Tracker:FindObjectForCode(value[1])
 	if object then
-		object.Active = true
-    table.insert(OBTAINED_ITEMS, value[1])
-  elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+		if JSONITEM_RESET ~= -1 then
+			JSONITEM_TEMP_STATES[value[1]] = true
+		else
+			table.insert(JSONITEM_QUEUE, {value[1], true})
+			table.insert(OBTAINED_ITEMS, value[1])
+		end
+	elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
 		print(string.format("onItem: could not find object for code %s", v[1]))
 	end
 end
@@ -132,7 +225,11 @@ function onLocation(location_id, location_name)
       if code:sub(1, 1) == "@" then
         object.AvailableChestCount = object.AvailableChestCount - 1
       else
-        object.Active = true
+        if JSONITEM_RESET ~= -1 then
+          JSONITEM_TEMP_STATES_DEX[code] = true
+        else
+          table.insert(JSONITEM_DEX_QUEUE, {code, true})
+        end
       end
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", code))
@@ -163,17 +260,20 @@ function onNotifyLaunch(key, value)
 end
 
 function updateEvents(value, reset)
-  if value ~= nil then
+  if value ~= nil then    if reset then
+    JSONITEM_RESET = 1
+  end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
       print(string.format("updateEvents: Value - %s", value))
     end
     for _, event in pairs(EVENT_FLAG_MAPPING) do
       local bitmask = 2 ^ event.bit
-      if reset or (value & bitmask ~= event.status) then
-        event.status = value & bitmask
-        for _, code in pairs(event.codes) do
-          if code.setting == nil or has(code.setting) then
-
+      event.status = value & bitmask
+      for _, code in pairs(event.codes) do
+        if code.setting == nil or has(code.setting) then
+          if JSONITEM_RESET ~= -1 then
+            JSONITEM_TEMP_STATES[code.code] = value & bitmask ~= 0
+          else
             if code.code == "harbor_mail" then
               Tracker:FindObjectForCode(code.code).Active = Tracker:FindObjectForCode(code.code).Active or value & bitmask ~= 0
             else
@@ -188,15 +288,20 @@ end
 
 function updateKeyItems(value, reset)
   if value ~= nil then
+    if reset then
+      JSONITEM_RESET = 1
+    end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
       print(string.format("updateKeyItems: Value - %s", value))
     end
     for _, key_item in pairs(KEY_ITEM_FLAG_MAPPING) do
       local bitmask = 2 ^ key_item.bit
-      if reset or (value & bitmask ~= key_item.status) then
-        key_item.status = value & bitmask
-        for _, code in pairs(key_item.codes) do
-          if (code.setting == nil or has(code.setting)) and not tableContains(OBTAINED_ITEMS, code.code) then
+      key_item.status = value & bitmask
+      for _, code in pairs(key_item.codes) do
+        if (code.setting == nil or has(code.setting)) and not tableContains(OBTAINED_ITEMS, code.code) then
+          if JSONITEM_RESET ~= -1 then
+            JSONITEM_TEMP_STATES[code.code] = value & bitmask ~= 0
+          else
             Tracker:FindObjectForCode(code.code).Active = value & bitmask ~= 0
           end
         end
@@ -240,13 +345,20 @@ function onBounce(json)
   local data = json["data"]
   if data then
     if data["type"] == "MapUpdate" then
+      print(dump_table(data))
+      if data["mapId"] == 6090 then
+        data["mapId"] = 6093
+      elseif data["mapId"] == 6091 then
+        data["mapId"] = 6094
+    end
       updateMap(data["mapId"])
     elseif data["type"] == "Encounter" then
       updateEncounter(data["species"], data["slot"], data["encounterType"], data["mapId"])
-      print("find me plz")
+      processUnclearedEncounters()  -- Call the function to process any uncleared encounters
     end
   end
 end
+
 
 function updateMap(map_id)
   local tabs = TAB_MAPPING[map_id]
@@ -260,7 +372,14 @@ function updateMap(map_id)
 end
 
 function updateEncounter(species_id, slot, encounter_type, map_id)
+  print(string.format("Species ID: %s", species_id))
+  print(string.format("Slot: %s", slot))
+  print(string.format("Encounter Type: %s", encounter_type))
+  print(string.format("Map ID: %s", map_id))
   local locations = ENCOUNTER_MAPPING[map_id][encounter_type][slot]
+  if UNCLEARED_ENCOUNTERS == nil then
+    UNCLEARED_ENCOUNTERS = {}
+  end
   if has("pokedex_off") or has(POKEMON_MAPPING[species_id]) then
     if locations then
       for _, location in pairs(locations) do
@@ -271,7 +390,32 @@ function updateEncounter(species_id, slot, encounter_type, map_id)
       end
     end
   else
-    table.insert(UNCLEARED_ENCOUNTERS, {species_id, slot, encounter_type, map_id})
+    table.insert(UNCLEARED_ENCOUNTERS, {
+      species_id = species_id,
+      slot = slot,
+      encounter_type = encounter_type,
+      map_id = map_id,
+      locations = locations
+    })
+  end
+end
+
+function processUnclearedEncounters()
+  local i = 1
+  while i <= #UNCLEARED_ENCOUNTERS do
+    local encounter = UNCLEARED_ENCOUNTERS[i]
+    local pokemon_code = POKEMON_MAPPING[encounter.species_id]
+    if pokemon_code and Tracker:ProviderCountForCode(pokemon_code) > 0 then
+      for _, location in pairs(encounter.locations) do
+        local object = Tracker:FindObjectForCode(location)
+        if object then
+          object.AvailableChestCount = 0
+        end
+      end
+      table.remove(UNCLEARED_ENCOUNTERS, i)
+    else
+      i = i + 1
+    end
   end
 end
 
@@ -281,3 +425,4 @@ Archipelago:AddLocationHandler("location handler", onLocation)
 Archipelago:AddSetReplyHandler("notify handler", onNotify)
 Archipelago:AddRetrievedHandler("notify launch handler", onNotifyLaunch)
 Archipelago:AddBouncedHandler("bounce handler", onBounce)
+ScriptHost:AddOnFrameHandler("frame handler", onFrame)

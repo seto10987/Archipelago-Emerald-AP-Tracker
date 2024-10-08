@@ -22,11 +22,11 @@
 												}
 											},
 											{
-											  "title": "Encounter Tracking",
-											  "content": {
-											  "type":"map",
-											  "maps": ["encountermap"]
-											  }
+												"title": "Encounter Tracking",
+												"content": {
+												"type":"map",
+												"maps": ["encountermap"]
+											}
 											},
 											{
 												"type": "group",
@@ -65,7 +65,7 @@
 							},
 							{
 								"type": "dock",
-								"dock": "center",
+								"dock": "left",
 								"content": [
 									{
 										"type": "dock",
@@ -75,7 +75,7 @@
 											{
 												"type": "group",
 												"header": "Items",
-												"dock": "left",
+												"dock": "top",
 												"content": {
 													"type": "layout",
 													"h_alignment": "center",
@@ -86,8 +86,7 @@
 											{
 												"type": "group",
 												"header": "Events",
-												"dock": "left",
-												"margin": "0,0,3,0",
+												"dock": "center",
 												"content": {
 													"type": "layout",
 													"h_alignment": "center",
@@ -97,7 +96,7 @@
 											},
 											{
 												"type": "group",
-												"dock": "right",
+												"dock": "center",
 												"margin": "0,0,3,0",
 												"content": {
 													"type": "layout",
@@ -113,20 +112,20 @@
 						]
 					}
 				},
-				"settings_popup":
-				{
-					"type": "array",
-					"orientation": "horizontal",
-					"h_alignment": "left",
-					"content": [
-						{
-						"type": "group",
-						"header": "Settings",
-						"dock": "bottom",
-						"content": {
-						"type": "layout",
-						"key": "setting_grid"
-					}	
+	    "settings_popup":
+		{
+			"type": "array",
+			"orientation": "horizontal",
+			"h_alignment": "left",
+			"content": [
+		{
+			"type": "group",
+			"header": "Settings",
+			"dock": "bottom",
+			"content": {
+			"type": "layout",
+			"key": "setting_grid"
+					}
 				}
 			]
 		}

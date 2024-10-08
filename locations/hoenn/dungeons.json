@@ -236,6 +236,92 @@
         ]
       },
       {
+        "name": "S.S. Tidal",
+        "access_rules": ["$slateport_access,ss_ticket","$lilycove_access,ss_ticket"],
+        "sections":
+        [
+          {
+            "name": "Young Couple Lea & Jed",
+            "chest_unopened_img": "/images/locations/young_couple.png",
+		        "chest_opened_img": "/images/locations/young_couple_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Rich Boy Garret",
+            "chest_unopened_img": "/images/locations/rich_boy.png",
+		        "chest_opened_img": "/images/locations/rich_boy_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Gentleman Micah",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+		        "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Pokefan Colton",
+            "chest_unopened_img": "/images/locations/pokefan_male.png",
+		        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Lady Naomi",
+            "chest_unopened_img": "/images/locations/lady.png",
+		        "chest_opened_img": "/images/locations/lady_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Gentleman Thomas",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+		        "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "TM49 from Thief",
+            "chest_unopened_img": "/images/locations/thief_dark_tm.png",
+		        "chest_opened_img": "/images/locations/thief_dark_tm_bw.png",
+            "visibility_rules": ["gifts_on"]
+          },
+          {
+            "name": "Sailor Phillip",
+            "chest_unopened_img": "/images/locations/sailor.png",
+		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Sailor Leonard",
+            "chest_unopened_img": "/images/locations/sailor.png",
+		        "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Hidden Item in Lower Deck Trash Can",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["[$hidden]"],
+            "visibility_rules": ["hidden_on"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "hoennmap",
+            "x": 84,
+            "y": 104
+          },
+          {
+            "map": "hoennmap",
+            "x": 160,
+            "y": 52
+          },
+          {
+            "map": "slateport_harbor",
+            "x": 263,
+            "y": 221
+          }
+        ]
+      },
+      {
         "name": "Fiery Path",
         "access_rules": ["$fallarbor_access"],
         "sections":
@@ -365,6 +451,11 @@
             "map": "hoennmap",
             "x": 84,
             "y": 76
+          },
+          {
+            "map": "new_mauville_entrance",
+            "x": 144,
+            "y": 39
           }
         ]
       },
@@ -522,6 +613,94 @@
             "map": "hoennmap",
             "x": 64,
             "y": 124
+          },
+          {
+            "map": "abandoned_ship_deck",
+            "x": 431,
+            "y": 299
+          },
+          {
+            "map": "rt_108",
+            "x": 941,
+            "y": 201
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone",
+        "access_rules": ["$lilycove_access,pokeblock_case"],
+        "sections":
+        [
+          {
+            "name": "SW - Item Behind Pond",
+            "access_rules": ["$surf"],
+            "visibility_rules": ["overworld_on"]
+          },
+          {
+            "name": "NW - Item Behind Pond",
+            "access_rules": ["mach_bike,$surf"],
+            "visibility_rules": ["overworld_on"]
+          },
+          {
+            "name": "N - Item in Grass",
+            "access_rules": ["acro_bike"],
+            "visibility_rules": ["overworld_on"]
+          },
+          {
+            "name": "SE - Item in Grass",
+            "access_rules": ["defeat_champion,$surf","safari_on,$surf"],
+            "visibility_rules": ["overworld_on,$safari_visibility"]
+          },
+          {
+            "name": "SE - Hidden Item in South Grass 1",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+	          "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
+            "visibility_rules": ["hidden_on,$safari_visibility"]
+          },
+          {
+            "name": "SE - Hidden Item in South Grass 2",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+	          "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
+            "visibility_rules": ["hidden_on,$safari_visibility"]
+          },
+          {
+            "name": "NE - Item on Ledge",
+            "access_rules": ["defeat_champion","safari_on"],
+            "visibility_rules": ["overworld_on,$safari_visibility"]
+          },
+          {
+            "name": "NE - Hidden Item North",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
+            "visibility_rules": ["hidden_on,$safari_visibility"]
+          },
+          {
+            "name": "NE - Hidden Item East",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
+            "visibility_rules": ["hidden_on,$safari_visibility"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "hoennmap",
+            "x": 140,
+            "y": 36
+          },
+          {
+            "map": "rt_121",
+            "x": 1198,
+            "y": 175
+          },
+          {
+            "map": "safari_lobby",
+            "x": 96,
+            "y": 177
           }
         ]
       },
@@ -700,6 +879,11 @@
             "map": "hoennmap",
             "x": 140,
             "y": 57
+          },
+          {
+            "map": "rt_122",
+            "x": 359,
+            "y": 470
           }
         ]
       },
@@ -855,6 +1039,11 @@
             "map": "hoennmap",
             "x": 60,
             "y": 52
+          },
+          {
+            "map": "jagged_pass",
+            "x": 527,
+            "y": 587
           }
         ]
       },
@@ -944,6 +1133,11 @@
             "map": "hoennmap",
             "x": 172,
             "y": 44
+          },
+          {
+            "map": "lilycove",
+            "x": 2256,
+            "y": 175
           }
         ]
       },
@@ -987,6 +1181,79 @@
             "map": "hoennmap",
             "x": 204,
             "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Space Center",
+        "access_rules": ["$mossdeep_access"],
+        "sections":
+        [
+          {
+            "name": "Gift from Man",
+            "chest_unopened_img": "/images/locations/sailor_sun_stone.png",
+		        "chest_opened_img": "/images/locations/sailor_sun_stone_bw.png",
+            "visibility_rules": ["gifts_on"]
+          },
+          {
+            "name": "Team Magma Grunt 1",
+            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 2",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 3",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 4",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 5",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 6",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Team Magma Grunt 7",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Defeat Maxie (Event)",
+            "hosted_item": "defeat_maxie_space_center_hosted",
+            "access_rules": ["defeat_tate_and_liza"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "hoennmap",
+            "x": 216,
+            "y": 60
+          },
+          {
+            "map": "mossdeep",
+            "x": 2064,
+            "y": 490
           }
         ]
       },
@@ -1052,6 +1319,21 @@
             "map": "hoennmap",
             "x": 204,
             "y": 92
+          },
+          {
+            "map": "rt_128_underwater",
+            "x": 1254,
+            "y": 841
+          },
+          {
+            "map": "seafloor_cavern_ent",
+            "x": 152,
+            "y": 26
+          },
+          {
+            "map": "seafloor_cavern_underwater",
+            "x": 271,
+            "y": 172
           }
         ]
       },
@@ -1101,6 +1383,31 @@
             "map": "hoennmap",
             "x": 100,
             "y": 100
+          },
+          {
+            "map": "rt_134",
+            "x": 1328,
+            "y": 1056
+          },
+          {
+            "map": "sealed_chamber_underwater_entry",
+            "x": 368,
+            "y": 259
+          },
+          {
+            "map": "sealed_chamber_underwater_path",
+            "x": 369,
+            "y": 1517
+          },
+          {
+            "map": "sealed_chamber_outer_room",
+            "x": 336,
+            "y": 120
+          },
+          {
+            "map": "sealed_chamber_inner_room",
+            "x": 335,
+            "y": 182
           }
         ]
       },
@@ -1363,199 +1670,294 @@
             "map": "hoennmap",
             "x": 228,
             "y": 92
+          },
+          {
+            "map": "evergrande",
+            "x": 591,
+            "y": 105
           }
         ]
       },
       {
-        "name": "Terra Cave (Route 114)",
-        "access_rules": ["$terra_cave_access,$surf,$waterfall"],
-        "sections":
-        [
+        "name": "Terra Cave",
+        "access_rules": ["$terra_cave_access"],
+        "sections": [
           {
             "name": "Defeat Groudon",
             "chest_unopened_img": "/images/locations/groudon.png",
-		        "chest_opened_img": "/images/locations/groudon_bw.png",
+            "chest_opened_img": "/images/locations/groudon_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_groudon"]
           },
           {
             "name": "Catch Groudon",
             "chest_unopened_img": "/images/locations/groudon.png",
-		        "chest_opened_img": "/images/locations/groudon_bw.png",
+            "chest_opened_img": "/images/locations/groudon_bw.png",
             "access_rules": ["[defeat_champion]"],
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_groudon"]
           }
         ],
-        "map_locations":
-        [
+        "map_locations": [
           {
             "map": "hoennmap",
-            "x": 20,
-            "y": 20,
-            "restrict_visibility_rules": ["terra_cave_unknown","terra_cave_route_114"]
-          }
-        ]
-      },
-      {
-        "name": "Terra Cave (Route 115)",
-        "access_rules": ["$surf,$terra_cave_access"],
-        "sections":
-        [
-          {
-            "ref": "Dungeons/Terra Cave (Route 114)/Defeat Groudon"
+            "x": 172,
+            "y": 27,
+            "restrict_visibility_rules": ["terra_cave_unknown"]
           },
           {
-            "ref": "Dungeons/Terra Cave (Route 114)/Catch Groudon"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 36,
-            "restrict_visibility_rules": ["terra_cave_unknown","terra_cave_route_115"]
-          }
-        ]
-      },
-      {
-        "name": "Terra Cave (Route 116)",
-        "access_rules": ["$terra_cave_access"],
-        "sections":
-        [
-          {
-            "ref": "Dungeons/Terra Cave (Route 114)/Defeat Groudon"
+            "map": "terra_cave_entrance",
+            "x": 461,
+            "y": 40,
+            "restrict_visibility_rules": ["terra_cave_unknown"]
           },
           {
-            "ref": "Dungeons/Terra Cave (Route 114)/Catch Groudon"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 32,
-            "y": 68,
-            "restrict_visibility_rules": ["terra_cave_unknown","terra_cave_route_116"]
+            "map": "terra_cave_end",
+            "x": 558,
+            "y": 725,
+            "restrict_visibility_rules": ["terra_cave_unknown"]
           }
         ]
       },
       {
-        "name": "Terra Cave (Route 118)",
-        "access_rules": ["$mauville_access,$terra_cave_access","$route_119_access,$terra_cave_access"],
-        "sections":
-        [
-          {
-            "ref": "Dungeons/Terra Cave (Route 114)/Defeat Groudon"
-          },
-          {
-            "ref": "Dungeons/Terra Cave (Route 114)/Catch Groudon"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 92,
-            "y": 68,
-            "restrict_visibility_rules": ["terra_cave_unknown","terra_cave_route_118"]
-          }
-        ]
-      },
-      {
-        "name": "Marine Cave (Route 105)",
+        "name": "Marine Cave",
         "access_rules": ["$surf,$marine_cave_access"],
-        "sections":
-        [
+        "sections": [
           {
             "name": "Defeat Kyogre",
             "chest_unopened_img": "/images/locations/kyogre.png",
-		        "chest_opened_img": "/images/locations/kyogre_bw.png",
+            "chest_opened_img": "/images/locations/kyogre_bw.png",
             "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_kyogre"]
           },
           {
             "name": "Catch Kyogre",
             "chest_unopened_img": "/images/locations/kyogre.png",
-		        "chest_opened_img": "/images/locations/kyogre_bw.png",
-            "access_rules": ["[defeat_champion]"],
+            "chest_opened_img": "/images/locations/kyogre_bw.png",
             "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_kyogre"]
           }
         ],
-        "map_locations":
-        [
+        "map_locations": [
           {
             "map": "hoennmap",
-            "x": 12,
-            "y": 116,
-            "restrict_visibility_rules": ["marine_cave_unknown","marine_cave_route_105"]
+            "x": 188,
+            "y": 27,
+            "restrict_visibility_rules": ["marine_cave_unknown"]
+          },
+          {
+            "map": "marine_cave_underwater",
+            "x": 240,
+            "y": 173,
+            "restrict_visibility_rules": ["marine_cave_unknown"]
+          },
+          {
+            "map": "marine_cave_entrance",
+            "x": 463,
+            "y": 40,
+            "restrict_visibility_rules": ["marine_cave_unknown"]
+          },
+          {
+            "map": "marine_cave_end",
+            "x": 318,
+            "y": 680,
+            "restrict_visibility_rules": ["marine_cave_unknown"]
           }
         ]
       },
       {
-        "name": "Marine Cave (Route 125)",
-        "access_rules": ["$route_124_access,$marine_cave_access"],
-        "sections":
+        "name": "Islands",
+        "chest_unopened_img": "/images/locations/pokeball_closed.png",
+        "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+        "children":
         [
           {
-            "ref": "Dungeons/Marine Cave (Route 105)/Defeat Kyogre"
+            "name": "Southern Island",
+            "access_rules": ["$lilycove_access,eon_ticket"],
+            "sections":
+            [
+              {
+                "name": "Defeat Latias",
+                "chest_unopened_img": "/images/locations/latias.png",
+                "chest_opened_img": "/images/locations/latias_bw.png",
+                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_latias"]
+              },
+              {
+                "name": "Catch Latias",
+                "chest_unopened_img": "/images/locations/latias.png",
+                "chest_opened_img": "/images/locations/latias_bw.png",
+                "access_rules": ["[defeat_champion]"],
+                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_latias"]
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "hoennmap",
+                "x": 108,
+                "y": 132
+              }
+            ]
           },
           {
-            "ref": "Dungeons/Marine Cave (Route 105)/Catch Kyogre"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 212,
-            "y": 44,
-            "restrict_visibility_rules": ["marine_cave_unknown","marine_cave_route_125"]
-          }
-        ]
-      },
-      {
-        "name": "Marine Cave (Route 127)",
-        "access_rules": ["$route_124_access,$marine_cave_access"],
-        "sections":
-        [
-          {
-            "ref": "Dungeons/Marine Cave (Route 105)/Defeat Kyogre"
+            "name": "Faraway Island",
+            "access_rules": ["$lilycove_access,old_sea_map"],
+            "sections":
+            [
+              {
+                "name": "Defeat Mew",
+                "chest_unopened_img": "/images/locations/mew.png",
+                "chest_opened_img": "/images/locations/mew_bw.png",
+                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_mew"]
+              },
+              {
+                "name": "Catch Mew",
+                "chest_unopened_img": "/images/locations/mew.png",
+                "chest_opened_img": "/images/locations/mew_bw.png",
+                "access_rules": ["[defeat_champion]"],
+                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_mew"]
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "hoennmap",
+                "x": 172,
+                "y": 12
+              }
+            ]
           },
           {
-            "ref": "Dungeons/Marine Cave (Route 105)/Catch Kyogre"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 212,
-            "y": 68,
-            "restrict_visibility_rules": ["marine_cave_unknown","marine_cave_route_127"]
-          }
-        ]
-      },
-      {
-        "name": "Marine Cave (Route 129)",
-        "access_rules": ["$route_124_access,$marine_cave_access"],
-        "sections":
-        [
-          {
-            "ref": "Dungeons/Marine Cave (Route 105)/Defeat Kyogre"
+            "name": "Birth Island",
+            "access_rules": ["$lilycove_access,aurora_ticket"],
+            "sections":
+            [
+              {
+                "name": "Defeat Deoxys",
+                "chest_unopened_img": "/images/locations/deoxys.png",
+                "chest_opened_img": "/images/locations/deoxys_bw.png",
+                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_deoxys"]
+              },
+              {
+                "name": "Catch Deoxys",
+                "chest_unopened_img": "/images/locations/deoxys.png",
+                "chest_opened_img": "/images/locations/deoxys_bw.png",
+                "access_rules": ["[defeat_champion]"],
+                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_deoxys"]
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "hoennmap",
+                "x": 188,
+                "y": 12
+              }
+            ]
           },
           {
-            "ref": "Dungeons/Marine Cave (Route 105)/Catch Kyogre"
-          }
-        ],
-        "map_locations":
-        [
+            "name": "Navel Rock",
+            "access_rules": ["$lilycove_access,mystic_ticket"],
+            "sections":
+            [
+              {
+                "name": "Hidden Item Sacred Ash",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "access_rules": ["[$hidden]"],
+                "visibility_rules": ["hidden_on"]
+              },
+              {
+                "name": "Defeat Lugia",
+                "chest_unopened_img": "/images/locations/lugia.png",
+                "chest_opened_img": "/images/locations/lugia_bw.png",
+                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_lugia"]
+              },
+              {
+                "name": "Catch Lugia",
+                "chest_unopened_img": "/images/locations/lugia.png",
+                "chest_opened_img": "/images/locations/lugia_bw.png",
+                "access_rules": ["[defeat_champion]"],
+                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_lugia"]
+              },
+              {
+                "name": "Defeat Ho-Oh",
+                "chest_unopened_img": "/images/locations/ho-oh.png",
+                "chest_opened_img": "/images/locations/ho-oh_bw.png",
+                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_ho-oh"]
+              },
+              {
+                "name": "Catch Ho-Oh",
+                "chest_unopened_img": "/images/locations/ho-oh.png",
+                "chest_opened_img": "/images/locations/ho-oh_bw.png",
+                "access_rules": ["[defeat_champion]"],
+                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_ho-oh"]
+              }
+            ],
+            "map_locations":
+            [
+              {"map": "hoennmap","x": 204,"y": 12},
+              {"map": "navel_rock_harbor","x": 271,"y": 42},
+              {"map": "navel_rock_exterior","x": 335,"y": 331},
+              {"map": "navel_rock_entrance","x": 335,"y": 175},
+              {"map": "navel_rock_b1f","x": 591,"y": 304}
+            ]
+          },
           {
-            "map": "hoennmap",
-            "x": 204,
-            "y": 100,
-            "restrict_visibility_rules": ["marine_cave_unknown","marine_cave_route_129"]
+            "name": "Artisan Cave",
+            "access_rules": ["$battle_frontier_access,$surf,wailmer_pail"],
+            "sections":
+            [
+              {
+                "name": "B1F - Hidden Item 2",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "access_rules": ["[$hidden]"],
+                "visibility_rules": ["hidden_on"]
+              },
+              {
+                "name": "B1F - Item",
+                "visibility_rules": ["overworld_on"]
+              },
+              {
+                "name": "B1F - Hidden Item 4",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "access_rules": ["[$hidden]"],
+                "visibility_rules": ["hidden_on"]
+              },
+              {
+                "name": "B1F - Hidden Item 1",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "access_rules": ["[$hidden]"],
+                "visibility_rules": ["hidden_on"]
+              },
+              {
+                "name": "B1F - Hidden Item 3",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "access_rules": ["[$hidden]"],
+                "visibility_rules": ["hidden_on"]
+              },
+              {
+                "name": "1F - Item",
+                "visibility_rules": ["overworld_on"]
+              }
+            ],
+            "map_locations":
+            [
+              {
+                "map": "hoennmap",
+                "x": 188,
+                "y": 116
+              },
+              {
+                "map": "battle_frontier",
+                "x": 631,
+                "y": 884
+              }
+            ]
           }
         ]
       }
+
     ]
   }
 ]

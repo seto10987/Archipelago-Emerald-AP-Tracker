@@ -673,12 +673,6 @@
             "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
             "visibility_rules": ["key_items_on"]
           },
-          // {
-          //   "name": "Coin Case from Lady in House",
-          //   "hosted_item": "coin_case_hosted",
-          //   "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
-          //   "visibility_rules": ["key_items_off"]
-          // },
           {
             "name": "HM06 from Rock Smash Guy",
             "chest_unopened_img": "/images/locations/rock_smash_guy_fighting_hm.png",
@@ -1189,6 +1183,11 @@
             "map": "hoennmap",
             "x": 108,
             "y": 12
+          },
+          {
+            "map": "fortree",
+            "x": 718,
+            "y": 362
           }
         ]
       },
@@ -1258,87 +1257,6 @@
             "map": "hoennmap",
             "x": 160,
             "y": 44
-          }
-        ]
-      },
-      {
-        "name": "S.S. Tidal",
-        "access_rules": ["$slateport_access,ss_ticket","$lilycove_access,ss_ticket"],
-        "sections":
-        [
-          {
-            "name": "Young Couple Lea & Jed",
-            "chest_unopened_img": "/images/locations/young_couple.png",
-		        "chest_opened_img": "/images/locations/young_couple_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Rich Boy Garret",
-            "chest_unopened_img": "/images/locations/rich_boy.png",
-		        "chest_opened_img": "/images/locations/rich_boy_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Micah",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-		        "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Pokefan Colton",
-            "chest_unopened_img": "/images/locations/pokefan_male.png",
-		        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lady Naomi",
-            "chest_unopened_img": "/images/locations/lady.png",
-		        "chest_opened_img": "/images/locations/lady_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Thomas",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-		        "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "TM49 from Thief",
-            "chest_unopened_img": "/images/locations/thief_dark_tm.png",
-		        "chest_opened_img": "/images/locations/thief_dark_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Sailor Phillip",
-            "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Sailor Leonard",
-            "chest_unopened_img": "/images/locations/sailor.png",
-		        "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hidden Item in Lower Deck Trash Can",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 84,
-            "y": 104
-          },
-          {
-            "map": "hoennmap",
-            "x": 160,
-            "y": 52
           }
         ]
       },
@@ -1426,7 +1344,7 @@
       {
         "name": "Mossdeep Gym",
         "access_rules": ["$mossdeep_access"],
-		"visibility_rules": ["trainers_on"],
+		    "visibility_rules": ["trainers_on"],
         "sections":
         [
           {
@@ -1442,13 +1360,19 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Psychic Samantha",
-            "chest_unopened_img": "/images/locations/lass.png",
-		        "chest_opened_img": "/images/locations/lass_bw.png",
+            "name": "Hex Maniac Kathleen",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+		        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Psychic Blake",
+            "name": "Gentleman Clifford",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+		        "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": ["trainers_on"]
+          },
+          {
+            "name": "Psychic Nicholas",
             "chest_unopened_img": "/images/locations/psychic_male.png",
 		        "chest_opened_img": "/images/locations/psychic_male_bw.png",
             "visibility_rules": ["trainers_on"]
@@ -1460,19 +1384,13 @@
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Gentleman Clifford",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-		        "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "name": "Psychic Samantha",
+            "chest_unopened_img": "/images/locations/lass.png",
+		        "chest_opened_img": "/images/locations/lass_bw.png",
             "visibility_rules": ["trainers_on"]
           },
           {
-            "name": "Hex Maniac Kathleen",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-		        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Nicholas",
+            "name": "Psychic Blake",
             "chest_unopened_img": "/images/locations/psychic_male.png",
 		        "chest_opened_img": "/images/locations/psychic_male_bw.png",
             "visibility_rules": ["trainers_on"]
@@ -1535,74 +1453,11 @@
             "map": "hoennmap",
             "x": 200,
             "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Space Center",
-        "access_rules": ["$mossdeep_access"],
-        "sections":
-        [
-          {
-            "name": "Gift from Man",
-            "chest_unopened_img": "/images/locations/sailor_sun_stone.png",
-		        "chest_opened_img": "/images/locations/sailor_sun_stone_bw.png",
-            "visibility_rules": ["gifts_on"]
           },
           {
-            "name": "Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 3",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 4",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 5",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 6",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 7",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-		        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Maxie (Event)",
-            "hosted_item": "defeat_maxie_space_center_hosted",
-            "access_rules": ["defeat_tate_and_liza"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 216,
-            "y": 60
+            "map": "mossdeep",
+            "x": 1231,
+            "y": 298
           }
         ]
       },
@@ -1780,6 +1635,11 @@
             "map": "hoennmap",
             "x": 180,
             "y": 68
+          },
+          {
+            "map": "sootopolis",
+            "x": 1008,
+            "y": 1033
           }
         ]
       },
@@ -1807,6 +1667,16 @@
             "map": "hoennmap",
             "x": 148,
             "y": 100
+          },
+          {
+            "map": "pacifidlog",
+            "x": 112,
+            "y": 713
+          },
+          {
+            "map": "pacifidlog_house_2",
+            "x": 111,
+            "y": 166
           }
         ]
       },
@@ -1856,6 +1726,21 @@
             "map": "hoennmap",
             "x": 228,
             "y": 84
+          },
+          {
+            "map": "evergrande",
+            "x": 1879,
+            "y": 233
+          },
+          {
+            "map": "pokemon_league_1f",
+            "x": 319,
+            "y": 34
+          },
+          {
+            "map": "pokemon_league_hall_sydney",
+            "x": 175,
+            "y": 72
           }
         ]
       }

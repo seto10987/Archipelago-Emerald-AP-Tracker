@@ -2460,6 +2460,11 @@
             "map": "hoennmap",
             "x": 100,
             "y": 36
+          },
+          {
+            "map": "rt_119",
+            "x": 2782,
+            "y": 1144
           }
         ]
       },
@@ -2896,74 +2901,6 @@
             "map": "hoennmap",
             "x": 140,
             "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone",
-        "access_rules": ["$lilycove_access,pokeblock_case"],
-        "sections":
-        [
-          {
-            "name": "SW - Item Behind Pond",
-            "access_rules": ["$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "NW - Item Behind Pond",
-            "access_rules": ["mach_bike,$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "N - Item in Grass",
-            "access_rules": ["acro_bike"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "SE - Item in Grass",
-            "access_rules": ["defeat_champion,$surf","safari_on,$surf"],
-            "visibility_rules": ["overworld_on,$safari_visibility"]
-          },
-          {
-            "name": "SE - Hidden Item in South Grass 1",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-	    "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "SE - Hidden Item in South Grass 2",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-	    "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Item on Ledge",
-            "access_rules": ["defeat_champion","safari_on"],
-            "visibility_rules": ["overworld_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Hidden Item North",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Hidden Item East",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 140,
-            "y": 36
           }
         ]
       },

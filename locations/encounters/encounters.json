@@ -1,0 +1,5585 @@
+[
+  {
+    "name": "Encounters Vanilla",
+    "visibility_rules": ["normalize_encounters_off"],
+    "children":
+    [
+      {
+        "name": "Route 101 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 45%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 45%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
+            "y": 100
+          },
+          {
+            "map": "rt_101",
+            "x": 350,
+            "y": 656
+          }
+        ]
+      },
+      {
+        "name": "Route 102 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 4%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 32,
+            "y": 92
+          },
+          {
+            "map": "rt_102",
+            "x": 1472,
+            "y": 350
+          }
+        ]
+      },
+      {
+        "name": "Route 103 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 56,
+            "y": 84
+          },
+          {
+            "map": "rt_103",
+            "x": 499,
+            "y": 1209
+          }
+        ]
+      },
+      {
+        "name": "Petalburg City Encounters",
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 92
+          },
+          {
+            "map": "petalburg",
+            "x": 831,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "Route 104 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 95%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 1, 100%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 92
+          },
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 76
+          },
+          {
+            "map": "rt_104",
+            "x": 1116,
+            "y": 909
+          },
+          {
+            "map": "rt_104",
+            "x": 1799,
+            "y": 304
+          }
+        ]
+      },
+      {
+        "name": "Petalburg Woods Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 84
+          },
+          {
+            "map": "petalburg_woods",
+            "x": 541,
+            "y": 1107
+          }
+        ]
+      },
+      {
+        "name": "Route 105 Encounters",
+        "access_rules": ["$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 108
+          },
+          {
+            "map": "rt_105",
+            "x": 601,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Route 106 Encounters",
+        "access_rules": ["$dewford_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 124
+          },
+          {
+            "map": "rt_106",
+            "x": 767,
+            "y": 229
+          }
+        ]
+      },
+      {
+        "name": "Dewford Town Encounters",
+        "access_rules": ["$dewford_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 28,
+            "y": 132
+          },
+          {
+            "map": "dewford",
+            "x": 272,
+            "y": 82
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave 1F Encounters",
+        "access_rules": ["$dewford_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 132
+          },
+          {
+            "map": "granite_cave_1f",
+            "x": 1031,
+            "y": 287
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave B1F Encounters",
+        "access_rules": ["$dewford_access,[$flash|cave]"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 132
+          },
+          {
+            "map": "granite_cave_b1f",
+            "x": 272,
+            "y": 553
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave B2F Encounters",
+        "access_rules": ["$dewford_access,[$flash|cave]"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 140
+          },
+          {
+            "map": "granite_cave_b2f",
+            "x": 855,
+            "y": 572
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave Steven's Room Encounters",
+        "access_rules": ["$dewford_access,[$flash|cave]"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 140
+          },
+          {
+            "map": "granite_cave_s",
+            "x": 76,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Route 107 Encounters",
+        "access_rules": ["$dewford_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
+            "y": 132
+          },
+          {
+            "map": "rt_107",
+            "x": 310,
+            "y": 319
+          }
+        ]
+      },
+      {
+        "name": "Route 108 Encounters",
+        "access_rules": ["$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 64,
+            "y": 132
+          },
+          {
+            "map": "rt_108",
+            "x": 138,
+            "y": 306
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Ship Encounters",
+        "access_rules": ["$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 30%-40%-80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 64,
+            "y": 124
+          },
+          {
+            "map": "abandoned_ship_rooms_1_b1f",
+            "x": 347,
+            "y": 237
+          },
+          {
+            "map": "rt_108",
+            "x": 978,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Ship Hidden Area Encounters",
+        "access_rules": ["$surf,$dive"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 30%-40%-80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 56,
+            "y": 124
+          },
+          {
+            "map": "abandoned_ship_hidden_floor_corridors",
+            "x": 15,
+            "y": 264
+          },
+          {
+            "map": "rt_108",
+            "x": 908,
+            "y": 85
+          }
+        ]
+      },
+      {
+        "name": "Route 109 Encounters",
+        "access_rules": ["$slateport_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 76,
+            "y": 124
+          },
+          {
+            "map": "rt_109",
+            "x": 170,
+            "y": 708
+          }
+        ]
+      },
+      {
+        "name": "Slateport City Encounters",
+        "access_rules": ["$slateport_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 76,
+            "y": 104
+          },
+          {
+            "map": "slateport",
+            "x": 2203,
+            "y": 644
+          }
+        ]
+      },
+      {
+        "name": "Route 110 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 6, 8%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Grass Encounter 7, 2%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+            "access_rules": ["$mauville_access","$slateport_access"]
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$mauville_access,$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$mauville_access,$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$mauville_access,$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["$mauville_access,old_rod","$mauville_access,good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["$mauville_access,old_rod","$mauville_access,good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["$mauville_access,good_rod","$mauville_access,super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 76,
+            "y": 84
+          },
+          {
+            "map": "rt_110",
+            "x": 568,
+            "y": 926
+          },
+          {
+            "map": "rt_110",
+            "x": 2856,
+            "y": 806
+          }
+        ]
+      },
+      {
+        "name": "New Mauville Entrance Encounters",
+        "access_rules": ["$mauville_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Entrance Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Entrance Encounter 2, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 84,
+            "y": 76
+          },
+          {
+            "map": "new_mauville_entrance",
+            "x": 141,
+            "y": 150
+          }
+        ]
+      },
+      {
+        "name": "New Mauville Encounters",
+        "access_rules": ["$mauville_access,$surf,basement_key"],
+        "sections":
+        [
+          {
+            "name": "Basement Encounter 1, 49%",
+            "chest_unopened_img": "/images/locations/newmauville.png",
+		        "chest_opened_img": "/images/locations/newmauville_bw.png"
+          },
+          {
+            "name": "Basement Encounter 2, 49%",
+            "chest_unopened_img": "/images/locations/newmauville.png",
+		        "chest_opened_img": "/images/locations/newmauville_bw.png"
+          },
+          {
+            "name": "Basement Encounter 3, 1%",
+            "chest_unopened_img": "/images/locations/newmauville.png",
+		        "chest_opened_img": "/images/locations/newmauville_bw.png"
+          },
+          {
+            "name": "Basement Encounter 4, 1%",
+            "chest_unopened_img": "/images/locations/newmauville.png",
+		        "chest_opened_img": "/images/locations/newmauville_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 92,
+            "y": 76
+          },
+          {
+            "map": "new_mauville",
+            "x": 1045,
+            "y": 500
+          }
+        ]
+      },
+      {
+        "name": "Route 111 Encounters",
+        "access_rules": ["$mauville_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 219,
+            "y": 60
+          },
+          {
+            "map": "rt_111",
+            "x": 219,
+            "y": 791
+          }
+        ]
+      },
+      {
+        "name": "Route 111 Desert Encounters",
+        "access_rules": ["$fallarbor_access,go_goggles"],
+        "sections":
+        [
+          {
+            "name": "Desert Encounter 1, 35%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Desert Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Desert Encounter 3, 24%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Desert Encounter 4, 6%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 84,
+            "y": 44
+          },
+          {
+            "map": "rt_111",
+            "x": 1705,
+            "y": 878
+          }
+        ]
+      },
+      {
+        "name": "Mirage Tower 1F Encounters",
+        "access_rules": ["$fallarbor_access,go_goggles"],
+        "sections":
+        [
+          {
+            "name": "Mirage Tower 1F Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Mirage Tower 1F Encounter 2, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 84,
+            "y": 36
+          },
+          {
+            "map": "mirage_tower_1f",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mirage Tower 2F Encounters",
+        "access_rules": ["$fallarbor_access,go_goggles"],
+        "sections":
+        [
+          {
+            "name": "Mirage Tower 2F Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Mirage Tower 2F Encounter 2, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 84,
+            "y": 28
+          },
+          {
+            "map": "mirage_tower_2f",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mirage Tower 3F Encounters",
+        "access_rules": ["$fallarbor_access,go_goggles,mach_bike"],
+        "sections":
+        [
+          {
+            "name": "Mirage Tower 3F Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Mirage Tower 3F Encounter 2, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 92,
+            "y": 36
+          },
+          {
+            "map": "mirage_tower_3f",
+            "x": 168,
+            "y": 120
+          }
+        ]
+      },
+      {
+        "name": "Mirage Tower 4F Encounters",
+        "access_rules": ["$fallarbor_access,go_goggles,mach_bike,$rock_smash"],
+        "sections":
+        [
+          {
+            "name": "Mirage Tower 4F Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          },
+          {
+            "name": "Mirage Tower 4F Encounter 2, 50%",
+            "chest_unopened_img": "/images/locations/desert.png",
+		        "chest_opened_img": "/images/locations/desert_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 92,
+            "y": 28
+          },
+          {
+            "map": "mirage_tower_4f",
+            "x": 32,
+            "y": 39
+          }
+        ]
+      },
+      {
+        "name": "Fiery Path Encounters",
+        "access_rules": ["$fallarbor_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 18%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 6, 2%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 68,
+            "y": 36
+          },
+          {
+            "map": "fiery_path",
+            "x": 568,
+            "y": 991
+          }
+        ]
+      },
+      {
+        "name": "Jagged Pass Encounters",
+        "access_rules": ["$mt_chimney_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 60,
+            "y": 44
+          },
+          {
+            "map": "jagged_pass",
+            "x": 253,
+            "y": 221
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 1F Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 60,
+            "y": 36
+          },
+          {
+            "map": "magma_hideout_1f",
+            "x": 578,
+            "y": 1027
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 2F1R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 60,
+            "y": 28
+          },
+          {
+            "map": "magma_hideout_2f1r",
+            "x": 810,
+            "y": 1046
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 2F2R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 52,
+            "y": 36
+          },
+          {
+            "map": "magma_hideout_2f2r",
+            "x": 485,
+            "y": 711
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 2F3R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 52,
+            "y": 28
+          },
+          {
+            "map": "magma_hideout_2f3r",
+            "x": 415,
+            "y": 253
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 3F1R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
+            "y": 36
+          },
+          {
+            "map": "magma_hideout_3f1r",
+            "x": 804,
+            "y": 527
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 3F2R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
+            "y": 28
+          },
+          {
+            "map": "magma_hideout_3f2r",
+            "x": 646,
+            "y": 467
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 3F3R Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 36,
+            "y": 36
+          },
+          {
+            "map": "magma_hideout_3f3r",
+            "x": 778,
+            "y": 602
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout 4F Encounters",
+        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 55%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 36,
+            "y": 28
+          },
+          {
+            "map": "magma_hideout_4f",
+            "x": 1195,
+            "y": 299
+          }
+        ]
+      },
+      {
+        "name": "Route 112 Encounters",
+        "access_rules": ["$fallarbor_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 75%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 68,
+            "y": 44
+          },
+          {
+            "map": "rt_112",
+            "x": 2391,
+            "y": 685
+          },
+          {
+            "map": "rt_112",
+            "x": 1071,
+            "y": 571
+          }
+        ]
+      },
+      {
+        "name": "Route 113 Encounters",
+        "access_rules": ["$fallarbor_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 70%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 56,
+            "y": 20
+          },
+          {
+            "map": "rt_113",
+            "x": 1256,
+            "y": 948
+          }
+        ]
+      },
+      {
+        "name": "Route 114 Encounters",
+        "access_rules": ["$fallarbor_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 9%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 28
+          },
+          {
+            "map": "rt_114",
+            "x": 2124,
+            "y": 803
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls 1F1R Encounters",
+        "access_rules": ["$fallarbor_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 80%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 44
+          },
+          {
+            "map": "meteor_falls_1f1r",
+            "x": 580,
+            "y": 896
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls 1F2R Encounters",
+        "access_rules": ["$fallarbor_access,$surf,$waterfall"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 65%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-80%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 44
+          },
+          {
+            "map": "meteor_falls_1f2r",
+            "x": 898,
+            "y": 841
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls B1F1R Encounters",
+        "access_rules": ["$fallarbor_access,$surf,$waterfall"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 65%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-80%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 52
+          },
+          {
+            "map": "meteor_falls_b1f1r",
+            "x": 254,
+            "y": 1044
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls B1F2R Encounters",
+        "access_rules": ["$fallarbor_access,$surf,$waterfall"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-80%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 28,
+            "y": 44
+          },
+          {
+            "map": "meteor_falls_b1f2r",
+            "x": 173,
+            "y": 318
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls Steven's Room Encounters",
+        "access_rules": ["$fallarbor_access,$surf,$waterfall,defeat_champion"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 65%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 28,
+            "y": 52
+          },
+          {
+            "map": "meteor_falls_steven",
+            "x": 368,
+            "y": 502
+          }
+        ]
+      },
+      {
+        "name": "Route 115 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 12,
+            "y": 52
+          },
+          {
+            "map": "rt_115",
+            "x": 555,
+            "y": 703
+          },
+          {
+            "map": "rt_115",
+            "x": 1416,
+            "y": 503
+          }
+        ]
+      },
+      {
+        "name": "Route 116 Encounters",
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 28%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 2%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 20,
+            "y": 60
+          },
+          {
+            "map": "rt_116",
+            "x": 96,
+            "y": 348
+          }
+        ]
+      },
+      {
+        "name": "Rusturf Tunnel Encounter",
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 44,
+            "y": 60
+          },
+          {
+            "map": "rusturf_tunnel",
+            "x": 173,
+            "y": 289
+          }
+        ]
+      },
+      {
+        "name": "Route 117 Encounters",
+        "access_rules": ["$mauville_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 18%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 1, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 60,
+            "y": 68
+          },
+          {
+            "map": "rt_117",
+            "x": 1753,
+            "y": 317
+          }
+        ]
+      },
+      {
+        "name": "Route 118 Encounters",
+        "access_rules": ["$mauville_access","$route_119_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Grass Encounter 3, 19%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Grass Encounter 6, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png",
+        "access_rules": ["$route_119_access"]
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 100,
+            "y": 68
+          },
+          {
+            "map": "rt_118",
+            "x": 617,
+            "y": 1231
+          },
+          {
+            "map": "rt_118",
+            "x": 1109,
+            "y": 482
+          }
+        ]
+      },
+      {
+        "name": "Route 119 Encounters",
+        "access_rules": ["$route_119_access","$fortree_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 9%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 100,
+            "y": 52
+          },
+          {
+            "map": "rt_119",
+            "x": 382,
+            "y": 687
+          },
+          {
+            "map": "rt_119",
+            "x": 3311,
+            "y": 775
+          }
+        ]
+      },
+      {
+        "name": "Route 120 Encounters",
+        "access_rules": ["$fortree_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 8%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 99%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 116,
+            "y": 28
+          },
+          {
+            "map": "rt_120",
+            "x": 63,
+            "y": 391
+          },
+          {
+            "map": "rt_120",
+            "x": 1351,
+            "y": 391
+          },
+          {
+            "map": "rt_120",
+            "x": 2639,
+            "y": 391
+          }
+        ]
+      },
+      {
+        "name": "Route 121 Encounters",
+        "access_rules": ["$lilycove_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 9%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 140,
+            "y": 44
+          },
+          {
+            "map": "rt_121",
+            "x": 318,
+            "y": 62
+          },
+          {
+            "map": "rt_121",
+            "x": 1151,
+            "y": 710
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone South Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 140,
+            "y": 36
+          },
+          {
+            "map": "safari_south",
+            "x": 1119,
+            "y": 766
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Southwest Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 40%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 30%-40%-80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 132,
+            "y": 36
+          },
+          {
+            "map": "safari_southwest",
+            "x": 1149,
+            "y": 893
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Northwest Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case,mach_bike"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 95%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 30%-40%-80%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "map": "safari_northwest",
+            "x": 1087,
+            "y": 1216
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 132,
+            "y": 28
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone North Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case,acro_bike"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 140,
+            "y": 28
+          },
+          {
+            "map": "safari_north",
+            "x": 735,
+            "y": 1214
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Northeast Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
+        "visibility_rules": ["$safari_visibility"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 8, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 148,
+            "y": 28
+          },
+          {
+            "map": "safari_northeast",
+            "x": 1184,
+            "y": 893
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Southeast Encounters",
+        "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
+        "visibility_rules": ["$safari_visibility"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 8, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 39%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 30%-20%-40%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-59%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 1%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 148,
+            "y": 36
+          },
+          {
+            "map": "safari_southeast",
+            "x": 1152,
+            "y": 383
+          }
+        ]
+      },
+      {
+        "name": "Lilycove City Encounters",
+        "access_rules": ["$lilycove_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-85%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 15%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 160,
+            "y": 44
+          },
+          {
+            "map": "lilycove",
+            "x": 2223,
+            "y": 594
+          }
+        ]
+      },
+      {
+        "name": "Route 122 Encounters",
+        "access_rules": ["$lilycove_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 132,
+            "y": 57
+          },
+          {
+            "map": "rt_122",
+            "x": 320,
+            "y": 562
+          }
+        ]
+      },
+      {
+        "name": "Mt. Pyre Interior Encounters",
+        "access_rules": ["$lilycove_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Mt Pyre Interior 1F Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 2F Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 3F Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 4F Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 4F Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 5F Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 5F Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 6F Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          },
+          {
+            "name": "Mt Pyre Interior 6F Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/pyre.png",
+		        "chest_opened_img": "/images/locations/pyre_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 140,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Mt. Pyre Exterior Encounters",
+        "access_rules": ["$lilycove_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Mt Pyre Exterior Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Mt Pyre Exterior Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Mt Pyre Exterior Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Mt Pyre Summit Encounter 1, 85%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Mt Pyre Summit Encounter 2, 13%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          },
+          {
+            "name": "Mt Pyre Summit Encounter 3, 2%",
+            "chest_unopened_img": "/images/locations/sootgrass.png",
+		        "chest_opened_img": "/images/locations/sootgrass_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 148,
+            "y": 57
+          }
+        ]
+      },
+      {
+        "name": "Route 123 Encounters",
+        "access_rules": ["$lilycove_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 2, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 3, 20%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 5, 9%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 6, 5%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Grass Encounter 7, 1%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 140,
+            "y": 68
+          },
+          {
+            "map": "rt_123",
+            "x": 1395,
+            "y": 721
+          },
+          {
+            "map": "rt_123",
+            "x": 971,
+            "y": 1403
+          }
+        ]
+      },
+      {
+        "name": "Route 124 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "name": "Dive Encounter 1, 65%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          },
+          {
+            "name": "Dive Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          },
+          {
+            "name": "Dive Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 184,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Route 125 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 208,
+            "y": 52
+          },
+          {
+            "map": "rt_125",
+            "x": 288,
+            "y": 1218
+          }
+        ]
+      },
+      {
+        "name": "Mossdeep City Encounters",
+        "access_rules": ["$mossdeep_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 208,
+            "y": 60
+          },
+          {
+            "map": "mossdeep",
+            "x": 185,
+            "y": 1148
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Entrance Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 45%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 204,
+            "y": 44
+          },
+          {
+            "map": "shoal_cave_entrance_high",
+            "x": 1039,
+            "y": 880
+          },
+          {
+            "map": "shoal_cave_entrance_low",
+            "x": 1039,
+            "y": 880
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Inner Room Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 45%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 212,
+            "y": 44
+          },
+          {
+            "map": "shoal_cave_inner_room_high",
+            "x": 705,
+            "y": 1044
+          },
+          {
+            "map": "shoal_cave_inner_room_low",
+            "x": 705,
+            "y": 1044
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Stairs Room Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 45%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 200,
+            "y": 36
+          },
+          {
+            "map": "shoal_cave_stairs_room",
+            "x": 580,
+            "y": 343
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Lower Room Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 45%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 208,
+            "y": 36
+          },
+          {
+            "map": "shoal_cave_lower_room",
+            "x": 749,
+            "y": 260
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Ice Room Encounters",
+        "access_rules": ["$route_124_access,$strength"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 45%",
+            "chest_unopened_img": "/images/locations/icecave.png",
+		        "chest_opened_img": "/images/locations/icecave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 40%",
+            "chest_unopened_img": "/images/locations/icecave.png",
+		        "chest_opened_img": "/images/locations/icecave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/icecave.png",
+		        "chest_opened_img": "/images/locations/icecave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 5%",
+            "chest_unopened_img": "/images/locations/icecave.png",
+		        "chest_opened_img": "/images/locations/icecave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 216,
+            "y": 36
+          },
+          {
+            "map": "shoal_cave_ice_room",
+            "x": 591,
+            "y": 146
+          }
+        ]
+      },
+      {
+        "name": "Route 126 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "name": "Dive Encounter 1, 65%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          },
+          {
+            "name": "Dive Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          },
+          {
+            "name": "Dive Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/seaweed.png",
+		        "chest_opened_img": "/images/locations/seaweed_bw.png",
+            "access_rules": ["$dive"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 188,
+            "y": 76
+          }
+        ]
+      },
+      {
+        "name": "Sootopolis City Encounters",
+        "access_rules": ["$sootopolis_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old Rod Encounter 1, 30%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod"]
+          },
+          {
+            "name": "Old-Good-Super Rod Encounter 2, 70%-100%-80%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 3, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 180,
+            "y": 76
+          },
+          {
+            "map": "sootopolis",
+            "x": 1272,
+            "y": 1728
+          }
+        ]
+      },
+      {
+        "name": "Cave of Origin Entrance Encounters",
+        "access_rules": ["$sootopolis_access,release_kyogre"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 184,
+            "y": 68
+          },
+          {
+            "map": "cave_of_origin_entrance",
+            "x": 445,
+            "y": 473
+          }
+        ]
+      },
+      {
+        "name": "Cave of Origin 1F Encounters",
+        "access_rules": ["$sootopolis_access,release_kyogre"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 176,
+            "y": 68
+          },
+          {
+            "map": "cave_of_origin_1f",
+            "x": 393,
+            "y": 362
+          }
+        ]
+      },
+      {
+        "name": "Route 127 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 204,
+            "y": 76
+          },
+          {
+            "map": "rt_127",
+            "x": 1723,
+            "y": 590
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern Entrance Encounters",
+        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 204,
+            "y": 92
+          },
+          {
+            "map": "seafloor_cavern_ent",
+            "x": 282,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 1 Encounters",
+        "access_rules": ["$route_124_access,$dive,sea_floor_grunts_on","$route_124_access,$dive,steven_gives_dive"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 204,
+            "y": 84
+          },
+          {
+            "map": "seafloor_cavern_1",
+            "x": 282,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 2 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 196,
+            "y": 92
+          },
+          {
+            "map": "seafloor_cavern_2",
+            "x": 250,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 3 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 196,
+            "y": 84
+          },
+          {
+            "map": "seafloor_cavern_3",
+            "x": 218,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 4 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 188,
+            "y": 92
+          },
+          {
+            "map": "seafloor_cavern_4",
+            "x": 264,
+            "y": 62
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 5 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 188,
+            "y": 84
+          },
+          {
+            "map": "seafloor_cavern_5",
+            "x": 282,
+            "y": 65
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 6 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 180,
+            "y": 92
+          },
+          {
+            "map": "seafloor_cavern_6",
+            "x": 341,
+            "y": 64
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 7 Encounters",
+        "access_rules": ["$seafloor_cavern_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+            "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-100%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 180,
+            "y": 84
+          },
+          {
+            "map": "seafloor_cavern_7",
+            "x": 328,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern 8 Encounters",
+        "access_rules": ["$seafloor_cavern_access,$dive,sea_floor_grunts_on","$seafloor_cavern_access,$dive,steven_gives_dive"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 90%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 172,
+            "y": 84
+          },
+          {
+            "map": "seafloor_cavern_8",
+            "x": 146,
+            "y": 62
+          }
+        ]
+      },
+      {
+        "name": "Route 128 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old Rod Encounter 1, 30%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 70%-60%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-45%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 4, 20%-40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 5, 15%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 212,
+            "y": 92
+          },
+          {
+            "map": "rt_128",
+            "x": 1919,
+            "y": 86
+          }
+        ]
+      },
+      {
+        "name": "Route 129 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 4%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 4, 1%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 212,
+            "y": 100
+          },
+          {
+            "map": "rt_129",
+            "x": 1766,
+            "y": 135
+          }
+        ]
+      },
+      {
+        "name": "Route 130 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Grass Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/grass.png",
+		        "chest_opened_img": "/images/locations/grass_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 188,
+            "y": 100
+          },
+          {
+            "map": "rt_130",
+            "x": 762,
+            "y": 115
+          }
+        ]
+      },
+      {
+        "name": "Route 131 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 172,
+            "y": 100
+          },
+          {
+            "map": "rt_131",
+            "x": 182,
+            "y": 1175
+          }
+        ]
+      },
+      {
+        "name": "Sky Pillar 1F Encounters",
+        "access_rules": ["release_kyogre"],
+        "sections":
+        [
+          {
+            "name": "Tower Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 3, 25%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 172,
+            "y": 92
+          },
+          {
+            "map": "sky_pillar_1f",
+            "x": 227,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Sky Pillar 3F Encounters",
+        "access_rules": ["release_kyogre,mach_bike"],
+        "sections":
+        [
+          {
+            "name": "Tower Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 3, 25%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 164,
+            "y": 92
+          },
+          {
+            "map": "sky_pillar_3f",
+            "x": 227,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Sky Pillar 5F Encounters",
+        "access_rules": ["release_kyogre,mach_bike"],
+        "sections":
+        [
+          {
+            "name": "Tower Encounter 1, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 2, 30%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 3, 19%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 4, 15%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          },
+          {
+            "name": "Tower Encounter 5, 6%",
+            "chest_unopened_img": "/images/locations/skypillar.png",
+		        "chest_opened_img": "/images/locations/skypillar_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 156,
+            "y": 92
+          },
+          {
+            "map": "sky_pillar_5f",
+            "x": 227,
+            "y": 259
+          }
+        ]
+      },
+      {
+        "name": "Pacifidlog Town Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-60%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 148,
+            "y": 100
+          },
+          {
+            "map": "pacifidlog",
+            "x": 319,
+            "y": 240
+          }
+        ]
+      },
+      {
+        "name": "Route 132 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-45%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 5, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 136,
+            "y": 100
+          },
+          {
+            "map": "rt_132",
+            "x": 2504,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "name": "Route 133 Encounters",
+        "access_rules": ["$route_124_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-45%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 5, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 116,
+            "y": 100
+          },
+          {
+            "map": "rt_133",
+            "x": 2504,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "name": "Route 134 Encounters",
+        "access_rules": ["$route_124_access","$slateport_access,$surf"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-45%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 5, 40%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 92,
+            "y": 100
+          },
+          {
+            "map": "rt_134",
+            "x": 2504,
+            "y": 73
+          }
+        ]
+      },
+      {
+        "name": "Ever Grande City Encounters",
+        "access_rules": ["$victory_road_access"],
+        "sections":
+        [
+          {
+            "name": "Surf Encounter 1, 60%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Surf Encounter 3, 5%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png",
+        "access_rules": ["$surf"]
+          },
+          {
+            "name": "Old Rod Encounter 1, 30%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-40%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 4, 20%-45%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 5, 15%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 228,
+            "y": 100
+          },
+          {
+            "map": "evergrande",
+            "x": 895,
+            "y": 1868
+          }
+        ]
+      },
+      {
+        "name": "Victory Road 1F Encounters",
+        "access_rules": ["$victory_road_access"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 5, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 6, 10%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 7, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 8, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 228,
+            "y": 92
+          },
+          {
+            "map": "victory_road_1f",
+            "x": 45,
+            "y": 184
+          }
+        ]
+      },
+      {
+        "name": "Victory Road B1F Encounters",
+        "access_rules": ["$victory_road_access,[$flash|road]"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 224,
+            "y": 84
+          },
+          {
+            "map": "victory_road_b1f",
+            "x": 38,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Victory Road B2F Encounters",
+        "access_rules": ["$victory_road_access,$strength,$rock_smash,[$flash|road]"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 35%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 25%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 4, 5%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Surf Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/surfing.png",
+		        "chest_opened_img": "/images/locations/surfing_bw.png"
+          },
+          {
+            "name": "Old-Good Rod Encounter 1, 70%-60%",
+            "chest_unopened_img": "/images/items/old_rod.png",
+		        "chest_opened_img": "/images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Old-Good Rod Encounter 2, 30%-20%",
+            "chest_unopened_img": "//images/items/old_rod.png",
+		        "chest_opened_img": "//images/items/old_rod_bw.png",
+            "access_rules": ["old_rod","good_rod"]
+          },
+          {
+            "name": "Good-Super Rod Encounter 3, 20%-80%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["good_rod","super_rod"]
+          },
+          {
+            "name": "Super Rod Encounter 4, 20%",
+            "chest_unopened_img": "/images/items/super_rod.png",
+		        "chest_opened_img": "/images/items/super_rod_bw.png",
+            "access_rules": ["super_rod"]
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 232,
+            "y": 84
+          },
+          {
+            "map": "victory_road_b2f",
+            "x": 38,
+            "y": 170
+          }
+        ]
+      },
+      {
+        "name": "Desert Tunnel Encounters",
+        "access_rules": ["defeat_champion,$fallarbor_access"],
+        "visibility_rules": ["$goal_not|champion"],
+        "sections":
+        [
+          {
+            "name": "Cave Encounter 1, 50%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 2, 34%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Cave Encounter 3, 16%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 28,
+            "y": 12
+          },
+          {
+            "map": "desert_underpass",
+            "x": 496,
+            "y": 481
+          }
+        ]
+      },
+      {
+        "name": "Artisan Cave Encounters",
+        "access_rules": ["$battle_frontier_access,wailmer_pail,$surf"],
+        "sections":
+        [
+          {
+            "name": "Artisan Cave 1F Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          },
+          {
+            "name": "Artisan Cave B1F Encounter 1, 100%",
+            "chest_unopened_img": "/images/locations/cave.png",
+		        "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations":
+        [
+          {
+            "map": "encountermap",
+            "x": 188,
+            "y": 116
+          },
+          {
+            "map": "artisan_cave_1f",
+            "x": 334,
+            "y": 185
+          }
+        ]
+      }
+    ]
+  }
+]

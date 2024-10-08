@@ -6,18 +6,18 @@
 	"author": "Seto10987 & palex00 & Vyneras",
 	"variants": {
 		"standard": {
-			"display_name": "Map Tracker",
+			"display_name": "Map Tracker (Horizontal)",
 			"flags": ["ap"]
 		},
-		"v_standard": {
+		"v_vertical": {
 			"display_name": "Map Tracker (Vertical)",
 			"flags": ["ap"]
 		},
-		"split_maps": {
-			"display_name": "Map Tracker (Split)",
+		"split_horizontal": {
+			"display_name": "Split Map Tracker (Horizontal)",
 			"flags": ["ap"]
 		},
-		"v_split_maps": {
+		"v_split_vertical": {
 			"display_name": "Split Map Tracker (Vertical)",
 			"flags": ["ap"]
 		},
