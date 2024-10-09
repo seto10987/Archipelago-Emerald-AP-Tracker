@@ -1,0 +1,110 @@
+{
+  "setting_grid":
+  {
+  "type": "array",
+  "v_alignment": "stretch",
+  "margin": "0, 0",
+  "content": [
+    {
+    "type": "tabbed",
+    "dock": "top",
+    "content": [
+      {
+        "title": "Shuffles",
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content":
+        [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+            [
+              ["overworld_setting","hidden_setting","trainers_setting","pokedex_setting","berries_setting","gifts_setting"],
+              ["badges_setting","hms_setting","key_items_setting","bikes_setting","rods_setting","tickets_setting"]
+            ]
+          }
+        ]
+      },
+      {
+      "title": "Logic",
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+          "content":
+        [
+          {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "h_alignment": "center",
+        "rows":
+            [
+              ["feather_badge_setting","itemfinder_setting","flash_setting","normalize_encounters_setting","route_115_boulders_setting","route_115_bumpy_slope_setting","route_118_rails_setting"],
+              ["rt_110_grunts_setting","rt_112_grunts_setting","rt_119_grunts_setting","safari_setting","wailmer_setting","hideout_grunts_setting","sea_floor_grunts_setting"]
+            ]
+          }
+        ]
+      },
+      {
+      "title": "Goal",
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+          "content":
+            [
+              {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows":
+                [
+                  ["goal","e4_req_setting","e4_req_count","norman_req_setting","norman_req_count","legendary_hunt_req_setting","legendary_hunt_req_count"]
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Legendary Hunt",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content":
+            [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "rows":
+                [
+                  ["legendary_hunt_groudon","legendary_hunt_kyogre","legendary_hunt_rayquaza","legendary_hunt_latios","legendary_hunt_latias","legendary_hunt_regirock"],
+                  ["legendary_hunt_registeel","legendary_hunt_regice","legendary_hunt_ho-oh","legendary_hunt_lugia","legendary_hunt_deoxys","legendary_hunt_mew"]
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "pack_settings":
+  {
+    "type": "array",
+    "orientation": "horizontal",
+    "margin": "0,0",
+    "content":
+    [
+      {
+        "type": "itemgrid",
+        "item_margin": "2,2",
+        "item_size": "360,32",
+        "h_alignment": "left",
+        "rows":
+        [
+          ["events_completed_setting"]
+        ]
+      }
+    ]
+  }
+}

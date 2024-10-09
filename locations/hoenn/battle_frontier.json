@@ -2,7 +2,7 @@
   {
     "name": "Battle Frontier",
     "chest_unopened_img": "/images/locations/pokeball_closed.png",
-		"chest_opened_img": "/images/locations/pokeball_open_bw.png",
+    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
     "children":
     [
       {
@@ -13,7 +13,7 @@
           {
             "name": "B1F - Hidden Item 2",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
@@ -24,21 +24,21 @@
           {
             "name": "B1F - Hidden Item 4",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "B1F - Hidden Item 1",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "B1F - Hidden Item 3",
             "chest_unopened_img": "/images/locations/hidden_item.png",
-		        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "access_rules": ["[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
