@@ -92,8 +92,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -162,8 +162,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -211,8 +211,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -231,8 +231,11 @@
           },
           {
             "map": "petalburg",
-            "x": 831,
-            "y": 572
+            "x": 32,
+            "y": 32,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 30
           }
         ]
       },
@@ -393,8 +396,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -449,8 +452,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -505,8 +508,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -525,8 +528,11 @@
           },
           {
             "map": "dewford",
-            "x": 272,
-            "y": 82
+            "x": 32,
+            "y": 32,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 30
           }
         ]
       },
@@ -726,8 +732,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -782,8 +788,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -824,8 +830,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -877,8 +883,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -944,8 +950,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1000,8 +1006,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1020,8 +1026,11 @@
           },
           {
             "map": "slateport",
-            "x": 2203,
-            "y": 644
+            "x": 32,
+            "y": 32,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 42
           }
         ]
       },
@@ -1097,8 +1106,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["$mauville_access,old_rod","$mauville_access,good_rod"]
           },
           {
@@ -1222,8 +1231,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1892,8 +1901,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1952,8 +1961,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2012,8 +2021,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2078,8 +2087,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2149,8 +2158,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2270,8 +2279,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2428,8 +2437,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2520,8 +2529,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2612,8 +2621,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2702,8 +2711,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2803,8 +2812,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2936,8 +2945,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3016,8 +3025,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3224,8 +3233,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3292,8 +3301,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3351,8 +3360,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3553,8 +3562,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3611,8 +3620,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3683,8 +3692,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3745,8 +3754,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3771,8 +3780,11 @@
           },
           {
             "map": "mossdeep",
-            "x": 185,
-            "y": 1148
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 64
           }
         ]
       },
@@ -3822,8 +3834,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3898,8 +3910,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4066,8 +4078,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4119,7 +4131,7 @@
             "name": "Surf Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Old Rod Encounter 1, 30%",
@@ -4129,8 +4141,8 @@
           },
           {
             "name": "Old-Good-Super Rod Encounter 2, 70%-100%-80%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod","super_rod"]
           },
           {
@@ -4149,8 +4161,11 @@
           },
           {
             "map": "sootopolis",
-            "x": 1272,
-            "y": 1728
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 5,
+            "size": 64
           }
         ]
       },
@@ -4179,8 +4194,11 @@
           },
           {
             "map": "cave_of_origin_entrance",
-            "x": 445,
-            "y": 473
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 48
           }
         ]
       },
@@ -4214,8 +4232,11 @@
           },
           {
             "map": "cave_of_origin_1f",
-            "x": 393,
-            "y": 362
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 48
           }
         ]
       },
@@ -4247,8 +4268,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4309,8 +4330,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4525,8 +4546,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4591,8 +4612,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4674,8 +4695,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 70%-60%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4744,8 +4765,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4808,8 +4829,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4867,8 +4888,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5051,8 +5072,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5077,8 +5098,11 @@
           },
           {
             "map": "pacifidlog",
-            "x": 319,
-            "y": 240
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 3,
+            "size": 48
           }
         ]
       },
@@ -5110,8 +5134,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5175,8 +5199,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5240,8 +5264,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5314,8 +5338,8 @@
           },
           {
             "name": "Good-Super Rod Encounter 3, 20%-40%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/super_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/super_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
           },
           {
@@ -5340,8 +5364,11 @@
           },
           {
             "map": "evergrande",
-            "x": 895,
-            "y": 1868
+            "x": 48,
+            "y": 48,
+            "shape": "diamond",
+            "border_thickness": 6,
+            "size": 62
           }
         ]
       },
@@ -5401,7 +5428,10 @@
           {
             "map": "victory_road_1f",
             "x": 45,
-            "y": 184
+            "y": 184,
+            "shape": "diamond",
+            "border_thickness": 6,
+            "size": 64
           }
         ]
       },
@@ -5441,7 +5471,10 @@
           {
             "map": "victory_road_b1f",
             "x": 38,
-            "y": 170
+            "y": 170,
+            "shape": "diamond",
+            "border_thickness": 6,
+            "size": 64
           }
         ]
       },
@@ -5483,8 +5516,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5510,7 +5543,10 @@
           {
             "map": "victory_road_b2f",
             "x": 38,
-            "y": 170
+            "y": 170,
+            "shape": "diamond",
+            "border_thickness": 6,
+            "size": 64
           }
         ]
       },

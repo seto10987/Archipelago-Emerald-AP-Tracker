@@ -344,13 +344,6 @@
                                       "type":"map",
                                       "maps": ["rustboro_flat_1_2f"]
                                       }
-                                    },
-                                    {
-                                      "title": "Flat 1 3F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_1_3f"]
-                                      }
                                     }
                                   ]
                                 }
@@ -1871,13 +1864,6 @@
                                     }
                                   }
                                 ]
-                              }
-                            },
-                            {
-                              "title": "Champion",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokemon_league_champion"]
                               }
                             },
                             {

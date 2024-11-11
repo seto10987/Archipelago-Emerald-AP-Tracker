@@ -1268,8 +1268,8 @@
         "map_locations": [
           {
             "map": "dewford_gym",
-            "x": 124,
-            "y": 111
+            "x": 144,
+            "y": 112
           }
         ]
       }
@@ -1564,8 +1564,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 620,
-            "y": 459
+            "x": 624,
+            "y": 463
           },
           {
             "map": "mauville_house_2",
@@ -1593,8 +1593,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 1037,
-            "y": 459
+            "x": 1041,
+            "y": 463
           },
           {
             "map": "mauville_house_1",
@@ -1618,8 +1618,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 909,
-            "y": 621
+            "x": 913,
+            "y": 625
           }
         ]
       }
@@ -1678,8 +1678,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 1133,
-            "y": 171
+            "x": 1137,
+            "y": 175
           },
           {
             "map": "mauville_bike_shop",
@@ -1703,8 +1703,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 269,
-            "y": 208
+            "x": 273,
+            "y": 212
           }
         ]
       }
@@ -1775,8 +1775,8 @@
         "map_locations": [
           {
             "map": "mauville",
-            "x": 269,
-            "y": 164
+            "x": 273,
+            "y": 168
           }
         ]
       }
@@ -2402,8 +2402,8 @@
         "map_locations": [
           {
             "map": "fortree_house_2",
-            "x": 47,
-            "y": 112
+            "x": 49,
+            "y": 114
           }
         ]
       }
@@ -2450,13 +2450,13 @@
         "map_locations": [
           {
             "map": "fortree_house_4",
-            "x": 46,
-            "y": 109
+            "x": 48,
+            "y": 111
           },
           {
             "map": "fortree",
-            "x": 1038,
-            "y": 74
+            "x": 1039,
+            "y": 75
           }
         ]
       }
@@ -2515,8 +2515,8 @@
         "map_locations": [
           {
             "map": "fortree_gym",
-            "x": 143,
-            "y": 462
+            "x": 144,
+            "y": 461
           }
         ]
       }
@@ -2575,8 +2575,8 @@
         "map_locations": [
           {
             "map": "fortree_gym",
-            "x": 47,
-            "y": 330
+            "x": 48,
+            "y": 328
           }
         ]
       }
@@ -2866,8 +2866,8 @@
           },
           {
             "map": "mossdeep_house_2",
-            "x": 143,
-            "y": 160
+            "x": 144,
+            "y": 176
           }
         ]
       }
@@ -3549,7 +3549,7 @@
         "map_locations": [
           {
             "map": "space_center_1f",
-            "x": 366,
+            "x": 368,
             "y": 78
           }
         ]
@@ -3569,7 +3569,7 @@
         "map_locations": [
           {
             "map": "space_center_1f",
-            "x": 430,
+            "x": 432,
             "y": 78
           }
         ]
@@ -3664,6 +3664,7 @@
           {
             "name": "Rayquaza Stops Fight",
             "ref": "Cities/Sootopolis City/Rayquaza Stops Fight"
+            // this took me way too long to see that it's invisible. Why do we have this.
           }
         ],
         "map_locations": [
@@ -3689,8 +3690,8 @@
         "map_locations": [
           {
             "map": "sootopolis",
-            "x": 271,
-            "y": 1490
+            "x": 272,
+            "y": 1392
           }
         ]
       }
@@ -4010,7 +4011,7 @@
         "map_locations": [
           {
             "map": "pokemon_league_sydney",
-            "x": 207,
+            "x": 208,
             "y": 172
           }
         ]
@@ -4030,7 +4031,7 @@
         "map_locations": [
           {
             "map": "pokemon_league_phoebe",
-            "x": 207,
+            "x": 208,
             "y": 172
           }
         ]
@@ -4050,7 +4051,7 @@
         "map_locations": [
           {
             "map": "pokemon_league_glacia",
-            "x": 207,
+            "x": 208,
             "y": 172
           }
         ]
@@ -4070,7 +4071,7 @@
         "map_locations": [
           {
             "map": "pokemon_league_drake",
-            "x": 207,
+            "x": 208,
             "y": 172
           }
         ]
@@ -4099,7 +4100,7 @@
           },
           {
             "map": "pokemon_league_hall_champion",
-            "x": 174,
+            "x": 176,
             "y": 75
           }
         ]
@@ -4135,8 +4136,8 @@
         "map_locations": [
           {
             "map": "pokemon_league_hall_phoebe",
-            "x": 175,
-            "y": 72
+            "x": 176,
+            "y": 74
           }
         ]
       }
@@ -4167,8 +4168,8 @@
         "map_locations": [
           {
             "map": "pokemon_league_hall_glacia",
-            "x": 175,
-            "y": 72
+            "x": 176,
+            "y": 74
           }
         ]
       }
@@ -4195,8 +4196,8 @@
         "map_locations": [
           {
             "map": "pokemon_league_hall_drake",
-            "x": 175,
-            "y": 72
+            "x": 176,
+            "y": 74
           }
         ]
       }

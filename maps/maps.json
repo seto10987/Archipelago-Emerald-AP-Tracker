@@ -14,115 +14,115 @@
   {
     "name": "littleroot",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/littleroot.png"
   },
   {
     "name": "mays_house_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/mays_house_1f.png"
   },
   {
     "name": "mays_house_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/mays_house_2f.png"
   },
   {
     "name": "brendans_house_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/brendans_house_1f.png"
   },
   {
     "name": "brendans_house_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/brendans_house_2f.png"
   },
   {
     "name": "professor_birchs_lab",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/littleroot/professor_birchs_lab.png"
   },
   {
     "name": "oldale",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/oldale/oldale.png"
   },
   {
     "name": "oldale_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/oldale/oldale_pokecenter_1f.png"
   },
   {
     "name": "oldale_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/oldale/oldale_mart.png"
   },
   {
     "name": "oldale_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/oldale/oldale_house_1.png"
   },
   {
     "name": "oldale_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/oldale/oldale_house_2.png"
   },
   {
     "name": "petalburg",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg.png"
   },
   {
     "name": "petalburg_gym",
-    "location_size": 45,
-    "location_border_thickness": 3,
+    "location_size": 30,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_gym.png"
   },
   {
     "name": "petalburg_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_pokecenter_1f.png"
   },
   {
     "name": "petalburg_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_mart.png"
   },
   {
     "name": "petalburg_wallys_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_wallys_house.png"
   },
   {
     "name": "petalburg_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_house_1.png"
   },
   {
     "name": "petalburg_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/petalburg/petalburg_house_2.png"
   },
   {
     "name": "rustboro",
-    "location_size": 60,
-    "location_border_thickness": 3,
+    "location_size": 42,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro.png"
   },
   {
@@ -134,79 +134,73 @@
   {
     "name": "rustboro_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_pokecenter_1f.png"
   },
   {
     "name": "rustboro_mart",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_mart.png"
   },
   {
     "name": "rustboro_cutters_house",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_cutters_house.png"
   },
   {
     "name": "rustboro_pokemon_school",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_pokemon_school.png"
   },
   {
     "name": "rustboro_house_1",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_house_1.png"
   },
   {
     "name": "rustboro_house_2",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_house_2.png"
   },
   {
     "name": "rustboro_house_3",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_house_3.png"
   },
   {
     "name": "rustboro_flat_1_1f",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_flat_1_1f.png"
   },
   {
     "name": "rustboro_flat_1_2f",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_flat_1_2f.png"
   },
   {
-    "name": "rustboro_flat_1_3f",
-    "location_size": 24,
-    "location_border_thickness": 0,
-    "img": "images/maps/cities/rustboro/rustboro_flat_1_3f.png"
-  },
-  {
     "name": "rustboro_flat_2_1f",
-    "location_size": 12,
-    "location_border_thickness": 0,
+    "location_size": 24,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_flat_2_1f.png"
   },
   {
     "name": "rustboro_flat_2_2f",
-    "location_size": 12,
-    "location_border_thickness": 0,
+    "location_size": 24,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_flat_2_2f.png"
   },
   {
     "name": "rustboro_flat_2_3f",
     "location_size": 24,
-    "location_border_thickness": 0,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_flat_2_3f.png"
   },
   {
@@ -230,493 +224,493 @@
   {
     "name": "dewford",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford.png"
   },
   {
     "name": "dewford_gym",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford_gym.png"
   },
   {
     "name": "dewford_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford_pokecenter_1f.png"
   },
   {
     "name": "dewford_hall",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford_hall.png"
   },
   {
     "name": "dewford_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford_house_1.png"
   },
   {
     "name": "dewford_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/dewford/dewford_house_2.png"
   },
   {
     "name": "slateport",
-    "location_size": 55,
-    "location_border_thickness": 3,
+    "location_size": 42,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport.png"
   },
   {
     "name": "slateport_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_pokecenter_1f.png"
   },
   {
     "name": "slateport_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_mart.png"
   },
   {
     "name": "slateport_shipyard_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_shipyard_1f.png"
   },
   {
     "name": "slateport_shipyard_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_shipyard_2f.png"
   },
   {
     "name": "slateport_museum_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_museum_1f.png"
   },
   {
     "name": "slateport_museum_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_museum_2f.png"
   },
   {
     "name": "slateport_harbor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_harbor.png"
   },
   {
     "name": "slateport_pokemon_fan_club",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_pokemon_fan_club.png"
   },
   {
     "name": "slateport_battle_tent_lobby",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_battle_tent_lobby.png"
   },
   {
     "name": "slateport_battle_tent_room",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_battle_tent_room.png"
   },
   {
     "name": "slateport_name_raters_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_name_raters_house.png"
   },
   {
     "name": "slateport_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/slateport/slateport_house.png"
   },
   {
     "name": "mauville",
-    "location_size": 24,
-    "location_border_thickness": 3,
+    "location_size": 30,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville.png"
   },
   {
     "name": "mauville_gym",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_gym.png"
   },
   {
     "name": "mauville_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_pokecenter_1f.png"
   },
   {
     "name": "mauville_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_mart.png"
   },
   {
     "name": "mauville_bike_shop",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_bike_shop.png"
   },
   {
     "name": "mauville_game_corner",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_game_corner.png"
   },
   {
     "name": "mauville_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_house_1.png"
   },
   {
     "name": "mauville_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mauville/mauville_house_2.png"
   },
   {
     "name": "verdanturf",
-    "location_size": 24,
-    "location_border_thickness": 3,
+    "location_size": 30,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf.png"
   },
   {
     "name": "verdanturf_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_pokecenter_1f.png"
   },
   {
     "name": "verdanturf_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_mart.png"
   },
   {
     "name": "verdanturf_wandas_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_wandas_house.png"
   },
   {
     "name": "verdanturf_friendship_raters_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_friendship_raters_house.png"
   },
   {
     "name": "verdanturf_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_house.png"
   },
   {
     "name": "verdanturf_battle_tent_lobby",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_battle_tent_lobby.png"
   },
   {
     "name": "verdanturf_battle_tent_room",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/verdanturf/verdanturf_battle_tent_room.png"
   },
   {
     "name": "fallarbor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor.png"
   },
   {
     "name": "fallarbor_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_pokecenter_1f.png"
   },
   {
     "name": "fallarbor_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_mart.png"
   },
   {
     "name": "fallarbor_cosmos_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_cosmos_house.png"
   },
   {
     "name": "fallarbor_move_tutors_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_move_tutors_house.png"
   },
   {
     "name": "fallarbor_battle_tent_lobby",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_battle_tent_lobby.png"
   },
   {
     "name": "fallarbor_battle_tent_room",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fallarbor/fallarbor_battle_tent_room.png"
   },
   {
     "name": "lavaridge",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge.png"
   },
   {
     "name": "lavaridge_gym_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_gym_1f.png"
   },
   {
     "name": "lavaridge_gym_b1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_gym_b1f.png"
   },
   {
     "name": "lavaridge_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_pokecenter_1f.png"
   },
   {
     "name": "lavaridge_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_mart.png"
   },
   {
     "name": "lavaridge_herb_shop",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_herb_shop.png"
   },
   {
     "name": "lavaridge_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lavaridge/lavaridge_house.png"
   },
   {
     "name": "fortree",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree.png"
   },
   {
     "name": "fortree_gym",
-    "location_size": 24,
-    "location_border_thickness": 3,
+    "location_size": 25,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_gym.png"
   },
   {
     "name": "fortree_pokecenter_1f",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_pokecenter_1f.png"
   },
   {
     "name": "fortree_mart",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_mart.png"
   },
   {
     "name": "fortree_decoration_shop",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_decoration_shop.png"
   },
   {
     "name": "fortree_house_1",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_house_1.png"
   },
   {
     "name": "fortree_house_2",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_house_2.png"
   },
   {
     "name": "fortree_house_3",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_house_3.png"
   },
   {
     "name": "fortree_house_4",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_house_4.png"
   },
   {
     "name": "fortree_house_5",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/fortree/fortree_house_5.png"
   },
   {
     "name": "lilycove",
     "location_size": 48,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove.png"
   },
   {
     "name": "lilycove_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_pokecenter_1f.png"
   },
   {
     "name": "lilycove_dept_store_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_1f.png"
   },
   {
     "name": "lilycove_dept_store_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_2f.png"
   },
   {
     "name": "lilycove_dept_store_3f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_3f.png"
   },
   {
     "name": "lilycove_dept_store_4f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_4f.png"
   },
   {
     "name": "lilycove_dept_store_5f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_5f.png"
   },
   {
     "name": "lilycove_dept_store_rooftop",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_rooftop.png"
   },
   {
     "name": "lilycove_dept_store_elevator",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_dept_store_elevator.png"
   },
   {
     "name": "lilycove_harbor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_harbor.png"
   },
   {
     "name": "lilycove_move_deleters_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_move_deleters_house.png"
   },
   {
     "name": "lilycove_trainer_fan_club",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_trainer_fan_club.png"
   },
   {
     "name": "lilycove_motel_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_motel_1f.png"
   },
   {
     "name": "lilycove_motel_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_motel_2f.png"
   },
   {
     "name": "lilycove_museum_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_museum_1f.png"
   },
   {
     "name": "lilycove_museum_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_museum_2f.png"
   },
   {
     "name": "lilycove_contest_lobby",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_contest_lobby.png"
   },
   {
     "name": "lilycove_contest_hall",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_contest_hall.png"
   },
   {
     "name": "lilycove_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_house_1.png"
   },
   {
     "name": "lilycove_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_house_2.png"
   },
   {
     "name": "lilycove_house_3",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_house_3.png"
   },
   {
     "name": "lilycove_house_4",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove_house_4.png"
   },
   {
     "name": "aqua_hideout_1f",
     "location_size": 35,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/aqua_hideout_1f.png"
   },
   {
@@ -733,320 +727,320 @@
   },
   {
     "name": "mossdeep",
-    "location_size": 50,
-    "location_border_thickness": 3,
+    "location_size": 42,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep.png"
   },
   {
     "name": "mossdeep_gym",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_gym.png"
   },
   {
     "name": "mossdeep_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_pokecenter_1f.png"
   },
   {
     "name": "mossdeep_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_mart.png"
   },
   {
     "name": "mossdeep_stevens_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_stevens_house.png"
   },
   {
     "name": "mossdeep_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_house_1.png"
   },
   {
     "name": "mossdeep_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_house_2.png"
   },
   {
     "name": "mossdeep_house_3",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_house_3.png"
   },
   {
     "name": "mossdeep_house_4",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_house_4.png"
   },
   {
     "name": "space_center_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/space_center_1f.png"
   },
   {
     "name": "space_center_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/space_center_2f.png"
   },
   {
     "name": "mossdeep_game_corner",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep_game_corner.png"
   },
   {
     "name": "sootopolis",
-    "location_size": 24,
-    "location_border_thickness": 3,
+    "location_size": 64,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis.png"
   },
   {
     "name": "sootopolis_gym_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_gym_1f.png"
   },
   {
     "name": "sootopolis_gym_b1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_gym_b1f.png"
   },
   {
     "name": "sootopolis_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_pokecenter_1f.png"
   },
   {
     "name": "sootopolis_mart",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_mart.png"
   },
   {
     "name": "sootopolis_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_1.png"
   },
   {
     "name": "sootopolis_house_2",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_2.png"
   },
   {
     "name": "sootopolis_house_3",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_3.png"
   },
   {
     "name": "sootopolis_house_4",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_4.png"
   },
   {
     "name": "sootopolis_house_5",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_5.png"
   },
   {
     "name": "sootopolis_house_6",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_6.png"
   },
   {
     "name": "sootopolis_house_7",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_house_7.png"
   },
   {
     "name": "sootopolis_lotad_and_seedot_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_lotad_and_seedot_house.png"
   },
   {
     "name": "sootopolis_mystery_events_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis_mystery_events_house.png"
   },
   {
     "name": "cave_of_origin_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/cave_of_origin_entrance.png"
   },
   {
     "name": "cave_of_origin_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/cave_of_origin_1f.png"
   },
   {
     "name": "cave_of_origin_b1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/cave_of_origin_b1f.png"
   },
   {
     "name": "pacifidlog",
-    "location_size": 24,
-    "location_border_thickness": 3,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog.png"
   },
   {
     "name": "pacifidlog_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_pokecenter_1f.png"
   },
   {
     "name": "pacifidlog_house_1",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_1.png"
   },
   {
     "name": "pacifidlog_house_2",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_2.png"
   },
   {
     "name": "pacifidlog_house_3",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_3.png"
   },
   {
     "name": "pacifidlog_house_4",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_4.png"
   },
   {
     "name": "pacifidlog_house_5",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_5.png"
   },
   {
     "name": "evergrande",
-    "location_size": 64,
-    "location_border_thickness": 3,
+    "location_size": 40,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/evergrande.png"
   },
   {
     "name": "evergrande_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/evergrande_pokecenter_1f.png"
   },
   {
     "name": "victory_road_1f",
-    "location_size": 26,
-    "location_border_thickness": 3,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/victory_road_1f.png"
   },
   {
     "name": "victory_road_b1f",
-    "location_size": 26,
-    "location_border_thickness": 3,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/victory_road_b1f.png"
   },
   {
     "name": "victory_road_b2f",
-    "location_size": 26,
-    "location_border_thickness": 3,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/victory_road_b2f.png"
   },
   {
     "name": "pokemon_league_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_1f.png"
   },
   {
     "name": "pokemon_league_hall_sydney",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_sydney.png"
   },
   {
     "name": "pokemon_league_hall_phoebe",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_phoebe.png"
   },
   {
     "name": "pokemon_league_hall_glacia",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_glacia.png"
   },
   {
     "name": "pokemon_league_hall_drake",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_drake.png"
   },
   {
     "name": "pokemon_league_hall_champion",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_champion.png"
   },
   {
     "name": "pokemon_league_sydney",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_sydney.png"
   },
   {
     "name": "pokemon_league_phoebe",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_phoebe.png"
   },
   {
     "name": "pokemon_league_glacia",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_glacia.png"
   },
   {
     "name": "pokemon_league_drake",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_drake.png"
   },
   {
     "name": "pokemon_league_champion",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_champion.png"
   },
   {
     "name": "pokemon_league_hall_of_fame",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/evergrande/pokemon_league_hall_of_fame.png"
   },
   {
@@ -1082,7 +1076,7 @@
   {
     "name": "petalburg_woods",
     "location_size": 45,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_104/petalburg_woods.png"
   },
   {
@@ -1106,7 +1100,7 @@
   {
     "name": "island_cave",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_105/island_cave.png"
   },
   {
@@ -1118,25 +1112,25 @@
   {
     "name": "granite_cave_1f",
     "location_size": 36,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_1f.png"
   },
   {
     "name": "granite_cave_b1f",
     "location_size": 36,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_b1f.png"
   },
   {
     "name": "granite_cave_b2f",
     "location_size": 36,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_b2f.png"
   },
   {
     "name": "granite_cave_s",
     "location_size": 36,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_s.png"
   },
   {
@@ -1262,7 +1256,7 @@
   {
     "name": "new_mauville",
     "location_size": 55,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/new_mauville.png"
   },
   {
@@ -1376,7 +1370,7 @@
   {
     "name": "desert_ruins",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/desert_ruins.png"
   },
   {
@@ -1388,25 +1382,25 @@
   {
     "name": "fiery_path",
     "location_size": 50,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/fiery_path.png"
   },
   {
     "name": "cable_car_station",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/cable_car_station.png"
   },
   {
     "name": "mt_chimney",
     "location_size": 55,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/mt_chimney.png"
   },
   {
     "name": "jagged_pass",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/jagged_pass.png"
   },
   {
@@ -1484,19 +1478,19 @@
   {
     "name": "fossil_maniac_tunnel",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/fossil_maniac_tunnel.png"
   },
   {
     "name": "desert_underpass",
     "location_size": 75,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/desert_underpass.png"
   },
   {
     "name": "lanettes_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/lanettes_house.png"
   },
   {
@@ -1544,13 +1538,13 @@
   {
     "name": "rusturf_tunnel",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_116/rusturf_tunnel.png"
   },
   {
     "name": "rt_116_tunnelers_rest_house",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_116/rt_116_tunnelers_rest_house.png"
   },
   {
@@ -1574,13 +1568,13 @@
   {
     "name": "weather_institute_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_119/weather_institute_1f.png"
   },
   {
     "name": "weather_institute_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_119/weather_institute_2f.png"
   },
   {
@@ -1597,13 +1591,13 @@
   },
   {
     "name": "scorched_slab",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/routes/rt_120/scorched_slab.png"
   },
   {
     "name": "ancient_tomb",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/routes/rt_120/ancient_tomb.png"
   },
@@ -1706,19 +1700,19 @@
   {
     "name": "mt_pyre_ext",
     "location_size": 50,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_ext.png"
   },
   {
     "name": "mt_pyre_summit",
     "location_size": 50,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_summit.png"
   },
   {
     "name": "rt_123",
     "location_size": 60,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_123/rt_123.png"
   },
   {
@@ -1934,49 +1928,49 @@
   {
     "name": "sky_pillar_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_entrance.png"
   },
   {
     "name": "sky_pillar_after_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_after_entrance.png"
   },
   {
     "name": "sky_pillar_1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_1f.png"
   },
   {
     "name": "sky_pillar_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_2f.png"
   },
   {
     "name": "sky_pillar_3f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_3f.png"
   },
   {
     "name": "sky_pillar_4f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_4f.png"
   },
   {
     "name": "sky_pillar_5f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_5f.png"
   },
   {
     "name": "sky_pillar_top",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/sky_pillar_6f.png"
   },
   {
@@ -2012,18 +2006,18 @@
   {
     "name": "sealed_chamber_inner_room",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_134/sealed_chamber_inner_room.png"
   },
   {
     "name": "sealed_chamber_outer_room",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_134/sealed_chamber_outer_room.png"
   },
   {
     "name": "ss_tidal_corridors",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/other/ss_tidal/ss_tidal_corridors.png"
   },
@@ -2035,14 +2029,14 @@
   },
   {
     "name": "ss_tidal_lower_deck",
-    "location_size": 12,
+    "location_size": 24,
     "location_border_thickness": 1,
     "img": "images/maps/other/ss_tidal/ss_tidal_lower_deck.png"
   },
   {
     "name": "battle_frontier",
     "location_size": 50,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/battle_frontier/battle_frontier.png"
   },
   {
@@ -2060,31 +2054,31 @@
   {
     "name": "navel_rock_harbor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_harbor.png"
   },
   {
     "name": "navel_rock_exterior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_exterior.png"
   },
   {
     "name": "navel_rock_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_entrance.png"
   },
   {
     "name": "navel_rock_b1f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_b1f.png"
   },
   {
     "name": "navel_rock_fork",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_fork.png"
   },
   {
@@ -2180,91 +2174,91 @@
   {
     "name": "navel_rock_top",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_top.png"
   },
   {
     "name": "navel_rock_bottom",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_bottom.png"
   },
   {
     "name": "southern_island_exterior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/southern_island/southern_island_exterior.png"
   },
   {
     "name": "southern_island_interior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/southern_island/southern_island_interior.png"
   },
   {
     "name": "faraway_island_exterior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/faraway_island/faraway_island_exterior.png"
   },
   {
     "name": "faraway_island_interior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/faraway_island/faraway_island_interior.png"
   },
   {
     "name": "birth_island_harbor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/birth_island/birth_island_harbor.png"
   },
   {
     "name": "birth_island_exterior",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/birth_island/birth_island_exterior.png"
   },
   {
     "name": "terra_cave_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/terra_cave/terra_cave_entrance.png"
   },
   {
     "name": "terra_cave_end",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/terra_cave/terra_cave_end.png"
   },
   {
     "name": "marine_cave_underwater",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/marine_cave/marine_cave_underwater.png"
   },
   {
     "name": "marine_cave_entrance",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/marine_cave/marine_cave_entrance.png"
   },
   {
     "name": "marine_cave_end",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/other/marine_cave/marine_cave_end.png"
   },
   {
     "name": "pokecenter_2f",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/misc/pokecenter_2f.png"
   },
   {
     "name": "battle_tent_corridor",
     "location_size": 24,
-    "location_border_thickness": 3,
+    "location_border_thickness": 2,
     "img": "images/maps/misc/battle_tent_corridor.png"
   }
 ]
