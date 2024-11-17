@@ -4981,6 +4981,11 @@
             "map": "ss_tidal_rooms",
             "x": 69,
             "y": 229
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 72,
+            "y": 117
           }
         ]
       }
@@ -5001,6 +5006,11 @@
             "map": "ss_tidal_rooms",
             "x": 349,
             "y": 183
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 168,
+            "y": 117
           }
         ]
       }
@@ -5021,6 +5031,11 @@
             "map": "ss_tidal_rooms",
             "x": 542,
             "y": 182
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 216,
+            "y": 117
           }
         ]
       }
@@ -5041,6 +5056,11 @@
             "map": "ss_tidal_rooms",
             "x": 61,
             "y": 119
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 72,
+            "y": 64
           }
         ]
       }
@@ -5061,6 +5081,11 @@
             "map": "ss_tidal_rooms",
             "x": 238,
             "y": 103
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 120,
+            "y": 64
           }
         ]
       }
@@ -5081,6 +5106,11 @@
             "map": "ss_tidal_rooms",
             "x": 333,
             "y": 86
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 168,
+            "y": 64
           }
         ]
       }
@@ -5101,6 +5131,11 @@
             "map": "ss_tidal_rooms",
             "x": 446,
             "y": 87
+          },
+          {
+            "map": "ss_tidal_corridors",
+            "x": 216,
+            "y": 64
           }
         ]
       }
@@ -5119,8 +5154,8 @@
         "map_locations": [
           {
             "map": "ss_tidal_lower_deck",
-            "x": 167,
-            "y": 83
+            "x": 168,
+            "y": 84
           }
         ]
       }
@@ -5139,8 +5174,8 @@
         "map_locations": [
           {
             "map": "ss_tidal_lower_deck",
-            "x": 119,
-            "y": 83
+            "x": 120,
+            "y": 84
           }
         ]
       }
@@ -5167,50 +5202,6 @@
     ]
   },
   {
-    "name": "S.S. Tidal Rooms",
-    "children": [
-      {
-        "sections": [
-          {
-            "name": "Young Couple Lea & Jed",
-            "ref": "Dungeons/S.S. Tidal/Young Couple Lea & Jed"
-          },
-          {
-            "name": "Rich Boy Garret",
-            "ref": "Dungeons/S.S. Tidal/Rich Boy Garret"
-          },
-          {
-            "name": "Gentleman Micah",
-            "ref": "Dungeons/S.S. Tidal/Gentleman Micah"
-          },
-          {
-            "name": "Pokefan Colton",
-            "ref": "Dungeons/S.S. Tidal/Pokefan Colton"
-          },
-          {
-            "name": "Lady Naomi",
-            "ref": "Dungeons/S.S. Tidal/Lady Naomi"
-          },
-          {
-            "name": "Gentleman Thomas",
-            "ref": "Dungeons/S.S. Tidal/Gentleman Thomas"
-          },
-          {
-            "name": "TM49 from Thief",
-            "ref": "Dungeons/S.S. Tidal/TM49 from Thief"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "ss_tidal_corridors",
-            "x": 141,
-            "y": 94
-          }
-        ]
-      }
-    ]
-  },
-  {
     "name": "S.S. Tidal Lower Deck",
     "children": [
       {
@@ -5231,8 +5222,9 @@
         "map_locations": [
           {
             "map": "ss_tidal_corridors",
-            "x": 279,
-            "y": 35
+            "x": 282,
+            "y": 33,
+            "size": 12
           }
         ]
       }
@@ -5596,8 +5588,8 @@
         "map_locations": [
           {
             "map": "artisan_cave_b1f",
-            "x": 625,
-            "y": 1398
+            "x": 624,
+            "y": 1392
           }
         ]
       }
@@ -5676,8 +5668,8 @@
         "map_locations": [
           {
             "map": "artisan_cave_b1f",
-            "x": 241,
-            "y": 182
+            "x": 240,
+            "y": 176
           }
         ]
       }
@@ -5696,8 +5688,8 @@
         "map_locations": [
           {
             "map": "artisan_cave_1f",
-            "x": 463,
-            "y": 182
+            "x": 464,
+            "y": 176
           }
         ]
       }
@@ -5720,8 +5712,8 @@
         "map_locations": [
           {
             "map": "artisan_cave_b1f",
-            "x": 1364,
-            "y": 1014
+            "x": 32,
+            "y": 32
           }
         ]
       }
@@ -5744,14 +5736,14 @@
         "map_locations": [
           {
             "map": "artisan_cave_1f",
-            "x": 334,
-            "y": 185
+            "x": 32,
+            "y": 32
           },
-          {
-            "map": "artisan_cave_b1f",
-            "x": 1231,
-            "y": 162
-          }
+          //{ // Design Decision Agreed Upon: Encounter Squares only on the map itself, not leading
+          //  "map": "artisan_cave_b1f",
+          //  "x": 1231,
+          //  "y": 162
+          //}
         ]
       }
     ]

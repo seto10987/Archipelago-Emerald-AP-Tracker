@@ -1749,7 +1749,7 @@
           },
           {
             "map": "marine_cave_entrance",
-            "x": 463,
+            "x": 464,
             "y": 40,
             "restrict_visibility_rules": ["marine_cave_unknown"]
           },
@@ -1895,7 +1895,7 @@
               {"map": "hoennmap","x": 204,"y": 12},
               {"map": "navel_rock_harbor","x": 271,"y": 42},
               {"map": "navel_rock_exterior","x": 335,"y": 331},
-              {"map": "navel_rock_entrance","x": 335,"y": 175},
+              {"map": "navel_rock_entrance","x": 336,"y": 176},
               {"map": "navel_rock_b1f","x": 591,"y": 304}
             ]
           },
