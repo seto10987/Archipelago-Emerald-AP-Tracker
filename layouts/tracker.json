@@ -65,7 +65,7 @@
               },
               {
                 "type": "dock",
-                "dock": "center",
+                "dock": "bottom",
                 "content": [
                   {
                     "type": "dock",
