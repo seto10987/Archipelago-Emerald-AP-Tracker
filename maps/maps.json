@@ -2,13 +2,13 @@
   {
     "name": "hoennmap",
     "location_size": 6,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/hoennmap.png"
   },
   {
     "name": "encountermap",
     "location_size": 5,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/hoennmap.png"
   },
   {
@@ -128,7 +128,7 @@
   {
     "name": "rustboro_gym",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_gym.png"
   },
   {
@@ -206,19 +206,19 @@
   {
     "name": "rustboro_devon_corp_1f",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_devon_corp_1f.png"
   },
   {
     "name": "rustboro_devon_corp_2f",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_devon_corp_2f.png"
   },
   {
     "name": "rustboro_devon_corp_3f",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/rustboro/rustboro_devon_corp_3f.png"
   },
   {
@@ -530,49 +530,49 @@
   {
     "name": "fortree_pokecenter_1f",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_pokecenter_1f.png"
   },
   {
     "name": "fortree_mart",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_mart.png"
   },
   {
     "name": "fortree_decoration_shop",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_decoration_shop.png"
   },
   {
     "name": "fortree_house_1",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_house_1.png"
   },
   {
     "name": "fortree_house_2",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_house_2.png"
   },
   {
     "name": "fortree_house_3",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_house_3.png"
   },
   {
     "name": "fortree_house_4",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_house_4.png"
   },
   {
     "name": "fortree_house_5",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/fortree/fortree_house_5.png"
   },
   {
@@ -920,7 +920,7 @@
   {
     "name": "pacifidlog_house_2",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/cities/pacifidlog/pacifidlog_house_2.png"
   },
   {
@@ -1045,25 +1045,25 @@
   },
   {
     "name": "rt_101",
-    "location_size": 25,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_101/rt_101.png"
   },
   {
     "name": "rt_102",
-    "location_size": 35,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_102/rt_102.png"
   },
   {
     "name": "rt_103",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_103/rt_103.png"
   },
   {
     "name": "rt_104",
-    "location_size": 55,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_104/rt_104.png"
   },
@@ -1075,19 +1075,19 @@
   },
   {
     "name": "petalburg_woods",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_104/petalburg_woods.png"
   },
   {
     "name": "flower_shop",
-    "location_size": 15,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_104/flower_shop.png"
   },
   {
     "name": "rt_105",
-    "location_size": 60,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_105/rt_105.png"
   },
@@ -1105,266 +1105,266 @@
   },
   {
     "name": "rt_106",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/rt_106.png"
   },
   {
     "name": "granite_cave_1f",
-    "location_size": 36,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_1f.png"
   },
   {
     "name": "granite_cave_b1f",
-    "location_size": 36,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_b1f.png"
   },
   {
     "name": "granite_cave_b2f",
-    "location_size": 36,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_b2f.png"
   },
   {
     "name": "granite_cave_s",
-    "location_size": 36,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_106/granite_cave_s.png"
   },
   {
     "name": "rt_107",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_107/rt_107.png"
   },
   {
     "name": "rt_108",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/rt_108.png"
   },
   {
     "name": "abandoned_ship_deck",
-    "location_size": 35,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_deck.png"
   },
   {
     "name": "abandoned_ship_corridors_1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_corridors_1f.png"
   },
   {
     "name": "abandoned_ship_rooms_1_1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_rooms_1_1f.png"
   },
   {
     "name": "abandoned_ship_rooms_2_1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_rooms_2_1f.png"
   },
   {
     "name": "abandoned_ship_captains_office",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_captains_office.png"
   },
   {
     "name": "abandoned_ship_corridors_b1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_corridors_b1f.png"
   },
   {
     "name": "abandoned_ship_rooms_1_b1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_rooms_1_b1f.png"
   },
   {
     "name": "abandoned_ship_rooms_2_b1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_rooms_2_b1f.png"
   },
   {
     "name": "abandoned_ship_storage_room_b1f",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_storage_room_b1f.png"
   },
   {
     "name": "abandoned_ship_underwater_1",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_underwater_1.png"
   },
   {
     "name": "abandoned_ship_underwater_2",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_underwater_2.png"
   },
   {
     "name": "abandoned_ship_hidden_floor_corridors",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_hidden_floor_corridors.png"
   },
   {
     "name": "abandoned_ship_hidden_floor_rooms",
-    "location_size": 22,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_108/abandoned_ship_hidden_floor_rooms.png"
   },
   {
     "name": "rt_109",
-    "location_size": 55,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_109/rt_109.png"
   },
   {
     "name": "seashore_house",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_109/seashore_house.png"
   },
   {
     "name": "rt_110",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/rt_110.png"
   },
   {
     "name": "cycling_road_entrance",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/cycling_road_entrance.png"
   },
   {
     "name": "new_mauville_entrance",
-    "location_size": 18,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/new_mauville_entrance.png"
   },
   {
     "name": "new_mauville",
-    "location_size": 55,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/new_mauville.png"
   },
   {
     "name": "trick_house_main",
-    "location_size": 14,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_main.png"
   },
   {
     "name": "trick_house_1",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_1.png"
   },
   {
     "name": "trick_house_2",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_2.png"
   },
   {
     "name": "trick_house_3",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_3.png"
   },
   {
     "name": "trick_house_4",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_4.png"
   },
   {
     "name": "trick_house_5",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_5.png"
   },
   {
     "name": "trick_house_6",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_6.png"
   },
   {
     "name": "trick_house_7",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_7.png"
   },
   {
     "name": "trick_house_8",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 16,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_8.png"
   },
   {
     "name": "trick_house_end",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_end.png"
   },
   {
     "name": "trick_house_hallway",
-    "location_size": 15,
-    "location_border_thickness": 1,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_110/trick_house_hallway.png"
   },
   {
     "name": "rt_111",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/rt_111.png"
   },
   {
     "name": "winstrate_familys_house",
-    "location_size": 25,
+    "location_size": 30,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/winstrate_familys_house.png"
   },
   {
     "name": "old_ladys_rest_stop",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/old_ladys_rest_stop.png"
   },
   {
     "name": "mirage_tower_1f",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/mirage_tower_1f.png"
   },
   {
     "name": "mirage_tower_2f",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/mirage_tower_2f.png"
   },
   {
     "name": "mirage_tower_3f",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/mirage_tower_3f.png"
   },
   {
     "name": "mirage_tower_4f",
     "location_size": 15,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_111/mirage_tower_4f.png"
   },
   {
@@ -1375,13 +1375,13 @@
   },
   {
     "name": "rt_112",
-    "location_size": 65,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/rt_112.png"
   },
   {
     "name": "fiery_path",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/fiery_path.png"
   },
@@ -1393,62 +1393,62 @@
   },
   {
     "name": "mt_chimney",
-    "location_size": 55,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/mt_chimney.png"
   },
   {
     "name": "jagged_pass",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/jagged_pass.png"
   },
   {
     "name": "magma_hideout_1f",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_1f.png"
   },
   {
     "name": "magma_hideout_2f1r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_2f1r.png"
   },
   {
     "name": "magma_hideout_2f2r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_2f2r.png"
   },
   {
     "name": "magma_hideout_2f3r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_2f3r.png"
   },
   {
     "name": "magma_hideout_3f1r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_3f1r.png"
   },
   {
     "name": "magma_hideout_3f2r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_3f2r.png"
   },
   {
     "name": "magma_hideout_3f3r",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_3f3r.png"
   },
   {
     "name": "magma_hideout_4f",
-    "location_size": 35,
-    "location_border_thickness": 5,
+    "location_size": 32,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_112/magma_hideout_4f.png"
   },
   {
@@ -1460,7 +1460,7 @@
   {
     "name": "glass_workshop",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_113/glass_workshop.png"
   },
   {
@@ -1472,7 +1472,7 @@
   {
     "name": "fossil_maniac_house",
     "location_size": 18,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/fossil_maniac_house.png"
   },
   {
@@ -1514,7 +1514,7 @@
   {
     "name": "meteor_falls_b1f2r",
     "location_size": 25,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_b1f2r.png"
   },
   {
@@ -1562,7 +1562,7 @@
   {
     "name": "rt_118",
     "location_size": 40,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_118/rt_118.png"
   },
   {
@@ -1592,13 +1592,13 @@
   {
     "name": "scorched_slab",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_120/scorched_slab.png"
   },
   {
     "name": "ancient_tomb",
     "location_size": 24,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_120/ancient_tomb.png"
   },
   {
@@ -1610,13 +1610,13 @@
   {
     "name": "safari_lobby",
     "location_size": 16,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_121/safari_lobby.png"
   },
   {
     "name": "safari_rest_house",
     "location_size": 16,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_121/safari_rest_house.png"
   },
   {
@@ -1658,7 +1658,7 @@
   {
     "name": "rt_122",
     "location_size": 25,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/rt_122.png"
   },
   {
@@ -1718,7 +1718,7 @@
   {
     "name": "berry_masters_house",
     "location_size": 15,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_123/berry_masters_house.png"
   },
   {
@@ -1736,7 +1736,7 @@
   {
     "name": "diving_treasure_hunters_house",
     "location_size": 15,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_124/diving_treasure_hunters_house.png"
   },
   {
@@ -1844,61 +1844,61 @@
   {
     "name": "seafloor_cavern_ent",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_ent.png"
   },
   {
     "name": "seafloor_cavern_1",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_1.png"
   },
   {
     "name": "seafloor_cavern_2",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_2.png"
   },
   {
     "name": "seafloor_cavern_3",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_3.png"
   },
   {
     "name": "seafloor_cavern_4",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_4.png"
   },
   {
     "name": "seafloor_cavern_5",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_5.png"
   },
   {
     "name": "seafloor_cavern_6",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_6.png"
   },
   {
     "name": "seafloor_cavern_7",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_7.png"
   },
   {
     "name": "seafloor_cavern_8",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_8.png"
   },
   {
     "name": "seafloor_cavern_9",
     "location_size": 14,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_9.png"
   },
   {
@@ -1916,7 +1916,7 @@
   {
     "name": "rt_130",
     "location_size": 25,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_130/rt_130.png"
   },
   {
@@ -1976,19 +1976,19 @@
   {
     "name": "rt_132",
     "location_size": 40,
-    "location_border_thickness": 5,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_132/rt_132.png"
   },
   {
     "name": "rt_133",
     "location_size": 40,
-    "location_border_thickness": 5,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_133/rt_133.png"
   },
   {
     "name": "rt_134",
     "location_size": 40,
-    "location_border_thickness": 5,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_134/rt_134.png"
   },
   {
@@ -2018,19 +2018,19 @@
   {
     "name": "ss_tidal_corridors",
     "location_size": 16,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/ss_tidal/ss_tidal_corridors.png"
   },
   {
     "name": "ss_tidal_rooms",
     "location_size": 16,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/ss_tidal/ss_tidal_rooms.png"
   },
   {
     "name": "ss_tidal_lower_deck",
     "location_size": 16,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/ss_tidal/ss_tidal_lower_deck.png"
   },
   {
@@ -2084,91 +2084,91 @@
   {
     "name": "navel_rock_up_1",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_up_1.png"
   },
   {
     "name": "navel_rock_up_2",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_up_2.png"
   },
   {
     "name": "navel_rock_up_3",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_up_3.png"
   },
   {
     "name": "navel_rock_up_4",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_up_4.png"
   },
   {
     "name": "navel_rock_down_1",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_1.png"
   },
   {
     "name": "navel_rock_down_2",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_2.png"
   },
   {
     "name": "navel_rock_down_3",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_3.png"
   },
   {
     "name": "navel_rock_down_4",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_4.png"
   },
   {
     "name": "navel_rock_down_5",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_5.png"
   },
   {
     "name": "navel_rock_down_6",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_6.png"
   },
   {
     "name": "navel_rock_down_7",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_7.png"
   },
   {
     "name": "navel_rock_down_8",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_8.png"
   },
   {
     "name": "navel_rock_down_9",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_9.png"
   },
   {
     "name": "navel_rock_down_10",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_10.png"
   },
   {
     "name": "navel_rock_down_11",
     "location_size": 20,
-    "location_border_thickness": 1,
+    "location_border_thickness": 2,
     "img": "images/maps/other/navel_rock/navel_rock_down_11.png"
   },
   {
