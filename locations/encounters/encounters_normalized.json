@@ -1547,8 +1547,8 @@
           },
           {
             "map": "magma_hideout_2f1r",
-            "x": 810,
-            "y": 1046
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1582,8 +1582,8 @@
           },
           {
             "map": "magma_hideout_2f2r",
-            "x": 485,
-            "y": 711
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1617,8 +1617,8 @@
           },
           {
             "map": "magma_hideout_2f3r",
-            "x": 415,
-            "y": 253
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1652,8 +1652,8 @@
           },
           {
             "map": "magma_hideout_3f1r",
-            "x": 804,
-            "y": 527
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1687,8 +1687,8 @@
           },
           {
             "map": "magma_hideout_3f2r",
-            "x": 646,
-            "y": 467
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1722,8 +1722,8 @@
           },
           {
             "map": "magma_hideout_3f3r",
-            "x": 778,
-            "y": 602
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1757,8 +1757,8 @@
           },
           {
             "map": "magma_hideout_4f",
-            "x": 1195,
-            "y": 299
+            "x": 32,
+            "y": 96
           }
         ]
       },
@@ -1962,8 +1962,8 @@
           },
           {
             "map": "meteor_falls_1f1r",
-            "x": 580,
-            "y": 896
+            "x": 896,
+            "y": 32
           }
         ]
       },
@@ -2028,8 +2028,8 @@
           },
           {
             "map": "meteor_falls_1f2r",
-            "x": 898,
-            "y": 841
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2094,8 +2094,8 @@
           },
           {
             "map": "meteor_falls_b1f1r",
-            "x": 254,
-            "y": 1044
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2165,8 +2165,8 @@
           },
           {
             "map": "meteor_falls_b1f2r",
-            "x": 173,
-            "y": 318
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2195,8 +2195,8 @@
           },
           {
             "map": "meteor_falls_steven",
-            "x": 368,
-            "y": 502
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2208,31 +2208,31 @@
             "name": "Grass Encounter 1, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 2, 25%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 3, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 4, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 5, 33.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 1, 20%",
@@ -2280,13 +2280,13 @@
           },
           {
             "map": "rt_115",
-            "x": 555,
-            "y": 703
+            "x": 32,
+            "y": 32
           },
           {
             "map": "rt_115",
-            "x": 1416,
-            "y": 503
+            "x": 1336,
+            "y": 178
           }
         ]
       },
@@ -2334,8 +2334,8 @@
           },
           {
             "map": "rt_116",
-            "x": 96,
-            "y": 348
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2358,8 +2358,8 @@
           },
           {
             "map": "rusturf_tunnel",
-            "x": 173,
-            "y": 289
+            "x": 48,
+            "y": 720
           }
         ]
       },
@@ -2438,8 +2438,8 @@
           },
           {
             "map": "rt_117",
-            "x": 1753,
-            "y": 317
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -2452,37 +2452,37 @@
             "name": "Grass Encounter 1, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 2, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 3, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 4, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 5, 41.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 6, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Surf Encounter 1, 20%",
@@ -2536,13 +2536,13 @@
           },
           {
             "map": "rt_118",
-            "x": 617,
-            "y": 1231
+            "x": 32,
+            "y": 32
           },
           {
             "map": "rt_118",
-            "x": 1109,
-            "y": 482
+            "x": 447,
+            "y": 696
           }
         ]
       },
@@ -2622,13 +2622,13 @@
           },
           {
             "map": "rt_119",
-            "x": 382,
-            "y": 687
+            "x": 1230,
+            "y": 150
           },
           {
             "map": "rt_119",
-            "x": 3311,
-            "y": 775
+            "x": 1304,
+            "y": 32
           }
         ]
       },
@@ -2712,18 +2712,18 @@
           },
           {
             "map": "rt_120",
-            "x": 63,
-            "y": 391
+            "x": 32,
+            "y": 32
           },
           {
             "map": "rt_120",
-            "x": 1351,
-            "y": 391
+            "x": 1336,
+            "y": 218
           },
           {
             "map": "rt_120",
-            "x": 2639,
-            "y": 391
+            "x": 2624,
+            "y": 218
           }
         ]
       },
@@ -5559,8 +5559,8 @@
           },
           {
             "map": "desert_underpass",
-            "x": 496,
-            "y": 481
+            "x": 32,
+            "y": 32
           }
         ]
       },

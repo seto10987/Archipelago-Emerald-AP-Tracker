@@ -1453,19 +1453,19 @@
   },
   {
     "name": "rt_113",
-    "location_size": 60,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_113/rt_113.png"
   },
   {
     "name": "glass_workshop",
-    "location_size": 18,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_113/glass_workshop.png"
   },
   {
     "name": "rt_114",
-    "location_size": 65,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/rt_114.png"
   },
@@ -1495,199 +1495,199 @@
   },
   {
     "name": "meteor_falls_1f1r",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_1f1r.png"
   },
   {
     "name": "meteor_falls_1f2r",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_1f2r.png"
   },
   {
     "name": "meteor_falls_b1f1r",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_b1f1r.png"
   },
   {
     "name": "meteor_falls_b1f2r",
-    "location_size": 25,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_b1f2r.png"
   },
   {
     "name": "meteor_falls_steven",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_114/meteor_falls_steven.png"
   },
   {
     "name": "rt_115",
-    "location_size": 60,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_115/rt_115.png"
   },
   {
     "name": "rt_116",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_116/rt_116.png"
   },
   {
     "name": "rusturf_tunnel",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_116/rusturf_tunnel.png"
   },
   {
     "name": "rt_116_tunnelers_rest_house",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_116/rt_116_tunnelers_rest_house.png"
   },
   {
     "name": "rt_117",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_117/rt_117.png"
   },
   {
     "name": "pokemon_daycare",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_117/pokemon_daycare.png"
   },
   {
     "name": "rt_118",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_118/rt_118.png"
   },
   {
     "name": "weather_institute_1f",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_119/weather_institute_1f.png"
   },
   {
     "name": "weather_institute_2f",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_119/weather_institute_2f.png"
   },
   {
     "name": "rt_119",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_119/rt_119.png"
   },
   {
     "name": "rt_120",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_120/rt_120.png"
   },
   {
     "name": "scorched_slab",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_120/scorched_slab.png"
   },
   {
     "name": "ancient_tomb",
-    "location_size": 24,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_120/ancient_tomb.png"
   },
   {
     "name": "rt_121",
-    "location_size": 45,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_121/rt_121.png"
   },
   {
     "name": "safari_lobby",
-    "location_size": 16,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_121/safari_lobby.png"
   },
   {
     "name": "safari_rest_house",
-    "location_size": 16,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_121/safari_rest_house.png"
   },
   {
     "name": "safari_south",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_south.png"
   },
   {
     "name": "safari_southwest",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_southwest.png"
   },
   {
     "name": "safari_northwest",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_northwest.png"
   },
   {
     "name": "safari_north",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_north.png"
   },
   {
     "name": "safari_northeast",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_northeast.png"
   },
   {
     "name": "safari_southeast",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 6,
     "img": "images/maps/routes/rt_121/safari_southeast.png"
   },
   {
     "name": "rt_122",
-    "location_size": 25,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/rt_122.png"
   },
   {
     "name": "mt_pyre_1f",
-    "location_size": 29,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_1f.png"
   },
   {
     "name": "mt_pyre_2f",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_2f.png"
   },
   {
     "name": "mt_pyre_3f",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_3f.png"
   },
   {
     "name": "mt_pyre_4f",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_4f.png"
   },
   {
     "name": "mt_pyre_5f",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_5f.png"
   },
@@ -1699,37 +1699,37 @@
   },
   {
     "name": "mt_pyre_ext",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_ext.png"
   },
   {
     "name": "mt_pyre_summit",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_summit.png"
   },
   {
     "name": "rt_123",
-    "location_size": 60,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_123/rt_123.png"
   },
   {
     "name": "berry_masters_house",
-    "location_size": 15,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_123/berry_masters_house.png"
   },
   {
     "name": "rt_124",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_124/rt_124.png"
   },
   {
     "name": "rt_124_underwater",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_124/rt_124_underwater.png"
   },

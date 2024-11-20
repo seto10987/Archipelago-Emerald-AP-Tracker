@@ -272,8 +272,8 @@
         "map_locations": [
           {
             "map": "rusturf_tunnel",
-            "x": 111,
-            "y": 53
+            "x": 112,
+            "y": 48
           }
         ]
       }
@@ -345,7 +345,7 @@
           {
             "map": "rusturf_tunnel",
             "x": 976,
-            "y": 85
+            "y": 80
           }
         ]
       }
@@ -2770,8 +2770,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 623,
-            "y": 332
+            "x": 624,
+            "y": 336
           }
         ]
       }
@@ -2790,8 +2790,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 206,
-            "y": 239
+            "x": 208,
+            "y": 240
           }
         ]
       }
@@ -2810,8 +2810,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 430,
-            "y": 620
+            "x": 432,
+            "y": 624
           }
         ]
       }
@@ -2830,8 +2830,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 450,
-            "y": 460
+            "x": 448,
+            "y": 464
           }
         ]
       }
@@ -2930,8 +2930,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f2r",
-            "x": 945,
-            "y": 270
+            "x": 944,
+            "y": 272
           }
         ]
       }
@@ -2950,8 +2950,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f2r",
-            "x": 686,
-            "y": 246
+            "x": 688,
+            "y": 240
           }
         ]
       }
@@ -3030,8 +3030,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_3f2r",
-            "x": 143,
-            "y": 310
+            "x": 144,
+            "y": 304
           }
         ]
       }
@@ -3239,8 +3239,8 @@
           },
           {
             "map": "magma_hideout_4f",
-            "x": 655,
-            "y": 691
+            "x": 656,
+            "y": 742
           }
         ]
       }
@@ -3263,8 +3263,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f2r",
-            "x": 1167,
-            "y": 167
+            "x": 1168,
+            "y": 254
           }
         ]
       }
@@ -3311,8 +3311,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 303,
-            "y": 715
+            "x": 304,
+            "y": 720
           }
         ]
       }
@@ -3335,8 +3335,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_3f1r",
-            "x": 687,
-            "y": 297
+            "x": 688,
+            "y": 301
           }
         ]
       }
@@ -3451,8 +3451,8 @@
         "map_locations": [
           {
             "map": "magma_hideout_2f1r",
-            "x": 496,
-            "y": 1051
+            "x": 498,
+            "y": 1094
           }
         ]
       }
