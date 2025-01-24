@@ -226,7 +226,7 @@
                         "content": {
                         "type": "tabbed",
                         "tabs": [
-                                  {
+                            {
                                   "title": "Abandoned Ship 1F",
                                   "v_alignment": "stretch",
                                   "h_alignment": "stretch",
@@ -281,13 +281,13 @@
                                 ]
                               }
                             },
-                      {
-                        "title": "Abandoned Ship B1F",
-                        "v_alignment": "stretch",
-                        "h_alignment": "stretch",
-                        "content": {
-                        "type": "tabbed",
-                        "tabs": [
+                            {
+                            "title": "Abandoned Ship B1F",
+                            "v_alignment": "stretch",
+                            "h_alignment": "stretch",
+                            "content": {
+                            "type": "tabbed",
+                            "tabs": [
                                   {
                                     "title": "Abandoned Ship Corridors B1F",
                                     "v_alignment": "stretch",
@@ -450,7 +450,7 @@
                             }
                           ]
                         }
-
+                      
                       },
                       {
                         "title": "New Mauville",
@@ -966,7 +966,6 @@
                     ]
                   }
                 },
-
                 {
                   "title": "Rt 115",
                   "v_alignment": "stretch",

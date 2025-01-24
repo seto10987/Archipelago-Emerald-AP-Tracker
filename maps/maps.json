@@ -2,13 +2,13 @@
   {
     "name": "hoennmap",
     "location_size": 6,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/hoennmap.png"
   },
   {
     "name": "encountermap",
     "location_size": 5,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/hoennmap.png"
   },
   {
@@ -259,8 +259,8 @@
   },
   {
     "name": "slateport",
-    "location_size": 42,
-    "location_border_thickness": 2,
+    "location_size": 32,
+    "location_border_thickness": 3,
     "img": "images/maps/cities/slateport/slateport.png"
   },
   {
@@ -577,7 +577,7 @@
   },
   {
     "name": "lilycove",
-    "location_size": 48,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/cities/lilycove/lilycove.png"
   },
@@ -727,7 +727,7 @@
   },
   {
     "name": "mossdeep",
-    "location_size": 42,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/cities/mossdeep/mossdeep.png"
   },
@@ -799,7 +799,7 @@
   },
   {
     "name": "sootopolis",
-    "location_size": 64,
+    "location_size": 48,
     "location_border_thickness": 2,
     "img": "images/maps/cities/sootopolis/sootopolis.png"
   },
@@ -1657,7 +1657,7 @@
   },
   {
     "name": "rt_122",
-    "location_size": 32,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/rt_122.png"
   },
@@ -1693,7 +1693,7 @@
   },
   {
     "name": "mt_pyre_6f",
-    "location_size": 20,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_122/mt_pyre_6f.png"
   },
@@ -1723,13 +1723,13 @@
   },
   {
     "name": "rt_124",
-    "location_size": 32,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_124/rt_124.png"
   },
   {
     "name": "rt_124_underwater",
-    "location_size": 32,
+    "location_size": 64,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_124/rt_124_underwater.png"
   },
@@ -1741,98 +1741,98 @@
   },
   {
     "name": "rt_125",
-    "location_size": 75,
+    "location_size": 48,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_125/rt_125.png"
   },
   {
     "name": "rt_125_underwater",
-    "location_size": 75,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_125/rt_125_underwater.png"
   },
   {
     "name": "shoal_cave_entrance_high",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_entrance_high.png"
   },
   {
     "name": "shoal_cave_entrance_low",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_entrance_low.png"
   },
   {
     "name": "shoal_cave_inner_room_high",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_inner_room_high.png"
   },
   {
     "name": "shoal_cave_inner_room_low",
-    "location_size": 50,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_inner_room_low.png"
   },
   {
     "name": "shoal_cave_stairs_room",
-    "location_size": 30,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_stairs_room.png"
   },
   {
     "name": "shoal_cave_lower_room",
-    "location_size": 30,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_lower_room.png"
   },
   {
     "name": "shoal_cave_ice_room",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_125/shoal_cave_ice_room.png"
   },
   {
     "name": "rt_126",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_126/rt_126.png"
   },
   {
     "name": "rt_126_underwater",
-    "location_size": 75,
+    "location_size": 64,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_126/rt_126_underwater.png"
   },
   {
     "name": "rt_126_underwater_entry",
-    "location_size": 75,
+    "location_size": 64,
     "location_border_thickness": 2,
     "img": "images/maps/other/underwater_entry.png"
   },
   {
     "name": "rt_127",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_127/rt_127.png"
   },
   {
     "name": "rt_127_underwater",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_127/rt_127_underwater.png"
   },
   {
     "name": "rt_128",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_128/rt_128.png"
   },
   {
     "name": "rt_128_underwater",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_128/rt_128_underwater.png"
   },
   {
@@ -1843,86 +1843,86 @@
   },
   {
     "name": "seafloor_cavern_ent",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_ent.png"
   },
   {
     "name": "seafloor_cavern_1",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_1.png"
   },
   {
     "name": "seafloor_cavern_2",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_2.png"
   },
   {
     "name": "seafloor_cavern_3",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_3.png"
   },
   {
     "name": "seafloor_cavern_4",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_4.png"
   },
   {
     "name": "seafloor_cavern_5",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_5.png"
   },
   {
     "name": "seafloor_cavern_6",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_6.png"
   },
   {
     "name": "seafloor_cavern_7",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_7.png"
   },
   {
     "name": "seafloor_cavern_8",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_8.png"
   },
   {
     "name": "seafloor_cavern_9",
-    "location_size": 14,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_128/seafloor_cavern_9.png"
   },
   {
     "name": "rt_129",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_129/rt_129.png"
   },
   {
     "name": "rt_129_underwater",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 64,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_129/rt_129_underwater.png"
   },
   {
     "name": "rt_130",
-    "location_size": 25,
+    "location_size": 16,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_130/rt_130.png"
   },
   {
     "name": "rt_131",
-    "location_size": 75,
-    "location_border_thickness": 2,
+    "location_size": 48,
+    "location_border_thickness": 4,
     "img": "images/maps/routes/rt_131/rt_131.png"
   },
   {
@@ -2018,19 +2018,19 @@
   {
     "name": "ss_tidal_corridors",
     "location_size": 16,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/other/ss_tidal/ss_tidal_corridors.png"
   },
   {
     "name": "ss_tidal_rooms",
     "location_size": 16,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/other/ss_tidal/ss_tidal_rooms.png"
   },
   {
     "name": "ss_tidal_lower_deck",
     "location_size": 16,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/other/ss_tidal/ss_tidal_lower_deck.png"
   },
   {

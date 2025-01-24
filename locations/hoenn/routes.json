@@ -1863,47 +1863,47 @@
             "name": "Hiker Eric",
             "chest_unopened_img": "/images/locations/hiker.png",
             "chest_opened_img": "/images/locations/hiker_bw.png",
-            "access_rules": ["$mt_chimney_access"],
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Grass",
             "chest_unopened_img": "/images/locations/hidden_item.png",
             "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["$mt_chimney_access,[$hidden]"],
+            "access_rules": ["$lavaridge_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {
             "name": "Picnicker Diana",
             "chest_unopened_img": "/images/locations/picnicker.png",
             "chest_opened_img": "/images/locations/picnicker_bw.png",
-            "access_rules": ["$mt_chimney_access"],
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Item Below Hideout",
-            "access_rules": ["$mt_chimney_access"],
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["overworld_on"]
           },
           {
             "name": "Picnicker Autumn",
             "chest_unopened_img": "/images/locations/picnicker.png",
             "chest_opened_img": "/images/locations/picnicker_bw.png",
-            "access_rules": ["$mt_chimney_access"],
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Triathlete Julio",
             "chest_unopened_img": "/images/locations/triathlete_bike_male.png",
             "chest_opened_img": "/images/locations/triathlete_bike_male_bw.png",
-            "access_rules": ["$mt_chimney_access"],
+            "access_rules": ["$lavaridge_access"],
             "visibility_rules": ["trainers_on"]
           },
           {
             "name": "Hidden Item in Corner",
             "chest_unopened_img": "/images/locations/hidden_item.png",
             "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["$mt_chimney_access,[$hidden]"],
+            "access_rules": ["$lavaridge_access,[$hidden]"],
             "visibility_rules": ["hidden_on"]
           },
           {

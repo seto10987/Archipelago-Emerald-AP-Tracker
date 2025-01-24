@@ -1227,7 +1227,7 @@
         [
           {
             "map": "encountermap",
-            "x": 219,
+            "x": 76,
             "y": 60
           },
           {
@@ -1449,7 +1449,7 @@
       },
       {
         "name": "Jagged Pass Encounters",
-        "access_rules": ["$mt_chimney_access"],
+        "access_rules": ["$lavaridge_access"],
         "sections":
         [
           {
@@ -2813,13 +2813,8 @@
           },
           {
             "map": "rt_121",
-            "x": 318,
-            "y": 62
-          },
-          {
-            "map": "rt_121",
-            "x": 1151,
-            "y": 710
+            "x": 79,
+            "y": 695
           }
         ]
       },
@@ -3308,8 +3303,8 @@
           },
           {
             "map": "lilycove",
-            "x": 2223,
-            "y": 594
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -3367,8 +3362,8 @@
           },
           {
             "map": "rt_122",
-            "x": 320,
-            "y": 562
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -3454,18 +3449,18 @@
           },
           {
             "name": "Mt Pyre Summit Encounter 1, 85%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           },
           {
             "name": "Mt Pyre Summit Encounter 2, 13%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           },
           {
             "name": "Mt Pyre Summit Encounter 3, 2%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           }
         ],
         "map_locations":
@@ -3763,8 +3758,6 @@
             "map": "mossdeep",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 3,
             "size": 64
           }
         ]
@@ -3835,13 +3828,13 @@
           },
           {
             "map": "shoal_cave_entrance_high",
-            "x": 1039,
-            "y": 880
+            "x": 32,
+            "y": 32
           },
           {
             "map": "shoal_cave_entrance_low",
-            "x": 1039,
-            "y": 880
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -3911,13 +3904,13 @@
           },
           {
             "map": "shoal_cave_inner_room_high",
-            "x": 705,
-            "y": 1044
+            "x": 32,
+            "y": 32
           },
           {
             "map": "shoal_cave_inner_room_low",
-            "x": 705,
-            "y": 1044
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -3951,8 +3944,8 @@
           },
           {
             "map": "shoal_cave_stairs_room",
-            "x": 580,
-            "y": 343
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -3986,8 +3979,8 @@
           },
           {
             "map": "shoal_cave_lower_room",
-            "x": 749,
-            "y": 260
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -4026,8 +4019,8 @@
           },
           {
             "map": "shoal_cave_ice_room",
-            "x": 591,
-            "y": 146
+            "x": 32,
+            "y": 32
           }
         ]
       },
@@ -4144,8 +4137,6 @@
             "map": "sootopolis",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 5,
             "size": 64
           }
         ]
@@ -4177,8 +4168,6 @@
             "map": "cave_of_origin_entrance",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 3,
             "size": 48
           }
         ]
@@ -4215,8 +4204,6 @@
             "map": "cave_of_origin_1f",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 3,
             "size": 48
           }
         ]
@@ -4275,8 +4262,8 @@
           },
           {
             "map": "rt_127",
-            "x": 1723,
-            "y": 590
+            "x": 64,
+            "y": 64
           }
         ]
       },
@@ -4772,8 +4759,8 @@
           },
           {
             "map": "rt_129",
-            "x": 1766,
-            "y": 135
+            "x": 64,
+            "y": 64
           }
         ]
       },
@@ -4836,8 +4823,8 @@
           },
           {
             "map": "rt_130",
-            "x": 762,
-            "y": 115
+            "x": 64,
+            "y": 64
           }
         ]
       },
@@ -5081,8 +5068,6 @@
             "map": "pacifidlog",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 3,
             "size": 48
           }
         ]
@@ -5284,26 +5269,29 @@
       },
       {
         "name": "Ever Grande City Encounters",
-        "access_rules": ["$victory_road_access"],
+        "access_rules": ["$route_124_access", "$victory_road_access"],
+        // the patch of water below the waterfall also counts for these encounters.
+        // Hence, only needing surf to get here and access to RT124 which can also be achieved by freefly.
+        // This is still in the parent rules because the Fishing Encounters can work with Free Fly only, without surf.
         "sections":
         [
           {
             "name": "Surf Encounter 1, 60%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 2, 35%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 3, 5%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Old Rod Encounter 1, 30%",
@@ -5347,8 +5335,6 @@
             "map": "evergrande",
             "x": 48,
             "y": 48,
-            "shape": "diamond",
-            "border_thickness": 6,
             "size": 62
           }
         ]
@@ -5410,8 +5396,6 @@
             "map": "victory_road_1f",
             "x": 45,
             "y": 184,
-            "shape": "diamond",
-            "border_thickness": 6,
             "size": 64
           }
         ]
@@ -5453,8 +5437,6 @@
             "map": "victory_road_b1f",
             "x": 38,
             "y": 170,
-            "shape": "diamond",
-            "border_thickness": 6,
             "size": 64
           }
         ]
@@ -5525,8 +5507,6 @@
             "map": "victory_road_b2f",
             "x": 38,
             "y": 170,
-            "shape": "diamond",
-            "border_thickness": 6,
             "size": 64
           }
         ]

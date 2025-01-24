@@ -966,7 +966,7 @@
         "map_locations": [
           {
             "map": "dewford",
-            "x": 270,
+            "x": 271,
             "y": 266
           },
           {
@@ -995,7 +995,7 @@
         "map_locations": [
           {
             "map": "dewford",
-            "x": 398,
+            "x": 399,
             "y": 459
           }
         ]
@@ -1096,7 +1096,7 @@
         "map_locations": [
           {
             "map": "dewford",
-            "x": 270,
+            "x": 271,
             "y": 555
           }
         ]
@@ -3715,7 +3715,7 @@
           },
           {
             "map": "sootopolis",
-            "x": 303,
+            "x": 304,
             "y": 207
           }
         ]
