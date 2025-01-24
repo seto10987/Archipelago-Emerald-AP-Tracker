@@ -2253,12 +2253,12 @@
     "name": "pokecenter_2f",
     "location_size": 24,
     "location_border_thickness": 2,
-    "img": "images/maps/misc/pokecenter_2f.png"
+    "img": "images/maps/other/pokecenter_2f.png"
   },
   {
     "name": "battle_tent_corridor",
     "location_size": 24,
     "location_border_thickness": 2,
-    "img": "images/maps/misc/battle_tent_corridor.png"
+    "img": "images/maps/other/battle_tent_corridor.png"
   }
 ]
