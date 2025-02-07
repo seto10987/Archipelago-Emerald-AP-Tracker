@@ -1461,7 +1461,7 @@
                                     "h_alignment": "stretch",
                                     "content": {
                                     "type":"map",
-                                    "maps": ["shoal_cave_entrance_high"]
+                                    "maps": ["shoal_cave_inner_room_high"]
                                     }
                                   }
                                 ]
