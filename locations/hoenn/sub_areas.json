@@ -8,6 +8,84 @@
                 "name": "",
                 "sections": [
                     {
+                        "ref": "Dungeons/Rusturf Tunnel/Item West"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rusturftunnel",
+                        "x": 83,
+                        "y": 48
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Rusturf Tunnel/Item East"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rusturftunnel",
+                        "x": 515,
+                        "y": 62
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Rusturf Tunnel/HM04 from Tunneler"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rusturftunnel",
+                        "x": 402,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Rusturf Tunnel/Recover Devon Goods"
+                    },
+                    {
+                        "ref": "Dungeons/Rusturf Tunnel/Team Aqua Grunt"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rusturftunnel",
+                        "x": 259,
+                        "y": 110
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
+                        "ref": "Dungeons/Rusturf Tunnel/Hiker Mike"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rusturftunnel",
+                        "x": 547,
+                        "y": 238
+                    }
+                ]
+            },
+            {
+                "name": "",
+                "sections": [
+                    {
                         "ref": "Dungeons/Granite Cave/1F - HM05 from Hiker"
                     },
                     {

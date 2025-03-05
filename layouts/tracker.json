@@ -51,7 +51,7 @@
 						  {
 							"type": "tabbed",
 							"dock": "top",
-							"content": [     
+							"content": [
 									{
 											"title": "Hoenn",
 											"type": "tabbed",
@@ -63,12 +63,19 @@
 												"maps": ["hoennmap"]
 												}
 											}
-										]                  
+										]
 									},
 									{
 											"title": "Sub Areas",
 											"type": "tabbed",
 											"tabs": [
+											{
+												"title": "Rusturf Tunnel",
+												"content": {
+												"type":"map",
+												"maps": ["rusturftunnel"]
+												}
+											},
 											{
 												"title": "Granite Cave",
 												"content": {
@@ -97,14 +104,14 @@
 												"maps": ["abandonedship"]
 												}
 											},
-											{                      
+											{
 												"title": "Safari Zone",
 												"content": {
 												"type":"map",
 												"maps": ["safari"]
 												}
 											},
-											{                      
+											{
 												"title": "Mt. Pyre Int",
 												"content": {
 												"type":"map",
@@ -139,14 +146,14 @@
 												"maps": ["seafloorcavern"]
 												}
 											},
-											{                      
+											{
 												"title": "Victory Road",
 												"content": {
 												"type":"map",
 												"maps": ["victoryroad"]
 												}
 											},
-											{                      
+											{
 												"title": "Artisan Cave",
 												"content": {
 												"type":"map",
@@ -194,7 +201,7 @@
 												"maps": ["rt128"]
 												}
 											},
-											{                      
+											{
 												"title": "Rt. 132-134",
 												"content": {
 												"type":"map",
@@ -216,10 +223,10 @@
 																"type": "array",
 																"content": [
 																{
-																	
+
 																	"type": "layout",
 																	"key": "pokedex_gen_1_grid_1"
-																	
+
 																},
 																{
 																	"type": "layout",
@@ -266,10 +273,10 @@
 																"type": "array",
 																"content": [
 																{
-																	
+
 																	"type": "layout",
 																	"key": "pokedex_gen_2_grid_1"
-																	
+
 																},
 																{
 																	"type": "layout",
@@ -343,7 +350,7 @@
 													}
 												]
 											},
-											{                      
+											{
 												"title": "Encounter Tracking",
 												"content": {
 												"type":"map",
@@ -372,7 +379,7 @@
 				"content": {
 				"type": "layout",
 				"key": "setting_grid"
-					}	
+					}
 				}
 			]
 		}

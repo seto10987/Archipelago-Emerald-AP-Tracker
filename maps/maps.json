@@ -12,6 +12,12 @@
 		"img": "images/maps/encountermap.png"
 	},
 	{
+		"name": "rusturftunnel",
+		"location_size": 15,
+		"location_border_thickness": 2,
+		"img": "images/maps/rusturftunnel.png"
+	},
+	{
 		"name": "granitecave",
 		"location_size": 24,
 		"location_border_thickness": 3,

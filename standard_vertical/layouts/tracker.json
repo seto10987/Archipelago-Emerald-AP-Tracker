@@ -69,6 +69,13 @@
 											"type": "tabbed",
 											"tabs": [
 											{
+												"title": "Rusturf Tunnel",
+												"content": {
+												"type":"map",
+												"maps": ["rusturftunnel"]
+												}
+											},
+											{
 												"title": "Granite Cave",
 												"content": {
 												"type":"map",
@@ -186,7 +193,7 @@
 												"maps": ["rt128"]
 												}
 											},
-											{                      
+											{
 												"title": "Rt. 132-134",
 												"content": {
 												"type":"map",

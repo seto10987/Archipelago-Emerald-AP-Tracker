@@ -10,6 +10,13 @@
 				}
 			},
 			{
+				"title": "Rusturf Tunnel",
+				"content": {
+					"type": "map",
+					"maps": ["rusturftunnel"]
+				}
+			},
+			{
 				"title": "Granite Cave",
 				"content": {
 					"type": "map",
