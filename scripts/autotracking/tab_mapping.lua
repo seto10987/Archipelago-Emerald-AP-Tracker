@@ -285,6 +285,7 @@ TAB_MAPPING =
   [6249] = {"Other", "Terra Cave", "End"}, -- Terra Cave - End
   [6665] = {"Other", "Southern Island", "Exterior"}, -- Southern Island - Exterior
   [6660] = {"Other", "Battle Frontier", "Battle Frontier"}, -- Battle Frontier
+  [6670] = {"Other", "Battle Frontier", "Battle Frontier"}, -- Battle Frontier
   [6666] = {"Other", "Southern Island", "Interior"}, -- Southern Island - Interior
   [6712] = {"Other", "Faraway Island", "Exterior"}, -- Faraway Island - Entrance
   [6713] = {"Other", "Faraway Island", "Interior"}, -- Faraway Island - Interior
