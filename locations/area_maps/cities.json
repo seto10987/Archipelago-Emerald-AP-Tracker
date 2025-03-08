@@ -4069,14 +4069,14 @@
                         "name": "TM03 from Juan​",
                         "ref": "Cities/Sootopolis Gym/TM03 from Juan"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "sootopolis",
+                        "x": 1008,
+                        "y": 1040
+                    }
                 ]
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "sootopolis",
-                "x": 1008,
-                "y": 1040
             }
         ]
     },
