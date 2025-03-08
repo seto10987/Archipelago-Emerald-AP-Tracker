@@ -1,1958 +1,2689 @@
 [
-  {
-    "name": "Dungeons",
-    "chest_unopened_img": "/images/locations/pokeball_closed.png",
-    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
-    "children":
-    [
-      {
-        "name": "Petalburg Woods",
-        "sections":
-        [
-          {
-            "name": "Hidden Item Southeast",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Bug Catcher Lyle",
-            "chest_unopened_img": "/images/locations/bug_catcher.png",
-            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Item Southwest",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Team Aqua Grunt",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gift from Devon Employee",
-            "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
-            "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Hidden Item After Grunt",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Bug Catcher James",
-            "chest_unopened_img": "/images/locations/bug_catcher.png",
-            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Item Northwest",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Hidden Item Past Tree North",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["$cut,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Miracle Seed from Lady",
-            "chest_unopened_img": "/images/locations/girl_miracle_seed.png",
-            "chest_opened_img": "/images/locations/girl_miracle_seed_bw.png",
-            "access_rules": ["$cut"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Item Past Tree Northeast",
-            "access_rules": ["$cut"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Hidden Item Past Tree South",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["$cut,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Item Past Tree South",
-            "access_rules": ["$cut"],
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 84
-          }
-        ]
-      },
-      {
-        "name": "Rusturf Tunnel",
-        "sections":
-        [
-          {
-            "name": "Item West",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Recover Devon Goods (Event)",
-            "hosted_item": "recover_devon_goods_hosted",
-            "access_rules": ["defeat_roxanne"]
-          },
-          {
-            "name": "Team Aqua Grunt",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Recover Devon Goods",
-            "chest_unopened_img": "/images/locations/aqua_grunt_devon_goods.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_devon_goods_bw.png",
-            "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Recover Devon Goods",
-            "hosted_item": "devon_goods_hosted",
-            "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HM04 from Tunneler",
-            "chest_unopened_img": "/images/locations/tunneler_normal_hm.png",
-            "chest_opened_img": "/images/locations/tunneler_normal_hm_bw.png",
-            "access_rules": ["$rock_smash"],
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​HM04 from Tunneler",
-            "hosted_item": "hm04_strength_hosted",
-            "access_rules": ["$rock_smash"],
-            "visibility_rules": ["hms_off"]
-          },
-          {
-            "name": "Item East",
-            "access_rules": ["$mauville_access"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Hiker Mike",
-            "chest_unopened_img": "/images/locations/hiker.png",
-            "chest_opened_img": "/images/locations/hiker_bw.png",
-            "access_rules": ["$mauville_access"],
-            "visibility_rules": ["trainers_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 32,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Granite Cave",
-        "access_rules": ["$dewford_access"],
-        "sections":
-        [
-          {
-            "name": "1F - HM05 from Hiker",
-            "chest_unopened_img": "/images/locations/hiker_normal_hm.png",
-            "chest_opened_img": "/images/locations/hiker_normal_hm_bw.png",
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​1F - HM05 from Hiker",
-            "hosted_item": "hm05_flash_hosted",
-            "visibility_rules": ["hms_off"]
-          },
-          {
-            "name": "1F - Item Before Ladder",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Item in Alcove",
-            "access_rules": ["[$flash|cave]"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Hidden Item on Platform",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$flash|cave],[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "1F - Deliver Letter (Event)",
-            "hosted_item": "deliver_letter_hosted",
-            "access_rules": ["[$flash|cave],letter"]
-          },
-          {
-            "name": "1F - TM47 from Steven",
-            "chest_unopened_img": "/images/locations/steven_steel_tm.png",
-            "chest_opened_img": "/images/locations/steven_steel_tm_bw.png",
-            "access_rules": ["[$flash|cave],letter"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "B2F - Item After Mud Slope",
-            "access_rules": ["[$flash|cave],mach_bike"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Item After Crumbling Floor",
-            "access_rules": ["[$flash|cave],mach_bike"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Hidden Item After Crumbling Floor",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$flash|cave],mach_bike,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 20,
-            "y": 132
-          }
-        ]
-      },
-      {
-        "name": "S.S. Tidal",
-        "access_rules": ["$slateport_access,ss_ticket","$lilycove_access,ss_ticket"],
-        "sections":
-        [
-          {
-            "name": "Young Couple Lea & Jed",
-            "chest_unopened_img": "/images/locations/young_couple.png",
-            "chest_opened_img": "/images/locations/young_couple_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Rich Boy Garret",
-            "chest_unopened_img": "/images/locations/rich_boy.png",
-            "chest_opened_img": "/images/locations/rich_boy_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Micah",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-            "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Pokefan Colton",
-            "chest_unopened_img": "/images/locations/pokefan_male.png",
-            "chest_opened_img": "/images/locations/pokefan_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lady Naomi",
-            "chest_unopened_img": "/images/locations/lady.png",
-            "chest_opened_img": "/images/locations/lady_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Thomas",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-            "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "TM49 from Thief",
-            "chest_unopened_img": "/images/locations/thief_dark_tm.png",
-            "chest_opened_img": "/images/locations/thief_dark_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Sailor Phillip",
-            "chest_unopened_img": "/images/locations/sailor.png",
-            "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Sailor Leonard",
-            "chest_unopened_img": "/images/locations/sailor.png",
-            "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hidden Item in Lower Deck Trash Can",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 84,
-            "y": 104
-          },
-          {
-            "map": "hoennmap",
-            "x": 160,
-            "y": 52
-          },
-          {
-            "map": "slateport_harbor",
-            "x": 263,
-            "y": 221
-          }
-        ]
-      },
-      {
-        "name": "Fiery Path",
-        "access_rules": ["$fallarbor_access"],
-        "sections":
-        [
-          {
-            "name": "Item Behind Boulders 2",
-            "access_rules": ["$strength"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Item Behind Boulders 1",
-            "access_rules": ["$strength"],
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 68,
-            "y": 36
-          }
-        ]
-      },
-      {
-        "name": "Meteor Falls",
-        "access_rules": ["$fallarbor_access"],
-        "sections":
-        [
-          {
-            "name": "1F - Item Northeast",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Team Magma Steals Meteorite (Event)",
-            "hosted_item": "magma_steals_meteorite_hosted"
-          },
-          {
-            "name": "1F - Item West",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Item Before Steven's Cave",
-            "access_rules": ["$surf,$waterfall"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Item in North Cave",
-            "access_rules": ["$surf,$waterfall"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Old Couple John & Jay",
-            "chest_unopened_img": "/images/locations/old_couple.png",
-            "chest_opened_img": "/images/locations/old_couple_bw.png",
-            "access_rules": ["$surf,$waterfall"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Dragon Tamer Nicolas",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["$surf,$waterfall"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Item Below Waterfall",
-            "access_rules": ["$surf,$waterfall"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Defeat Steven (Event)",
-            "hosted_item": "defeat_steven_hosted",
-            "access_rules": ["$surf,$waterfall,defeat_champion"],
-            "visibility_rules": ["$goal_not|champion"]
-          },
-          {
-            "name": "1F - Rival Steven",
-            "chest_unopened_img": "/images/locations/steven.png",
-            "chest_opened_img": "/images/locations/steven_bw.png",
-            "access_rules": ["$surf,$waterfall,defeat_champion"],
-            "visibility_rules": ["trainers_on,$goal_not|champion,$goal_not|steven"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "New Mauville",
-        "access_rules": ["$mauville_access,$surf,basement_key"],
-        "sections":
-        [
-          {
-            "name": "Item 1",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Item 5",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Item 2",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Item 3",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Turn off Generator",
-            "visibility_rules": ["invisible"]
-          },
-          {
-            "name": "Item 4",
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 84,
-            "y": 76
-          },
-          {
-            "map": "new_mauville_entrance",
-            "x": 144,
-            "y": 42
-          }
-        ]
-      },
-      {
-        "name": "Abandoned Ship",
-        "access_rules": ["$surf"],
-        "sections":
-        [
-          {
-            "name": "1F - Youngster Demetrius",
-            "chest_unopened_img": "/images/locations/youngster.png",
-            "chest_opened_img": "/images/locations/youngster_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Beauty Thalia",
-            "chest_unopened_img": "/images/locations/beauty.png",
-            "chest_opened_img": "/images/locations/beauty_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Item in East Side Northwest Room",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Sailor Duncan",
-            "chest_unopened_img": "/images/locations/sailor.png",
-            "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Item in Storage Room",
-            "access_rules": ["storage_key"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Item in North Rooms",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Item in South Rooms",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Tuber Charlie",
-            "chest_unopened_img": "/images/locations/tuber_male.png",
-            "chest_opened_img": "/images/locations/tuber_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Ruin Maniac Garrison",
-            "chest_unopened_img": "/images/locations/hiker.png",
-            "chest_opened_img": "/images/locations/hiker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Tuber Jani",
-            "chest_unopened_img": "/images/locations/tuber_female.png",
-            "chest_opened_img": "/images/locations/tuber_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Item in West Side North Room",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Young Couple Kira & Dan",
-            "chest_unopened_img": "/images/locations/young_couple.png",
-            "chest_opened_img": "/images/locations/young_couple_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Captain's Office Key",
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Captain's Office Key",
-            "hosted_item": "storage_key_hosted",
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Room 4 Key",
-            "access_rules": ["$dive,room_1_key"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​HF - Room 4 Key",
-            "hosted_item": "room_4_key_hosted",
-            "access_rules": ["$dive,room_1_key"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Item in Room 1",
-            "access_rules": ["$dive,room_1_key"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "HF - Scanner",
-            "access_rules": ["$dive,room_2_key"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​HF - Scanner",
-            "hosted_item": "scanner_hosted",
-            "access_rules": ["$dive,room_2_key"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Room 1 Key",
-            "access_rules": ["$dive"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​HF - Room 1 Key",
-            "hosted_item": "room_1_key_hosted",
-            "access_rules": ["$dive"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Item in Room 3",
-            "access_rules": ["$dive"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "HF - Room 6 Key",
-            "access_rules": ["$dive,room_4_key"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​HF - Room 6 Key",
-            "hosted_item": "room_6_key_hosted",
-            "access_rules": ["$dive,room_4_key"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Room 2 Key",
-            "access_rules": ["$dive,room_6_key"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​HF - Room 2 Key",
-            "hosted_item": "room_2_key_hosted",
-            "access_rules": ["$dive,room_6_key"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "HF - Item in Room 6",
-            "access_rules": ["$dive,room_6_key"],
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 64,
-            "y": 124
-          },
-          {
-            "map": "abandoned_ship_deck",
-            "x": 431,
-            "y": 305
-          }
-        ]
-      },
-      {
-        "name": "Safari Zone",
-        "access_rules": ["$lilycove_access,pokeblock_case"],
-        "sections":
-        [
-          {
-            "name": "SW - Item Behind Pond",
-            "access_rules": ["$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "NW - Item Behind Pond",
-            "access_rules": ["mach_bike,$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "N - Item in Grass",
-            "access_rules": ["acro_bike"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "SE - Item in Grass",
-            "access_rules": ["defeat_champion,$surf","safari_on,$surf"],
-            "visibility_rules": ["overworld_on,$safari_visibility"]
-          },
-          {
-            "name": "SE - Hidden Item in South Grass 1",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "SE - Hidden Item in South Grass 2",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Item on Ledge",
-            "access_rules": ["defeat_champion","safari_on"],
-            "visibility_rules": ["overworld_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Hidden Item North",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          },
-          {
-            "name": "NE - Hidden Item East",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["defeat_champion,[$hidden]","safari_on,[$hidden]"],
-            "visibility_rules": ["hidden_on,$safari_visibility"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 140,
-            "y": 36
-          },
-          {
-            "map": "rt_121",
-            "x": 1198,
-            "y": 175
-          },
-          {
-            "map": "safari_lobby",
-            "x": 96,
-            "y": 177
-          }
-        ]
-      },
-      {
-        "name": "Mt. Pyre",
-        "access_rules": ["$lilycove_access,$surf"],
-        "sections":
-        [
-          {
-            "name": "1F - Cleanse Tag from Woman in NE Corner",
-            "chest_unopened_img": "/images/locations/old_lady_cleanse_tag.png",
-            "chest_opened_img": "/images/locations/old_lady_cleanse_tag_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "2F - Pokemaniac Mark",
-            "chest_unopened_img": "/images/locations/fossil_maniac.png",
-            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Hex Maniac Leah",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Black Belt Zander",
-            "chest_unopened_img": "/images/locations/black_belt.png",
-            "chest_opened_img": "/images/locations/black_belt_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Young Couple Dez & Luke",
-            "chest_unopened_img": "/images/locations/young_couple.png",
-            "chest_opened_img": "/images/locations/young_couple_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "3F - Psychic Kayla",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "3F - Pokemon Breeder Gabrielle",
-            "chest_unopened_img": "/images/locations/lady.png",
-            "chest_opened_img": "/images/locations/lady_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "3F - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "3F - Psychic William",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "4F - Hex Maniac Tasha",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "5F - Black Belt Atsushi",
-            "chest_unopened_img": "/images/locations/black_belt.png",
-            "chest_opened_img": "/images/locations/black_belt_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "6F - Hex Maniac Valerie",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "6F - Psychic Cedric",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "6F - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "5F - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "4F - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Exterior - Item 1",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Exterior - Item 2",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Exterior - Hidden Item First Grave",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Exterior - Hidden Item Second Grave",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Summit - Team Aqua Grunt 1",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Summit - Hidden Item Grave",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Summit - Team Aqua Grunt 2",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Summit - Team Aqua Grunt 3",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Summit - Team Aqua Grunt 4",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Summit - Hidden Item in Grass",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Summit - Magma Emblem from Old Lady",
-            "chest_unopened_img": "/images/locations/old_lady_magma_emblem.png",
-            "chest_opened_img": "/images/locations/old_lady_magma_emblem_bw.png",
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Summit - Magma Emblem from Old Lady",
-            "hosted_item": "magma_emblem_hosted",
-            "visibility_rules": ["key_items_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 140,
-            "y": 57
-          },
-          {
-            "map": "rt_122",
-            "x": 359,
-            "y": 470
-          }
-        ]
-      },
-      {
-        "name": "Team Magma Hideout",
-        "access_rules": ["$mt_chimney_access,magma_emblem,$strength"],
-        "sections":
-        [
-          {
-            "name": "1F - Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 3",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 4",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 5",
-            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 6",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Item on West Platform",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 7",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Team Magma Grunt 8",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "2F - Item on East Platform",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Item on Ledge",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "3F - Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "3F - Item in Drill Room",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "3F - Team Magma Grunt 3",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "3F - Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "3F - Item Before Last Floor",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "4F - Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "4F - Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "4F - Team Magma Grunt 3",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "4F - Magma Admin Tabitha",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "4F - Item Before Groudon",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "4F - Magma Leader Maxie",
-            "chest_unopened_img": "/images/locations/maxie.png",
-            "chest_opened_img": "/images/locations/maxie_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Release Groudon (Event)",
-            "hosted_item": "release_groudon_hosted"
-          },
-          {
-            "name": "3F - Item After Groudon",
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 60,
-            "y": 52
-          },
-          {
-            "map": "jagged_pass",
-            "x": 527,
-            "y": 587
-          }
-        ]
-      },
-      {
-        "name": "Team Aqua Hideout",
-        "access_rules": ["$aqua_hideout_access"],
-        "sections":
-        [
-          {
-            "name": "1F - Team Aqua Grunt",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Item in East Room",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Team Aqua Grunt 1",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Item in Center Room 1",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Item in Center Room 2",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Team Aqua Grunt 2",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Team Aqua Grunt 3",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Team Aqua Grunt 1",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Item in Long Hallway",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B1F - Team Aqua Grunt 4",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Team Aqua Grunt 2",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Team Aqua Grunt 3",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Defeat Matt (Event)",
-            "hosted_item": "defeat_matt_hosted"
-          },
-          {
-            "name": "B2F - Aqua Admin Matt",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 172,
-            "y": 44
-          },
-          {
-            "map": "lilycove",
-            "x": 2256,
-            "y": 175
-          }
-        ]
-      },
-      {
-        "name": "Shoal Cave",
-        "access_rules": ["$route_124_access"],
-        "sections":
-        [
-          {
-            "name": "Inner Room - Item in Center",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Entrance - Item on Ledge",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Stairs Room - Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Lower Room - Focus Band from Black Belt",
-            "chest_unopened_img": "/images/locations/black_belt_focus_band.png",
-            "chest_opened_img": "/images/locations/black_belt_focus_band_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Ice Room - Item 1",
-            "access_rules": ["$strength"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Ice Room - Item 2",
-            "access_rules": ["$strength"],
-            "visibility_rules": ["overworld_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 204,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Space Center",
-        "access_rules": ["$mossdeep_access"],
-        "sections":
-        [
-          {
-            "name": "Gift from Man",
-            "chest_unopened_img": "/images/locations/sailor_sun_stone.png",
-            "chest_opened_img": "/images/locations/sailor_sun_stone_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Team Magma Grunt 1",
-            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
-            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 2",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 3",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 4",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 5",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 6",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Team Magma Grunt 7",
-            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
-            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Maxie (Event)",
-            "hosted_item": "defeat_maxie_space_center_hosted",
-            "access_rules": ["defeat_tate_and_liza"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 216,
-            "y": 60
-          },
-          {
-            "map": "mossdeep",
-            "x": 2064,
-            "y": 490
-          }
-        ]
-      },
-      {
-        "name": "Seafloor Cavern",
-        "access_rules": ["$seafloor_cavern_access"],
-        "sections":
-        [
-          {
-            "name": "Room 1 - Team Aqua Grunt 1",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 1 - Team Aqua Grunt 2",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 4 - Team Aqua Grunt 1",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 4 - Team Aqua Grunt 2",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 3 - Team Aqua Grunt",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 3 - Aqua Admin Shelly",
-            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 9 - Item Before Kyogre",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Room 9 - Aqua Leader Archie",
-            "chest_unopened_img": "/images/locations/archie.png",
-            "chest_opened_img": "/images/locations/archie_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Room 9 - Release Kyogre (Event)",
-            "hosted_item": "release_kyogre_hosted"
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 204,
-            "y": 92
-          },
-          {
-            "map": "rt_128_underwater",
-            "x": 1254,
-            "y": 841
-          },
-          {
-            "map": "seafloor_cavern_ent",
-            "x": 152,
-            "y": 26
-          },
-          {
-            "map": "seafloor_cavern_underwater",
-            "x": 271,
-            "y": 172
-          }
-        ]
-      },
-      {
-        "name": "Sky Pillar",
-        "access_rules": ["$route_124_access"],
-        "sections":
-        [
-          {
-            "name": "Defeat Rayquaza",
-            "chest_unopened_img": "/images/locations/rayquaza.png",
-            "chest_opened_img": "/images/locations/rayquaza_bw.png",
-            "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike"],
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_rayquaza"]
-          },
-          {
-            "name": "Catch Rayquaza",
-            "chest_unopened_img": "/images/locations/rayquaza.png",
-            "chest_opened_img": "/images/locations/rayquaza_bw.png",
-            "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_rayquaza"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 164,
-            "y": 100
-          }
-        ]
-      },
-      {
-        "name": "Sealed Chamber",
-        "access_rules": ["$sealed_chamber_access,@Cities/Fortree City/Dig Move Tutor"],
-        "sections":
-        [
-          {
-            "name": "Undo Regi Seal (Event)",
-            "hosted_item": "undo_regi_seal_hosted",
-            "visibility_rules": ["goal_legendary_hunt"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 100,
-            "y": 100
-          },
-          {
-            "map": "rt_134",
-            "x": 1328,
-            "y": 1056
-          },
-          {
-            "map": "sealed_chamber_underwater_entry",
-            "x": 368,
-            "y": 259
-          },
-          {
-            "map": "sealed_chamber_underwater_path",
-            "x": 369,
-            "y": 1517
-          },
-          {
-            "map": "sealed_chamber_outer_room",
-            "x": 336,
-            "y": 120
-          },
-          {
-            "map": "sealed_chamber_inner_room",
-            "x": 335,
-            "y": 182
-          }
-        ]
-      },
-      {
-        "name": "Desert Ruins",
-        "access_rules": ["$desert_ruins_access,undo_regi_seal"],
-        "sections":
-        [
-          {
-            "name": "Defeat Regirock",
-            "chest_unopened_img": "/images/locations/regirock.png",
-            "chest_opened_img": "/images/locations/regirock_bw.png",
-            "access_rules": ["$rock_smash"],
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_regirock"]
-          },
-          {
-            "name": "Catch Regirock",
-            "chest_unopened_img": "/images/locations/regirock.png",
-            "chest_opened_img": "/images/locations/regirock_bw.png",
-            "access_rules": ["$rock_smash,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_regirock"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 76,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Island Cave",
-        "access_rules": ["$island_cave_access,undo_regi_seal"],
-        "sections":
-        [
-          {
-            "name": "Defeat Regice",
-            "chest_unopened_img": "/images/locations/regice.png",
-            "chest_opened_img": "/images/locations/regice_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_regice"]
-          },
-          {
-            "name": "Catch Regice",
-            "chest_unopened_img": "/images/locations/regice.png",
-            "chest_opened_img": "/images/locations/regice_bw.png",
-            "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_regice"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 100
-          }
-        ]
-      },
-      {
-        "name": "Ancient Tomb",
-        "access_rules": ["$ancient_tomb_access,undo_regi_seal"],
-        "sections":
-        [
-          {
-            "name": "Defeat Registeel",
-            "chest_unopened_img": "/images/locations/registeel.png",
-            "chest_opened_img": "/images/locations/registeel_bw.png",
-            "access_rules": ["$flash|tomb"],
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_registeel"]
-          },
-          {
-            "name": "Catch Registeel",
-            "chest_unopened_img": "/images/locations/registeel.png",
-            "chest_opened_img": "/images/locations/registeel_bw.png",
-            "access_rules": ["$flash|tomb,[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_registeel"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 116,
-            "y": 36
-          }
-        ]
-      },
-      {
-        "name": "Victory Road",
-        "access_rules": ["$victory_road_access"],
-        "sections":
-        [
-          {
-            "name": "1F - Item East",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Cooltrainer Albert",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Rival Wally",
-            "chest_unopened_img": "/images/locations/wally.png",
-            "chest_opened_img": "/images/locations/wally_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Cooltrainer Hope",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Cooltrainer Shannon",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Item on Southeast Ledge",
-            "access_rules": ["[$flash|road],$rock_smash,$strength"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "1F - Hidden Item on Southeast Ledge",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "B1F - Cooltrainer Samuel",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Item Behind Boulders",
-            "access_rules": ["[$flash|road],$rock_smash,$strength"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Julie",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Item on Northeast Ledge",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Hidden Item in Northeast Corner",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Owen",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Dianne",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Felix",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Caroline",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Cooltrainer Vito",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B2F - Item Above Waterfall",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "B2F - Hidden Item Above Waterfall",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "B1F - Cooltrainer Michelle",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Cooltrainer Mitchell",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "B1F - Cooltrainer Halle",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Cooltrainer Edgar",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Cooltrainer Katelynn",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "1F - Cooltrainer Quincy",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "access_rules": ["[$flash|road],$rock_smash,$strength,$surf"],
-            "visibility_rules": ["trainers_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 228,
-            "y": 92
-          },
-          {
-            "map": "evergrande",
-            "x": 591,
-            "y": 105
-          }
-        ]
-      },
-      {
-        "name": "Terra Cave",
-        "access_rules": ["$terra_cave_access"],
-        "sections": [
-          {
-            "name": "Defeat Groudon",
-            "chest_unopened_img": "/images/locations/groudon.png",
-            "chest_opened_img": "/images/locations/groudon_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_groudon"]
-          },
-          {
-            "name": "Catch Groudon",
-            "chest_unopened_img": "/images/locations/groudon.png",
-            "chest_opened_img": "/images/locations/groudon_bw.png",
-            "access_rules": ["[defeat_champion]"],
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_groudon"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "hoennmap",
-            "x": 172,
-            "y": 27,
-            "restrict_visibility_rules": ["terra_cave_unknown"]
-          },
-          {
-            "map": "terra_cave_entrance",
-            "x": 461,
-            "y": 40,
-            "restrict_visibility_rules": ["terra_cave_unknown"]
-          },
-          {
-            "map": "terra_cave_end",
-            "x": 558,
-            "y": 725,
-            "restrict_visibility_rules": ["terra_cave_unknown"]
-          }
-        ]
-      },
-      {
-        "name": "Marine Cave",
-        "access_rules": ["$surf,$marine_cave_access"],
-        "sections": [
-          {
-            "name": "Defeat Kyogre",
-            "chest_unopened_img": "/images/locations/kyogre.png",
-            "chest_opened_img": "/images/locations/kyogre_bw.png",
-            "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_kyogre"]
-          },
-          {
-            "name": "Catch Kyogre",
-            "chest_unopened_img": "/images/locations/kyogre.png",
-            "chest_opened_img": "/images/locations/kyogre_bw.png",
-            "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_kyogre"]
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "hoennmap",
-            "x": 188,
-            "y": 27,
-            "restrict_visibility_rules": ["marine_cave_unknown"]
-          },
-          {
-            "map": "marine_cave_underwater",
-            "x": 240,
-            "y": 173,
-            "restrict_visibility_rules": ["marine_cave_unknown"]
-          },
-          {
-            "map": "marine_cave_entrance",
-            "x": 464,
-            "y": 40,
-            "restrict_visibility_rules": ["marine_cave_unknown"]
-          },
-          {
-            "map": "marine_cave_end",
-            "x": 318,
-            "y": 680,
-            "restrict_visibility_rules": ["marine_cave_unknown"]
-          }
-        ]
-      },
-      {
-        "name": "Islands",
+    {
+        "name": "Dungeons",
         "chest_unopened_img": "/images/locations/pokeball_closed.png",
         "chest_opened_img": "/images/locations/pokeball_open_bw.png",
-        "children":
-        [
-          {
-            "name": "Southern Island",
-            "access_rules": ["$lilycove_access,eon_ticket"],
-            "sections":
-            [
-              {
-                "name": "Defeat Latias",
-                "chest_unopened_img": "/images/locations/latias.png",
-                "chest_opened_img": "/images/locations/latias_bw.png",
-                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_latias"]
-              },
-              {
-                "name": "Catch Latias",
-                "chest_unopened_img": "/images/locations/latias.png",
-                "chest_opened_img": "/images/locations/latias_bw.png",
-                "access_rules": ["[defeat_champion]"],
-                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_latias"]
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "hoennmap",
-                "x": 108,
-                "y": 132
-              }
-            ]
-          },
-          {
-            "name": "Faraway Island",
-            "access_rules": ["$lilycove_access,old_sea_map"],
-            "sections":
-            [
-              {
-                "name": "Defeat Mew",
-                "chest_unopened_img": "/images/locations/mew.png",
-                "chest_opened_img": "/images/locations/mew_bw.png",
-                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_mew"]
-              },
-              {
-                "name": "Catch Mew",
-                "chest_unopened_img": "/images/locations/mew.png",
-                "chest_opened_img": "/images/locations/mew_bw.png",
-                "access_rules": ["[defeat_champion]"],
-                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_mew"]
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "hoennmap",
-                "x": 172,
-                "y": 12
-              }
-            ]
-          },
-          {
-            "name": "Birth Island",
-            "access_rules": ["$lilycove_access,aurora_ticket"],
-            "sections":
-            [
-              {
-                "name": "Defeat Deoxys",
-                "chest_unopened_img": "/images/locations/deoxys.png",
-                "chest_opened_img": "/images/locations/deoxys_bw.png",
-                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_deoxys"]
-              },
-              {
-                "name": "Catch Deoxys",
-                "chest_unopened_img": "/images/locations/deoxys.png",
-                "chest_opened_img": "/images/locations/deoxys_bw.png",
-                "access_rules": ["[defeat_champion]"],
-                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_deoxys"]
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "hoennmap",
-                "x": 188,
-                "y": 12
-              }
-            ]
-          },
-          {
-            "name": "Navel Rock",
-            "access_rules": ["$lilycove_access,mystic_ticket"],
-            "sections":
-            [
-              {
-                "name": "Hidden Item Sacred Ash",
-                "chest_unopened_img": "/images/locations/hidden_item.png",
-                "chest_opened_img": "/images/locations/hidden_item_bw.png",
-                "access_rules": ["[$hidden]"],
-                "visibility_rules": ["hidden_on"]
-              },
-              {
-                "name": "Defeat Lugia",
-                "chest_unopened_img": "/images/locations/lugia.png",
-                "chest_opened_img": "/images/locations/lugia_bw.png",
-                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_lugia"]
-              },
-              {
-                "name": "Catch Lugia",
-                "chest_unopened_img": "/images/locations/lugia.png",
-                "chest_opened_img": "/images/locations/lugia_bw.png",
-                "access_rules": ["[defeat_champion]"],
-                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_lugia"]
-              },
-              {
-                "name": "Defeat Ho-Oh",
-                "chest_unopened_img": "/images/locations/ho-oh.png",
-                "chest_opened_img": "/images/locations/ho-oh_bw.png",
-                "visibility_rules": ["$legendary_hunt_defeat,legendary_hunt_ho-oh"]
-              },
-              {
-                "name": "Catch Ho-Oh",
-                "chest_unopened_img": "/images/locations/ho-oh.png",
-                "chest_opened_img": "/images/locations/ho-oh_bw.png",
-                "access_rules": ["[defeat_champion]"],
-                "visibility_rules": ["$legendary_hunt_catch,legendary_hunt_ho-oh"]
-              }
-            ],
-            "map_locations":
-            [
-              {"map": "hoennmap","x": 204,"y": 12},
-              {"map": "navel_rock_harbor","x": 271,"y": 42},
-              {"map": "navel_rock_exterior","x": 335,"y": 331},
-              {"map": "navel_rock_entrance","x": 336,"y": 176},
-              {"map": "navel_rock_b1f","x": 591,"y": 304}
-            ]
-          },
-          {
-            "name": "Artisan Cave",
-            "access_rules": ["$battle_frontier_access,$surf,wailmer_pail"],
-            "sections":
-            [
-              {
-                "name": "B1F - Hidden Item 2",
-                "chest_unopened_img": "/images/locations/hidden_item.png",
-                "chest_opened_img": "/images/locations/hidden_item_bw.png",
-                "access_rules": ["[$hidden]"],
-                "visibility_rules": ["hidden_on"]
-              },
-              {
-                "name": "B1F - Item",
-                "visibility_rules": ["overworld_on"]
-              },
-              {
-                "name": "B1F - Hidden Item 4",
-                "chest_unopened_img": "/images/locations/hidden_item.png",
-                "chest_opened_img": "/images/locations/hidden_item_bw.png",
-                "access_rules": ["[$hidden]"],
-                "visibility_rules": ["hidden_on"]
-              },
-              {
-                "name": "B1F - Hidden Item 1",
-                "chest_unopened_img": "/images/locations/hidden_item.png",
-                "chest_opened_img": "/images/locations/hidden_item_bw.png",
-                "access_rules": ["[$hidden]"],
-                "visibility_rules": ["hidden_on"]
-              },
-              {
-                "name": "B1F - Hidden Item 3",
-                "chest_unopened_img": "/images/locations/hidden_item.png",
-                "chest_opened_img": "/images/locations/hidden_item_bw.png",
-                "access_rules": ["[$hidden]"],
-                "visibility_rules": ["hidden_on"]
-              },
-              {
-                "name": "1F - Item",
-                "visibility_rules": ["overworld_on"]
-              }
-            ],
-            "map_locations":
-            [
-              {
-                "map": "hoennmap",
-                "x": 188,
-                "y": 116
-              },
-              {
-                "map": "battle_frontier",
-                "x": 631,
-                "y": 884
-              }
-            ]
-          }
+        "children": [
+            {
+                "name": "Petalburg Woods",
+                "sections": [
+                    {
+                        "name": "Hidden Item Southeast",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Bug Catcher Lyle",
+                        "chest_unopened_img": "/images/locations/bug_catcher.png",
+                        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Southwest",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Aqua Grunt",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Gift from Devon Employee",
+                        "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
+                        "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item After Grunt",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Bug Catcher James",
+                        "chest_unopened_img": "/images/locations/bug_catcher.png",
+                        "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Northwest",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item Past Tree North",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "$cut,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Miracle Seed from Lady",
+                        "chest_unopened_img": "/images/locations/girl_miracle_seed.png",
+                        "chest_opened_img": "/images/locations/girl_miracle_seed_bw.png",
+                        "access_rules": [
+                            "$cut"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Past Tree Northeast",
+                        "access_rules": [
+                            "$cut"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item Past Tree South",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "$cut,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Past Tree South",
+                        "access_rules": [
+                            "$cut"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "Rusturf Tunnel",
+                "sections": [
+                    {
+                        "name": "Item West",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Recover Devon Goods (Event)",
+                        "hosted_item": "recover_devon_goods_hosted",
+                        "access_rules": [
+                            "defeat_roxanne"
+                        ]
+                    },
+                    {
+                        "name": "Team Aqua Grunt",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "access_rules": [
+                            "defeat_roxanne"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Recover Devon Goods",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_devon_goods.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_devon_goods_bw.png",
+                        "access_rules": [
+                            "defeat_roxanne"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Recover Devon Goods",
+                        "hosted_item": "devon_goods_hosted",
+                        "access_rules": [
+                            "defeat_roxanne"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HM04 from Tunneler",
+                        "chest_unopened_img": "/images/locations/tunneler_normal_hm.png",
+                        "chest_opened_img": "/images/locations/tunneler_normal_hm_bw.png",
+                        "access_rules": [
+                            "$rock_smash"
+                        ],
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM04 from Tunneler",
+                        "hosted_item": "hm04_strength_hosted",
+                        "access_rules": [
+                            "$rock_smash"
+                        ],
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    },
+                    {
+                        "name": "Item East",
+                        "access_rules": [
+                            "$mauville_access"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Hiker Mike",
+                        "chest_unopened_img": "/images/locations/hiker.png",
+                        "chest_opened_img": "/images/locations/hiker_bw.png",
+                        "access_rules": [
+                            "$mauville_access"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 32,
+                        "y": 60
+                    },
+                    {
+                        "map": "rt_116",
+                        "x": 1519,
+                        "y": 271
+                    },
+                    {
+                        "map": "verdanturf",
+                        "x": 271,
+                        "y": 47
+                    }
+                ]
+            },
+            {
+                "name": "Granite Cave",
+                "access_rules": [
+                    "$dewford_access"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - HM05 from Hiker",
+                        "chest_unopened_img": "/images/locations/hiker_normal_hm.png",
+                        "chest_opened_img": "/images/locations/hiker_normal_hm_bw.png",
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​1F - HM05 from Hiker",
+                        "hosted_item": "hm05_flash_hosted",
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item Before Ladder",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in Alcove",
+                        "access_rules": [
+                            "[$flash|cave]"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Hidden Item on Platform",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$flash|cave],[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Deliver Letter (Event)",
+                        "hosted_item": "deliver_letter_hosted",
+                        "access_rules": [
+                            "[$flash|cave],letter"
+                        ]
+                    },
+                    {
+                        "name": "1F - TM47 from Steven",
+                        "chest_unopened_img": "/images/locations/steven_steel_tm.png",
+                        "chest_opened_img": "/images/locations/steven_steel_tm_bw.png",
+                        "access_rules": [
+                            "[$flash|cave],letter"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Item After Mud Slope",
+                        "access_rules": [
+                            "[$flash|cave],mach_bike"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Item After Crumbling Floor",
+                        "access_rules": [
+                            "[$flash|cave],mach_bike"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Hidden Item After Crumbling Floor",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$flash|cave],mach_bike,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "S.S. Tidal",
+                "access_rules": [
+                    "$slateport_access,ss_ticket",
+                    "$lilycove_access,ss_ticket"
+                ],
+                "sections": [
+                    {
+                        "name": "Young Couple Lea & Jed",
+                        "chest_unopened_img": "/images/locations/young_couple.png",
+                        "chest_opened_img": "/images/locations/young_couple_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Rich Boy Garret",
+                        "chest_unopened_img": "/images/locations/rich_boy.png",
+                        "chest_opened_img": "/images/locations/rich_boy_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Gentleman Micah",
+                        "chest_unopened_img": "/images/locations/gentleman.png",
+                        "chest_opened_img": "/images/locations/gentleman_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Pokefan Colton",
+                        "chest_unopened_img": "/images/locations/pokefan_male.png",
+                        "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Lady Naomi",
+                        "chest_unopened_img": "/images/locations/lady.png",
+                        "chest_opened_img": "/images/locations/lady_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Gentleman Thomas",
+                        "chest_unopened_img": "/images/locations/gentleman.png",
+                        "chest_opened_img": "/images/locations/gentleman_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "TM49 from Thief",
+                        "chest_unopened_img": "/images/locations/thief_dark_tm.png",
+                        "chest_opened_img": "/images/locations/thief_dark_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Sailor Phillip",
+                        "chest_unopened_img": "/images/locations/sailor.png",
+                        "chest_opened_img": "/images/locations/sailor_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Sailor Leonard",
+                        "chest_unopened_img": "/images/locations/sailor.png",
+                        "chest_opened_img": "/images/locations/sailor_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item in Lower Deck Trash Can",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 84,
+                        "y": 104
+                    },
+                    {
+                        "map": "hoennmap",
+                        "x": 160,
+                        "y": 52
+                    },
+                    {
+                        "map": "slateport_harbor",
+                        "x": 263,
+                        "y": 221
+                    }
+                ]
+            },
+            {
+                "name": "Fiery Path",
+                "access_rules": [
+                    "$fallarbor_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Item Behind Boulders 2",
+                        "access_rules": [
+                            "$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Behind Boulders 1",
+                        "access_rules": [
+                            "$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 68,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Meteor Falls",
+                "access_rules": [
+                    "$fallarbor_access"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Item Northeast",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Team Magma Steals Meteorite (Event)",
+                        "hosted_item": "magma_steals_meteorite_hosted"
+                    },
+                    {
+                        "name": "1F - Item West",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item Before Steven's Cave",
+                        "access_rules": [
+                            "$surf,$waterfall"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in North Cave",
+                        "access_rules": [
+                            "$surf,$waterfall"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Old Couple John & Jay",
+                        "chest_unopened_img": "/images/locations/old_couple.png",
+                        "chest_opened_img": "/images/locations/old_couple_bw.png",
+                        "access_rules": [
+                            "$surf,$waterfall"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Dragon Tamer Nicolas",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "$surf,$waterfall"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item Below Waterfall",
+                        "access_rules": [
+                            "$surf,$waterfall"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Defeat Steven (Event)",
+                        "hosted_item": "defeat_steven_hosted",
+                        "access_rules": [
+                            "$surf,$waterfall,defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "$goal_not|champion"
+                        ]
+                    },
+                    {
+                        "name": "1F - Rival Steven",
+                        "chest_unopened_img": "/images/locations/steven.png",
+                        "chest_opened_img": "/images/locations/steven_bw.png",
+                        "access_rules": [
+                            "$surf,$waterfall,defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on,$goal_not|champion,$goal_not|steven"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "New Mauville",
+                "access_rules": [
+                    "$mauville_access,$surf,basement_key"
+                ],
+                "sections": [
+                    {
+                        "name": "Item 1",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Item 5",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Item 2",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Item 3",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Turn off Generator",
+                        "visibility_rules": [
+                            "invisible"
+                        ]
+                    },
+                    {
+                        "name": "Item 4",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 84,
+                        "y": 76
+                    },
+                    {
+                        "map": "new_mauville_entrance",
+                        "x": 144,
+                        "y": 42
+                    }
+                ]
+            },
+            {
+                "name": "Abandoned Ship",
+                "access_rules": [
+                    "$surf"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Youngster Demetrius",
+                        "chest_unopened_img": "/images/locations/youngster.png",
+                        "chest_opened_img": "/images/locations/youngster_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Beauty Thalia",
+                        "chest_unopened_img": "/images/locations/beauty.png",
+                        "chest_opened_img": "/images/locations/beauty_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item in East Side Northwest Room",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Sailor Duncan",
+                        "chest_unopened_img": "/images/locations/sailor.png",
+                        "chest_opened_img": "/images/locations/sailor_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in Storage Room",
+                        "access_rules": [
+                            "storage_key"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in North Rooms",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in South Rooms",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Tuber Charlie",
+                        "chest_unopened_img": "/images/locations/tuber_male.png",
+                        "chest_opened_img": "/images/locations/tuber_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Ruin Maniac Garrison",
+                        "chest_unopened_img": "/images/locations/hiker.png",
+                        "chest_opened_img": "/images/locations/hiker_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Tuber Jani",
+                        "chest_unopened_img": "/images/locations/tuber_female.png",
+                        "chest_opened_img": "/images/locations/tuber_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item in West Side North Room",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Young Couple Kira & Dan",
+                        "chest_unopened_img": "/images/locations/young_couple.png",
+                        "chest_opened_img": "/images/locations/young_couple_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Captain's Office Key",
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Captain's Office Key",
+                        "hosted_item": "storage_key_hosted",
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Room 4 Key",
+                        "access_rules": [
+                            "$dive,room_1_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​HF - Room 4 Key",
+                        "hosted_item": "room_4_key_hosted",
+                        "access_rules": [
+                            "$dive,room_1_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Item in Room 1",
+                        "access_rules": [
+                            "$dive,room_1_key"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "HF - Scanner",
+                        "access_rules": [
+                            "$dive,room_2_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​HF - Scanner",
+                        "hosted_item": "scanner_hosted",
+                        "access_rules": [
+                            "$dive,room_2_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Room 1 Key",
+                        "access_rules": [
+                            "$dive"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​HF - Room 1 Key",
+                        "hosted_item": "room_1_key_hosted",
+                        "access_rules": [
+                            "$dive"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Item in Room 3",
+                        "access_rules": [
+                            "$dive"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "HF - Room 6 Key",
+                        "access_rules": [
+                            "$dive,room_4_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​HF - Room 6 Key",
+                        "hosted_item": "room_6_key_hosted",
+                        "access_rules": [
+                            "$dive,room_4_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Room 2 Key",
+                        "access_rules": [
+                            "$dive,room_6_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​HF - Room 2 Key",
+                        "hosted_item": "room_2_key_hosted",
+                        "access_rules": [
+                            "$dive,room_6_key"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "HF - Item in Room 6",
+                        "access_rules": [
+                            "$dive,room_6_key"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 64,
+                        "y": 124
+                    },
+                    {
+                        "map": "abandoned_ship_deck",
+                        "x": 431,
+                        "y": 305
+                    },
+                    {
+                        "map": "rt_108",
+                        "x": 943,
+                        "y": 207
+                    }
+                ]
+            },
+            {
+                "name": "Safari Zone",
+                "access_rules": [
+                    "$lilycove_access,pokeblock_case"
+                ],
+                "sections": [
+                    {
+                        "name": "SW - Item Behind Pond",
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "NW - Item Behind Pond",
+                        "access_rules": [
+                            "mach_bike,$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "N - Item in Grass",
+                        "access_rules": [
+                            "acro_bike"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "SE - Item in Grass",
+                        "access_rules": [
+                            "defeat_champion,$surf",
+                            "safari_on,$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on,$safari_visibility"
+                        ]
+                    },
+                    {
+                        "name": "SE - Hidden Item in South Grass 1",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "defeat_champion,[$hidden]",
+                            "safari_on,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on,$safari_visibility"
+                        ]
+                    },
+                    {
+                        "name": "SE - Hidden Item in South Grass 2",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "defeat_champion,[$hidden]",
+                            "safari_on,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on,$safari_visibility"
+                        ]
+                    },
+                    {
+                        "name": "NE - Item on Ledge",
+                        "access_rules": [
+                            "defeat_champion",
+                            "safari_on"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on,$safari_visibility"
+                        ]
+                    },
+                    {
+                        "name": "NE - Hidden Item North",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "defeat_champion,[$hidden]",
+                            "safari_on,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on,$safari_visibility"
+                        ]
+                    },
+                    {
+                        "name": "NE - Hidden Item East",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "defeat_champion,[$hidden]",
+                            "safari_on,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on,$safari_visibility"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 140,
+                        "y": 36
+                    },
+                    {
+                        "map": "rt_121",
+                        "x": 1198,
+                        "y": 175
+                    },
+                    {
+                        "map": "safari_lobby",
+                        "x": 96,
+                        "y": 177
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Pyre",
+                "access_rules": [
+                    "$lilycove_access,$surf"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Cleanse Tag from Woman in NE Corner",
+                        "chest_unopened_img": "/images/locations/old_lady_cleanse_tag.png",
+                        "chest_opened_img": "/images/locations/old_lady_cleanse_tag_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Pokemaniac Mark",
+                        "chest_unopened_img": "/images/locations/fossil_maniac.png",
+                        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Hex Maniac Leah",
+                        "chest_unopened_img": "/images/locations/hex_maniac.png",
+                        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Black Belt Zander",
+                        "chest_unopened_img": "/images/locations/black_belt.png",
+                        "chest_opened_img": "/images/locations/black_belt_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Young Couple Dez & Luke",
+                        "chest_unopened_img": "/images/locations/young_couple.png",
+                        "chest_opened_img": "/images/locations/young_couple_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Psychic Kayla",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Pokemon Breeder Gabrielle",
+                        "chest_unopened_img": "/images/locations/lady.png",
+                        "chest_opened_img": "/images/locations/lady_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Psychic William",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Hex Maniac Tasha",
+                        "chest_unopened_img": "/images/locations/hex_maniac.png",
+                        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "5F - Black Belt Atsushi",
+                        "chest_unopened_img": "/images/locations/black_belt.png",
+                        "chest_opened_img": "/images/locations/black_belt_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "6F - Hex Maniac Valerie",
+                        "chest_unopened_img": "/images/locations/hex_maniac.png",
+                        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "6F - Psychic Cedric",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "6F - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "5F - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Exterior - Item 1",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Exterior - Item 2",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Exterior - Hidden Item First Grave",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Exterior - Hidden Item Second Grave",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Team Aqua Grunt 1",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Hidden Item Grave",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Team Aqua Grunt 2",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Team Aqua Grunt 3",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Team Aqua Grunt 4",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Hidden Item in Grass",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Summit - Magma Emblem from Old Lady",
+                        "chest_unopened_img": "/images/locations/old_lady_magma_emblem.png",
+                        "chest_opened_img": "/images/locations/old_lady_magma_emblem_bw.png",
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Summit - Magma Emblem from Old Lady",
+                        "hosted_item": "magma_emblem_hosted",
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 140,
+                        "y": 57
+                    },
+                    {
+                        "map": "rt_122",
+                        "x": 359,
+                        "y": 470
+                    }
+                ]
+            },
+            {
+                "name": "Team Magma Hideout",
+                "access_rules": [
+                    "$mt_chimney_access,magma_emblem,$strength"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Team Magma Grunt 1",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 1",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 2",
+                        "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 3",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 4",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 5",
+                        "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 6",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Item on West Platform",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 7",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Team Magma Grunt 8",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "2F - Item on East Platform",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Team Magma Grunt 2",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item on Ledge",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Team Magma Grunt 1",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Item in Drill Room",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Team Magma Grunt 3",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Team Magma Grunt 2",
+                        "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "3F - Item Before Last Floor",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Team Magma Grunt 1",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Team Magma Grunt 2",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Team Magma Grunt 3",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Magma Admin Tabitha",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Item Before Groudon",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "4F - Magma Leader Maxie",
+                        "chest_unopened_img": "/images/locations/maxie.png",
+                        "chest_opened_img": "/images/locations/maxie_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Release Groudon (Event)",
+                        "hosted_item": "release_groudon_hosted"
+                    },
+                    {
+                        "name": "3F - Item After Groudon",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 60,
+                        "y": 52
+                    },
+                    {
+                        "map": "jagged_pass",
+                        "x": 527,
+                        "y": 587
+                    }
+                ]
+            },
+            {
+                "name": "Team Aqua Hideout",
+                "access_rules": [
+                    "$aqua_hideout_access"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Team Aqua Grunt",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in East Room",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Team Aqua Grunt 1",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in Center Room 1",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item in Center Room 2",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Team Aqua Grunt 2",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Team Aqua Grunt 3",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Team Aqua Grunt 1",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Item in Long Hallway",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Team Aqua Grunt 4",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Team Aqua Grunt 2",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Team Aqua Grunt 3",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Defeat Matt (Event)",
+                        "hosted_item": "defeat_matt_hosted"
+                    },
+                    {
+                        "name": "B2F - Aqua Admin Matt",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 172,
+                        "y": 44
+                    },
+                    {
+                        "map": "lilycove",
+                        "x": 2256,
+                        "y": 175
+                    }
+                ]
+            },
+            {
+                "name": "Shoal Cave",
+                "access_rules": [
+                    "$route_124_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Inner Room - Item in Center",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Entrance - Item on Ledge",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Stairs Room - Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Lower Room - Focus Band from Black Belt",
+                        "chest_unopened_img": "/images/locations/black_belt_focus_band.png",
+                        "chest_opened_img": "/images/locations/black_belt_focus_band_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Ice Room - Item 1",
+                        "access_rules": [
+                            "$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Ice Room - Item 2",
+                        "access_rules": [
+                            "$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 204,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Space Center",
+                "access_rules": [
+                    "$mossdeep_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Gift from Man",
+                        "chest_unopened_img": "/images/locations/sailor_sun_stone.png",
+                        "chest_opened_img": "/images/locations/sailor_sun_stone_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 1",
+                        "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 2",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 3",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 4",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 5",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 6",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Magma Grunt 7",
+                        "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+                        "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Maxie (Event)",
+                        "hosted_item": "defeat_maxie_space_center_hosted",
+                        "access_rules": [
+                            "defeat_tate_and_liza"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 216,
+                        "y": 60
+                    },
+                    {
+                        "map": "mossdeep",
+                        "x": 2064,
+                        "y": 490
+                    }
+                ]
+            },
+            {
+                "name": "Seafloor Cavern",
+                "access_rules": [
+                    "$seafloor_cavern_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Room 1 - Team Aqua Grunt 1",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 1 - Team Aqua Grunt 2",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 4 - Team Aqua Grunt 1",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 4 - Team Aqua Grunt 2",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 3 - Team Aqua Grunt",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 3 - Aqua Admin Shelly",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 9 - Item Before Kyogre",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 9 - Aqua Leader Archie",
+                        "chest_unopened_img": "/images/locations/archie.png",
+                        "chest_opened_img": "/images/locations/archie_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Room 9 - Release Kyogre (Event)",
+                        "hosted_item": "release_kyogre_hosted"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 204,
+                        "y": 92
+                    },
+                    {
+                        "map": "rt_128_underwater",
+                        "x": 1254,
+                        "y": 841
+                    },
+                    {
+                        "map": "seafloor_cavern_ent",
+                        "x": 152,
+                        "y": 26
+                    },
+                    {
+                        "map": "seafloor_cavern_underwater",
+                        "x": 271,
+                        "y": 172
+                    }
+                ]
+            },
+            {
+                "name": "Sky Pillar",
+                "access_rules": [
+                    "$route_124_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Rayquaza",
+                        "chest_unopened_img": "/images/locations/rayquaza.png",
+                        "chest_opened_img": "/images/locations/rayquaza_bw.png",
+                        "access_rules": [
+                            "@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_rayquaza"
+                        ]
+                    },
+                    {
+                        "name": "Catch Rayquaza",
+                        "chest_unopened_img": "/images/locations/rayquaza.png",
+                        "chest_opened_img": "/images/locations/rayquaza_bw.png",
+                        "access_rules": [
+                            "@Cities/Sootopolis City/Rayquaza Stops Fight,mach_bike,[defeat_champion]"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_rayquaza"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 164,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Sealed Chamber",
+                "access_rules": [
+                    "$sealed_chamber_access,@Cities/Fortree City/Dig Move Tutor"
+                ],
+                "sections": [
+                    {
+                        "name": "Undo Regi Seal (Event)",
+                        "hosted_item": "undo_regi_seal_hosted",
+                        "visibility_rules": [
+                            "goal_legendary_hunt"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 100,
+                        "y": 100
+                    },
+                    {
+                        "map": "rt_134",
+                        "x": 1328,
+                        "y": 1056
+                    },
+                    {
+                        "map": "sealed_chamber_underwater_entry",
+                        "x": 368,
+                        "y": 259
+                    },
+                    {
+                        "map": "sealed_chamber_underwater_path",
+                        "x": 369,
+                        "y": 1517
+                    },
+                    {
+                        "map": "sealed_chamber_outer_room",
+                        "x": 336,
+                        "y": 120
+                    },
+                    {
+                        "map": "sealed_chamber_inner_room",
+                        "x": 335,
+                        "y": 182
+                    }
+                ]
+            },
+            {
+                "name": "Desert Ruins",
+                "access_rules": [
+                    "$desert_ruins_access,undo_regi_seal"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Regirock",
+                        "chest_unopened_img": "/images/locations/regirock.png",
+                        "chest_opened_img": "/images/locations/regirock_bw.png",
+                        "access_rules": [
+                            "$rock_smash"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_regirock"
+                        ]
+                    },
+                    {
+                        "name": "Catch Regirock",
+                        "chest_unopened_img": "/images/locations/regirock.png",
+                        "chest_opened_img": "/images/locations/regirock_bw.png",
+                        "access_rules": [
+                            "$rock_smash,[defeat_champion]"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_regirock"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Island Cave",
+                "access_rules": [
+                    "$island_cave_access,undo_regi_seal"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Regice",
+                        "chest_unopened_img": "/images/locations/regice.png",
+                        "chest_opened_img": "/images/locations/regice_bw.png",
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_regice"
+                        ]
+                    },
+                    {
+                        "name": "Catch Regice",
+                        "chest_unopened_img": "/images/locations/regice.png",
+                        "chest_opened_img": "/images/locations/regice_bw.png",
+                        "access_rules": [
+                            "[defeat_champion]"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_regice"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 100
+                    }
+                ]
+            },
+            {
+                "name": "Ancient Tomb",
+                "access_rules": [
+                    "$ancient_tomb_access,undo_regi_seal"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Registeel",
+                        "chest_unopened_img": "/images/locations/registeel.png",
+                        "chest_opened_img": "/images/locations/registeel_bw.png",
+                        "access_rules": [
+                            "$flash|tomb"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_registeel"
+                        ]
+                    },
+                    {
+                        "name": "Catch Registeel",
+                        "chest_unopened_img": "/images/locations/registeel.png",
+                        "chest_opened_img": "/images/locations/registeel_bw.png",
+                        "access_rules": [
+                            "$flash|tomb,[defeat_champion]"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_registeel"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 116,
+                        "y": 36
+                    }
+                ]
+            },
+            {
+                "name": "Victory Road",
+                "access_rules": [
+                    "$victory_road_access"
+                ],
+                "sections": [
+                    {
+                        "name": "1F - Item East",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Cooltrainer Albert",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Rival Wally",
+                        "chest_unopened_img": "/images/locations/wally.png",
+                        "chest_opened_img": "/images/locations/wally_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Cooltrainer Hope",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Cooltrainer Shannon",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Item on Southeast Ledge",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Hidden Item on Southeast Ledge",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Cooltrainer Samuel",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item Behind Boulders",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Julie",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Item on Northeast Ledge",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Hidden Item in Northeast Corner",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Owen",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Dianne",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Felix",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Caroline",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Cooltrainer Vito",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Item Above Waterfall",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "B2F - Hidden Item Above Waterfall",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Cooltrainer Michelle",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Cooltrainer Mitchell",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "B1F - Cooltrainer Halle",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Cooltrainer Edgar",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Cooltrainer Katelynn",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "1F - Cooltrainer Quincy",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "access_rules": [
+                            "[$flash|road],$rock_smash,$strength,$surf"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 228,
+                        "y": 92
+                    },
+                    {
+                        "map": "evergrande",
+                        "x": 591,
+                        "y": 105
+                    }
+                ]
+            },
+            {
+                "name": "Terra Cave",
+                "access_rules": [
+                    "$terra_cave_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Groudon",
+                        "chest_unopened_img": "/images/locations/groudon.png",
+                        "chest_opened_img": "/images/locations/groudon_bw.png",
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_groudon"
+                        ]
+                    },
+                    {
+                        "name": "Catch Groudon",
+                        "chest_unopened_img": "/images/locations/groudon.png",
+                        "chest_opened_img": "/images/locations/groudon_bw.png",
+                        "access_rules": [
+                            "[defeat_champion]"
+                        ],
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_groudon"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 172,
+                        "y": 27,
+                        "restrict_visibility_rules": [
+                            "terra_cave_unknown"
+                        ]
+                    },
+                    {
+                        "map": "terra_cave_entrance",
+                        "x": 461,
+                        "y": 40,
+                        "restrict_visibility_rules": [
+                            "terra_cave_unknown"
+                        ]
+                    },
+                    {
+                        "map": "terra_cave_end",
+                        "x": 558,
+                        "y": 725,
+                        "restrict_visibility_rules": [
+                            "terra_cave_unknown"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Marine Cave",
+                "access_rules": [
+                    "$surf,$marine_cave_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Defeat Kyogre",
+                        "chest_unopened_img": "/images/locations/kyogre.png",
+                        "chest_opened_img": "/images/locations/kyogre_bw.png",
+                        "visibility_rules": [
+                            "$legendary_hunt_defeat,legendary_hunt_kyogre"
+                        ]
+                    },
+                    {
+                        "name": "Catch Kyogre",
+                        "chest_unopened_img": "/images/locations/kyogre.png",
+                        "chest_opened_img": "/images/locations/kyogre_bw.png",
+                        "visibility_rules": [
+                            "$legendary_hunt_catch,legendary_hunt_kyogre"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 188,
+                        "y": 27,
+                        "restrict_visibility_rules": [
+                            "marine_cave_unknown"
+                        ]
+                    },
+                    {
+                        "map": "marine_cave_underwater",
+                        "x": 240,
+                        "y": 173,
+                        "restrict_visibility_rules": [
+                            "marine_cave_unknown"
+                        ]
+                    },
+                    {
+                        "map": "marine_cave_entrance",
+                        "x": 464,
+                        "y": 40,
+                        "restrict_visibility_rules": [
+                            "marine_cave_unknown"
+                        ]
+                    },
+                    {
+                        "map": "marine_cave_end",
+                        "x": 318,
+                        "y": 680,
+                        "restrict_visibility_rules": [
+                            "marine_cave_unknown"
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Islands",
+                "chest_unopened_img": "/images/locations/pokeball_closed.png",
+                "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+                "children": [
+                    {
+                        "name": "Southern Island",
+                        "access_rules": [
+                            "$lilycove_access,eon_ticket"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Defeat Latias",
+                                "chest_unopened_img": "/images/locations/latias.png",
+                                "chest_opened_img": "/images/locations/latias_bw.png",
+                                "visibility_rules": [
+                                    "$legendary_hunt_defeat,legendary_hunt_latias"
+                                ]
+                            },
+                            {
+                                "name": "Catch Latias",
+                                "chest_unopened_img": "/images/locations/latias.png",
+                                "chest_opened_img": "/images/locations/latias_bw.png",
+                                "access_rules": [
+                                    "[defeat_champion]"
+                                ],
+                                "visibility_rules": [
+                                    "$legendary_hunt_catch,legendary_hunt_latias"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hoennmap",
+                                "x": 108,
+                                "y": 132
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Faraway Island",
+                        "access_rules": [
+                            "$lilycove_access,old_sea_map"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Defeat Mew",
+                                "chest_unopened_img": "/images/locations/mew.png",
+                                "chest_opened_img": "/images/locations/mew_bw.png",
+                                "visibility_rules": [
+                                    "$legendary_hunt_defeat,legendary_hunt_mew"
+                                ]
+                            },
+                            {
+                                "name": "Catch Mew",
+                                "chest_unopened_img": "/images/locations/mew.png",
+                                "chest_opened_img": "/images/locations/mew_bw.png",
+                                "access_rules": [
+                                    "[defeat_champion]"
+                                ],
+                                "visibility_rules": [
+                                    "$legendary_hunt_catch,legendary_hunt_mew"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hoennmap",
+                                "x": 172,
+                                "y": 12
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Birth Island",
+                        "access_rules": [
+                            "$lilycove_access,aurora_ticket"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Defeat Deoxys",
+                                "chest_unopened_img": "/images/locations/deoxys.png",
+                                "chest_opened_img": "/images/locations/deoxys_bw.png",
+                                "visibility_rules": [
+                                    "$legendary_hunt_defeat,legendary_hunt_deoxys"
+                                ]
+                            },
+                            {
+                                "name": "Catch Deoxys",
+                                "chest_unopened_img": "/images/locations/deoxys.png",
+                                "chest_opened_img": "/images/locations/deoxys_bw.png",
+                                "access_rules": [
+                                    "[defeat_champion]"
+                                ],
+                                "visibility_rules": [
+                                    "$legendary_hunt_catch,legendary_hunt_deoxys"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hoennmap",
+                                "x": 188,
+                                "y": 12
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Navel Rock",
+                        "access_rules": [
+                            "$lilycove_access,mystic_ticket"
+                        ],
+                        "sections": [
+                            {
+                                "name": "Hidden Item Sacred Ash",
+                                "chest_unopened_img": "/images/locations/hidden_item.png",
+                                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                                "access_rules": [
+                                    "[$hidden]"
+                                ],
+                                "visibility_rules": [
+                                    "hidden_on"
+                                ]
+                            },
+                            {
+                                "name": "Defeat Lugia",
+                                "chest_unopened_img": "/images/locations/lugia.png",
+                                "chest_opened_img": "/images/locations/lugia_bw.png",
+                                "visibility_rules": [
+                                    "$legendary_hunt_defeat,legendary_hunt_lugia"
+                                ]
+                            },
+                            {
+                                "name": "Catch Lugia",
+                                "chest_unopened_img": "/images/locations/lugia.png",
+                                "chest_opened_img": "/images/locations/lugia_bw.png",
+                                "access_rules": [
+                                    "[defeat_champion]"
+                                ],
+                                "visibility_rules": [
+                                    "$legendary_hunt_catch,legendary_hunt_lugia"
+                                ]
+                            },
+                            {
+                                "name": "Defeat Ho-Oh",
+                                "chest_unopened_img": "/images/locations/ho-oh.png",
+                                "chest_opened_img": "/images/locations/ho-oh_bw.png",
+                                "visibility_rules": [
+                                    "$legendary_hunt_defeat,legendary_hunt_ho-oh"
+                                ]
+                            },
+                            {
+                                "name": "Catch Ho-Oh",
+                                "chest_unopened_img": "/images/locations/ho-oh.png",
+                                "chest_opened_img": "/images/locations/ho-oh_bw.png",
+                                "access_rules": [
+                                    "[defeat_champion]"
+                                ],
+                                "visibility_rules": [
+                                    "$legendary_hunt_catch,legendary_hunt_ho-oh"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hoennmap",
+                                "x": 204,
+                                "y": 12
+                            },
+                            {
+                                "map": "navel_rock_harbor",
+                                "x": 271,
+                                "y": 42
+                            },
+                            {
+                                "map": "navel_rock_exterior",
+                                "x": 335,
+                                "y": 331
+                            },
+                            {
+                                "map": "navel_rock_entrance",
+                                "x": 336,
+                                "y": 176
+                            },
+                            {
+                                "map": "navel_rock_b1f",
+                                "x": 591,
+                                "y": 304
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Artisan Cave",
+                        "access_rules": [
+                            "$battle_frontier_access,$surf,wailmer_pail"
+                        ],
+                        "sections": [
+                            {
+                                "name": "B1F - Hidden Item 2",
+                                "chest_unopened_img": "/images/locations/hidden_item.png",
+                                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                                "access_rules": [
+                                    "[$hidden]"
+                                ],
+                                "visibility_rules": [
+                                    "hidden_on"
+                                ]
+                            },
+                            {
+                                "name": "B1F - Item",
+                                "visibility_rules": [
+                                    "overworld_on"
+                                ]
+                            },
+                            {
+                                "name": "B1F - Hidden Item 4",
+                                "chest_unopened_img": "/images/locations/hidden_item.png",
+                                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                                "access_rules": [
+                                    "[$hidden]"
+                                ],
+                                "visibility_rules": [
+                                    "hidden_on"
+                                ]
+                            },
+                            {
+                                "name": "B1F - Hidden Item 1",
+                                "chest_unopened_img": "/images/locations/hidden_item.png",
+                                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                                "access_rules": [
+                                    "[$hidden]"
+                                ],
+                                "visibility_rules": [
+                                    "hidden_on"
+                                ]
+                            },
+                            {
+                                "name": "B1F - Hidden Item 3",
+                                "chest_unopened_img": "/images/locations/hidden_item.png",
+                                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                                "access_rules": [
+                                    "[$hidden]"
+                                ],
+                                "visibility_rules": [
+                                    "hidden_on"
+                                ]
+                            },
+                            {
+                                "name": "1F - Item",
+                                "visibility_rules": [
+                                    "overworld_on"
+                                ]
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "hoennmap",
+                                "x": 188,
+                                "y": 116
+                            },
+                            {
+                                "map": "battle_frontier",
+                                "x": 631,
+                                "y": 884
+                            }
+                        ]
+                    }
+                ]
+            }
         ]
-      }
-
-    ]
-  }
+    }
 ]
