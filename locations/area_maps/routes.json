@@ -9988,6 +9988,138 @@
         ]
     },
     {
+        "name": "Rapids - Top Route - On 132",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Swimmer Linda",
+                        "ref": "Routes/Route 133/Swimmer Linda"
+                    },
+                    {
+                        "name": "Item 3",
+                        "ref": "Routes/Route 133/Item 3"
+                    },
+                    {
+                        "name": "Swimmer Laurel",
+                        "ref": "Routes/Route 134/Swimmer Laurel"
+                    },
+                    {
+                        "name": "Swimmer Jack",
+                        "ref": "Routes/Route 134/Swimmer Jack"
+                    },
+                    {
+                        "name": "Black Belt Hitoshi",
+                        "ref": "Routes/Route 134/Black Belt Hitoshi"
+                    },
+                    {
+                        "name": "Item 1",
+                        "ref": "Routes/Route 134/Item 1"
+                    },
+                    {
+                        "name": "Battle Girl Reyna",
+                        "ref": "Routes/Route 134/Battle Girl Reyna"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_132",
+                        "x": 16,
+                        "y": 400
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rapids - Middle Route - On 132",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Expert Mollie",
+                        "ref": "Routes/Route 133/Expert Mollie"
+                    },
+                    {
+                        "name": "Expert Conor",
+                        "ref": "Routes/Route 133/Expert Conor"
+                    },
+                    {
+                        "name": "Item 1",
+                        "ref": "Routes/Route 133/Item 1"
+                    },
+                    {
+                        "name": "Bird Keeper Beck",
+                        "ref": "Routes/Route 133/Bird Keeper Beck"
+                    },
+                    {
+                        "name": "Sailor Hudson",
+                        "ref": "Routes/Route 134/Sailor Hudson"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_132",
+                        "x": 16,
+                        "y": 559
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rapids - Bottom Route - On 132",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Swimmer Debra",
+                        "ref": "Routes/Route 133/Swimmer Debra"
+                    },
+                    {
+                        "name": "Swimmer Franklin",
+                        "ref": "Routes/Route 133/Swimmer Franklin"
+                    },
+                    {
+                        "name": "Item 2",
+                        "ref": "Routes/Route 133/Item 2"
+                    },
+                    {
+                        "name": "Undo Regi Seal (Event)",
+                        "ref": "Dungeons/Sealed Chamber/Undo Regi Seal (Event)"
+                    },
+                    {
+                        "name": "Cooltrainer Marley",
+                        "ref": "Routes/Route 134/Cooltrainer Marley"
+                    },
+                    {
+                        "name": "Dragon Tamer Aaron",
+                        "ref": "Routes/Route 134/Dragon Tamer Aaron"
+                    },
+                    {
+                        "name": "Bird Keeper Alex",
+                        "ref": "Routes/Route 134/Bird Keeper Alex"
+                    },
+                    {
+                        "name": "Sailor Kelvin",
+                        "ref": "Routes/Route 134/Sailor Kelvin"
+                    },
+                    {
+                        "name": "Item 2",
+                        "ref": "Routes/Route 134/Item 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_132",
+                        "x": 16,
+                        "y": 1102
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Route 132 Fisherman Ronald",
         "children": [
             {
@@ -10188,6 +10320,102 @@
         ]
     },
     {
+        "name": "Rapids - Top Route - On 133",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Swimmer Laurel",
+                        "ref": "Routes/Route 134/Swimmer Laurel"
+                    },
+                    {
+                        "name": "Swimmer Jack",
+                        "ref": "Routes/Route 134/Swimmer Jack"
+                    },
+                    {
+                        "name": "Black Belt Hitoshi",
+                        "ref": "Routes/Route 134/Black Belt Hitoshi"
+                    },
+                    {
+                        "name": "Item 1",
+                        "ref": "Routes/Route 134/Item 1"
+                    },
+                    {
+                        "name": "Battle Girl Reyna",
+                        "ref": "Routes/Route 134/Battle Girl Reyna"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_133",
+                        "x": 16,
+                        "y": 237
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rapids - Middle Route - On 133",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Sailor Hudson",
+                        "ref": "Routes/Route 134/Sailor Hudson"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_133",
+                        "x": 16,
+                        "y": 508
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Rapids - Bottom Route - On 132",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "Undo Regi Seal (Event)",
+                        "ref": "Dungeons/Sealed Chamber/Undo Regi Seal (Event)"
+                    },
+                    {
+                        "name": "Cooltrainer Marley",
+                        "ref": "Routes/Route 134/Cooltrainer Marley"
+                    },
+                    {
+                        "name": "Dragon Tamer Aaron",
+                        "ref": "Routes/Route 134/Dragon Tamer Aaron"
+                    },
+                    {
+                        "name": "Bird Keeper Alex",
+                        "ref": "Routes/Route 134/Bird Keeper Alex"
+                    },
+                    {
+                        "name": "Sailor Kelvin",
+                        "ref": "Routes/Route 134/Sailor Kelvin"
+                    },
+                    {
+                        "name": "Item 2",
+                        "ref": "Routes/Route 134/Item 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "rt_133",
+                        "x": 16,
+                        "y": 988
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Route 133 Expert Conor",
         "children": [
             {
@@ -10282,6 +10510,11 @@
                         "map": "rt_133",
                         "x": 1199,
                         "y": 488
+                    },
+                    {
+                        "map": "rt_132",
+                        "x": 16,
+                        "y": 688
                     }
                 ]
             }
