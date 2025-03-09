@@ -3,7 +3,7 @@
         "name": "Goal",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 3,
+        "initial_stage_idx": 0,
         "loop": true,
         "stages": [
             {
@@ -214,7 +214,7 @@
         "name": "Hidden Items Shuffled",
         "type": "progressive",
         "allow_disabled": false,
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "loop": true,
         "stages": [
             {
@@ -236,7 +236,7 @@
     {
         "name": "NPC Gifts Shuffled",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -259,7 +259,7 @@
     {
         "name": "Berry Trees Shuffled",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "loop": true,
         "stages": [
@@ -304,7 +304,7 @@
     {
         "name": "Trainersanity",
         "type": "progressive",
-        "initial_stage_idx": 1,
+        "initial_stage_idx": 0,
         "allow_disabled": false,
         "loop": true,
         "stages": [
