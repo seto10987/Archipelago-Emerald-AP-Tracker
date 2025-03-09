@@ -240,12 +240,13 @@ function onBounce(json)
   local data = json["data"]
   if data then
     if data["type"] == "MapUpdate" then
-      print(dump_table(data))
-      if data["mapId"] == 6090 then
-        data["mapId"] = 6093
-      elseif data["mapId"] == 6091 then
-        data["mapId"] = 6094
-    end
+      if data["tide"] ~= nil and data["tide"] == 1 then
+        if data["mapId"] == 6190 then
+            data["mapId"] = 6194
+        elseif data["mapId"] == 6191 then
+            data["mapId"] = 6195
+        end
+      end
       updateMap(data["mapId"])
     elseif data["type"] == "Encounter" then
       updateEncounter(data["species"], data["slot"], data["encounterType"], data["mapId"])
