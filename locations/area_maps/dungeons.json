@@ -3788,6 +3788,31 @@
         ]
     },
     {
+        "name": "Safari Zone SW & NW",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "SW - Item Behind Pond",
+                        "ref": "Dungeons/Safari Zone/SW - Item Behind Pond"
+                    },
+                    {
+                        "name": "NW - Item Behind Pond",
+                        "ref": "Dungeons/Safari Zone/NW - Item Behind Pond"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "safari_south",
+                        "x": 16,
+                        "y": 1183,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Safari Zone SW - Item Behind Pond",
         "children": [
             {
@@ -3822,6 +3847,12 @@
                         "map": "safari_northwest",
                         "x": 1070,
                         "y": 245
+                    },
+                    {
+                        "map": "safari_southwest",
+                        "x": 271,
+                        "y": 16,
+                        "shape": "diamond"
                     }
                 ]
             }
@@ -3842,6 +3873,82 @@
                         "map": "safari_north",
                         "x": 236,
                         "y": 211
+                    },
+                    {
+                        "map": "safari_south",
+                        "x": 959,
+                        "y": 16,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Safari Zone SE & NE",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "SE - Item in Grass",
+                        "ref": "Dungeons/Safari Zone/SE - Item in Grass"
+                    },
+                    {
+                        "name": "SE - Hidden Item in South Grass 1",
+                        "ref": "Dungeons/Safari Zone/SE - Hidden Item in South Grass 1"
+                    },
+                    {
+                        "name": "SE - Hidden Item in South Grass 2",
+                        "ref": "Dungeons/Safari Zone/SE - Hidden Item in South Grass 2"
+                    },
+                    {
+                        "name": "NE - Item on Ledge",
+                        "ref": "Dungeons/Safari Zone/NE - Item on Ledge"
+                    },
+                    {
+                        "name": "NE - Hidden Item North",
+                        "ref": "Dungeons/Safari Zone/NE - Hidden Item North"
+                    },
+                    {
+                        "name": "NE - Hidden Item East",
+                        "ref": "Dungeons/Safari Zone/NE - Hidden Item East"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "safari_south",
+                        "x": 1262,
+                        "y": 543,
+                        "shape": "diamond"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Safari Zone NE",
+        "children": [
+            {
+                "sections": [
+                    {
+                        "name": "NE - Item on Ledge",
+                        "ref": "Dungeons/Safari Zone/NE - Item on Ledge"
+                    },
+                    {
+                        "name": "NE - Hidden Item North",
+                        "ref": "Dungeons/Safari Zone/NE - Hidden Item North"
+                    },
+                    {
+                        "name": "NE - Hidden Item East",
+                        "ref": "Dungeons/Safari Zone/NE - Hidden Item East"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "safari_southeast",
+                        "x": 993,
+                        "y": 16,
+                        "shape": "diamond"
                     }
                 ]
             }
