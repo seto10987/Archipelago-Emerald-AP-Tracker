@@ -1,0 +1,76 @@
+{
+  "map_layout": {
+    "type": "array",
+    "orientation": "horizontal",
+    "content": [
+      {
+        "type": "tabbed",
+        "dock": "top",
+        "tabs": [
+          {
+            "title": "Cities",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "cities"
+              }
+            }
+          },
+          {
+            "title": "Routes",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "routes"
+              }
+            }
+          },
+          {
+            "title": "Other",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "other"
+              }
+            }
+          },
+          {
+            "title": "Pokedex",
+            "content": {
+              "type": "dock",
+              "content": {
+                "type": "layout",
+                "key": "pokedex_grid_full"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "overworld"
+            }
+          },
+          {
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "encounters"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

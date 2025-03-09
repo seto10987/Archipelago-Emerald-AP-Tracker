@@ -68,12 +68,12 @@ function toggle_split_map(code)
     local split_encounter = has("split_map_encounter")
     
     if split_overworld and split_encounter then
-        Tracker:AddLayouts("layouts/tracker_both.json")
+        Tracker:AddLayouts("layouts/map_layout_split_both.json")
     elseif split_overworld then
-        Tracker:AddLayouts("layouts/tracker_overworld.json")
+        Tracker:AddLayouts("layouts/map_layout_split_overworld.json")
     elseif split_encounter then
-        Tracker:AddLayouts("layouts/tracker_encounter.json")
+        Tracker:AddLayouts("layouts/map_layout_split_encounters.json")
     else
-        Tracker:AddLayouts("layouts/tracker.json")
+        Tracker:AddLayouts("layouts/map_layout.json")
     end
 end
