@@ -1151,13 +1151,59 @@
             {
                 "name": "Auto-Tab - Off",
                 "img": "images/settings/autotab_off.png",
-                "img_mod": "@disabled",
+                "img_mods": "@disabled",
                 "inherit_codes": false
             },
             {
                 "name": "Auto-Tab - On",
                 "img": "images/settings/autotab.png",
                 "codes": "tab_switch",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Overworld Map",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "codes": "split_map",
+        "stages": [
+            {
+                "name": "Overworld Map - Off",
+                "img": "images/settings/overworld_on.png",
+                "img_mods": "@disabled",
+                "codes": "split_map",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Map - On",
+                "img": "images/settings/overworld_on.png",
+                "codes": "split_map, split_map_overworld",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Encounter Map",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "codes": "split_map",
+        "stages": [
+            {
+                "name": "Encounter Map - Off",
+                "img": "images/settings/encounter_on.png",
+                "img_mods": "@disabled",
+                "codes": "split_map",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Map - On",
+                "img": "images/settings/encounter_on.png",
+                "codes": "split_map, split_map_encounter",
                 "inherit_codes": false
             }
         ]
