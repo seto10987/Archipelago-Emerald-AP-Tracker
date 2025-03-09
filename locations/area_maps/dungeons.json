@@ -375,6 +375,7 @@
         "name": "Granite Cave",
         "children": [
             {
+                "name": "Granite Cave",
                 "sections": [
                     {
                         "name": "1F - HM05 from Hiker",
@@ -550,6 +551,11 @@
                         "map": "granite_cave_b2f",
                         "x": 143,
                         "y": 148
+                    },
+                    {
+                        "map": "granite_cave_b1f",
+                        "x": 266,
+                        "y": 176
                     }
                 ]
             }
@@ -1541,9 +1547,10 @@
         ]
     },
     {
-        "name": "Trick House​",
+        "name": "Trick House",
         "children": [
             {
+                "name": "Trick House",
                 "sections": [
                     {
                         "name": "Puzzle 1 - Item",
@@ -2390,9 +2397,10 @@
         ]
     },
     {
-        "name": "Meteor Falls Maps",
+        "name": "Meteor Falls",
         "children": [
             {
+                "name": "Meteor Falls",
                 "sections": [
                     {
                         "name": "1F - Item Northeast",
@@ -5072,8 +5080,8 @@
                 "ref": "Encounters Vanilla/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 1, 90%"
             },
             {
-                "name": "Mt Pyre Interior 6F Encounter 2, 2, 10%",
-                "ref": "Encounters Vanilla/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 2, 2, 10%"
+                "name": "Mt Pyre Interior 6F Encounter 2, 10%",
+                "ref": "Encounters Vanilla/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 2, 10%"
             }
         ],
         "map_locations": [
@@ -5816,23 +5824,23 @@
                     },
                     {
                         "map": "navel_rock_up_1",
-                        "x": 175,
-                        "y": 175
+                        "x": 111,
+                        "y": 111
                     },
                     {
                         "map": "navel_rock_up_2",
-                        "x": 111,
-                        "y": 111
-                    },
-                    {
-                        "map": "navel_rock_up_3",
                         "x": 175,
                         "y": 175
                     },
                     {
-                        "map": "navel_rock_up_4",
+                        "map": "navel_rock_up_3",
                         "x": 111,
                         "y": 111
+                    },
+                    {
+                        "map": "navel_rock_up_4",
+                        "x": 175,
+                        "y": 175
                     },
                     {
                         "map": "navel_rock_top",
@@ -7950,17 +7958,18 @@
         ]
     },
     {
-        "name": "Desert Ruins Defeat Regirock",
+        "name": "Desert Ruins",
         "children": [
             {
+                "name": "Desert Ruins",
                 "sections": [
                     {
                         "name": "Defeat Regirock",
-                        "ref": "Locations/Desert Ruins/Defeat Regirock"
+                        "ref": "Dungeons/Desert Ruins/Defeat Regirock"
                     },
                     {
                         "name": "Catch Regirock",
-                        "ref": "Locations/Desert Ruins/Catch Regirock"
+                        "ref": "Dungeons/Desert Ruins/Catch Regirock"
                     }
                 ],
                 "map_locations": [
@@ -7971,25 +7980,26 @@
                     },
                     {
                         "map": "rt_111",
-                        "x": 12,
-                        "y": 100
+                        "x": 2231,
+                        "y": 1729
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Island Cave Defeat Regice",
+        "name": "Island Cave",
         "children": [
             {
+                "name": "Island Cave",
                 "sections": [
                     {
                         "name": "Defeat Regice",
-                        "ref": "Locations/Island Cave/Defeat Regice"
+                        "ref": "Dungeons/Island Cave/Defeat Regice"
                     },
                     {
                         "name": "Catch Regice",
-                        "ref": "Locations/Island Cave/Catch Regice"
+                        "ref": "Dungeons/Island Cave/Catch Regice"
                     }
                 ],
                 "map_locations": [
@@ -8000,25 +8010,26 @@
                     },
                     {
                         "map": "rt_105",
-                        "x": 2228,
-                        "y": 1723
+                        "x": 303,
+                        "y": 655
                     }
                 ]
             }
         ]
     },
     {
-        "name": "Ancient Tomb Defeat Registeel",
+        "name": "Ancient Tomb",
         "children": [
             {
+                "name": "Ancient Tomb",
                 "sections": [
                     {
                         "name": "Defeat Registeel",
-                        "ref": "Locations/Ancient Tomb/Defeat Registeel"
+                        "ref": "Dungeons/Ancient Tomb/Defeat Registeel"
                     },
                     {
                         "name": "Catch Registeel",
-                        "ref": "Locations/Ancient Tomb/Catch Registeel"
+                        "ref": "Dungeons/Ancient Tomb/Catch Registeel"
                     }
                 ],
                 "map_locations": [
@@ -8029,8 +8040,8 @@
                     },
                     {
                         "map": "rt_120",
-                        "x": 622,
-                        "y": 723
+                        "x": 1527,
+                        "y": 654
                     }
                 ]
             }

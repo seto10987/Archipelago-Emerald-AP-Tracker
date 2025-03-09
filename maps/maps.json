@@ -1658,7 +1658,7 @@
   {
     "name": "rt_122",
     "location_size": 16,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/routes/rt_122/rt_122.png"
   },
   {
@@ -1796,7 +1796,7 @@
   {
     "name": "rt_126",
     "location_size": 64,
-    "location_border_thickness": 4,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_126/rt_126.png"
   },
   {
@@ -1903,26 +1903,26 @@
   },
   {
     "name": "rt_129",
-    "location_size": 64,
+    "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_129/rt_129.png"
   },
   {
     "name": "rt_129_underwater",
-    "location_size": 64,
+    "location_size": 48,
     "location_border_thickness": 4,
     "img": "images/maps/routes/rt_129/rt_129_underwater.png"
   },
   {
     "name": "rt_130",
     "location_size": 16,
-    "location_border_thickness": 2,
+    "location_border_thickness": 1,
     "img": "images/maps/routes/rt_130/rt_130.png"
   },
   {
     "name": "rt_131",
     "location_size": 48,
-    "location_border_thickness": 4,
+    "location_border_thickness": 2,
     "img": "images/maps/routes/rt_131/rt_131.png"
   },
   {
