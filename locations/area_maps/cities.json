@@ -3908,8 +3908,8 @@
                 "map_locations": [
                     {
                         "map": "sootopolis_gym_b1f",
-                        "x": 367,
-                        "y": 253
+                        "x": 400,
+                        "y": 188
                     }
                 ]
             }
@@ -3928,8 +3928,8 @@
                 "map_locations": [
                     {
                         "map": "sootopolis_gym_b1f",
-                        "x": 400,
-                        "y": 188
+                        "x": 367,
+                        "y": 253
                     }
                 ]
             }
