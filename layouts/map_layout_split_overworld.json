@@ -8,12 +8,12 @@
         "dock": "top",
         "tabs": [
           {
-            "title": "Encounter Tracking",
+            "title": "Hoenn",
             "content": {
               "type": "dock",
               "content": {
                 "type": "layout",
-                "key": "encounters"
+                "key": "overworld"
               }
             }
           },
