@@ -1,7 +1,7 @@
 [
   {
     "name": "Encounters Vanilla",
-    "visibility_rules": ["normalize_encounters_off"],
+    "visibility_rules": ["normalize_encounters_off, split_map_encounter"],
     "children":
     [
       {

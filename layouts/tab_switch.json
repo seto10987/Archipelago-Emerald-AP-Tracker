@@ -20,7 +20,7 @@
             "rows":
             [
               [""],
-              ["","tab_switch"]
+              ["split_map_overworld","tab_switch", "split_map_encounter"]
             ]
           }
         ]
