@@ -14,14 +14,6 @@
       "display_name": "Map Tracker (Vertical)",
       "flags": ["ap"]
     },
-    "split_horizontal": {
-      "display_name": "Split Map Tracker (Horizontal)",
-      "flags": ["ap"]
-    },
-    "v_split_vertical": {
-      "display_name": "Split Map Tracker (Vertical)",
-      "flags": ["ap"]
-    },
     "var_items_only": {
       "display_name": "Item Tracker",
       "flags": ["ap"]
