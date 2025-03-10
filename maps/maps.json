@@ -1578,6 +1578,12 @@
     "img": "images/maps/routes/rt_119/weather_institute_2f.png"
   },
   {
+    "name": "rt_119_wingull_house",
+    "location_size": 32,
+    "location_border_thickness": 2,
+    "img": "images/maps/routes/rt_119/rt_119_wingull_house.png"
+  },
+  {
     "name": "rt_119",
     "location_size": 32,
     "location_border_thickness": 2,
