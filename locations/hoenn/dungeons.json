@@ -1682,6 +1682,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1690,6 +1693,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1698,6 +1704,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1706,6 +1715,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1714,6 +1726,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1722,6 +1737,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
@@ -1730,6 +1748,9 @@
                         "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
                         "visibility_rules": [
                             "trainers_on"
+                        ],
+                        "access_rules": [
+                            "defeat_tate_and_liza"
                         ]
                     },
                     {
