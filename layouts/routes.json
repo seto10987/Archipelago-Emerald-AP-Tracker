@@ -1238,6 +1238,17 @@
                     }
                   },
                   {
+                    "title": "Wingull House",
+                    "v_alignment": "stretch",
+                    "h_alignment": "stretch",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rt_119_wingull_house"
+                      ]
+                    }
+                  },
+                  {
                     "title": "Weather Institute",
                     "v_alignment": "stretch",
                     "h_alignment": "stretch",
