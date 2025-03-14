@@ -1,7 +1,7 @@
 [
   {
     "name": "Encounters Normalized",
-    "visibility_rules": ["normalize_encounters_on, split_map_encounter"],
+    "visibility_rules": ["normalize_encounters_on, split_map_encounter", "normalize_encounters_on, pokedex_on"],
     "children":
     [
       {
