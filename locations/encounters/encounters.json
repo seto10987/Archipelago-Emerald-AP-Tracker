@@ -3085,7 +3085,6 @@
       {
         "name": "Safari Zone Northeast Encounters",
         "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
-        "visibility_rules": ["$safari_visibility"],
         "sections":
         [
           {
@@ -3146,7 +3145,6 @@
       {
         "name": "Safari Zone Southeast Encounters",
         "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
-        "visibility_rules": ["$safari_visibility"],
         "sections":
         [
           {
@@ -5514,7 +5512,6 @@
       {
         "name": "Desert Tunnel Encounters",
         "access_rules": ["defeat_champion,$fallarbor_access"],
-        "visibility_rules": ["$goal_not|champion"],
         "sections":
         [
           {

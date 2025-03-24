@@ -34,7 +34,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "key_items_on,$goal_not|champion"
+                            "key_items_on"
                         ]
                     },
                     {
@@ -44,7 +44,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "key_items_off,$goal_not|champion"
+                            "key_items_off"
                         ]
                     },
                     {
@@ -55,7 +55,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_on,$goal_not|champion"
+                            "tickets_on"
                         ]
                     },
                     {
@@ -65,7 +65,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_off,$goal_not|champion"
+                            "tickets_off"
                         ]
                     },
                     {
@@ -76,7 +76,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_on,$goal_not|champion"
+                            "tickets_on"
                         ]
                     },
                     {
@@ -86,7 +86,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_off,$goal_not|champion"
+                            "tickets_off"
                         ]
                     },
                     {
@@ -97,7 +97,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_on,$goal_not|champion"
+                            "tickets_on"
                         ]
                     },
                     {
@@ -107,7 +107,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_off,$goal_not|champion"
+                            "tickets_off"
                         ]
                     },
                     {
@@ -118,7 +118,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_on,$goal_not|champion"
+                            "tickets_on"
                         ]
                     },
                     {
@@ -128,7 +128,7 @@
                             "defeat_champion"
                         ],
                         "visibility_rules": [
-                            "tickets_off,$goal_not|champion"
+                            "tickets_off"
                         ]
                     }
                 ],
@@ -210,8 +210,8 @@
                             "$has_norman_req"
                         ],
                         "visibility_rules": [
-                            "badges_any,$goal_not|norman,trainers_off",
-                            "badges_shuffle,$goal_not|norman,trainers_off"
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
                         ]
                     },
                     {
@@ -221,7 +221,7 @@
                             "$has_norman_req"
                         ],
                         "visibility_rules": [
-                            "badges_off,$goal_not|norman,trainers_off"
+                            "badges_off,trainers_off"
                         ]
                     },
                     {
@@ -232,7 +232,7 @@
                             "$has_norman_req"
                         ],
                         "visibility_rules": [
-                            "gifts_on,$goal_not|norman,trainers_off"
+                            "gifts_on,trainers_off"
                         ]
                     },
                     {
@@ -243,8 +243,8 @@
                             "defeat_norman"
                         ],
                         "visibility_rules": [
-                            "hms_any,$goal_not|norman",
-                            "hms_shuffle,$goal_not|norman"
+                            "hms_any",
+                            "hms_shuffle"
                         ]
                     },
                     {
@@ -254,7 +254,7 @@
                             "defeat_norman"
                         ],
                         "visibility_rules": [
-                            "hms_off,$goal_not|norman"
+                            "hms_off"
                         ]
                     }
                 ],
@@ -340,7 +340,7 @@
                         "chest_unopened_img": "/images/locations/norman.png",
                         "chest_opened_img": "/images/locations/norman_bw.png",
                         "visibility_rules": [
-                            "trainers_on,$goal_not|norman"
+                            "trainers_on"
                         ]
                     },
                     {
@@ -348,15 +348,15 @@
                         "chest_unopened_img": "/images/locations/norman_balance_badge.png",
                         "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
                         "visibility_rules": [
-                            "badges_any,$goal_not|norman",
-                            "badges_shuffle,$goal_not|norman"
+                            "badges_any",
+                            "badges_shuffle"
                         ]
                     },
                     {
                         "name": "​Balance Badge",
                         "hosted_item": "balance_badge_hosted",
                         "visibility_rules": [
-                            "badges_off,$goal_not|norman"
+                            "badges_off"
                         ]
                     },
                     {
@@ -364,7 +364,7 @@
                         "chest_unopened_img": "/images/locations/norman_normal_tm.png",
                         "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
                         "visibility_rules": [
-                            "gifts_on,$goal_not|norman"
+                            "gifts_on"
                         ]
                     }
                 ],
@@ -637,7 +637,7 @@
                             "defeat_norman"
                         ],
                         "visibility_rules": [
-                            "gifts_on,$goal_not|norman"
+                            "gifts_on"
                         ]
                     },
                     {
@@ -939,7 +939,7 @@
                             "defeat_norman"
                         ],
                         "visibility_rules": [
-                            "key_items_on,$goal_not|norman"
+                            "key_items_on"
                         ]
                     },
                     {
@@ -949,7 +949,7 @@
                             "defeat_norman"
                         ],
                         "visibility_rules": [
-                            "key_items_off,$goal_not|norman"
+                            "key_items_off"
                         ]
                     },
                     {
@@ -960,7 +960,7 @@
                             "defeat_norman,@Dungeons/New Mauville/Turn off Generator"
                         ],
                         "visibility_rules": [
-                            "gifts_on,$goal_not|norman"
+                            "gifts_on"
                         ]
                     },
                     {
@@ -2287,7 +2287,7 @@
                         "chest_unopened_img": "/images/locations/wallace.png",
                         "chest_opened_img": "/images/locations/wallace_bw.png",
                         "visibility_rules": [
-                            "trainers_on,$goal_not|champion"
+                            "trainers_on"
                         ]
                     }
                 ],

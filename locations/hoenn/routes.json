@@ -1042,7 +1042,7 @@
           {
             "name": "Puzzle 8 - Item",
             "access_rules": ["@Routes/Trick House/Puzzle 7 - Reward,defeat_champion"],
-            "visibility_rules": ["overworld_on,$goal_not|champion"]
+            "visibility_rules": ["overworld_on"]
           }
         ],
         "map_locations":

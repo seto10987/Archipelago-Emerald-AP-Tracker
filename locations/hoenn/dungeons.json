@@ -564,9 +564,6 @@
                         "hosted_item": "defeat_steven_hosted",
                         "access_rules": [
                             "$surf,$waterfall,defeat_champion"
-                        ],
-                        "visibility_rules": [
-                            "$goal_not|champion"
                         ]
                     },
                     {
@@ -577,7 +574,7 @@
                             "$surf,$waterfall,defeat_champion"
                         ],
                         "visibility_rules": [
-                            "trainers_on,$goal_not|champion,$goal_not|steven"
+                            "trainers_on"
                         ]
                     }
                 ],
@@ -939,7 +936,7 @@
                             "safari_on,$surf"
                         ],
                         "visibility_rules": [
-                            "overworld_on,$safari_visibility"
+                            "overworld_on"
                         ]
                     },
                     {
@@ -951,7 +948,7 @@
                             "safari_on,[$hidden]"
                         ],
                         "visibility_rules": [
-                            "hidden_on,$safari_visibility"
+                            "hidden_on"
                         ]
                     },
                     {
@@ -963,7 +960,7 @@
                             "safari_on,[$hidden]"
                         ],
                         "visibility_rules": [
-                            "hidden_on,$safari_visibility"
+                            "hidden_on"
                         ]
                     },
                     {
@@ -973,7 +970,7 @@
                             "safari_on"
                         ],
                         "visibility_rules": [
-                            "overworld_on,$safari_visibility"
+                            "overworld_on"
                         ]
                     },
                     {
@@ -985,7 +982,7 @@
                             "safari_on,[$hidden]"
                         ],
                         "visibility_rules": [
-                            "hidden_on,$safari_visibility"
+                            "hidden_on"
                         ]
                     },
                     {
@@ -997,7 +994,7 @@
                             "safari_on,[$hidden]"
                         ],
                         "visibility_rules": [
-                            "hidden_on,$safari_visibility"
+                            "hidden_on"
                         ]
                     }
                 ],
