@@ -249,14 +249,6 @@ function marine_cave_access()
 end
 
 -- Visibility Functions
-function goal_not(goal)
-  return not has("goal_"..goal)
-end
-
-function safari_visibility()
-  return has("safari_on") or goal_not("champion")
-end
-
 function legendary_hunt_defeat()
   return has("goal_legendary_hunt") and has("legendary_hunt_req_defeat")
 end

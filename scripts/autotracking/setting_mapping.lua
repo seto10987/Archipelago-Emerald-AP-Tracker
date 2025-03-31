@@ -245,7 +245,7 @@ SLOT_CODES =
       [1] = 1  -- Modify Route 118 On
     }
   },
-  normalize_encounters =
+  normalize_encounter_rates =
   {
     code = "normalize_encounters_setting",
     mapping =

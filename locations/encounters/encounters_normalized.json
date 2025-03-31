@@ -33,8 +33,9 @@
           },
           {
             "map": "rt_101",
-            "x": 350,
-            "y": 656
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -92,8 +93,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -112,8 +113,9 @@
           },
           {
             "map": "rt_102",
-            "x": 1472,
-            "y": 350
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -162,8 +164,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -188,8 +190,9 @@
           },
           {
             "map": "rt_103",
-            "x": 499,
-            "y": 1209
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -211,8 +214,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -231,8 +234,9 @@
           },
           {
             "map": "petalburg",
-            "x": 831,
-            "y": 572
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -298,13 +302,15 @@
           },
           {
             "map": "rt_104",
-            "x": 1116,
-            "y": 909
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_104",
-            "x": 1799,
-            "y": 304
+            "x": 1320,
+            "y": 214,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -357,8 +363,9 @@
           },
           {
             "map": "petalburg_woods",
-            "x": 541,
-            "y": 1107
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -393,8 +400,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -413,8 +420,9 @@
           },
           {
             "map": "rt_105",
-            "x": 601,
-            "y": 135
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -449,8 +457,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -469,8 +477,9 @@
           },
           {
             "map": "rt_106",
-            "x": 767,
-            "y": 229
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -505,8 +514,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -525,8 +534,9 @@
           },
           {
             "map": "dewford",
-            "x": 272,
-            "y": 82
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -565,8 +575,9 @@
           },
           {
             "map": "granite_cave_1f",
-            "x": 1031,
-            "y": 287
+            "x": 96,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -610,8 +621,9 @@
           },
           {
             "map": "granite_cave_b1f",
-            "x": 272,
-            "y": 553
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -650,8 +662,9 @@
           },
           {
             "map": "granite_cave_b2f",
-            "x": 855,
-            "y": 572
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -690,8 +703,9 @@
           },
           {
             "map": "granite_cave_s",
-            "x": 76,
-            "y": 362
+            "x": 96,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -726,8 +740,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -746,8 +760,9 @@
           },
           {
             "map": "rt_107",
-            "x": 310,
-            "y": 319
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -782,8 +797,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -802,8 +817,9 @@
           },
           {
             "map": "rt_108",
-            "x": 138,
-            "y": 306
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -824,8 +840,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -850,13 +866,9 @@
           },
           {
             "map": "abandoned_ship_rooms_1_b1f",
-            "x": 347,
-            "y": 237
-          },
-          {
-            "map": "rt_108",
-            "x": 978,
-            "y": 85
+            "x": 336,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -877,8 +889,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -903,13 +915,9 @@
           },
           {
             "map": "abandoned_ship_hidden_floor_corridors",
-            "x": 15,
-            "y": 264
-          },
-          {
-            "map": "rt_108",
-            "x": 908,
-            "y": 85
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -944,8 +952,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -964,8 +972,9 @@
           },
           {
             "map": "rt_109",
-            "x": 170,
-            "y": 708
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1000,8 +1009,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1020,8 +1029,9 @@
           },
           {
             "map": "slateport",
-            "x": 2203,
-            "y": 644
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1097,8 +1107,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["$mauville_access,old_rod","$mauville_access,good_rod"]
           },
           {
@@ -1117,13 +1127,15 @@
           },
           {
             "map": "rt_110",
-            "x": 568,
-            "y": 926
+            "x": 32,
+            "y": 285,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
-            "map": "rt_110",
-            "x": 2856,
-            "y": 806
+           "map": "rt_110",
+           "x": 2856,
+           "y": 806,
+           "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1152,8 +1164,9 @@
           },
           {
             "map": "new_mauville_entrance",
-            "x": 141,
-            "y": 150
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1192,8 +1205,9 @@
           },
           {
             "map": "new_mauville",
-            "x": 1045,
-            "y": 500
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1222,8 +1236,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1243,7 +1257,8 @@
           {
             "map": "rt_111",
             "x": 219,
-            "y": 791
+            "y": 791,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1283,7 +1298,8 @@
           {
             "map": "rt_111",
             "x": 1705,
-            "y": 878
+            "y": 878,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1313,7 +1329,8 @@
           {
             "map": "mirage_tower_1f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1343,7 +1360,8 @@
           {
             "map": "mirage_tower_2f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1373,7 +1391,8 @@
           {
             "map": "mirage_tower_3f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1403,7 +1422,8 @@
           {
             "map": "mirage_tower_4f",
             "x": 32,
-            "y": 39
+            "y": 39,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1452,14 +1472,15 @@
           },
           {
             "map": "fiery_path",
-            "x": 568,
-            "y": 991
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
         "name": "Jagged Pass Encounters",
-        "access_rules": ["$mt_chimney_access"],
+        "access_rules": ["$lavaridge_access"],
         "sections":
         [
           {
@@ -1487,8 +1508,9 @@
           },
           {
             "map": "jagged_pass",
-            "x": 253,
-            "y": 221
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1522,8 +1544,9 @@
           },
           {
             "map": "magma_hideout_1f",
-            "x": 578,
-            "y": 1027
+            "x": 160,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1557,8 +1580,9 @@
           },
           {
             "map": "magma_hideout_2f1r",
-            "x": 810,
-            "y": 1046
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1592,8 +1616,9 @@
           },
           {
             "map": "magma_hideout_2f2r",
-            "x": 485,
-            "y": 711
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1627,8 +1652,9 @@
           },
           {
             "map": "magma_hideout_2f3r",
-            "x": 415,
-            "y": 253
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1662,8 +1688,9 @@
           },
           {
             "map": "magma_hideout_3f1r",
-            "x": 804,
-            "y": 527
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1697,8 +1724,9 @@
           },
           {
             "map": "magma_hideout_3f2r",
-            "x": 646,
-            "y": 467
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1732,8 +1760,9 @@
           },
           {
             "map": "magma_hideout_3f3r",
-            "x": 778,
-            "y": 602
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1767,8 +1796,9 @@
           },
           {
             "map": "magma_hideout_4f",
-            "x": 1195,
-            "y": 299
+            "x": 32,
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1798,12 +1828,14 @@
           {
             "map": "rt_112",
             "x": 2391,
-            "y": 685
+            "y": 685,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_112",
             "x": 1071,
-            "y": 571
+            "y": 571,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1838,7 +1870,8 @@
           {
             "map": "rt_113",
             "x": 1256,
-            "y": 948
+            "y": 948,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1892,8 +1925,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1913,7 +1946,8 @@
           {
             "map": "rt_114",
             "x": 2124,
-            "y": 803
+            "y": 803,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1952,8 +1986,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -1972,8 +2006,9 @@
           },
           {
             "map": "meteor_falls_1f1r",
-            "x": 580,
-            "y": 896
+            "x": 896,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2012,8 +2047,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2038,8 +2073,9 @@
           },
           {
             "map": "meteor_falls_1f2r",
-            "x": 898,
-            "y": 841
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2078,8 +2114,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2104,8 +2140,9 @@
           },
           {
             "map": "meteor_falls_b1f1r",
-            "x": 254,
-            "y": 1044
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2149,8 +2186,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2175,8 +2212,9 @@
           },
           {
             "map": "meteor_falls_b1f2r",
-            "x": 173,
-            "y": 318
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2205,8 +2243,9 @@
           },
           {
             "map": "meteor_falls_steven",
-            "x": 368,
-            "y": 502
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2218,31 +2257,31 @@
             "name": "Grass Encounter 1, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 2, 25%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 3, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 4, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Grass Encounter 5, 33.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 1, 20%",
@@ -2270,8 +2309,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2290,13 +2329,15 @@
           },
           {
             "map": "rt_115",
-            "x": 555,
-            "y": 703
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_115",
-            "x": 1416,
-            "y": 503
+            "x": 1336,
+            "y": 178,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2344,8 +2385,9 @@
           },
           {
             "map": "rt_116",
-            "x": 96,
-            "y": 348
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2368,8 +2410,9 @@
           },
           {
             "map": "rusturf_tunnel",
-            "x": 173,
-            "y": 289
+            "x": 48,
+            "y": 720,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2428,8 +2471,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2448,8 +2491,9 @@
           },
           {
             "map": "rt_117",
-            "x": 1753,
-            "y": 317
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2462,37 +2506,37 @@
             "name": "Grass Encounter 1, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 2, 16.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 3, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 4, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 5, 41.6%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Grass Encounter 6, 8.3%",
             "chest_unopened_img": "/images/locations/grass.png",
             "chest_opened_img": "/images/locations/grass_bw.png",
-        "access_rules": ["$route_119_access"]
+            "access_rules": ["$route_119_access"]
           },
           {
             "name": "Surf Encounter 1, 20%",
@@ -2520,8 +2564,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2546,13 +2590,15 @@
           },
           {
             "map": "rt_118",
-            "x": 617,
-            "y": 1231
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_118",
-            "x": 1109,
-            "y": 482
+            "x": 447,
+            "y": 696,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2612,8 +2658,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2632,13 +2678,15 @@
           },
           {
             "map": "rt_119",
-            "x": 382,
-            "y": 687
+            "x": 1230,
+            "y": 150,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_119",
-            "x": 3311,
-            "y": 775
+            "x": 1304,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2702,8 +2750,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2722,18 +2770,21 @@
           },
           {
             "map": "rt_120",
-            "x": 63,
-            "y": 391
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_120",
-            "x": 1351,
-            "y": 391
+            "x": 1336,
+            "y": 218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_120",
-            "x": 2639,
-            "y": 391
+            "x": 2624,
+            "y": 218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2803,8 +2854,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2823,13 +2874,9 @@
           },
           {
             "map": "rt_121",
-            "x": 318,
-            "y": 62
-          },
-          {
-            "map": "rt_121",
-            "x": 1151,
-            "y": 710
+            "x": 79,
+            "y": 695,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2884,7 +2931,8 @@
           {
             "map": "safari_south",
             "x": 1119,
-            "y": 766
+            "y": 766,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2936,8 +2984,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -2963,7 +3011,8 @@
           {
             "map": "safari_southwest",
             "x": 1149,
-            "y": 893
+            "y": 893,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3016,8 +3065,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3043,7 +3092,8 @@
           {
             "map": "safari_northwest",
             "x": 1087,
-            "y": 1216
+            "y": 1216,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3093,14 +3143,14 @@
           {
             "map": "safari_north",
             "x": 735,
-            "y": 1214
+            "y": 1214,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
         "name": "Safari Zone Northeast Encounters",
         "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
-        "visibility_rules": ["$safari_visibility"],
         "sections":
         [
           {
@@ -3154,14 +3204,14 @@
           {
             "map": "safari_northeast",
             "x": 1184,
-            "y": 893
+            "y": 893,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
         "name": "Safari Zone Southeast Encounters",
         "access_rules": ["$lilycove_access,pokeblock_case,defeat_champion","$lilycove_access,pokeblock_case,safari_on"],
-        "visibility_rules": ["$safari_visibility"],
         "sections":
         [
           {
@@ -3224,8 +3274,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 1, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3257,7 +3307,8 @@
           {
             "map": "safari_southeast",
             "x": 1152,
-            "y": 383
+            "y": 383,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3292,8 +3343,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3318,8 +3369,9 @@
           },
           {
             "map": "lilycove",
-            "x": 2223,
-            "y": 594
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3351,8 +3403,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3377,8 +3429,9 @@
           },
           {
             "map": "rt_122",
-            "x": 320,
-            "y": 562
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3464,18 +3517,18 @@
           },
           {
             "name": "Mt Pyre Summit Encounter 1, 58.3%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           },
           {
             "name": "Mt Pyre Summit Encounter 2, 25%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           },
           {
             "name": "Mt Pyre Summit Encounter 3, 16.6%",
-            "chest_unopened_img": "/images/locations/sootgrass.png",
-            "chest_opened_img": "/images/locations/sootgrass_bw.png"
+            "chest_unopened_img": "/images/locations/grass.png",
+            "chest_opened_img": "/images/locations/grass_bw.png"
           }
         ],
         "map_locations":
@@ -3486,6 +3539,170 @@
             "y": 57
           }
         ]
+      },
+      {
+          "name": "Mt. Pyre Interior 1F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 1F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 1F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_1f",
+                  "x": 32,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 2F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 2F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 2F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_2f",
+                  "x": 270,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 3F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 3F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 3F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_3f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 4F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 4F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 4F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 4F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 4F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_4f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 5F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 5F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 5F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 5F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 5F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_5f",
+                  "x": 224,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 6F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 6F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 6F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_6f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Exterior Encounters​",
+          "sections": [
+              {
+                  "name": "Mt Pyre Exterior Encounter 1, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 1, 33.3%"
+              },
+              {
+                  "name": "Mt Pyre Exterior Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 2, 33.3%"
+              },
+              {
+                  "name": "Mt Pyre Exterior Encounter 3, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 3, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_ext",
+                  "x": 561,
+                  "y": 1026,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Summit Encounters",
+          "sections": [
+              {
+                  "name": "Mt Pyre Summit Encounter 1, 58.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 1, 58.3%"
+              },
+              {
+                  "name": "Mt Pyre Summit Encounter 2, 25%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 2, 25%"
+              },
+              {
+                  "name": "Mt Pyre Summit Encounter 3, 16.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 3, 16.6%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_summit",
+                  "x": 48,
+                  "y": 80,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
       },
       {
         "name": "Route 123 Encounters",
@@ -3550,8 +3767,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 30%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3571,12 +3788,14 @@
           {
             "map": "rt_123",
             "x": 1395,
-            "y": 721
+            "y": 721,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_123",
             "x": 971,
-            "y": 1403
+            "y": 1403,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3608,8 +3827,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3653,6 +3872,80 @@
         ]
       },
       {
+          "name": "Route 124 Encounters Above",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Surf Encounter 1, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 1, 20%"
+                      },
+                      {
+                          "name": "Surf Encounter 2, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 2, 40%"
+                      },
+                      {
+                          "name": "Surf Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 3, 40%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 1, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Old-Good Rod Encounter 1, 50%-33.3%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 2, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Old-Good Rod Encounter 2, 50%-33.3%"
+                      },
+                      {
+                          "name": "Good-Super Rod Encounter 3, 33.3%-80%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Good-Super Rod Encounter 3, 33.3%-80%"
+                      },
+                      {
+                          "name": "Super Rod Encounter 4, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Super Rod Encounter 4, 20%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_124",
+                          "x": 2426,
+                          "y": 1059,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Route 124 Encounters Underwater",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Dive Encounter 1, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 1, 40%"
+                      },
+                      {
+                          "name": "Dive Encounter 2, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 2, 20%"
+                      },
+                      {
+                          "name": "Dive Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 3, 40%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_124_underwater",
+                          "x": 32,
+                          "y": 32,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
         "name": "Route 125 Encounters",
         "access_rules": ["$route_124_access"],
         "sections":
@@ -3680,8 +3973,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3707,7 +4000,8 @@
           {
             "map": "rt_125",
             "x": 288,
-            "y": 1218
+            "y": 1218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3742,8 +4036,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3768,8 +4062,9 @@
           },
           {
             "map": "mossdeep",
-            "x": 185,
-            "y": 1148
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3819,8 +4114,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3839,13 +4134,15 @@
           },
           {
             "map": "shoal_cave_entrance_high",
-            "x": 1039,
-            "y": 880
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "shoal_cave_entrance_low",
-            "x": 1039,
-            "y": 880
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3895,8 +4192,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -3916,12 +4213,14 @@
           {
             "map": "shoal_cave_inner_room_high",
             "x": 705,
-            "y": 1044
+            "y": 1044,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "shoal_cave_inner_room_low",
             "x": 705,
-            "y": 1044
+            "y": 1044,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3956,7 +4255,8 @@
           {
             "map": "shoal_cave_stairs_room",
             "x": 580,
-            "y": 343
+            "y": 343,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3991,7 +4291,8 @@
           {
             "map": "shoal_cave_lower_room",
             "x": 749,
-            "y": 260
+            "y": 260,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4031,7 +4332,8 @@
           {
             "map": "shoal_cave_ice_room",
             "x": 591,
-            "y": 146
+            "y": 146,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4063,8 +4365,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4108,6 +4410,81 @@
         ]
       },
       {
+          "name": "Route 126 Encounters Above",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Surf Encounter 1, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 1, 20%"
+                      },
+                      {
+                          "name": "Surf Encounter 2, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 2, 40%"
+                      },
+                      {
+                          "name": "Surf Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 3, 40%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 1, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Old-Good Rod Encounter 1, 50%-33.3%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 2, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Old-Good Rod Encounter 2, 50%-33.3%"
+                      },
+                      {
+                          "name": "Good-Super Rod Encounter 3, 33.3%-80%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Good-Super Rod Encounter 3, 33.3%-80%"
+                      },
+                      {
+                          "name": "Super Rod Encounter 4, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Super Rod Encounter 4, 20%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_126",
+                          "x": 2452,
+                          "y": 231,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Route 126 Encounters Underwater",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Dive Encounter 1, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 1, 40%"
+                      },
+                      {
+                          "name": "Dive Encounter 2, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 2, 20%"
+                      },
+                      {
+                          "name": "Dive Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 3, 40%"
+                      }
+
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_126_underwater",
+                          "x": 32,
+                          "y": 32,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
         "name": "Sootopolis City Encounters",
         "access_rules": ["$sootopolis_access"],
         "sections":
@@ -4116,7 +4493,7 @@
             "name": "Surf Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Old Rod Encounter 1, 50%",
@@ -4126,8 +4503,8 @@
           },
           {
             "name": "Old-Good-Super Rod Encounter 2, 50%-100%-40%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod","super_rod"]
           },
           {
@@ -4146,8 +4523,9 @@
           },
           {
             "map": "sootopolis",
-            "x": 1272,
-            "y": 1728
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4176,8 +4554,9 @@
           },
           {
             "map": "cave_of_origin_entrance",
-            "x": 445,
-            "y": 473
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4211,8 +4590,9 @@
           },
           {
             "map": "cave_of_origin_1f",
-            "x": 393,
-            "y": 362
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4244,8 +4624,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4270,8 +4650,9 @@
           },
           {
             "map": "rt_127",
-            "x": 1723,
-            "y": 590
+            "x": 64,
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4306,8 +4687,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4327,7 +4708,8 @@
           {
             "map": "seafloor_cavern_ent",
             "x": 282,
-            "y": 65
+            "y": 65,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4356,8 +4738,9 @@
           },
           {
             "map": "seafloor_cavern_1",
-            "x": 282,
-            "y": 65
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4386,8 +4769,9 @@
           },
           {
             "map": "seafloor_cavern_2",
-            "x": 282,
-            "y": 65
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4416,8 +4800,9 @@
           },
           {
             "map": "seafloor_cavern_3",
-            "x": 218,
-            "y": 60
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4446,8 +4831,9 @@
           },
           {
             "map": "seafloor_cavern_4",
-            "x": 264,
-            "y": 62
+            "x": 16,
+            "y": 286,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4476,8 +4862,9 @@
           },
           {
             "map": "seafloor_cavern_5",
-            "x": 250,
-            "y": 65
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4522,8 +4909,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4542,8 +4929,9 @@
           },
           {
             "map": "seafloor_cavern_6",
-            "x": 341,
-            "y": 64
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4588,8 +4976,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4608,8 +4996,9 @@
           },
           {
             "map": "seafloor_cavern_7",
-            "x": 328,
-            "y": 72
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4638,8 +5027,9 @@
           },
           {
             "map": "seafloor_cavern_8",
-            "x": 146,
-            "y": 62
+            "x": 16,
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4671,8 +5061,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4704,7 +5094,8 @@
           {
             "map": "rt_128",
             "x": 1919,
-            "y": 86
+            "y": 86,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4741,8 +5132,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4767,8 +5158,9 @@
           },
           {
             "map": "rt_129",
-            "x": 1766,
-            "y": 135
+            "x": 64,
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4805,8 +5197,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4831,8 +5223,9 @@
           },
           {
             "map": "rt_130",
-            "x": 762,
-            "y": 115
+            "x": 64,
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4864,8 +5257,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -4891,7 +5284,8 @@
           {
             "map": "rt_131",
             "x": 182,
-            "y": 1175
+            "y": 1175,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4931,7 +5325,8 @@
           {
             "map": "sky_pillar_1f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4971,7 +5366,8 @@
           {
             "map": "sky_pillar_3f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5016,7 +5412,8 @@
           {
             "map": "sky_pillar_5f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5048,8 +5445,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5074,8 +5471,9 @@
           },
           {
             "map": "pacifidlog",
-            "x": 319,
-            "y": 240
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5107,8 +5505,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5140,7 +5538,8 @@
           {
             "map": "rt_132",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5172,8 +5571,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5205,7 +5604,8 @@
           {
             "map": "rt_133",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5237,8 +5637,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5270,26 +5670,27 @@
           {
             "map": "rt_134",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
         "name": "Ever Grande City Encounters",
-        "access_rules": ["$victory_road_access"],
+        "access_rules": ["$route_124_access", "$victory_road_access"],
         "sections":
         [
           {
             "name": "Surf Encounter 1, 20%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 2, 40%",
             "chest_unopened_img": "/images/locations/surfing.png",
             "chest_opened_img": "/images/locations/surfing_bw.png",
-        "access_rules": ["$surf"]
+            "access_rules": ["$surf"]
           },
           {
             "name": "Surf Encounter 3, 40%",
@@ -5311,8 +5712,8 @@
           },
           {
             "name": "Good-Super Rod Encounter 3, 33.3%-20%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["good_rod","super_rod"]
           },
           {
@@ -5337,8 +5738,9 @@
           },
           {
             "map": "evergrande",
-            "x": 895,
-            "y": 1868
+            "x": 48,
+            "y": 48,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5398,7 +5800,8 @@
           {
             "map": "victory_road_1f",
             "x": 45,
-            "y": 184
+            "y": 184,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5438,7 +5841,8 @@
           {
             "map": "victory_road_b1f",
             "x": 38,
-            "y": 170
+            "y": 170,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5480,8 +5884,8 @@
           },
           {
             "name": "Old-Good Rod Encounter 2, 50%-33.3%",
-            "chest_unopened_img": "//images/items/old_rod.png",
-            "chest_opened_img": "//images/items/old_rod_bw.png",
+            "chest_unopened_img": "/images/items/old_rod.png",
+            "chest_opened_img": "/images/items/old_rod_bw.png",
             "access_rules": ["old_rod","good_rod"]
           },
           {
@@ -5507,14 +5911,54 @@
           {
             "map": "victory_road_b2f",
             "x": 38,
-            "y": 170
+            "y": 170,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
+          "name": "Artisan Cave B1F Encounter",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Artisan Cave B1F Encounter 1, 100%​",
+                          "ref": "Encounters Normalized/Artisan Cave Encounters​/Artisan Cave B1F Encounter 1, 100%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "artisan_cave_b1f",
+                          "x": 32,
+                          "y": 32
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Artisan Cave 1F Encounter",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Artisan Cave 1F Encounter 1, 100%​",
+                          "ref": "Encounters Normalized/Artisan Cave Encounters​/Artisan Cave 1F Encounter 1, 100%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "artisan_cave_1f",
+                          "x": 32,
+                          "y": 32
+                      }
+                  ]
+              }
+          ]
+      },
+      {
         "name": "Desert Tunnel Encounters",
         "access_rules": ["defeat_champion,$fallarbor_access"],
-        "visibility_rules": ["$goal_not|champion"],
         "sections":
         [
           {
@@ -5542,8 +5986,9 @@
           },
           {
             "map": "desert_underpass",
-            "x": 496,
-            "y": 481
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5568,7 +6013,8 @@
           {
             "map": "encountermap",
             "x": 188,
-            "y": 116
+            "y": 116,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       }

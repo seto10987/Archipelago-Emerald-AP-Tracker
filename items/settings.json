@@ -1,1182 +1,1282 @@
 [
-  {
-    "name": "Goal",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/beat.png",
-        "codes": "goal,goal_champion",
-        "inherit_codes": false,
-        "name": "Goal - Defeat Champion"
-      },
-      {
-        "img": "/images/settings/steven.png",
-        "img_mods": "overlay|/images/overlays/beat.png",
-        "codes": "goal,goal_steven",
-        "inherit_codes": false,
-        "name": "Goal - Defeat Steven"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/beat.png",
-        "codes": "goal,goal_norman",
-        "inherit_codes": false,
-        "name": "Goal - Defeat Norman"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/hunt.png",
-        "codes": "goal,goal_legendary_hunt",
-        "inherit_codes": false,
-        "name": "Goal - Legendary Hunt"
-      }
-    ]
-  },
-  {
-    "name": "Badges Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 2,
-    "stages":
-    [
-      {
-        "img": "/images/settings/badge.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "badges_setting,badges_off",
-        "inherit_codes": false,
-        "name": "Badges Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/badge.png",
-        "img_mods": "overlay|/images/overlays/shuffle.png",
-        "codes": "badges_setting,badges_shuffle",
-        "inherit_codes": false,
-        "name": "Badges Shuffled - Badge Locations"
-      },
-      {
-        "img": "/images/settings/badge.png",
-        "img_mods": "overlay|/images/overlays/any.png",
-        "codes": "badges_setting,badges_any",
-        "inherit_codes": false,
-        "name": "Badges Shuffled - Anywhere"
-      }
-    ]
-  },
-  {
-    "name": "HMs Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 2,
-    "stages":
-    [
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "hms_setting,hms_off",
-        "inherit_codes": false,
-        "name": "HMs Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/shuffle.png",
-        "codes": "hms_setting,hms_shuffle",
-        "inherit_codes": false,
-        "name": "HMs Shuffled - HM Locations"
-      },
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/any.png",
-        "codes": "hms_setting,hms_any",
-        "inherit_codes": false,
-        "name": "HMs Shuffled - Anywhere"
-      }
-    ]
-  },
-  {
-    "name": "Key Items Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 1,
-    "stages":
-    [
-      {
-        "img": "/images/settings/key_item.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "key_items_setting,key_items_off",
-        "inherit_codes": false,
-        "name": "Key Items Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/key_item.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "key_items_setting,key_items_on",
-        "inherit_codes": false,
-        "name": "Key Items Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Bikes Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/bike.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "bikes_setting,bikes_off",
-        "inherit_codes": false,
-        "name": "Bikes Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/bike.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "bikes_setting,bikes_on",
-        "inherit_codes": false,
-        "name": "Bikes Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Event Tickets Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/ticket.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "tickets_setting,tickets_off",
-        "inherit_codes": false,
-        "name": "Event Tickets Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/ticket.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "tickets_setting,tickets_on",
-        "inherit_codes": false,
-        "name": "Event Tickets Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Rods Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/rod.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "rods_setting,rods_off",
-        "inherit_codes": false,
-        "name": "Rods Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/rod.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "rods_setting,rods_on",
-        "inherit_codes": false,
-        "name": "Rods Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Overworld Items Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 1,
-    "stages":
-    [
-      {
-        "img": "/images/settings/overworld.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "overworld_setting,overworld_off",
-        "inherit_codes": false,
-        "name": "Overworld Items Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/overworld.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "overworld_setting,overworld_on",
-        "inherit_codes": false,
-        "name": "Overworld Items Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Hidden Items Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/hidden.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "hidden_setting,hidden_off",
-        "inherit_codes": false,
-        "name": "Hidden Items Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/hidden.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "hidden_setting,hidden_on",
-        "inherit_codes": false,
-        "name": "Hidden Items Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "NPC Gifts Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/gift.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "gifts_setting,gifts_off",
-        "inherit_codes": false,
-        "name": "NPC Gifts Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/gift.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "gifts_setting,gifts_on",
-        "inherit_codes": false,
-        "name": "NPC Gifts Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Berry Trees Shuffled",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/berry.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "berries_setting,berries_off",
-        "inherit_codes": false,
-        "name": "Berry Trees Shuffled - Off"
-      },
-      {
-        "img": "/images/settings/berry.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "berries_setting,berries_on",
-        "inherit_codes": false,
-        "name": "Berry Trees Shuffled - On"
-      }
-    ]
-  },
-  {
-    "name": "Dexsanity",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/pokedex.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "pokedex_setting,pokedex_off",
-        "inherit_codes": false,
-        "name": "Dexsanity - Off"
-      },
-      {
-        "img": "/images/settings/pokedex.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "pokedex_setting,pokedex_on",
-        "inherit_codes": false,
-        "name": "Dexsanity - On"
-      }
-    ]
-  },
-  {
-    "name": "Trainersanity",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/trainer.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "trainers_setting,trainers_off",
-        "inherit_codes": false,
-        "name": "Trainersanity - Off"
-      },
-      {
-        "img": "/images/settings/trainer.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "trainers_setting,trainers_on",
-        "inherit_codes": false,
-        "name": "Trainersanity - On"
-      }
-    ]
-  },
-  {
-    "name": "Itemfinder Required",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 1,
-    "stages":
-    [
-      {
-        "img": "/images/settings/itemfinder.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "itemfinder_setting,itemfinder_off",
-        "inherit_codes": false,
-        "name": "Itemfinder Required - Off"
-      },
-      {
-        "img": "/images/settings/itemfinder.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "itemfinder_setting,itemfinder_on",
-        "inherit_codes": false,
-        "name": "Itemfinder Required - On"
-      }
-    ]
-  },
-  {
-    "name": "HM05 Flash Required",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "initial_stage_idx": 3,
-    "stages":
-    [
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/none.png,@disabled",
-        "codes": "flash_setting,flash_none",
-        "inherit_codes": false,
-        "name": "HM05 Flash Required - None"
-      },
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/cave.png",
-        "codes": "flash_setting,flash_cave",
-        "inherit_codes": false,
-        "name": "HM05 Flash Required - Granite Cave"
-      },
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/road.png",
-        "codes": "flash_setting,flash_road",
-        "inherit_codes": false,
-        "name": "HM05 Flash Required - Victory Road"
-      },
-      {
-        "img": "/images/settings/hm.png",
-        "img_mods": "overlay|/images/overlays/both.png",
-        "codes": "flash_setting,flash_both",
-        "inherit_codes": false,
-        "name": "HM05 Flash Required - Both"
-      }
-    ]
-  },
-  {
-    "name": "Elite Four Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/badge.png",
-        "codes":"e4_req_setting,e4_req_badges",
-        "inherit_codes": false,
-        "name": "Elite Four Requirement - Badges"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
-        "codes":"e4_req_setting,e4_req_gyms",
-        "inherit_codes": false,
-        "name": "Elite Four Requirement - Gyms"
-      }
-    ]
-  },
-  {
-    "name": "Elite Four Requirement Amount",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": false,
-    "initial_stage_idx": 8,
-    "stages":
-    [
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/0.png",
-        "codes":"e4_req_count",
-        "name": "Elite Four Requirement Amount - 0"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/1.png",
-        "name": "Elite Four Requirement Amount - 1"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/2.png",
-        "name": "Elite Four Requirement Amount - 2"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/3.png",
-        "name": "Elite Four Requirement Amount - 3"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/4.png",
-        "name": "Elite Four Requirement Amount - 4"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/5.png",
-        "name": "Elite Four Requirement Amount - 5"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/6.png",
-        "name": "Elite Four Requirement Amount - 6"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/7.png",
-        "name": "Elite Four Requirement Amount - 7"
-      },
-      {
-        "img": "/images/settings/wallace.png",
-        "img_mods": "overlay|/images/overlays/8.png",
-        "name": "Elite Four Requirement Amount - 8"
-      }
-    ]
-  },
-  {
-    "name": "Norman Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/badge.png",
-        "codes":"norman_req_setting,norman_req_badges",
-        "inherit_codes": false,
-        "name": "Norman Requirement - Badges"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/gym.png",
-        "codes":"norman_req_setting,norman_req_gyms",
-        "inherit_codes": false,
-        "name": "Norman Requirement - Gyms"
-      }
-    ]
-  },
-  {
-    "name": "Norman Requirement Amount",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": false,
-    "initial_stage_idx": 4,
-    "stages":
-    [
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/0.png",
-        "codes":"norman_req_count",
-        "name": "Norman Requirement Amount - 0"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/1.png",
-        "name": "Norman Requirement Amount - 1"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/2.png",
-        "name": "Norman Requirement Amount - 2"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/3.png",
-        "name": "Norman Requirement Amount - 3"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/4.png",
-        "name": "Norman Requirement Amount - 4"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/5.png",
-        "name": "Norman Requirement Amount - 5"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/6.png",
-        "name": "Norman Requirement Amount - 6"
-      },
-      {
-        "img": "/images/settings/norman.png",
-        "img_mods": "overlay|/images/overlays/7.png",
-        "name": "Norman Requirement Amount - 7"
-      }
-    ]
-  },
-  {
-    "name": "Legendary Hunt Requirement",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/red_x.png",
-        "codes":"legendary_hunt_req_setting,legendary_hunt_req_defeat",
-        "inherit_codes": false,
-        "name": "Legendary Hunt Requirement - Defeat"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/pokeball.png",
-        "codes":"legendary_hunt_req_setting,legendary_hunt_req_catch",
-        "inherit_codes": false,
-        "name": "Legendary Hunt Requirement - Catch"
-      }
-    ]
-  },
-  {
-    "name": "Legendary Hunt Requirement Amount",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": false,
-    "initial_stage_idx": 2,
-    "stages":
-    [
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/1.png",
-        "codes":"legendary_hunt_req_count",
-        "name": "Legendary Hunt Requirement Amount - 1"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/2.png",
-        "name": "Legendary Hunt Requirement Amount - 2"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/3.png",
-        "name": "Legendary Hunt Requirement Amount - 3"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/4.png",
-        "name": "Legendary Hunt Requirement Amount - 4"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/5.png",
-        "name": "Legendary Hunt Requirement Amount - 5"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/6.png",
-        "name": "Legendary Hunt Requirement Amount - 6"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/7.png",
-        "name": "Legendary Hunt Requirement Amount - 7"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/8.png",
-        "name": "Legendary Hunt Requirement Amount - 8"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/9.png",
-        "name": "Legendary Hunt Requirement Amount - 9"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/10.png",
-        "name": "Legendary Hunt Requirement Amount - 10"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/11.png",
-        "name": "Legendary Hunt Requirement Amount - 11"
-      },
-      {
-        "img": "/images/settings/deoxys.png",
-        "img_mods": "overlay|/images/overlays/12.png",
-        "name": "Legendary Hunt Requirement Amount - 12"
-      }
-    ]
-  },
-  {
-    "name": "Remove Route 110 Aqua Grunts",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_110.png,@disabled",
-        "codes": "rt_110_grunts_setting,rt_110_grunts_off",
-        "inherit_codes": false,
-        "name": "Remove Route 110 Aqua Grunts - Off"
-      },
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_110.png",
-        "codes": "rt_110_grunts_setting,rt_110_grunts_on",
-        "inherit_codes": false,
-        "name": "Remove Route 110 Aqua Grunts - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Route 112 Magma Grunts",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/magma_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_112.png,@disabled",
-        "codes": "rt_112_grunts_setting,rt_112_grunts_off",
-        "inherit_codes": false,
-        "name": "Remove Route 112 Magma Grunts - Off"
-      },
-      {
-        "img": "/images/settings/magma_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_112.png",
-        "codes": "rt_112_grunts_setting,rt_112_grunts_on",
-        "inherit_codes": false,
-        "name": "Remove Route 112 Magma Grunts - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Route 119 Aqua Grunts",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_119.png,@disabled",
-        "codes": "rt_119_grunts_setting,rt_119_grunts_off",
-        "inherit_codes": false,
-        "name": "Remove Route 119 Aqua Grunts - Off"
-      },
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/route_119.png",
-        "codes": "rt_119_grunts_setting,rt_119_grunts_on",
-        "inherit_codes": false,
-        "name": "Remove Route 119 Aqua Grunts - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Safari Zone Workers",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/safari.png",
-        "img_mods": "@disabled",
-        "codes": "safari_setting,safari_off",
-        "inherit_codes": false,
-        "name": "Remove Safari Zone Workers - Off"
-      },
-      {
-        "img": "/images/settings/safari.png",
-        "codes": "safari_setting,safari_on",
-        "inherit_codes": false,
-        "name": "Remove Safari Zone Workers - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Lilycove City Wailmer",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/wailmer.png",
-        "img_mods": "@disabled",
-        "codes": "wailmer_setting,wailmer_off",
-        "inherit_codes": false,
-        "name": "Remove Lilycove City Wailmer - Off"
-      },
-      {
-        "img": "/images/settings/wailmer.png",
-        "codes": "wailmer_setting,wailmer_on",
-        "inherit_codes": false,
-        "name": "Remove Lilycove City Wailmer - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Aqua Hideout Grunts",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/hide.png,@disabled",
-        "codes": "hideout_grunts_setting,hideout_grunts_off",
-        "inherit_codes": false,
-        "name": "Remove Aqua Hideout Grunts - Off"
-      },
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/hide.png",
-        "codes": "hideout_grunts_setting,hideout_grunts_on",
-        "inherit_codes": false,
-        "name": "Remove Aqua Hideout Grunts - On"
-      }
-    ]
-  },
-  {
-    "name": "Remove Seafloor Cavern Aqua Grunt",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/sea.png,@disabled",
-        "codes": "sea_floor_grunts_setting,sea_floor_grunts_off",
-        "inherit_codes": false,
-        "name": "Remove Seafloor Cavern Aqua Grunt - Off"
-      },
-      {
-        "img": "/images/settings/aqua_grunt.png",
-        "img_mods": "overlay|/images/overlays/sea.png",
-        "codes": "sea_floor_grunts_setting,sea_floor_grunts_on",
-        "inherit_codes": false,
-        "name": "Remove Seafloor Cavern Aqua Grunt - On"
-      }
-    ]
-  },
-  {
-    "name": "Route 115 Extra Boulders",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/boulder.png",
-        "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
-        "codes": "route_115_boulders_setting,route_115_boulders_off",
-        "inherit_codes": false,
-        "name": "Route 115 Extra Boulders - Off"
-      },
-      {
-        "img": "/images/settings/boulder.png",
-        "img_mods": "overlay|/images/overlays/route_115.png",
-        "codes": "route_115_boulders_setting,route_115_boulders_on",
-        "inherit_codes": false,
-        "name": "Route 115 Extra Boulders - On"
-      }
-    ]
-  },
-  {
-    "name": "Route 115 Bumpy Slope",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/bumpy_slope.png",
-        "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
-        "codes": "route_115_bumpy_slope_setting,route_115_bumpy_slope_off",
-        "inherit_codes": false,
-        "name": "Route 115 Bumpy Slope - Off"
-      },
-      {
-        "img": "/images/settings/bumpy_slope.png",
-        "img_mods": "overlay|/images/overlays/route_115.png",
-        "codes": "route_115_bumpy_slope_setting,route_115_bumpy_slope_on",
-        "inherit_codes": false,
-        "name": "Route 115 Bumpy Slope - On"
-      }
-    ]
-  },
-  {
-    "name": "Route 118 Bike Rails",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/rail.png",
-        "img_mods": "overlay|/images/overlays/route_118.png,@disabled",
-        "codes": "route_118_rails_setting,route_118_rails_off",
-        "inherit_codes": false,
-        "name": "Route 118 Bike Rails - Off"
-      },
-      {
-        "img": "/images/settings/rail.png",
-        "img_mods": "overlay|/images/overlays/route_118.png",
-        "codes": "route_118_rails_setting,route_118_rails_on",
-        "inherit_codes": false,
-        "name": "Route 118 Bike Rails - On"
-      }
-    ]
-  },
-  {
-    "name": "Fly Without Badge",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/feather_badge.png",
-        "img_mods": "overlay|/images/overlays/off.png,@disabled",
-        "codes": "feather_badge_setting,feather_badge_off",
-        "inherit_codes": false,
-        "name": "Fly Without Badge - Off"
-      },
-      {
-        "img": "/images/settings/feather_badge.png",
-        "img_mods": "overlay|/images/overlays/on.png",
-        "codes": "feather_badge_setting,feather_badge_on",
-        "inherit_codes": false,
-        "name": "Fly Without Badge - On"
-      }
-    ]
-  },
-  {
-
-    "name": "Normalize Encounter Rates",
-    "type": "progressive",
-    "allow_disabled": false,
-    "initial_stage_idx": 1,
-    "loop": true,
-    "codes": "normalize_encounters_setting",
-    "stages":
-    [
-      {
-        "name": "Normalize Encounters - Off",
-        "img": "/images/locations/grass64.png",
-        "img_mods": "overlay|/images/overlays/vanilla.png",
-        "codes": "normalize_encounters_off",
-        "inherit_codes": false
-      },
-      {
-        "name": "Normalize Encounters - On",
-        "img": "/images/locations/grass64.png",
-        "img_mods": "overlay|/images/overlays/normal.png",
-        "codes": "normalize_encounters_on",
-        "inherit_codes": false
-      }
-    ]
-  },
-  {
-    "name": "Free Fly Location",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
-        "img": "/images/settings/free_fly_none.png",
-        "codes": "free_fly_setting,free_fly_none",
-        "inherit_codes": false,
-        "name": "Free Fly Location - None"
-      },
-      {
-        "img": "/images/settings/free_fly_slateport.png",
-        "codes": "free_fly_setting,free_fly_slateport",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Slateport"
-      },
-      {
-        "img": "/images/settings/free_fly_mauville.png",
-        "codes": "free_fly_setting,free_fly_mauville",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Mauville"
-      },
-      {
-        "img": "/images/settings/free_fly_verdanturf.png",
-        "codes": "free_fly_setting,free_fly_verdanturf",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Verdanturf"
-      },
-      {
-        "img": "/images/settings/free_fly_fallarbor.png",
-        "codes": "free_fly_setting,free_fly_fallarbor",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Fallarbor"
-      },
-      {
-        "img": "/images/settings/free_fly_lavaridge.png",
-        "codes": "free_fly_setting,free_fly_lavaridge",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Lavaridge"
-      },
-      {
-        "img": "/images/settings/free_fly_fortree.png",
-        "codes": "free_fly_setting,free_fly_fortree",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Fortree"
-      },
-      {
-        "img": "/images/settings/free_fly_lilycove.png",
-        "codes": "free_fly_setting,free_fly_lilycove",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Lilycove"
-      },
-      {
-        "img": "/images/settings/free_fly_mossdeep.png",
-        "codes": "free_fly_setting,free_fly_mossdeep",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Mossdeep"
-      },
-      {
-        "img": "/images/settings/free_fly_sootopolis.png",
-        "codes": "free_fly_setting,free_fly_sootopolis",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Sootopolis"
-      },
-      {
-        "img": "/images/settings/free_fly_ever_grande.png",
-        "codes": "free_fly_setting,free_fly_ever_grande",
-        "inherit_codes": false,
-        "name": "Free Fly Location - Ever Grande"
-      }
-    ]
-  },
-  {
-    "name": "Terra Cave Location",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
+    {
+        "name": "Goal",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/beat.png",
+                "codes": "goal,goal_champion",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Champion"
+            },
+            {
+                "img": "/images/settings/steven.png",
+                "img_mods": "overlay|/images/overlays/beat.png",
+                "codes": "goal,goal_steven",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Steven"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/beat.png",
+                "codes": "goal,goal_norman",
+                "inherit_codes": false,
+                "name": "Goal - Defeat Norman"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/hunt.png",
+                "codes": "goal,goal_legendary_hunt",
+                "inherit_codes": false,
+                "name": "Goal - Legendary Hunt"
+            }
+        ]
+    },
+    {
+        "name": "Badges Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "/images/settings/badge.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "badges_setting,badges_off",
+                "inherit_codes": false,
+                "name": "Badges Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/badge.png",
+                "img_mods": "overlay|/images/overlays/shuffle.png",
+                "codes": "badges_setting,badges_shuffle",
+                "inherit_codes": false,
+                "name": "Badges Shuffled - Badge Locations"
+            },
+            {
+                "img": "/images/settings/badge.png",
+                "img_mods": "overlay|/images/overlays/any.png",
+                "codes": "badges_setting,badges_any",
+                "inherit_codes": false,
+                "name": "Badges Shuffled - Anywhere"
+            }
+        ]
+    },
+    {
+        "name": "HMs Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "hms_setting,hms_off",
+                "inherit_codes": false,
+                "name": "HMs Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/shuffle.png",
+                "codes": "hms_setting,hms_shuffle",
+                "inherit_codes": false,
+                "name": "HMs Shuffled - HM Locations"
+            },
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/any.png",
+                "codes": "hms_setting,hms_any",
+                "inherit_codes": false,
+                "name": "HMs Shuffled - Anywhere"
+            }
+        ]
+    },
+    {
+        "name": "Key Items Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "/images/settings/key_item.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "key_items_setting,key_items_off",
+                "inherit_codes": false,
+                "name": "Key Items Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/key_item.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "key_items_setting,key_items_on",
+                "inherit_codes": false,
+                "name": "Key Items Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Bikes Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/bike.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "bikes_setting,bikes_off",
+                "inherit_codes": false,
+                "name": "Bikes Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/bike.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "bikes_setting,bikes_on",
+                "inherit_codes": false,
+                "name": "Bikes Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Event Tickets Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/ticket.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "tickets_setting,tickets_off",
+                "inherit_codes": false,
+                "name": "Event Tickets Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/ticket.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "tickets_setting,tickets_on",
+                "inherit_codes": false,
+                "name": "Event Tickets Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Rods Shuffled",
+        "type": "progressive",
+        "initial_stage_idx": 1,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/rod.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "rods_setting,rods_off",
+                "inherit_codes": false,
+                "name": "Rods Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/rod.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "rods_setting,rods_on",
+                "inherit_codes": false,
+                "name": "Rods Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Overworld Items Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "/images/settings/overworld.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "overworld_setting,overworld_off",
+                "inherit_codes": false,
+                "name": "Overworld Items Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/overworld.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "overworld_setting,overworld_on",
+                "inherit_codes": false,
+                "name": "Overworld Items Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Hidden Items Shuffled",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/hidden.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "hidden_setting,hidden_off",
+                "inherit_codes": false,
+                "name": "Hidden Items Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/hidden.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "hidden_setting,hidden_on",
+                "inherit_codes": false,
+                "name": "Hidden Items Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "NPC Gifts Shuffled",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/gift.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "gifts_setting,gifts_off",
+                "inherit_codes": false,
+                "name": "NPC Gifts Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/gift.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "gifts_setting,gifts_on",
+                "inherit_codes": false,
+                "name": "NPC Gifts Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Berry Trees Shuffled",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/berry.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "berries_setting,berries_off",
+                "inherit_codes": false,
+                "name": "Berry Trees Shuffled - Off"
+            },
+            {
+                "img": "/images/settings/berry.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "berries_setting,berries_on",
+                "inherit_codes": false,
+                "name": "Berry Trees Shuffled - On"
+            }
+        ]
+    },
+    {
+        "name": "Dexsanity",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/pokedex.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "pokedex_setting,pokedex_off",
+                "inherit_codes": false,
+                "name": "Dexsanity - Off"
+            },
+            {
+                "img": "/images/settings/pokedex.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "pokedex_setting,pokedex_on",
+                "inherit_codes": false,
+                "name": "Dexsanity - On"
+            }
+        ]
+    },
+    {
+        "name": "Trainersanity",
+        "type": "progressive",
+        "initial_stage_idx": 0,
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/trainer.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "trainers_setting,trainers_off",
+                "inherit_codes": false,
+                "name": "Trainersanity - Off"
+            },
+            {
+                "img": "/images/settings/trainer.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "trainers_setting,trainers_on",
+                "inherit_codes": false,
+                "name": "Trainersanity - On"
+            }
+        ]
+    },
+    {
+        "name": "Itemfinder Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "/images/settings/itemfinder.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "itemfinder_setting,itemfinder_off",
+                "inherit_codes": false,
+                "name": "Itemfinder Required - Off"
+            },
+            {
+                "img": "/images/settings/itemfinder.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "itemfinder_setting,itemfinder_on",
+                "inherit_codes": false,
+                "name": "Itemfinder Required - On"
+            }
+        ]
+    },
+    {
+        "name": "HM05 Flash Required",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "initial_stage_idx": 3,
+        "stages": [
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/none.png,@disabled",
+                "codes": "flash_setting,flash_none",
+                "inherit_codes": false,
+                "name": "HM05 Flash Required - None"
+            },
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/cave.png",
+                "codes": "flash_setting,flash_cave",
+                "inherit_codes": false,
+                "name": "HM05 Flash Required - Granite Cave"
+            },
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/road.png",
+                "codes": "flash_setting,flash_road",
+                "inherit_codes": false,
+                "name": "HM05 Flash Required - Victory Road"
+            },
+            {
+                "img": "/images/settings/hm.png",
+                "img_mods": "overlay|/images/overlays/both.png",
+                "codes": "flash_setting,flash_both",
+                "inherit_codes": false,
+                "name": "HM05 Flash Required - Both"
+            }
+        ]
+    },
+    {
+        "name": "Elite Four Requirement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/badge.png",
+                "codes": "e4_req_setting,e4_req_badges",
+                "inherit_codes": false,
+                "name": "Elite Four Requirement - Badges"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/gym.png",
+                "codes": "e4_req_setting,e4_req_gyms",
+                "inherit_codes": false,
+                "name": "Elite Four Requirement - Gyms"
+            }
+        ]
+    },
+    {
+        "name": "Elite Four Requirement Amount",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 8,
+        "stages": [
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/0.png",
+                "codes": "e4_req_count",
+                "name": "Elite Four Requirement Amount - 0"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/1.png",
+                "name": "Elite Four Requirement Amount - 1"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/2.png",
+                "name": "Elite Four Requirement Amount - 2"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/3.png",
+                "name": "Elite Four Requirement Amount - 3"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/4.png",
+                "name": "Elite Four Requirement Amount - 4"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/5.png",
+                "name": "Elite Four Requirement Amount - 5"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/6.png",
+                "name": "Elite Four Requirement Amount - 6"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/7.png",
+                "name": "Elite Four Requirement Amount - 7"
+            },
+            {
+                "img": "/images/settings/wallace.png",
+                "img_mods": "overlay|/images/overlays/8.png",
+                "name": "Elite Four Requirement Amount - 8"
+            }
+        ]
+    },
+    {
+        "name": "Norman Requirement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/badge.png",
+                "codes": "norman_req_setting,norman_req_badges",
+                "inherit_codes": false,
+                "name": "Norman Requirement - Badges"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/gym.png",
+                "codes": "norman_req_setting,norman_req_gyms",
+                "inherit_codes": false,
+                "name": "Norman Requirement - Gyms"
+            }
+        ]
+    },
+    {
+        "name": "Norman Requirement Amount",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 4,
+        "stages": [
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/0.png",
+                "codes": "norman_req_count",
+                "name": "Norman Requirement Amount - 0"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/1.png",
+                "name": "Norman Requirement Amount - 1"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/2.png",
+                "name": "Norman Requirement Amount - 2"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/3.png",
+                "name": "Norman Requirement Amount - 3"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/4.png",
+                "name": "Norman Requirement Amount - 4"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/5.png",
+                "name": "Norman Requirement Amount - 5"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/6.png",
+                "name": "Norman Requirement Amount - 6"
+            },
+            {
+                "img": "/images/settings/norman.png",
+                "img_mods": "overlay|/images/overlays/7.png",
+                "name": "Norman Requirement Amount - 7"
+            }
+        ]
+    },
+    {
+        "name": "Legendary Hunt Requirement",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/red_x.png",
+                "codes": "legendary_hunt_req_setting,legendary_hunt_req_defeat",
+                "inherit_codes": false,
+                "name": "Legendary Hunt Requirement - Defeat"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/pokeball.png",
+                "codes": "legendary_hunt_req_setting,legendary_hunt_req_catch",
+                "inherit_codes": false,
+                "name": "Legendary Hunt Requirement - Catch"
+            }
+        ]
+    },
+    {
+        "name": "Legendary Hunt Requirement Amount",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": false,
+        "initial_stage_idx": 2,
+        "stages": [
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/1.png",
+                "codes": "legendary_hunt_req_count",
+                "name": "Legendary Hunt Requirement Amount - 1"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/2.png",
+                "name": "Legendary Hunt Requirement Amount - 2"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/3.png",
+                "name": "Legendary Hunt Requirement Amount - 3"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/4.png",
+                "name": "Legendary Hunt Requirement Amount - 4"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/5.png",
+                "name": "Legendary Hunt Requirement Amount - 5"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/6.png",
+                "name": "Legendary Hunt Requirement Amount - 6"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/7.png",
+                "name": "Legendary Hunt Requirement Amount - 7"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/8.png",
+                "name": "Legendary Hunt Requirement Amount - 8"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/9.png",
+                "name": "Legendary Hunt Requirement Amount - 9"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/10.png",
+                "name": "Legendary Hunt Requirement Amount - 10"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/11.png",
+                "name": "Legendary Hunt Requirement Amount - 11"
+            },
+            {
+                "img": "/images/settings/deoxys.png",
+                "img_mods": "overlay|/images/overlays/12.png",
+                "name": "Legendary Hunt Requirement Amount - 12"
+            }
+        ]
+    },
+    {
+        "name": "Remove Route 110 Aqua Grunts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_110.png,@disabled",
+                "codes": "rt_110_grunts_setting,rt_110_grunts_off",
+                "inherit_codes": false,
+                "name": "Remove Route 110 Aqua Grunts - Off"
+            },
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_110.png",
+                "codes": "rt_110_grunts_setting,rt_110_grunts_on",
+                "inherit_codes": false,
+                "name": "Remove Route 110 Aqua Grunts - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Route 112 Magma Grunts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/magma_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_112.png,@disabled",
+                "codes": "rt_112_grunts_setting,rt_112_grunts_off",
+                "inherit_codes": false,
+                "name": "Remove Route 112 Magma Grunts - Off"
+            },
+            {
+                "img": "/images/settings/magma_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_112.png",
+                "codes": "rt_112_grunts_setting,rt_112_grunts_on",
+                "inherit_codes": false,
+                "name": "Remove Route 112 Magma Grunts - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Route 119 Aqua Grunts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_119.png,@disabled",
+                "codes": "rt_119_grunts_setting,rt_119_grunts_off",
+                "inherit_codes": false,
+                "name": "Remove Route 119 Aqua Grunts - Off"
+            },
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/route_119.png",
+                "codes": "rt_119_grunts_setting,rt_119_grunts_on",
+                "inherit_codes": false,
+                "name": "Remove Route 119 Aqua Grunts - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Safari Zone Workers",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/safari.png",
+                "img_mods": "@disabled",
+                "codes": "safari_setting,safari_off",
+                "inherit_codes": false,
+                "name": "Remove Safari Zone Workers - Off"
+            },
+            {
+                "img": "/images/settings/safari.png",
+                "codes": "safari_setting,safari_on",
+                "inherit_codes": false,
+                "name": "Remove Safari Zone Workers - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Lilycove City Wailmer",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/wailmer.png",
+                "img_mods": "@disabled",
+                "codes": "wailmer_setting,wailmer_off",
+                "inherit_codes": false,
+                "name": "Remove Lilycove City Wailmer - Off"
+            },
+            {
+                "img": "/images/settings/wailmer.png",
+                "codes": "wailmer_setting,wailmer_on",
+                "inherit_codes": false,
+                "name": "Remove Lilycove City Wailmer - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Aqua Hideout Grunts",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/hide.png,@disabled",
+                "codes": "hideout_grunts_setting,hideout_grunts_off",
+                "inherit_codes": false,
+                "name": "Remove Aqua Hideout Grunts - Off"
+            },
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/hide.png",
+                "codes": "hideout_grunts_setting,hideout_grunts_on",
+                "inherit_codes": false,
+                "name": "Remove Aqua Hideout Grunts - On"
+            }
+        ]
+    },
+    {
+        "name": "Remove Seafloor Cavern Aqua Grunt",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/sea.png,@disabled",
+                "codes": "sea_floor_grunts_setting,sea_floor_grunts_off",
+                "inherit_codes": false,
+                "name": "Remove Seafloor Cavern Aqua Grunt - Off"
+            },
+            {
+                "img": "/images/settings/aqua_grunt.png",
+                "img_mods": "overlay|/images/overlays/sea.png",
+                "codes": "sea_floor_grunts_setting,sea_floor_grunts_on",
+                "inherit_codes": false,
+                "name": "Remove Seafloor Cavern Aqua Grunt - On"
+            }
+        ]
+    },
+    {
+        "name": "Route 115 Extra Boulders",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/boulder.png",
+                "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
+                "codes": "route_115_boulders_setting,route_115_boulders_off",
+                "inherit_codes": false,
+                "name": "Route 115 Extra Boulders - Off"
+            },
+            {
+                "img": "/images/settings/boulder.png",
+                "img_mods": "overlay|/images/overlays/route_115.png",
+                "codes": "route_115_boulders_setting,route_115_boulders_on",
+                "inherit_codes": false,
+                "name": "Route 115 Extra Boulders - On"
+            }
+        ]
+    },
+    {
+        "name": "Route 115 Bumpy Slope",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/bumpy_slope.png",
+                "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
+                "codes": "route_115_bumpy_slope_setting,route_115_bumpy_slope_off",
+                "inherit_codes": false,
+                "name": "Route 115 Bumpy Slope - Off"
+            },
+            {
+                "img": "/images/settings/bumpy_slope.png",
+                "img_mods": "overlay|/images/overlays/route_115.png",
+                "codes": "route_115_bumpy_slope_setting,route_115_bumpy_slope_on",
+                "inherit_codes": false,
+                "name": "Route 115 Bumpy Slope - On"
+            }
+        ]
+    },
+    {
+        "name": "Route 118 Bike Rails",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/rail.png",
+                "img_mods": "overlay|/images/overlays/route_118.png,@disabled",
+                "codes": "route_118_rails_setting,route_118_rails_off",
+                "inherit_codes": false,
+                "name": "Route 118 Bike Rails - Off"
+            },
+            {
+                "img": "/images/settings/rail.png",
+                "img_mods": "overlay|/images/overlays/route_118.png",
+                "codes": "route_118_rails_setting,route_118_rails_on",
+                "inherit_codes": false,
+                "name": "Route 118 Bike Rails - On"
+            }
+        ]
+    },
+    {
+        "name": "Fly Without Badge",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/feather_badge.png",
+                "img_mods": "overlay|/images/overlays/off.png,@disabled",
+                "codes": "feather_badge_setting,feather_badge_off",
+                "inherit_codes": false,
+                "name": "Fly Without Badge - Off"
+            },
+            {
+                "img": "/images/settings/feather_badge.png",
+                "img_mods": "overlay|/images/overlays/on.png",
+                "codes": "feather_badge_setting,feather_badge_on",
+                "inherit_codes": false,
+                "name": "Fly Without Badge - On"
+            }
+        ]
+    },
+    {
+        "name": "Normalize Encounter Rates",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "normalize_encounters_setting",
+        "stages": [
+            {
+                "name": "Normalize Encounters - Off",
+                "img": "/images/locations/grass64.png",
+                "img_mods": "overlay|/images/overlays/vanilla.png",
+                "codes": "normalize_encounters_off",
+                "inherit_codes": false
+            },
+            {
+                "name": "Normalize Encounters - On",
+                "img": "/images/locations/grass64.png",
+                "img_mods": "overlay|/images/overlays/normal.png",
+                "codes": "normalize_encounters_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "name": "Free Fly Location",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/free_fly_none.png",
+                "codes": "free_fly_setting,free_fly_none",
+                "inherit_codes": false,
+                "name": "Free Fly Location - None"
+            },
+            {
+                "img": "/images/settings/free_fly_slateport.png",
+                "codes": "free_fly_setting,free_fly_slateport",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Slateport"
+            },
+            {
+                "img": "/images/settings/free_fly_mauville.png",
+                "codes": "free_fly_setting,free_fly_mauville",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Mauville"
+            },
+            {
+                "img": "/images/settings/free_fly_verdanturf.png",
+                "codes": "free_fly_setting,free_fly_verdanturf",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Verdanturf"
+            },
+            {
+                "img": "/images/settings/free_fly_fallarbor.png",
+                "codes": "free_fly_setting,free_fly_fallarbor",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Fallarbor"
+            },
+            {
+                "img": "/images/settings/free_fly_lavaridge.png",
+                "codes": "free_fly_setting,free_fly_lavaridge",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Lavaridge"
+            },
+            {
+                "img": "/images/settings/free_fly_fortree.png",
+                "codes": "free_fly_setting,free_fly_fortree",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Fortree"
+            },
+            {
+                "img": "/images/settings/free_fly_lilycove.png",
+                "codes": "free_fly_setting,free_fly_lilycove",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Lilycove"
+            },
+            {
+                "img": "/images/settings/free_fly_mossdeep.png",
+                "codes": "free_fly_setting,free_fly_mossdeep",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Mossdeep"
+            },
+            {
+                "img": "/images/settings/free_fly_sootopolis.png",
+                "codes": "free_fly_setting,free_fly_sootopolis",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Sootopolis"
+            },
+            {
+                "img": "/images/settings/free_fly_ever_grande.png",
+                "codes": "free_fly_setting,free_fly_ever_grande",
+                "inherit_codes": false,
+                "name": "Free Fly Location - Ever Grande"
+            }
+        ]
+    },
+    {
+        "name": "Terra Cave Location",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/groudon.png",
+                "img_mods": "overlay|/images/overlays/unknown.png",
+                "codes": "terra_cave_setting,terra_cave_unknown",
+                "inherit_codes": false,
+                "name": "Terra Cave Location - Unknown"
+            },
+            {
+                "img": "/images/settings/groudon.png",
+                "img_mods": "overlay|/images/overlays/route_114.png",
+                "codes": "terra_cave_setting,terra_cave_route_114",
+                "inherit_codes": false,
+                "name": "Terra Cave Location - Route 114"
+            },
+            {
+                "img": "/images/settings/groudon.png",
+                "img_mods": "overlay|/images/overlays/route_115.png",
+                "codes": "terra_cave_setting,terra_cave_route_115",
+                "inherit_codes": false,
+                "name": "Terra Cave Location - Route 115"
+            },
+            {
+                "img": "/images/settings/groudon.png",
+                "img_mods": "overlay|/images/overlays/route_116.png",
+                "codes": "terra_cave_setting,terra_cave_route_116",
+                "inherit_codes": false,
+                "name": "Terra Cave Location - Route 116"
+            },
+            {
+                "img": "/images/settings/groudon.png",
+                "img_mods": "overlay|/images/overlays/route_118.png",
+                "codes": "terra_cave_setting,terra_cave_route_118",
+                "inherit_codes": false,
+                "name": "Terra Cave Location - Route 118"
+            }
+        ]
+    },
+    {
+        "name": "Marine Cave Location",
+        "type": "progressive",
+        "allow_disabled": false,
+        "loop": true,
+        "stages": [
+            {
+                "img": "/images/settings/kyogre.png",
+                "img_mods": "overlay|/images/overlays/unknown.png",
+                "codes": "marine_cave_setting,marine_cave_unknown",
+                "inherit_codes": false,
+                "name": "Marine Cave Location - Unknown"
+            },
+            {
+                "img": "/images/settings/kyogre.png",
+                "img_mods": "overlay|/images/overlays/route_105.png",
+                "codes": "marine_cave_setting,marine_cave_route_105",
+                "inherit_codes": false,
+                "name": "Marine Cave Location - Route 105"
+            },
+            {
+                "img": "/images/settings/kyogre.png",
+                "img_mods": "overlay|/images/overlays/route_125.png",
+                "codes": "marine_cave_setting,marine_cave_route_125",
+                "inherit_codes": false,
+                "name": "Marine Cave Location - Route 125"
+            },
+            {
+                "img": "/images/settings/kyogre.png",
+                "img_mods": "overlay|/images/overlays/route_127.png",
+                "codes": "marine_cave_setting,marine_cave_route_127",
+                "inherit_codes": false,
+                "name": "Marine Cave Location - Route 127"
+            },
+            {
+                "img": "/images/settings/kyogre.png",
+                "img_mods": "overlay|/images/overlays/route_129.png",
+                "codes": "marine_cave_setting,marine_cave_route_129",
+                "inherit_codes": false,
+                "name": "Marine Cave Location - Route 129"
+            }
+        ]
+    },
+    {
+        "name": "Groudon",
+        "type": "toggle",
+        "initial_active_state": true,
         "img": "/images/settings/groudon.png",
-        "img_mods": "overlay|/images/overlays/unknown.png",
-        "codes": "terra_cave_setting,terra_cave_unknown",
-        "inherit_codes": false,
-        "name": "Terra Cave Location - Unknown"
-      },
-      {
-        "img": "/images/settings/groudon.png",
-        "img_mods": "overlay|/images/overlays/route_114.png",
-        "codes": "terra_cave_setting,terra_cave_route_114",
-        "inherit_codes": false,
-        "name": "Terra Cave Location - Route 114"
-      },
-      {
-        "img": "/images/settings/groudon.png",
-        "img_mods": "overlay|/images/overlays/route_115.png",
-        "codes": "terra_cave_setting,terra_cave_route_115",
-        "inherit_codes": false,
-        "name": "Terra Cave Location - Route 115"
-      },
-      {
-        "img": "/images/settings/groudon.png",
-        "img_mods": "overlay|/images/overlays/route_116.png",
-        "codes": "terra_cave_setting,terra_cave_route_116",
-        "inherit_codes": false,
-        "name": "Terra Cave Location - Route 116"
-      },
-      {
-        "img": "/images/settings/groudon.png",
-        "img_mods": "overlay|/images/overlays/route_118.png",
-        "codes": "terra_cave_setting,terra_cave_route_118",
-        "inherit_codes": false,
-        "name": "Terra Cave Location - Route 118"
-      }
-    ]
-  },
-  {
-    "name": "Marine Cave Location",
-    "type": "progressive",
-    "allow_disabled": false,
-    "loop": true,
-    "stages":
-    [
-      {
+        "codes": "legendary_hunt_groudon"
+    },
+    {
+        "name": "Kyogre",
+        "type": "toggle",
+        "initial_active_state": true,
         "img": "/images/settings/kyogre.png",
-        "img_mods": "overlay|/images/overlays/unknown.png",
-        "codes": "marine_cave_setting,marine_cave_unknown",
-        "inherit_codes": false,
-        "name": "Marine Cave Location - Unknown"
-      },
-      {
-        "img": "/images/settings/kyogre.png",
-        "img_mods": "overlay|/images/overlays/route_105.png",
-        "codes": "marine_cave_setting,marine_cave_route_105",
-        "inherit_codes": false,
-        "name": "Marine Cave Location - Route 105"
-      },
-      {
-        "img": "/images/settings/kyogre.png",
-        "img_mods": "overlay|/images/overlays/route_125.png",
-        "codes": "marine_cave_setting,marine_cave_route_125",
-        "inherit_codes": false,
-        "name": "Marine Cave Location - Route 125"
-      },
-      {
-        "img": "/images/settings/kyogre.png",
-        "img_mods": "overlay|/images/overlays/route_127.png",
-        "codes": "marine_cave_setting,marine_cave_route_127",
-        "inherit_codes": false,
-        "name": "Marine Cave Location - Route 127"
-      },
-      {
-        "img": "/images/settings/kyogre.png",
-        "img_mods": "overlay|/images/overlays/route_129.png",
-        "codes": "marine_cave_setting,marine_cave_route_129",
-        "inherit_codes": false,
-        "name": "Marine Cave Location - Route 129"
-      }
-    ]
-  },
-  {
-    "name": "Groudon",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/groudon.png",
-    "codes": "legendary_hunt_groudon"
-  },
-  {
-    "name": "Kyogre",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/kyogre.png",
-    "codes": "legendary_hunt_kyogre"
-  },
-  {
-    "name": "Rayquaza",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/rayquaza.png",
-    "codes": "legendary_hunt_rayquaza"
-  },
-  {
-    "name": "Latios",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/latios.png",
-    "codes": "legendary_hunt_latios"
-  },
-  {
-    "name": "Latias",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/latias.png",
-    "codes": "legendary_hunt_latias"
-  },
-  {
-    "name": "Regirock",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/regirock.png",
-    "codes": "legendary_hunt_regirock"
-  },
-  {
-    "name": "Registeel",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/registeel.png",
-    "codes": "legendary_hunt_registeel"
-  },
-  {
-    "name": "Regice",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/regice.png",
-    "codes": "legendary_hunt_regice"
-  },
-  {
-    "name": "Ho-Oh",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/ho-oh.png",
-    "codes": "legendary_hunt_ho-oh"
-  },
-  {
-    "name": "Lugia",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/lugia.png",
-    "codes": "legendary_hunt_lugia"
-  },
-  {
-    "name": "Deoxys",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/deoxys.png",
-    "codes": "legendary_hunt_deoxys"
-  },
-  {
-    "name": "Mew",
-    "type": "toggle",
-    "initial_active_state": true,
-    "img": "/images/settings/mew.png",
-    "codes": "legendary_hunt_mew"
-  },
-  {
-    "name": "Current Level",
-    "type": "progressive",
-    "img": "",
-    "disabled_img": "",
-    "codes": "cur_level_id"
-  },
-  {
-    "name": "Auto-Tab",
-    "type": "progressive",
-    "loop": true,
-    "img": "images/settings/autotab.png",
-    "initial_stage_idx": 1,
-    "disabled_img": "images/settings/autotab_off.png",
-    "codes": "tab_switch"
-  }
+        "codes": "legendary_hunt_kyogre"
+    },
+    {
+        "name": "Rayquaza",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/rayquaza.png",
+        "codes": "legendary_hunt_rayquaza"
+    },
+    {
+        "name": "Latios",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/latios.png",
+        "codes": "legendary_hunt_latios"
+    },
+    {
+        "name": "Latias",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/latias.png",
+        "codes": "legendary_hunt_latias"
+    },
+    {
+        "name": "Regirock",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/regirock.png",
+        "codes": "legendary_hunt_regirock"
+    },
+    {
+        "name": "Registeel",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/registeel.png",
+        "codes": "legendary_hunt_registeel"
+    },
+    {
+        "name": "Regice",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/regice.png",
+        "codes": "legendary_hunt_regice"
+    },
+    {
+        "name": "Ho-Oh",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/ho-oh.png",
+        "codes": "legendary_hunt_ho-oh"
+    },
+    {
+        "name": "Lugia",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/lugia.png",
+        "codes": "legendary_hunt_lugia"
+    },
+    {
+        "name": "Deoxys",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/deoxys.png",
+        "codes": "legendary_hunt_deoxys"
+    },
+    {
+        "name": "Mew",
+        "type": "toggle",
+        "initial_active_state": true,
+        "img": "/images/settings/mew.png",
+        "codes": "legendary_hunt_mew"
+    },
+    {
+        "name": "Current Level",
+        "type": "progressive",
+        "img": "",
+        "disabled_img": "",
+        "codes": "cur_level_id"
+    },
+    {
+        "name": "Auto-Tab",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "tab_switch",
+        "stages": [
+            {
+                "name": "Auto-Tab - Off",
+                "img": "images/settings/autotab.png",
+                "img_mods": "@disabled",
+                "inherit_codes": false
+            },
+            {
+                "name": "Auto-Tab - On",
+                "img": "images/settings/autotab.png",
+                "codes": "tab_switch",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/overlays/auto.png",
+        "codes": "autotab_label"
+    },
+    {
+        "name": "Overworld Map",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "codes": "split_map",
+        "stages": [
+            {
+                "name": "Overworld Map - Off",
+                "img": "images/settings/overworld_on.png",
+                "img_mods": "@disabled",
+                "codes": "split_map",
+                "inherit_codes": false
+            },
+            {
+                "name": "Overworld Map - On",
+                "img": "images/settings/overworld_on.png",
+                "codes": "split_map, split_map_overworld",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/overworld_on_label.png",
+        "codes": "overworld_on_label"
+    },
+    {
+        "name": "Encounter Map",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "loop": true,
+        "codes": "split_map",
+        "stages": [
+            {
+                "name": "Encounter Map - Off",
+                "img": "images/settings/encounter_on.png",
+                "img_mods": "@disabled",
+                "codes": "split_map",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Map - On",
+                "img": "images/settings/encounter_on.png",
+                "codes": "split_map, split_map_encounter",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/encounter_on_label.png",
+        "codes": "encounters_on_label"
+    },
+    {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "encounter_locations",
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "images/settings/encounter_locations.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_locations",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - On",
+                "img": "images/settings/encounter_locations.png",
+                "codes": "encounter_locations, encounter_locations_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/encounter_locations_label.png",
+        "codes": "encounter_locations_label"
+    },
+    {
+        "name": "Hints Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "hints_tracking",
+        "stages": [
+            {
+                "name": "Hints Tracking - Off",
+                "img": "images/settings/hints_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "hints_tracking",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hints Tracking - On",
+                "img": "images/settings/hints_tracking.png",
+                "codes": "hints_tracking, hints_tracking_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/hints_tracking_label.png",
+        "codes": "hints_tracking_label"
+    }
 ]

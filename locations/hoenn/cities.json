@@ -1,1749 +1,2319 @@
 [
-  {
-    "name": "Cities",
-    "chest_unopened_img": "/images/locations/pokeball_closed.png",
-    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
-    "children":
-    [
-      {
-        "name": "Littleroot Town",
-        "sections":
-        [
-          {
-            "name": "Pokeballs from Rival",
-            "chest_unopened_img": "/images/locations/rival_pokeball.png",
-            "chest_opened_img": "/images/locations/rival_pokeball_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Amulet Coin from Mom",
-            "chest_unopened_img": "/images/locations/mom_amulet_coin.png",
-            "chest_opened_img": "/images/locations/mom_amulet_coin_bw.png",
-            "access_rules": ["talk_mr_stone,balance_badge"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "S.S. Ticket from Norman",
-            "chest_unopened_img": "/images/locations/norman_ss_ticket.png",
-            "chest_opened_img": "/images/locations/norman_ss_ticket_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["key_items_on,$goal_not|champion"]
-          },
-          {
-            "name": "​S.S. Ticket from Norman",
-            "hosted_item": "ss_ticket_hosted",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["key_items_off,$goal_not|champion"]
-          },
-          {
-            "name": "Aurora Ticket from Norman",
-            "chest_unopened_img": "/images/locations/norman_aurora_ticket.png",
-            "chest_opened_img": "/images/locations/norman_aurora_ticket_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_on,$goal_not|champion"]
-          },
-          {
-            "name": "​Aurora Ticket from Norman",
-            "hosted_item": "aurora_ticket_hosted",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_off,$goal_not|champion"]
-          },
-          {
-            "name": "Mystic Ticket from Norman",
-            "chest_unopened_img": "/images/locations/norman_mystic_ticket.png",
-            "chest_opened_img": "/images/locations/norman_mystic_ticket_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_on,$goal_not|champion"]
-          },
-          {
-            "name": "​Mystic Ticket from Norman",
-            "hosted_item": "mystic_ticket_hosted",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_off,$goal_not|champion"]
-          },
-          {
-            "name": "Old Sea Map from Norman",
-            "chest_unopened_img": "/images/locations/norman_old_sea_map.png",
-            "chest_opened_img": "/images/locations/norman_old_sea_map_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_on,$goal_not|champion"]
-          },
-          {
-            "name": "​Old Sea Map from Norman",
-            "hosted_item": "old_sea_map_hosted",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_off,$goal_not|champion"]
-          },
-          {
-            "name": "Eon Ticket from Norman",
-            "chest_unopened_img": "/images/locations/norman_eon_ticket.png",
-            "chest_opened_img": "/images/locations/norman_eon_ticket_bw.png",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_on,$goal_not|champion"]
-          },
-          {
-            "name": "​Eon Ticket from Norman",
-            "hosted_item": "eon_ticket_hosted",
-            "access_rules": ["defeat_champion"],
-            "visibility_rules": ["tickets_off,$goal_not|champion"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 44,
-            "y": 108
-          }
+    {
+        "name": "Cities",
+        "chest_unopened_img": "/images/locations/pokeball_closed.png",
+        "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+        "children": [
+            {
+                "name": "Littleroot Town",
+                "sections": [
+                    {
+                        "name": "Pokeballs from Rival",
+                        "chest_unopened_img": "/images/locations/rival_pokeball.png",
+                        "chest_opened_img": "/images/locations/rival_pokeball_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Amulet Coin from Mom",
+                        "chest_unopened_img": "/images/locations/mom_amulet_coin.png",
+                        "chest_opened_img": "/images/locations/mom_amulet_coin_bw.png",
+                        "access_rules": [
+                            "talk_mr_stone,balance_badge"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "S.S. Ticket from Norman",
+                        "chest_unopened_img": "/images/locations/norman_ss_ticket.png",
+                        "chest_opened_img": "/images/locations/norman_ss_ticket_bw.png",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​S.S. Ticket from Norman",
+                        "hosted_item": "ss_ticket_hosted",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "Aurora Ticket from Norman",
+                        "chest_unopened_img": "/images/locations/norman_aurora_ticket.png",
+                        "chest_opened_img": "/images/locations/norman_aurora_ticket_bw.png",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_on"
+                        ]
+                    },
+                    {
+                        "name": "​Aurora Ticket from Norman",
+                        "hosted_item": "aurora_ticket_hosted",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_off"
+                        ]
+                    },
+                    {
+                        "name": "Mystic Ticket from Norman",
+                        "chest_unopened_img": "/images/locations/norman_mystic_ticket.png",
+                        "chest_opened_img": "/images/locations/norman_mystic_ticket_bw.png",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_on"
+                        ]
+                    },
+                    {
+                        "name": "​Mystic Ticket from Norman",
+                        "hosted_item": "mystic_ticket_hosted",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_off"
+                        ]
+                    },
+                    {
+                        "name": "Old Sea Map from Norman",
+                        "chest_unopened_img": "/images/locations/norman_old_sea_map.png",
+                        "chest_opened_img": "/images/locations/norman_old_sea_map_bw.png",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_on"
+                        ]
+                    },
+                    {
+                        "name": "​Old Sea Map from Norman",
+                        "hosted_item": "old_sea_map_hosted",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_off"
+                        ]
+                    },
+                    {
+                        "name": "Eon Ticket from Norman",
+                        "chest_unopened_img": "/images/locations/norman_eon_ticket.png",
+                        "chest_opened_img": "/images/locations/norman_eon_ticket_bw.png",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_on"
+                        ]
+                    },
+                    {
+                        "name": "​Eon Ticket from Norman",
+                        "hosted_item": "eon_ticket_hosted",
+                        "access_rules": [
+                            "defeat_champion"
+                        ],
+                        "visibility_rules": [
+                            "tickets_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 108
+                    }
+                ]
+            },
+            {
+                "name": "Oldale Town",
+                "sections": [
+                    {
+                        "name": "Gift from Shop Tutorial",
+                        "chest_unopened_img": "/images/locations/poke_mart_clerk_potion.png",
+                        "chest_opened_img": "/images/locations/poke_mart_clerk_potion_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Petalburg City",
+                "sections": [
+                    {
+                        "name": "Item Past Pond North",
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item Past Pond South",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "$surf,[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Item Past Pond South",
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Norman (Event)",
+                        "hosted_item": "defeat_norman_hosted",
+                        "access_rules": [
+                            "$has_norman_req"
+                        ],
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Balance Badge",
+                        "chest_unopened_img": "/images/locations/norman_balance_badge.png",
+                        "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
+                        "access_rules": [
+                            "$has_norman_req"
+                        ],
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Balance Badge",
+                        "hosted_item": "balance_badge_hosted",
+                        "access_rules": [
+                            "$has_norman_req"
+                        ],
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM42 from Norman",
+                        "chest_unopened_img": "/images/locations/norman_normal_tm.png",
+                        "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
+                        "access_rules": [
+                            "$has_norman_req"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "HM03 from Wally's Uncle",
+                        "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
+                        "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
+                        "access_rules": [
+                            "defeat_norman"
+                        ],
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM03 from Wally's Uncle",
+                        "hosted_item": "hm03_surf_hosted",
+                        "access_rules": [
+                            "defeat_norman"
+                        ],
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 92
+                    }
+                ]
+            },
+            {
+                "name": "Petalburg Gym",
+                "access_rules": [
+                    "$has_norman_req"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Cooltrainer Randall",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Mary",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Parker",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Alexia",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer George",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Jody",
+                        "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Berke",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Norman (Event)",
+                        "hosted_item": "defeat_norman_hosted"
+                    },
+                    {
+                        "name": "Leader Norman",
+                        "chest_unopened_img": "/images/locations/norman.png",
+                        "chest_opened_img": "/images/locations/norman_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Balance Badge",
+                        "chest_unopened_img": "/images/locations/norman_balance_badge.png",
+                        "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Balance Badge",
+                        "hosted_item": "balance_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM42 from Norman",
+                        "chest_unopened_img": "/images/locations/norman_normal_tm.png",
+                        "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 20,
+                        "y": 84
+                    }
+                ]
+            },
+            {
+                "name": "Rustboro City",
+                "sections": [
+                    {
+                        "name": "Item Behind Fences",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Gift from Boy in Apartments",
+                        "chest_unopened_img": "/images/locations/boy_premier_ball.png",
+                        "chest_opened_img": "/images/locations/boy_premier_ball_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "HM01 from Cutter's House",
+                        "chest_unopened_img": "/images/locations/cutter_normal_hm.png",
+                        "chest_opened_img": "/images/locations/cutter_normal_hm_bw.png",
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM01 from Cutter's House",
+                        "hosted_item": "hm01_cut_hosted",
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    },
+                    {
+                        "name": "Quick Claw from School Teacher",
+                        "chest_unopened_img": "/images/locations/school_teacher_quick_claw.png",
+                        "chest_opened_img": "/images/locations/school_teacher_quick_claw_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Roxanne (Event)",
+                        "hosted_item": "defeat_roxanne_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Stone Badge",
+                        "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
+                        "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Stone Badge",
+                        "hosted_item": "stone_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM39 from Roxanne",
+                        "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
+                        "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Return Devon Goods (Event)",
+                        "hosted_item": "return_devon_goods_hosted",
+                        "access_rules": [
+                            "recover_devon_goods"
+                        ]
+                    },
+                    {
+                        "name": "Gift from Devon Employee",
+                        "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
+                        "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
+                        "access_rules": [
+                            "defeat_roxanne"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Talk to Mr. Stone (Event)",
+                        "hosted_item": "talk_mr_stone_hosted",
+                        "access_rules": [
+                            "return_devon_goods"
+                        ]
+                    },
+                    {
+                        "name": "Letter from Mr. Stone",
+                        "chest_unopened_img": "/images/locations/mr_stone_letter.png",
+                        "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
+                        "access_rules": [
+                            "return_devon_goods"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Letter from Mr. Stone",
+                        "hosted_item": "letter_hosted",
+                        "access_rules": [
+                            "return_devon_goods"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "Exp. Share from Mr. Stone",
+                        "chest_unopened_img": "/images/locations/mr_stone_exp_share.png",
+                        "chest_opened_img": "/images/locations/mr_stone_exp_share_bw.png",
+                        "access_rules": [
+                            "deliver_letter"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Rival Brendan or May",
+                        "chest_unopened_img": "/images/locations/rival.png",
+                        "chest_opened_img": "/images/locations/rival_bw.png",
+                        "access_rules": [
+                            "return_devon_goods"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Rustboro Gym",
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Youngster Josh",
+                        "chest_unopened_img": "/images/locations/youngster.png",
+                        "chest_opened_img": "/images/locations/youngster_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Youngster Tommy",
+                        "chest_unopened_img": "/images/locations/youngster.png",
+                        "chest_opened_img": "/images/locations/youngster_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Hiker Marc",
+                        "chest_unopened_img": "/images/locations/hiker.png",
+                        "chest_opened_img": "/images/locations/hiker_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Roxanne (Event)",
+                        "hosted_item": "defeat_roxanne_hosted"
+                    },
+                    {
+                        "name": "Leader Roxanne",
+                        "chest_unopened_img": "/images/locations/roxanne.png",
+                        "chest_opened_img": "/images/locations/roxanne_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Stone Badge",
+                        "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
+                        "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Stone Badge",
+                        "hosted_item": "stone_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM39 from Roxanne",
+                        "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
+                        "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 12,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Dewford Town",
+                "access_rules": [
+                    "$dewford_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Silk Scarf from Man in House",
+                        "chest_unopened_img": "/images/locations/man_silk_scarf.png",
+                        "chest_opened_img": "/images/locations/man_silk_scarf_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Old Rod from Fisherman",
+                        "chest_unopened_img": "/images/locations/fisherman_old_rod.png",
+                        "chest_opened_img": "/images/locations/fisherman_old_rod_bw.png",
+                        "visibility_rules": [
+                            "rods_on"
+                        ]
+                    },
+                    {
+                        "name": "​Old Rod from Fisherman",
+                        "hosted_item": "old_rod_hosted",
+                        "visibility_rules": [
+                            "rods_off"
+                        ]
+                    },
+                    {
+                        "name": "TM36 from Sludge Bomb Man",
+                        "chest_unopened_img": "/images/locations/man_poison_tm.png",
+                        "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
+                        "access_rules": [
+                            "defeat_norman"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Brawly (Event)",
+                        "hosted_item": "defeat_brawly_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Knuckle Badge",
+                        "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
+                        "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Knuckle Badge",
+                        "hosted_item": "knuckle_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM08 from Brawly",
+                        "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
+                        "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 28,
+                        "y": 132
+                    }
+                ]
+            },
+            {
+                "name": "Dewford Gym",
+                "access_rules": [
+                    "$dewford_access"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Battle Girl Laura",
+                        "chest_unopened_img": "/images/locations/battle_girl.png",
+                        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Sailor Brenden",
+                        "chest_unopened_img": "/images/locations/sailor.png",
+                        "chest_opened_img": "/images/locations/sailor_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Battle Girl Lilith",
+                        "chest_unopened_img": "/images/locations/battle_girl.png",
+                        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Black Belt Takao",
+                        "chest_unopened_img": "/images/locations/black_belt.png",
+                        "chest_opened_img": "/images/locations/black_belt_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Black Belt Cristian",
+                        "chest_unopened_img": "/images/locations/black_belt.png",
+                        "chest_opened_img": "/images/locations/black_belt_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Battle Girl Jocelyn",
+                        "chest_unopened_img": "/images/locations/battle_girl.png",
+                        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Brawly (Event)",
+                        "hosted_item": "defeat_brawly_hosted"
+                    },
+                    {
+                        "name": "Leader Brawly",
+                        "chest_unopened_img": "/images/locations/brawly.png",
+                        "chest_opened_img": "/images/locations/brawly_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Knuckle Badge",
+                        "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
+                        "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Knuckle Badge",
+                        "hosted_item": "knuckle_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM08 from Brawly",
+                        "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
+                        "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 28,
+                        "y": 140
+                    }
+                ]
+            },
+            {
+                "name": "Slateport City",
+                "access_rules": [
+                    "$slateport_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Powder Jar from Lady in Market",
+                        "chest_unopened_img": "/images/locations/woman_powder_jar.png",
+                        "chest_opened_img": "/images/locations/woman_powder_jar_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Soothe Bell from Woman in Fan Club",
+                        "chest_unopened_img": "/images/locations/woman_soothe_bell.png",
+                        "chest_opened_img": "/images/locations/woman_soothe_bell_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Buy Harbor Mail",
+                        "hosted_item": "harbor_mail_hosted"
+                    },
+                    {
+                        "name": "Talk to Dock (Event)",
+                        "hosted_item": "talk_to_dock_hosted",
+                        "access_rules": [
+                            "devon_goods"
+                        ]
+                    },
+                    {
+                        "name": "TM46 from Aqua Grunt in Museum",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_dark_tm.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_dark_tm_bw.png",
+                        "access_rules": [
+                            "talk_to_dock"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Aqua Grunts",
+                        "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+                        "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+                        "item_count": 2,
+                        "clear_as_group": false,
+                        "access_rules": [
+                            "talk_to_dock"
+                        ],
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Rescue Captain Stern (Event)",
+                        "hosted_item": "rescue_stern_hosted",
+                        "access_rules": [
+                            "talk_to_dock"
+                        ]
+                    },
+                    {
+                        "name": "TM41 from Sailor in Battle Tent",
+                        "chest_unopened_img": "/images/locations/sailor_dark_tm.png",
+                        "chest_opened_img": "/images/locations/sailor_dark_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Team Aqua Steals Submarine (Event)",
+                        "hosted_item": "aqua_steals_submarine_hosted",
+                        "access_rules": [
+                            "release_groudon"
+                        ]
+                    },
+                    {
+                        "name": "Deep Sea Scale from Capt. Stern",
+                        "chest_unopened_img": "/images/locations/captain_stern_deep_sea_scale.png",
+                        "chest_opened_img": "/images/locations/captain_stern_deep_sea_scale_bw.png",
+                        "access_rules": [
+                            "aqua_steals_submarine,scanner,mind_badge"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Deep Sea Tooth from Capt. Stern",
+                        "chest_unopened_img": "/images/locations/captain_stern_deep_sea_tooth.png",
+                        "chest_opened_img": "/images/locations/captain_stern_deep_sea_tooth_bw.png",
+                        "access_rules": [
+                            "aqua_steals_submarine,scanner,mind_badge"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 104
+                    }
+                ]
+            },
+            {
+                "name": "Mauville City",
+                "access_rules": [
+                    "$mauville_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Coin Case from Lady in House",
+                        "chest_unopened_img": "/images/locations/lady_coin_case.png",
+                        "chest_opened_img": "/images/locations/lady_coin_case_bw.png",
+                        "access_rules": [
+                            "[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "HM06 from Rock Smash Guy",
+                        "chest_unopened_img": "/images/locations/rock_smash_guy_fighting_hm.png",
+                        "chest_opened_img": "/images/locations/rock_smash_guy_fighting_hm_bw.png",
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM06 from Rock Smash Guy",
+                        "hosted_item": "hm06_rock_smash_hosted",
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Basement Key from Wattson",
+                        "chest_unopened_img": "/images/locations/wattson_basement_key.png",
+                        "chest_opened_img": "/images/locations/wattson_basement_key_bw.png",
+                        "access_rules": [
+                            "defeat_norman"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Basement Key from Wattson",
+                        "hosted_item": "basement_key_hosted",
+                        "access_rules": [
+                            "defeat_norman"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    },
+                    {
+                        "name": "TM24 from Wattson",
+                        "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+                        "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+                        "access_rules": [
+                            "defeat_norman,@Dungeons/New Mauville/Turn off Generator"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Acro Bike",
+                        "chest_unopened_img": "/images/locations/bike_shop_owner_acro_bike.png",
+                        "chest_opened_img": "/images/locations/bike_shop_owner_acro_bike_bw.png",
+                        "visibility_rules": [
+                            "bikes_on"
+                        ]
+                    },
+                    {
+                        "name": "​Acro Bike",
+                        "hosted_item": "acro_bike_hosted",
+                        "visibility_rules": [
+                            "bikes_off"
+                        ]
+                    },
+                    {
+                        "name": "Mach Bike",
+                        "chest_unopened_img": "/images/locations/bike_shop_owner_mach_bike.png",
+                        "chest_opened_img": "/images/locations/bike_shop_owner_mach_bike_bw.png",
+                        "visibility_rules": [
+                            "bikes_on"
+                        ]
+                    },
+                    {
+                        "name": "​Mach Bike",
+                        "hosted_item": "mach_bike_hosted",
+                        "visibility_rules": [
+                            "bikes_off"
+                        ]
+                    },
+                    {
+                        "name": "Rival Wally",
+                        "chest_unopened_img": "/images/locations/wally.png",
+                        "chest_opened_img": "/images/locations/wally_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Wattson (Event)",
+                        "hosted_item": "defeat_wattson_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Dynamo Badge",
+                        "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
+                        "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Dynamo Badge",
+                        "hosted_item": "dynamo_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM34 from Wattson",
+                        "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+                        "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 84,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Mauville Gym",
+                "access_rules": [
+                    "$mauville_access"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Battle Girl Vivian",
+                        "chest_unopened_img": "/images/locations/battle_girl.png",
+                        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Guitarist Kirk",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Youngster Ben",
+                        "chest_unopened_img": "/images/locations/youngster.png",
+                        "chest_opened_img": "/images/locations/youngster_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Bug Maniac Angelo",
+                        "chest_unopened_img": "/images/locations/fossil_maniac.png",
+                        "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Guitarist Shawn",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Wattson (Event)",
+                        "hosted_item": "defeat_wattson_hosted"
+                    },
+                    {
+                        "name": "Leader Wattson",
+                        "chest_unopened_img": "/images/locations/wattson.png",
+                        "chest_opened_img": "/images/locations/wattson_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Dynamo Badge",
+                        "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
+                        "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Dynamo Badge",
+                        "hosted_item": "dynamo_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM34 from Wattson",
+                        "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+                        "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 76,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Fallarbor Town",
+                "access_rules": [
+                    "$fallarbor_access"
+                ],
+                "sections": [
+                    {
+                        "name": "TM27 from Cozmo",
+                        "chest_unopened_img": "/images/locations/cozmo_normal_tm.png",
+                        "chest_opened_img": "/images/locations/cozmo_normal_tm_bw.png",
+                        "access_rules": [
+                            "defeat_maxie_mt_chimney,meteorite"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item in Crater",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 36,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Lavaridge Town",
+                "access_rules": [
+                    "$lavaridge_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Hidden Item in Springs",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Charcoal from Man",
+                        "chest_unopened_img": "/images/locations/old_man_charcoal.png",
+                        "chest_opened_img": "/images/locations/old_man_charcoal_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Flannery (Event)",
+                        "hosted_item": "defeat_flannery_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Heat Badge",
+                        "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
+                        "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Heat Badge",
+                        "hosted_item": "heat_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM50 from Flannery",
+                        "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
+                        "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Go Goggles from Rival",
+                        "chest_unopened_img": "/images/locations/rival_go_goggles.png",
+                        "chest_opened_img": "/images/locations/rival_go_goggles_bw.png",
+                        "access_rules": [
+                            "defeat_flannery"
+                        ],
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Go Goggles from Rival",
+                        "hosted_item": "go_goggles_hosted",
+                        "access_rules": [
+                            "defeat_flannery"
+                        ],
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 52,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Lavaridge Gym",
+                "access_rules": [
+                    "$lavaridge_access"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Kindler Jeff",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Kindler Jace",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Hiker Eli",
+                        "chest_unopened_img": "/images/locations/hiker.png",
+                        "chest_opened_img": "/images/locations/hiker_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Kindler Cole",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Cooltrainer Gerald",
+                        "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+                        "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Kindler Axle",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Kindler Keegan",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Battle Girl Danielle",
+                        "chest_unopened_img": "/images/locations/battle_girl.png",
+                        "chest_opened_img": "/images/locations/battle_girl_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Flannery (Event)",
+                        "hosted_item": "defeat_flannery_hosted"
+                    },
+                    {
+                        "name": "Leader Flannery",
+                        "chest_unopened_img": "/images/locations/flannery.png",
+                        "chest_opened_img": "/images/locations/flannery_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Heat Badge",
+                        "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
+                        "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Heat Badge",
+                        "hosted_item": "heat_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM50 from Flannery",
+                        "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
+                        "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 52,
+                        "y": 52
+                    }
+                ]
+            },
+            {
+                "name": "Verdanturf Town",
+                "access_rules": [
+                    "$mauville_access"
+                ],
+                "sections": [
+                    {
+                        "name": "TM45 from Woman in Battle Tent",
+                        "chest_unopened_img": "/images/locations/girl_normal_tm.png",
+                        "chest_opened_img": "/images/locations/girl_normal_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 44,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Fortree City",
+                "access_rules": [
+                    "$fortree_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Dig Move Tutor",
+                        "visibility_rules": [
+                            "invisible"
+                        ]
+                    },
+                    {
+                        "name": "TM10 from Hidden Power Lady",
+                        "chest_unopened_img": "/images/locations/old_lady_normal_tm.png",
+                        "chest_opened_img": "/images/locations/old_lady_normal_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Wingull Quest 1 (Event)",
+                        "hosted_item": "wingull_quest_1_hosted"
+                    },
+                    {
+                        "name": "Wingull Delivery Reward",
+                        "chest_unopened_img": "/images/locations/man_mental_herb.png",
+                        "chest_opened_img": "/images/locations/man_mental_herb_bw.png",
+                        "access_rules": [
+                            "wingull_quest_2"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Winona (Event)",
+                        "hosted_item": "defeat_winona_hosted",
+                        "access_rules": [
+                            "$fortree_access,devon_scope"
+                        ],
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Feather Badge",
+                        "chest_unopened_img": "/images/locations/winona_feather_badge.png",
+                        "access_rules": [
+                            "$fortree_access,devon_scope"
+                        ],
+                        "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Feather Badge",
+                        "hosted_item": "feather_badge_hosted",
+                        "access_rules": [
+                            "$fortree_access,devon_scope"
+                        ],
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM40 from Winona",
+                        "chest_unopened_img": "/images/locations/winona_flying_tm.png",
+                        "access_rules": [
+                            "$fortree_access,devon_scope"
+                        ],
+                        "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 108,
+                        "y": 20
+                    }
+                ]
+            },
+            {
+                "name": "Fortree Gym",
+                "access_rules": [
+                    "$fortree_access,devon_scope"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Bird Keeper Humberto",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Picnicker Ashley",
+                        "chest_unopened_img": "/images/locations/picnicker.png",
+                        "chest_opened_img": "/images/locations/picnicker_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Bird Keeper Jared",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Camper Flint",
+                        "chest_unopened_img": "/images/locations/camper.png",
+                        "chest_opened_img": "/images/locations/camper_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Bird Keeper Edwardo",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Bird Keeper Darius",
+                        "chest_unopened_img": "/images/locations/guitarist.png",
+                        "chest_opened_img": "/images/locations/guitarist_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Winona (Event)",
+                        "hosted_item": "defeat_winona_hosted"
+                    },
+                    {
+                        "name": "Leader Winona",
+                        "chest_unopened_img": "/images/locations/winona.png",
+                        "chest_opened_img": "/images/locations/winona_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Feather Badge",
+                        "chest_unopened_img": "/images/locations/winona_feather_badge.png",
+                        "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Feather Badge",
+                        "hosted_item": "feather_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM40 from Winona",
+                        "chest_unopened_img": "/images/locations/winona_flying_tm.png",
+                        "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 108,
+                        "y": 12
+                    },
+                    {
+                        "map": "fortree",
+                        "x": 718,
+                        "y": 362,
+                        "size": 25
+                    }
+                ]
+            },
+            {
+                "name": "Lilycove City",
+                "access_rules": [
+                    "$lilycove_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Rival Brendan or May",
+                        "chest_unopened_img": "/images/locations/rival.png",
+                        "chest_opened_img": "/images/locations/rival_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Berry from Gentleman Above Ledges",
+                        "chest_unopened_img": "/images/locations/gentleman_cheri_berry.png",
+                        "chest_opened_img": "/images/locations/gentleman_cheri_berry_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "TM44 from Man in House",
+                        "chest_unopened_img": "/images/locations/man_psychic_tm.png",
+                        "chest_opened_img": "/images/locations/man_psychic_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item on Beach North",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item on Beach East",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Hidden Item on Beach West",
+                        "chest_unopened_img": "/images/locations/hidden_item.png",
+                        "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                        "access_rules": [
+                            "[$hidden]"
+                        ],
+                        "visibility_rules": [
+                            "hidden_on"
+                        ]
+                    },
+                    {
+                        "name": "Item on Peninsula",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Pokeblock Case from Contest Hall",
+                        "chest_unopened_img": "/images/locations/contest_hall_employee_pokeblock_case.png",
+                        "chest_opened_img": "/images/locations/contest_hall_employee_pokeblock_case_bw.png",
+                        "visibility_rules": [
+                            "key_items_on"
+                        ]
+                    },
+                    {
+                        "name": "​Pokeblock Case from Contest Hall",
+                        "hosted_item": "pokeblock_case_hosted",
+                        "visibility_rules": [
+                            "key_items_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 160,
+                        "y": 44
+                    }
+                ]
+            },
+            {
+                "name": "Mossdeep City",
+                "access_rules": [
+                    "$mossdeep_access"
+                ],
+                "sections": [
+                    {
+                        "name": "King's Rock from Boy",
+                        "chest_unopened_img": "/images/locations/boy_kings_rock.png",
+                        "chest_opened_img": "/images/locations/boy_kings_rock_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "Item",
+                        "visibility_rules": [
+                            "overworld_on"
+                        ]
+                    },
+                    {
+                        "name": "Wingull Quest 2 (Event)",
+                        "hosted_item": "wingull_quest_2_hosted",
+                        "access_rules": [
+                            "wingull_quest_1"
+                        ]
+                    },
+                    {
+                        "name": "Super Rod from Fisherman in House",
+                        "chest_unopened_img": "/images/locations/fisherman_super_rod.png",
+                        "chest_opened_img": "/images/locations/fisherman_super_rod_bw.png",
+                        "visibility_rules": [
+                            "rods_on"
+                        ]
+                    },
+                    {
+                        "name": "​Super Rod from Fisherman in House",
+                        "hosted_item": "super_rod_hosted",
+                        "visibility_rules": [
+                            "rods_off"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Tate & Liza (Event)",
+                        "hosted_item": "defeat_tate_and_liza_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Mind Badge",
+                        "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
+                        "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Mind Badge",
+                        "hosted_item": "mind_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM04 from Tate & Liza",
+                        "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
+                        "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Steven Gives Dive (Event)",
+                        "hosted_item": "steven_gives_dive_hosted",
+                        "access_rules": [
+                            "defeat_maxie_space_center"
+                        ]
+                    },
+                    {
+                        "name": "HM08 from Steven",
+                        "chest_unopened_img": "/images/locations/steven_water_hm.png",
+                        "chest_opened_img": "/images/locations/steven_water_hm_bw.png",
+                        "access_rules": [
+                            "defeat_maxie_space_center"
+                        ],
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM08 from Steven",
+                        "hosted_item": "hm08_dive_hosted",
+                        "access_rules": [
+                            "defeat_maxie_space_center"
+                        ],
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 208,
+                        "y": 60
+                    }
+                ]
+            },
+            {
+                "name": "Mossdeep Gym",
+                "access_rules": [
+                    "$mossdeep_access"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Psychic Preston",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Maura",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Hex Maniac Kathleen",
+                        "chest_unopened_img": "/images/locations/hex_maniac.png",
+                        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Gentleman Clifford",
+                        "chest_unopened_img": "/images/locations/gentleman.png",
+                        "chest_opened_img": "/images/locations/gentleman_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Nicholas",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Macey",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Samantha",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Blake",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Gentleman Nate",
+                        "chest_unopened_img": "/images/locations/gentleman.png",
+                        "chest_opened_img": "/images/locations/gentleman_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Virgil",
+                        "chest_unopened_img": "/images/locations/psychic_male.png",
+                        "chest_opened_img": "/images/locations/psychic_male_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Hex Maniac Sylvia",
+                        "chest_unopened_img": "/images/locations/hex_maniac.png",
+                        "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Psychic Hannah",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Tate & Liza (Event)",
+                        "hosted_item": "defeat_tate_and_liza_hosted"
+                    },
+                    {
+                        "name": "Leaders Tate & Liza",
+                        "chest_unopened_img": "/images/locations/tate_and_liza.png",
+                        "chest_opened_img": "/images/locations/tate_and_liza_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Mind Badge",
+                        "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
+                        "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Mind Badge",
+                        "hosted_item": "mind_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM04 from Tate & Liza",
+                        "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
+                        "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 200,
+                        "y": 60
+                    },
+                    {
+                        "map": "mossdeep",
+                        "x": 1231,
+                        "y": 298
+                    }
+                ]
+            },
+            {
+                "name": "Sootopolis City",
+                "access_rules": [
+                    "$sootopolis_access"
+                ],
+                "sections": [
+                    {
+                        "name": "Rayquaza Stops Fight",
+                        "access_rules": [
+                            "$dive,release_kyogre"
+                        ],
+                        "visibility_rules": [
+                            "invisible"
+                        ]
+                    },
+                    {
+                        "name": "Berries from Girl on Grass",
+                        "chest_unopened_img": "/images/locations/kiri_figy_berry.png",
+                        "chest_opened_img": "/images/locations/kiri_figy_berry_bw.png",
+                        "item_count": 2,
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "TM31 from Black Belt in House",
+                        "chest_unopened_img": "/images/locations/black_belt_fighting_tm.png",
+                        "chest_opened_img": "/images/locations/black_belt_fighting_tm_bw.png",
+                        "access_rules": [
+                            "$surf"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "HM07 from Wallace",
+                        "chest_unopened_img": "/images/locations/wallace_water_hm.png",
+                        "chest_opened_img": "/images/locations/wallace_water_hm_bw.png",
+                        "access_rules": [
+                            "@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "visibility_rules": [
+                            "hms_any",
+                            "hms_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​HM07 from Wallace",
+                        "hosted_item": "hm07_waterfall_hosted",
+                        "access_rules": [
+                            "@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "visibility_rules": [
+                            "hms_off"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Juan (Event)",
+                        "access_rules": [
+                            "$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "hosted_item": "defeat_juan_hosted",
+                        "visibility_rules": [
+                            "trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "Rain Badge",
+                        "chest_unopened_img": "/images/locations/juan_rain_badge.png",
+                        "access_rules": [
+                            "$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any,trainers_off",
+                            "badges_shuffle,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "​Rain Badge",
+                        "hosted_item": "rain_badge_hosted",
+                        "access_rules": [
+                            "$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "visibility_rules": [
+                            "badges_off,trainers_off"
+                        ]
+                    },
+                    {
+                        "name": "TM03 from Juan",
+                        "chest_unopened_img": "/images/locations/juan_water_tm.png",
+                        "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+                        "access_rules": [
+                            "$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"
+                        ],
+                        "visibility_rules": [
+                            "gifts_on,trainers_off"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 180,
+                        "y": 76
+                    }
+                ]
+            },
+            {
+                "name": "Sootopolis Gym",
+                "access_rules": [
+                    "$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"
+                ],
+                "visibility_rules": [
+                    "trainers_on"
+                ],
+                "sections": [
+                    {
+                        "name": "Beauty Connie",
+                        "chest_unopened_img": "/images/locations/beauty.png",
+                        "chest_opened_img": "/images/locations/beauty_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Lass Andrea",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Lady Daphne",
+                        "chest_unopened_img": "/images/locations/lady.png",
+                        "chest_opened_img": "/images/locations/lady_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Pokefan Annika",
+                        "chest_unopened_img": "/images/locations/pokefan_female.png",
+                        "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Beauty Tiffany",
+                        "chest_unopened_img": "/images/locations/beauty.png",
+                        "chest_opened_img": "/images/locations/beauty_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Lass Crissy",
+                        "chest_unopened_img": "/images/locations/lass.png",
+                        "chest_opened_img": "/images/locations/lass_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Pokefan Bethany",
+                        "chest_unopened_img": "/images/locations/pokefan_female.png",
+                        "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Beauty Olivia",
+                        "chest_unopened_img": "/images/locations/beauty.png",
+                        "chest_opened_img": "/images/locations/beauty_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Lady Brianna",
+                        "chest_unopened_img": "/images/locations/lady.png",
+                        "chest_opened_img": "/images/locations/lady_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Beauty Bridget",
+                        "chest_unopened_img": "/images/locations/beauty.png",
+                        "chest_opened_img": "/images/locations/beauty_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Juan (Event)",
+                        "hosted_item": "defeat_juan_hosted"
+                    },
+                    {
+                        "name": "Leader Juan",
+                        "chest_unopened_img": "/images/locations/juan.png",
+                        "chest_opened_img": "/images/locations/juan_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Rain Badge",
+                        "chest_unopened_img": "/images/locations/juan_rain_badge.png",
+                        "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
+                        "visibility_rules": [
+                            "badges_any",
+                            "badges_shuffle"
+                        ]
+                    },
+                    {
+                        "name": "​Rain Badge",
+                        "hosted_item": "rain_badge_hosted",
+                        "visibility_rules": [
+                            "badges_off"
+                        ]
+                    },
+                    {
+                        "name": "TM03 from Juan",
+                        "chest_unopened_img": "/images/locations/juan_water_tm.png",
+                        "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 180,
+                        "y": 68
+                    }
+                ]
+            },
+            {
+                "name": "Pacifidlog Town",
+                "access_rules": [
+                    "$route_124_access"
+                ],
+                "sections": [
+                    {
+                        "name": "TM27 from Man in House",
+                        "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
+                        "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    },
+                    {
+                        "name": "TM21 from Man in House",
+                        "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
+                        "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
+                        "visibility_rules": [
+                            "gifts_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 148,
+                        "y": 100
+                    },
+                    {
+                        "map": "pacifidlog",
+                        "x": 112,
+                        "y": 713
+                    },
+                    {
+                        "map": "pacifidlog_house_2",
+                        "x": 111,
+                        "y": 166
+                    }
+                ]
+            },
+            {
+                "name": "Ever Grande City",
+                "access_rules": [
+                    "$e4_access,[$flash|road]"
+                ],
+                "sections": [
+                    {
+                        "name": "Elite Four Sidney",
+                        "chest_unopened_img": "/images/locations/sidney.png",
+                        "chest_opened_img": "/images/locations/sidney_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Elite Four Phoebe",
+                        "chest_unopened_img": "/images/locations/phoebe.png",
+                        "chest_opened_img": "/images/locations/phoebe_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Elite Four Glacia",
+                        "chest_unopened_img": "/images/locations/glacia.png",
+                        "chest_opened_img": "/images/locations/glacia_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Elite Four Drake",
+                        "chest_unopened_img": "/images/locations/drake.png",
+                        "chest_opened_img": "/images/locations/drake_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    },
+                    {
+                        "name": "Defeat Champion (Event)",
+                        "hosted_item": "defeat_champion_hosted"
+                    },
+                    {
+                        "name": "Champion Wallace",
+                        "chest_unopened_img": "/images/locations/wallace.png",
+                        "chest_opened_img": "/images/locations/wallace_bw.png",
+                        "visibility_rules": [
+                            "trainers_on"
+                        ]
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hoennmap",
+                        "x": 228,
+                        "y": 84
+                    },
+                    {
+                        "map": "evergrande",
+                        "x": 1879,
+                        "y": 233
+                    },
+                    {
+                        "map": "pokemon_league_1f",
+                        "x": 319,
+                        "y": 34
+                    },
+                    {
+                        "map": "pokemon_league_hall_sydney",
+                        "x": 176,
+                        "y": 74
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "name": "Oldale Town",
-        "sections":
-        [
-          {
-            "name": "Gift from Shop Tutorial",
-            "chest_unopened_img": "/images/locations/poke_mart_clerk_potion.png",
-            "chest_opened_img": "/images/locations/poke_mart_clerk_potion_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 44,
-            "y": 92
-          }
-        ]
-      },
-      {
-        "name": "Petalburg City",
-        "sections":
-        [
-          {
-            "name": "Item Past Pond North",
-            "access_rules": ["$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Hidden Item Past Pond South",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["$surf,[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Item Past Pond South",
-            "access_rules": ["$surf"],
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Defeat Norman (Event)",
-            "hosted_item": "defeat_norman_hosted",
-            "access_rules": ["$has_norman_req"],
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Balance Badge",
-            "chest_unopened_img": "/images/locations/norman_balance_badge.png",
-            "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
-            "access_rules": ["$has_norman_req"],
-            "visibility_rules": ["badges_any,$goal_not|norman,trainers_off","badges_shuffle,$goal_not|norman,trainers_off"]
-          },
-          {
-            "name": "​Balance Badge",
-            "hosted_item": "balance_badge_hosted",
-            "access_rules": ["$has_norman_req"],
-            "visibility_rules": ["badges_off,$goal_not|norman,trainers_off"]
-          },
-          {
-            "name": "TM42 from Norman",
-            "chest_unopened_img": "/images/locations/norman_normal_tm.png",
-            "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
-            "access_rules": ["$has_norman_req"],
-            "visibility_rules": ["gifts_on,$goal_not|norman,trainers_off"]
-          },
-          {
-            "name": "HM03 from Wally's Uncle",
-            "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
-            "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["hms_any,$goal_not|norman","hms_shuffle,$goal_not|norman"]
-          },
-          {
-            "name": "​HM03 from Wally's Uncle",
-            "hosted_item": "hm03_surf_hosted",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["hms_off,$goal_not|norman"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 20,
-            "y": 92
-          }
-        ]
-      },
-      {
-        "name": "Petalburg Gym",
-        "access_rules": ["$has_norman_req"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Cooltrainer Randall",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Mary",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Parker",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Alexia",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer George",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Jody",
-            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
-            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Berke",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Norman (Event)",
-            "hosted_item": "defeat_norman_hosted"
-          },
-          {
-            "name": "Leader Norman",
-            "chest_unopened_img": "/images/locations/norman.png",
-            "chest_opened_img": "/images/locations/norman_bw.png",
-            "visibility_rules": ["trainers_on,$goal_not|norman"]
-          },
-          {
-            "name": "Balance Badge",
-            "chest_unopened_img": "/images/locations/norman_balance_badge.png",
-            "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
-            "visibility_rules": ["badges_any,$goal_not|norman","badges_shuffle,$goal_not|norman"]
-          },
-          {
-            "name": "​Balance Badge",
-            "hosted_item": "balance_badge_hosted",
-            "visibility_rules": ["badges_off,$goal_not|norman"]
-          },
-          {
-            "name": "TM42 from Norman",
-            "chest_unopened_img": "/images/locations/norman_normal_tm.png",
-            "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
-            "visibility_rules": ["gifts_on,$goal_not|norman"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 20,
-            "y": 84
-          }
-        ]
-      },
-      {
-        "name": "Rustboro City",
-        "sections":
-        [
-          {
-            "name": "Item Behind Fences",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Gift from Boy in Apartments",
-            "chest_unopened_img": "/images/locations/boy_premier_ball.png",
-            "chest_opened_img": "/images/locations/boy_premier_ball_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "HM01 from Cutter's House",
-            "chest_unopened_img": "/images/locations/cutter_normal_hm.png",
-            "chest_opened_img": "/images/locations/cutter_normal_hm_bw.png",
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​HM01 from Cutter's House",
-            "hosted_item": "hm01_cut_hosted",
-            "visibility_rules": ["hms_off"]
-          },
-          {
-            "name": "Quick Claw from School Teacher",
-            "chest_unopened_img": "/images/locations/school_teacher_quick_claw.png",
-            "chest_opened_img": "/images/locations/school_teacher_quick_claw_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Defeat Roxanne (Event)",
-            "hosted_item": "defeat_roxanne_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Stone Badge",
-            "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
-            "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Stone Badge",
-            "hosted_item": "stone_badge_hosted",
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM39 from Roxanne",
-            "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
-            "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          },
-          {
-            "name": "Return Devon Goods (Event)",
-            "hosted_item": "return_devon_goods_hosted",
-            "access_rules": ["recover_devon_goods"]
-          },
-          {
-            "name": "Gift from Devon Employee",
-            "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
-            "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
-            "access_rules": ["defeat_roxanne"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Talk to Mr. Stone (Event)",
-            "hosted_item": "talk_mr_stone_hosted",
-            "access_rules": ["return_devon_goods"]
-          },
-          {
-            "name": "Letter from Mr. Stone",
-            "chest_unopened_img": "/images/locations/mr_stone_letter.png",
-            "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
-            "access_rules": ["return_devon_goods"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Letter from Mr. Stone",
-            "hosted_item": "letter_hosted",
-            "access_rules": ["return_devon_goods"],
-            "visibility_rules": ["key_items_off"]
-          },
-          {
-            "name": "Exp. Share from Mr. Stone",
-            "chest_unopened_img": "/images/locations/mr_stone_exp_share.png",
-            "chest_opened_img": "/images/locations/mr_stone_exp_share_bw.png",
-            "access_rules": ["deliver_letter"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Rival Brendan or May",
-            "chest_unopened_img": "/images/locations/rival.png",
-            "chest_opened_img": "/images/locations/rival_bw.png",
-            "access_rules": ["return_devon_goods"],
-            "visibility_rules": ["trainers_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 68
-          }
-        ]
-      },
-      {
-        "name": "Rustboro Gym",
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Youngster Josh",
-            "chest_unopened_img": "/images/locations/youngster.png",
-            "chest_opened_img": "/images/locations/youngster_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Youngster Tommy",
-            "chest_unopened_img": "/images/locations/youngster.png",
-            "chest_opened_img": "/images/locations/youngster_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hiker Marc",
-            "chest_unopened_img": "/images/locations/hiker.png",
-            "chest_opened_img": "/images/locations/hiker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Roxanne (Event)",
-            "hosted_item": "defeat_roxanne_hosted"
-          },
-          {
-            "name": "Leader Roxanne",
-            "chest_unopened_img": "/images/locations/roxanne.png",
-            "chest_opened_img": "/images/locations/roxanne_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Stone Badge",
-            "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
-            "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Stone Badge",
-            "hosted_item": "stone_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM39 from Roxanne",
-            "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
-            "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 12,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Dewford Town",
-        "access_rules": ["$dewford_access"],
-        "sections":
-        [
-          {
-            "name": "Silk Scarf from Man in House",
-            "chest_unopened_img": "/images/locations/man_silk_scarf.png",
-            "chest_opened_img": "/images/locations/man_silk_scarf_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Old Rod from Fisherman",
-            "chest_unopened_img": "/images/locations/fisherman_old_rod.png",
-            "chest_opened_img": "/images/locations/fisherman_old_rod_bw.png",
-            "visibility_rules": ["rods_on"]
-          },
-          {
-            "name": "​Old Rod from Fisherman",
-            "hosted_item": "old_rod_hosted",
-            "visibility_rules": ["rods_off"]
-          },
-          {
-            "name": "TM36 from Sludge Bomb Man",
-            "chest_unopened_img": "/images/locations/man_poison_tm.png",
-            "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["gifts_on,$goal_not|norman"]
-          },
-          {
-            "name": "Defeat Brawly (Event)",
-            "hosted_item": "defeat_brawly_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Knuckle Badge",
-            "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
-            "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Knuckle Badge",
-            "hosted_item": "knuckle_badge_hosted",
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM08 from Brawly",
-            "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
-            "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 28,
-            "y": 132
-          }
-        ]
-      },
-      {
-        "name": "Dewford Gym",
-        "access_rules": ["$dewford_access"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Battle Girl Laura",
-            "chest_unopened_img": "/images/locations/battle_girl.png",
-            "chest_opened_img": "/images/locations/battle_girl_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Sailor Brenden",
-            "chest_unopened_img": "/images/locations/sailor.png",
-            "chest_opened_img": "/images/locations/sailor_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Battle Girl Lilith",
-            "chest_unopened_img": "/images/locations/battle_girl.png",
-            "chest_opened_img": "/images/locations/battle_girl_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Black Belt Takao",
-            "chest_unopened_img": "/images/locations/black_belt.png",
-            "chest_opened_img": "/images/locations/black_belt_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Black Belt Cristian",
-            "chest_unopened_img": "/images/locations/black_belt.png",
-            "chest_opened_img": "/images/locations/black_belt_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Battle Girl Jocelyn",
-            "chest_unopened_img": "/images/locations/battle_girl.png",
-            "chest_opened_img": "/images/locations/battle_girl_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Brawly (Event)",
-            "hosted_item": "defeat_brawly_hosted"
-          },
-          {
-            "name": "Leader Brawly",
-            "chest_unopened_img": "/images/locations/brawly.png",
-            "chest_opened_img": "/images/locations/brawly_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Knuckle Badge",
-            "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
-            "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Knuckle Badge",
-            "hosted_item": "knuckle_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM08 from Brawly",
-            "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
-            "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 28,
-            "y": 140
-          }
-        ]
-      },
-      {
-        "name": "Slateport City",
-        "access_rules": ["$slateport_access"],
-        "sections":
-        [
-          {
-            "name": "Powder Jar from Lady in Market",
-            "chest_unopened_img": "/images/locations/woman_powder_jar.png",
-            "chest_opened_img": "/images/locations/woman_powder_jar_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Soothe Bell from Woman in Fan Club",
-            "chest_unopened_img": "/images/locations/woman_soothe_bell.png",
-            "chest_opened_img": "/images/locations/woman_soothe_bell_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Buy Harbor Mail",
-            "hosted_item": "harbor_mail_hosted"
-          },
-          {
-            "name": "Talk to Dock (Event)",
-            "hosted_item": "talk_to_dock_hosted",
-            "access_rules": ["devon_goods"]
-          },
-          {
-            "name": "TM46 from Aqua Grunt in Museum",
-            "chest_unopened_img": "/images/locations/aqua_grunt_dark_tm.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_dark_tm_bw.png",
-            "access_rules": ["talk_to_dock"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Team Aqua Grunts",
-            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
-            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
-            "item_count": 2,
-            "clear_as_group": false,
-            "access_rules": ["talk_to_dock"],
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Rescue Captain Stern (Event)",
-            "hosted_item": "rescue_stern_hosted",
-            "access_rules": ["talk_to_dock"]
-          },
-          {
-            "name": "TM41 from Sailor in Battle Tent",
-            "chest_unopened_img": "/images/locations/sailor_dark_tm.png",
-            "chest_opened_img": "/images/locations/sailor_dark_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Team Aqua Steals Submarine (Event)",
-            "hosted_item": "aqua_steals_submarine_hosted",
-            "access_rules": ["release_groudon"]
-          },
-          {
-            "name": "Deep Sea Scale from Capt. Stern",
-            "chest_unopened_img": "/images/locations/captain_stern_deep_sea_scale.png",
-            "chest_opened_img": "/images/locations/captain_stern_deep_sea_scale_bw.png",
-            "access_rules": ["aqua_steals_submarine,scanner,mind_badge"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Deep Sea Tooth from Capt. Stern",
-            "chest_unopened_img": "/images/locations/captain_stern_deep_sea_tooth.png",
-            "chest_opened_img": "/images/locations/captain_stern_deep_sea_tooth_bw.png",
-            "access_rules": ["aqua_steals_submarine,scanner,mind_badge"],
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 76,
-            "y": 104
-          }
-        ]
-      },
-      {
-        "name": "Mauville City",
-        "access_rules": ["$mauville_access"],
-        "sections":
-        [
-          {
-            "name": "Coin Case from Lady in House",
-            "chest_unopened_img": "/images/locations/lady_coin_case.png",
-            "chest_opened_img": "/images/locations/lady_coin_case_bw.png",
-            "access_rules": ["[@Cities/Slateport City/Buy Harbor Mail],harbor_mail"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "HM06 from Rock Smash Guy",
-            "chest_unopened_img": "/images/locations/rock_smash_guy_fighting_hm.png",
-            "chest_opened_img": "/images/locations/rock_smash_guy_fighting_hm_bw.png",
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​HM06 from Rock Smash Guy",
-            "hosted_item": "hm06_rock_smash_hosted",
-            "visibility_rules": ["hms_off"]
-          },
-          {
-            "name": "Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Basement Key from Wattson",
-            "chest_unopened_img": "/images/locations/wattson_basement_key.png",
-            "chest_opened_img": "/images/locations/wattson_basement_key_bw.png",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["key_items_on,$goal_not|norman"]
-          },
-          {
-            "name": "​Basement Key from Wattson",
-            "hosted_item": "basement_key_hosted",
-            "access_rules": ["defeat_norman"],
-            "visibility_rules": ["key_items_off,$goal_not|norman"]
-          },
-          {
-            "name": "TM24 from Wattson",
-            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
-            "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
-            "access_rules": ["defeat_norman,@Dungeons/New Mauville/Turn off Generator"],
-            "visibility_rules": ["gifts_on,$goal_not|norman"]
-          },
-          {
-            "name": "Acro Bike",
-            "chest_unopened_img": "/images/locations/bike_shop_owner_acro_bike.png",
-            "chest_opened_img": "/images/locations/bike_shop_owner_acro_bike_bw.png",
-            "visibility_rules": ["bikes_on"]
-          },
-          {
-            "name": "​Acro Bike",
-            "hosted_item": "acro_bike_hosted",
-            "visibility_rules": ["bikes_off"]
-          },
-          {
-            "name": "Mach Bike",
-            "chest_unopened_img": "/images/locations/bike_shop_owner_mach_bike.png",
-            "chest_opened_img": "/images/locations/bike_shop_owner_mach_bike_bw.png",
-            "visibility_rules": ["bikes_on"]
-          },
-          {
-            "name": "​Mach Bike",
-            "hosted_item": "mach_bike_hosted",
-            "visibility_rules": ["bikes_off"]
-          },
-          {
-            "name": "Rival Wally",
-            "chest_unopened_img": "/images/locations/wally.png",
-            "chest_opened_img": "/images/locations/wally_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Wattson (Event)",
-            "hosted_item": "defeat_wattson_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Dynamo Badge",
-            "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
-            "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Dynamo Badge",
-            "hosted_item": "dynamo_badge_hosted",
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM34 from Wattson",
-            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
-            "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 84,
-            "y": 68
-          }
-        ]
-      },
-      {
-        "name": "Mauville Gym",
-        "access_rules": ["$mauville_access"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Battle Girl Vivian",
-            "chest_unopened_img": "/images/locations/battle_girl.png",
-            "chest_opened_img": "/images/locations/battle_girl_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Guitarist Kirk",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Youngster Ben",
-            "chest_unopened_img": "/images/locations/youngster.png",
-            "chest_opened_img": "/images/locations/youngster_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Bug Maniac Angelo",
-            "chest_unopened_img": "/images/locations/fossil_maniac.png",
-            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Guitarist Shawn",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Wattson (Event)",
-            "hosted_item": "defeat_wattson_hosted"
-          },
-          {
-            "name": "Leader Wattson",
-            "chest_unopened_img": "/images/locations/wattson.png",
-            "chest_opened_img": "/images/locations/wattson_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Dynamo Badge",
-            "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
-            "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Dynamo Badge",
-            "hosted_item": "dynamo_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM34 from Wattson",
-            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
-            "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 76,
-            "y": 68
-          }
-        ]
-      },
-      {
-        "name": "Fallarbor Town",
-        "access_rules": ["$fallarbor_access"],
-        "sections":
-        [
-          {
-            "name": "TM27 from Cozmo",
-            "chest_unopened_img": "/images/locations/cozmo_normal_tm.png",
-            "chest_opened_img": "/images/locations/cozmo_normal_tm_bw.png",
-            "access_rules": ["defeat_maxie_mt_chimney,meteorite"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Hidden Item in Crater",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 36,
-            "y": 20
-          }
-        ]
-      },
-      {
-        "name": "Lavaridge Town",
-        "access_rules": ["$lavaridge_access"],
-        "sections":
-        [
-          {
-            "name": "Hidden Item in Springs",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Charcoal from Man",
-            "chest_unopened_img": "/images/locations/old_man_charcoal.png",
-            "chest_opened_img": "/images/locations/old_man_charcoal_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Defeat Flannery (Event)",
-            "hosted_item": "defeat_flannery_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Heat Badge",
-            "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
-            "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Heat Badge",
-            "hosted_item": "heat_badge_hosted",
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM50 from Flannery",
-            "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
-            "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          },
-          {
-            "name": "Go Goggles from Rival",
-            "chest_unopened_img": "/images/locations/rival_go_goggles.png",
-            "chest_opened_img": "/images/locations/rival_go_goggles_bw.png",
-            "access_rules": ["defeat_flannery"],
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Go Goggles from Rival",
-            "hosted_item": "go_goggles_hosted",
-            "access_rules": ["defeat_flannery"],
-            "visibility_rules": ["key_items_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 52,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Lavaridge Gym",
-        "access_rules": ["$lavaridge_access"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Kindler Jeff",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Kindler Jace",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hiker Eli",
-            "chest_unopened_img": "/images/locations/hiker.png",
-            "chest_opened_img": "/images/locations/hiker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Kindler Cole",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Cooltrainer Gerald",
-            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
-            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Kindler Axle",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Kindler Keegan",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Battle Girl Danielle",
-            "chest_unopened_img": "/images/locations/battle_girl.png",
-            "chest_opened_img": "/images/locations/battle_girl_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Flannery (Event)",
-            "hosted_item": "defeat_flannery_hosted"
-          },
-          {
-            "name": "Leader Flannery",
-            "chest_unopened_img": "/images/locations/flannery.png",
-            "chest_opened_img": "/images/locations/flannery_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Heat Badge",
-            "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
-            "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Heat Badge",
-            "hosted_item": "heat_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM50 from Flannery",
-            "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
-            "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 52,
-            "y": 52
-          }
-        ]
-      },
-      {
-        "name": "Verdanturf Town",
-        "access_rules": ["$mauville_access"],
-        "sections":
-        [
-          {
-            "name": "TM45 from Woman in Battle Tent",
-            "chest_unopened_img": "/images/locations/girl_normal_tm.png",
-            "chest_opened_img": "/images/locations/girl_normal_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 44,
-            "y": 68
-          }
-        ]
-      },
-      {
-        "name": "Fortree City",
-        "access_rules": ["$fortree_access"],
-        "sections":
-        [
-          {
-            "name": "Dig Move Tutor",
-            "visibility_rules": ["invisible"]
-          },
-          {
-            "name": "TM10 from Hidden Power Lady",
-            "chest_unopened_img": "/images/locations/old_lady_normal_tm.png",
-            "chest_opened_img": "/images/locations/old_lady_normal_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Wingull Quest 1 (Event)",
-            "hosted_item": "wingull_quest_1_hosted"
-          },
-          {
-            "name": "Wingull Delivery Reward",
-            "chest_unopened_img": "/images/locations/man_mental_herb.png",
-            "chest_opened_img": "/images/locations/man_mental_herb_bw.png",
-            "access_rules": ["wingull_quest_2"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Defeat Winona (Event)",
-            "hosted_item": "defeat_winona_hosted",
-            "access_rules": ["$fortree_access,devon_scope"],
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Feather Badge",
-            "chest_unopened_img": "/images/locations/winona_feather_badge.png",
-            "access_rules": ["$fortree_access,devon_scope"],
-            "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Feather Badge",
-            "hosted_item": "feather_badge_hosted",
-            "access_rules": ["$fortree_access,devon_scope"],
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM40 from Winona",
-            "chest_unopened_img": "/images/locations/winona_flying_tm.png",
-            "access_rules": ["$fortree_access,devon_scope"],
-            "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 108,
-            "y": 20
-          }
-        ]
-      },
-      {
-        "name": "Fortree Gym",
-        "access_rules": ["$fortree_access,devon_scope"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Bird Keeper Humberto",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Picnicker Ashley",
-            "chest_unopened_img": "/images/locations/picnicker.png",
-            "chest_opened_img": "/images/locations/picnicker_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Bird Keeper Jared",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Camper Flint",
-            "chest_unopened_img": "/images/locations/camper.png",
-            "chest_opened_img": "/images/locations/camper_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Bird Keeper Edwardo",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Bird Keeper Darius",
-            "chest_unopened_img": "/images/locations/guitarist.png",
-            "chest_opened_img": "/images/locations/guitarist_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Winona (Event)",
-            "hosted_item": "defeat_winona_hosted"
-          },
-          {
-            "name": "Leader Winona",
-            "chest_unopened_img": "/images/locations/winona.png",
-            "chest_opened_img": "/images/locations/winona_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Feather Badge",
-            "chest_unopened_img": "/images/locations/winona_feather_badge.png",
-            "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Feather Badge",
-            "hosted_item": "feather_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM40 from Winona",
-            "chest_unopened_img": "/images/locations/winona_flying_tm.png",
-            "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 108,
-            "y": 12
-          },
-          {
-            "map": "fortree",
-            "x": 718,
-            "y": 362
-          }
-        ]
-      },
-      {
-        "name": "Lilycove City",
-        "access_rules": ["$lilycove_access"],
-        "sections":
-        [
-          {
-            "name": "Rival Brendan or May",
-            "chest_unopened_img": "/images/locations/rival.png",
-            "chest_opened_img": "/images/locations/rival_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Berry from Gentleman Above Ledges",
-            "chest_unopened_img": "/images/locations/gentleman_cheri_berry.png",
-            "chest_opened_img": "/images/locations/gentleman_cheri_berry_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "TM44 from Man in House",
-            "chest_unopened_img": "/images/locations/man_psychic_tm.png",
-            "chest_opened_img": "/images/locations/man_psychic_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Hidden Item on Beach North",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Hidden Item on Beach East",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Hidden Item on Beach West",
-            "chest_unopened_img": "/images/locations/hidden_item.png",
-            "chest_opened_img": "/images/locations/hidden_item_bw.png",
-            "access_rules": ["[$hidden]"],
-            "visibility_rules": ["hidden_on"]
-          },
-          {
-            "name": "Item on Peninsula",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Pokeblock Case from Contest Hall",
-            "chest_unopened_img": "/images/locations/contest_hall_employee_pokeblock_case.png",
-            "chest_opened_img": "/images/locations/contest_hall_employee_pokeblock_case_bw.png",
-            "visibility_rules": ["key_items_on"]
-          },
-          {
-            "name": "​Pokeblock Case from Contest Hall",
-            "hosted_item": "pokeblock_case_hosted",
-            "visibility_rules": ["key_items_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 160,
-            "y": 44
-          }
-        ]
-      },
-      {
-        "name": "Mossdeep City",
-        "access_rules": ["$mossdeep_access"],
-        "sections":
-        [
-          {
-            "name": "King's Rock from Boy",
-            "chest_unopened_img": "/images/locations/boy_kings_rock.png",
-            "chest_opened_img": "/images/locations/boy_kings_rock_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "Item",
-            "visibility_rules": ["overworld_on"]
-          },
-          {
-            "name": "Wingull Quest 2 (Event)",
-            "hosted_item": "wingull_quest_2_hosted",
-            "access_rules": ["wingull_quest_1"]
-          },
-          {
-            "name": "Super Rod from Fisherman in House",
-            "chest_unopened_img": "/images/locations/fisherman_super_rod.png",
-            "chest_opened_img": "/images/locations/fisherman_super_rod_bw.png",
-            "visibility_rules": ["rods_on"]
-          },
-          {
-            "name": "​Super Rod from Fisherman in House",
-            "hosted_item": "super_rod_hosted",
-            "visibility_rules": ["rods_off"]
-          },
-          {
-            "name": "Defeat Tate & Liza (Event)",
-            "hosted_item": "defeat_tate_and_liza_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Mind Badge",
-            "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
-            "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Mind Badge",
-            "hosted_item": "mind_badge_hosted",
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM04 from Tate & Liza",
-            "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
-            "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
-            "visibility_rules": ["gifts_on,trainers_off"]
-          },
-          {
-            "name": "Steven Gives Dive (Event)",
-            "hosted_item": "steven_gives_dive_hosted",
-            "access_rules": ["defeat_maxie_space_center"]
-          },
-          {
-            "name": "HM08 from Steven",
-            "chest_unopened_img": "/images/locations/steven_water_hm.png",
-            "chest_opened_img": "/images/locations/steven_water_hm_bw.png",
-            "access_rules": ["defeat_maxie_space_center"],
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​HM08 from Steven",
-            "hosted_item": "hm08_dive_hosted",
-            "access_rules": ["defeat_maxie_space_center"],
-            "visibility_rules": ["hms_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 208,
-            "y": 60
-          }
-        ]
-      },
-      {
-        "name": "Mossdeep Gym",
-        "access_rules": ["$mossdeep_access"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Psychic Preston",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Maura",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hex Maniac Kathleen",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Clifford",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-            "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Nicholas",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Macey",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Samantha",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Blake",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Gentleman Nate",
-            "chest_unopened_img": "/images/locations/gentleman.png",
-            "chest_opened_img": "/images/locations/gentleman_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Virgil",
-            "chest_unopened_img": "/images/locations/psychic_male.png",
-            "chest_opened_img": "/images/locations/psychic_male_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Hex Maniac Sylvia",
-            "chest_unopened_img": "/images/locations/hex_maniac.png",
-            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Psychic Hannah",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Tate & Liza (Event)",
-            "hosted_item": "defeat_tate_and_liza_hosted"
-          },
-          {
-            "name": "Leaders Tate & Liza",
-            "chest_unopened_img": "/images/locations/tate_and_liza.png",
-            "chest_opened_img": "/images/locations/tate_and_liza_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Mind Badge",
-            "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
-            "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Mind Badge",
-            "hosted_item": "mind_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM04 from Tate & Liza",
-            "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
-            "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 200,
-            "y": 60
-          },
-          {
-            "map": "mossdeep",
-            "x": 1231,
-            "y": 298
-          }
-        ]
-      },
-      {
-        "name": "Sootopolis City",
-        "access_rules": ["$sootopolis_access"],
-        "sections":
-        [
-          {
-            "name": "Rayquaza Stops Fight",
-            "access_rules": ["$dive,release_kyogre"],
-            "visibility_rules": ["invisible"]
-          },
-          {
-            "name": "Berries from Girl on Grass",
-            "chest_unopened_img": "/images/locations/kiri_figy_berry.png",
-            "chest_opened_img": "/images/locations/kiri_figy_berry_bw.png",
-            "item_count": 2,
-            "access_rules": ["$surf"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "TM31 from Black Belt in House",
-            "chest_unopened_img": "/images/locations/black_belt_fighting_tm.png",
-            "chest_opened_img": "/images/locations/black_belt_fighting_tm_bw.png",
-            "access_rules": ["$surf"],
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "HM07 from Wallace",
-            "chest_unopened_img": "/images/locations/wallace_water_hm.png",
-            "chest_opened_img": "/images/locations/wallace_water_hm_bw.png",
-            "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "visibility_rules": ["hms_any","hms_shuffle"]
-          },
-          {
-            "name": "​HM07 from Wallace",
-            "hosted_item": "hm07_waterfall_hosted",
-            "access_rules": ["@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "visibility_rules": ["hms_off"]
-          },
-          {
-            "name": "Defeat Juan (Event)",
-             "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "hosted_item": "defeat_juan_hosted",
-            "visibility_rules": ["trainers_off"]
-          },
-          {
-            "name": "Rain Badge",
-            "chest_unopened_img": "/images/locations/juan_rain_badge.png",
-            "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
-            "visibility_rules": ["badges_any,trainers_off","badges_shuffle,trainers_off"]
-          },
-          {
-            "name": "​Rain Badge",
-            "hosted_item": "rain_badge_hosted",
-            "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "visibility_rules": ["badges_off,trainers_off"]
-          },
-          {
-            "name": "TM03 from Juan",
-            "chest_unopened_img": "/images/locations/juan_water_tm.png",
-            "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
-            "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-            "visibility_rules": ["gifts_on,trainers_off"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 180,
-            "y": 76
-          }
-        ]
-      },
-      {
-        "name": "Sootopolis Gym",
-        "access_rules": ["$sootopolis_access,@Cities/Sootopolis City/Rayquaza Stops Fight"],
-        "visibility_rules": ["trainers_on"],
-        "sections":
-        [
-          {
-            "name": "Beauty Connie",
-            "chest_unopened_img": "/images/locations/beauty.png",
-            "chest_opened_img": "/images/locations/beauty_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lass Andrea",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lady Daphne",
-            "chest_unopened_img": "/images/locations/lady.png",
-            "chest_opened_img": "/images/locations/lady_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Pokefan Annika",
-            "chest_unopened_img": "/images/locations/pokefan_female.png",
-            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Beauty Tiffany",
-            "chest_unopened_img": "/images/locations/beauty.png",
-            "chest_opened_img": "/images/locations/beauty_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lass Crissy",
-            "chest_unopened_img": "/images/locations/lass.png",
-            "chest_opened_img": "/images/locations/lass_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Pokefan Bethany",
-            "chest_unopened_img": "/images/locations/pokefan_female.png",
-            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Beauty Olivia",
-            "chest_unopened_img": "/images/locations/beauty.png",
-            "chest_opened_img": "/images/locations/beauty_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Lady Brianna",
-            "chest_unopened_img": "/images/locations/lady.png",
-            "chest_opened_img": "/images/locations/lady_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Beauty Bridget",
-            "chest_unopened_img": "/images/locations/beauty.png",
-            "chest_opened_img": "/images/locations/beauty_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Juan (Event)",
-            "hosted_item": "defeat_juan_hosted"
-          },
-          {
-            "name": "Leader Juan",
-            "chest_unopened_img": "/images/locations/juan.png",
-            "chest_opened_img": "/images/locations/juan_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Rain Badge",
-            "chest_unopened_img": "/images/locations/juan_rain_badge.png",
-            "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
-            "visibility_rules": ["badges_any","badges_shuffle"]
-          },
-          {
-            "name": "​Rain Badge",
-            "hosted_item": "rain_badge_hosted",
-            "visibility_rules": ["badges_off"]
-          },
-          {
-            "name": "TM03 from Juan",
-            "chest_unopened_img": "/images/locations/juan_water_tm.png",
-            "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 180,
-            "y": 68
-          },
-          {
-            "map": "sootopolis",
-            "x": 1008,
-            "y": 1033
-          }
-        ]
-      },
-      {
-        "name": "Pacifidlog Town",
-        "access_rules": ["$route_124_access"],
-        "sections":
-        [
-          {
-            "name": "TM27 from Man in House",
-            "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
-            "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          },
-          {
-            "name": "TM21 from Man in House",
-            "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
-            "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
-            "visibility_rules": ["gifts_on"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 148,
-            "y": 100
-          },
-          {
-            "map": "pacifidlog",
-            "x": 112,
-            "y": 713
-          },
-          {
-            "map": "pacifidlog_house_2",
-            "x": 111,
-            "y": 166
-          }
-        ]
-      },
-      {
-        "name": "Ever Grande City",
-        "access_rules": ["$e4_access,[$flash|road]"],
-        "sections":
-        [
-          {
-            "name": "Elite Four Sidney",
-            "chest_unopened_img": "/images/locations/sidney.png",
-            "chest_opened_img": "/images/locations/sidney_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Elite Four Phoebe",
-            "chest_unopened_img": "/images/locations/phoebe.png",
-            "chest_opened_img": "/images/locations/phoebe_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Elite Four Glacia",
-            "chest_unopened_img": "/images/locations/glacia.png",
-            "chest_opened_img": "/images/locations/glacia_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Elite Four Drake",
-            "chest_unopened_img": "/images/locations/drake.png",
-            "chest_opened_img": "/images/locations/drake_bw.png",
-            "visibility_rules": ["trainers_on"]
-          },
-          {
-            "name": "Defeat Champion (Event)",
-            "hosted_item": "defeat_champion_hosted"
-          },
-          {
-            "name": "Champion Wallace",
-            "chest_unopened_img": "/images/locations/wallace.png",
-            "chest_opened_img": "/images/locations/wallace_bw.png",
-            "visibility_rules": ["trainers_on,$goal_not|champion"]
-          }
-        ],
-        "map_locations":
-        [
-          {
-            "map": "hoennmap",
-            "x": 228,
-            "y": 84
-          },
-          {
-            "map": "evergrande",
-            "x": 1879,
-            "y": 233
-          },
-          {
-            "map": "pokemon_league_1f",
-            "x": 319,
-            "y": 34
-          },
-          {
-            "map": "pokemon_league_hall_sydney",
-            "x": 175,
-            "y": 72
-          }
-        ]
-      }
-    ]
-  }
+    }
 ]

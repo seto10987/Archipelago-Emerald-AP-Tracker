@@ -7,123 +7,73 @@
         "type": "dock",
         "dropshadow": true,
         "content": [
-              {
-                "type": "array",
-                "content": [
-                  {
-                    "type": "tabbed",
-                    "dock": "left",
-                    "tabs": [
-                      {
-                        "title": "Hoenn",
-                        "content": {
-                          "type":"map",
-                          "maps": ["hoennmap"]
-                        }
-                      },
-                      {
-                        "title": "Encounter Tracking",
-                        "content": {
-                        "type":"map",
-                        "maps": ["encountermap"]
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "title": "Cities",
-                        "content": {
-                          "type": "layout",
-                          "key": "cities"
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "title": "Routes",
-                        "content": {
-                          "type": "layout",
-                          "key": "routes"
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "title": "Other",
-                        "content": {
-                          "type": "layout",
-                          "key": "other"
-                        }
-                      },
-                      {
-                        "title": "Pokedex",
-                        "content": {
-                          "type": "layout",
-                          "key": "pokedex_grid_full"
-                        }
-                      }
-                    ]
-                  }
-                ]
-              },
+          {
+            "type": "dock",
+            "content": {
+              "type": "layout",
+              "key": "map_layout"
+            }
+          },
+          {
+            "type": "dock",
+            "dock": "bottom",
+            "content": [
               {
                 "type": "dock",
-                "dock": "bottom",
+                "dock": "top",
+                "v_alignment": "stretch",
                 "content": [
                   {
-                    "type": "dock",
-                    "dock": "top",
-                    "v_alignment": "stretch",
-                    "content": [
-                      {
-                        "type": "group",
-                        "header": "Items",
-                        "dock": "left",
-                        "content": {
-                          "type": "layout",
-                          "h_alignment": "center",
-                          "v_alignment": "center",
-                          "key": "item_grid"
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "header": "Events",
-                        "dock": "left",
-                        "margin": "0,0,3,0",
-                        "content": {
-                          "type": "layout",
-                          "h_alignment": "center",
-                          "v_alignment": "center",
-                          "key": "event_grid"
-                        }
-                      },
-                      {
-                        "type": "group",
-                        "dock": "right",
-                        "margin": "0,0,3,0",
-                        "content": {
-                          "type": "layout",
-                          "h_alignment": "center",
-                          "v_alignment": "center",
-                          "key": "tab_switch_grid"
-                        }
-                      }
-                    ]
+                    "type": "group",
+                    "header": "Items",
+                    "dock": "left",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "v_alignment": "center",
+                      "key": "item_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "header": "Events",
+                    "dock": "left",
+                    "margin": "0,0,3,0",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "v_alignment": "center",
+                      "key": "event_grid"
+                    }
+                  },
+                  {
+                    "type": "group",
+                    "dock": "right",
+                    "margin": "0,0,3,0",
+                    "content": {
+                      "type": "layout",
+                      "h_alignment": "center",
+                      "v_alignment": "center",
+                      "key": "tab_switch_grid"
+                    }
                   }
                 ]
               }
             ]
           }
-        },
-        "settings_popup":
+        ]
+      }
+    },
+    "settings_popup": {
+      "type": "array",
+      "orientation": "horizontal",
+      "h_alignment": "left",
+      "content": [
         {
-          "type": "array",
-          "orientation": "horizontal",
-          "h_alignment": "left",
-          "content": [
-            {
-            "type": "group",
-            "header": "Settings",
-            "dock": "bottom",
-            "content": {
+          "type": "group",
+          "header": "Settings",
+          "dock": "bottom",
+          "content": {
             "type": "layout",
             "key": "setting_grid"
           }

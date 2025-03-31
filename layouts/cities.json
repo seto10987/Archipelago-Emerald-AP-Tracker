@@ -1,496 +1,411 @@
 {
-  "cities":
-  {
-    "type": "array",
-    "content": [
+  "cities": {
+    "type": "tabbed",
+    "tabs": [
       {
-        "type": "tabbed",
-        "dock": "left",
-        "tabs": [
-          {
-            "title": "Western Cities",
-            "content": {
-            "type": "tabbed",
-            "dock": "left",
-            "tabs": [
+        "title": "Western Cities",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Littleroot",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
                   {
-                    "title": "Littleroot",
+                    "title": "Littleroot Town",
                     "content": {
-                    "type": "tabbed",
-                    "tabs": [
+                      "type": "map",
+                      "maps": [
+                        "littleroot"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "May's House",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
                         {
-                          "title": "Littleroot Town",
+                          "title": "May's House 1F",
                           "content": {
-                          "type":"map",
-                          "maps": ["littleroot"]
-                          }
-                        },
-                        {
-                          "title": "May's House",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "May's House 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["mays_house_1f"]
-                                }
-                              },
-                              {
-                                "title": "May's House 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["mays_house_2f"]
-                                }
-                              }
+                            "type": "map",
+                            "maps": [
+                              "mays_house_1f"
                             ]
                           }
                         },
                         {
-                          "title": "Brendan's House",
+                          "title": "May's House 2F",
                           "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Brendan's House 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["brendans_house_1f"]
-                                }
-                              },
-                              {
-                                "title": "Brendan's House 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["brendans_house_2f"]
-                                }
-                              }
+                            "type": "map",
+                            "maps": [
+                              "mays_house_2f"
                             ]
-                          }
-                        },
-                        {
-                          "title": "Professor Birch's Lab",
-                          "content": {
-                          "type":"map",
-                          "maps": ["professor_birchs_lab"]
                           }
                         }
                       ]
                     }
                   },
                   {
-                    "title": "Oldale",
+                    "title": "Brendan's House",
                     "content": {
-                    "type":"tabbed",
-                    "tabs": [
+                      "type": "tabbed",
+                      "tabs": [
                         {
-                          "title": "Oldale Town",
+                          "title": "Brendan's House 1F",
                           "content": {
-                          "type":"map",
-                          "maps": ["oldale"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["oldale_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
+                            "type": "map",
+                            "maps": [
+                              "brendans_house_1f"
                             ]
                           }
                         },
                         {
-                          "title": "Mart",
+                          "title": "Brendan's House 2F",
                           "content": {
-                          "type":"map",
-                          "maps": ["oldale_mart"]
+                            "type": "map",
+                            "maps": [
+                              "brendans_house_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Professor Birch's Lab",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "professor_birchs_lab"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Oldale",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Oldale Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldale"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "oldale_pokecenter_1f"
+                            ]
                           }
                         },
                         {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldale_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldale_house_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "oldale_house_2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Petalburg",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Petalburg City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "petalburg_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Wally's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg_wallys_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg_house_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "petalburg_house_2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Rustboro",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Rustboro City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rustboro"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rustboro_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "rustboro_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rustboro_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Devon Corp",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Devon Corp 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "rustboro_devon_corp_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Devon Corp 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "rustboro_devon_corp_2f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Devon Corp 3F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "rustboro_devon_corp_3f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cutter's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rustboro_cutters_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon School",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "rustboro_pokemon_school"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
                           "title": "House 1",
                           "content": {
-                          "type":"map",
-                          "maps": ["oldale_house_1"]
+                            "type": "map",
+                            "maps": [
+                              "rustboro_house_1"
+                            ]
                           }
                         },
                         {
                           "title": "House 2",
                           "content": {
-                          "type":"map",
-                          "maps": ["oldale_house_2"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Petalburg",
-                    "content": {
-                    "type":"tabbed",
-                    "tabs": [
-                        {
-                          "title": "Petalburg City",
-                          "content": {
-                          "type":"map",
-                          "maps": ["petalburg"]
-                          }
-                        },
-                        {
-                          "title": "Gym",
-                          "content": {
-                          "type":"map",
-                          "maps": ["petalburg_gym"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["petalburg_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
+                            "type": "map",
+                            "maps": [
+                              "rustboro_house_2"
                             ]
                           }
                         },
                         {
-                          "title": "Mart",
+                          "title": "House 3",
                           "content": {
-                          "type":"map",
-                          "maps": ["petalburg_mart"]
-                          }
-                        },
-                        {
-                          "title": "Wally's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["petalburg_wallys_house"]
-                          }
-                        },
-                        {
-                          "title": "House 1",
-                          "content": {
-                          "type":"map",
-                          "maps": ["petalburg_house_1"]
-                          }
-                        },
-                        {
-                          "title": "House 2",
-                          "content": {
-                          "type":"map",
-                          "maps": ["petalburg_house_2"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Rustboro",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Rustboro City",
-                          "content": {
-                          "type":"map",
-                          "maps": ["rustboro"]
-                          }
-                        },
-                        {
-                          "title": "Gym",
-                          "content": {
-                          "type":"map",
-                          "maps": ["rustboro_gym"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
+                            "type": "map",
+                            "maps": [
+                              "rustboro_house_3"
                             ]
                           }
                         },
                         {
-                          "title": "Mart",
+                          "title": "Flat 1",
                           "content": {
-                          "type":"map",
-                          "maps": ["rustboro_mart"]
-                          }
-                        },
-                        {
-                          "title": "Devon Corp",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
+                            "type": "tabbed",
+                            "tabs": [
                               {
-                                "title": "Devon Corp 1F",
+                                "title": "Flat 1 1F",
                                 "content": {
-                                "type":"map",
-                                "maps": ["rustboro_devon_corp_1f"]
-                                }
-                              },
-                              {
-                                "title": "Devon Corp 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_devon_corp_2f"]
-                                }
-                              },
-                              {
-                                "title": "Devon Corp 3F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_devon_corp_3f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Cutter's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["rustboro_cutters_house"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon School",
-                          "content": {
-                          "type":"map",
-                          "maps": ["rustboro_pokemon_school"]
-                          }
-                        },
-                        {
-                          "title": "Houses",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "House 1",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_house_1"]
-                                }
-                              },
-                              {
-                                "title": "House 2",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_house_2"]
-                                }
-                              },
-                              {
-                                "title": "House 3",
-                                "content": {
-                                "type":"map",
-                                "maps": ["rustboro_house_3"]
-                                }
-                              },
-                              {
-                                "title": "Flat 1",
-                                "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                      "title": "Flat 1 1F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_1_1f"]
-                                      }
-                                    },
-                                    {
-                                      "title": "Flat 1 2F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_1_2f"]
-                                      }
-                                    },
-                                    {
-                                      "title": "Flat 1 3F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_1_3f"]
-                                      }
-                                    }
+                                  "type": "map",
+                                  "maps": [
+                                    "rustboro_flat_1_1f"
                                   ]
                                 }
                               },
                               {
-                                "title": "Flat 2",
+                                "title": "Flat 1 2F",
                                 "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                      "title": "Flat 2 1F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_2_1f"]
-                                      }
-                                    },
-                                    {
-                                      "title": "Flat 2 2F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_2_2f"]
-                                      }
-                                    },
-                                    {
-                                      "title": "Flat 2 3F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["rustboro_flat_2_3f"]
-                                      }
-                                    }
-                                  ]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Dewford",
-                    "content": {
-                    "type":"tabbed",
-                    "tabs": [
-                        {
-                          "title": "Dewford Town",
-                          "content": {
-                          "type":"map",
-                          "maps": ["dewford"]
-                          }
-                        },
-                        {
-                          "title": "Gym",
-                          "content": {
-                          "type":"map",
-                          "maps": ["dewford_gym"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["dewford_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Dewford Hall",
-                          "content": {
-                          "type":"map",
-                          "maps": ["dewford_hall"]
-                          }
-                        },
-                        {
-                          "title": "House 1",
-                          "content": {
-                          "type":"map",
-                          "maps": ["dewford_house_1"]
-                          }
-                        },
-                        {
-                          "title": "House 2",
-                          "content": {
-                          "type":"map",
-                          "maps": ["dewford_house_2"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Slateport",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Slateport City",
-                          "content": {
-                          "type":"map",
-                          "maps": ["slateport"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center",
-                                "content": {
-                                "type": "tabbed",
-                                "tabs": [
-                                    {
-                                      "title": "Pokemon Center 1F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["slateport_pokecenter_1f"]
-                                      }
-                                    },
-                                    {
-                                      "title": "Pokemon Center 2F",
-                                      "content": {
-                                      "type":"map",
-                                      "maps": ["pokecenter_2f"]
-                                      }
-                                    }
+                                  "type": "map",
+                                  "maps": [
+                                    "rustboro_flat_1_2f"
                                   ]
                                 }
                               }
@@ -498,451 +413,38 @@
                           }
                         },
                         {
-                          "title": "Mart",
+                          "title": "Flat 2",
                           "content": {
-                          "type":"map",
-                          "maps": ["slateport_mart"]
-                          }
-                        },
-                        {
-                          "title": "Shipyard",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
+                            "type": "tabbed",
+                            "tabs": [
                               {
-                                "title": "Shipyard 1F",
+                                "title": "Flat 2 1F",
                                 "content": {
-                                "type":"map",
-                                "maps": ["slateport_shipyard_1f"]
+                                  "type": "map",
+                                  "maps": [
+                                    "rustboro_flat_2_1f"
+                                  ]
                                 }
                               },
                               {
-                                "title": "Shipyard 2F",
+                                "title": "Flat 2 2F",
                                 "content": {
-                                "type":"map",
-                                "maps": ["slateport_shipyard_2f"]
+                                  "type": "map",
+                                  "maps": [
+                                    "rustboro_flat_2_2f"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Flat 2 3F",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "rustboro_flat_2_3f"
+                                  ]
                                 }
                               }
                             ]
-                          }
-                        },
-                        {
-                          "title": "Oceanic Museum",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Oceanic Museum 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["slateport_museum_1f"]
-                                }
-                              },
-                              {
-                                "title": "Oceanic Museum 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["slateport_museum_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Slateport Harbor",
-                          "content": {
-                          "type":"map",
-                          "maps": ["slateport_harbor"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Fan Club",
-                          "content": {
-                          "type":"map",
-                          "maps": ["slateport_pokemon_fan_club"]
-                          }
-                        },
-                        {
-                          "title": "Battle Tent",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Lobby",
-                                "content": {
-                                "type":"map",
-                                "maps": ["slateport_battle_tent_lobby"]
-                                }
-                              },
-                              {
-                                "title": "Corridor",
-                                "content": {
-                                "type":"map",
-                                "maps": ["battle_tent_corridor"]
-                                }
-                              },
-                              {
-                                "title": "Room",
-                                "content": {
-                                "type":"map",
-                                "maps": ["slateport_battle_tent_room"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Name Rater's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["slateport_name_raters_house"]
-                          }
-                        },
-                        {
-                          "title": "House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["slateport_house"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Mauville",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Mauville City",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville"]
-                          }
-                        },
-                        {
-                          "title": "Gym",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_gym"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["mauville_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Mart",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_mart"]
-                          }
-                        },
-                        {
-                          "title": "Bike Shop",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_bike_shop"]
-                          }
-                        },
-                        {
-                          "title": "Game Corner",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_game_corner"]
-                          }
-                        },
-                        {
-                          "title": "House 1",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_house_1"]
-                          }
-                        },
-                        {
-                          "title": "House 2",
-                          "content": {
-                          "type":"map",
-                          "maps": ["mauville_house_2"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Verdanturf",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Verdanturf Town",
-                          "content": {
-                          "type":"map",
-                          "maps": ["verdanturf"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["verdanturf_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Mart",
-                          "content": {
-                          "type":"map",
-                          "maps": ["verdanturf_mart"]
-                          }
-                        },
-                        {
-                          "title": "Battle Tent",
-                          "content": {
-                          "type": "tabbed",
-                          "tabs": [
-                              {
-                                "title": "Lobby",
-                                "content": {
-                                "type":"map",
-                                "maps": ["verdanturf_battle_tent_lobby"]
-                                }
-                              },
-                              {
-                                "title": "Corridor",
-                                "content": {
-                                "type":"map",
-                                "maps": ["battle_tent_corridor"]
-                                }
-                              },
-                              {
-                                "title": "Room",
-                                "content": {
-                                "type":"map",
-                                "maps": ["verdanturf_battle_tent_room"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Wanda's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["verdanturf_wandas_house"]
-                          }
-                        },
-                        {
-                          "title": "Friendship Rater's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["verdanturf_friendship_raters_house"]
-                          }
-                        },
-                        {
-                          "title": "House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["verdanturf_house"]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Fallarbor",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Fallarbor Town",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fallarbor"]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fallarbor_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Mart",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fallarbor_mart"]
-                          }
-                        },
-                        {
-                          "title": "Cosmo's House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fallarbor_cosmos_house"]
-                          }
-                        },
-                        {
-                          "title": "Move Tutor",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fallarbor_move_tutors_house"]
-                          }
-                        },
-                        {
-                          "title": "Battle Tent",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Lobby",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fallarbor_battle_tent_lobby"]
-                                }
-                              },
-                              {
-                                "title": "Corridor",
-                                "content": {
-                                "type":"map",
-                                "maps": ["battle_tent_corridor"]
-                                }
-                              },
-                              {
-                                "title": "Room",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fallarbor_battle_tent_room"]
-                                }
-                              }
-                            ]
-                          }
-                        }
-                      ]
-                    }
-                  },
-                  {
-                    "title": "Lavaridge",
-                    "content": {
-                    "type": "tabbed",
-                    "tabs": [
-                        {
-                          "title": "Lavaridge Town",
-                          "content": {
-                          "type":"map",
-                          "maps": ["lavaridge"]
-                          }
-                        },
-                        {
-                          "title": "Gym",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Gym 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["lavaridge_gym_1f"]
-                                }
-                              },
-                              {
-                                "title": "Gym B1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["lavaridge_gym_b1f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Pokemon Center",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "Pokemon Center 1F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["lavaridge_pokecenter_1f"]
-                                }
-                              },
-                              {
-                                "title": "Pokemon Center 2F",
-                                "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Mart",
-                          "content": {
-                          "type":"map",
-                          "maps": ["lavaridge_mart"]
-                          }
-                        },
-                        {
-                          "title": "Herb Shop",
-                          "content": {
-                          "type":"map",
-                          "maps": ["lavaridge_herb_shop"]
-                          }
-                        },
-                        {
-                          "title": "House",
-                          "content": {
-                          "type":"map",
-                          "maps": ["lavaridge_house"]
                           }
                         }
                       ]
@@ -952,104 +454,124 @@
               }
             },
             {
-              "title": "Eastern Cities",
+              "title": "Dewford",
               "content": {
-              "type": "tabbed",
-              "dock": "left",
-              "tabs": [
+                "type": "tabbed",
+                "tabs": [
                   {
-                    "title": "Fortree",
+                    "title": "Dewford Town",
                     "content": {
-                    "type":"tabbed",
-                    "tabs": [
+                      "type": "map",
+                      "maps": [
+                        "dewford"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dewford_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
                         {
-                          "title": "Fortree City",
+                          "title": "Pokemon Center 1F",
                           "content": {
-                          "type":"map",
-                          "maps": ["fortree"]
+                            "type": "map",
+                            "maps": [
+                              "dewford_pokecenter_1f"
+                            ]
                           }
                         },
                         {
-                          "title": "Gym",
+                          "title": "Pokemon Center 2F",
                           "content": {
-                          "type":"map",
-                          "maps": ["fortree_gym"]
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
                           }
-                        },
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dewford Hall",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dewford_hall"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dewford_house_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "dewford_house_2"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Slateport",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Slateport City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "slateport"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
                         {
                           "title": "Pokemon Center",
                           "content": {
-                          "type":"tabbed",
-                          "tabs": [
+                            "type": "tabbed",
+                            "tabs": [
                               {
                                 "title": "Pokemon Center 1F",
                                 "content": {
-                                "type":"map",
-                                "maps": ["fortree_pokecenter_1f"]
+                                  "type": "map",
+                                  "maps": [
+                                    "slateport_pokecenter_1f"
+                                  ]
                                 }
                               },
                               {
                                 "title": "Pokemon Center 2F",
                                 "content": {
-                                "type":"map",
-                                "maps": ["pokecenter_2f"]
-                                }
-                              }
-                            ]
-                          }
-                        },
-                        {
-                          "title": "Mart",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fortree_mart"]
-                          }
-                        },
-                        {
-                          "title": "Decoration Shop",
-                          "content": {
-                          "type":"map",
-                          "maps": ["fortree_decoration_shop"]
-                          }
-                        },
-                        {
-                          "title": "Houses",
-                          "content": {
-                          "type":"tabbed",
-                          "tabs": [
-                              {
-                                "title": "House 1",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fortree_house_1"]
-                                }
-                              },
-                              {
-                                "title": "House 2",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fortree_house_2"]
-                                }
-                              },
-                              {
-                                "title": "House 3",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fortree_house_3"]
-                                }
-                              },
-                              {
-                                "title": "House 4",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fortree_house_4"]
-                                }
-                              },
-                              {
-                                "title": "House 5",
-                                "content": {
-                                "type":"map",
-                                "maps": ["fortree_house_5"]
+                                  "type": "map",
+                                  "maps": [
+                                    "pokecenter_2f"
+                                  ]
                                 }
                               }
                             ]
@@ -1059,844 +581,1681 @@
                     }
                   },
                   {
-                    "title": "Lilycove",
+                    "title": "Mart",
                     "content": {
-                    "type":"tabbed",
-                    "tabs": [
-                      {
-                        "title": "Lilycove City",
-                        "content": {
-                        "type":"map",
-                        "maps": ["lilycove"]
-                        }
-                      },
-                      {
-                        "title": "Pokemon Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_pokecenter_1f"]
-                              }
-                            },
-                            {
-                              "title": "Pokemon Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokecenter_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Dept Store",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_1f"]
-                              }
-                            },
-                            {
-                              "title": "2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_2f"]
-                              }
-                            },
-                            {
-                              "title": "3F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_3f"]
-                              }
-                            },
-                            {
-                              "title": "4F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_4f"]
-                              }
-                            },
-                            {
-                              "title": "5F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_5f"]
-                              }
-                            },
-                            {
-                              "title": "Rooftop",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_rooftop"]
-                              }
-                            },
-                            {
-                              "title": "Elevator",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_dept_store_elevator"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Lilycove Harbor",
-                        "content": {
-                        "type":"map",
-                        "maps": ["lilycove_harbor"]
-                        }
-                      },
-                      {
-                        "title": "Move Deleter's House",
-                        "content": {
-                        "type":"map",
-                        "maps": ["lilycove_move_deleters_house"]
-                        }
-                      },
-                      {
-                        "title": "Trainer Fan Club",
-                        "content": {
-                        "type":"map",
-                        "maps": ["lilycove_trainer_fan_club"]
-                        }
-                      },
-                      {
-                        "title": "Motel",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_motel_1f"]
-                              }
-                            },
-                            {
-                              "title": "2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_motel_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Museum",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_museum_1f"]
-                              }
-                            },
-                            {
-                              "title": "2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_museum_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Contest Hall",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Lobby",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_contest_lobby"]
-                              }
-                            },
-                            {
-                              "title": "Hall",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_contest_hall"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Houses",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "House 1",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_house_1"]
-                              }
-                            },
-                            {
-                              "title": "House 2",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_house_2"]
-                              }
-                            },
-                            {
-                              "title": "House 3",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_house_3"]
-                              }
-                            },
-                            {
-                              "title": "House 4",
-                              "content": {
-                              "type":"map",
-                              "maps": ["lilycove_house_4"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Aqua Hideout",
-                        "content": {
-                        "type": "tabbed",
-                        "tabs": [
-                            {
-                              "title": "Aqua Hideout 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["aqua_hideout_1f"]
-                              }
-                            },
-                            {
-                              "title": "Aqua Hideout B1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["aqua_hideout_b1f"]
-                              }
-                            },
-                            {
-                              "title": "Aqua Hideout B2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["aqua_hideout_b2f"]
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "title": "Mossdeep",
-                  "content": {
-                  "type":"tabbed",
-                  "tabs": [
-                      {
-                        "title": "Mossdeep City",
-                        "content": {
-                        "type":"map",
-                        "maps": ["mossdeep"]
-                        }
-                      },
-                      {
-                        "title": "Gym",
-                        "content": {
-                        "type":"map",
-                        "maps": ["mossdeep_gym"]
-                        }
-                      },
-                      {
-                        "title": "Pokemon Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_pokecenter_1f"]
-                              }
-                            },
-                            {
-                              "title": "Pokemon Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokecenter_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Mart",
-                        "content": {
-                        "type":"map",
-                        "maps": ["mossdeep_mart"]
-                        }
-                      },
-                      {
-                        "title": "Houses",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Steven's House",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_stevens_house"]
-                              }
-                            },
-                            {
-                              "title": "House 1",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_house_1"]
-                              }
-                            },
-                            {
-                              "title": "House 2",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_house_2"]
-                              }
-                            },
-                            {
-                              "title": "House 3",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_house_3"]
-                              }
-                            },
-                            {
-                              "title": "House 4",
-                              "content": {
-                              "type":"map",
-                              "maps": ["mossdeep_house_4"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Space Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Space Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["space_center_1f"]
-                              }
-                            },
-                            {
-                              "title": "Space Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["space_center_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Game Corner",
-                        "content": {
-                        "type":"map",
-                        "maps": ["mossdeep_game_corner"]
-                        }
-                      }
-                    ]
-                  }
-                },
-                {
-                  "title": "Sootopolis",
-                  "content": {
-                  "type": "tabbed",
-                  "tabs": [
-                    {
-                      "title": "Sootopolis",
-                      "content": {
-                      "type":"map",
-                      "maps": ["sootopolis"]
-                      }
-                    },
-                    {
-                      "title": "Gym",
-                      "content": {
-                      "type":"tabbed",
+                      "type": "map",
+                      "maps": [
+                        "slateport_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Shipyard",
+                    "content": {
+                      "type": "tabbed",
                       "tabs": [
-                            {
-                              "title": "Gym 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_gym_1f"]
-                              }
-                            },
-                            {
-                              "title": "Gym B1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_gym_b1f"]
-                              }
-                            }
-                          ]
+                        {
+                          "title": "Shipyard 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_shipyard_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Shipyard 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_shipyard_2f"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Pokemon Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_pokecenter_1f"]
-                              }
-                            },
-                            {
-                              "title": "Pokemon Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokecenter_2f"]
-                              }
-                            }
-                          ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Oceanic Museum",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Oceanic Museum 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_museum_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Oceanic Museum 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_museum_2f"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Mart",
-                        "content": {
-                        "type":"map",
-                        "maps": ["sootopolis_mart"]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Slateport Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "slateport_harbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Fan Club",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "slateport_pokemon_fan_club"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Battle Tent",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lobby",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_battle_tent_lobby"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Corridor",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "battle_tent_corridor"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "slateport_battle_tent_room"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Houses",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "House 1",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_1"]
-                              }
-                            },
-                            {
-                              "title": "House 2",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_2"]
-                              }
-                            },
-                            {
-                              "title": "House 3",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_3"]
-                              }
-                            },
-                            {
-                              "title": "House 4",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_4"]
-                              }
-                            },
-                            {
-                              "title": "House 5",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_5"]
-                              }
-                            },
-                            {
-                              "title": "House 6",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_6"]
-                              }
-                            },
-                            {
-                              "title": "House 7",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_house_7"]
-                              }
-                            },
-                            {
-                              "title": "Lotad and Seedot House",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_lotad_and_seedot_house"]
-                              }
-                            },
-                            {
-                              "title": "Mystery Events House",
-                              "content": {
-                              "type":"map",
-                              "maps": ["sootopolis_mystery_events_house"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Cave of Origin",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Cave of Origin Entrance",
-                              "content": {
-                              "type":"map",
-                              "maps": ["cave_of_origin_entrance"]
-                              }
-                            },
-                            {
-                              "title": "Cave of Origin 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["cave_of_origin_1f"]
-                              }
-                            },
-                            {
-                              "title": "Cave of Origin B1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["cave_of_origin_b1f"]
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Name Rater's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "slateport_name_raters_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "slateport_house"
+                      ]
+                    }
                   }
-                },
-                {
-                  "title": "Pacifidlog",
-                  "content": {
-                  "type":"tabbed",
-                  "tabs": [
-                      {
-                        "title": "Pacifidlog Town",
-                        "content": {
-                        "type":"map",
-                        "maps": ["pacifidlog"]
+                ]
+              }
+            },
+            {
+              "title": "Mauville",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Mauville City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mauville_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Pokemon Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_pokecenter_1f"]
-                              }
-                            },
-                            {
-                              "title": "Pokemon Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokecenter_2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Houses",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "House 1",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_house_1"]
-                              }
-                            },
-                            {
-                              "title": "House 2",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_house_2"]
-                              }
-                            },
-                            {
-                              "title": "House 3",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_house_3"]
-                              }
-                            },
-                            {
-                              "title": "House 4",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_house_4"]
-                              }
-                            },
-                            {
-                              "title": "House 5",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pacifidlog_house_5"]
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Bike Shop",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_bike_shop"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Game Corner",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_game_corner"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 1",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_house_1"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House 2",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mauville_house_2"
+                      ]
+                    }
                   }
-                },
-                {
-                  "title": "Ever Grande City",
-                  "content": {
-                  "type":"tabbed",
-                  "tabs": [
-                      {
-                        "title": "Ever Grande City",
-                        "content": {
-                        "type":"map",
-                        "maps": ["evergrande"]
+                ]
+              }
+            },
+            {
+              "title": "Verdanturf",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Verdanturf Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "verdanturf"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "verdanturf_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Pokemon Center",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon Center 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["evergrande_pokecenter_1f"]
-                              }
-                            },
-                            {
-                              "title": "Pokemon Center 2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokecenter_2f"]
-                              }
-                            }
-                          ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "verdanturf_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Battle Tent",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lobby",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "verdanturf_battle_tent_lobby"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Corridor",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "battle_tent_corridor"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "verdanturf_battle_tent_room"
+                            ]
+                          }
                         }
-                      },
-                      {
-                        "title": "Victory Road",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Victory Road 1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["victory_road_1f"]
-                              }
-                            },
-                            {
-                              "title": "Victory Road B1F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["victory_road_b1f"]
-                              }
-                            },
-                            {
-                              "title": "Victory Road B2F",
-                              "content": {
-                              "type":"map",
-                              "maps": ["victory_road_b2f"]
-                              }
-                            }
-                          ]
-                        }
-                      },
-                      {
-                        "title": "Pokemon League",
-                        "content": {
-                        "type":"tabbed",
-                        "tabs": [
-                            {
-                              "title": "Pokemon League",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Pokemon League 1F",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_1f"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Pokemon League 2F",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokecenter_2f"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Sydney",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Hall",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_hall_sydney"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Sydney",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_sydney"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Phoebe",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Hall",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_hall_phoebe"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Phoebe",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_phoebe"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Glacia",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Hall",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_hall_glacia"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Glacia",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_glacia"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Drake",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Hall",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_hall_drake"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Drake",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_drake"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Champion",
-                              "content": {
-                              "type":"tabbed",
-                              "tabs": [
-                                  {
-                                    "title": "Hall",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_hall_champion"]
-                                    }
-                                  },
-                                  {
-                                    "title": "Champion",
-                                    "content": {
-                                    "type":"map",
-                                    "maps": ["pokemon_league_champion"]
-                                    }
-                                  }
-                                ]
-                              }
-                            },
-                            {
-                              "title": "Champion",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokemon_league_champion"]
-                              }
-                            },
-                            {
-                              "title": "Hall of Fame",
-                              "content": {
-                              "type":"map",
-                              "maps": ["pokemon_league_hall_of_fame"]
-                              }
-                            }
-                          ]
-                        }
-                      }
-                    ]
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Wanda's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "verdanturf_wandas_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Friendship Rater's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "verdanturf_friendship_raters_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "verdanturf_house"
+                      ]
+                    }
                   }
-                }
-              ]
+                ]
+              }
+            },
+            {
+              "title": "Fallarbor",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Fallarbor Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fallarbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fallarbor_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fallarbor_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cosmo's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fallarbor_cosmos_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Move Tutor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fallarbor_move_tutors_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Battle Tent",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lobby",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fallarbor_battle_tent_lobby"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Corridor",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "battle_tent_corridor"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Room",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fallarbor_battle_tent_room"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Lavaridge",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Lavaridge Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavaridge"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Gym 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lavaridge_gym_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Gym B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lavaridge_gym_b1f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lavaridge_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavaridge_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Herb Shop",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavaridge_herb_shop"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lavaridge_house"
+                      ]
+                    }
+                  }
+                ]
+              }
             }
-          }
-        ]
+          ]
+        }
+      },
+      {
+        "title": "Eastern Cities",
+        "content": {
+          "type": "tabbed",
+          "tabs": [
+            {
+              "title": "Fortree",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Fortree City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fortree"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fortree_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fortree_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Decoration Shop",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "fortree_decoration_shop"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "House 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_house_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_house_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_house_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_house_4"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 5",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "fortree_house_5"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Lilycove",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Lilycove City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lilycove"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Dept Store",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_2f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "3F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_3f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "4F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_4f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "5F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_5f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Rooftop",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_rooftop"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Elevator",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_dept_store_elevator"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Lilycove Harbor",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lilycove_harbor"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Move Deleter's House",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lilycove_move_deleters_house"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Trainer Fan Club",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "lilycove_trainer_fan_club"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Motel",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_motel_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_motel_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Museum",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_museum_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_museum_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Contest Hall",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Lobby",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_contest_lobby"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Hall",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_contest_hall"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "House 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_house_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_house_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_house_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "lilycove_house_4"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Aqua Hideout",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Aqua Hideout 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "aqua_hideout_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Aqua Hideout B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "aqua_hideout_b1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Aqua Hideout B2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "aqua_hideout_b2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Mossdeep",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Mossdeep City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mossdeep"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mossdeep_gym"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mossdeep_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Steven's House",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_stevens_house"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_house_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_house_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_house_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "mossdeep_house_4"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Space Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Space Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "space_center_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Space Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "space_center_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Game Corner",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "mossdeep_game_corner"
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Sootopolis",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Sootopolis",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sootopolis"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Gym",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Gym 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_gym_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Gym B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_gym_b1f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Mart",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "sootopolis_mart"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "House 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_4"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 5",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_5"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 6",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_6"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 7",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_house_7"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Lotad and Seedot House",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_lotad_and_seedot_house"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Mystery Events House",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "sootopolis_mystery_events_house"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Cave of Origin",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Cave of Origin Entrance",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "cave_of_origin_entrance"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Cave of Origin 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "cave_of_origin_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Cave of Origin B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "cave_of_origin_b1f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Pacifidlog",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Pacifidlog Town",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "pacifidlog"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Houses",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "House 1",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_house_1"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 2",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_house_2"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 3",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_house_3"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 4",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_house_4"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "House 5",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pacifidlog_house_5"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "title": "Ever Grande City",
+              "content": {
+                "type": "tabbed",
+                "tabs": [
+                  {
+                    "title": "Ever Grande City",
+                    "content": {
+                      "type": "map",
+                      "maps": [
+                        "evergrande"
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon Center",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon Center 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "evergrande_pokecenter_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Pokemon Center 2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokecenter_2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Victory Road",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Victory Road 1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "victory_road_1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Victory Road B1F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "victory_road_b1f"
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Victory Road B2F",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "victory_road_b2f"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "title": "Pokemon League",
+                    "content": {
+                      "type": "tabbed",
+                      "tabs": [
+                        {
+                          "title": "Pokemon League",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Pokemon League 1F",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_1f"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Pokemon League 2F",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokecenter_2f"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Sydney",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Hall",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_hall_sydney"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Sydney",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_sydney"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Phoebe",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Hall",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_hall_phoebe"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Phoebe",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_phoebe"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Glacia",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Hall",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_hall_glacia"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Glacia",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_glacia"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Drake",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Hall",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_hall_drake"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Drake",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_drake"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Champion",
+                          "content": {
+                            "type": "tabbed",
+                            "tabs": [
+                              {
+                                "title": "Hall",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_hall_champion"
+                                  ]
+                                }
+                              },
+                              {
+                                "title": "Champion",
+                                "content": {
+                                  "type": "map",
+                                  "maps": [
+                                    "pokemon_league_champion"
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "title": "Hall of Fame",
+                          "content": {
+                            "type": "map",
+                            "maps": [
+                              "pokemon_league_hall_of_fame"
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
       }
     ]
   }
