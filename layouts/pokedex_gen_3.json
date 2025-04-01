@@ -1,13 +1,11 @@
 {
-  "pokedex_gen_3_grid_1":
-  {
+  "pokedex_gen_3_grid_1": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "orientation": "vertical",
@@ -16,9 +14,12 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["treecko","grovyle","sceptile"]
+        "rows": [
+          [
+            "treecko",
+            "grovyle",
+            "sceptile"
+          ]
         ]
       },
       {
@@ -28,9 +29,12 @@
         "v_alignment": "center",
         "background": "47040A",
         "item_size": 44,
-        "rows":
-        [
-          ["torchic","combusken","blaziken"]
+        "rows": [
+          [
+            "torchic",
+            "combusken",
+            "blaziken"
+          ]
         ]
       },
       {
@@ -40,9 +44,12 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["mudkip","marshtomp","swampert"]
+        "rows": [
+          [
+            "mudkip",
+            "marshtomp",
+            "swampert"
+          ]
         ]
       },
       {
@@ -52,9 +59,11 @@
         "v_alignment": "center",
         "background": "030211",
         "item_size": 44,
-        "rows":
-        [
-          ["poochyena","mightyena"]
+        "rows": [
+          [
+            "poochyena",
+            "mightyena"
+          ]
         ]
       },
       {
@@ -64,9 +73,11 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["zigzagoon","linoone"]
+        "rows": [
+          [
+            "zigzagoon",
+            "linoone"
+          ]
         ]
       },
       {
@@ -76,9 +87,10 @@
         "v_alignment": "center",
         "background": "283503",
         "item_size": 44,
-        "rows":
-        [
-          ["wurmple"]
+        "rows": [
+          [
+            "wurmple"
+          ]
         ]
       },
       {
@@ -88,9 +100,11 @@
         "v_alignment": "center",
         "background": "331F30",
         "item_size": 44,
-        "rows":
-        [
-          ["silcoon","beautifly"]
+        "rows": [
+          [
+            "silcoon",
+            "beautifly"
+          ]
         ]
       },
       {
@@ -100,22 +114,21 @@
         "v_alignment": "center",
         "background": "283503",
         "item_size": 44,
-        "rows":
-        [
-          ["cascoon"]
+        "rows": [
+          [
+            "cascoon"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_2":
-  {
+  "pokedex_gen_3_grid_2": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "item_margin": "-1,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-1,0",
@@ -123,9 +136,10 @@
         "v_alignment": "center",
         "background": "283503",
         "item_size": 44,
-        "rows":
-        [
-          ["dustox"]
+        "rows": [
+          [
+            "dustox"
+          ]
         ]
       },
       {
@@ -135,9 +149,12 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["lotad","lombre","ludicolo"]
+        "rows": [
+          [
+            "lotad",
+            "lombre",
+            "ludicolo"
+          ]
         ]
       },
       {
@@ -147,9 +164,11 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["seedot","nuzleaf"]
+        "rows": [
+          [
+            "seedot",
+            "nuzleaf"
+          ]
         ]
       },
       {
@@ -159,9 +178,10 @@
         "v_alignment": "center",
         "background": "215100",
         "item_size": 44,
-        "rows":
-        [
-          ["shiftry"]
+        "rows": [
+          [
+            "shiftry"
+          ]
         ]
       },
       {
@@ -171,9 +191,11 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["taillow","swellow"]
+        "rows": [
+          [
+            "taillow",
+            "swellow"
+          ]
         ]
       },
       {
@@ -183,9 +205,11 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["wingull","pelipper"]
+        "rows": [
+          [
+            "wingull",
+            "pelipper"
+          ]
         ]
       },
       {
@@ -195,9 +219,12 @@
         "v_alignment": "center",
         "background": "2F033F",
         "item_size": 44,
-        "rows":
-        [
-          ["ralts","kirlia","gardevoir"]
+        "rows": [
+          [
+            "ralts",
+            "kirlia",
+            "gardevoir"
+          ]
         ]
       },
       {
@@ -207,9 +234,11 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["surskit","masquerain"]
+        "rows": [
+          [
+            "surskit",
+            "masquerain"
+          ]
         ]
       },
       {
@@ -219,22 +248,21 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["shroomish"]
+        "rows": [
+          [
+            "shroomish"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_3":
-  {
+  "pokedex_gen_3_grid_3": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-2,0",
@@ -242,9 +270,10 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["breloom"]
+        "rows": [
+          [
+            "breloom"
+          ]
         ]
       },
       {
@@ -254,9 +283,12 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["slakoth","vigoroth","slaking"]
+        "rows": [
+          [
+            "slakoth",
+            "vigoroth",
+            "slaking"
+          ]
         ]
       },
       {
@@ -266,9 +298,11 @@
         "v_alignment": "center",
         "background": "283503",
         "item_size": 44,
-        "rows":
-        [
-          ["nincada","ninjask"]
+        "rows": [
+          [
+            "nincada",
+            "ninjask"
+          ]
         ]
       },
       {
@@ -278,9 +312,10 @@
         "v_alignment": "center",
         "background": "331F30",
         "item_size": 44,
-        "rows":
-        [
-          ["shedinja"]
+        "rows": [
+          [
+            "shedinja"
+          ]
         ]
       },
       {
@@ -290,9 +325,12 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["whismur","loudred","exploud"]
+        "rows": [
+          [
+            "whismur",
+            "loudred",
+            "exploud"
+          ]
         ]
       },
       {
@@ -302,9 +340,11 @@
         "v_alignment": "center",
         "background": "381308",
         "item_size": 44,
-        "rows":
-        [
-          ["makuhita","hariyama"]
+        "rows": [
+          [
+            "makuhita",
+            "hariyama"
+          ]
         ]
       },
       {
@@ -314,9 +354,10 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["azurill"]
+        "rows": [
+          [
+            "azurill"
+          ]
         ]
       },
       {
@@ -326,9 +367,10 @@
         "v_alignment": "center",
         "background": "3A3127",
         "item_size": 44,
-        "rows":
-        [
-          ["nosepass"]
+        "rows": [
+          [
+            "nosepass"
+          ]
         ]
       },
       {
@@ -338,9 +380,11 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["skitty","delcatty"]
+        "rows": [
+          [
+            "skitty",
+            "delcatty"
+          ]
         ]
       },
       {
@@ -350,22 +394,21 @@
         "v_alignment": "center",
         "background": "030211",
         "item_size": 44,
-        "rows":
-        [
-          ["sableye"]
+        "rows": [
+          [
+            "sableye"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_4":
-  {
+  "pokedex_gen_3_grid_4": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-2,0",
@@ -373,9 +416,10 @@
         "v_alignment": "center",
         "background": "444444",
         "item_size": 44,
-        "rows":
-        [
-          ["mawile"]
+        "rows": [
+          [
+            "mawile"
+          ]
         ]
       },
       {
@@ -385,9 +429,12 @@
         "v_alignment": "center",
         "background": "282828",
         "item_size": 44,
-        "rows":
-        [
-          ["aron","lairon","aggron"]
+        "rows": [
+          [
+            "aron",
+            "lairon",
+            "aggron"
+          ]
         ]
       },
       {
@@ -397,9 +444,11 @@
         "v_alignment": "center",
         "background": "381308",
         "item_size": 44,
-        "rows":
-        [
-          ["meditite","medicham"]
+        "rows": [
+          [
+            "meditite",
+            "medicham"
+          ]
         ]
       },
       {
@@ -409,9 +458,11 @@
         "v_alignment": "center",
         "background": "3B3D01",
         "item_size": 44,
-        "rows":
-        [
-          ["electrike","manectric"]
+        "rows": [
+          [
+            "electrike",
+            "manectric"
+          ]
         ]
       },
       {
@@ -421,9 +472,10 @@
         "v_alignment": "center",
         "background": "5F6001",
         "item_size": 44,
-        "rows":
-        [
-          ["plusle"]
+        "rows": [
+          [
+            "plusle"
+          ]
         ]
       },
       {
@@ -433,9 +485,10 @@
         "v_alignment": "center",
         "background": "3B3D01",
         "item_size": 44,
-        "rows":
-        [
-          ["minun"]
+        "rows": [
+          [
+            "minun"
+          ]
         ]
       },
       {
@@ -445,9 +498,10 @@
         "v_alignment": "center",
         "background": "283503",
         "item_size": 44,
-        "rows":
-        [
-          ["volbeat"]
+        "rows": [
+          [
+            "volbeat"
+          ]
         ]
       },
       {
@@ -457,9 +511,10 @@
         "v_alignment": "center",
         "background": "331F30",
         "item_size": 44,
-        "rows":
-        [
-          ["illumise"]
+        "rows": [
+          [
+            "illumise"
+          ]
         ]
       },
       {
@@ -469,9 +524,10 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["roselia"]
+        "rows": [
+          [
+            "roselia"
+          ]
         ]
       },
       {
@@ -481,9 +537,11 @@
         "v_alignment": "center",
         "background": "2F033F",
         "item_size": 44,
-        "rows":
-        [
-          ["gulpin","swalot"]
+        "rows": [
+          [
+            "gulpin",
+            "swalot"
+          ]
         ]
       },
       {
@@ -493,22 +551,22 @@
         "v_alignment": "center",
         "background": "030211",
         "item_size": 44,
-        "rows":
-        [
-          ["carvanha","sharpedo"]
+        "rows": [
+          [
+            "carvanha",
+            "sharpedo"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_5":
-  {
+  "pokedex_gen_3_grid_5": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-2,0",
@@ -516,9 +574,11 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["wailmer","wailord"]
+        "rows": [
+          [
+            "wailmer",
+            "wailord"
+          ]
         ]
       },
       {
@@ -528,9 +588,11 @@
         "v_alignment": "center",
         "background": "47040A",
         "item_size": 44,
-        "rows":
-        [
-          ["numel","camerupt"]
+        "rows": [
+          [
+            "numel",
+            "camerupt"
+          ]
         ]
       },
       {
@@ -540,9 +602,10 @@
         "v_alignment": "center",
         "background": "680610",
         "item_size": 44,
-        "rows":
-        [
-          ["torkoal"]
+        "rows": [
+          [
+            "torkoal"
+          ]
         ]
       },
       {
@@ -552,9 +615,11 @@
         "v_alignment": "center",
         "background": "440442",
         "item_size": 44,
-        "rows":
-        [
-          ["spoink","grumpig"]
+        "rows": [
+          [
+            "spoink",
+            "grumpig"
+          ]
         ]
       },
       {
@@ -564,9 +629,10 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["spinda"]
+        "rows": [
+          [
+            "spinda"
+          ]
         ]
       },
       {
@@ -576,9 +642,12 @@
         "v_alignment": "center",
         "background": "3A2301",
         "item_size": 44,
-        "rows":
-        [
-          ["trapinch","vibrava","flygon"]
+        "rows": [
+          [
+            "trapinch",
+            "vibrava",
+            "flygon"
+          ]
         ]
       },
       {
@@ -588,9 +657,11 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["cacnea","cacturne"]
+        "rows": [
+          [
+            "cacnea",
+            "cacturne"
+          ]
         ]
       },
       {
@@ -600,9 +671,11 @@
         "v_alignment": "center",
         "background": "563356",
         "item_size": 44,
-        "rows":
-        [
-          ["swablu","altaria"]
+        "rows": [
+          [
+            "swablu",
+            "altaria"
+          ]
         ]
       },
       {
@@ -612,9 +685,10 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["zangoose"]
+        "rows": [
+          [
+            "zangoose"
+          ]
         ]
       },
       {
@@ -624,22 +698,21 @@
         "v_alignment": "center",
         "background": "030211",
         "item_size": 44,
-        "rows":
-        [
-          ["seviper"]
+        "rows": [
+          [
+            "seviper"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_6":
-  {
+  "pokedex_gen_3_grid_6": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-2,0",
@@ -647,9 +720,10 @@
         "v_alignment": "center",
         "background": "440442",
         "item_size": 44,
-        "rows":
-        [
-          ["lunatone"]
+        "rows": [
+          [
+            "lunatone"
+          ]
         ]
       },
       {
@@ -659,9 +733,10 @@
         "v_alignment": "center",
         "background": "5B043B",
         "item_size": 44,
-        "rows":
-        [
-          ["solrock"]
+        "rows": [
+          [
+            "solrock"
+          ]
         ]
       },
       {
@@ -671,9 +746,11 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["barboach","whiscash"]
+        "rows": [
+          [
+            "barboach",
+            "whiscash"
+          ]
         ]
       },
       {
@@ -683,9 +760,11 @@
         "v_alignment": "center",
         "background": "02133A",
         "item_size": 44,
-        "rows":
-        [
-          ["corphish","crawdaunt"]
+        "rows": [
+          [
+            "corphish",
+            "crawdaunt"
+          ]
         ]
       },
       {
@@ -695,9 +774,11 @@
         "v_alignment": "center",
         "background": "3A2301",
         "item_size": 44,
-        "rows":
-        [
-          ["baltoy","claydol"]
+        "rows": [
+          [
+            "baltoy",
+            "claydol"
+          ]
         ]
       },
       {
@@ -707,9 +788,11 @@
         "v_alignment": "center",
         "background": "3A3127",
         "item_size": 44,
-        "rows":
-        [
-          ["lileep","cradily"]
+        "rows": [
+          [
+            "lileep",
+            "cradily"
+          ]
         ]
       },
       {
@@ -719,9 +802,11 @@
         "v_alignment": "center",
         "background": "443632",
         "item_size": 44,
-        "rows":
-        [
-          ["anorith","armaldo"]
+        "rows": [
+          [
+            "anorith",
+            "armaldo"
+          ]
         ]
       },
       {
@@ -731,9 +816,11 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["feebas","milotic"]
+        "rows": [
+          [
+            "feebas",
+            "milotic"
+          ]
         ]
       },
       {
@@ -743,9 +830,10 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["castform"]
+        "rows": [
+          [
+            "castform"
+          ]
         ]
       },
       {
@@ -755,9 +843,10 @@
         "v_alignment": "center",
         "background": "42341D",
         "item_size": 44,
-        "rows":
-        [
-          ["kecleon"]
+        "rows": [
+          [
+            "kecleon"
+          ]
         ]
       },
       {
@@ -767,22 +856,21 @@
         "v_alignment": "center",
         "background": "1E023F",
         "item_size": 44,
-        "rows":
-        [
-          ["shuppet"]
+        "rows": [
+          [
+            "shuppet"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_7":
-  {
+  "pokedex_gen_3_grid_7": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-3,0",
@@ -790,9 +878,10 @@
         "v_alignment": "center",
         "background": "1E023F",
         "item_size": 44,
-        "rows":
-        [
-          ["banette"]
+        "rows": [
+          [
+            "banette"
+          ]
         ]
       },
       {
@@ -802,9 +891,11 @@
         "v_alignment": "center",
         "background": "260351",
         "item_size": 44,
-        "rows":
-        [
-          ["duskull","dusclops"]
+        "rows": [
+          [
+            "duskull",
+            "dusclops"
+          ]
         ]
       },
       {
@@ -814,9 +905,10 @@
         "v_alignment": "center",
         "background": "0C2800",
         "item_size": 44,
-        "rows":
-        [
-          ["tropius"]
+        "rows": [
+          [
+            "tropius"
+          ]
         ]
       },
       {
@@ -826,9 +918,10 @@
         "v_alignment": "center",
         "background": "440442",
         "item_size": 44,
-        "rows":
-        [
-          ["chimecho"]
+        "rows": [
+          [
+            "chimecho"
+          ]
         ]
       },
       {
@@ -838,9 +931,10 @@
         "v_alignment": "center",
         "background": "030211",
         "item_size": 44,
-        "rows":
-        [
-          ["absol"]
+        "rows": [
+          [
+            "absol"
+          ]
         ]
       },
       {
@@ -850,9 +944,10 @@
         "v_alignment": "center",
         "background": "3E4418",
         "item_size": 44,
-        "rows":
-        [
-          ["wynaut"]
+        "rows": [
+          [
+            "wynaut"
+          ]
         ]
       },
       {
@@ -862,9 +957,11 @@
         "v_alignment": "center",
         "background": "0E3138",
         "item_size": 44,
-        "rows":
-        [
-          ["snorunt","glalie"]
+        "rows": [
+          [
+            "snorunt",
+            "glalie"
+          ]
         ]
       },
       {
@@ -874,9 +971,12 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["spheal","sealeo","walrein"]
+        "rows": [
+          [
+            "spheal",
+            "sealeo",
+            "walrein"
+          ]
         ]
       },
       {
@@ -886,9 +986,12 @@
         "v_alignment": "center",
         "background": "02133A",
         "item_size": 44,
-        "rows":
-        [
-          ["clamperl","huntail","gorebyss"]
+        "rows": [
+          [
+            "clamperl",
+            "huntail",
+            "gorebyss"
+          ]
         ]
       },
       {
@@ -898,9 +1001,10 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["relicanth"]
+        "rows": [
+          [
+            "relicanth"
+          ]
         ]
       },
       {
@@ -910,22 +1014,21 @@
         "v_alignment": "center",
         "background": "02133A",
         "item_size": 44,
-        "rows":
-        [
-          ["luvdisc"]
+        "rows": [
+          [
+            "luvdisc"
+          ]
         ]
       }
     ]
   },
-  "pokedex_gen_3_grid_8":
-  {
+  "pokedex_gen_3_grid_8": {
     "type": "array",
     "orientation": "horizontal",
     "h_alignment": "center",
     "v_alignment": "center",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "itemgrid",
         "item_margin": "-1,0",
@@ -933,9 +1036,12 @@
         "v_alignment": "center",
         "background": "563356",
         "item_size": 44,
-        "rows":
-        [
-          ["bagon","shelgon","salamence"]
+        "rows": [
+          [
+            "bagon",
+            "shelgon",
+            "salamence"
+          ]
         ]
       },
       {
@@ -945,9 +1051,12 @@
         "v_alignment": "center",
         "background": "444444",
         "item_size": 44,
-        "rows":
-        [
-          ["beldum","metang","metagross"]
+        "rows": [
+          [
+            "beldum",
+            "metang",
+            "metagross"
+          ]
         ]
       },
       {
@@ -957,9 +1066,10 @@
         "v_alignment": "center",
         "background": "3A3127",
         "item_size": 44,
-        "rows":
-        [
-          ["regirock"]
+        "rows": [
+          [
+            "regirock"
+          ]
         ]
       },
       {
@@ -969,9 +1079,10 @@
         "v_alignment": "center",
         "background": "0E3138",
         "item_size": 44,
-        "rows":
-        [
-          ["regice"]
+        "rows": [
+          [
+            "regice"
+          ]
         ]
       },
       {
@@ -981,9 +1092,10 @@
         "v_alignment": "center",
         "background": "444444",
         "item_size": 44,
-        "rows":
-        [
-          ["registeel"]
+        "rows": [
+          [
+            "registeel"
+          ]
         ]
       },
       {
@@ -993,9 +1105,10 @@
         "v_alignment": "center",
         "background": "440442",
         "item_size": 44,
-        "rows":
-        [
-          ["latias"]
+        "rows": [
+          [
+            "latias"
+          ]
         ]
       },
       {
@@ -1005,9 +1118,10 @@
         "v_alignment": "center",
         "background": "5B043B",
         "item_size": 44,
-        "rows":
-        [
-          ["latios"]
+        "rows": [
+          [
+            "latios"
+          ]
         ]
       },
       {
@@ -1017,9 +1131,10 @@
         "v_alignment": "center",
         "background": "00093D",
         "item_size": 44,
-        "rows":
-        [
-          ["kyogre"]
+        "rows": [
+          [
+            "kyogre"
+          ]
         ]
       },
       {
@@ -1029,9 +1144,10 @@
         "v_alignment": "center",
         "background": "3A2301",
         "item_size": 44,
-        "rows":
-        [
-          ["groudon"]
+        "rows": [
+          [
+            "groudon"
+          ]
         ]
       },
       {
@@ -1041,9 +1157,10 @@
         "v_alignment": "center",
         "background": "563356",
         "item_size": 44,
-        "rows":
-        [
-          ["rayquaza"]
+        "rows": [
+          [
+            "rayquaza"
+          ]
         ]
       },
       {
@@ -1053,9 +1170,10 @@
         "v_alignment": "center",
         "background": "440442",
         "item_size": 44,
-        "rows":
-        [
-          ["jirachi"]
+        "rows": [
+          [
+            "jirachi"
+          ]
         ]
       },
       {
@@ -1065,9 +1183,10 @@
         "v_alignment": "center",
         "background": "5B043B",
         "item_size": 44,
-        "rows":
-        [
-          ["deoxys"]
+        "rows": [
+          [
+            "deoxys"
+          ]
         ]
       }
     ]

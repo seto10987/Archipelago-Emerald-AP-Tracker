@@ -1,1956 +1,2732 @@
 [
-    {
-        "name": "A Pokedex",
-        "access_rules": ["{}"],
-        "visibility_rules": ["hints_tracking_on"],
-        "children": [
-            {
-                "name": "Pokedex Hints",
-                "sections": [
-                    {
-                        "name": "Pokedex - Bulbasaur (Hint)",
-                        "visibility_rules": ["pokedex_bulbasaur"],
-                        "chest_unopened_img": "/images/locations/pokedex/bulbasaur.png"
-                    },
-                    {
-                        "name": "Pokedex - Ivysaur (Hint)",
-                        "visibility_rules": ["pokedex_ivysaur"],
-                        "chest_unopened_img": "/images/locations/pokedex/ivysaur.png"
-                    },
-                    {
-                        "name": "Pokedex - Venusaur (Hint)",
-                        "visibility_rules": ["pokedex_venusaur"],
-                        "chest_unopened_img": "/images/locations/pokedex/venusaur.png"
-                    },
-                    {
-                        "name": "Pokedex - Charmander (Hint)",
-                        "visibility_rules": ["pokedex_charmander"],
-                        "chest_unopened_img": "/images/locations/pokedex/charmander.png"
-                    },
-                    {
-                        "name": "Pokedex - Charmeleon (Hint)",
-                        "visibility_rules": ["pokedex_charmeleon"],
-                        "chest_unopened_img": "/images/locations/pokedex/charmeleon.png"
-                    },
-                    {
-                        "name": "Pokedex - Charizard (Hint)",
-                        "visibility_rules": ["pokedex_charizard"],
-                        "chest_unopened_img": "/images/locations/pokedex/charizard.png"
-                    },
-                    {
-                        "name": "Pokedex - Squirtle (Hint)",
-                        "visibility_rules": ["pokedex_squirtle"],
-                        "chest_unopened_img": "/images/locations/pokedex/squirtle.png"
-                    },
-                    {
-                        "name": "Pokedex - Wartortle (Hint)",
-                        "visibility_rules": ["pokedex_wartortle"],
-                        "chest_unopened_img": "/images/locations/pokedex/wartortle.png"
-                    },
-                    {
-                        "name": "Pokedex - Blastoise (Hint)",
-                        "visibility_rules": ["pokedex_blastoise"],
-                        "chest_unopened_img": "/images/locations/pokedex/blastoise.png"
-                    },
-                    {
-                        "name": "Pokedex - Caterpie (Hint)",
-                        "visibility_rules": ["pokedex_caterpie"],
-                        "chest_unopened_img": "/images/locations/pokedex/caterpie.png"
-                    },
-                    {
-                        "name": "Pokedex - Metapod (Hint)",
-                        "visibility_rules": ["pokedex_metapod"],
-                        "chest_unopened_img": "/images/locations/pokedex/metapod.png"
-                    },
-                    {
-                        "name": "Pokedex - Butterfree (Hint)",
-                        "visibility_rules": ["pokedex_butterfree"],
-                        "chest_unopened_img": "/images/locations/pokedex/butterfree.png"
-                    },
-                    {
-                        "name": "Pokedex - Weedle (Hint)",
-                        "visibility_rules": ["pokedex_weedle"],
-                        "chest_unopened_img": "/images/locations/pokedex/weedle.png"
-                    },
-                    {
-                        "name": "Pokedex - Kakuna (Hint)",
-                        "visibility_rules": ["pokedex_kakuna"],
-                        "chest_unopened_img": "/images/locations/pokedex/kakuna.png"
-                    },
-                    {
-                        "name": "Pokedex - Beedrill (Hint)",
-                        "visibility_rules": ["pokedex_beedrill"],
-                        "chest_unopened_img": "/images/locations/pokedex/beedrill.png"
-                    },
-                    {
-                        "name": "Pokedex - Pidgey (Hint)",
-                        "visibility_rules": ["pokedex_pidgey"],
-                        "chest_unopened_img": "/images/locations/pokedex/pidgey.png"
-                    },
-                    {
-                        "name": "Pokedex - Pidgeotto (Hint)",
-                        "visibility_rules": ["pokedex_pidgeotto"],
-                        "chest_unopened_img": "/images/locations/pokedex/pidgeotto.png"
-                    },
-                    {
-                        "name": "Pokedex - Pidgeot (Hint)",
-                        "visibility_rules": ["pokedex_pidgeot"],
-                        "chest_unopened_img": "/images/locations/pokedex/pidgeot.png"
-                    },
-                    {
-                        "name": "Pokedex - Rattata (Hint)",
-                        "visibility_rules": ["pokedex_rattata"],
-                        "chest_unopened_img": "/images/locations/pokedex/rattata.png"
-                    },
-                    {
-                        "name": "Pokedex - Raticate (Hint)",
-                        "visibility_rules": ["pokedex_raticate"],
-                        "chest_unopened_img": "/images/locations/pokedex/raticate.png"
-                    },
-                    {
-                        "name": "Pokedex - Spearow (Hint)",
-                        "visibility_rules": ["pokedex_spearow"],
-                        "chest_unopened_img": "/images/locations/pokedex/spearow.png"
-                    },
-                    {
-                        "name": "Pokedex - Fearow (Hint)",
-                        "visibility_rules": ["pokedex_fearow"],
-                        "chest_unopened_img": "/images/locations/pokedex/fearow.png"
-                    },
-                    {
-                        "name": "Pokedex - Ekans (Hint)",
-                        "visibility_rules": ["pokedex_ekans"],
-                        "chest_unopened_img": "/images/locations/pokedex/ekans.png"
-                    },
-                    {
-                        "name": "Pokedex - Arbok (Hint)",
-                        "visibility_rules": ["pokedex_arbok"],
-                        "chest_unopened_img": "/images/locations/pokedex/arbok.png"
-                    },
-                    {
-                        "name": "Pokedex - Pikachu (Hint)",
-                        "visibility_rules": ["pokedex_pikachu"],
-                        "chest_unopened_img": "/images/locations/pokedex/pikachu.png"
-                    },
-                    {
-                        "name": "Pokedex - Raichu (Hint)",
-                        "visibility_rules": ["pokedex_raichu"],
-                        "chest_unopened_img": "/images/locations/pokedex/raichu.png"
-                    },
-                    {
-                        "name": "Pokedex - Sandshrew (Hint)",
-                        "visibility_rules": ["pokedex_sandshrew"],
-                        "chest_unopened_img": "/images/locations/pokedex/sandshrew.png"
-                    },
-                    {
-                        "name": "Pokedex - Sandslash (Hint)",
-                        "visibility_rules": ["pokedex_sandslash"],
-                        "chest_unopened_img": "/images/locations/pokedex/sandslash.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidoran♀ (Hint)",
-                        "visibility_rules": ["pokedex_nidoran_female"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidoran_f.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidorina (Hint)",
-                        "visibility_rules": ["pokedex_nidorina"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidorina.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidoqueen (Hint)",
-                        "visibility_rules": ["pokedex_nidoqueen"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidoqueen.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidoran♂ (Hint)",
-                        "visibility_rules": ["pokedex_nidoran_male"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidoran_m.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidorino (Hint)",
-                        "visibility_rules": ["pokedex_nidorino"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidorino.png"
-                    },
-                    {
-                        "name": "Pokedex - Nidoking (Hint)",
-                        "visibility_rules": ["pokedex_nidoking"],
-                        "chest_unopened_img": "/images/locations/pokedex/nidoking.png"
-                    },
-                    {
-                        "name": "Pokedex - Clefairy (Hint)",
-                        "visibility_rules": ["pokedex_clefairy"],
-                        "chest_unopened_img": "/images/locations/pokedex/clefairy.png"
-                    },
-                    {
-                        "name": "Pokedex - Clefable (Hint)",
-                        "visibility_rules": ["pokedex_clefable"],
-                        "chest_unopened_img": "/images/locations/pokedex/clefable.png"
-                    },
-                    {
-                        "name": "Pokedex - Vulpix (Hint)",
-                        "visibility_rules": ["pokedex_vulpix"],
-                        "chest_unopened_img": "/images/locations/pokedex/vulpix.png"
-                    },
-                    {
-                        "name": "Pokedex - Ninetales (Hint)",
-                        "visibility_rules": ["pokedex_ninetales"],
-                        "chest_unopened_img": "/images/locations/pokedex/ninetales.png"
-                    },
-                    {
-                        "name": "Pokedex - Jigglypuff (Hint)",
-                        "visibility_rules": ["pokedex_jigglypuff"],
-                        "chest_unopened_img": "/images/locations/pokedex/jigglypuff.png"
-                    },
-                    {
-                        "name": "Pokedex - Wigglytuff (Hint)",
-                        "visibility_rules": ["pokedex_wigglytuff"],
-                        "chest_unopened_img": "/images/locations/pokedex/wigglytuff.png"
-                    },
-                    {
-                        "name": "Pokedex - Zubat (Hint)",
-                        "visibility_rules": ["pokedex_zubat"],
-                        "chest_unopened_img": "/images/locations/pokedex/zubat.png"
-                    },
-                    {
-                        "name": "Pokedex - Golbat (Hint)",
-                        "visibility_rules": ["pokedex_golbat"],
-                        "chest_unopened_img": "/images/locations/pokedex/golbat.png"
-                    },
-                    {
-                        "name": "Pokedex - Oddish (Hint)",
-                        "visibility_rules": ["pokedex_oddish"],
-                        "chest_unopened_img": "/images/locations/pokedex/oddish.png"
-                    },
-                    {
-                        "name": "Pokedex - Gloom (Hint)",
-                        "visibility_rules": ["pokedex_gloom"],
-                        "chest_unopened_img": "/images/locations/pokedex/gloom.png"
-                    },
-                    {
-                        "name": "Pokedex - Vileplume (Hint)",
-                        "visibility_rules": ["pokedex_vileplume"],
-                        "chest_unopened_img": "/images/locations/pokedex/vileplume.png"
-                    },
-                    {
-                        "name": "Pokedex - Paras (Hint)",
-                        "visibility_rules": ["pokedex_paras"],
-                        "chest_unopened_img": "/images/locations/pokedex/paras.png"
-                    },
-                    {
-                        "name": "Pokedex - Parasect (Hint)",
-                        "visibility_rules": ["pokedex_parasect"],
-                        "chest_unopened_img": "/images/locations/pokedex/parasect.png"
-                    },
-                    {
-                        "name": "Pokedex - Venonat (Hint)",
-                        "visibility_rules": ["pokedex_venonat"],
-                        "chest_unopened_img": "/images/locations/pokedex/venonat.png"
-                    },
-                    {
-                        "name": "Pokedex - Venomoth (Hint)",
-                        "visibility_rules": ["pokedex_venomoth"],
-                        "chest_unopened_img": "/images/locations/pokedex/venomoth.png"
-                    },
-                    {
-                        "name": "Pokedex - Diglett (Hint)",
-                        "visibility_rules": ["pokedex_diglett"],
-                        "chest_unopened_img": "/images/locations/pokedex/diglett.png"
-                    },
-                    {
-                        "name": "Pokedex - Dugtrio (Hint)",
-                        "visibility_rules": ["pokedex_dugtrio"],
-                        "chest_unopened_img": "/images/locations/pokedex/dugtrio.png"
-                    },
-                    {
-                        "name": "Pokedex - Meowth (Hint)",
-                        "visibility_rules": ["pokedex_meowth"],
-                        "chest_unopened_img": "/images/locations/pokedex/meowth.png"
-                    },
-                    {
-                        "name": "Pokedex - Persian (Hint)",
-                        "visibility_rules": ["pokedex_persian"],
-                        "chest_unopened_img": "/images/locations/pokedex/persian.png"
-                    },
-                    {
-                        "name": "Pokedex - Psyduck (Hint)",
-                        "visibility_rules": ["pokedex_psyduck"],
-                        "chest_unopened_img": "/images/locations/pokedex/psyduck.png"
-                    },
-                    {
-                        "name": "Pokedex - Golduck (Hint)",
-                        "visibility_rules": ["pokedex_golduck"],
-                        "chest_unopened_img": "/images/locations/pokedex/golduck.png"
-                    },
-                    {
-                        "name": "Pokedex - Mankey (Hint)",
-                        "visibility_rules": ["pokedex_mankey"],
-                        "chest_unopened_img": "/images/locations/pokedex/mankey.png"
-                    },
-                    {
-                        "name": "Pokedex - Primeape (Hint)",
-                        "visibility_rules": ["pokedex_primeape"],
-                        "chest_unopened_img": "/images/locations/pokedex/primeape.png"
-                    },
-                    {
-                        "name": "Pokedex - Growlithe (Hint)",
-                        "visibility_rules": ["pokedex_growlithe"],
-                        "chest_unopened_img": "/images/locations/pokedex/growlithe.png"
-                    },
-                    {
-                        "name": "Pokedex - Arcanine (Hint)",
-                        "visibility_rules": ["pokedex_arcanine"],
-                        "chest_unopened_img": "/images/locations/pokedex/arcanine.png"
-                    },
-                    {
-                        "name": "Pokedex - Poliwag (Hint)",
-                        "visibility_rules": ["pokedex_poliwag"],
-                        "chest_unopened_img": "/images/locations/pokedex/poliwag.png"
-                    },
-                    {
-                        "name": "Pokedex - Poliwhirl (Hint)",
-                        "visibility_rules": ["pokedex_poliwhirl"],
-                        "chest_unopened_img": "/images/locations/pokedex/poliwhirl.png"
-                    },
-                    {
-                        "name": "Pokedex - Poliwrath (Hint)",
-                        "visibility_rules": ["pokedex_poliwrath"],
-                        "chest_unopened_img": "/images/locations/pokedex/poliwrath.png"
-                    },
-                    {
-                        "name": "Pokedex - Abra (Hint)",
-                        "visibility_rules": ["pokedex_abra"],
-                        "chest_unopened_img": "/images/locations/pokedex/abra.png"
-                    },
-                    {
-                        "name": "Pokedex - Kadabra (Hint)",
-                        "visibility_rules": ["pokedex_kadabra"],
-                        "chest_unopened_img": "/images/locations/pokedex/kadabra.png"
-                    },
-                    {
-                        "name": "Pokedex - Alakazam (Hint)",
-                        "visibility_rules": ["pokedex_alakazam"],
-                        "chest_unopened_img": "/images/locations/pokedex/alakazam.png"
-                    },
-                    {
-                        "name": "Pokedex - Machop (Hint)",
-                        "visibility_rules": ["pokedex_machop"],
-                        "chest_unopened_img": "/images/locations/pokedex/machop.png"
-                    },
-                    {
-                        "name": "Pokedex - Machoke (Hint)",
-                        "visibility_rules": ["pokedex_machoke"],
-                        "chest_unopened_img": "/images/locations/pokedex/machoke.png"
-                    },
-                    {
-                        "name": "Pokedex - Machamp (Hint)",
-                        "visibility_rules": ["pokedex_machamp"],
-                        "chest_unopened_img": "/images/locations/pokedex/machamp.png"
-                    },
-                    {
-                        "name": "Pokedex - Bellsprout (Hint)",
-                        "visibility_rules": ["pokedex_bellsprout"],
-                        "chest_unopened_img": "/images/locations/pokedex/bellsprout.png"
-                    },
-                    {
-                        "name": "Pokedex - Weepinbell (Hint)",
-                        "visibility_rules": ["pokedex_weepinbell"],
-                        "chest_unopened_img": "/images/locations/pokedex/weepinbell.png"
-                    },
-                    {
-                        "name": "Pokedex - Victreebel (Hint)",
-                        "visibility_rules": ["pokedex_victreebel"],
-                        "chest_unopened_img": "/images/locations/pokedex/victreebel.png"
-                    },
-                    {
-                        "name": "Pokedex - Tentacool (Hint)",
-                        "visibility_rules": ["pokedex_tentacool"],
-                        "chest_unopened_img": "/images/locations/pokedex/tentacool.png"
-                    },
-                    {
-                        "name": "Pokedex - Tentacruel (Hint)",
-                        "visibility_rules": ["pokedex_tentacruel"],
-                        "chest_unopened_img": "/images/locations/pokedex/tentacruel.png"
-                    },
-                    {
-                        "name": "Pokedex - Geodude (Hint)",
-                        "visibility_rules": ["pokedex_geodude"],
-                        "chest_unopened_img": "/images/locations/pokedex/geodude.png"
-                    },
-                    {
-                        "name": "Pokedex - Graveler (Hint)",
-                        "visibility_rules": ["pokedex_graveler"],
-                        "chest_unopened_img": "/images/locations/pokedex/graveler.png"
-                    },
-                    {
-                        "name": "Pokedex - Golem (Hint)",
-                        "visibility_rules": ["pokedex_golem"],
-                        "chest_unopened_img": "/images/locations/pokedex/golem.png"
-                    },
-                    {
-                        "name": "Pokedex - Ponyta (Hint)",
-                        "visibility_rules": ["pokedex_ponyta"],
-                        "chest_unopened_img": "/images/locations/pokedex/ponyta.png"
-                    },
-                    {
-                        "name": "Pokedex - Rapidash (Hint)",
-                        "visibility_rules": ["pokedex_rapidash"],
-                        "chest_unopened_img": "/images/locations/pokedex/rapidash.png"
-                    },
-                    {
-                        "name": "Pokedex - Slowpoke (Hint)",
-                        "visibility_rules": ["pokedex_slowpoke"],
-                        "chest_unopened_img": "/images/locations/pokedex/slowpoke.png"
-                    },
-                    {
-                        "name": "Pokedex - Slowbro (Hint)",
-                        "visibility_rules": ["pokedex_slowbro"],
-                        "chest_unopened_img": "/images/locations/pokedex/slowbro.png"
-                    },
-                    {
-                        "name": "Pokedex - Magnemite (Hint)",
-                        "visibility_rules": ["pokedex_magnemite"],
-                        "chest_unopened_img": "/images/locations/pokedex/magnemite.png"
-                    },
-                    {
-                        "name": "Pokedex - Magneton (Hint)",
-                        "visibility_rules": ["pokedex_magneton"],
-                        "chest_unopened_img": "/images/locations/pokedex/magneton.png"
-                    },
-                    {
-                        "name": "Pokedex - Farfetch'd (Hint)",
-                        "visibility_rules": ["pokedex_farfetchd"],
-                        "chest_unopened_img": "/images/locations/pokedex/farfetch'd.png"
-                    },
-                    {
-                        "name": "Pokedex - Doduo (Hint)",
-                        "visibility_rules": ["pokedex_doduo"],
-                        "chest_unopened_img": "/images/locations/pokedex/doduo.png"
-                    },
-                    {
-                        "name": "Pokedex - Dodrio (Hint)",
-                        "visibility_rules": ["pokedex_dodrio"],
-                        "chest_unopened_img": "/images/locations/pokedex/dodrio.png"
-                    },
-                    {
-                        "name": "Pokedex - Seel (Hint)",
-                        "visibility_rules": ["pokedex_seel"],
-                        "chest_unopened_img": "/images/locations/pokedex/seel.png"
-                    },
-                    {
-                        "name": "Pokedex - Dewgong (Hint)",
-                        "visibility_rules": ["pokedex_dewgong"],
-                        "chest_unopened_img": "/images/locations/pokedex/dewgong.png"
-                    },
-                    {
-                        "name": "Pokedex - Grimer (Hint)",
-                        "visibility_rules": ["pokedex_grimer"],
-                        "chest_unopened_img": "/images/locations/pokedex/grimer.png"
-                    },
-                    {
-                        "name": "Pokedex - Muk (Hint)",
-                        "visibility_rules": ["pokedex_muk"],
-                        "chest_unopened_img": "/images/locations/pokedex/muk.png"
-                    },
-                    {
-                        "name": "Pokedex - Shellder (Hint)",
-                        "visibility_rules": ["pokedex_shellder"],
-                        "chest_unopened_img": "/images/locations/pokedex/shellder.png"
-                    },
-                    {
-                        "name": "Pokedex - Cloyster (Hint)",
-                        "visibility_rules": ["pokedex_cloyster"],
-                        "chest_unopened_img": "/images/locations/pokedex/cloyster.png"
-                    },
-                    {
-                        "name": "Pokedex - Gastly (Hint)",
-                        "visibility_rules": ["pokedex_gastly"],
-                        "chest_unopened_img": "/images/locations/pokedex/gastly.png"
-                    },
-                    {
-                        "name": "Pokedex - Haunter (Hint)",
-                        "visibility_rules": ["pokedex_haunter"],
-                        "chest_unopened_img": "/images/locations/pokedex/haunter.png"
-                    },
-                    {
-                        "name": "Pokedex - Gengar (Hint)",
-                        "visibility_rules": ["pokedex_gengar"],
-                        "chest_unopened_img": "/images/locations/pokedex/gengar.png"
-                    },
-                    {
-                        "name": "Pokedex - Onix (Hint)",
-                        "visibility_rules": ["pokedex_onix"],
-                        "chest_unopened_img": "/images/locations/pokedex/onix.png"
-                    },
-                    {
-                        "name": "Pokedex - Drowzee (Hint)",
-                        "visibility_rules": ["pokedex_drowzee"],
-                        "chest_unopened_img": "/images/locations/pokedex/drowzee.png"
-                    },
-                    {
-                        "name": "Pokedex - Hypno (Hint)",
-                        "visibility_rules": ["pokedex_hypno"],
-                        "chest_unopened_img": "/images/locations/pokedex/hypno.png"
-                    },
-                    {
-                        "name": "Pokedex - Krabby (Hint)",
-                        "visibility_rules": ["pokedex_krabby"],
-                        "chest_unopened_img": "/images/locations/pokedex/krabby.png"
-                    },
-                    {
-                        "name": "Pokedex - Kingler (Hint)",
-                        "visibility_rules": ["pokedex_kingler"],
-                        "chest_unopened_img": "/images/locations/pokedex/kingler.png"
-                    },
-                    {
-                        "name": "Pokedex - Voltorb (Hint)",
-                        "visibility_rules": ["pokedex_voltorb"],
-                        "chest_unopened_img": "/images/locations/pokedex/voltorb.png"
-                    },
-                    {
-                        "name": "Pokedex - Electrode (Hint)",
-                        "visibility_rules": ["pokedex_electrode"],
-                        "chest_unopened_img": "/images/locations/pokedex/electrode.png"
-                    },
-                    {
-                        "name": "Pokedex - Exeggcute (Hint)",
-                        "visibility_rules": ["pokedex_exeggcute"],
-                        "chest_unopened_img": "/images/locations/pokedex/exeggcute.png"
-                    },
-                    {
-                        "name": "Pokedex - Exeggutor (Hint)",
-                        "visibility_rules": ["pokedex_exeggutor"],
-                        "chest_unopened_img": "/images/locations/pokedex/exeggutor.png"
-                    },
-                    {
-                        "name": "Pokedex - Cubone (Hint)",
-                        "visibility_rules": ["pokedex_cubone"],
-                        "chest_unopened_img": "/images/locations/pokedex/cubone.png"
-                    },
-                    {
-                        "name": "Pokedex - Marowak (Hint)",
-                        "visibility_rules": ["pokedex_marowak"],
-                        "chest_unopened_img": "/images/locations/pokedex/marowak.png"
-                    },
-                    {
-                        "name": "Pokedex - Hitmonlee (Hint)",
-                        "visibility_rules": ["pokedex_hitmonlee"],
-                        "chest_unopened_img": "/images/locations/pokedex/hitmonlee.png"
-                    },
-                    {
-                        "name": "Pokedex - Hitmonchan (Hint)",
-                        "visibility_rules": ["pokedex_hitmonchan"],
-                        "chest_unopened_img": "/images/locations/pokedex/hitmonchan.png"
-                    },
-                    {
-                        "name": "Pokedex - Lickitung (Hint)",
-                        "visibility_rules": ["pokedex_lickitung"],
-                        "chest_unopened_img": "/images/locations/pokedex/lickitung.png"
-                    },
-                    {
-                        "name": "Pokedex - Koffing (Hint)",
-                        "visibility_rules": ["pokedex_koffing"],
-                        "chest_unopened_img": "/images/locations/pokedex/koffing.png"
-                    },
-                    {
-                        "name": "Pokedex - Weezing (Hint)",
-                        "visibility_rules": ["pokedex_weezing"],
-                        "chest_unopened_img": "/images/locations/pokedex/weezing.png"
-                    },
-                    {
-                        "name": "Pokedex - Rhyhorn (Hint)",
-                        "visibility_rules": ["pokedex_rhyhorn"],
-                        "chest_unopened_img": "/images/locations/pokedex/rhyhorn.png"
-                    },
-                    {
-                        "name": "Pokedex - Rhydon (Hint)",
-                        "visibility_rules": ["pokedex_rhydon"],
-                        "chest_unopened_img": "/images/locations/pokedex/rhydon.png"
-                    },
-                    {
-                        "name": "Pokedex - Chansey (Hint)",
-                        "visibility_rules": ["pokedex_chansey"],
-                        "chest_unopened_img": "/images/locations/pokedex/chansey.png"
-                    },
-                    {
-                        "name": "Pokedex - Tangela (Hint)",
-                        "visibility_rules": ["pokedex_tangela"],
-                        "chest_unopened_img": "/images/locations/pokedex/tangela.png"
-                    },
-                    {
-                        "name": "Pokedex - Kangaskhan (Hint)",
-                        "visibility_rules": ["pokedex_kangaskhan"],
-                        "chest_unopened_img": "/images/locations/pokedex/kangaskhan.png"
-                    },
-                    {
-                        "name": "Pokedex - Horsea (Hint)",
-                        "visibility_rules": ["pokedex_horsea"],
-                        "chest_unopened_img": "/images/locations/pokedex/horsea.png"
-                    },
-                    {
-                        "name": "Pokedex - Seadra (Hint)",
-                        "visibility_rules": ["pokedex_seadra"],
-                        "chest_unopened_img": "/images/locations/pokedex/seadra.png"
-                    },
-                    {
-                        "name": "Pokedex - Goldeen (Hint)",
-                        "visibility_rules": ["pokedex_goldeen"],
-                        "chest_unopened_img": "/images/locations/pokedex/goldeen.png"
-                    },
-                    {
-                        "name": "Pokedex - Seaking (Hint)",
-                        "visibility_rules": ["pokedex_seaking"],
-                        "chest_unopened_img": "/images/locations/pokedex/seaking.png"
-                    },
-                    {
-                        "name": "Pokedex - Staryu (Hint)",
-                        "visibility_rules": ["pokedex_staryu"],
-                        "chest_unopened_img": "/images/locations/pokedex/staryu.png"
-                    },
-                    {
-                        "name": "Pokedex - Starmie (Hint)",
-                        "visibility_rules": ["pokedex_starmie"],
-                        "chest_unopened_img": "/images/locations/pokedex/starmie.png"
-                    },
-                    {
-                        "name": "Pokedex - Mr. Mime (Hint)",
-                        "visibility_rules": ["pokedex_mr_mime"],
-                        "chest_unopened_img": "/images/locations/pokedex/mr_mime.png"
-                    },
-                    {
-                        "name": "Pokedex - Scyther (Hint)",
-                        "visibility_rules": ["pokedex_scyther"],
-                        "chest_unopened_img": "/images/locations/pokedex/scyther.png"
-                    },
-                    {
-                        "name": "Pokedex - Jynx (Hint)",
-                        "visibility_rules": ["pokedex_jynx"],
-                        "chest_unopened_img": "/images/locations/pokedex/jynx.png"
-                    },
-                    {
-                        "name": "Pokedex - Electabuzz (Hint)",
-                        "visibility_rules": ["pokedex_electabuzz"],
-                        "chest_unopened_img": "/images/locations/pokedex/electabuzz.png"
-                    },
-                    {
-                        "name": "Pokedex - Magmar (Hint)",
-                        "visibility_rules": ["pokedex_magmar"],
-                        "chest_unopened_img": "/images/locations/pokedex/magmar.png"
-                    },
-                    {
-                        "name": "Pokedex - Pinsir (Hint)",
-                        "visibility_rules": ["pokedex_pinsir"],
-                        "chest_unopened_img": "/images/locations/pokedex/pinsir.png"
-                    },
-                    {
-                        "name": "Pokedex - Tauros (Hint)",
-                        "visibility_rules": ["pokedex_tauros"],
-                        "chest_unopened_img": "/images/locations/pokedex/tauros.png"
-                    },
-                    {
-                        "name": "Pokedex - Magikarp (Hint)",
-                        "visibility_rules": ["pokedex_magikarp"],
-                        "chest_unopened_img": "/images/locations/pokedex/magikarp.png"
-                    },
-                    {
-                        "name": "Pokedex - Gyarados (Hint)",
-                        "visibility_rules": ["pokedex_gyarados"],
-                        "chest_unopened_img": "/images/locations/pokedex/gyarados.png"
-                    },
-                    {
-                        "name": "Pokedex - Lapras (Hint)",
-                        "visibility_rules": ["pokedex_lapras"],
-                        "chest_unopened_img": "/images/locations/pokedex/lapras.png"
-                    },
-                    {
-                        "name": "Pokedex - Ditto (Hint)",
-                        "visibility_rules": ["pokedex_ditto"],
-                        "chest_unopened_img": "/images/locations/pokedex/ditto.png"
-                    },
-                    {
-                        "name": "Pokedex - Eevee (Hint)",
-                        "visibility_rules": ["pokedex_eevee"],
-                        "chest_unopened_img": "/images/locations/pokedex/eevee.png"
-                    },
-                    {
-                        "name": "Pokedex - Vaporeon (Hint)",
-                        "visibility_rules": ["pokedex_vaporeon"],
-                        "chest_unopened_img": "/images/locations/pokedex/vaporeon.png"
-                    },
-                    {
-                        "name": "Pokedex - Jolteon (Hint)",
-                        "visibility_rules": ["pokedex_jolteon"],
-                        "chest_unopened_img": "/images/locations/pokedex/jolteon.png"
-                    },
-                    {
-                        "name": "Pokedex - Flareon (Hint)",
-                        "visibility_rules": ["pokedex_flareon"],
-                        "chest_unopened_img": "/images/locations/pokedex/flareon.png"
-                    },
-                    {
-                        "name": "Pokedex - Porygon (Hint)",
-                        "visibility_rules": ["pokedex_porygon"],
-                        "chest_unopened_img": "/images/locations/pokedex/porygon.png"
-                    },
-                    {
-                        "name": "Pokedex - Omanyte (Hint)",
-                        "visibility_rules": ["pokedex_omanyte"],
-                        "chest_unopened_img": "/images/locations/pokedex/omanyte.png"
-                    },
-                    {
-                        "name": "Pokedex - Omastar (Hint)",
-                        "visibility_rules": ["pokedex_omastar"],
-                        "chest_unopened_img": "/images/locations/pokedex/omastar.png"
-                    },
-                    {
-                        "name": "Pokedex - Kabuto (Hint)",
-                        "visibility_rules": ["pokedex_kabuto"],
-                        "chest_unopened_img": "/images/locations/pokedex/kabuto.png"
-                    },
-                    {
-                        "name": "Pokedex - Kabutops (Hint)",
-                        "visibility_rules": ["pokedex_kabutops"],
-                        "chest_unopened_img": "/images/locations/pokedex/kabutops.png"
-                    },
-                    {
-                        "name": "Pokedex - Aerodactyl (Hint)",
-                        "visibility_rules": ["pokedex_aerodactyl"],
-                        "chest_unopened_img": "/images/locations/pokedex/aerodactyl.png"
-                    },
-                    {
-                        "name": "Pokedex - Snorlax (Hint)",
-                        "visibility_rules": ["pokedex_snorlax"],
-                        "chest_unopened_img": "/images/locations/pokedex/snorlax.png"
-                    },
-                    {
-                        "name": "Pokedex - Articuno (Hint)",
-                        "visibility_rules": ["pokedex_articuno"],
-                        "chest_unopened_img": "/images/locations/pokedex/articuno.png"
-                    },
-                    {
-                        "name": "Pokedex - Zapdos (Hint)",
-                        "visibility_rules": ["pokedex_zapdos"],
-                        "chest_unopened_img": "/images/locations/pokedex/zapdos.png"
-                    },
-                    {
-                        "name": "Pokedex - Moltres (Hint)",
-                        "visibility_rules": ["pokedex_moltres"],
-                        "chest_unopened_img": "/images/locations/pokedex/moltres.png"
-                    },
-                    {
-                        "name": "Pokedex - Dratini (Hint)",
-                        "visibility_rules": ["pokedex_dratini"],
-                        "chest_unopened_img": "/images/locations/pokedex/dratini.png"
-                    },
-                    {
-                        "name": "Pokedex - Dragonair (Hint)",
-                        "visibility_rules": ["pokedex_dragonair"],
-                        "chest_unopened_img": "/images/locations/pokedex/dragonair.png"
-                    },
-                    {
-                        "name": "Pokedex - Dragonite (Hint)",
-                        "visibility_rules": ["pokedex_dragonite"],
-                        "chest_unopened_img": "/images/locations/pokedex/dragonite.png"
-                    },
-                    {
-                        "name": "Pokedex - Mewtwo (Hint)",
-                        "visibility_rules": ["pokedex_mewtwo"],
-                        "chest_unopened_img": "/images/locations/pokedex/mewtwo.png"
-                    },
-                    {
-                        "name": "Pokedex - Mew (Hint)",
-                        "visibility_rules": ["pokedex_mew"],
-                        "chest_unopened_img": "/images/locations/pokedex/mew.png"
-                    },
-                    {
-                        "name": "Pokedex - Chikorita (Hint)",
-                        "visibility_rules": ["pokedex_chikorita"],
-                        "chest_unopened_img": "/images/locations/pokedex/chikorita.png"
-                    },
-                    {
-                        "name": "Pokedex - Bayleef (Hint)",
-                        "visibility_rules": ["pokedex_bayleef"],
-                        "chest_unopened_img": "/images/locations/pokedex/bayleef.png"
-                    },
-                    {
-                        "name": "Pokedex - Meganium (Hint)",
-                        "visibility_rules": ["pokedex_meganium"],
-                        "chest_unopened_img": "/images/locations/pokedex/meganium.png"
-                    },
-                    {
-                        "name": "Pokedex - Cyndaquil (Hint)",
-                        "visibility_rules": ["pokedex_cyndaquil"],
-                        "chest_unopened_img": "/images/locations/pokedex/cyndaquil.png"
-                    },
-                    {
-                        "name": "Pokedex - Quilava (Hint)",
-                        "visibility_rules": ["pokedex_quilava"],
-                        "chest_unopened_img": "/images/locations/pokedex/quilava.png"
-                    },
-                    {
-                        "name": "Pokedex - Typhlosion (Hint)",
-                        "visibility_rules": ["pokedex_typhlosion"],
-                        "chest_unopened_img": "/images/locations/pokedex/typhlosion.png"
-                    },
-                    {
-                        "name": "Pokedex - Totodile (Hint)",
-                        "visibility_rules": ["pokedex_totodile"],
-                        "chest_unopened_img": "/images/locations/pokedex/totodile.png"
-                    },
-                    {
-                        "name": "Pokedex - Croconaw (Hint)",
-                        "visibility_rules": ["pokedex_croconaw"],
-                        "chest_unopened_img": "/images/locations/pokedex/croconaw.png"
-                    },
-                    {
-                        "name": "Pokedex - Feraligatr (Hint)",
-                        "visibility_rules": ["pokedex_feraligatr"],
-                        "chest_unopened_img": "/images/locations/pokedex/feraligatr.png"
-                    },
-                    {
-                        "name": "Pokedex - Sentret (Hint)",
-                        "visibility_rules": ["pokedex_sentret"],
-                        "chest_unopened_img": "/images/locations/pokedex/sentret.png"
-                    },
-                    {
-                        "name": "Pokedex - Furret (Hint)",
-                        "visibility_rules": ["pokedex_furret"],
-                        "chest_unopened_img": "/images/locations/pokedex/furret.png"
-                    },
-                    {
-                        "name": "Pokedex - Hoothoot (Hint)",
-                        "visibility_rules": ["pokedex_hoothoot"],
-                        "chest_unopened_img": "/images/locations/pokedex/hoothoot.png"
-                    },
-                    {
-                        "name": "Pokedex - Noctowl (Hint)",
-                        "visibility_rules": ["pokedex_noctowl"],
-                        "chest_unopened_img": "/images/locations/pokedex/noctowl.png"
-                    },
-                    {
-                        "name": "Pokedex - Ledyba (Hint)",
-                        "visibility_rules": ["pokedex_ledyba"],
-                        "chest_unopened_img": "/images/locations/pokedex/ledyba.png"
-                    },
-                    {
-                        "name": "Pokedex - Ledian (Hint)",
-                        "visibility_rules": ["pokedex_ledian"],
-                        "chest_unopened_img": "/images/locations/pokedex/ledian.png"
-                    },
-                    {
-                        "name": "Pokedex - Spinarak (Hint)",
-                        "visibility_rules": ["pokedex_spinarak"],
-                        "chest_unopened_img": "/images/locations/pokedex/spinarak.png"
-                    },
-                    {
-                        "name": "Pokedex - Ariados (Hint)",
-                        "visibility_rules": ["pokedex_ariados"],
-                        "chest_unopened_img": "/images/locations/pokedex/ariados.png"
-                    },
-                    {
-                        "name": "Pokedex - Crobat (Hint)",
-                        "visibility_rules": ["pokedex_crobat"],
-                        "chest_unopened_img": "/images/locations/pokedex/crobat.png"
-                    },
-                    {
-                        "name": "Pokedex - Chinchou (Hint)",
-                        "visibility_rules": ["pokedex_chinchou"],
-                        "chest_unopened_img": "/images/locations/pokedex/chinchou.png"
-                    },
-                    {
-                        "name": "Pokedex - Lanturn (Hint)",
-                        "visibility_rules": ["pokedex_lanturn"],
-                        "chest_unopened_img": "/images/locations/pokedex/lanturn.png"
-                    },
-                    {
-                        "name": "Pokedex - Pichu (Hint)",
-                        "visibility_rules": ["pokedex_pichu"],
-                        "chest_unopened_img": "/images/locations/pokedex/pichu.png"
-                    },
-                    {
-                        "name": "Pokedex - Cleffa (Hint)",
-                        "visibility_rules": ["pokedex_cleffa"],
-                        "chest_unopened_img": "/images/locations/pokedex/cleffa.png"
-                    },
-                    {
-                        "name": "Pokedex - Igglybuff (Hint)",
-                        "visibility_rules": ["pokedex_igglybuff"],
-                        "chest_unopened_img": "/images/locations/pokedex/igglybuff.png"
-                    },
-                    {
-                        "name": "Pokedex - Togepi (Hint)",
-                        "visibility_rules": ["pokedex_togepi"],
-                        "chest_unopened_img": "/images/locations/pokedex/togepi.png"
-                    },
-                    {
-                        "name": "Pokedex - Togetic (Hint)",
-                        "visibility_rules": ["pokedex_togetic"],
-                        "chest_unopened_img": "/images/locations/pokedex/togetic.png"
-                    },
-                    {
-                        "name": "Pokedex - Natu (Hint)",
-                        "visibility_rules": ["pokedex_natu"],
-                        "chest_unopened_img": "/images/locations/pokedex/natu.png"
-                    },
-                    {
-                        "name": "Pokedex - Xatu (Hint)",
-                        "visibility_rules": ["pokedex_xatu"],
-                        "chest_unopened_img": "/images/locations/pokedex/xatu.png"
-                    },
-                    {
-                        "name": "Pokedex - Mareep (Hint)",
-                        "visibility_rules": ["pokedex_mareep"],
-                        "chest_unopened_img": "/images/locations/pokedex/mareep.png"
-                    },
-                    {
-                        "name": "Pokedex - Flaaffy (Hint)",
-                        "visibility_rules": ["pokedex_flaaffy"],
-                        "chest_unopened_img": "/images/locations/pokedex/flaaffy.png"
-                    },
-                    {
-                        "name": "Pokedex - Ampharos (Hint)",
-                        "visibility_rules": ["pokedex_ampharos"],
-                        "chest_unopened_img": "/images/locations/pokedex/ampharos.png"
-                    },
-                    {
-                        "name": "Pokedex - Bellossom (Hint)",
-                        "visibility_rules": ["pokedex_bellossom"],
-                        "chest_unopened_img": "/images/locations/pokedex/bellossom.png"
-                    },
-                    {
-                        "name": "Pokedex - Marill (Hint)",
-                        "visibility_rules": ["pokedex_marill"],
-                        "chest_unopened_img": "/images/locations/pokedex/marill.png"
-                    },
-                    {
-                        "name": "Pokedex - Azumarill (Hint)",
-                        "visibility_rules": ["pokedex_azumarill"],
-                        "chest_unopened_img": "/images/locations/pokedex/azumarill.png"
-                    },
-                    {
-                        "name": "Pokedex - Sudowoodo (Hint)",
-                        "visibility_rules": ["pokedex_sudowoodo"],
-                        "chest_unopened_img": "/images/locations/pokedex/sudowoodo.png"
-                    },
-                    {
-                        "name": "Pokedex - Politoed (Hint)",
-                        "visibility_rules": ["pokedex_politoed"],
-                        "chest_unopened_img": "/images/locations/pokedex/politoed.png"
-                    },
-                    {
-                        "name": "Pokedex - Hoppip (Hint)",
-                        "visibility_rules": ["pokedex_hoppip"],
-                        "chest_unopened_img": "/images/locations/pokedex/hoppip.png"
-                    },
-                    {
-                        "name": "Pokedex - Skiploom (Hint)",
-                        "visibility_rules": ["pokedex_skiploom"],
-                        "chest_unopened_img": "/images/locations/pokedex/skiploom.png"
-                    },
-                    {
-                        "name": "Pokedex - Jumpluff (Hint)",
-                        "visibility_rules": ["pokedex_jumpluff"],
-                        "chest_unopened_img": "/images/locations/pokedex/jumpluff.png"
-                    },
-                    {
-                        "name": "Pokedex - Aipom (Hint)",
-                        "visibility_rules": ["pokedex_aipom"],
-                        "chest_unopened_img": "/images/locations/pokedex/aipom.png"
-                    },
-                    {
-                        "name": "Pokedex - Sunkern (Hint)",
-                        "visibility_rules": ["pokedex_sunkern"],
-                        "chest_unopened_img": "/images/locations/pokedex/sunkern.png"
-                    },
-                    {
-                        "name": "Pokedex - Sunflora (Hint)",
-                        "visibility_rules": ["pokedex_sunflora"],
-                        "chest_unopened_img": "/images/locations/pokedex/sunflora.png"
-                    },
-                    {
-                        "name": "Pokedex - Yanma (Hint)",
-                        "visibility_rules": ["pokedex_yanma"],
-                        "chest_unopened_img": "/images/locations/pokedex/yanma.png"
-                    },
-                    {
-                        "name": "Pokedex - Wooper (Hint)",
-                        "visibility_rules": ["pokedex_wooper"],
-                        "chest_unopened_img": "/images/locations/pokedex/wooper.png"
-                    },
-                    {
-                        "name": "Pokedex - Quagsire (Hint)",
-                        "visibility_rules": ["pokedex_quagsire"],
-                        "chest_unopened_img": "/images/locations/pokedex/quagsire.png"
-                    },
-                    {
-                        "name": "Pokedex - Espeon (Hint)",
-                        "visibility_rules": ["pokedex_espeon"],
-                        "chest_unopened_img": "/images/locations/pokedex/espeon.png"
-                    },
-                    {
-                        "name": "Pokedex - Umbreon (Hint)",
-                        "visibility_rules": ["pokedex_umbreon"],
-                        "chest_unopened_img": "/images/locations/pokedex/umbreon.png"
-                    },
-                    {
-                        "name": "Pokedex - Murkrow (Hint)",
-                        "visibility_rules": ["pokedex_murkrow"],
-                        "chest_unopened_img": "/images/locations/pokedex/murkrow.png"
-                    },
-                    {
-                        "name": "Pokedex - Slowking (Hint)",
-                        "visibility_rules": ["pokedex_slowking"],
-                        "chest_unopened_img": "/images/locations/pokedex/slowking.png"
-                    },
-                    {
-                        "name": "Pokedex - Misdreavus (Hint)",
-                        "visibility_rules": ["pokedex_misdreavus"],
-                        "chest_unopened_img": "/images/locations/pokedex/misdreavus.png"
-                    },
-                    {
-                        "name": "Pokedex - Unown (Hint)",
-                        "visibility_rules": ["pokedex_unown"],
-                        "chest_unopened_img": "/images/locations/pokedex/unown.png"
-                    },
-                    {
-                        "name": "Pokedex - Wobbuffet (Hint)",
-                        "visibility_rules": ["pokedex_wobbuffet"],
-                        "chest_unopened_img": "/images/locations/pokedex/wobbuffet.png"
-                    },
-                    {
-                        "name": "Pokedex - Girafarig (Hint)",
-                        "visibility_rules": ["pokedex_girafarig"],
-                        "chest_unopened_img": "/images/locations/pokedex/girafarig.png"
-                    },
-                    {
-                        "name": "Pokedex - Pineco (Hint)",
-                        "visibility_rules": ["pokedex_pineco"],
-                        "chest_unopened_img": "/images/locations/pokedex/pineco.png"
-                    },
-                    {
-                        "name": "Pokedex - Forretress (Hint)",
-                        "visibility_rules": ["pokedex_forretress"],
-                        "chest_unopened_img": "/images/locations/pokedex/forretress.png"
-                    },
-                    {
-                        "name": "Pokedex - Dunsparce (Hint)",
-                        "visibility_rules": ["pokedex_dunsparce"],
-                        "chest_unopened_img": "/images/locations/pokedex/dunsparce.png"
-                    },
-                    {
-                        "name": "Pokedex - Gligar (Hint)",
-                        "visibility_rules": ["pokedex_gligar"],
-                        "chest_unopened_img": "/images/locations/pokedex/gligar.png"
-                    },
-                    {
-                        "name": "Pokedex - Steelix (Hint)",
-                        "visibility_rules": ["pokedex_steelix"],
-                        "chest_unopened_img": "/images/locations/pokedex/steelix.png"
-                    },
-                    {
-                        "name": "Pokedex - Snubbull (Hint)",
-                        "visibility_rules": ["pokedex_snubbull"],
-                        "chest_unopened_img": "/images/locations/pokedex/snubbull.png"
-                    },
-                    {
-                        "name": "Pokedex - Granbull (Hint)",
-                        "visibility_rules": ["pokedex_granbull"],
-                        "chest_unopened_img": "/images/locations/pokedex/granbull.png"
-                    },
-                    {
-                        "name": "Pokedex - Qwilfish (Hint)",
-                        "visibility_rules": ["pokedex_qwilfish"],
-                        "chest_unopened_img": "/images/locations/pokedex/qwilfish.png"
-                    },
-                    {
-                        "name": "Pokedex - Scizor (Hint)",
-                        "visibility_rules": ["pokedex_scizor"],
-                        "chest_unopened_img": "/images/locations/pokedex/scizor.png"
-                    },
-                    {
-                        "name": "Pokedex - Shuckle (Hint)",
-                        "visibility_rules": ["pokedex_shuckle"],
-                        "chest_unopened_img": "/images/locations/pokedex/shuckle.png"
-                    },
-                    {
-                        "name": "Pokedex - Heracross (Hint)",
-                        "visibility_rules": ["pokedex_heracross"],
-                        "chest_unopened_img": "/images/locations/pokedex/heracross.png"
-                    },
-                    {
-                        "name": "Pokedex - Sneasel (Hint)",
-                        "visibility_rules": ["pokedex_sneasel"],
-                        "chest_unopened_img": "/images/locations/pokedex/sneasel.png"
-                    },
-                    {
-                        "name": "Pokedex - Teddiursa (Hint)",
-                        "visibility_rules": ["pokedex_teddiursa"],
-                        "chest_unopened_img": "/images/locations/pokedex/teddiursa.png"
-                    },
-                    {
-                        "name": "Pokedex - Ursaring (Hint)",
-                        "visibility_rules": ["pokedex_ursaring"],
-                        "chest_unopened_img": "/images/locations/pokedex/ursaring.png"
-                    },
-                    {
-                        "name": "Pokedex - Slugma (Hint)",
-                        "visibility_rules": ["pokedex_slugma"],
-                        "chest_unopened_img": "/images/locations/pokedex/slugma.png"
-                    },
-                    {
-                        "name": "Pokedex - Magcargo (Hint)",
-                        "visibility_rules": ["pokedex_magcargo"],
-                        "chest_unopened_img": "/images/locations/pokedex/magcargo.png"
-                    },
-                    {
-                        "name": "Pokedex - Swinub (Hint)",
-                        "visibility_rules": ["pokedex_swinub"],
-                        "chest_unopened_img": "/images/locations/pokedex/swinub.png"
-                    },
-                    {
-                        "name": "Pokedex - Piloswine (Hint)",
-                        "visibility_rules": ["pokedex_piloswine"],
-                        "chest_unopened_img": "/images/locations/pokedex/piloswine.png"
-                    },
-                    {
-                        "name": "Pokedex - Corsola (Hint)",
-                        "visibility_rules": ["pokedex_corsola"],
-                        "chest_unopened_img": "/images/locations/pokedex/corsola.png"
-                    },
-                    {
-                        "name": "Pokedex - Remoraid (Hint)",
-                        "visibility_rules": ["pokedex_remoraid"],
-                        "chest_unopened_img": "/images/locations/pokedex/remoraid.png"
-                    },
-                    {
-                        "name": "Pokedex - Octillery (Hint)",
-                        "visibility_rules": ["pokedex_octillery"],
-                        "chest_unopened_img": "/images/locations/pokedex/octillery.png"
-                    },
-                    {
-                        "name": "Pokedex - Delibird (Hint)",
-                        "visibility_rules": ["pokedex_delibird"],
-                        "chest_unopened_img": "/images/locations/pokedex/delibird.png"
-                    },
-                    {
-                        "name": "Pokedex - Mantine (Hint)",
-                        "visibility_rules": ["pokedex_mantine"],
-                        "chest_unopened_img": "/images/locations/pokedex/mantine.png"
-                    },
-                    {
-                        "name": "Pokedex - Skarmory (Hint)",
-                        "visibility_rules": ["pokedex_skarmory"],
-                        "chest_unopened_img": "/images/locations/pokedex/skarmory.png"
-                    },
-                    {
-                        "name": "Pokedex - Houndour (Hint)",
-                        "visibility_rules": ["pokedex_houndour"],
-                        "chest_unopened_img": "/images/locations/pokedex/houndour.png"
-                    },
-                    {
-                        "name": "Pokedex - Houndoom (Hint)",
-                        "visibility_rules": ["pokedex_houndoom"],
-                        "chest_unopened_img": "/images/locations/pokedex/houndoom.png"
-                    },
-                    {
-                        "name": "Pokedex - Kingdra (Hint)",
-                        "visibility_rules": ["pokedex_kingdra"],
-                        "chest_unopened_img": "/images/locations/pokedex/kingdra.png"
-                    },
-                    {
-                        "name": "Pokedex - Phanpy (Hint)",
-                        "visibility_rules": ["pokedex_phanpy"],
-                        "chest_unopened_img": "/images/locations/pokedex/phanpy.png"
-                    },
-                    {
-                        "name": "Pokedex - Donphan (Hint)",
-                        "visibility_rules": ["pokedex_donphan"],
-                        "chest_unopened_img": "/images/locations/pokedex/donphan.png"
-                    },
-                    {
-                        "name": "Pokedex - Porygon2 (Hint)",
-                        "visibility_rules": ["pokedex_porygon2"],
-                        "chest_unopened_img": "/images/locations/pokedex/porygon2.png"
-                    },
-                    {
-                        "name": "Pokedex - Stantler (Hint)",
-                        "visibility_rules": ["pokedex_stantler"],
-                        "chest_unopened_img": "/images/locations/pokedex/stantler.png"
-                    },
-                    {
-                        "name": "Pokedex - Smeargle (Hint)",
-                        "visibility_rules": ["pokedex_smeargle"],
-                        "chest_unopened_img": "/images/locations/pokedex/smeargle.png"
-                    },
-                    {
-                        "name": "Pokedex - Tyrogue (Hint)",
-                        "visibility_rules": ["pokedex_tyrogue"],
-                        "chest_unopened_img": "/images/locations/pokedex/tyrogue.png"
-                    },
-                    {
-                        "name": "Pokedex - Hitmontop (Hint)",
-                        "visibility_rules": ["pokedex_hitmontop"],
-                        "chest_unopened_img": "/images/locations/pokedex/hitmontop.png"
-                    },
-                    {
-                        "name": "Pokedex - Smoochum (Hint)",
-                        "visibility_rules": ["pokedex_smoochum"],
-                        "chest_unopened_img": "/images/locations/pokedex/smoochum.png"
-                    },
-                    {
-                        "name": "Pokedex - Elekid (Hint)",
-                        "visibility_rules": ["pokedex_elekid"],
-                        "chest_unopened_img": "/images/locations/pokedex/elekid.png"
-                    },
-                    {
-                        "name": "Pokedex - Magby (Hint)",
-                        "visibility_rules": ["pokedex_magby"],
-                        "chest_unopened_img": "/images/locations/pokedex/magby.png"
-                    },
-                    {
-                        "name": "Pokedex - Miltank (Hint)",
-                        "visibility_rules": ["pokedex_miltank"],
-                        "chest_unopened_img": "/images/locations/pokedex/miltank.png"
-                    },
-                    {
-                        "name": "Pokedex - Blissey (Hint)",
-                        "visibility_rules": ["pokedex_blissey"],
-                        "chest_unopened_img": "/images/locations/pokedex/blissey.png"
-                    },
-                    {
-                        "name": "Pokedex - Raikou (Hint)",
-                        "visibility_rules": ["pokedex_raikou"],
-                        "chest_unopened_img": "/images/locations/pokedex/raikou.png"
-                    },
-                    {
-                        "name": "Pokedex - Entei (Hint)",
-                        "visibility_rules": ["pokedex_entei"],
-                        "chest_unopened_img": "/images/locations/pokedex/entei.png"
-                    },
-                    {
-                        "name": "Pokedex - Suicune (Hint)",
-                        "visibility_rules": ["pokedex_suicune"],
-                        "chest_unopened_img": "/images/locations/pokedex/suicune.png"
-                    },
-                    {
-                        "name": "Pokedex - Larvitar (Hint)",
-                        "visibility_rules": ["pokedex_larvitar"],
-                        "chest_unopened_img": "/images/locations/pokedex/larvitar.png"
-                    },
-                    {
-                        "name": "Pokedex - Pupitar (Hint)",
-                        "visibility_rules": ["pokedex_pupitar"],
-                        "chest_unopened_img": "/images/locations/pokedex/pupitar.png"
-                    },
-                    {
-                        "name": "Pokedex - Tyranitar (Hint)",
-                        "visibility_rules": ["pokedex_tyranitar"],
-                        "chest_unopened_img": "/images/locations/pokedex/tyranitar.png"
-                    },
-                    {
-                        "name": "Pokedex - Lugia (Hint)",
-                        "visibility_rules": ["pokedex_lugia"],
-                        "chest_unopened_img": "/images/locations/pokedex/lugia.png"
-                    },
-                    {
-                        "name": "Pokedex - Ho-Oh (Hint)",
-                        "visibility_rules": ["pokedex_ho-oh"],
-                        "chest_unopened_img": "/images/locations/pokedex/ho-oh.png"
-                    },
-                    {
-                        "name": "Pokedex - Celebi (Hint)",
-                        "visibility_rules": ["pokedex_celebi"],
-                        "chest_unopened_img": "/images/locations/pokedex/celebi.png"
-                    },
-                    {
-                        "name": "Pokedex - Treecko (Hint)",
-                        "visibility_rules": ["pokedex_treecko"],
-                        "chest_unopened_img": "/images/locations/pokedex/treecko.png"
-                    },
-                    {
-                        "name": "Pokedex - Grovyle (Hint)",
-                        "visibility_rules": ["pokedex_grovyle"],
-                        "chest_unopened_img": "/images/locations/pokedex/grovyle.png"
-                    },
-                    {
-                        "name": "Pokedex - Sceptile (Hint)",
-                        "visibility_rules": ["pokedex_sceptile"],
-                        "chest_unopened_img": "/images/locations/pokedex/sceptile.png"
-                    },
-                    {
-                        "name": "Pokedex - Torchic (Hint)",
-                        "visibility_rules": ["pokedex_torchic"],
-                        "chest_unopened_img": "/images/locations/pokedex/torchic.png"
-                    },
-                    {
-                        "name": "Pokedex - Combusken (Hint)",
-                        "visibility_rules": ["pokedex_combusken"],
-                        "chest_unopened_img": "/images/locations/pokedex/combusken.png"
-                    },
-                    {
-                        "name": "Pokedex - Blaziken (Hint)",
-                        "visibility_rules": ["pokedex_blaziken"],
-                        "chest_unopened_img": "/images/locations/pokedex/blaziken.png"
-                    },
-                    {
-                        "name": "Pokedex - Mudkip (Hint)",
-                        "visibility_rules": ["pokedex_mudkip"],
-                        "chest_unopened_img": "/images/locations/pokedex/mudkip.png"
-                    },
-                    {
-                        "name": "Pokedex - Marshtomp (Hint)",
-                        "visibility_rules": ["pokedex_marshtomp"],
-                        "chest_unopened_img": "/images/locations/pokedex/marshtomp.png"
-                    },
-                    {
-                        "name": "Pokedex - Swampert (Hint)",
-                        "visibility_rules": ["pokedex_swampert"],
-                        "chest_unopened_img": "/images/locations/pokedex/swampert.png"
-                    },
-                    {
-                        "name": "Pokedex - Poochyena (Hint)",
-                        "visibility_rules": ["pokedex_poochyena"],
-                        "chest_unopened_img": "/images/locations/pokedex/poochyena.png"
-                    },
-                    {
-                        "name": "Pokedex - Mightyena (Hint)",
-                        "visibility_rules": ["pokedex_mightyena"],
-                        "chest_unopened_img": "/images/locations/pokedex/mightyena.png"
-                    },
-                    {
-                        "name": "Pokedex - Zigzagoon (Hint)",
-                        "visibility_rules": ["pokedex_zigzagoon"],
-                        "chest_unopened_img": "/images/locations/pokedex/zigzagoon.png"
-                    },
-                    {
-                        "name": "Pokedex - Linoone (Hint)",
-                        "visibility_rules": ["pokedex_linoone"],
-                        "chest_unopened_img": "/images/locations/pokedex/linoone.png"
-                    },
-                    {
-                        "name": "Pokedex - Wurmple (Hint)",
-                        "visibility_rules": ["pokedex_wurmple"],
-                        "chest_unopened_img": "/images/locations/pokedex/wurmple.png"
-                    },
-                    {
-                        "name": "Pokedex - Silcoon (Hint)",
-                        "visibility_rules": ["pokedex_silcoon"],
-                        "chest_unopened_img": "/images/locations/pokedex/silcoon.png"
-                    },
-                    {
-                        "name": "Pokedex - Beautifly (Hint)",
-                        "visibility_rules": ["pokedex_beautifly"],
-                        "chest_unopened_img": "/images/locations/pokedex/beautifly.png"
-                    },
-                    {
-                        "name": "Pokedex - Cascoon (Hint)",
-                        "visibility_rules": ["pokedex_cascoon"],
-                        "chest_unopened_img": "/images/locations/pokedex/cascoon.png"
-                    },
-                    {
-                        "name": "Pokedex - Dustox (Hint)",
-                        "visibility_rules": ["pokedex_dustox"],
-                        "chest_unopened_img": "/images/locations/pokedex/dustox.png"
-                    },
-                    {
-                        "name": "Pokedex - Lotad (Hint)",
-                        "visibility_rules": ["pokedex_lotad"],
-                        "chest_unopened_img": "/images/locations/pokedex/lotad.png"
-                    },
-                    {
-                        "name": "Pokedex - Lombre (Hint)",
-                        "visibility_rules": ["pokedex_lombre"],
-                        "chest_unopened_img": "/images/locations/pokedex/lombre.png"
-                    },
-                    {
-                        "name": "Pokedex - Ludicolo (Hint)",
-                        "visibility_rules": ["pokedex_ludicolo"],
-                        "chest_unopened_img": "/images/locations/pokedex/ludicolo.png"
-                    },
-                    {
-                        "name": "Pokedex - Seedot (Hint)",
-                        "visibility_rules": ["pokedex_seedot"],
-                        "chest_unopened_img": "/images/locations/pokedex/seedot.png"
-                    },
-                    {
-                        "name": "Pokedex - Nuzleaf (Hint)",
-                        "visibility_rules": ["pokedex_nuzleaf"],
-                        "chest_unopened_img": "/images/locations/pokedex/nuzleaf.png"
-                    },
-                    {
-                        "name": "Pokedex - Shiftry (Hint)",
-                        "visibility_rules": ["pokedex_shiftry"],
-                        "chest_unopened_img": "/images/locations/pokedex/shiftry.png"
-                    },
-                    {
-                        "name": "Pokedex - Taillow (Hint)",
-                        "visibility_rules": ["pokedex_taillow"],
-                        "chest_unopened_img": "/images/locations/pokedex/taillow.png"
-                    },
-                    {
-                        "name": "Pokedex - Swellow (Hint)",
-                        "visibility_rules": ["pokedex_swellow"],
-                        "chest_unopened_img": "/images/locations/pokedex/swellow.png"
-                    },
-                    {
-                        "name": "Pokedex - Wingull (Hint)",
-                        "visibility_rules": ["pokedex_wingull"],
-                        "chest_unopened_img": "/images/locations/pokedex/wingull.png"
-                    },
-                    {
-                        "name": "Pokedex - Pelipper (Hint)",
-                        "visibility_rules": ["pokedex_pelipper"],
-                        "chest_unopened_img": "/images/locations/pokedex/pelipper.png"
-                    },
-                    {
-                        "name": "Pokedex - Ralts (Hint)",
-                        "visibility_rules": ["pokedex_ralts"],
-                        "chest_unopened_img": "/images/locations/pokedex/ralts.png"
-                    },
-                    {
-                        "name": "Pokedex - Kirlia (Hint)",
-                        "visibility_rules": ["pokedex_kirlia"],
-                        "chest_unopened_img": "/images/locations/pokedex/kirlia.png"
-                    },
-                    {
-                        "name": "Pokedex - Gardevoir (Hint)",
-                        "visibility_rules": ["pokedex_gardevoir"],
-                        "chest_unopened_img": "/images/locations/pokedex/gardevoir.png"
-                    },
-                    {
-                        "name": "Pokedex - Surskit (Hint)",
-                        "visibility_rules": ["pokedex_surskit"],
-                        "chest_unopened_img": "/images/locations/pokedex/surskit.png"
-                    },
-                    {
-                        "name": "Pokedex - Masquerain (Hint)",
-                        "visibility_rules": ["pokedex_masquerain"],
-                        "chest_unopened_img": "/images/locations/pokedex/masquerain.png"
-                    },
-                    {
-                        "name": "Pokedex - Shroomish (Hint)",
-                        "visibility_rules": ["pokedex_shroomish"],
-                        "chest_unopened_img": "/images/locations/pokedex/shroomish.png"
-                    },
-                    {
-                        "name": "Pokedex - Breloom (Hint)",
-                        "visibility_rules": ["pokedex_breloom"],
-                        "chest_unopened_img": "/images/locations/pokedex/breloom.png"
-                    },
-                    {
-                        "name": "Pokedex - Slakoth (Hint)",
-                        "visibility_rules": ["pokedex_slakoth"],
-                        "chest_unopened_img": "/images/locations/pokedex/slakoth.png"
-                    },
-                    {
-                        "name": "Pokedex - Vigoroth (Hint)",
-                        "visibility_rules": ["pokedex_vigoroth"],
-                        "chest_unopened_img": "/images/locations/pokedex/vigoroth.png"
-                    },
-                    {
-                        "name": "Pokedex - Slaking (Hint)",
-                        "visibility_rules": ["pokedex_slaking"],
-                        "chest_unopened_img": "/images/locations/pokedex/slaking.png"
-                    },
-                    {
-                        "name": "Pokedex - Nincada (Hint)",
-                        "visibility_rules": ["pokedex_nincada"],
-                        "chest_unopened_img": "/images/locations/pokedex/nincada.png"
-                    },
-                    {
-                        "name": "Pokedex - Ninjask (Hint)",
-                        "visibility_rules": ["pokedex_ninjask"],
-                        "chest_unopened_img": "/images/locations/pokedex/ninjask.png"
-                    },
-                    {
-                        "name": "Pokedex - Shedinja (Hint)",
-                        "visibility_rules": ["pokedex_shedinja"],
-                        "chest_unopened_img": "/images/locations/pokedex/shedinja.png"
-                    },
-                    {
-                        "name": "Pokedex - Whismur (Hint)",
-                        "visibility_rules": ["pokedex_whismur"],
-                        "chest_unopened_img": "/images/locations/pokedex/whismur.png"
-                    },
-                    {
-                        "name": "Pokedex - Loudred (Hint)",
-                        "visibility_rules": ["pokedex_loudred"],
-                        "chest_unopened_img": "/images/locations/pokedex/loudred.png"
-                    },
-                    {
-                        "name": "Pokedex - Exploud (Hint)",
-                        "visibility_rules": ["pokedex_exploud"],
-                        "chest_unopened_img": "/images/locations/pokedex/exploud.png"
-                    },
-                    {
-                        "name": "Pokedex - Makuhita (Hint)",
-                        "visibility_rules": ["pokedex_makuhita"],
-                        "chest_unopened_img": "/images/locations/pokedex/makuhita.png"
-                    },
-                    {
-                        "name": "Pokedex - Hariyama (Hint)",
-                        "visibility_rules": ["pokedex_hariyama"],
-                        "chest_unopened_img": "/images/locations/pokedex/hariyama.png"
-                    },
-                    {
-                        "name": "Pokedex - Azurill (Hint)",
-                        "visibility_rules": ["pokedex_azurill"],
-                        "chest_unopened_img": "/images/locations/pokedex/azurill.png"
-                    },
-                    {
-                        "name": "Pokedex - Nosepass (Hint)",
-                        "visibility_rules": ["pokedex_nosepass"],
-                        "chest_unopened_img": "/images/locations/pokedex/nosepass.png"
-                    },
-                    {
-                        "name": "Pokedex - Skitty (Hint)",
-                        "visibility_rules": ["pokedex_skitty"],
-                        "chest_unopened_img": "/images/locations/pokedex/skitty.png"
-                    },
-                    {
-                        "name": "Pokedex - Delcatty (Hint)",
-                        "visibility_rules": ["pokedex_delcatty"],
-                        "chest_unopened_img": "/images/locations/pokedex/delcatty.png"
-                    },
-                    {
-                        "name": "Pokedex - Sableye (Hint)",
-                        "visibility_rules": ["pokedex_sableye"],
-                        "chest_unopened_img": "/images/locations/pokedex/sableye.png"
-                    },
-                    {
-                        "name": "Pokedex - Mawile (Hint)",
-                        "visibility_rules": ["pokedex_mawile"],
-                        "chest_unopened_img": "/images/locations/pokedex/mawile.png"
-                    },
-                    {
-                        "name": "Pokedex - Aron (Hint)",
-                        "visibility_rules": ["pokedex_aron"],
-                        "chest_unopened_img": "/images/locations/pokedex/aron.png"
-                    },
-                    {
-                        "name": "Pokedex - Lairon (Hint)",
-                        "visibility_rules": ["pokedex_lairon"],
-                        "chest_unopened_img": "/images/locations/pokedex/lairon.png"
-                    },
-                    {
-                        "name": "Pokedex - Aggron (Hint)",
-                        "visibility_rules": ["pokedex_aggron"],
-                        "chest_unopened_img": "/images/locations/pokedex/aggron.png"
-                    },
-                    {
-                        "name": "Pokedex - Meditite (Hint)",
-                        "visibility_rules": ["pokedex_meditite"],
-                        "chest_unopened_img": "/images/locations/pokedex/meditite.png"
-                    },
-                    {
-                        "name": "Pokedex - Medicham (Hint)",
-                        "visibility_rules": ["pokedex_medicham"],
-                        "chest_unopened_img": "/images/locations/pokedex/medicham.png"
-                    },
-                    {
-                        "name": "Pokedex - Electrike (Hint)",
-                        "visibility_rules": ["pokedex_electrike"],
-                        "chest_unopened_img": "/images/locations/pokedex/electrike.png"
-                    },
-                    {
-                        "name": "Pokedex - Manectric (Hint)",
-                        "visibility_rules": ["pokedex_manectric"],
-                        "chest_unopened_img": "/images/locations/pokedex/manectric.png"
-                    },
-                    {
-                        "name": "Pokedex - Plusle (Hint)",
-                        "visibility_rules": ["pokedex_plusle"],
-                        "chest_unopened_img": "/images/locations/pokedex/plusle.png"
-                    },
-                    {
-                        "name": "Pokedex - Minun (Hint)",
-                        "visibility_rules": ["pokedex_minun"],
-                        "chest_unopened_img": "/images/locations/pokedex/minun.png"
-                    },
-                    {
-                        "name": "Pokedex - Volbeat (Hint)",
-                        "visibility_rules": ["pokedex_volbeat"],
-                        "chest_unopened_img": "/images/locations/pokedex/volbeat.png"
-                    },
-                    {
-                        "name": "Pokedex - Illumise (Hint)",
-                        "visibility_rules": ["pokedex_illumise"],
-                        "chest_unopened_img": "/images/locations/pokedex/illumise.png"
-                    },
-                    {
-                        "name": "Pokedex - Roselia (Hint)",
-                        "visibility_rules": ["pokedex_roselia"],
-                        "chest_unopened_img": "/images/locations/pokedex/roselia.png"
-                    },
-                    {
-                        "name": "Pokedex - Gulpin (Hint)",
-                        "visibility_rules": ["pokedex_gulpin"],
-                        "chest_unopened_img": "/images/locations/pokedex/gulpin.png"
-                    },
-                    {
-                        "name": "Pokedex - Swalot (Hint)",
-                        "visibility_rules": ["pokedex_swalot"],
-                        "chest_unopened_img": "/images/locations/pokedex/swalot.png"
-                    },
-                    {
-                        "name": "Pokedex - Carvanha (Hint)",
-                        "visibility_rules": ["pokedex_carvanha"],
-                        "chest_unopened_img": "/images/locations/pokedex/carvanha.png"
-                    },
-                    {
-                        "name": "Pokedex - Sharpedo (Hint)",
-                        "visibility_rules": ["pokedex_sharpedo"],
-                        "chest_unopened_img": "/images/locations/pokedex/sharpedo.png"
-                    },
-                    {
-                        "name": "Pokedex - Wailmer (Hint)",
-                        "visibility_rules": ["pokedex_wailmer"],
-                        "chest_unopened_img": "/images/locations/pokedex/wailmer.png"
-                    },
-                    {
-                        "name": "Pokedex - Wailord (Hint)",
-                        "visibility_rules": ["pokedex_wailord"],
-                        "chest_unopened_img": "/images/locations/pokedex/wailord.png"
-                    },
-                    {
-                        "name": "Pokedex - Numel (Hint)",
-                        "visibility_rules": ["pokedex_numel"],
-                        "chest_unopened_img": "/images/locations/pokedex/numel.png"
-                    },
-                    {
-                        "name": "Pokedex - Camerupt (Hint)",
-                        "visibility_rules": ["pokedex_camerupt"],
-                        "chest_unopened_img": "/images/locations/pokedex/camerupt.png"
-                    },
-                    {
-                        "name": "Pokedex - Torkoal (Hint)",
-                        "visibility_rules": ["pokedex_torkoal"],
-                        "chest_unopened_img": "/images/locations/pokedex/torkoal.png"
-                    },
-                    {
-                        "name": "Pokedex - Spoink (Hint)",
-                        "visibility_rules": ["pokedex_spoink"],
-                        "chest_unopened_img": "/images/locations/pokedex/spoink.png"
-                    },
-                    {
-                        "name": "Pokedex - Grumpig (Hint)",
-                        "visibility_rules": ["pokedex_grumpig"],
-                        "chest_unopened_img": "/images/locations/pokedex/grumpig.png"
-                    },
-                    {
-                        "name": "Pokedex - Spinda (Hint)",
-                        "visibility_rules": ["pokedex_spinda"],
-                        "chest_unopened_img": "/images/locations/pokedex/spinda.png"
-                    },
-                    {
-                        "name": "Pokedex - Trapinch (Hint)",
-                        "visibility_rules": ["pokedex_trapinch"],
-                        "chest_unopened_img": "/images/locations/pokedex/trapinch.png"
-                    },
-                    {
-                        "name": "Pokedex - Vibrava (Hint)",
-                        "visibility_rules": ["pokedex_vibrava"],
-                        "chest_unopened_img": "/images/locations/pokedex/vibrava.png"
-                    },
-                    {
-                        "name": "Pokedex - Flygon (Hint)",
-                        "visibility_rules": ["pokedex_flygon"],
-                        "chest_unopened_img": "/images/locations/pokedex/flygon.png"
-                    },
-                    {
-                        "name": "Pokedex - Cacnea (Hint)",
-                        "visibility_rules": ["pokedex_cacnea"],
-                        "chest_unopened_img": "/images/locations/pokedex/cacnea.png"
-                    },
-                    {
-                        "name": "Pokedex - Cacturne (Hint)",
-                        "visibility_rules": ["pokedex_cacturne"],
-                        "chest_unopened_img": "/images/locations/pokedex/cacturne.png"
-                    },
-                    {
-                        "name": "Pokedex - Swablu (Hint)",
-                        "visibility_rules": ["pokedex_swablu"],
-                        "chest_unopened_img": "/images/locations/pokedex/swablu.png"
-                    },
-                    {
-                        "name": "Pokedex - Altaria (Hint)",
-                        "visibility_rules": ["pokedex_altaria"],
-                        "chest_unopened_img": "/images/locations/pokedex/altaria.png"
-                    },
-                    {
-                        "name": "Pokedex - Zangoose (Hint)",
-                        "visibility_rules": ["pokedex_zangoose"],
-                        "chest_unopened_img": "/images/locations/pokedex/zangoose.png"
-                    },
-                    {
-                        "name": "Pokedex - Seviper (Hint)",
-                        "visibility_rules": ["pokedex_seviper"],
-                        "chest_unopened_img": "/images/locations/pokedex/seviper.png"
-                    },
-                    {
-                        "name": "Pokedex - Lunatone (Hint)",
-                        "visibility_rules": ["pokedex_lunatone"],
-                        "chest_unopened_img": "/images/locations/pokedex/lunatone.png"
-                    },
-                    {
-                        "name": "Pokedex - Solrock (Hint)",
-                        "visibility_rules": ["pokedex_solrock"],
-                        "chest_unopened_img": "/images/locations/pokedex/solrock.png"
-                    },
-                    {
-                        "name": "Pokedex - Barboach (Hint)",
-                        "visibility_rules": ["pokedex_barboach"],
-                        "chest_unopened_img": "/images/locations/pokedex/barboach.png"
-                    },
-                    {
-                        "name": "Pokedex - Whiscash (Hint)",
-                        "visibility_rules": ["pokedex_whiscash"],
-                        "chest_unopened_img": "/images/locations/pokedex/whiscash.png"
-                    },
-                    {
-                        "name": "Pokedex - Corphish (Hint)",
-                        "visibility_rules": ["pokedex_corphish"],
-                        "chest_unopened_img": "/images/locations/pokedex/corphish.png"
-                    },
-                    {
-                        "name": "Pokedex - Crawdaunt (Hint)",
-                        "visibility_rules": ["pokedex_crawdaunt"],
-                        "chest_unopened_img": "/images/locations/pokedex/crawdaunt.png"
-                    },
-                    {
-                        "name": "Pokedex - Baltoy (Hint)",
-                        "visibility_rules": ["pokedex_baltoy"],
-                        "chest_unopened_img": "/images/locations/pokedex/baltoy.png"
-                    },
-                    {
-                        "name": "Pokedex - Claydol (Hint)",
-                        "visibility_rules": ["pokedex_claydol"],
-                        "chest_unopened_img": "/images/locations/pokedex/claydol.png"
-                    },
-                    {
-                        "name": "Pokedex - Lileep (Hint)",
-                        "visibility_rules": ["pokedex_lileep"],
-                        "chest_unopened_img": "/images/locations/pokedex/lileep.png"
-                    },
-                    {
-                        "name": "Pokedex - Cradily (Hint)",
-                        "visibility_rules": ["pokedex_cradily"],
-                        "chest_unopened_img": "/images/locations/pokedex/cradily.png"
-                    },
-                    {
-                        "name": "Pokedex - Anorith (Hint)",
-                        "visibility_rules": ["pokedex_anorith"],
-                        "chest_unopened_img": "/images/locations/pokedex/anorith.png"
-                    },
-                    {
-                        "name": "Pokedex - Armaldo (Hint)",
-                        "visibility_rules": ["pokedex_armaldo"],
-                        "chest_unopened_img": "/images/locations/pokedex/armaldo.png"
-                    },
-                    {
-                        "name": "Pokedex - Feebas (Hint)",
-                        "visibility_rules": ["pokedex_feebas"],
-                        "chest_unopened_img": "/images/locations/pokedex/feebas.png"
-                    },
-                    {
-                        "name": "Pokedex - Milotic (Hint)",
-                        "visibility_rules": ["pokedex_milotic"],
-                        "chest_unopened_img": "/images/locations/pokedex/milotic.png"
-                    },
-                    {
-                        "name": "Pokedex - Castform (Hint)",
-                        "visibility_rules": ["pokedex_castform"],
-                        "chest_unopened_img": "/images/locations/pokedex/castform.png"
-                    },
-                    {
-                        "name": "Pokedex - Kecleon (Hint)",
-                        "visibility_rules": ["pokedex_kecleon"],
-                        "chest_unopened_img": "/images/locations/pokedex/kecleon.png"
-                    },
-                    {
-                        "name": "Pokedex - Shuppet (Hint)",
-                        "visibility_rules": ["pokedex_shuppet"],
-                        "chest_unopened_img": "/images/locations/pokedex/shuppet.png"
-                    },
-                    {
-                        "name": "Pokedex - Banette (Hint)",
-                        "visibility_rules": ["pokedex_banette"],
-                        "chest_unopened_img": "/images/locations/pokedex/banette.png"
-                    },
-                    {
-                        "name": "Pokedex - Duskull (Hint)",
-                        "visibility_rules": ["pokedex_duskull"],
-                        "chest_unopened_img": "/images/locations/pokedex/duskull.png"
-                    },
-                    {
-                        "name": "Pokedex - Dusclops (Hint)",
-                        "visibility_rules": ["pokedex_dusclops"],
-                        "chest_unopened_img": "/images/locations/pokedex/dusclops.png"
-                    },
-                    {
-                        "name": "Pokedex - Tropius (Hint)",
-                        "visibility_rules": ["pokedex_tropius"],
-                        "chest_unopened_img": "/images/locations/pokedex/tropius.png"
-                    },
-                    {
-                        "name": "Pokedex - Chimecho (Hint)",
-                        "visibility_rules": ["pokedex_chimecho"],
-                        "chest_unopened_img": "/images/locations/pokedex/chimecho.png"
-                    },
-                    {
-                        "name": "Pokedex - Absol (Hint)",
-                        "visibility_rules": ["pokedex_absol"],
-                        "chest_unopened_img": "/images/locations/pokedex/absol.png"
-                    },
-                    {
-                        "name": "Pokedex - Wynaut (Hint)",
-                        "visibility_rules": ["pokedex_wynaut"],
-                        "chest_unopened_img": "/images/locations/pokedex/wynaut.png"
-                    },
-                    {
-                        "name": "Pokedex - Snorunt (Hint)",
-                        "visibility_rules": ["pokedex_snorunt"],
-                        "chest_unopened_img": "/images/locations/pokedex/snorunt.png"
-                    },
-                    {
-                        "name": "Pokedex - Glalie (Hint)",
-                        "visibility_rules": ["pokedex_glalie"],
-                        "chest_unopened_img": "/images/locations/pokedex/glalie.png"
-                    },
-                    {
-                        "name": "Pokedex - Spheal (Hint)",
-                        "visibility_rules": ["pokedex_spheal"],
-                        "chest_unopened_img": "/images/locations/pokedex/spheal.png"
-                    },
-                    {
-                        "name": "Pokedex - Sealeo (Hint)",
-                        "visibility_rules": ["pokedex_sealeo"],
-                        "chest_unopened_img": "/images/locations/pokedex/sealeo.png"
-                    },
-                    {
-                        "name": "Pokedex - Walrein (Hint)",
-                        "visibility_rules": ["pokedex_walrein"],
-                        "chest_unopened_img": "/images/locations/pokedex/walrein.png"
-                    },
-                    {
-                        "name": "Pokedex - Clamperl (Hint)",
-                        "visibility_rules": ["pokedex_clamperl"],
-                        "chest_unopened_img": "/images/locations/pokedex/clamperl.png"
-                    },
-                    {
-                        "name": "Pokedex - Huntail (Hint)",
-                        "visibility_rules": ["pokedex_huntail"],
-                        "chest_unopened_img": "/images/locations/pokedex/huntail.png"
-                    },
-                    {
-                        "name": "Pokedex - Gorebyss (Hint)",
-                        "visibility_rules": ["pokedex_gorebyss"],
-                        "chest_unopened_img": "/images/locations/pokedex/gorebyss.png"
-                    },
-                    {
-                        "name": "Pokedex - Relicanth (Hint)",
-                        "visibility_rules": ["pokedex_relicanth"],
-                        "chest_unopened_img": "/images/locations/pokedex/relicanth.png"
-                    },
-                    {
-                        "name": "Pokedex - Luvdisc (Hint)",
-                        "visibility_rules": ["pokedex_luvdisc"],
-                        "chest_unopened_img": "/images/locations/pokedex/luvdisc.png"
-                    },
-                    {
-                        "name": "Pokedex - Bagon (Hint)",
-                        "visibility_rules": ["pokedex_bagon"],
-                        "chest_unopened_img": "/images/locations/pokedex/bagon.png"
-                    },
-                    {
-                        "name": "Pokedex - Shelgon (Hint)",
-                        "visibility_rules": ["pokedex_shelgon"],
-                        "chest_unopened_img": "/images/locations/pokedex/shelgon.png"
-                    },
-                    {
-                        "name": "Pokedex - Salamence (Hint)",
-                        "visibility_rules": ["pokedex_salamence"],
-                        "chest_unopened_img": "/images/locations/pokedex/salamence.png"
-                    },
-                    {
-                        "name": "Pokedex - Beldum (Hint)",
-                        "visibility_rules": ["pokedex_beldum"],
-                        "chest_unopened_img": "/images/locations/pokedex/beldum.png"
-                    },
-                    {
-                        "name": "Pokedex - Metang (Hint)",
-                        "visibility_rules": ["pokedex_metang"],
-                        "chest_unopened_img": "/images/locations/pokedex/metang.png"
-                    },
-                    {
-                        "name": "Pokedex - Metagross (Hint)",
-                        "visibility_rules": ["pokedex_metagross"],
-                        "chest_unopened_img": "/images/locations/pokedex/metagross.png"
-                    },
-                    {
-                        "name": "Pokedex - Regirock (Hint)",
-                        "visibility_rules": ["pokedex_regirock"],
-                        "chest_unopened_img": "/images/locations/pokedex/regirock.png"
-                    },
-                    {
-                        "name": "Pokedex - Regice (Hint)",
-                        "visibility_rules": ["pokedex_regice"],
-                        "chest_unopened_img": "/images/locations/pokedex/regice.png"
-                    },
-                    {
-                        "name": "Pokedex - Registeel (Hint)",
-                        "visibility_rules": ["pokedex_registeel"],
-                        "chest_unopened_img": "/images/locations/pokedex/registeel.png"
-                    },
-                    {
-                        "name": "Pokedex - Latias (Hint)",
-                        "visibility_rules": ["pokedex_latias"],
-                        "chest_unopened_img": "/images/locations/pokedex/latias.png"
-                    },
-                    {
-                        "name": "Pokedex - Latios (Hint)",
-                        "visibility_rules": ["pokedex_latios"],
-                        "chest_unopened_img": "/images/locations/pokedex/latios.png"
-                    },
-                    {
-                        "name": "Pokedex - Kyogre (Hint)",
-                        "visibility_rules": ["pokedex_kyogre"],
-                        "chest_unopened_img": "/images/locations/pokedex/kyogre.png"
-                    },
-                    {
-                        "name": "Pokedex - Groudon (Hint)",
-                        "visibility_rules": ["pokedex_groudon"],
-                        "chest_unopened_img": "/images/locations/pokedex/groudon.png"
-                    },
-                    {
-                        "name": "Pokedex - Rayquaza (Hint)",
-                        "visibility_rules": ["pokedex_rayquaza"],
-                        "chest_unopened_img": "/images/locations/pokedex/rayquaza.png"
-                    },
-                    {
-                        "name": "Pokedex - Jirachi (Hint)",
-                        "visibility_rules": ["pokedex_jirachi"],
-                        "chest_unopened_img": "/images/locations/pokedex/jirachi.png"
-                    },
-                    {
-                        "name": "Pokedex - Deoxys (Hint)",
-                        "visibility_rules": ["pokedex_deoxys"],
-                        "chest_unopened_img": "/images/locations/pokedex/deoxys.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hoennmap",
-                        "x": 243,
-                        "y": 12
-                    },
-                    {
-                        "map": "encountermap",
-                        "x": 243,
-                        "y": 12
-                    }
-                ]
-            }
+  {
+    "name": "A Pokedex",
+    "access_rules": [
+      "{}"
+    ],
+    "visibility_rules": [
+      "hints_tracking_on"
+    ],
+    "children": [
+      {
+        "name": "Pokedex Hints",
+        "sections": [
+          {
+            "name": "Pokedex - Bulbasaur (Hint)",
+            "visibility_rules": [
+              "pokedex_bulbasaur"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/bulbasaur.png"
+          },
+          {
+            "name": "Pokedex - Ivysaur (Hint)",
+            "visibility_rules": [
+              "pokedex_ivysaur"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ivysaur.png"
+          },
+          {
+            "name": "Pokedex - Venusaur (Hint)",
+            "visibility_rules": [
+              "pokedex_venusaur"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/venusaur.png"
+          },
+          {
+            "name": "Pokedex - Charmander (Hint)",
+            "visibility_rules": [
+              "pokedex_charmander"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/charmander.png"
+          },
+          {
+            "name": "Pokedex - Charmeleon (Hint)",
+            "visibility_rules": [
+              "pokedex_charmeleon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/charmeleon.png"
+          },
+          {
+            "name": "Pokedex - Charizard (Hint)",
+            "visibility_rules": [
+              "pokedex_charizard"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/charizard.png"
+          },
+          {
+            "name": "Pokedex - Squirtle (Hint)",
+            "visibility_rules": [
+              "pokedex_squirtle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/squirtle.png"
+          },
+          {
+            "name": "Pokedex - Wartortle (Hint)",
+            "visibility_rules": [
+              "pokedex_wartortle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wartortle.png"
+          },
+          {
+            "name": "Pokedex - Blastoise (Hint)",
+            "visibility_rules": [
+              "pokedex_blastoise"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/blastoise.png"
+          },
+          {
+            "name": "Pokedex - Caterpie (Hint)",
+            "visibility_rules": [
+              "pokedex_caterpie"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/caterpie.png"
+          },
+          {
+            "name": "Pokedex - Metapod (Hint)",
+            "visibility_rules": [
+              "pokedex_metapod"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/metapod.png"
+          },
+          {
+            "name": "Pokedex - Butterfree (Hint)",
+            "visibility_rules": [
+              "pokedex_butterfree"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/butterfree.png"
+          },
+          {
+            "name": "Pokedex - Weedle (Hint)",
+            "visibility_rules": [
+              "pokedex_weedle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/weedle.png"
+          },
+          {
+            "name": "Pokedex - Kakuna (Hint)",
+            "visibility_rules": [
+              "pokedex_kakuna"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kakuna.png"
+          },
+          {
+            "name": "Pokedex - Beedrill (Hint)",
+            "visibility_rules": [
+              "pokedex_beedrill"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/beedrill.png"
+          },
+          {
+            "name": "Pokedex - Pidgey (Hint)",
+            "visibility_rules": [
+              "pokedex_pidgey"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pidgey.png"
+          },
+          {
+            "name": "Pokedex - Pidgeotto (Hint)",
+            "visibility_rules": [
+              "pokedex_pidgeotto"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pidgeotto.png"
+          },
+          {
+            "name": "Pokedex - Pidgeot (Hint)",
+            "visibility_rules": [
+              "pokedex_pidgeot"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pidgeot.png"
+          },
+          {
+            "name": "Pokedex - Rattata (Hint)",
+            "visibility_rules": [
+              "pokedex_rattata"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/rattata.png"
+          },
+          {
+            "name": "Pokedex - Raticate (Hint)",
+            "visibility_rules": [
+              "pokedex_raticate"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/raticate.png"
+          },
+          {
+            "name": "Pokedex - Spearow (Hint)",
+            "visibility_rules": [
+              "pokedex_spearow"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/spearow.png"
+          },
+          {
+            "name": "Pokedex - Fearow (Hint)",
+            "visibility_rules": [
+              "pokedex_fearow"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/fearow.png"
+          },
+          {
+            "name": "Pokedex - Ekans (Hint)",
+            "visibility_rules": [
+              "pokedex_ekans"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ekans.png"
+          },
+          {
+            "name": "Pokedex - Arbok (Hint)",
+            "visibility_rules": [
+              "pokedex_arbok"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/arbok.png"
+          },
+          {
+            "name": "Pokedex - Pikachu (Hint)",
+            "visibility_rules": [
+              "pokedex_pikachu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pikachu.png"
+          },
+          {
+            "name": "Pokedex - Raichu (Hint)",
+            "visibility_rules": [
+              "pokedex_raichu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/raichu.png"
+          },
+          {
+            "name": "Pokedex - Sandshrew (Hint)",
+            "visibility_rules": [
+              "pokedex_sandshrew"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sandshrew.png"
+          },
+          {
+            "name": "Pokedex - Sandslash (Hint)",
+            "visibility_rules": [
+              "pokedex_sandslash"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sandslash.png"
+          },
+          {
+            "name": "Pokedex - Nidoran♀ (Hint)",
+            "visibility_rules": [
+              "pokedex_nidoran_female"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidoran_f.png"
+          },
+          {
+            "name": "Pokedex - Nidorina (Hint)",
+            "visibility_rules": [
+              "pokedex_nidorina"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidorina.png"
+          },
+          {
+            "name": "Pokedex - Nidoqueen (Hint)",
+            "visibility_rules": [
+              "pokedex_nidoqueen"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidoqueen.png"
+          },
+          {
+            "name": "Pokedex - Nidoran♂ (Hint)",
+            "visibility_rules": [
+              "pokedex_nidoran_male"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidoran_m.png"
+          },
+          {
+            "name": "Pokedex - Nidorino (Hint)",
+            "visibility_rules": [
+              "pokedex_nidorino"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidorino.png"
+          },
+          {
+            "name": "Pokedex - Nidoking (Hint)",
+            "visibility_rules": [
+              "pokedex_nidoking"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nidoking.png"
+          },
+          {
+            "name": "Pokedex - Clefairy (Hint)",
+            "visibility_rules": [
+              "pokedex_clefairy"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/clefairy.png"
+          },
+          {
+            "name": "Pokedex - Clefable (Hint)",
+            "visibility_rules": [
+              "pokedex_clefable"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/clefable.png"
+          },
+          {
+            "name": "Pokedex - Vulpix (Hint)",
+            "visibility_rules": [
+              "pokedex_vulpix"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/vulpix.png"
+          },
+          {
+            "name": "Pokedex - Ninetales (Hint)",
+            "visibility_rules": [
+              "pokedex_ninetales"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ninetales.png"
+          },
+          {
+            "name": "Pokedex - Jigglypuff (Hint)",
+            "visibility_rules": [
+              "pokedex_jigglypuff"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/jigglypuff.png"
+          },
+          {
+            "name": "Pokedex - Wigglytuff (Hint)",
+            "visibility_rules": [
+              "pokedex_wigglytuff"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wigglytuff.png"
+          },
+          {
+            "name": "Pokedex - Zubat (Hint)",
+            "visibility_rules": [
+              "pokedex_zubat"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/zubat.png"
+          },
+          {
+            "name": "Pokedex - Golbat (Hint)",
+            "visibility_rules": [
+              "pokedex_golbat"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/golbat.png"
+          },
+          {
+            "name": "Pokedex - Oddish (Hint)",
+            "visibility_rules": [
+              "pokedex_oddish"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/oddish.png"
+          },
+          {
+            "name": "Pokedex - Gloom (Hint)",
+            "visibility_rules": [
+              "pokedex_gloom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gloom.png"
+          },
+          {
+            "name": "Pokedex - Vileplume (Hint)",
+            "visibility_rules": [
+              "pokedex_vileplume"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/vileplume.png"
+          },
+          {
+            "name": "Pokedex - Paras (Hint)",
+            "visibility_rules": [
+              "pokedex_paras"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/paras.png"
+          },
+          {
+            "name": "Pokedex - Parasect (Hint)",
+            "visibility_rules": [
+              "pokedex_parasect"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/parasect.png"
+          },
+          {
+            "name": "Pokedex - Venonat (Hint)",
+            "visibility_rules": [
+              "pokedex_venonat"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/venonat.png"
+          },
+          {
+            "name": "Pokedex - Venomoth (Hint)",
+            "visibility_rules": [
+              "pokedex_venomoth"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/venomoth.png"
+          },
+          {
+            "name": "Pokedex - Diglett (Hint)",
+            "visibility_rules": [
+              "pokedex_diglett"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/diglett.png"
+          },
+          {
+            "name": "Pokedex - Dugtrio (Hint)",
+            "visibility_rules": [
+              "pokedex_dugtrio"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dugtrio.png"
+          },
+          {
+            "name": "Pokedex - Meowth (Hint)",
+            "visibility_rules": [
+              "pokedex_meowth"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/meowth.png"
+          },
+          {
+            "name": "Pokedex - Persian (Hint)",
+            "visibility_rules": [
+              "pokedex_persian"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/persian.png"
+          },
+          {
+            "name": "Pokedex - Psyduck (Hint)",
+            "visibility_rules": [
+              "pokedex_psyduck"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/psyduck.png"
+          },
+          {
+            "name": "Pokedex - Golduck (Hint)",
+            "visibility_rules": [
+              "pokedex_golduck"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/golduck.png"
+          },
+          {
+            "name": "Pokedex - Mankey (Hint)",
+            "visibility_rules": [
+              "pokedex_mankey"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mankey.png"
+          },
+          {
+            "name": "Pokedex - Primeape (Hint)",
+            "visibility_rules": [
+              "pokedex_primeape"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/primeape.png"
+          },
+          {
+            "name": "Pokedex - Growlithe (Hint)",
+            "visibility_rules": [
+              "pokedex_growlithe"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/growlithe.png"
+          },
+          {
+            "name": "Pokedex - Arcanine (Hint)",
+            "visibility_rules": [
+              "pokedex_arcanine"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/arcanine.png"
+          },
+          {
+            "name": "Pokedex - Poliwag (Hint)",
+            "visibility_rules": [
+              "pokedex_poliwag"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/poliwag.png"
+          },
+          {
+            "name": "Pokedex - Poliwhirl (Hint)",
+            "visibility_rules": [
+              "pokedex_poliwhirl"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/poliwhirl.png"
+          },
+          {
+            "name": "Pokedex - Poliwrath (Hint)",
+            "visibility_rules": [
+              "pokedex_poliwrath"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/poliwrath.png"
+          },
+          {
+            "name": "Pokedex - Abra (Hint)",
+            "visibility_rules": [
+              "pokedex_abra"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/abra.png"
+          },
+          {
+            "name": "Pokedex - Kadabra (Hint)",
+            "visibility_rules": [
+              "pokedex_kadabra"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kadabra.png"
+          },
+          {
+            "name": "Pokedex - Alakazam (Hint)",
+            "visibility_rules": [
+              "pokedex_alakazam"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/alakazam.png"
+          },
+          {
+            "name": "Pokedex - Machop (Hint)",
+            "visibility_rules": [
+              "pokedex_machop"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/machop.png"
+          },
+          {
+            "name": "Pokedex - Machoke (Hint)",
+            "visibility_rules": [
+              "pokedex_machoke"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/machoke.png"
+          },
+          {
+            "name": "Pokedex - Machamp (Hint)",
+            "visibility_rules": [
+              "pokedex_machamp"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/machamp.png"
+          },
+          {
+            "name": "Pokedex - Bellsprout (Hint)",
+            "visibility_rules": [
+              "pokedex_bellsprout"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/bellsprout.png"
+          },
+          {
+            "name": "Pokedex - Weepinbell (Hint)",
+            "visibility_rules": [
+              "pokedex_weepinbell"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/weepinbell.png"
+          },
+          {
+            "name": "Pokedex - Victreebel (Hint)",
+            "visibility_rules": [
+              "pokedex_victreebel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/victreebel.png"
+          },
+          {
+            "name": "Pokedex - Tentacool (Hint)",
+            "visibility_rules": [
+              "pokedex_tentacool"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tentacool.png"
+          },
+          {
+            "name": "Pokedex - Tentacruel (Hint)",
+            "visibility_rules": [
+              "pokedex_tentacruel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tentacruel.png"
+          },
+          {
+            "name": "Pokedex - Geodude (Hint)",
+            "visibility_rules": [
+              "pokedex_geodude"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/geodude.png"
+          },
+          {
+            "name": "Pokedex - Graveler (Hint)",
+            "visibility_rules": [
+              "pokedex_graveler"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/graveler.png"
+          },
+          {
+            "name": "Pokedex - Golem (Hint)",
+            "visibility_rules": [
+              "pokedex_golem"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/golem.png"
+          },
+          {
+            "name": "Pokedex - Ponyta (Hint)",
+            "visibility_rules": [
+              "pokedex_ponyta"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ponyta.png"
+          },
+          {
+            "name": "Pokedex - Rapidash (Hint)",
+            "visibility_rules": [
+              "pokedex_rapidash"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/rapidash.png"
+          },
+          {
+            "name": "Pokedex - Slowpoke (Hint)",
+            "visibility_rules": [
+              "pokedex_slowpoke"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slowpoke.png"
+          },
+          {
+            "name": "Pokedex - Slowbro (Hint)",
+            "visibility_rules": [
+              "pokedex_slowbro"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slowbro.png"
+          },
+          {
+            "name": "Pokedex - Magnemite (Hint)",
+            "visibility_rules": [
+              "pokedex_magnemite"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magnemite.png"
+          },
+          {
+            "name": "Pokedex - Magneton (Hint)",
+            "visibility_rules": [
+              "pokedex_magneton"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magneton.png"
+          },
+          {
+            "name": "Pokedex - Farfetch'd (Hint)",
+            "visibility_rules": [
+              "pokedex_farfetchd"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/farfetch'd.png"
+          },
+          {
+            "name": "Pokedex - Doduo (Hint)",
+            "visibility_rules": [
+              "pokedex_doduo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/doduo.png"
+          },
+          {
+            "name": "Pokedex - Dodrio (Hint)",
+            "visibility_rules": [
+              "pokedex_dodrio"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dodrio.png"
+          },
+          {
+            "name": "Pokedex - Seel (Hint)",
+            "visibility_rules": [
+              "pokedex_seel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/seel.png"
+          },
+          {
+            "name": "Pokedex - Dewgong (Hint)",
+            "visibility_rules": [
+              "pokedex_dewgong"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dewgong.png"
+          },
+          {
+            "name": "Pokedex - Grimer (Hint)",
+            "visibility_rules": [
+              "pokedex_grimer"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/grimer.png"
+          },
+          {
+            "name": "Pokedex - Muk (Hint)",
+            "visibility_rules": [
+              "pokedex_muk"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/muk.png"
+          },
+          {
+            "name": "Pokedex - Shellder (Hint)",
+            "visibility_rules": [
+              "pokedex_shellder"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shellder.png"
+          },
+          {
+            "name": "Pokedex - Cloyster (Hint)",
+            "visibility_rules": [
+              "pokedex_cloyster"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cloyster.png"
+          },
+          {
+            "name": "Pokedex - Gastly (Hint)",
+            "visibility_rules": [
+              "pokedex_gastly"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gastly.png"
+          },
+          {
+            "name": "Pokedex - Haunter (Hint)",
+            "visibility_rules": [
+              "pokedex_haunter"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/haunter.png"
+          },
+          {
+            "name": "Pokedex - Gengar (Hint)",
+            "visibility_rules": [
+              "pokedex_gengar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gengar.png"
+          },
+          {
+            "name": "Pokedex - Onix (Hint)",
+            "visibility_rules": [
+              "pokedex_onix"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/onix.png"
+          },
+          {
+            "name": "Pokedex - Drowzee (Hint)",
+            "visibility_rules": [
+              "pokedex_drowzee"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/drowzee.png"
+          },
+          {
+            "name": "Pokedex - Hypno (Hint)",
+            "visibility_rules": [
+              "pokedex_hypno"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hypno.png"
+          },
+          {
+            "name": "Pokedex - Krabby (Hint)",
+            "visibility_rules": [
+              "pokedex_krabby"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/krabby.png"
+          },
+          {
+            "name": "Pokedex - Kingler (Hint)",
+            "visibility_rules": [
+              "pokedex_kingler"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kingler.png"
+          },
+          {
+            "name": "Pokedex - Voltorb (Hint)",
+            "visibility_rules": [
+              "pokedex_voltorb"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/voltorb.png"
+          },
+          {
+            "name": "Pokedex - Electrode (Hint)",
+            "visibility_rules": [
+              "pokedex_electrode"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/electrode.png"
+          },
+          {
+            "name": "Pokedex - Exeggcute (Hint)",
+            "visibility_rules": [
+              "pokedex_exeggcute"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/exeggcute.png"
+          },
+          {
+            "name": "Pokedex - Exeggutor (Hint)",
+            "visibility_rules": [
+              "pokedex_exeggutor"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/exeggutor.png"
+          },
+          {
+            "name": "Pokedex - Cubone (Hint)",
+            "visibility_rules": [
+              "pokedex_cubone"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cubone.png"
+          },
+          {
+            "name": "Pokedex - Marowak (Hint)",
+            "visibility_rules": [
+              "pokedex_marowak"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/marowak.png"
+          },
+          {
+            "name": "Pokedex - Hitmonlee (Hint)",
+            "visibility_rules": [
+              "pokedex_hitmonlee"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hitmonlee.png"
+          },
+          {
+            "name": "Pokedex - Hitmonchan (Hint)",
+            "visibility_rules": [
+              "pokedex_hitmonchan"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hitmonchan.png"
+          },
+          {
+            "name": "Pokedex - Lickitung (Hint)",
+            "visibility_rules": [
+              "pokedex_lickitung"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lickitung.png"
+          },
+          {
+            "name": "Pokedex - Koffing (Hint)",
+            "visibility_rules": [
+              "pokedex_koffing"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/koffing.png"
+          },
+          {
+            "name": "Pokedex - Weezing (Hint)",
+            "visibility_rules": [
+              "pokedex_weezing"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/weezing.png"
+          },
+          {
+            "name": "Pokedex - Rhyhorn (Hint)",
+            "visibility_rules": [
+              "pokedex_rhyhorn"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/rhyhorn.png"
+          },
+          {
+            "name": "Pokedex - Rhydon (Hint)",
+            "visibility_rules": [
+              "pokedex_rhydon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/rhydon.png"
+          },
+          {
+            "name": "Pokedex - Chansey (Hint)",
+            "visibility_rules": [
+              "pokedex_chansey"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/chansey.png"
+          },
+          {
+            "name": "Pokedex - Tangela (Hint)",
+            "visibility_rules": [
+              "pokedex_tangela"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tangela.png"
+          },
+          {
+            "name": "Pokedex - Kangaskhan (Hint)",
+            "visibility_rules": [
+              "pokedex_kangaskhan"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kangaskhan.png"
+          },
+          {
+            "name": "Pokedex - Horsea (Hint)",
+            "visibility_rules": [
+              "pokedex_horsea"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/horsea.png"
+          },
+          {
+            "name": "Pokedex - Seadra (Hint)",
+            "visibility_rules": [
+              "pokedex_seadra"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/seadra.png"
+          },
+          {
+            "name": "Pokedex - Goldeen (Hint)",
+            "visibility_rules": [
+              "pokedex_goldeen"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/goldeen.png"
+          },
+          {
+            "name": "Pokedex - Seaking (Hint)",
+            "visibility_rules": [
+              "pokedex_seaking"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/seaking.png"
+          },
+          {
+            "name": "Pokedex - Staryu (Hint)",
+            "visibility_rules": [
+              "pokedex_staryu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/staryu.png"
+          },
+          {
+            "name": "Pokedex - Starmie (Hint)",
+            "visibility_rules": [
+              "pokedex_starmie"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/starmie.png"
+          },
+          {
+            "name": "Pokedex - Mr. Mime (Hint)",
+            "visibility_rules": [
+              "pokedex_mr_mime"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mr_mime.png"
+          },
+          {
+            "name": "Pokedex - Scyther (Hint)",
+            "visibility_rules": [
+              "pokedex_scyther"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/scyther.png"
+          },
+          {
+            "name": "Pokedex - Jynx (Hint)",
+            "visibility_rules": [
+              "pokedex_jynx"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/jynx.png"
+          },
+          {
+            "name": "Pokedex - Electabuzz (Hint)",
+            "visibility_rules": [
+              "pokedex_electabuzz"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/electabuzz.png"
+          },
+          {
+            "name": "Pokedex - Magmar (Hint)",
+            "visibility_rules": [
+              "pokedex_magmar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magmar.png"
+          },
+          {
+            "name": "Pokedex - Pinsir (Hint)",
+            "visibility_rules": [
+              "pokedex_pinsir"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pinsir.png"
+          },
+          {
+            "name": "Pokedex - Tauros (Hint)",
+            "visibility_rules": [
+              "pokedex_tauros"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tauros.png"
+          },
+          {
+            "name": "Pokedex - Magikarp (Hint)",
+            "visibility_rules": [
+              "pokedex_magikarp"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magikarp.png"
+          },
+          {
+            "name": "Pokedex - Gyarados (Hint)",
+            "visibility_rules": [
+              "pokedex_gyarados"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gyarados.png"
+          },
+          {
+            "name": "Pokedex - Lapras (Hint)",
+            "visibility_rules": [
+              "pokedex_lapras"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lapras.png"
+          },
+          {
+            "name": "Pokedex - Ditto (Hint)",
+            "visibility_rules": [
+              "pokedex_ditto"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ditto.png"
+          },
+          {
+            "name": "Pokedex - Eevee (Hint)",
+            "visibility_rules": [
+              "pokedex_eevee"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/eevee.png"
+          },
+          {
+            "name": "Pokedex - Vaporeon (Hint)",
+            "visibility_rules": [
+              "pokedex_vaporeon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/vaporeon.png"
+          },
+          {
+            "name": "Pokedex - Jolteon (Hint)",
+            "visibility_rules": [
+              "pokedex_jolteon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/jolteon.png"
+          },
+          {
+            "name": "Pokedex - Flareon (Hint)",
+            "visibility_rules": [
+              "pokedex_flareon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/flareon.png"
+          },
+          {
+            "name": "Pokedex - Porygon (Hint)",
+            "visibility_rules": [
+              "pokedex_porygon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/porygon.png"
+          },
+          {
+            "name": "Pokedex - Omanyte (Hint)",
+            "visibility_rules": [
+              "pokedex_omanyte"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/omanyte.png"
+          },
+          {
+            "name": "Pokedex - Omastar (Hint)",
+            "visibility_rules": [
+              "pokedex_omastar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/omastar.png"
+          },
+          {
+            "name": "Pokedex - Kabuto (Hint)",
+            "visibility_rules": [
+              "pokedex_kabuto"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kabuto.png"
+          },
+          {
+            "name": "Pokedex - Kabutops (Hint)",
+            "visibility_rules": [
+              "pokedex_kabutops"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kabutops.png"
+          },
+          {
+            "name": "Pokedex - Aerodactyl (Hint)",
+            "visibility_rules": [
+              "pokedex_aerodactyl"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/aerodactyl.png"
+          },
+          {
+            "name": "Pokedex - Snorlax (Hint)",
+            "visibility_rules": [
+              "pokedex_snorlax"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/snorlax.png"
+          },
+          {
+            "name": "Pokedex - Articuno (Hint)",
+            "visibility_rules": [
+              "pokedex_articuno"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/articuno.png"
+          },
+          {
+            "name": "Pokedex - Zapdos (Hint)",
+            "visibility_rules": [
+              "pokedex_zapdos"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/zapdos.png"
+          },
+          {
+            "name": "Pokedex - Moltres (Hint)",
+            "visibility_rules": [
+              "pokedex_moltres"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/moltres.png"
+          },
+          {
+            "name": "Pokedex - Dratini (Hint)",
+            "visibility_rules": [
+              "pokedex_dratini"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dratini.png"
+          },
+          {
+            "name": "Pokedex - Dragonair (Hint)",
+            "visibility_rules": [
+              "pokedex_dragonair"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dragonair.png"
+          },
+          {
+            "name": "Pokedex - Dragonite (Hint)",
+            "visibility_rules": [
+              "pokedex_dragonite"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dragonite.png"
+          },
+          {
+            "name": "Pokedex - Mewtwo (Hint)",
+            "visibility_rules": [
+              "pokedex_mewtwo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mewtwo.png"
+          },
+          {
+            "name": "Pokedex - Mew (Hint)",
+            "visibility_rules": [
+              "pokedex_mew"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mew.png"
+          },
+          {
+            "name": "Pokedex - Chikorita (Hint)",
+            "visibility_rules": [
+              "pokedex_chikorita"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/chikorita.png"
+          },
+          {
+            "name": "Pokedex - Bayleef (Hint)",
+            "visibility_rules": [
+              "pokedex_bayleef"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/bayleef.png"
+          },
+          {
+            "name": "Pokedex - Meganium (Hint)",
+            "visibility_rules": [
+              "pokedex_meganium"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/meganium.png"
+          },
+          {
+            "name": "Pokedex - Cyndaquil (Hint)",
+            "visibility_rules": [
+              "pokedex_cyndaquil"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cyndaquil.png"
+          },
+          {
+            "name": "Pokedex - Quilava (Hint)",
+            "visibility_rules": [
+              "pokedex_quilava"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/quilava.png"
+          },
+          {
+            "name": "Pokedex - Typhlosion (Hint)",
+            "visibility_rules": [
+              "pokedex_typhlosion"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/typhlosion.png"
+          },
+          {
+            "name": "Pokedex - Totodile (Hint)",
+            "visibility_rules": [
+              "pokedex_totodile"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/totodile.png"
+          },
+          {
+            "name": "Pokedex - Croconaw (Hint)",
+            "visibility_rules": [
+              "pokedex_croconaw"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/croconaw.png"
+          },
+          {
+            "name": "Pokedex - Feraligatr (Hint)",
+            "visibility_rules": [
+              "pokedex_feraligatr"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/feraligatr.png"
+          },
+          {
+            "name": "Pokedex - Sentret (Hint)",
+            "visibility_rules": [
+              "pokedex_sentret"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sentret.png"
+          },
+          {
+            "name": "Pokedex - Furret (Hint)",
+            "visibility_rules": [
+              "pokedex_furret"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/furret.png"
+          },
+          {
+            "name": "Pokedex - Hoothoot (Hint)",
+            "visibility_rules": [
+              "pokedex_hoothoot"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hoothoot.png"
+          },
+          {
+            "name": "Pokedex - Noctowl (Hint)",
+            "visibility_rules": [
+              "pokedex_noctowl"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/noctowl.png"
+          },
+          {
+            "name": "Pokedex - Ledyba (Hint)",
+            "visibility_rules": [
+              "pokedex_ledyba"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ledyba.png"
+          },
+          {
+            "name": "Pokedex - Ledian (Hint)",
+            "visibility_rules": [
+              "pokedex_ledian"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ledian.png"
+          },
+          {
+            "name": "Pokedex - Spinarak (Hint)",
+            "visibility_rules": [
+              "pokedex_spinarak"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/spinarak.png"
+          },
+          {
+            "name": "Pokedex - Ariados (Hint)",
+            "visibility_rules": [
+              "pokedex_ariados"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ariados.png"
+          },
+          {
+            "name": "Pokedex - Crobat (Hint)",
+            "visibility_rules": [
+              "pokedex_crobat"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/crobat.png"
+          },
+          {
+            "name": "Pokedex - Chinchou (Hint)",
+            "visibility_rules": [
+              "pokedex_chinchou"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/chinchou.png"
+          },
+          {
+            "name": "Pokedex - Lanturn (Hint)",
+            "visibility_rules": [
+              "pokedex_lanturn"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lanturn.png"
+          },
+          {
+            "name": "Pokedex - Pichu (Hint)",
+            "visibility_rules": [
+              "pokedex_pichu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pichu.png"
+          },
+          {
+            "name": "Pokedex - Cleffa (Hint)",
+            "visibility_rules": [
+              "pokedex_cleffa"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cleffa.png"
+          },
+          {
+            "name": "Pokedex - Igglybuff (Hint)",
+            "visibility_rules": [
+              "pokedex_igglybuff"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/igglybuff.png"
+          },
+          {
+            "name": "Pokedex - Togepi (Hint)",
+            "visibility_rules": [
+              "pokedex_togepi"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/togepi.png"
+          },
+          {
+            "name": "Pokedex - Togetic (Hint)",
+            "visibility_rules": [
+              "pokedex_togetic"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/togetic.png"
+          },
+          {
+            "name": "Pokedex - Natu (Hint)",
+            "visibility_rules": [
+              "pokedex_natu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/natu.png"
+          },
+          {
+            "name": "Pokedex - Xatu (Hint)",
+            "visibility_rules": [
+              "pokedex_xatu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/xatu.png"
+          },
+          {
+            "name": "Pokedex - Mareep (Hint)",
+            "visibility_rules": [
+              "pokedex_mareep"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mareep.png"
+          },
+          {
+            "name": "Pokedex - Flaaffy (Hint)",
+            "visibility_rules": [
+              "pokedex_flaaffy"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/flaaffy.png"
+          },
+          {
+            "name": "Pokedex - Ampharos (Hint)",
+            "visibility_rules": [
+              "pokedex_ampharos"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ampharos.png"
+          },
+          {
+            "name": "Pokedex - Bellossom (Hint)",
+            "visibility_rules": [
+              "pokedex_bellossom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/bellossom.png"
+          },
+          {
+            "name": "Pokedex - Marill (Hint)",
+            "visibility_rules": [
+              "pokedex_marill"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/marill.png"
+          },
+          {
+            "name": "Pokedex - Azumarill (Hint)",
+            "visibility_rules": [
+              "pokedex_azumarill"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/azumarill.png"
+          },
+          {
+            "name": "Pokedex - Sudowoodo (Hint)",
+            "visibility_rules": [
+              "pokedex_sudowoodo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sudowoodo.png"
+          },
+          {
+            "name": "Pokedex - Politoed (Hint)",
+            "visibility_rules": [
+              "pokedex_politoed"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/politoed.png"
+          },
+          {
+            "name": "Pokedex - Hoppip (Hint)",
+            "visibility_rules": [
+              "pokedex_hoppip"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hoppip.png"
+          },
+          {
+            "name": "Pokedex - Skiploom (Hint)",
+            "visibility_rules": [
+              "pokedex_skiploom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/skiploom.png"
+          },
+          {
+            "name": "Pokedex - Jumpluff (Hint)",
+            "visibility_rules": [
+              "pokedex_jumpluff"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/jumpluff.png"
+          },
+          {
+            "name": "Pokedex - Aipom (Hint)",
+            "visibility_rules": [
+              "pokedex_aipom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/aipom.png"
+          },
+          {
+            "name": "Pokedex - Sunkern (Hint)",
+            "visibility_rules": [
+              "pokedex_sunkern"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sunkern.png"
+          },
+          {
+            "name": "Pokedex - Sunflora (Hint)",
+            "visibility_rules": [
+              "pokedex_sunflora"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sunflora.png"
+          },
+          {
+            "name": "Pokedex - Yanma (Hint)",
+            "visibility_rules": [
+              "pokedex_yanma"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/yanma.png"
+          },
+          {
+            "name": "Pokedex - Wooper (Hint)",
+            "visibility_rules": [
+              "pokedex_wooper"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wooper.png"
+          },
+          {
+            "name": "Pokedex - Quagsire (Hint)",
+            "visibility_rules": [
+              "pokedex_quagsire"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/quagsire.png"
+          },
+          {
+            "name": "Pokedex - Espeon (Hint)",
+            "visibility_rules": [
+              "pokedex_espeon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/espeon.png"
+          },
+          {
+            "name": "Pokedex - Umbreon (Hint)",
+            "visibility_rules": [
+              "pokedex_umbreon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/umbreon.png"
+          },
+          {
+            "name": "Pokedex - Murkrow (Hint)",
+            "visibility_rules": [
+              "pokedex_murkrow"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/murkrow.png"
+          },
+          {
+            "name": "Pokedex - Slowking (Hint)",
+            "visibility_rules": [
+              "pokedex_slowking"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slowking.png"
+          },
+          {
+            "name": "Pokedex - Misdreavus (Hint)",
+            "visibility_rules": [
+              "pokedex_misdreavus"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/misdreavus.png"
+          },
+          {
+            "name": "Pokedex - Unown (Hint)",
+            "visibility_rules": [
+              "pokedex_unown"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/unown.png"
+          },
+          {
+            "name": "Pokedex - Wobbuffet (Hint)",
+            "visibility_rules": [
+              "pokedex_wobbuffet"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wobbuffet.png"
+          },
+          {
+            "name": "Pokedex - Girafarig (Hint)",
+            "visibility_rules": [
+              "pokedex_girafarig"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/girafarig.png"
+          },
+          {
+            "name": "Pokedex - Pineco (Hint)",
+            "visibility_rules": [
+              "pokedex_pineco"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pineco.png"
+          },
+          {
+            "name": "Pokedex - Forretress (Hint)",
+            "visibility_rules": [
+              "pokedex_forretress"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/forretress.png"
+          },
+          {
+            "name": "Pokedex - Dunsparce (Hint)",
+            "visibility_rules": [
+              "pokedex_dunsparce"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dunsparce.png"
+          },
+          {
+            "name": "Pokedex - Gligar (Hint)",
+            "visibility_rules": [
+              "pokedex_gligar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gligar.png"
+          },
+          {
+            "name": "Pokedex - Steelix (Hint)",
+            "visibility_rules": [
+              "pokedex_steelix"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/steelix.png"
+          },
+          {
+            "name": "Pokedex - Snubbull (Hint)",
+            "visibility_rules": [
+              "pokedex_snubbull"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/snubbull.png"
+          },
+          {
+            "name": "Pokedex - Granbull (Hint)",
+            "visibility_rules": [
+              "pokedex_granbull"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/granbull.png"
+          },
+          {
+            "name": "Pokedex - Qwilfish (Hint)",
+            "visibility_rules": [
+              "pokedex_qwilfish"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/qwilfish.png"
+          },
+          {
+            "name": "Pokedex - Scizor (Hint)",
+            "visibility_rules": [
+              "pokedex_scizor"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/scizor.png"
+          },
+          {
+            "name": "Pokedex - Shuckle (Hint)",
+            "visibility_rules": [
+              "pokedex_shuckle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shuckle.png"
+          },
+          {
+            "name": "Pokedex - Heracross (Hint)",
+            "visibility_rules": [
+              "pokedex_heracross"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/heracross.png"
+          },
+          {
+            "name": "Pokedex - Sneasel (Hint)",
+            "visibility_rules": [
+              "pokedex_sneasel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sneasel.png"
+          },
+          {
+            "name": "Pokedex - Teddiursa (Hint)",
+            "visibility_rules": [
+              "pokedex_teddiursa"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/teddiursa.png"
+          },
+          {
+            "name": "Pokedex - Ursaring (Hint)",
+            "visibility_rules": [
+              "pokedex_ursaring"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ursaring.png"
+          },
+          {
+            "name": "Pokedex - Slugma (Hint)",
+            "visibility_rules": [
+              "pokedex_slugma"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slugma.png"
+          },
+          {
+            "name": "Pokedex - Magcargo (Hint)",
+            "visibility_rules": [
+              "pokedex_magcargo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magcargo.png"
+          },
+          {
+            "name": "Pokedex - Swinub (Hint)",
+            "visibility_rules": [
+              "pokedex_swinub"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/swinub.png"
+          },
+          {
+            "name": "Pokedex - Piloswine (Hint)",
+            "visibility_rules": [
+              "pokedex_piloswine"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/piloswine.png"
+          },
+          {
+            "name": "Pokedex - Corsola (Hint)",
+            "visibility_rules": [
+              "pokedex_corsola"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/corsola.png"
+          },
+          {
+            "name": "Pokedex - Remoraid (Hint)",
+            "visibility_rules": [
+              "pokedex_remoraid"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/remoraid.png"
+          },
+          {
+            "name": "Pokedex - Octillery (Hint)",
+            "visibility_rules": [
+              "pokedex_octillery"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/octillery.png"
+          },
+          {
+            "name": "Pokedex - Delibird (Hint)",
+            "visibility_rules": [
+              "pokedex_delibird"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/delibird.png"
+          },
+          {
+            "name": "Pokedex - Mantine (Hint)",
+            "visibility_rules": [
+              "pokedex_mantine"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mantine.png"
+          },
+          {
+            "name": "Pokedex - Skarmory (Hint)",
+            "visibility_rules": [
+              "pokedex_skarmory"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/skarmory.png"
+          },
+          {
+            "name": "Pokedex - Houndour (Hint)",
+            "visibility_rules": [
+              "pokedex_houndour"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/houndour.png"
+          },
+          {
+            "name": "Pokedex - Houndoom (Hint)",
+            "visibility_rules": [
+              "pokedex_houndoom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/houndoom.png"
+          },
+          {
+            "name": "Pokedex - Kingdra (Hint)",
+            "visibility_rules": [
+              "pokedex_kingdra"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kingdra.png"
+          },
+          {
+            "name": "Pokedex - Phanpy (Hint)",
+            "visibility_rules": [
+              "pokedex_phanpy"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/phanpy.png"
+          },
+          {
+            "name": "Pokedex - Donphan (Hint)",
+            "visibility_rules": [
+              "pokedex_donphan"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/donphan.png"
+          },
+          {
+            "name": "Pokedex - Porygon2 (Hint)",
+            "visibility_rules": [
+              "pokedex_porygon2"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/porygon2.png"
+          },
+          {
+            "name": "Pokedex - Stantler (Hint)",
+            "visibility_rules": [
+              "pokedex_stantler"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/stantler.png"
+          },
+          {
+            "name": "Pokedex - Smeargle (Hint)",
+            "visibility_rules": [
+              "pokedex_smeargle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/smeargle.png"
+          },
+          {
+            "name": "Pokedex - Tyrogue (Hint)",
+            "visibility_rules": [
+              "pokedex_tyrogue"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tyrogue.png"
+          },
+          {
+            "name": "Pokedex - Hitmontop (Hint)",
+            "visibility_rules": [
+              "pokedex_hitmontop"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hitmontop.png"
+          },
+          {
+            "name": "Pokedex - Smoochum (Hint)",
+            "visibility_rules": [
+              "pokedex_smoochum"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/smoochum.png"
+          },
+          {
+            "name": "Pokedex - Elekid (Hint)",
+            "visibility_rules": [
+              "pokedex_elekid"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/elekid.png"
+          },
+          {
+            "name": "Pokedex - Magby (Hint)",
+            "visibility_rules": [
+              "pokedex_magby"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/magby.png"
+          },
+          {
+            "name": "Pokedex - Miltank (Hint)",
+            "visibility_rules": [
+              "pokedex_miltank"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/miltank.png"
+          },
+          {
+            "name": "Pokedex - Blissey (Hint)",
+            "visibility_rules": [
+              "pokedex_blissey"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/blissey.png"
+          },
+          {
+            "name": "Pokedex - Raikou (Hint)",
+            "visibility_rules": [
+              "pokedex_raikou"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/raikou.png"
+          },
+          {
+            "name": "Pokedex - Entei (Hint)",
+            "visibility_rules": [
+              "pokedex_entei"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/entei.png"
+          },
+          {
+            "name": "Pokedex - Suicune (Hint)",
+            "visibility_rules": [
+              "pokedex_suicune"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/suicune.png"
+          },
+          {
+            "name": "Pokedex - Larvitar (Hint)",
+            "visibility_rules": [
+              "pokedex_larvitar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/larvitar.png"
+          },
+          {
+            "name": "Pokedex - Pupitar (Hint)",
+            "visibility_rules": [
+              "pokedex_pupitar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pupitar.png"
+          },
+          {
+            "name": "Pokedex - Tyranitar (Hint)",
+            "visibility_rules": [
+              "pokedex_tyranitar"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tyranitar.png"
+          },
+          {
+            "name": "Pokedex - Lugia (Hint)",
+            "visibility_rules": [
+              "pokedex_lugia"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lugia.png"
+          },
+          {
+            "name": "Pokedex - Ho-Oh (Hint)",
+            "visibility_rules": [
+              "pokedex_ho-oh"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ho-oh.png"
+          },
+          {
+            "name": "Pokedex - Celebi (Hint)",
+            "visibility_rules": [
+              "pokedex_celebi"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/celebi.png"
+          },
+          {
+            "name": "Pokedex - Treecko (Hint)",
+            "visibility_rules": [
+              "pokedex_treecko"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/treecko.png"
+          },
+          {
+            "name": "Pokedex - Grovyle (Hint)",
+            "visibility_rules": [
+              "pokedex_grovyle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/grovyle.png"
+          },
+          {
+            "name": "Pokedex - Sceptile (Hint)",
+            "visibility_rules": [
+              "pokedex_sceptile"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sceptile.png"
+          },
+          {
+            "name": "Pokedex - Torchic (Hint)",
+            "visibility_rules": [
+              "pokedex_torchic"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/torchic.png"
+          },
+          {
+            "name": "Pokedex - Combusken (Hint)",
+            "visibility_rules": [
+              "pokedex_combusken"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/combusken.png"
+          },
+          {
+            "name": "Pokedex - Blaziken (Hint)",
+            "visibility_rules": [
+              "pokedex_blaziken"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/blaziken.png"
+          },
+          {
+            "name": "Pokedex - Mudkip (Hint)",
+            "visibility_rules": [
+              "pokedex_mudkip"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mudkip.png"
+          },
+          {
+            "name": "Pokedex - Marshtomp (Hint)",
+            "visibility_rules": [
+              "pokedex_marshtomp"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/marshtomp.png"
+          },
+          {
+            "name": "Pokedex - Swampert (Hint)",
+            "visibility_rules": [
+              "pokedex_swampert"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/swampert.png"
+          },
+          {
+            "name": "Pokedex - Poochyena (Hint)",
+            "visibility_rules": [
+              "pokedex_poochyena"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/poochyena.png"
+          },
+          {
+            "name": "Pokedex - Mightyena (Hint)",
+            "visibility_rules": [
+              "pokedex_mightyena"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mightyena.png"
+          },
+          {
+            "name": "Pokedex - Zigzagoon (Hint)",
+            "visibility_rules": [
+              "pokedex_zigzagoon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/zigzagoon.png"
+          },
+          {
+            "name": "Pokedex - Linoone (Hint)",
+            "visibility_rules": [
+              "pokedex_linoone"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/linoone.png"
+          },
+          {
+            "name": "Pokedex - Wurmple (Hint)",
+            "visibility_rules": [
+              "pokedex_wurmple"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wurmple.png"
+          },
+          {
+            "name": "Pokedex - Silcoon (Hint)",
+            "visibility_rules": [
+              "pokedex_silcoon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/silcoon.png"
+          },
+          {
+            "name": "Pokedex - Beautifly (Hint)",
+            "visibility_rules": [
+              "pokedex_beautifly"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/beautifly.png"
+          },
+          {
+            "name": "Pokedex - Cascoon (Hint)",
+            "visibility_rules": [
+              "pokedex_cascoon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cascoon.png"
+          },
+          {
+            "name": "Pokedex - Dustox (Hint)",
+            "visibility_rules": [
+              "pokedex_dustox"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dustox.png"
+          },
+          {
+            "name": "Pokedex - Lotad (Hint)",
+            "visibility_rules": [
+              "pokedex_lotad"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lotad.png"
+          },
+          {
+            "name": "Pokedex - Lombre (Hint)",
+            "visibility_rules": [
+              "pokedex_lombre"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lombre.png"
+          },
+          {
+            "name": "Pokedex - Ludicolo (Hint)",
+            "visibility_rules": [
+              "pokedex_ludicolo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ludicolo.png"
+          },
+          {
+            "name": "Pokedex - Seedot (Hint)",
+            "visibility_rules": [
+              "pokedex_seedot"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/seedot.png"
+          },
+          {
+            "name": "Pokedex - Nuzleaf (Hint)",
+            "visibility_rules": [
+              "pokedex_nuzleaf"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nuzleaf.png"
+          },
+          {
+            "name": "Pokedex - Shiftry (Hint)",
+            "visibility_rules": [
+              "pokedex_shiftry"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shiftry.png"
+          },
+          {
+            "name": "Pokedex - Taillow (Hint)",
+            "visibility_rules": [
+              "pokedex_taillow"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/taillow.png"
+          },
+          {
+            "name": "Pokedex - Swellow (Hint)",
+            "visibility_rules": [
+              "pokedex_swellow"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/swellow.png"
+          },
+          {
+            "name": "Pokedex - Wingull (Hint)",
+            "visibility_rules": [
+              "pokedex_wingull"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wingull.png"
+          },
+          {
+            "name": "Pokedex - Pelipper (Hint)",
+            "visibility_rules": [
+              "pokedex_pelipper"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/pelipper.png"
+          },
+          {
+            "name": "Pokedex - Ralts (Hint)",
+            "visibility_rules": [
+              "pokedex_ralts"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ralts.png"
+          },
+          {
+            "name": "Pokedex - Kirlia (Hint)",
+            "visibility_rules": [
+              "pokedex_kirlia"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kirlia.png"
+          },
+          {
+            "name": "Pokedex - Gardevoir (Hint)",
+            "visibility_rules": [
+              "pokedex_gardevoir"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gardevoir.png"
+          },
+          {
+            "name": "Pokedex - Surskit (Hint)",
+            "visibility_rules": [
+              "pokedex_surskit"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/surskit.png"
+          },
+          {
+            "name": "Pokedex - Masquerain (Hint)",
+            "visibility_rules": [
+              "pokedex_masquerain"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/masquerain.png"
+          },
+          {
+            "name": "Pokedex - Shroomish (Hint)",
+            "visibility_rules": [
+              "pokedex_shroomish"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shroomish.png"
+          },
+          {
+            "name": "Pokedex - Breloom (Hint)",
+            "visibility_rules": [
+              "pokedex_breloom"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/breloom.png"
+          },
+          {
+            "name": "Pokedex - Slakoth (Hint)",
+            "visibility_rules": [
+              "pokedex_slakoth"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slakoth.png"
+          },
+          {
+            "name": "Pokedex - Vigoroth (Hint)",
+            "visibility_rules": [
+              "pokedex_vigoroth"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/vigoroth.png"
+          },
+          {
+            "name": "Pokedex - Slaking (Hint)",
+            "visibility_rules": [
+              "pokedex_slaking"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/slaking.png"
+          },
+          {
+            "name": "Pokedex - Nincada (Hint)",
+            "visibility_rules": [
+              "pokedex_nincada"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nincada.png"
+          },
+          {
+            "name": "Pokedex - Ninjask (Hint)",
+            "visibility_rules": [
+              "pokedex_ninjask"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/ninjask.png"
+          },
+          {
+            "name": "Pokedex - Shedinja (Hint)",
+            "visibility_rules": [
+              "pokedex_shedinja"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shedinja.png"
+          },
+          {
+            "name": "Pokedex - Whismur (Hint)",
+            "visibility_rules": [
+              "pokedex_whismur"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/whismur.png"
+          },
+          {
+            "name": "Pokedex - Loudred (Hint)",
+            "visibility_rules": [
+              "pokedex_loudred"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/loudred.png"
+          },
+          {
+            "name": "Pokedex - Exploud (Hint)",
+            "visibility_rules": [
+              "pokedex_exploud"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/exploud.png"
+          },
+          {
+            "name": "Pokedex - Makuhita (Hint)",
+            "visibility_rules": [
+              "pokedex_makuhita"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/makuhita.png"
+          },
+          {
+            "name": "Pokedex - Hariyama (Hint)",
+            "visibility_rules": [
+              "pokedex_hariyama"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/hariyama.png"
+          },
+          {
+            "name": "Pokedex - Azurill (Hint)",
+            "visibility_rules": [
+              "pokedex_azurill"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/azurill.png"
+          },
+          {
+            "name": "Pokedex - Nosepass (Hint)",
+            "visibility_rules": [
+              "pokedex_nosepass"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/nosepass.png"
+          },
+          {
+            "name": "Pokedex - Skitty (Hint)",
+            "visibility_rules": [
+              "pokedex_skitty"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/skitty.png"
+          },
+          {
+            "name": "Pokedex - Delcatty (Hint)",
+            "visibility_rules": [
+              "pokedex_delcatty"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/delcatty.png"
+          },
+          {
+            "name": "Pokedex - Sableye (Hint)",
+            "visibility_rules": [
+              "pokedex_sableye"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sableye.png"
+          },
+          {
+            "name": "Pokedex - Mawile (Hint)",
+            "visibility_rules": [
+              "pokedex_mawile"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/mawile.png"
+          },
+          {
+            "name": "Pokedex - Aron (Hint)",
+            "visibility_rules": [
+              "pokedex_aron"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/aron.png"
+          },
+          {
+            "name": "Pokedex - Lairon (Hint)",
+            "visibility_rules": [
+              "pokedex_lairon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lairon.png"
+          },
+          {
+            "name": "Pokedex - Aggron (Hint)",
+            "visibility_rules": [
+              "pokedex_aggron"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/aggron.png"
+          },
+          {
+            "name": "Pokedex - Meditite (Hint)",
+            "visibility_rules": [
+              "pokedex_meditite"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/meditite.png"
+          },
+          {
+            "name": "Pokedex - Medicham (Hint)",
+            "visibility_rules": [
+              "pokedex_medicham"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/medicham.png"
+          },
+          {
+            "name": "Pokedex - Electrike (Hint)",
+            "visibility_rules": [
+              "pokedex_electrike"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/electrike.png"
+          },
+          {
+            "name": "Pokedex - Manectric (Hint)",
+            "visibility_rules": [
+              "pokedex_manectric"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/manectric.png"
+          },
+          {
+            "name": "Pokedex - Plusle (Hint)",
+            "visibility_rules": [
+              "pokedex_plusle"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/plusle.png"
+          },
+          {
+            "name": "Pokedex - Minun (Hint)",
+            "visibility_rules": [
+              "pokedex_minun"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/minun.png"
+          },
+          {
+            "name": "Pokedex - Volbeat (Hint)",
+            "visibility_rules": [
+              "pokedex_volbeat"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/volbeat.png"
+          },
+          {
+            "name": "Pokedex - Illumise (Hint)",
+            "visibility_rules": [
+              "pokedex_illumise"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/illumise.png"
+          },
+          {
+            "name": "Pokedex - Roselia (Hint)",
+            "visibility_rules": [
+              "pokedex_roselia"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/roselia.png"
+          },
+          {
+            "name": "Pokedex - Gulpin (Hint)",
+            "visibility_rules": [
+              "pokedex_gulpin"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gulpin.png"
+          },
+          {
+            "name": "Pokedex - Swalot (Hint)",
+            "visibility_rules": [
+              "pokedex_swalot"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/swalot.png"
+          },
+          {
+            "name": "Pokedex - Carvanha (Hint)",
+            "visibility_rules": [
+              "pokedex_carvanha"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/carvanha.png"
+          },
+          {
+            "name": "Pokedex - Sharpedo (Hint)",
+            "visibility_rules": [
+              "pokedex_sharpedo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sharpedo.png"
+          },
+          {
+            "name": "Pokedex - Wailmer (Hint)",
+            "visibility_rules": [
+              "pokedex_wailmer"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wailmer.png"
+          },
+          {
+            "name": "Pokedex - Wailord (Hint)",
+            "visibility_rules": [
+              "pokedex_wailord"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wailord.png"
+          },
+          {
+            "name": "Pokedex - Numel (Hint)",
+            "visibility_rules": [
+              "pokedex_numel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/numel.png"
+          },
+          {
+            "name": "Pokedex - Camerupt (Hint)",
+            "visibility_rules": [
+              "pokedex_camerupt"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/camerupt.png"
+          },
+          {
+            "name": "Pokedex - Torkoal (Hint)",
+            "visibility_rules": [
+              "pokedex_torkoal"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/torkoal.png"
+          },
+          {
+            "name": "Pokedex - Spoink (Hint)",
+            "visibility_rules": [
+              "pokedex_spoink"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/spoink.png"
+          },
+          {
+            "name": "Pokedex - Grumpig (Hint)",
+            "visibility_rules": [
+              "pokedex_grumpig"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/grumpig.png"
+          },
+          {
+            "name": "Pokedex - Spinda (Hint)",
+            "visibility_rules": [
+              "pokedex_spinda"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/spinda.png"
+          },
+          {
+            "name": "Pokedex - Trapinch (Hint)",
+            "visibility_rules": [
+              "pokedex_trapinch"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/trapinch.png"
+          },
+          {
+            "name": "Pokedex - Vibrava (Hint)",
+            "visibility_rules": [
+              "pokedex_vibrava"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/vibrava.png"
+          },
+          {
+            "name": "Pokedex - Flygon (Hint)",
+            "visibility_rules": [
+              "pokedex_flygon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/flygon.png"
+          },
+          {
+            "name": "Pokedex - Cacnea (Hint)",
+            "visibility_rules": [
+              "pokedex_cacnea"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cacnea.png"
+          },
+          {
+            "name": "Pokedex - Cacturne (Hint)",
+            "visibility_rules": [
+              "pokedex_cacturne"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cacturne.png"
+          },
+          {
+            "name": "Pokedex - Swablu (Hint)",
+            "visibility_rules": [
+              "pokedex_swablu"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/swablu.png"
+          },
+          {
+            "name": "Pokedex - Altaria (Hint)",
+            "visibility_rules": [
+              "pokedex_altaria"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/altaria.png"
+          },
+          {
+            "name": "Pokedex - Zangoose (Hint)",
+            "visibility_rules": [
+              "pokedex_zangoose"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/zangoose.png"
+          },
+          {
+            "name": "Pokedex - Seviper (Hint)",
+            "visibility_rules": [
+              "pokedex_seviper"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/seviper.png"
+          },
+          {
+            "name": "Pokedex - Lunatone (Hint)",
+            "visibility_rules": [
+              "pokedex_lunatone"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lunatone.png"
+          },
+          {
+            "name": "Pokedex - Solrock (Hint)",
+            "visibility_rules": [
+              "pokedex_solrock"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/solrock.png"
+          },
+          {
+            "name": "Pokedex - Barboach (Hint)",
+            "visibility_rules": [
+              "pokedex_barboach"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/barboach.png"
+          },
+          {
+            "name": "Pokedex - Whiscash (Hint)",
+            "visibility_rules": [
+              "pokedex_whiscash"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/whiscash.png"
+          },
+          {
+            "name": "Pokedex - Corphish (Hint)",
+            "visibility_rules": [
+              "pokedex_corphish"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/corphish.png"
+          },
+          {
+            "name": "Pokedex - Crawdaunt (Hint)",
+            "visibility_rules": [
+              "pokedex_crawdaunt"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/crawdaunt.png"
+          },
+          {
+            "name": "Pokedex - Baltoy (Hint)",
+            "visibility_rules": [
+              "pokedex_baltoy"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/baltoy.png"
+          },
+          {
+            "name": "Pokedex - Claydol (Hint)",
+            "visibility_rules": [
+              "pokedex_claydol"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/claydol.png"
+          },
+          {
+            "name": "Pokedex - Lileep (Hint)",
+            "visibility_rules": [
+              "pokedex_lileep"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/lileep.png"
+          },
+          {
+            "name": "Pokedex - Cradily (Hint)",
+            "visibility_rules": [
+              "pokedex_cradily"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/cradily.png"
+          },
+          {
+            "name": "Pokedex - Anorith (Hint)",
+            "visibility_rules": [
+              "pokedex_anorith"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/anorith.png"
+          },
+          {
+            "name": "Pokedex - Armaldo (Hint)",
+            "visibility_rules": [
+              "pokedex_armaldo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/armaldo.png"
+          },
+          {
+            "name": "Pokedex - Feebas (Hint)",
+            "visibility_rules": [
+              "pokedex_feebas"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/feebas.png"
+          },
+          {
+            "name": "Pokedex - Milotic (Hint)",
+            "visibility_rules": [
+              "pokedex_milotic"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/milotic.png"
+          },
+          {
+            "name": "Pokedex - Castform (Hint)",
+            "visibility_rules": [
+              "pokedex_castform"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/castform.png"
+          },
+          {
+            "name": "Pokedex - Kecleon (Hint)",
+            "visibility_rules": [
+              "pokedex_kecleon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kecleon.png"
+          },
+          {
+            "name": "Pokedex - Shuppet (Hint)",
+            "visibility_rules": [
+              "pokedex_shuppet"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shuppet.png"
+          },
+          {
+            "name": "Pokedex - Banette (Hint)",
+            "visibility_rules": [
+              "pokedex_banette"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/banette.png"
+          },
+          {
+            "name": "Pokedex - Duskull (Hint)",
+            "visibility_rules": [
+              "pokedex_duskull"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/duskull.png"
+          },
+          {
+            "name": "Pokedex - Dusclops (Hint)",
+            "visibility_rules": [
+              "pokedex_dusclops"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/dusclops.png"
+          },
+          {
+            "name": "Pokedex - Tropius (Hint)",
+            "visibility_rules": [
+              "pokedex_tropius"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/tropius.png"
+          },
+          {
+            "name": "Pokedex - Chimecho (Hint)",
+            "visibility_rules": [
+              "pokedex_chimecho"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/chimecho.png"
+          },
+          {
+            "name": "Pokedex - Absol (Hint)",
+            "visibility_rules": [
+              "pokedex_absol"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/absol.png"
+          },
+          {
+            "name": "Pokedex - Wynaut (Hint)",
+            "visibility_rules": [
+              "pokedex_wynaut"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/wynaut.png"
+          },
+          {
+            "name": "Pokedex - Snorunt (Hint)",
+            "visibility_rules": [
+              "pokedex_snorunt"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/snorunt.png"
+          },
+          {
+            "name": "Pokedex - Glalie (Hint)",
+            "visibility_rules": [
+              "pokedex_glalie"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/glalie.png"
+          },
+          {
+            "name": "Pokedex - Spheal (Hint)",
+            "visibility_rules": [
+              "pokedex_spheal"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/spheal.png"
+          },
+          {
+            "name": "Pokedex - Sealeo (Hint)",
+            "visibility_rules": [
+              "pokedex_sealeo"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/sealeo.png"
+          },
+          {
+            "name": "Pokedex - Walrein (Hint)",
+            "visibility_rules": [
+              "pokedex_walrein"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/walrein.png"
+          },
+          {
+            "name": "Pokedex - Clamperl (Hint)",
+            "visibility_rules": [
+              "pokedex_clamperl"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/clamperl.png"
+          },
+          {
+            "name": "Pokedex - Huntail (Hint)",
+            "visibility_rules": [
+              "pokedex_huntail"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/huntail.png"
+          },
+          {
+            "name": "Pokedex - Gorebyss (Hint)",
+            "visibility_rules": [
+              "pokedex_gorebyss"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/gorebyss.png"
+          },
+          {
+            "name": "Pokedex - Relicanth (Hint)",
+            "visibility_rules": [
+              "pokedex_relicanth"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/relicanth.png"
+          },
+          {
+            "name": "Pokedex - Luvdisc (Hint)",
+            "visibility_rules": [
+              "pokedex_luvdisc"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/luvdisc.png"
+          },
+          {
+            "name": "Pokedex - Bagon (Hint)",
+            "visibility_rules": [
+              "pokedex_bagon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/bagon.png"
+          },
+          {
+            "name": "Pokedex - Shelgon (Hint)",
+            "visibility_rules": [
+              "pokedex_shelgon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/shelgon.png"
+          },
+          {
+            "name": "Pokedex - Salamence (Hint)",
+            "visibility_rules": [
+              "pokedex_salamence"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/salamence.png"
+          },
+          {
+            "name": "Pokedex - Beldum (Hint)",
+            "visibility_rules": [
+              "pokedex_beldum"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/beldum.png"
+          },
+          {
+            "name": "Pokedex - Metang (Hint)",
+            "visibility_rules": [
+              "pokedex_metang"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/metang.png"
+          },
+          {
+            "name": "Pokedex - Metagross (Hint)",
+            "visibility_rules": [
+              "pokedex_metagross"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/metagross.png"
+          },
+          {
+            "name": "Pokedex - Regirock (Hint)",
+            "visibility_rules": [
+              "pokedex_regirock"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/regirock.png"
+          },
+          {
+            "name": "Pokedex - Regice (Hint)",
+            "visibility_rules": [
+              "pokedex_regice"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/regice.png"
+          },
+          {
+            "name": "Pokedex - Registeel (Hint)",
+            "visibility_rules": [
+              "pokedex_registeel"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/registeel.png"
+          },
+          {
+            "name": "Pokedex - Latias (Hint)",
+            "visibility_rules": [
+              "pokedex_latias"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/latias.png"
+          },
+          {
+            "name": "Pokedex - Latios (Hint)",
+            "visibility_rules": [
+              "pokedex_latios"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/latios.png"
+          },
+          {
+            "name": "Pokedex - Kyogre (Hint)",
+            "visibility_rules": [
+              "pokedex_kyogre"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/kyogre.png"
+          },
+          {
+            "name": "Pokedex - Groudon (Hint)",
+            "visibility_rules": [
+              "pokedex_groudon"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/groudon.png"
+          },
+          {
+            "name": "Pokedex - Rayquaza (Hint)",
+            "visibility_rules": [
+              "pokedex_rayquaza"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/rayquaza.png"
+          },
+          {
+            "name": "Pokedex - Jirachi (Hint)",
+            "visibility_rules": [
+              "pokedex_jirachi"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/jirachi.png"
+          },
+          {
+            "name": "Pokedex - Deoxys (Hint)",
+            "visibility_rules": [
+              "pokedex_deoxys"
+            ],
+            "chest_unopened_img": "/images/locations/pokedex/deoxys.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 243,
+            "y": 12
+          },
+          {
+            "map": "encountermap",
+            "x": 243,
+            "y": 12
+          }
         ]
-    }    
+      }
+    ]
+  }
 ]

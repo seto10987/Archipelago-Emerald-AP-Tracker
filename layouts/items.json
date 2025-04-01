@@ -1,28 +1,72 @@
 {
-  "item_grid":
-  {
+  "item_grid": {
     "type": "array",
     "orientation": "vertical",
     "margin": "0,0",
-    "content":
-    [
+    "content": [
       {
         "type": "array",
         "orientation": "horizontal",
         "margin": "0,0",
-        "content":
-        [
+        "content": [
           {
             "type": "itemgrid",
             "item_margin": "2,2",
             "h_alignment": "center",
-            "rows":
-            [
-              ["hm01_cut","hm02_fly","hm03_surf","hm04_strength","hm05_flash","hm06_rock_smash","hm07_waterfall","hm08_dive"],
-              ["stone_badge","knuckle_badge","dynamo_badge","heat_badge","balance_badge","feather_badge","mind_badge","rain_badge"],
-              ["devon_goods","letter","itemfinder","meteorite","go_goggles","scanner","devon_scope","magma_emblem", "old_rod"],
-              ["acro_bike","mach_bike","room_1_key","room_2_key","room_4_key","room_6_key","basement_key","storage_key", "good_rod"],
-              ["ss_ticket","aurora_ticket","eon_ticket","mystic_ticket","old_sea_map","pokeblock_case","wailmer_pail","harbor_mail", "super_rod"]
+            "rows": [
+              [
+                "hm01_cut",
+                "hm02_fly",
+                "hm03_surf",
+                "hm04_strength",
+                "hm05_flash",
+                "hm06_rock_smash",
+                "hm07_waterfall",
+                "hm08_dive"
+              ],
+              [
+                "stone_badge",
+                "knuckle_badge",
+                "dynamo_badge",
+                "heat_badge",
+                "balance_badge",
+                "feather_badge",
+                "mind_badge",
+                "rain_badge"
+              ],
+              [
+                "devon_goods",
+                "letter",
+                "itemfinder",
+                "meteorite",
+                "go_goggles",
+                "scanner",
+                "devon_scope",
+                "magma_emblem",
+                "old_rod"
+              ],
+              [
+                "acro_bike",
+                "mach_bike",
+                "room_1_key",
+                "room_2_key",
+                "room_4_key",
+                "room_6_key",
+                "basement_key",
+                "storage_key",
+                "good_rod"
+              ],
+              [
+                "ss_ticket",
+                "aurora_ticket",
+                "eon_ticket",
+                "mystic_ticket",
+                "old_sea_map",
+                "pokeblock_case",
+                "wailmer_pail",
+                "harbor_mail",
+                "super_rod"
+              ]
             ]
           }
         ]

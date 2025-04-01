@@ -46,19 +46,18 @@
         ]
       }
     },
-      "settings_popup":
-    {
+    "settings_popup": {
       "type": "array",
       "orientation": "horizontal",
       "h_alignment": "left",
       "content": [
         {
-        "type": "group",
-        "header": "Settings",
-        "dock": "bottom",
-        "content": {
-        "type": "layout",
-        "key": "setting_grid"
+          "type": "group",
+          "header": "Settings",
+          "dock": "bottom",
+          "content": {
+            "type": "layout",
+            "key": "setting_grid"
           }
         }
       ]

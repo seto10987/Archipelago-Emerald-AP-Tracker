@@ -8,15 +8,21 @@
   "variants": {
     "standard": {
       "display_name": "Map Tracker (Horizontal)",
-      "flags": ["ap"]
+      "flags": [
+        "ap"
+      ]
     },
     "v_vertical": {
       "display_name": "Map Tracker (Vertical)",
-      "flags": ["ap"]
+      "flags": [
+        "ap"
+      ]
     },
     "var_items_only": {
       "display_name": "Item Tracker",
-      "flags": ["ap"]
+      "flags": [
+        "ap"
+      ]
     }
   },
   "versions_url": "https://raw.githubusercontent.com/seto10987/archipelago-emerald-ap-tracker/versions/versions.json"
