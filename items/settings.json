@@ -3,9 +3,9 @@
     "name": "Goal",
     "type": "progressive",
     "allow_disabled": false,
+    "initial_stage_idx": 0,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/wallace.png",
         "img_mods": "overlay|/images/overlays/beat.png",
@@ -42,8 +42,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 2,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/badge.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -73,8 +72,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 2,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/hm.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -104,8 +102,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 1,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/key_item.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -126,9 +123,9 @@
     "name": "Bikes Shuffled",
     "type": "progressive",
     "allow_disabled": false,
+    "initial_stage_idx": 1,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/bike.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -150,8 +147,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/ticket.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -171,10 +167,10 @@
   {
     "name": "Rods Shuffled",
     "type": "progressive",
+    "initial_stage_idx": 1,
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/rod.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -197,8 +193,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 1,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/overworld.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -219,9 +214,9 @@
     "name": "Hidden Items Shuffled",
     "type": "progressive",
     "allow_disabled": false,
+    "initial_stage_idx": 0,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/hidden.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -241,10 +236,10 @@
   {
     "name": "NPC Gifts Shuffled",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/gift.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -264,10 +259,10 @@
   {
     "name": "Berry Trees Shuffled",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/berry.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -289,8 +284,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/pokedex.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -310,10 +304,10 @@
   {
     "name": "Trainersanity",
     "type": "progressive",
+    "initial_stage_idx": 0,
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/trainer.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -336,8 +330,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 1,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/itemfinder.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -360,8 +353,7 @@
     "allow_disabled": false,
     "loop": true,
     "initial_stage_idx": 3,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/hm.png",
         "img_mods": "overlay|/images/overlays/none.png,@disabled",
@@ -397,19 +389,18 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/wallace.png",
         "img_mods": "overlay|/images/overlays/badge.png",
-        "codes":"e4_req_setting,e4_req_badges",
+        "codes": "e4_req_setting,e4_req_badges",
         "inherit_codes": false,
         "name": "Elite Four Requirement - Badges"
       },
       {
         "img": "/images/settings/wallace.png",
         "img_mods": "overlay|/images/overlays/gym.png",
-        "codes":"e4_req_setting,e4_req_gyms",
+        "codes": "e4_req_setting,e4_req_gyms",
         "inherit_codes": false,
         "name": "Elite Four Requirement - Gyms"
       }
@@ -421,12 +412,11 @@
     "allow_disabled": false,
     "loop": false,
     "initial_stage_idx": 8,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/wallace.png",
         "img_mods": "overlay|/images/overlays/0.png",
-        "codes":"e4_req_count",
+        "codes": "e4_req_count",
         "name": "Elite Four Requirement Amount - 0"
       },
       {
@@ -476,19 +466,18 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/norman.png",
         "img_mods": "overlay|/images/overlays/badge.png",
-        "codes":"norman_req_setting,norman_req_badges",
+        "codes": "norman_req_setting,norman_req_badges",
         "inherit_codes": false,
         "name": "Norman Requirement - Badges"
       },
       {
         "img": "/images/settings/norman.png",
         "img_mods": "overlay|/images/overlays/gym.png",
-        "codes":"norman_req_setting,norman_req_gyms",
+        "codes": "norman_req_setting,norman_req_gyms",
         "inherit_codes": false,
         "name": "Norman Requirement - Gyms"
       }
@@ -500,12 +489,11 @@
     "allow_disabled": false,
     "loop": false,
     "initial_stage_idx": 4,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/norman.png",
         "img_mods": "overlay|/images/overlays/0.png",
-        "codes":"norman_req_count",
+        "codes": "norman_req_count",
         "name": "Norman Requirement Amount - 0"
       },
       {
@@ -550,19 +538,18 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/red_x.png",
-        "codes":"legendary_hunt_req_setting,legendary_hunt_req_defeat",
+        "codes": "legendary_hunt_req_setting,legendary_hunt_req_defeat",
         "inherit_codes": false,
         "name": "Legendary Hunt Requirement - Defeat"
       },
       {
         "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/pokeball.png",
-        "codes":"legendary_hunt_req_setting,legendary_hunt_req_catch",
+        "codes": "legendary_hunt_req_setting,legendary_hunt_req_catch",
         "inherit_codes": false,
         "name": "Legendary Hunt Requirement - Catch"
       }
@@ -574,12 +561,11 @@
     "allow_disabled": false,
     "loop": false,
     "initial_stage_idx": 2,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/deoxys.png",
         "img_mods": "overlay|/images/overlays/1.png",
-        "codes":"legendary_hunt_req_count",
+        "codes": "legendary_hunt_req_count",
         "name": "Legendary Hunt Requirement Amount - 1"
       },
       {
@@ -644,8 +630,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/aqua_grunt.png",
         "img_mods": "overlay|/images/overlays/route_110.png,@disabled",
@@ -667,8 +652,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/magma_grunt.png",
         "img_mods": "overlay|/images/overlays/route_112.png,@disabled",
@@ -690,8 +674,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/aqua_grunt.png",
         "img_mods": "overlay|/images/overlays/route_119.png,@disabled",
@@ -713,8 +696,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/safari.png",
         "img_mods": "@disabled",
@@ -735,8 +717,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/wailmer.png",
         "img_mods": "@disabled",
@@ -757,8 +738,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/aqua_grunt.png",
         "img_mods": "overlay|/images/overlays/hide.png,@disabled",
@@ -780,8 +760,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/aqua_grunt.png",
         "img_mods": "overlay|/images/overlays/sea.png,@disabled",
@@ -803,8 +782,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/boulder.png",
         "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
@@ -826,8 +804,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/bumpy_slope.png",
         "img_mods": "overlay|/images/overlays/route_115.png,@disabled",
@@ -849,8 +826,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/rail.png",
         "img_mods": "overlay|/images/overlays/route_118.png,@disabled",
@@ -872,8 +848,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/feather_badge.png",
         "img_mods": "overlay|/images/overlays/off.png,@disabled",
@@ -891,15 +866,13 @@
     ]
   },
   {
-
     "name": "Normalize Encounter Rates",
     "type": "progressive",
     "allow_disabled": false,
     "initial_stage_idx": 1,
     "loop": true,
     "codes": "normalize_encounters_setting",
-    "stages":
-    [
+    "stages": [
       {
         "name": "Normalize Encounters - Off",
         "img": "/images/locations/grass64.png",
@@ -921,13 +894,36 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
-        "img": "/images/settings/free_fly_none.png",
-        "codes": "free_fly_setting,free_fly_none",
+        "img": "/images/settings/free_fly_littleroot.png",
+        "codes": "free_fly_setting,free_fly_littleroot",
         "inherit_codes": false,
-        "name": "Free Fly Location - None"
+        "name": "Free Fly Location - Littleroot"
+      },
+      {
+        "img": "/images/settings/free_fly_oldale.png",
+        "codes": "free_fly_setting,free_fly_oldale",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Oldale"
+      },
+      {
+        "img": "/images/settings/free_fly_petalburg.png",
+        "codes": "free_fly_setting,free_fly_petalburg",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Petalburg"
+      },
+      {
+        "img": "/images/settings/free_fly_rustboro.png",
+        "codes": "free_fly_setting,free_fly_rustboro",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Rustboro"
+      },
+      {
+        "img": "/images/settings/free_fly_dewford.png",
+        "codes": "free_fly_setting,free_fly_dewford",
+        "inherit_codes": false,
+        "name": "Free Fly Location - Dewford"
       },
       {
         "img": "/images/settings/free_fly_slateport.png",
@@ -996,8 +992,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/groudon.png",
         "img_mods": "overlay|/images/overlays/unknown.png",
@@ -1040,8 +1035,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": true,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/settings/kyogre.png",
         "img_mods": "overlay|/images/overlays/unknown.png",
@@ -1162,5 +1156,131 @@
     "initial_active_state": true,
     "img": "/images/settings/mew.png",
     "codes": "legendary_hunt_mew"
+  },
+  {
+    "name": "Current Level",
+    "type": "progressive",
+    "img": "",
+    "disabled_img": "",
+    "codes": "cur_level_id"
+  },
+  {
+    "name": "Auto-Tab",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "codes": "tab_switch",
+    "stages": [
+      {
+        "name": "Auto-Tab - Off",
+        "img": "images/settings/autotab.png",
+        "img_mods": "overlay|images/overlays/auto.png,@disabled",
+        "inherit_codes": false
+      },
+      {
+        "name": "Auto-Tab - On",
+        "img": "images/settings/autotab.png",
+        "img_mods": "overlay|images/overlays/auto.png",
+        "codes": "tab_switch",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Overworld Map",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "codes": "split_map",
+    "stages": [
+      {
+        "name": "Overworld Map - Off",
+        "img": "images/settings/overworld_on.png",
+        "img_mods": "overlay|images/overlays/split.png,@disabled",
+        "codes": "split_map",
+        "inherit_codes": false
+      },
+      {
+        "name": "Overworld Map - On",
+        "img": "images/settings/overworld_on.png",
+        "img_mods": "overlay|images/overlays/split.png",
+        "codes": "split_map, split_map_overworld",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Encounter Map",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 0,
+    "loop": true,
+    "codes": "split_map",
+    "stages": [
+      {
+        "name": "Encounter Map - Off",
+        "img": "images/settings/encounter_on.png",
+        "img_mods": "overlay|images/overlays/split.png,@disabled",
+        "codes": "split_map",
+        "inherit_codes": false
+      },
+      {
+        "name": "Encounter Map - On",
+        "img": "images/settings/encounter_on.png",
+        "img_mods": "overlay|images/overlays/split.png",
+        "codes": "split_map, split_map_encounter",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Encounter Tracking",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "codes": "encounter_locations",
+    "stages": [
+      {
+        "name": "Encounter Tracking - Off",
+        "img": "images/settings/encounter_locations.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "encounter_locations",
+        "inherit_codes": false
+      },
+      {
+        "name": "Encounter Tracking - On",
+        "img": "images/settings/encounter_locations.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "encounter_locations, encounter_locations_on",
+        "inherit_codes": false
+      }
+    ]
+  },
+  {
+    "name": "Hints Tracking",
+    "type": "progressive",
+    "allow_disabled": false,
+    "initial_stage_idx": 1,
+    "loop": true,
+    "codes": "hints_tracking",
+    "stages": [
+      {
+        "name": "Hints Tracking - Off",
+        "img": "images/settings/hints_tracking.png",
+        "img_mods": "overlay|images/overlays/off.png,@disabled",
+        "codes": "hints_tracking",
+        "inherit_codes": false
+      },
+      {
+        "name": "Hints Tracking - On",
+        "img": "images/settings/hints_tracking.png",
+        "img_mods": "overlay|images/overlays/on.png",
+        "codes": "hints_tracking, hints_tracking_on",
+        "inherit_codes": false
+      }
+    ]
   }
 ]

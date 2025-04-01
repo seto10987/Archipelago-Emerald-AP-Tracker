@@ -245,7 +245,7 @@ SLOT_CODES =
       [1] = 1  -- Modify Route 118 On
     }
   },
-  normalize_encounters =
+  normalize_encounter_rates =
   {
     code = "normalize_encounters_setting",
     mapping =
@@ -259,17 +259,21 @@ SLOT_CODES =
     code = "free_fly_setting",
     mapping =
     {
-      [0] = 0,  -- Free Fly None
-      [5] = 1,  -- Free Fly Slateport
-      [6] = 2,  -- Free Fly Mauville
-      [7] = 3,  -- Free Fly Verdanturf
-      [8] = 4,  -- Free Fly Fallarbor
-      [9] = 5,  -- Free Fly Lavaridge
-      [10] = 6, -- Free Fly Fortree
-      [11] = 7, -- Free Fly Lilycove
-      [12] = 8, -- Free Fly Mossdeep
-      [13] = 9, -- Free Fly Sootopolis
-      [15] = 10 -- Free Fly Ever Grande
+      [0] = 0,  -- Free Fly Littleroot
+      [1] = 1,  -- Free Fly Oldale
+      [2] = 2,  -- Free Fly Petalburg
+      [3] = 3,  -- Free Fly Rustboro
+      [4] = 4,  -- Free Fly Dewford
+      [5] = 5,  -- Free Fly Slateport
+      [6] = 6,  -- Free Fly Mauville
+      [7] = 7,  -- Free Fly Verdanturf
+      [8] = 8,  -- Free Fly Fallarbor
+      [9] = 9,  -- Free Fly Lavaridge
+      [10] = 10, -- Free Fly Fortree
+      [11] = 11, -- Free Fly Lilycove
+      [12] = 12, -- Free Fly Mossdeep
+      [13] = 13, -- Free Fly Sootopolis
+      [15] = 14 -- Free Fly Ever Grande
     }
   }
 }

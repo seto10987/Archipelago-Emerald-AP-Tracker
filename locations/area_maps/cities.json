@@ -1,0 +1,4288 @@
+[
+  {
+    "name": "Littleroot Birch's Lab",
+    "children": [
+      {
+        "sections": [
+          {
+            "ref": "Cities/Littleroot Town/Pokeballs from Rival"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "littleroot",
+            "x": 240,
+            "y": 456
+          },
+          {
+            "map": "professor_birchs_lab",
+            "x": 206,
+            "y": 270
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Littleroot Player's House",
+    "children": [
+      {
+        "name": "Littleroot Player's House",
+        "sections": [
+          {
+            "name": "Amulet Coin from Mom",
+            "ref": "Cities/Littleroot Town/Amulet Coin from Mom"
+          },
+          {
+            "name": "S.S. Ticket from Norman",
+            "ref": "Cities/Littleroot Town/S.S. Ticket from Norman"
+          },
+          {
+            "name": "​S.S. Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​S.S. Ticket from Norman"
+          },
+          {
+            "name": "Aurora Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Aurora Ticket from Norman"
+          },
+          {
+            "name": "​Aurora Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Aurora Ticket from Norman"
+          },
+          {
+            "name": "Mystic Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Mystic Ticket from Norman"
+          },
+          {
+            "name": "​Mystic Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Mystic Ticket from Norman"
+          },
+          {
+            "name": "Old Sea Map from Norman",
+            "ref": "Cities/Littleroot Town/Old Sea Map from Norman"
+          },
+          {
+            "name": "​Old Sea Map fromNorman",
+            "ref": "Cities/Littleroot Town/​Old Sea Map from Norman"
+          },
+          {
+            "name": "Eon Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Eon Ticket from Norman"
+          },
+          {
+            "name": "​Eon Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Eon Ticket from Norman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "littleroot",
+            "x": 175,
+            "y": 203
+          },
+          {
+            "map": "littleroot",
+            "x": 463,
+            "y": 202
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Littleroot Mom",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Amulet Coin from Mom",
+            "ref": "Cities/Littleroot Town/Amulet Coin from Mom"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mays_house_1f",
+            "x": 271,
+            "y": 206
+          },
+          {
+            "map": "brendans_house_1f",
+            "x": 79,
+            "y": 239
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Littleroot Norman",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "S.S. Ticket from Norman",
+            "ref": "Cities/Littleroot Town/S.S. Ticket from Norman"
+          },
+          {
+            "name": "​S.S. Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​S.S. Ticket from Norman"
+          },
+          {
+            "name": "Aurora Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Aurora Ticket from Norman"
+          },
+          {
+            "name": "​Aurora Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Aurora Ticket from Norman"
+          },
+          {
+            "name": "Mystic Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Mystic Ticket from Norman"
+          },
+          {
+            "name": "​Mystic Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Mystic Ticket from Norman"
+          },
+          {
+            "name": "Old Sea Map from Norman",
+            "ref": "Cities/Littleroot Town/Old Sea Map from Norman"
+          },
+          {
+            "name": "​Old Sea Map fromNorman",
+            "ref": "Cities/Littleroot Town/​Old Sea Map from Norman"
+          },
+          {
+            "name": "Eon Ticket from Norman",
+            "ref": "Cities/Littleroot Town/Eon Ticket from Norman"
+          },
+          {
+            "name": "​Eon Ticket from Norman",
+            "ref": "Cities/Littleroot Town/​Eon Ticket from Norman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mays_house_1f",
+            "x": 177,
+            "y": 206
+          },
+          {
+            "map": "brendans_house_1f",
+            "x": 174,
+            "y": 239
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Oldale Town",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gift from Shop Tutorial",
+            "ref": "Cities/Oldale Town/Gift from Shop Tutorial"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "oldale",
+            "x": 430,
+            "y": 236
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Item Past Pond North",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item Past Pond North",
+            "ref": "Cities/Petalburg City/Item Past Pond North"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg",
+            "x": 621,
+            "y": 83
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Hidden Item Past Pond South",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item Past Pond South",
+            "ref": "Cities/Petalburg City/Hidden Item Past Pond South"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg",
+            "x": 366,
+            "y": 940
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Item Past Pond South",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item Past Pond South",
+            "ref": "Cities/Petalburg City/Item Past Pond South"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg",
+            "x": 110,
+            "y": 917
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Gym",
+    "children": [
+      {
+        "name": "Petalburg Gym",
+        "sections": [
+          {
+            "name": "Cooltrainer Randall",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Randall"
+          },
+          {
+            "name": "Cooltrainer Mary",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Mary"
+          },
+          {
+            "name": "Cooltrainer Parker",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Parker"
+          },
+          {
+            "name": "Cooltrainer Alexia",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Alexia"
+          },
+          {
+            "name": "Cooltrainer George",
+            "ref": "Cities/Petalburg Gym/Cooltrainer George"
+          },
+          {
+            "name": "Cooltrainer Jody",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Jody"
+          },
+          {
+            "name": "Cooltrainer Berke",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Berke"
+          },
+          {
+            "name": "Defeat Norman (Event)",
+            "ref": "Cities/Petalburg City/Defeat Norman (Event)"
+          },
+          {
+            "name": "Defeat Norman (Event)​",
+            "ref": "Cities/Petalburg Gym/Defeat Norman (Event)"
+          },
+          {
+            "name": "Leader Norman",
+            "ref": "Cities/Petalburg Gym/Leader Norman"
+          },
+          {
+            "name": "Balance Badge",
+            "ref": "Cities/Petalburg City/Balance Badge"
+          },
+          {
+            "name": "Balance Badge​",
+            "ref": "Cities/Petalburg Gym/Balance Badge"
+          },
+          {
+            "name": "​Balance Badge",
+            "ref": "Cities/Petalburg City/​Balance Badge"
+          },
+          {
+            "name": "​Balance Badge​",
+            "ref": "Cities/Petalburg Gym/​Balance Badge"
+          },
+          {
+            "name": "TM42 from Norman",
+            "ref": "Cities/Petalburg City/TM42 from Norman"
+          },
+          {
+            "name": "TM42 from Norman​",
+            "ref": "Cities/Petalburg Gym/TM42 from Norman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg",
+            "x": 494,
+            "y": 265
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Wally's Uncle",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "HM03 from Wally's Uncle",
+            "ref": "Cities/Petalburg City/HM03 from Wally's Uncle"
+          },
+          {
+            "name": "​HM03 from Wally's Uncle",
+            "ref": "Cities/Petalburg City/​HM03 from Wally's Uncle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg",
+            "x": 239,
+            "y": 173
+          },
+          {
+            "map": "petalburg_wallys_house",
+            "x": 112,
+            "y": 142
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Randall",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Randall",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Randall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 322,
+            "y": 907
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Mary",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Mary",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Mary"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 676,
+            "y": 907
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Parker",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Parker",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Parker"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 143,
+            "y": 643
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Alexia",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Alexia",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Alexia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 499,
+            "y": 643
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer George",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer George",
+            "ref": "Cities/Petalburg Gym/Cooltrainer George"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 847,
+            "y": 642
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Jody",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Jody",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Jody"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 322,
+            "y": 378
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Cooltrainer Berke",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Berke",
+            "ref": "Cities/Petalburg Gym/Cooltrainer Berke"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 671,
+            "y": 379
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Petalburg Norman",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Norman (Event)",
+            "ref": "Cities/Petalburg City/Defeat Norman (Event)"
+          },
+          {
+            "name": "Defeat Norman (Event)​",
+            "ref": "Cities/Petalburg Gym/Defeat Norman (Event)"
+          },
+          {
+            "name": "Leader Norman",
+            "ref": "Cities/Petalburg Gym/Leader Norman"
+          },
+          {
+            "name": "Balance Badge",
+            "ref": "Cities/Petalburg City/Balance Badge"
+          },
+          {
+            "name": "Balance Badge​",
+            "ref": "Cities/Petalburg Gym/Balance Badge"
+          },
+          {
+            "name": "​Balance Badge",
+            "ref": "Cities/Petalburg City/​Balance Badge"
+          },
+          {
+            "name": "​Balance Badge​",
+            "ref": "Cities/Petalburg Gym/​Balance Badge"
+          },
+          {
+            "name": "TM42 from Norman",
+            "ref": "Cities/Petalburg City/TM42 from Norman"
+          },
+          {
+            "name": "TM42 from Norman​",
+            "ref": "Cities/Petalburg Gym/TM42 from Norman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "petalburg_gym",
+            "x": 498,
+            "y": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Item Behind Fences",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item Behind Fences",
+            "ref": "Cities/Rustboro City/Item Behind Fences"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 1166,
+            "y": 1652
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Gift from Boy in Apartments",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gift from Boy in Apartments",
+            "ref": "Cities/Rustboro City/Gift from Boy in Apartments"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 174,
+            "y": 1641
+          },
+          {
+            "map": "rustboro_flat_2_1f",
+            "x": 112,
+            "y": 46
+          },
+          {
+            "map": "rustboro_flat_2_2f",
+            "x": 271,
+            "y": 112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City HM01 from Cutter's House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "HM01 from Cutter's House",
+            "ref": "Cities/Rustboro City/HM01 from Cutter's House"
+          },
+          {
+            "name": "​HM01 from Cutter's House",
+            "ref": "Cities/Rustboro City/​HM01 from Cutter's House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 302,
+            "y": 1224
+          },
+          {
+            "map": "rustboro_cutters_house",
+            "x": 240,
+            "y": 171
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Quick Claw from School Teacher",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Quick Claw from School Teacher",
+            "ref": "Cities/Rustboro City/Quick Claw from School Teacher"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 878,
+            "y": 1097
+          },
+          {
+            "map": "rustboro_pokemon_school",
+            "x": 175,
+            "y": 91
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Gym",
+    "children": [
+      {
+        "name": "Rustboro City Gym",
+        "sections": [
+          {
+            "name": "Defeat Roxanne (Event)",
+            "ref": "Cities/Rustboro City/Defeat Roxanne (Event)"
+          },
+          {
+            "name": "Stone Badge",
+            "ref": "Cities/Rustboro City/Stone Badge"
+          },
+          {
+            "name": "​Stone Badge",
+            "ref": "Cities/Rustboro City/​Stone Badge"
+          },
+          {
+            "name": "TM39 from Roxanne",
+            "ref": "Cities/Rustboro City/TM39 from Roxanne"
+          },
+          {
+            "name": "Youngster Josh",
+            "ref": "Cities/Rustboro Gym/Youngster Josh"
+          },
+          {
+            "name": "Youngster Tommy",
+            "ref": "Cities/Rustboro Gym/Youngster Tommy"
+          },
+          {
+            "name": "Hiker Marc",
+            "ref": "Cities/Rustboro Gym/Hiker Marc"
+          },
+          {
+            "name": "Defeat Roxanne (Event)​",
+            "ref": "Cities/Rustboro Gym/Defeat Roxanne (Event)"
+          },
+          {
+            "name": "Leader Roxanne​",
+            "ref": "Cities/Rustboro Gym/Leader Roxanne"
+          },
+          {
+            "name": "Stone Badge​",
+            "ref": "Cities/Rustboro Gym/Stone Badge"
+          },
+          {
+            "name": "​Stone Badge​",
+            "ref": "Cities/Rustboro Gym/​Stone Badge"
+          },
+          {
+            "name": "TM39 from Roxanne​",
+            "ref": "Cities/Rustboro Gym/TM39 from Roxanne"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 878,
+            "y": 618
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Devon Corp",
+    "children": [
+      {
+        "name": "Rustboro City Devon Corp",
+        "sections": [
+          {
+            "name": "Talk to Mr. Stone (Event)",
+            "ref": "Cities/Rustboro City/Talk to Mr. Stone (Event)"
+          },
+          {
+            "name": "Letter from Mr. Stone",
+            "ref": "Cities/Rustboro City/Letter from Mr. Stone"
+          },
+          {
+            "name": "​Letter from Mr. Stone",
+            "ref": "Cities/Rustboro City/​Letter from Mr. Stone"
+          },
+          {
+            "name": "Exp. Share from Mr. Stone",
+            "ref": "Cities/Rustboro City/Exp. Share from Mr. Stone"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 382,
+            "y": 490
+          },
+          {
+            "map": "rustboro_devon_corp_1f",
+            "x": 464,
+            "y": 42
+          },
+          {
+            "map": "rustboro_devon_corp_2f",
+            "x": 79,
+            "y": 45
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro City Rival Brendan or May",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Rival Brendan or May",
+            "ref": "Cities/Rustboro City/Rival Brendan or May"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 527,
+            "y": 1613
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Youngster Josh",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Youngster Josh",
+            "ref": "Cities/Rustboro Gym/Youngster Josh"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro_gym",
+            "x": 175,
+            "y": 431
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Youngster Tommy",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Youngster Tommy",
+            "ref": "Cities/Rustboro Gym/Youngster Tommy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro_gym",
+            "x": 111,
+            "y": 303
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Hiker Marc",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hiker Marc",
+            "ref": "Cities/Rustboro Gym/Hiker Marc"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro_gym",
+            "x": 47,
+            "y": 206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leader Roxanne",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Roxanne (Event)",
+            "ref": "Cities/Rustboro City/Defeat Roxanne (Event)"
+          },
+          {
+            "name": "Stone Badge",
+            "ref": "Cities/Rustboro City/Stone Badge"
+          },
+          {
+            "name": "​Stone Badge",
+            "ref": "Cities/Rustboro City/​Stone Badge"
+          },
+          {
+            "name": "TM39 from Roxanne",
+            "ref": "Cities/Rustboro City/TM39 from Roxanne"
+          },
+          {
+            "name": "Defeat Roxanne (Event)​",
+            "ref": "Cities/Rustboro Gym/Defeat Roxanne (Event)"
+          },
+          {
+            "name": "Leader Roxanne​",
+            "ref": "Cities/Rustboro Gym/Leader Roxanne"
+          },
+          {
+            "name": "Stone Badge​",
+            "ref": "Cities/Rustboro Gym/Stone Badge"
+          },
+          {
+            "name": "​Stone Badge​",
+            "ref": "Cities/Rustboro Gym/​Stone Badge"
+          },
+          {
+            "name": "TM39 from Roxanne​",
+            "ref": "Cities/Rustboro Gym/TM39 from Roxanne"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro_gym",
+            "x": 175,
+            "y": 81
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Rustboro Gift from Devon Employee",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Return Devon Goods (Event)",
+            "ref": "Cities/Rustboro City/Return Devon Goods (Event)"
+          },
+          {
+            "name": "Gift from Devon Employee",
+            "ref": "Cities/Rustboro City/Gift from Devon Employee"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro",
+            "x": 975,
+            "y": 330
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mr. Stone",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Talk to Mr. Stone (Event)",
+            "ref": "Cities/Rustboro City/Talk to Mr. Stone (Event)"
+          },
+          {
+            "name": "Letter from Mr. Stone",
+            "ref": "Cities/Rustboro City/Letter from Mr. Stone"
+          },
+          {
+            "name": "​Letter from Mr. Stone",
+            "ref": "Cities/Rustboro City/​Letter from Mr. Stone"
+          },
+          {
+            "name": "Exp. Share from Mr. Stone",
+            "ref": "Cities/Rustboro City/Exp. Share from Mr. Stone"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rustboro_devon_corp_3f",
+            "x": 559,
+            "y": 171
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dewford Town Silk Scarf from Man in House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Silk Scarf from Man in House",
+            "ref": "Cities/Dewford Town/Silk Scarf from Man in House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford",
+            "x": 271,
+            "y": 266
+          },
+          {
+            "map": "dewford_house_2",
+            "x": 207,
+            "y": 165
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dewford Town Old Rod from Fisherman",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Old Rod from Fisherman",
+            "ref": "Cities/Dewford Town/Old Rod from Fisherman"
+          },
+          {
+            "name": "​Old Rod from Fisherman",
+            "ref": "Cities/Dewford Town/​Old Rod from Fisherman"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford",
+            "x": 399,
+            "y": 459
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dewford Town TM36 from Sludge Bomb Man",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM36 from Sludge Bomb Man",
+            "ref": "Cities/Dewford Town/TM36 from Sludge Bomb Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford",
+            "x": 110,
+            "y": 106
+          },
+          {
+            "map": "dewford_hall",
+            "x": 232,
+            "y": 206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Dewford Town Gym",
+    "children": [
+      {
+        "name": "Dewford Town Gym",
+        "sections": [
+          {
+            "name": "Battle Girl Laura",
+            "ref": "Cities/Dewford Gym/Battle Girl Laura"
+          },
+          {
+            "name": "Sailor Brenden",
+            "ref": "Cities/Dewford Gym/Sailor Brenden"
+          },
+          {
+            "name": "Battle Girl Lilith",
+            "ref": "Cities/Dewford Gym/Battle Girl Lilith"
+          },
+          {
+            "name": "Black Belt Takao",
+            "ref": "Cities/Dewford Gym/Black Belt Takao"
+          },
+          {
+            "name": "Black Belt Cristian",
+            "ref": "Cities/Dewford Gym/Black Belt Cristian"
+          },
+          {
+            "name": "Battle Girl Jocelyn",
+            "ref": "Cities/Dewford Gym/Battle Girl Jocelyn"
+          },
+          {
+            "name": "Defeat Brawly (Event)",
+            "ref": "Cities/Dewford Town/Defeat Brawly (Event)"
+          },
+          {
+            "name": "Knuckle Badge",
+            "ref": "Cities/Dewford Town/Knuckle Badge"
+          },
+          {
+            "name": "​Knuckle Badge",
+            "ref": "Cities/Dewford Town/​Knuckle Badge"
+          },
+          {
+            "name": "TM08 from Brawly",
+            "ref": "Cities/Dewford Town/TM08 from Brawly"
+          },
+          {
+            "name": "Defeat Brawly (Event)​",
+            "ref": "Cities/Dewford Gym/Defeat Brawly (Event)"
+          },
+          {
+            "name": "Leader Brawly​",
+            "ref": "Cities/Dewford Gym/Leader Brawly"
+          },
+          {
+            "name": "Knuckle Badge​",
+            "ref": "Cities/Dewford Gym/Knuckle Badge"
+          },
+          {
+            "name": "​Knuckle Badge​",
+            "ref": "Cities/Dewford Gym/​Knuckle Badge"
+          },
+          {
+            "name": "TM08 from Brawly​",
+            "ref": "Cities/Dewford Gym/TM08 from Brawly"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford",
+            "x": 271,
+            "y": 555
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Battle Girl Laura",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Battle Girl Laura",
+            "ref": "Cities/Dewford Gym/Battle Girl Laura"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 399,
+            "y": 806
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sailor Brenden",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Sailor Brenden",
+            "ref": "Cities/Dewford Gym/Sailor Brenden"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 462,
+            "y": 395
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Battle Girl Lilith",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Battle Girl Lilith",
+            "ref": "Cities/Dewford Gym/Battle Girl Lilith"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 528,
+            "y": 304
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Belt Takao",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Black Belt Takao",
+            "ref": "Cities/Dewford Gym/Black Belt Takao"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 80,
+            "y": 586
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Black Belt Cristian",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Black Belt Cristian",
+            "ref": "Cities/Dewford Gym/Black Belt Cristian"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 240,
+            "y": 267
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Battle Girl Jocelyn",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Battle Girl Jocelyn",
+            "ref": "Cities/Dewford Gym/Battle Girl Jocelyn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 495,
+            "y": 112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Leader Brawly",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Brawly (Event)",
+            "ref": "Cities/Dewford Town/Defeat Brawly (Event)"
+          },
+          {
+            "name": "Knuckle Badge",
+            "ref": "Cities/Dewford Town/Knuckle Badge"
+          },
+          {
+            "name": "​Knuckle Badge",
+            "ref": "Cities/Dewford Town/​Knuckle Badge"
+          },
+          {
+            "name": "TM08 from Brawly",
+            "ref": "Cities/Dewford Town/TM08 from Brawly"
+          },
+          {
+            "name": "Defeat Brawly (Event)​",
+            "ref": "Cities/Dewford Gym/Defeat Brawly (Event)"
+          },
+          {
+            "name": "Leader Brawly​",
+            "ref": "Cities/Dewford Gym/Leader Brawly"
+          },
+          {
+            "name": "Knuckle Badge​",
+            "ref": "Cities/Dewford Gym/Knuckle Badge"
+          },
+          {
+            "name": "​Knuckle Badge​",
+            "ref": "Cities/Dewford Gym/​Knuckle Badge"
+          },
+          {
+            "name": "TM08 from Brawly​",
+            "ref": "Cities/Dewford Gym/TM08 from Brawly"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "dewford_gym",
+            "x": 144,
+            "y": 112
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Powder Jar from Lady in Market",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Powder Jar from Lady in Market",
+            "ref": "Cities/Slateport City/Powder Jar from Lady in Market"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 367,
+            "y": 235
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Soothe Bell from Woman in Fan Club",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Soothe Bell from Woman in Fan Club",
+            "ref": "Cities/Slateport City/Soothe Bell from Woman in Fan Club"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 1430,
+            "y": 859
+          },
+          {
+            "map": "slateport_pokemon_fan_club",
+            "x": 208,
+            "y": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Buy Harbor Mail",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Buy Harbor Mail",
+            "ref": "Cities/Slateport City/Buy Harbor Mail"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 1718,
+            "y": 840
+          },
+          {
+            "map": "slateport_mart",
+            "x": 80,
+            "y": 104
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Talk to Dock (Event)",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Talk to Dock (Event)",
+            "ref": "Cities/Slateport City/Talk to Dock (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 847,
+            "y": 265
+          },
+          {
+            "map": "slateport_shipyard_1f",
+            "x": 175,
+            "y": 175
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport Museum",
+    "children": [
+      {
+        "name": "Slateport Museum",
+        "sections": [
+          {
+            "name": "TM46 from Aqua Grunt in Museum",
+            "ref": "Cities/Slateport City/TM46 from Aqua Grunt in Museum"
+          },
+          {
+            "name": "Team Aqua Grunts",
+            "ref": "Cities/Slateport City/Team Aqua Grunts"
+          },
+          {
+            "name": "Rescue Captain Stern (Event)",
+            "ref": "Cities/Slateport City/Rescue Captain Stern (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 2278,
+            "y": 843
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport Museum 2F",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Aqua Grunts",
+            "ref": "Cities/Slateport City/Team Aqua Grunts"
+          },
+          {
+            "name": "Rescue Captain Stern (Event)",
+            "ref": "Cities/Slateport City/Rescue Captain Stern (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_museum_1f",
+            "x": 207,
+            "y": 40
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City TM46 from Aqua Grunt in Museum",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM46 from Aqua Grunt in Museum",
+            "ref": "Cities/Slateport City/TM46 from Aqua Grunt in Museum"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_museum_1f",
+            "x": 305,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Team Aqua Grunts",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Aqua Grunts",
+            "ref": "Cities/Slateport City/Team Aqua Grunts"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_museum_2f",
+            "x": 363,
+            "y": 199
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Rescue Captain Stern (Event)",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Rescue Captain Stern (Event)",
+            "ref": "Cities/Slateport City/Rescue Captain Stern (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_museum_2f",
+            "x": 432,
+            "y": 200
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City TM41 from Sailor in Battle Tent",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM41 from Sailor in Battle Tent",
+            "ref": "Cities/Slateport City/TM41 from Sailor in Battle Tent"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport",
+            "x": 1622,
+            "y": 390
+          },
+          {
+            "map": "slateport_battle_tent_lobby",
+            "x": 47,
+            "y": 205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Team Aqua Steals Submarine (Event)",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Aqua Steals Submarine (Event)",
+            "ref": "Cities/Slateport City/Team Aqua Steals Submarine (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_harbor",
+            "x": 256,
+            "y": 375
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Slateport City Deep Sea Scale from Capt. Stern",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Deep Sea Scale from Capt. Stern",
+            "ref": "Cities/Slateport City/Deep Sea Scale from Capt. Stern"
+          },
+          {
+            "name": "Deep Sea Tooth from Capt. Stern",
+            "ref": "Cities/Slateport City/Deep Sea Tooth from Capt. Stern"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "slateport_harbor",
+            "x": 208,
+            "y": 428
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Coin Case from Lady in House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Coin Case from Lady in House",
+            "ref": "Cities/Mauville City/Coin Case from Lady in House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 624,
+            "y": 463
+          },
+          {
+            "map": "mauville_house_2",
+            "x": 144,
+            "y": 173
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City HM06 from Rock Smash Guy",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "HM06 from Rock Smash Guy",
+            "ref": "Cities/Mauville City/HM06 from Rock Smash Guy"
+          },
+          {
+            "name": "​HM06 from Rock Smash Guy",
+            "ref": "Cities/Mauville City/​HM06 from Rock Smash Guy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 1041,
+            "y": 463
+          },
+          {
+            "map": "mauville_house_1",
+            "x": 143,
+            "y": 143
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Item",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item",
+            "ref": "Cities/Mauville City/Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 913,
+            "y": 625
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Wattson",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Basement Key from Wattson",
+            "ref": "Cities/Mauville City/Basement Key from Wattson"
+          },
+          {
+            "name": "​Basement Key from Wattson",
+            "ref": "Cities/Mauville City/​Basement Key from Wattson"
+          },
+          {
+            "name": "TM24 from Wattson",
+            "ref": "Cities/Mauville City/TM24 from Wattson"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 943,
+            "y": 301
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Bike Shop",
+    "children": [
+      {
+        "name": "Mauville City Bike Shop",
+        "sections": [
+          {
+            "name": "Acro Bike",
+            "ref": "Cities/Mauville City/Acro Bike"
+          },
+          {
+            "name": "​Acro Bike",
+            "ref": "Cities/Mauville City/​Acro Bike"
+          },
+          {
+            "name": "Mach Bike",
+            "ref": "Cities/Mauville City/Mach Bike"
+          },
+          {
+            "name": "​Mach Bike",
+            "ref": "Cities/Mauville City/​Mach Bike"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 1137,
+            "y": 175
+          },
+          {
+            "map": "mauville_bike_shop",
+            "x": 79,
+            "y": 167
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Rival Wally",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Rival Wally",
+            "ref": "Cities/Mauville City/Rival Wally"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 273,
+            "y": 212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville City Gym",
+    "children": [
+      {
+        "name": "Mauville City Gym",
+        "sections": [
+          {
+            "name": "Battle Girl Vivian",
+            "ref": "Cities/Mauville Gym/Battle Girl Vivian"
+          },
+          {
+            "name": "Guitarist Kirk",
+            "ref": "Cities/Mauville Gym/Guitarist Kirk"
+          },
+          {
+            "name": "Youngster Ben",
+            "ref": "Cities/Mauville Gym/Youngster Ben"
+          },
+          {
+            "name": "Bug Maniac Angelo",
+            "ref": "Cities/Mauville Gym/Bug Maniac Angelo"
+          },
+          {
+            "name": "Guitarist Shawn",
+            "ref": "Cities/Mauville Gym/Guitarist Shawn"
+          },
+          {
+            "name": "Defeat Wattson (Event)",
+            "ref": "Cities/Mauville City/Defeat Wattson (Event)"
+          },
+          {
+            "name": "Dynamo Badge",
+            "ref": "Cities/Mauville City/Dynamo Badge"
+          },
+          {
+            "name": "​Dynamo Badge",
+            "ref": "Cities/Mauville City/​Dynamo Badge"
+          },
+          {
+            "name": "TM34 from Wattson",
+            "ref": "Cities/Mauville City/TM34 from Wattson"
+          },
+          {
+            "name": "Defeat Wattson (Event)​",
+            "ref": "Cities/Mauville Gym/Defeat Wattson (Event)"
+          },
+          {
+            "name": "Leader Wattson​",
+            "ref": "Cities/Mauville Gym/Leader Wattson"
+          },
+          {
+            "name": "Dynamo Badge​",
+            "ref": "Cities/Mauville Gym/Dynamo Badge"
+          },
+          {
+            "name": "​Dynamo Badge​",
+            "ref": "Cities/Mauville Gym/​Dynamo Badge"
+          },
+          {
+            "name": "TM34 from Wattson​",
+            "ref": "Cities/Mauville Gym/Leader Wattson"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville",
+            "x": 273,
+            "y": 168
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Battle Girl Vivian",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Battle Girl Vivian",
+            "ref": "Cities/Mauville Gym/Battle Girl Vivian"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 48,
+            "y": 526
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Guitarist Kirk",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Guitarist Kirk",
+            "ref": "Cities/Mauville Gym/Guitarist Kirk"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 47,
+            "y": 430
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Youngster Ben",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Youngster Ben",
+            "ref": "Cities/Mauville Gym/Youngster Ben"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 175,
+            "y": 336
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Bug Maniac Angelo",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Bug Maniac Angelo",
+            "ref": "Cities/Mauville Gym/Bug Maniac Angelo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 239,
+            "y": 336
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Guitarist Shawn",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Guitarist Shawn",
+            "ref": "Cities/Mauville Gym/Guitarist Shawn"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 239,
+            "y": 272
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mauville Gym Leader Wattson",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Wattson (Event)",
+            "ref": "Cities/Mauville City/Defeat Wattson (Event)"
+          },
+          {
+            "name": "Dynamo Badge",
+            "ref": "Cities/Mauville City/Dynamo Badge"
+          },
+          {
+            "name": "​Dynamo Badge",
+            "ref": "Cities/Mauville City/​Dynamo Badge"
+          },
+          {
+            "name": "TM34 from Wattson",
+            "ref": "Cities/Mauville City/TM34 from Wattson"
+          },
+          {
+            "name": "Defeat Wattson (Event)​",
+            "ref": "Cities/Mauville Gym/Defeat Wattson (Event)"
+          },
+          {
+            "name": "Leader Wattson​",
+            "ref": "Cities/Mauville Gym/Leader Wattson"
+          },
+          {
+            "name": "Dynamo Badge​",
+            "ref": "Cities/Mauville Gym/Dynamo Badge"
+          },
+          {
+            "name": "​Dynamo Badge​",
+            "ref": "Cities/Mauville Gym/​Dynamo Badge"
+          },
+          {
+            "name": "TM34 from Wattson​",
+            "ref": "Cities/Mauville Gym/Leader Wattson"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mauville_gym",
+            "x": 176,
+            "y": 79
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Verdanturf Town TM45 from Woman in Battle Tent",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM45 from Woman in Battle Tent",
+            "ref": "Cities/Verdanturf Town/TM45 from Woman in Battle Tent"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "verdanturf",
+            "x": 110,
+            "y": 230
+          },
+          {
+            "map": "verdanturf_battle_tent_lobby",
+            "x": 16,
+            "y": 209
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fallarbor Town TM27 from Cozmo",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM27 from Cozmo",
+            "ref": "Cities/Fallarbor Town/TM27 from Cozmo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fallarbor",
+            "x": 206,
+            "y": 555
+          },
+          {
+            "map": "fallarbor_cosmos_house",
+            "x": 207,
+            "y": 142
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fallarbor Town Hidden Item in Crater",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item in Crater",
+            "ref": "Cities/Fallarbor Town/Hidden Item in Crater"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fallarbor",
+            "x": 78,
+            "y": 494
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Town Hidden Item in Springs",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item in Springs",
+            "ref": "Cities/Lavaridge Town/Hidden Item in Springs"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge",
+            "x": 141,
+            "y": 171
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Town Charcoal from Man",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Charcoal from Man",
+            "ref": "Cities/Lavaridge Town/Charcoal from Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge",
+            "x": 398,
+            "y": 493
+          },
+          {
+            "map": "lavaridge_herb_shop",
+            "x": 240,
+            "y": 174
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Kindler Jeff",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Kindler Jeff",
+            "ref": "Cities/Lavaridge Gym/Kindler Jeff"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_b1f",
+            "x": 432,
+            "y": 559
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Kindler Jace",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Kindler Jace",
+            "ref": "Cities/Lavaridge Gym/Kindler Jace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_b1f",
+            "x": 144,
+            "y": 592
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Hiker Eli",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hiker Eli",
+            "ref": "Cities/Lavaridge Gym/Hiker Eli"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_b1f",
+            "x": 144,
+            "y": 526
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Kindler Cole",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Kindler Cole",
+            "ref": "Cities/Lavaridge Gym/Kindler Cole"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_1f",
+            "x": 112,
+            "y": 461
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Cooltrainer Gerald",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Cooltrainer Gerald",
+            "ref": "Cities/Lavaridge Gym/Cooltrainer Gerald"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_1f",
+            "x": 79,
+            "y": 494
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Kindler Axle",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Kindler Axle",
+            "ref": "Cities/Lavaridge Gym/Kindler Axle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_1f",
+            "x": 112,
+            "y": 333
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Kindler Keegan",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Kindler Keegan",
+            "ref": "Cities/Lavaridge Gym/Kindler Keegan"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_b1f",
+            "x": 113,
+            "y": 205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Battle Girl Danielle",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Battle Girl Danielle",
+            "ref": "Cities/Lavaridge Gym/Battle Girl Danielle"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_1f",
+            "x": 176,
+            "y": 81
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym Leader Flannery",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Flannery (Event)",
+            "ref": "Cities/Lavaridge Town/Defeat Flannery (Event)"
+          },
+          {
+            "name": "Heat Badge",
+            "ref": "Cities/Lavaridge Town/Heat Badge"
+          },
+          {
+            "name": "​Heat Badge",
+            "ref": "Cities/Lavaridge Town/​Heat Badge"
+          },
+          {
+            "name": "TM50 from Flannery",
+            "ref": "Cities/Lavaridge Town/TM50 from Flannery"
+          },
+          {
+            "name": "Defeat Flannery (Event)​",
+            "ref": "Cities/Lavaridge Gym/Defeat Flannery (Event)"
+          },
+          {
+            "name": "Leader Flannery",
+            "ref": "Cities/Lavaridge Gym/Leader Flannery"
+          },
+          {
+            "name": "Heat Badge​",
+            "ref": "Cities/Lavaridge Gym/Heat Badge"
+          },
+          {
+            "name": "​Heat Badge​",
+            "ref": "Cities/Lavaridge Gym/​Heat Badge"
+          },
+          {
+            "name": "TM50 from Flannery​",
+            "ref": "Cities/Lavaridge Gym/TM50 from Flannery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge_gym_1f",
+            "x": 431,
+            "y": 306
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Gym",
+    "children": [
+      {
+        "name": "Lavaridge Town Gym",
+        "sections": [
+          {
+            "name": "Kindler Jeff",
+            "ref": "Cities/Lavaridge Gym/Kindler Jeff"
+          },
+          {
+            "name": "Kindler Jace",
+            "ref": "Cities/Lavaridge Gym/Kindler Jace"
+          },
+          {
+            "name": "Hiker Eli",
+            "ref": "Cities/Lavaridge Gym/Hiker Eli"
+          },
+          {
+            "name": "Kindler Cole",
+            "ref": "Cities/Lavaridge Gym/Kindler Cole"
+          },
+          {
+            "name": "Cooltrainer Gerald",
+            "ref": "Cities/Lavaridge Gym/Cooltrainer Gerald"
+          },
+          {
+            "name": "Kindler Axle",
+            "ref": "Cities/Lavaridge Gym/Kindler Axle"
+          },
+          {
+            "name": "Kindler Keegan",
+            "ref": "Cities/Lavaridge Gym/Kindler Keegan"
+          },
+          {
+            "name": "Battle Girl Danielle",
+            "ref": "Cities/Lavaridge Gym/Battle Girl Danielle"
+          },
+          {
+            "name": "Defeat Flannery (Event)",
+            "ref": "Cities/Lavaridge Town/Defeat Flannery (Event)"
+          },
+          {
+            "name": "Heat Badge",
+            "ref": "Cities/Lavaridge Town/Heat Badge"
+          },
+          {
+            "name": "​Heat Badge",
+            "ref": "Cities/Lavaridge Town/​Heat Badge"
+          },
+          {
+            "name": "TM50 from Flannery",
+            "ref": "Cities/Lavaridge Town/TM50 from Flannery"
+          },
+          {
+            "name": "Defeat Flannery (Event)​",
+            "ref": "Cities/Lavaridge Gym/Defeat Flannery (Event)"
+          },
+          {
+            "name": "Leader Flannery​",
+            "ref": "Cities/Lavaridge Gym/Leader Flannery"
+          },
+          {
+            "name": "Heat Badge​",
+            "ref": "Cities/Lavaridge Gym/Heat Badge"
+          },
+          {
+            "name": "​Heat Badge​",
+            "ref": "Cities/Lavaridge Gym/​Heat Badge"
+          },
+          {
+            "name": "TM50 from Flannery​",
+            "ref": "Cities/Lavaridge Gym/TM50 from Flannery"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge",
+            "x": 175,
+            "y": 490
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lavaridge Town Go Goggles from Rival",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Go Goggles from Rival",
+            "ref": "Cities/Lavaridge Town/Go Goggles from Rival"
+          },
+          {
+            "name": "​Go Goggles from Rival",
+            "ref": "Cities/Lavaridge Town/​Go Goggles from Rival"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lavaridge",
+            "x": 210,
+            "y": 527
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree City Dig Move Tutor",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Dig Move Tutor",
+            "ref": "Cities/Fortree City/Dig Move Tutor"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_house_2",
+            "x": 207,
+            "y": 109
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree City TM10 from Hidden Power Lady",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM10 from Hidden Power Lady",
+            "ref": "Cities/Fortree City/TM10 from Hidden Power Lady"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_house_2",
+            "x": 49,
+            "y": 114
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree City House 2",
+    "children": [
+      {
+        "name": "Fortree City House 2",
+        "sections": [
+          {
+            "name": "Dig Move Tutor",
+            "ref": "Cities/Fortree City/Dig Move Tutor"
+          },
+          {
+            "name": "TM10 from Hidden Power Lady",
+            "ref": "Cities/Fortree City/TM10 from Hidden Power Lady"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree",
+            "x": 559,
+            "y": 106
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree City Wingull Guy's House",
+    "children": [
+      {
+        "name": "Fortree City Wingull Guy's House",
+        "sections": [
+          {
+            "name": "Wingull Quest 1 (Event)",
+            "ref": "Cities/Fortree City/Wingull Quest 1 (Event)"
+          },
+          {
+            "name": "Wingull Delivery Reward",
+            "ref": "Cities/Fortree City/Wingull Delivery Reward"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_house_4",
+            "x": 48,
+            "y": 111
+          },
+          {
+            "map": "fortree",
+            "x": 1039,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Bird Keeper Humberto",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Bird Keeper Humberto",
+            "ref": "Cities/Fortree Gym/Bird Keeper Humberto"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 144,
+            "y": 748
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Picnicker Ashley",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Picnicker Ashley",
+            "ref": "Cities/Fortree Gym/Picnicker Ashley"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 174,
+            "y": 557
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Bird Keeper Jared",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Bird Keeper Jared",
+            "ref": "Cities/Fortree Gym/Bird Keeper Jared"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 144,
+            "y": 461
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Camper Flint",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Camper Flint",
+            "ref": "Cities/Fortree Gym/Camper Flint"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 336,
+            "y": 333
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Bird Keeper Edwardo",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Bird Keeper Edwardo",
+            "ref": "Cities/Fortree Gym/Bird Keeper Edwardo"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 304,
+            "y": 271
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym Bird Keeper Darius",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Bird Keeper Darius",
+            "ref": "Cities/Fortree Gym/Bird Keeper Darius"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 48,
+            "y": 328
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree City Winona",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Winona (Event)",
+            "ref": "Cities/Fortree City/Defeat Winona (Event)"
+          },
+          {
+            "name": "Feather Badge",
+            "ref": "Cities/Fortree City/Feather Badge"
+          },
+          {
+            "name": "​Feather Badge",
+            "ref": "Cities/Fortree City/​Feather Badge"
+          },
+          {
+            "name": "TM40 from Winona",
+            "ref": "Cities/Fortree City/TM40 from Winona"
+          },
+          {
+            "name": "Defeat Winona (Event)​",
+            "ref": "Cities/Fortree Gym/Defeat Winona (Event)"
+          },
+          {
+            "name": "Leader Winona​",
+            "ref": "Cities/Fortree Gym/Leader Winona"
+          },
+          {
+            "name": "Feather Badge​",
+            "ref": "Cities/Fortree Gym/Feather Badge"
+          },
+          {
+            "name": "​Feather Badge​",
+            "ref": "Cities/Fortree Gym/​Feather Badge"
+          },
+          {
+            "name": "TM40 from Winona​",
+            "ref": "Cities/Fortree Gym/TM40 from Winona"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree_gym",
+            "x": 495,
+            "y": 77
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Rival Brendan or May",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Rival Brendan or May",
+            "ref": "Cities/Lilycove City/Rival Brendan or May"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 879,
+            "y": 240
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Berry from Gentleman Above Ledges",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Berry from Gentleman Above Ledges",
+            "ref": "Cities/Lilycove City/Berry from Gentleman Above Ledges"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 1584,
+            "y": 235
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City TM44 from Man in House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM44 from Man in House",
+            "ref": "Cities/Lilycove City/TM44 from Man in House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 1775,
+            "y": 492
+          },
+          {
+            "map": "lilycove_house_2",
+            "x": 16,
+            "y": 140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Hidden Item on Beach North",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item on Beach North",
+            "ref": "Cities/Lilycove City/Hidden Item on Beach North"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 1967,
+            "y": 242
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Hidden Item on Beach East",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item on Beach East",
+            "ref": "Cities/Lilycove City/Hidden Item on Beach East"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 2063,
+            "y": 1008
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Hidden Item on Beach West",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hidden Item on Beach West",
+            "ref": "Cities/Lilycove City/Hidden Item on Beach West"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 1167,
+            "y": 1008
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Item on Peninsula",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item on Peninsula",
+            "ref": "Cities/Lilycove City/Item on Peninsula"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 1967,
+            "y": 1174
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Lilycove City Pokeblock Case from Contest Hall",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Pokeblock Case from Contest Hall",
+            "ref": "Cities/Lilycove City/Pokeblock Case from Contest Hall"
+          },
+          {
+            "name": "​Pokeblock Case from Contest Hall",
+            "ref": "Cities/Lilycove City/​Pokeblock Case from Contest Hall"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "lilycove",
+            "x": 751,
+            "y": 780
+          },
+          {
+            "map": "lilycove_contest_lobby",
+            "x": 479,
+            "y": 92
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep City King's Rock from Boy",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "King's Rock from Boy",
+            "ref": "Cities/Mossdeep City/King's Rock from Boy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 751,
+            "y": 431
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep City Item",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Item",
+            "ref": "Cities/Mossdeep City/Item"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 1999,
+            "y": 1140
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep City Wingull Quest 2 (Event)",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Wingull Quest 2 (Event)",
+            "ref": "Cities/Mossdeep City/Wingull Quest 2 (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 2159,
+            "y": 809
+          },
+          {
+            "map": "mossdeep_house_2",
+            "x": 144,
+            "y": 176
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep City Super Rod from Fisherman in House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Super Rod from Fisherman in House",
+            "ref": "Cities/Mossdeep City/Super Rod from Fisherman in House"
+          },
+          {
+            "name": "Super Rod from Fisherman in House (Hosted)",
+            "ref": "Cities/Mossdeep City/Super Rod from Fisherman in House (Hosted)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 1582,
+            "y": 203
+          },
+          {
+            "map": "mossdeep_house_3",
+            "x": 143,
+            "y": 143
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Steven's House",
+    "children": [
+      {
+        "name": "Steven's House",
+        "sections": [
+          {
+            "name": "Steven Gives Dive (Event)",
+            "ref": "Cities/Mossdeep City/Steven Gives Dive (Event)"
+          },
+          {
+            "name": "HM08 from Steven",
+            "ref": "Cities/Mossdeep City/HM08 from Steven"
+          },
+          {
+            "name": "​HM08 from Steven",
+            "ref": "Cities/Mossdeep City/​HM08 from Steven"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 623,
+            "y": 333
+          },
+          {
+            "map": "mossdeep_stevens_house",
+            "x": 207,
+            "y": 176
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Preston",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Preston",
+            "ref": "Cities/Mossdeep Gym/Psychic Preston"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 15,
+            "y": 422
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Maura",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Maura",
+            "ref": "Cities/Mossdeep Gym/Psychic Maura"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 111,
+            "y": 388
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Hex Maniac Kathleen",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hex Maniac Kathleen",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 537,
+            "y": 212
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Gentleman Clifford",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gentleman Clifford",
+            "ref": "Cities/Mossdeep Gym/Gentleman Clifford"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 538,
+            "y": 274
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Nicholas",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Nicholas",
+            "ref": "Cities/Mossdeep Gym/Psychic Nicholas"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 633,
+            "y": 179
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Macey",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Macey",
+            "ref": "Cities/Mossdeep Gym/Psychic Macey"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 634,
+            "y": 276
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Samantha",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 112,
+            "y": 253
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Blake",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 143,
+            "y": 157
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Gentleman Nate",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 835,
+            "y": 473
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Virgil",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 739,
+            "y": 506
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Hex Maniac Sylvia",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 770,
+            "y": 377
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Psychic Hannah",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 740,
+            "y": 312
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Tate & Liza",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 884,
+            "y": 112
+          },
+          {
+            "map": "mossdeep_gym",
+            "x": 762,
+            "y": 110
+          },
+          {
+            "map": "mossdeep_gym",
+            "x": 899,
+            "y": 313
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym A-Side",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Hex Maniac Kathleen",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
+          },
+          {
+            "name": "Gentleman Clifford",
+            "ref": "Cities/Mossdeep Gym/Gentleman Clifford"
+          },
+          {
+            "name": "Psychic Nicholas",
+            "ref": "Cities/Mossdeep Gym/Psychic Nicholas"
+          },
+          {
+            "name": "Psychic Macey",
+            "ref": "Cities/Mossdeep Gym/Psychic Macey"
+          },
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          },
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          },
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          },
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 15,
+            "y": 519
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym C-Side",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          },
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          },
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          },
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          },
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 79,
+            "y": 360
+          },
+          {
+            "map": "mossdeep_gym",
+            "x": 570,
+            "y": 116
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym Final Rooms",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          },
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          },
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          },
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep_gym",
+            "x": 207,
+            "y": 93
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Gift from Man",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Gift from Man",
+            "ref": "Dungeons/Space Center/Gift from Man"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 207,
+            "y": 205
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Team Magma Grunt 1",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 1",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 399,
+            "y": 302
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Team Magma Grunt 2",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 2",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 367,
+            "y": 206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Team Magma Grunt 3",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 3",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 3"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 368,
+            "y": 78
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Team Magma Grunt 4",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 4",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 4"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 432,
+            "y": 78
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Team Magma Gauntlet",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 5",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 5"
+          },
+          {
+            "name": "Team Magma Grunt 6",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 6"
+          },
+          {
+            "name": "Team Magma Grunt 7",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 7"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_2f",
+            "x": 431,
+            "y": 85
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center Maxie",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Maxie (Event)",
+            "ref": "Dungeons/Space Center/Defeat Maxie (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_2f",
+            "x": 48,
+            "y": 299
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Space Center 2F",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Team Magma Grunt 5",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 5"
+          },
+          {
+            "name": "Team Magma Grunt 6",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 6"
+          },
+          {
+            "name": "Team Magma Grunt 7",
+            "ref": "Dungeons/Space Center/Team Magma Grunt 7"
+          },
+          {
+            "name": "Defeat Maxie (Event)",
+            "ref": "Dungeons/Space Center/Defeat Maxie (Event)"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "space_center_1f",
+            "x": 431,
+            "y": 38
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis City Berries from Girl on Grass",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Berries from Girl on Grass",
+            "ref": "Cities/Sootopolis City/Berries from Girl on Grass"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis",
+            "x": 272,
+            "y": 1392
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis City TM31 from Black Belt in House",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "TM31 from Black Belt in House",
+            "ref": "Cities/Sootopolis City/TM31 from Black Belt in House"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_house_1",
+            "x": 80,
+            "y": 141
+          },
+          {
+            "map": "sootopolis",
+            "x": 304,
+            "y": 207
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis City HM07 from Wallace",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "HM07 from Wallace",
+            "ref": "Cities/Sootopolis City/HM07 from Wallace"
+          },
+          {
+            "name": "​HM07 from Wallace",
+            "ref": "Cities/Sootopolis City/​HM07 from Wallace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis",
+            "x": 1039,
+            "y": 1069
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Beauty Connie",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Beauty Connie",
+            "ref": "Cities/Sootopolis Gym/Beauty Connie"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 302,
+            "y": 573
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Lass Andrea",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Lass Andrea",
+            "ref": "Cities/Sootopolis Gym/Lass Andrea"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 239,
+            "y": 510
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Lady Daphne",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Lady Daphne",
+            "ref": "Cities/Sootopolis Gym/Lady Daphne"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 207,
+            "y": 381
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Pokefan Annika",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Pokefan Annika",
+            "ref": "Cities/Sootopolis Gym/Pokefan Annika"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 336,
+            "y": 381
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Beauty Tiffany",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Beauty Tiffany",
+            "ref": "Cities/Sootopolis Gym/Beauty Tiffany"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 176,
+            "y": 158
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Lass Crissy",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Lass Crissy",
+            "ref": "Cities/Sootopolis Gym/Lass Crissy"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 143,
+            "y": 222
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Pokefan Bethany",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Pokefan Bethany",
+            "ref": "Cities/Sootopolis Gym/Pokefan Bethany"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 240,
+            "y": 221
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Beauty Olivia",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Beauty Olivia",
+            "ref": "Cities/Sootopolis Gym/Beauty Olivia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 303,
+            "y": 189
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Lady Brianna",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Lady Brianna",
+            "ref": "Cities/Sootopolis Gym/Lady Brianna"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 400,
+            "y": 188
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Beauty Bridget",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Beauty Bridget",
+            "ref": "Cities/Sootopolis Gym/Beauty Bridget"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_b1f",
+            "x": 367,
+            "y": 253
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym Defeat Juan (Event)",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Juan (Event)",
+            "ref": "Cities/Sootopolis City/Defeat Juan (Event)"
+          },
+          {
+            "name": "Rain Badge",
+            "ref": "Cities/Sootopolis City/Rain Badge"
+          },
+          {
+            "name": "​Rain Badge",
+            "ref": "Cities/Sootopolis City/​Rain Badge"
+          },
+          {
+            "name": "TM03 from Juan",
+            "ref": "Cities/Sootopolis City/TM03 from Juan"
+          },
+          {
+            "name": "Defeat Juan (Event)​",
+            "ref": "Cities/Sootopolis Gym/Defeat Juan (Event)"
+          },
+          {
+            "name": "Leader Juan​",
+            "ref": "Cities/Sootopolis Gym/Leader Juan"
+          },
+          {
+            "name": "Rain Badge​",
+            "ref": "Cities/Sootopolis Gym/Rain Badge"
+          },
+          {
+            "name": "​Rain Badge​",
+            "ref": "Cities/Sootopolis Gym/​Rain Badge"
+          },
+          {
+            "name": "TM03 from Juan​",
+            "ref": "Cities/Sootopolis Gym/TM03 from Juan"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis_gym_1f",
+            "x": 272,
+            "y": 83
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Sootopolis Gym",
+    "children": [
+      {
+        "name": "Sootopolis City Gym",
+        "sections": [
+          {
+            "name": "Beauty Connie",
+            "ref": "Cities/Sootopolis Gym/Beauty Connie"
+          },
+          {
+            "name": "Lass Andrea",
+            "ref": "Cities/Sootopolis Gym/Lass Andrea"
+          },
+          {
+            "name": "Lady Daphne",
+            "ref": "Cities/Sootopolis Gym/Lady Daphne"
+          },
+          {
+            "name": "Pokefan Annika",
+            "ref": "Cities/Sootopolis Gym/Pokefan Annika"
+          },
+          {
+            "name": "Beauty Tiffany",
+            "ref": "Cities/Sootopolis Gym/Beauty Tiffany"
+          },
+          {
+            "name": "Lass Crissy",
+            "ref": "Cities/Sootopolis Gym/Lass Crissy"
+          },
+          {
+            "name": "Pokefan Bethany",
+            "ref": "Cities/Sootopolis Gym/Pokefan Bethany"
+          },
+          {
+            "name": "Beauty Olivia",
+            "ref": "Cities/Sootopolis Gym/Beauty Olivia"
+          },
+          {
+            "name": "Lady Brianna",
+            "ref": "Cities/Sootopolis Gym/Lady Brianna"
+          },
+          {
+            "name": "Beauty Bridget",
+            "ref": "Cities/Sootopolis Gym/Beauty Bridget"
+          },
+          {
+            "name": "Defeat Juan (Event)",
+            "ref": "Cities/Sootopolis City/Defeat Juan (Event)"
+          },
+          {
+            "name": "Rain Badge",
+            "ref": "Cities/Sootopolis City/Rain Badge"
+          },
+          {
+            "name": "​Rain Badge",
+            "ref": "Cities/Sootopolis City/​Rain Badge"
+          },
+          {
+            "name": "TM03 from Juan",
+            "ref": "Cities/Sootopolis City/TM03 from Juan"
+          },
+          {
+            "name": "Defeat Juan (Event)​",
+            "ref": "Cities/Sootopolis Gym/Defeat Juan (Event)"
+          },
+          {
+            "name": "Leader Juan",
+            "ref": "Cities/Sootopolis Gym/Leader Juan"
+          },
+          {
+            "name": "Rain Badge​",
+            "ref": "Cities/Sootopolis Gym/Rain Badge"
+          },
+          {
+            "name": "​Rain Badge​",
+            "ref": "Cities/Sootopolis Gym/​Rain Badge"
+          },
+          {
+            "name": "TM03 from Juan​",
+            "ref": "Cities/Sootopolis Gym/TM03 from Juan"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "sootopolis",
+            "x": 1008,
+            "y": 1040
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Elite Four Sidney",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Sidney",
+            "ref": "Cities/Ever Grande City/Elite Four Sidney"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_sydney",
+            "x": 208,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Elite Four Phoebe",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Phoebe",
+            "ref": "Cities/Ever Grande City/Elite Four Phoebe"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_phoebe",
+            "x": 208,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Elite Four Glacia",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Glacia",
+            "ref": "Cities/Ever Grande City/Elite Four Glacia"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_glacia",
+            "x": 208,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Elite Four Drake",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Drake",
+            "ref": "Cities/Ever Grande City/Elite Four Drake"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_drake",
+            "x": 208,
+            "y": 172
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Champion Wallace",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Defeat Champion (Event)",
+            "ref": "Cities/Ever Grande City/Defeat Champion (Event)"
+          },
+          {
+            "name": "Champion Wallace",
+            "ref": "Cities/Ever Grande City/Champion Wallace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_champion",
+            "x": 207,
+            "y": 174
+          },
+          {
+            "map": "pokemon_league_hall_champion",
+            "x": 176,
+            "y": 75
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Hallway 2",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Phoebe",
+            "ref": "Cities/Ever Grande City/Elite Four Phoebe"
+          },
+          {
+            "name": "Elite Four Glacia",
+            "ref": "Cities/Ever Grande City/Elite Four Glacia"
+          },
+          {
+            "name": "Elite Four Drake",
+            "ref": "Cities/Ever Grande City/Elite Four Drake"
+          },
+          {
+            "name": "Defeat Champion (Event)",
+            "ref": "Cities/Ever Grande City/Defeat Champion (Event)"
+          },
+          {
+            "name": "Champion Wallace",
+            "ref": "Cities/Ever Grande City/Champion Wallace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_hall_phoebe",
+            "x": 176,
+            "y": 74
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Hallway 3",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Glacia",
+            "ref": "Cities/Ever Grande City/Elite Four Glacia"
+          },
+          {
+            "name": "Elite Four Drake",
+            "ref": "Cities/Ever Grande City/Elite Four Drake"
+          },
+          {
+            "name": "Defeat Champion (Event)",
+            "ref": "Cities/Ever Grande City/Defeat Champion (Event)"
+          },
+          {
+            "name": "Champion Wallace",
+            "ref": "Cities/Ever Grande City/Champion Wallace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_hall_glacia",
+            "x": 176,
+            "y": 74
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Ever Grande City Hallway 4",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Elite Four Drake",
+            "ref": "Cities/Ever Grande City/Elite Four Drake"
+          },
+          {
+            "name": "Defeat Champion (Event)",
+            "ref": "Cities/Ever Grande City/Defeat Champion (Event)"
+          },
+          {
+            "name": "Champion Wallace",
+            "ref": "Cities/Ever Grande City/Champion Wallace"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "pokemon_league_hall_drake",
+            "x": 176,
+            "y": 74
+          }
+        ]
+      }
+    ]
+  }
+]

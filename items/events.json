@@ -186,8 +186,7 @@
     "type": "progressive",
     "allow_disabled": false,
     "loop": false,
-    "stages":
-    [
+    "stages": [
       {
         "img": "/images/events/deoxys.png",
         "img_mods": "overlay|/images/overlays/0.png,@disabled",

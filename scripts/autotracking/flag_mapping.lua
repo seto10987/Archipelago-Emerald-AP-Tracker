@@ -723,13 +723,13 @@ LEGENDARY_FLAG_MAPPING =
     bit = 0,
     status = 0,
     name = "Groudon",
-    locations = {"@Dungeons/Terra Cave (Route 114)/Defeat Groudon","@Dungeons/Terra Cave (Route 114)/Catch Groudon"}
+    locations = {"@Dungeons/Terra Cave/Defeat Groudon","@Dungeons/Terra Cave/Catch Groudon"}
   },
   {
     bit = 1,
     status = 0,
     name = "Kyogre",
-    locations = {"@Dungeons/Marine Cave (Route 105)/Defeat Kyogre","@Dungeons/Marine Cave (Route 105)/Catch Kyogre"}
+    locations = {"@Dungeons/Marine Cave/Defeat Kyogre","@Dungeons/Marine Cave/Catch Kyogre"}
   },
   {
     bit = 2,

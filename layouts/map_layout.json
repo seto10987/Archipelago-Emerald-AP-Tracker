@@ -1,0 +1,68 @@
+{
+  "map_layout": {
+    "type": "tabbed",
+    "dock": "top",
+    "tabs": [
+      {
+        "title": "Hoenn",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "overworld"
+          }
+        }
+      },
+      {
+        "title": "Encounters",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "encounters"
+          }
+        }
+      },
+      {
+        "title": "Cities",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "cities"
+          }
+        }
+      },
+      {
+        "title": "Routes",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "routes"
+          }
+        }
+      },
+      {
+        "title": "Other",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "other"
+          }
+        }
+      },
+      {
+        "title": "Pokedex",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "pokedex_grid_full"
+          }
+        }
+      }
+    ]
+  }
+}

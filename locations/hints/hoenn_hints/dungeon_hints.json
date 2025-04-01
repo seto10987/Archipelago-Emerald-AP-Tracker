@@ -1,0 +1,1813 @@
+[
+  {
+    "name": "A Dungeon Hints",
+    "chest_unopened_img": "/images/locations/pokeball_closed.png",
+    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+    "access_rules": [
+      "{}"
+    ],
+    "visibility_rules": [
+      "hints_tracking_on"
+    ],
+    "children": [
+      {
+        "name": "Petalburg Woods Hints",
+        "sections": [
+          {
+            "name": "Hidden Item Southeast (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_hidden_item_southeast"
+            ]
+          },
+          {
+            "name": "Bug Catcher Lyle (Hint)",
+            "chest_unopened_img": "/images/locations/bug_catcher.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_bug_catcher_lyle"
+            ]
+          },
+          {
+            "name": "Item Southwest (Hint)",
+            "visibility_rules": [
+              "petalburg_woods_item_southwest"
+            ]
+          },
+          {
+            "name": "Team Aqua Grunt (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_team_aqua_grunt"
+            ]
+          },
+          {
+            "name": "Gift from Devon Employee (Hint)",
+            "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
+            "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_gift_from_devon_employee"
+            ]
+          },
+          {
+            "name": "Hidden Item After Grunt (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_hidden_item_after_grunt"
+            ]
+          },
+          {
+            "name": "Bug Catcher James (Hint)",
+            "chest_unopened_img": "/images/locations/bug_catcher.png",
+            "chest_opened_img": "/images/locations/bug_catcher_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_bug_catcher_james"
+            ]
+          },
+          {
+            "name": "Item Northwest (Hint)",
+            "visibility_rules": [
+              "petalburg_woods_item_northwest"
+            ]
+          },
+          {
+            "name": "Hidden Item Past Tree North (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_hidden_item_past_tree_north"
+            ]
+          },
+          {
+            "name": "Miracle Seed from Lady (Hint)",
+            "chest_unopened_img": "/images/locations/girl_miracle_seed.png",
+            "chest_opened_img": "/images/locations/girl_miracle_seed_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_miracle_seed_from_lady"
+            ]
+          },
+          {
+            "name": "Item Past Tree Northeast (Hint)",
+            "visibility_rules": [
+              "petalburg_woods_item_past_tree_northeast"
+            ]
+          },
+          {
+            "name": "Hidden Item Past Tree South (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "petalburg_woods_hidden_item_past_tree_south"
+            ]
+          },
+          {
+            "name": "Item Past Tree South (Hint)",
+            "visibility_rules": [
+              "petalburg_woods_item_past_tree_south"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 8,
+            "y": 84
+          }
+        ]
+      },
+      {
+        "name": "Rusturf Tunnel Hints",
+        "sections": [
+          {
+            "name": "Item West (Hint)",
+            "visibility_rules": [
+              "rusturf_tunnel_item_west"
+            ]
+          },
+          {
+            "name": "Team Aqua Grunt (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "rusturf_tunnel_team_aqua_grunt"
+            ]
+          },
+          {
+            "name": "Recover Devon Goods (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_devon_goods.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_devon_goods_bw.png",
+            "visibility_rules": [
+              "rusturf_tunnel_recover_devon_goods"
+            ]
+          },
+          {
+            "name": "HM04 from Tunneler (Hint)",
+            "chest_unopened_img": "/images/locations/tunneler_normal_hm.png",
+            "chest_opened_img": "/images/locations/tunneler_normal_hm_bw.png",
+            "visibility_rules": [
+              "rusturf_tunnel_hm04_from_tunneler"
+            ]
+          },
+          {
+            "name": "Item East (Hint)",
+            "visibility_rules": [
+              "rusturf_tunnel_item_east"
+            ]
+          },
+          {
+            "name": "Hiker Mike (Hint)",
+            "chest_unopened_img": "/images/locations/hiker.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "rusturf_tunnel_hiker_mike"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 32,
+            "y": 56
+          },
+          {
+            "map": "rt_116",
+            "x": 1499,
+            "y": 271
+          },
+          {
+            "map": "verdanturf",
+            "x": 271,
+            "y": 67
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave Hints",
+        "sections": [
+          {
+            "name": "1F - HM05 from Hiker (Hint)",
+            "chest_unopened_img": "/images/locations/hiker_normal_hm.png",
+            "chest_opened_img": "/images/locations/hiker_normal_hm_bw.png",
+            "visibility_rules": [
+              "granite_cave_1f_hm05_from_hiker"
+            ]
+          },
+          {
+            "name": "1F - Item Before Ladder (Hint)",
+            "visibility_rules": [
+              "granite_cave_1f_item_before_ladder"
+            ]
+          },
+          {
+            "name": "B1F - Item in Alcove (Hint)",
+            "visibility_rules": [
+              "granite_cave_b1f_item_in_alcove"
+            ]
+          },
+          {
+            "name": "B2F - Hidden Item on Platform (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "granite_cave_b2f_hidden_item_on_platform"
+            ]
+          },
+          {
+            "name": "1F - TM47 from Steven (Hint)",
+            "chest_unopened_img": "/images/locations/steven_steel_tm.png",
+            "chest_opened_img": "/images/locations/steven_steel_tm_bw.png",
+            "visibility_rules": [
+              "granite_cave_1f_tm47_from_steven"
+            ]
+          },
+          {
+            "name": "B2F - Item After Mud Slope (Hint)",
+            "visibility_rules": [
+              "granite_cave_b2f_item_after_mud_slope"
+            ]
+          },
+          {
+            "name": "B2F - Item After Crumbling Floor (Hint)",
+            "visibility_rules": [
+              "granite_cave_b2f_item_after_crumbling_floor"
+            ]
+          },
+          {
+            "name": "B2F - Hidden Item After Crumbling Floor (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "granite_cave_b2f_hidden_item_after_crumbling_floor"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 16,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "S.S. Tidal Hints",
+        "sections": [
+          {
+            "name": "Young Couple Lea & Jed (Hint)",
+            "chest_unopened_img": "/images/locations/young_couple.png",
+            "chest_opened_img": "/images/locations/young_couple_bw.png",
+            "visibility_rules": [
+              "ss_tidal_young_couple_lea_and_jed"
+            ]
+          },
+          {
+            "name": "Rich Boy Garret (Hint)",
+            "chest_unopened_img": "/images/locations/rich_boy.png",
+            "chest_opened_img": "/images/locations/rich_boy_bw.png",
+            "visibility_rules": [
+              "ss_tidal_rich_boy_garret"
+            ]
+          },
+          {
+            "name": "Gentleman Micah (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+            "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "ss_tidal_gentleman_micah"
+            ]
+          },
+          {
+            "name": "Pokefan Colton (Hint)",
+            "chest_unopened_img": "/images/locations/pokefan_male.png",
+            "chest_opened_img": "/images/locations/pokefan_male_bw.png",
+            "visibility_rules": [
+              "ss_tidal_pokefan_colton"
+            ]
+          },
+          {
+            "name": "Lady Naomi (Hint)",
+            "chest_unopened_img": "/images/locations/lady.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
+            "visibility_rules": [
+              "ss_tidal_lady_naomi"
+            ]
+          },
+          {
+            "name": "Gentleman Thomas (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+            "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "ss_tidal_gentleman_thomas"
+            ]
+          },
+          {
+            "name": "TM49 from Thief (Hint)",
+            "chest_unopened_img": "/images/locations/thief_dark_tm.png",
+            "chest_opened_img": "/images/locations/thief_dark_tm_bw.png",
+            "visibility_rules": [
+              "ss_tidal_tm49_from_thief"
+            ]
+          },
+          {
+            "name": "Sailor Phillip (Hint)",
+            "chest_unopened_img": "/images/locations/sailor.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": [
+              "ss_tidal_sailor_phillip"
+            ]
+          },
+          {
+            "name": "Sailor Leonard (Hint)",
+            "chest_unopened_img": "/images/locations/sailor.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": [
+              "ss_tidal_sailor_leonard"
+            ]
+          },
+          {
+            "name": "Hidden Item in Lower Deck Trash Can (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "ss_tidal_hidden_item_in_lower_deck_trash_can"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 84,
+            "y": 108
+          },
+          {
+            "map": "hoennmap",
+            "x": 160,
+            "y": 56
+          },
+          {
+            "map": "slateport_harbor",
+            "x": 263,
+            "y": 236
+          }
+        ]
+      },
+      {
+        "name": "Fiery Path Hints",
+        "sections": [
+          {
+            "name": "Item Behind Boulders 2 (Hint)",
+            "visibility_rules": [
+              "fiery_path_item_behind_boulders_2"
+            ]
+          },
+          {
+            "name": "Item Behind Boulders 1 (Hint)",
+            "visibility_rules": [
+              "fiery_path_item_behind_boulders_1"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 68,
+            "y": 32
+          }
+        ]
+      },
+      {
+        "name": "Meteor Falls Hints",
+        "sections": [
+          {
+            "name": "1F - Item Northeast (Hint)",
+            "visibility_rules": [
+              "meteor_falls_1f_item_northeast"
+            ]
+          },
+          {
+            "name": "1F - Item West (Hint)",
+            "visibility_rules": [
+              "meteor_falls_1f_item_west"
+            ]
+          },
+          {
+            "name": "1F - Item Before Steven's Cave (Hint)",
+            "visibility_rules": [
+              "meteor_falls_1f_item_before_stevens_cave"
+            ]
+          },
+          {
+            "name": "B1F - Item in North Cave (Hint)",
+            "visibility_rules": [
+              "meteor_falls_b1f_item_in_north_cave"
+            ]
+          },
+          {
+            "name": "1F - Old Couple John & Jay (Hint)",
+            "chest_unopened_img": "/images/locations/old_couple.png",
+            "chest_opened_img": "/images/locations/old_couple_bw.png",
+            "visibility_rules": [
+              "meteor_falls_1f_old_couple_john_and_jay"
+            ]
+          },
+          {
+            "name": "1F - Dragon Tamer Nicolas (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "meteor_falls_1f_dragon_tamer_nicolas"
+            ]
+          },
+          {
+            "name": "1F - Item Below Waterfall (Hint)",
+            "visibility_rules": [
+              "meteor_falls_1f_item_below_waterfall"
+            ]
+          },
+          {
+            "name": "1F - Rival Steven (Hint)",
+            "chest_unopened_img": "/images/locations/steven.png",
+            "chest_opened_img": "/images/locations/steven_bw.png",
+            "visibility_rules": [
+              "meteor_falls_1f_rival_steven"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 8,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "New Mauville Hints",
+        "sections": [
+          {
+            "name": "Item 1 (Hint)",
+            "visibility_rules": [
+              "new_mauville_item_1"
+            ]
+          },
+          {
+            "name": "Item 5 (Hint)",
+            "visibility_rules": [
+              "new_mauville_item_5"
+            ]
+          },
+          {
+            "name": "Item 2 (Hint)",
+            "visibility_rules": [
+              "new_mauville_item_2"
+            ]
+          },
+          {
+            "name": "Item 3 (Hint)",
+            "visibility_rules": [
+              "new_mauville_item_3"
+            ]
+          },
+          {
+            "name": "Item 4 (Hint)",
+            "visibility_rules": [
+              "new_mauville_item_4"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 84,
+            "y": 80
+          },
+          {
+            "map": "new_mauville_entrance",
+            "x": 144,
+            "y": 62
+          },
+          {
+            "map": "rt_110",
+            "x": 3691,
+            "y": 896
+          }
+        ]
+      },
+      {
+        "name": "Abandoned Ship Hints",
+        "sections": [
+          {
+            "name": "1F - Youngster Demetrius (Hint)",
+            "chest_unopened_img": "/images/locations/youngster.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_youngster_demetrius"
+            ]
+          },
+          {
+            "name": "1F - Beauty Thalia (Hint)",
+            "chest_unopened_img": "/images/locations/beauty.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_beauty_thalia"
+            ]
+          },
+          {
+            "name": "1F - Item in East Side Northwest Room (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_1f_item_in_east_side_northwest_room"
+            ]
+          },
+          {
+            "name": "B1F - Sailor Duncan (Hint)",
+            "chest_unopened_img": "/images/locations/sailor.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_b1f_sailor_duncan"
+            ]
+          },
+          {
+            "name": "B1F - Item in Storage Room (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_b1f_item_in_storage_room"
+            ]
+          },
+          {
+            "name": "B1F - Item in North Rooms (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_b1f_item_in_north_rooms"
+            ]
+          },
+          {
+            "name": "B1F - Item in South Rooms (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_b1f_item_in_south_rooms"
+            ]
+          },
+          {
+            "name": "1F - Tuber Charlie (Hint)",
+            "chest_unopened_img": "/images/locations/tuber_male.png",
+            "chest_opened_img": "/images/locations/tuber_male_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_tuber_charlie"
+            ]
+          },
+          {
+            "name": "1F - Ruin Maniac Garrison (Hint)",
+            "chest_unopened_img": "/images/locations/hiker.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_ruin_maniac_garrison"
+            ]
+          },
+          {
+            "name": "1F - Tuber Jani (Hint)",
+            "chest_unopened_img": "/images/locations/tuber_female.png",
+            "chest_opened_img": "/images/locations/tuber_female_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_tuber_jani"
+            ]
+          },
+          {
+            "name": "1F - Item in West Side North Room (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_1f_item_in_west_side_north_room"
+            ]
+          },
+          {
+            "name": "1F - Young Couple Kira & Dan (Hint)",
+            "chest_unopened_img": "/images/locations/young_couple.png",
+            "chest_opened_img": "/images/locations/young_couple_bw.png",
+            "visibility_rules": [
+              "abandoned_ship_1f_young_couple_kira_and_dan"
+            ]
+          },
+          {
+            "name": "Captain's Office Key (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_captains_office_key"
+            ]
+          },
+          {
+            "name": "HF - Room 4 Key (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_room_4_key"
+            ]
+          },
+          {
+            "name": "HF - Item in Room 1 (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_item_in_room_1"
+            ]
+          },
+          {
+            "name": "HF - Scanner (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_scanner"
+            ]
+          },
+          {
+            "name": "HF - Room 1 Key (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_room_1_key"
+            ]
+          },
+          {
+            "name": "HF - Item in Room 3 (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_item_in_room_3"
+            ]
+          },
+          {
+            "name": "HF - Room 6 Key (Hint)",
+            "access_rules": [
+              "abandoned_ship_hf_room_6_key"
+            ],
+            "visibility_rules": [
+              "abandoned_ship_hf_room_6_key"
+            ]
+          },
+          {
+            "name": "HF - Room 2 Key (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_room_2_key"
+            ]
+          },
+          {
+            "name": "HF - Item in Room 6 (Hint)",
+            "visibility_rules": [
+              "abandoned_ship_hf_item_in_room_6"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 64,
+            "y": 120
+          },
+          {
+            "map": "abandoned_ship_deck",
+            "x": 431,
+            "y": 325
+          },
+          {
+            "map": "rt_108",
+            "x": 923,
+            "y": 207
+          }
+        ]
+      },
+      {
+        "name": "Safari Zone Hints",
+        "sections": [
+          {
+            "name": "SW - Item Behind Pond (Hint)",
+            "visibility_rules": [
+              "safari_zone_sw_item_behind_pond"
+            ]
+          },
+          {
+            "name": "NW - Item Behind Pond (Hint)",
+            "visibility_rules": [
+              "safari_zone_nw_item_behind_pond"
+            ]
+          },
+          {
+            "name": "N - Item in Grass (Hint)",
+            "visibility_rules": [
+              "safari_zone_n_item_in_grass"
+            ]
+          },
+          {
+            "name": "SE - Item in Grass (Hint)",
+            "visibility_rules": [
+              "safari_zone_se_item_in_grass"
+            ]
+          },
+          {
+            "name": "SE - Hidden Item in South Grass 1 (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "safari_zone_se_hidden_item_in_south_grass_1"
+            ]
+          },
+          {
+            "name": "SE - Hidden Item in South Grass 2 (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "safari_zone_se_hidden_item_in_south_grass_2"
+            ]
+          },
+          {
+            "name": "NE - Item on Ledge (Hint)",
+            "visibility_rules": [
+              "safari_zone_ne_item_on_ledge"
+            ]
+          },
+          {
+            "name": "NE - Hidden Item North (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "safari_zone_ne_hidden_item_north"
+            ]
+          },
+          {
+            "name": "NE - Hidden Item East (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "safari_zone_ne_hidden_item_east"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 140,
+            "y": 32
+          },
+          {
+            "map": "rt_121",
+            "x": 1178,
+            "y": 175
+          },
+          {
+            "map": "safari_lobby",
+            "x": 116,
+            "y": 177
+          }
+        ]
+      },
+      {
+        "name": "Mt. Pyre Hints",
+        "sections": [
+          {
+            "name": "1F - Cleanse Tag from Woman in NE Corner (Hint)",
+            "chest_unopened_img": "/images/locations/old_lady_cleanse_tag.png",
+            "chest_opened_img": "/images/locations/old_lady_cleanse_tag_bw.png",
+            "visibility_rules": [
+              "mt_pyre_1f_cleanse_tag_from_woman_in_ne_corner"
+            ]
+          },
+          {
+            "name": "2F - Pokemaniac Mark (Hint)",
+            "chest_unopened_img": "/images/locations/fossil_maniac.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "visibility_rules": [
+              "mt_pyre_2f_pokemaniac_mark"
+            ]
+          },
+          {
+            "name": "2F - Hex Maniac Leah (Hint)",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "visibility_rules": [
+              "mt_pyre_2f_hex_maniac_leah"
+            ]
+          },
+          {
+            "name": "2F - Black Belt Zander (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "mt_pyre_2f_black_belt_zander"
+            ]
+          },
+          {
+            "name": "2F - Young Couple Dez & Luke (Hint)",
+            "chest_unopened_img": "/images/locations/young_couple.png",
+            "chest_opened_img": "/images/locations/young_couple_bw.png",
+            "visibility_rules": [
+              "mt_pyre_2f_young_couple_dez_and_luke"
+            ]
+          },
+          {
+            "name": "2F - Item (Hint)",
+            "visibility_rules": [
+              "mt_pyre_2f_item"
+            ]
+          },
+          {
+            "name": "3F - Psychic Kayla (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "mt_pyre_3f_psychic_kayla"
+            ]
+          },
+          {
+            "name": "3F - Pokemon Breeder Gabrielle (Hint)",
+            "chest_unopened_img": "/images/locations/lady.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
+            "visibility_rules": [
+              "mt_pyre_3f_pokemon_breeder_gabrielle"
+            ]
+          },
+          {
+            "name": "3F - Item (Hint)",
+            "visibility_rules": [
+              "mt_pyre_3f_item"
+            ]
+          },
+          {
+            "name": "3F - Psychic William (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mt_pyre_3f_psychic_william"
+            ]
+          },
+          {
+            "name": "4F - Hex Maniac Tasha (Hint)",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "visibility_rules": [
+              "mt_pyre_4f_hex_maniac_tasha"
+            ]
+          },
+          {
+            "name": "5F - Black Belt Atsushi (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "mt_pyre_5f_black_belt_atsushi"
+            ]
+          },
+          {
+            "name": "6F - Hex Maniac Valerie (Hint)",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "visibility_rules": [
+              "mt_pyre_6f_hex_maniac_valerie"
+            ]
+          },
+          {
+            "name": "6F - Psychic Cedric (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mt_pyre_6f_psychic_cedric"
+            ]
+          },
+          {
+            "name": "6F - Item (Hint)",
+            "visibility_rules": [
+              "mt_pyre_6f_item"
+            ]
+          },
+          {
+            "name": "5F - Item (Hint)",
+            "visibility_rules": [
+              "mt_pyre_5f_item"
+            ]
+          },
+          {
+            "name": "4F - Item (Hint)",
+            "visibility_rules": [
+              "mt_pyre_4f_item"
+            ]
+          },
+          {
+            "name": "Exterior - Item 1 (Hint)",
+            "visibility_rules": [
+              "mt_pyre_exterior_item_1"
+            ]
+          },
+          {
+            "name": "Exterior - Item 2 (Hint)",
+            "visibility_rules": [
+              "mt_pyre_exterior_item_2"
+            ]
+          },
+          {
+            "name": "Exterior - Hidden Item First Grave (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "mt_pyre_exterior_hidden_item_first_grave"
+            ]
+          },
+          {
+            "name": "Exterior - Hidden Item Second Grave (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "mt_pyre_exterior_hidden_item_second_grave"
+            ]
+          },
+          {
+            "name": "Summit - Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "Summit - Hidden Item Grave (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_hidden_item_grave"
+            ]
+          },
+          {
+            "name": "Summit - Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "Summit - Team Aqua Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_team_aqua_grunt_3"
+            ]
+          },
+          {
+            "name": "Summit - Team Aqua Grunt 4 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_team_aqua_grunt_4"
+            ]
+          },
+          {
+            "name": "Summit - Hidden Item in Grass (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_hidden_item_in_grass"
+            ]
+          },
+          {
+            "name": "Summit - Magma Emblem from Old Lady (Hint)",
+            "chest_unopened_img": "/images/locations/old_lady_magma_emblem.png",
+            "chest_opened_img": "/images/locations/old_lady_magma_emblem_bw.png",
+            "visibility_rules": [
+              "mt_pyre_summit_magma_emblem_from_old_lady"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 144,
+            "y": 57
+          },
+          {
+            "map": "rt_122",
+            "x": 359,
+            "y": 480
+          }
+        ]
+      },
+      {
+        "name": "Team Magma Hideout Hints",
+        "sections": [
+          {
+            "name": "1F - Team Magma Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_1f_team_magma_grunt_1"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_1"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_2"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_3"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 4 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_4"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 5 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_5"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 6 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_6"
+            ]
+          },
+          {
+            "name": "2F - Item on West Platform (Hint)",
+            "visibility_rules": [
+              "magma_hideout_2f_item_on_west_platform"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 7 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_7"
+            ]
+          },
+          {
+            "name": "2F - Team Magma Grunt 8 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_2f_team_magma_grunt_8"
+            ]
+          },
+          {
+            "name": "2F - Item on East Platform (Hint)",
+            "visibility_rules": [
+              "magma_hideout_2f_item_on_east_platform"
+            ]
+          },
+          {
+            "name": "1F - Team Magma Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_1f_team_magma_grunt_2"
+            ]
+          },
+          {
+            "name": "1F - Item on Ledge (Hint)",
+            "visibility_rules": [
+              "magma_hideout_1f_item_on_ledge"
+            ]
+          },
+          {
+            "name": "3F - Team Magma Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_3f_team_magma_grunt_1"
+            ]
+          },
+          {
+            "name": "3F - Item in Drill Room (Hint)",
+            "visibility_rules": [
+              "magma_hideout_3f_item_in_drill_room"
+            ]
+          },
+          {
+            "name": "3F - Team Magma Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_3f_team_magma_grunt_3"
+            ]
+          },
+          {
+            "name": "3F - Team Magma Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "visibility_rules": [
+              "magma_hideout_3f_team_magma_grunt_2"
+            ]
+          },
+          {
+            "name": "3F - Item Before Last Floor (Hint)",
+            "visibility_rules": [
+              "magma_hideout_3f_item_before_last_floor"
+            ]
+          },
+          {
+            "name": "4F - Team Magma Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_4f_team_magma_grunt_1"
+            ]
+          },
+          {
+            "name": "4F - Team Magma Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_4f_team_magma_grunt_2"
+            ]
+          },
+          {
+            "name": "4F - Team Magma Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_4f_team_magma_grunt_3"
+            ]
+          },
+          {
+            "name": "4F - Magma Admin Tabitha (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "magma_hideout_4f_magma_admin_tabitha"
+            ]
+          },
+          {
+            "name": "4F - Item Before Groudon (Hint)",
+            "visibility_rules": [
+              "magma_hideout_4f_item_before_groudon"
+            ]
+          },
+          {
+            "name": "4F - Magma Leader Maxie (Hint)",
+            "chest_unopened_img": "/images/locations/maxie.png",
+            "chest_opened_img": "/images/locations/maxie_bw.png",
+            "visibility_rules": [
+              "magma_hideout_4f_magma_leader_maxie"
+            ]
+          },
+          {
+            "name": "3F - Item After Groudon (Hint)",
+            "visibility_rules": [
+              "magma_hideout_3f_item_after_groudon"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 60,
+            "y": 56
+          },
+          {
+            "map": "jagged_pass",
+            "x": 527,
+            "y": 607
+          }
+        ]
+      },
+      {
+        "name": "Team Aqua Hideout Hints",
+        "sections": [
+          {
+            "name": "1F - Team Aqua Grunt (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_1f_team_aqua_grunt"
+            ]
+          },
+          {
+            "name": "B1F - Item in East Room (Hint)",
+            "visibility_rules": [
+              "aqua_hideout_b1f_item_in_east_room"
+            ]
+          },
+          {
+            "name": "B1F - Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b1f_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "B1F - Item in Center Room 1 (Hint)",
+            "visibility_rules": [
+              "aqua_hideout_b1f_item_in_center_room_1"
+            ]
+          },
+          {
+            "name": "B1F - Item in Center Room 2 (Hint)",
+            "visibility_rules": [
+              "aqua_hideout_b1f_item_in_center_room_2"
+            ]
+          },
+          {
+            "name": "B1F - Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b1f_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "B1F - Team Aqua Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b1f_team_aqua_grunt_3"
+            ]
+          },
+          {
+            "name": "B2F - Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b2f_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "B2F - Item in Long Hallway (Hint)",
+            "visibility_rules": [
+              "aqua_hideout_b2f_item_in_long_hallway"
+            ]
+          },
+          {
+            "name": "B1F - Team Aqua Grunt 4 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b1f_team_aqua_grunt_4"
+            ]
+          },
+          {
+            "name": "B2F - Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b2f_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "B2F - Team Aqua Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b2f_team_aqua_grunt_3"
+            ]
+          },
+          {
+            "name": "B2F - Aqua Admin Matt (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "aqua_hideout_b2f_aqua_admin_matt"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 172,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Shoal Cave Hints",
+        "sections": [
+          {
+            "name": "Inner Room - Item in Center (Hint)",
+            "visibility_rules": [
+              "shoal_cave_inner_room_item_in_center"
+            ]
+          },
+          {
+            "name": "Entrance - Item on Ledge (Hint)",
+            "visibility_rules": [
+              "shoal_cave_entrance_item_on_ledge"
+            ]
+          },
+          {
+            "name": "Stairs Room - Item (Hint)",
+            "visibility_rules": [
+              "shoal_cave_stairs_room_item"
+            ]
+          },
+          {
+            "name": "Lower Room - Focus Band from Black Belt (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt_focus_band.png",
+            "chest_opened_img": "/images/locations/black_belt_focus_band_bw.png",
+            "visibility_rules": [
+              "shoal_cave_lower_room_focus_band_from_black_belt"
+            ]
+          },
+          {
+            "name": "Ice Room - Item 1 (Hint)",
+            "visibility_rules": [
+              "shoal_cave_ice_room_item_1"
+            ]
+          },
+          {
+            "name": "Ice Room - Item 2 (Hint)",
+            "visibility_rules": [
+              "shoal_cave_ice_room_item_2"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 200,
+            "y": 44
+          },
+          {
+            "map": "rt_125",
+            "x": 750,
+            "y": 623
+          }
+        ]
+      },
+      {
+        "name": "Space Center Hints",
+        "sections": [
+          {
+            "name": "Gift from Man (Hint)",
+            "chest_unopened_img": "/images/locations/sailor_sun_stone.png",
+            "chest_opened_img": "/images/locations/sailor_sun_stone_bw.png",
+            "visibility_rules": [
+              "space_center_gift_from_man"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_female.png",
+            "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_1"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_2"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 3 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_3"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 4 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_4"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 5 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_5"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 6 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_6"
+            ]
+          },
+          {
+            "name": "Team Magma Grunt 7 (Hint)",
+            "chest_unopened_img": "/images/locations/magma_grunt_male.png",
+            "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
+            "visibility_rules": [
+              "space_center_team_magma_grunt_7"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 216,
+            "y": 64
+          },
+          {
+            "map": "mossdeep",
+            "x": 2064,
+            "y": 510
+          }
+        ]
+      },
+      {
+        "name": "Seafloor Cavern Hints",
+        "sections": [
+          {
+            "name": "Room 1 - Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_1_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "Room 1 - Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_1_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "Room 4 - Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_4_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "Room 4 - Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_4_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "Room 3 - Team Aqua Grunt (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_3_team_aqua_grunt"
+            ]
+          },
+          {
+            "name": "Room 3 - Aqua Admin Shelly (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_female.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_female_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_3_aqua_admin_shelly"
+            ]
+          },
+          {
+            "name": "Room 9 - Item Before Kyogre (Hint)",
+            "visibility_rules": [
+              "seafloor_cavern_room_9_item_before_kyogre"
+            ]
+          },
+          {
+            "name": "Room 9 - Aqua Leader Archie (Hint)",
+            "chest_unopened_img": "/images/locations/archie.png",
+            "chest_opened_img": "/images/locations/archie_bw.png",
+            "visibility_rules": [
+              "seafloor_cavern_room_9_aqua_leader_archie"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 204,
+            "y": 88
+          }
+        ]
+      },
+      {
+        "name": "Victory Road Hints",
+        "sections": [
+          {
+            "name": "1F - Item East (Hint)",
+            "visibility_rules": [
+              "victory_road_1f_item_east"
+            ]
+          },
+          {
+            "name": "1F - Cooltrainer Albert (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_cooltrainer_albert"
+            ]
+          },
+          {
+            "name": "1F - Rival Wally (Hint)",
+            "chest_unopened_img": "/images/locations/wally.png",
+            "chest_opened_img": "/images/locations/wally_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_rival_wally"
+            ]
+          },
+          {
+            "name": "1F - Cooltrainer Hope (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_cooltrainer_hope"
+            ]
+          },
+          {
+            "name": "B1F - Cooltrainer Shannon (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b1f_cooltrainer_shannon"
+            ]
+          },
+          {
+            "name": "1F - Item on Southeast Ledge (Hint)",
+            "visibility_rules": [
+              "victory_road_1f_item_on_southeast_ledge"
+            ]
+          },
+          {
+            "name": "1F - Hidden Item on Southeast Ledge (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_hidden_item_on_southeast_ledge"
+            ]
+          },
+          {
+            "name": "B1F - Cooltrainer Samuel (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_b1f_cooltrainer_samuel"
+            ]
+          },
+          {
+            "name": "B1F - Item Behind Boulders (Hint)",
+            "visibility_rules": [
+              "victory_road_b1f_item_behind_boulders"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Julie (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_julie"
+            ]
+          },
+          {
+            "name": "B1F - Item on Northeast Ledge (Hint)",
+            "visibility_rules": [
+              "victory_road_b1f_item_on_northeast_ledge"
+            ]
+          },
+          {
+            "name": "B2F - Hidden Item in Northeast Corner (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_hidden_item_in_northeast_corner"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Owen (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_owen"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Dianne (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_dianne"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Felix (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_felix"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Caroline (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_caroline"
+            ]
+          },
+          {
+            "name": "B2F - Cooltrainer Vito (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_cooltrainer_vito"
+            ]
+          },
+          {
+            "name": "B2F - Item Above Waterfall (Hint)",
+            "visibility_rules": [
+              "victory_road_b2f_item_above_waterfall"
+            ]
+          },
+          {
+            "name": "B2F - Hidden Item Above Waterfall (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "victory_road_b2f_hidden_item_above_waterfall"
+            ]
+          },
+          {
+            "name": "B1F - Cooltrainer Michelle (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b1f_cooltrainer_michelle"
+            ]
+          },
+          {
+            "name": "B1F - Cooltrainer Mitchell (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_b1f_cooltrainer_mitchell"
+            ]
+          },
+          {
+            "name": "B1F - Cooltrainer Halle (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_b1f_cooltrainer_halle"
+            ]
+          },
+          {
+            "name": "1F - Cooltrainer Edgar (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_cooltrainer_edgar"
+            ]
+          },
+          {
+            "name": "1F - Cooltrainer Katelynn (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_cooltrainer_katelynn"
+            ]
+          },
+          {
+            "name": "1F - Cooltrainer Quincy (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "victory_road_1f_cooltrainer_quincy"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 228,
+            "y": 96
+          },
+          {
+            "map": "evergrande",
+            "x": 591,
+            "y": 130
+          }
+        ]
+      },
+      {
+        "name": "A Island Hints",
+        "chest_unopened_img": "/images/locations/pokeball_closed.png",
+        "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+        "children": [
+          {
+            "name": "Navel Rock Hints",
+            "sections": [
+              {
+                "name": "Hidden Item Sacred Ash (Hint)",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "visibility_rules": [
+                  "navel_rock_top_hidden_item_sacred_ash"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hoennmap",
+                "x": 200,
+                "y": 12
+              },
+              {
+                "map": "navel_rock_harbor",
+                "x": 271,
+                "y": 57
+              },
+              {
+                "map": "navel_rock_exterior",
+                "x": 335,
+                "y": 351
+              },
+              {
+                "map": "navel_rock_entrance",
+                "x": 336,
+                "y": 196
+              },
+              {
+                "map": "navel_rock_b1f",
+                "x": 571,
+                "y": 304
+              }
+            ]
+          },
+          {
+            "name": "Artisan Cave Hints",
+            "sections": [
+              {
+                "name": "B1F - Hidden Item 2 (Hint)",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "visibility_rules": [
+                  "artisan_cave_b1f_hidden_item_2"
+                ]
+              },
+              {
+                "name": "B1F - Item (Hint)",
+                "visibility_rules": [
+                  "artisan_cave_b1f_item"
+                ]
+              },
+              {
+                "name": "B1F - Hidden Item 4 (Hint)",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "visibility_rules": [
+                  "artisan_cave_b1f_hidden_item_4"
+                ]
+              },
+              {
+                "name": "B1F - Hidden Item 1 (Hint)",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "visibility_rules": [
+                  "artisan_cave_b1f_hidden_item_1"
+                ]
+              },
+              {
+                "name": "B1F - Hidden Item 3 (Hint)",
+                "chest_unopened_img": "/images/locations/hidden_item.png",
+                "chest_opened_img": "/images/locations/hidden_item_bw.png",
+                "visibility_rules": [
+                  "artisan_cave_b1f_hidden_item_3"
+                ]
+              },
+              {
+                "name": "1F - Item (Hint)",
+                "visibility_rules": [
+                  "artisan_cave_1f_item"
+                ]
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "hoennmap",
+                "x": 184,
+                "y": 116
+              },
+              {
+                "map": "battle_frontier",
+                "x": 631,
+                "y": 914
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

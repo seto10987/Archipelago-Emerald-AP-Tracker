@@ -1,0 +1,14 @@
+{
+  "overworld": {
+    "type": "map",
+    "maps": [
+      "hoennmap"
+    ]
+  },
+  "encounters": {
+    "type": "map",
+    "maps": [
+      "encountermap"
+    ]
+  }
+}

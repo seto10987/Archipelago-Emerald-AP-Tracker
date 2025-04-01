@@ -1,0 +1,1524 @@
+[
+  {
+    "name": "A City Hints",
+    "chest_unopened_img": "/images/locations/pokeball_closed.png",
+    "chest_opened_img": "/images/locations/pokeball_open_bw.png",
+    "access_rules": [
+      "{}"
+    ],
+    "visibility_rules": [
+      "hints_tracking_on"
+    ],
+    "children": [
+      {
+        "name": "Littleroot Town Hints",
+        "sections": [
+          {
+            "name": "Pokeballs from Rival (Hint)",
+            "chest_unopened_img": "/images/locations/rival_pokeball.png",
+            "chest_opened_img": "/images/locations/rival_pokeball_bw.png",
+            "visibility_rules": [
+              "littleroot_town_pokeballs_from_rival"
+            ]
+          },
+          {
+            "name": "Amulet Coin from Mom (Hint)",
+            "chest_unopened_img": "/images/locations/mom_amulet_coin.png",
+            "chest_opened_img": "/images/locations/mom_amulet_coin_bw.png",
+            "visibility_rules": [
+              "littleroot_town_amulet_coin_from_mom"
+            ]
+          },
+          {
+            "name": "S.S. Ticket from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_ss_ticket.png",
+            "chest_opened_img": "/images/locations/norman_ss_ticket_bw.png",
+            "visibility_rules": [
+              "littleroot_town_ss_ticket_from_norman"
+            ]
+          },
+          {
+            "name": "Aurora Ticket from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_aurora_ticket.png",
+            "chest_opened_img": "/images/locations/norman_aurora_ticket_bw.png",
+            "visibility_rules": [
+              "littleroot_town_aurora_ticket_from_norman"
+            ]
+          },
+          {
+            "name": "Mystic Ticket from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_mystic_ticket.png",
+            "chest_opened_img": "/images/locations/norman_mystic_ticket_bw.png",
+            "visibility_rules": [
+              "littleroot_town_mystic_ticket_from_norman"
+            ]
+          },
+          {
+            "name": "Old Sea Map from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_old_sea_map.png",
+            "chest_opened_img": "/images/locations/norman_old_sea_map_bw.png",
+            "visibility_rules": [
+              "littleroot_town_old_sea_map_from_norman"
+            ]
+          },
+          {
+            "name": "Eon Ticket from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_eon_ticket.png",
+            "chest_opened_img": "/images/locations/norman_eon_ticket_bw.png",
+            "visibility_rules": [
+              "littleroot_town_eon_ticket_from_norman"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 40,
+            "y": 108
+          }
+        ]
+      },
+      {
+        "name": "Oldale Town Hints",
+        "sections": [
+          {
+            "name": "Gift from Shop Tutorial (Hint)",
+            "chest_unopened_img": "/images/locations/poke_mart_clerk_potion.png",
+            "chest_opened_img": "/images/locations/poke_mart_clerk_potion_bw.png",
+            "visibility_rules": [
+              "oldale_town_gift_from_shop_tutorial"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 44,
+            "y": 96
+          }
+        ]
+      },
+      {
+        "name": "Petalburg City Hints",
+        "sections": [
+          {
+            "name": "Item Past Pond North (Hint)",
+            "visibility_rules": [
+              "petalburg_city_item_past_pond_north"
+            ]
+          },
+          {
+            "name": "Hidden Item Past Pond South (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "petalburg_city_hidden_item_past_pond_south"
+            ]
+          },
+          {
+            "name": "Item Past Pond South (Hint)",
+            "visibility_rules": [
+              "petalburg_city_item_past_pond_south"
+            ]
+          },
+          {
+            "name": "HM03 from Wally's Uncle (Hint)",
+            "chest_unopened_img": "/images/locations/wally_uncle_water_hm.png",
+            "chest_opened_img": "/images/locations/wally_uncle_water_hm_bw.png",
+            "visibility_rules": [
+              "petalburg_city_hm03_from_wallys_uncle"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 20,
+            "y": 96
+          }
+        ]
+      },
+      {
+        "name": "Petalburg Gym Hints",
+        "sections": [
+          {
+            "name": "Cooltrainer Randall (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_randall"
+            ]
+          },
+          {
+            "name": "Cooltrainer Mary (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_mary"
+            ]
+          },
+          {
+            "name": "Cooltrainer Parker (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_parker"
+            ]
+          },
+          {
+            "name": "Cooltrainer Alexia (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_alexia"
+            ]
+          },
+          {
+            "name": "Cooltrainer George (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_george"
+            ]
+          },
+          {
+            "name": "Cooltrainer Jody (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_female.png",
+            "chest_opened_img": "/images/locations/cooltrainer_female_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_jody"
+            ]
+          },
+          {
+            "name": "Cooltrainer Berke (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_cooltrainer_berke"
+            ]
+          },
+          {
+            "name": "Leader Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman.png",
+            "chest_opened_img": "/images/locations/norman_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_leader_norman"
+            ]
+          },
+          {
+            "name": "Balance Badge (Hint)",
+            "chest_unopened_img": "/images/locations/norman_balance_badge.png",
+            "chest_opened_img": "/images/locations/norman_balance_badge_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_balance_badge"
+            ]
+          },
+          {
+            "name": "TM42 from Norman (Hint)",
+            "chest_unopened_img": "/images/locations/norman_normal_tm.png",
+            "chest_opened_img": "/images/locations/norman_normal_tm_bw.png",
+            "visibility_rules": [
+              "petalburg_gym_tm42_from_norman"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 20,
+            "y": 80
+          }
+        ]
+      },
+      {
+        "name": "Rustboro City Hints",
+        "sections": [
+          {
+            "name": "Item Behind Fences (Hint)",
+            "visibility_rules": [
+              "rustboro_city_item_behind_fences"
+            ]
+          },
+          {
+            "name": "Gift from Boy in Apartments (Hint)",
+            "chest_unopened_img": "/images/locations/boy_premier_ball.png",
+            "chest_opened_img": "/images/locations/boy_premier_ball_bw.png",
+            "visibility_rules": [
+              "rustboro_city_gift_from_boy_in_apartments"
+            ]
+          },
+          {
+            "name": "HM01 from Cutter's House (Hint)",
+            "chest_unopened_img": "/images/locations/cutter_normal_hm.png",
+            "chest_opened_img": "/images/locations/cutter_normal_hm_bw.png",
+            "visibility_rules": [
+              "rustboro_city_hm01_from_cutters_house"
+            ]
+          },
+          {
+            "name": "Quick Claw from School Teacher (Hint)",
+            "chest_unopened_img": "/images/locations/school_teacher_quick_claw.png",
+            "chest_opened_img": "/images/locations/school_teacher_quick_claw_bw.png",
+            "visibility_rules": [
+              "rustboro_city_quick_claw_from_school_teacher"
+            ]
+          },
+          {
+            "name": "Gift from Devon Employee (Hint)",
+            "chest_unopened_img": "/images/locations/devon_employee_great_ball.png",
+            "chest_opened_img": "/images/locations/devon_employee_great_ball_bw.png",
+            "visibility_rules": [
+              "rustboro_city_gift_from_devon_employee"
+            ]
+          },
+          {
+            "name": "Letter from Mr. Stone (Hint)",
+            "chest_unopened_img": "/images/locations/mr_stone_letter.png",
+            "chest_opened_img": "/images/locations/mr_stone_letter_bw.png",
+            "visibility_rules": [
+              "devon_corp_3f_letter_from_mr_stone"
+            ]
+          },
+          {
+            "name": "Exp. Share from Mr. Stone (Hint)",
+            "chest_unopened_img": "/images/locations/mr_stone_exp_share.png",
+            "chest_opened_img": "/images/locations/mr_stone_exp_share_bw.png",
+            "visibility_rules": [
+              "devon_corp_3f_exp_share_from_mr_stone"
+            ]
+          },
+          {
+            "name": "Rival Brendan or May (Hint)",
+            "chest_unopened_img": "/images/locations/rival.png",
+            "chest_opened_img": "/images/locations/rival_bw.png",
+            "visibility_rules": [
+              "rustboro_city_rival_brendan_may"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 8,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Rustboro Gym Hints",
+        "sections": [
+          {
+            "name": "Youngster Josh (Hint)",
+            "chest_unopened_img": "/images/locations/youngster.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_youngster_josh"
+            ]
+          },
+          {
+            "name": "Youngster Tommy (Hint)",
+            "chest_unopened_img": "/images/locations/youngster.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_youngster_tommy"
+            ]
+          },
+          {
+            "name": "Hiker Marc (Hint)",
+            "chest_unopened_img": "/images/locations/hiker.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_hiker_marc"
+            ]
+          },
+          {
+            "name": "Leader Roxanne (Hint)",
+            "chest_unopened_img": "/images/locations/roxanne.png",
+            "chest_opened_img": "/images/locations/roxanne_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_leader_roxanne"
+            ]
+          },
+          {
+            "name": "Stone Badge (Hint)",
+            "chest_unopened_img": "/images/locations/roxanne_stone_badge.png",
+            "chest_opened_img": "/images/locations/roxanne_stone_badge_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_stone_badge"
+            ]
+          },
+          {
+            "name": "TM39 from Roxanne (Hint)",
+            "chest_unopened_img": "/images/locations/roxanne_rock_tm.png",
+            "chest_opened_img": "/images/locations/roxanne_rock_tm_bw.png",
+            "visibility_rules": [
+              "rustboro_gym_tm39_from_roxanne"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 8,
+            "y": 60
+          }
+        ]
+      },
+      {
+        "name": "Dewford Town Hints",
+        "sections": [
+          {
+            "name": "Silk Scarf from Man in House (Hint)",
+            "chest_unopened_img": "/images/locations/man_silk_scarf.png",
+            "chest_opened_img": "/images/locations/man_silk_scarf_bw.png",
+            "visibility_rules": [
+              "dewford_town_silk_scarf_from_man_in_house"
+            ]
+          },
+          {
+            "name": "Old Rod from Fisherman (Hint)",
+            "chest_unopened_img": "/images/locations/fisherman_old_rod.png",
+            "chest_opened_img": "/images/locations/fisherman_old_rod_bw.png",
+            "visibility_rules": [
+              "dewford_town_old_rod_from_fisherman"
+            ]
+          },
+          {
+            "name": "TM36 from Sludge Bomb Man (Hint)",
+            "chest_unopened_img": "/images/locations/man_poison_tm.png",
+            "chest_opened_img": "/images/locations/man_poison_tm_bw.png",
+            "visibility_rules": [
+              "dewford_town_tm36_from_sludge_bomb_man"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 32,
+            "y": 132
+          }
+        ]
+      },
+      {
+        "name": "Dewford Gym Hints",
+        "sections": [
+          {
+            "name": "Battle Girl Laura (Hint)",
+            "chest_unopened_img": "/images/locations/battle_girl.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "dewford_gym_battle_girl_laura"
+            ]
+          },
+          {
+            "name": "Sailor Brenden (Hint)",
+            "chest_unopened_img": "/images/locations/sailor.png",
+            "chest_opened_img": "/images/locations/sailor_bw.png",
+            "visibility_rules": [
+              "dewford_gym_sailor_brenden"
+            ]
+          },
+          {
+            "name": "Battle Girl Lilith (Hint)",
+            "chest_unopened_img": "/images/locations/battle_girl.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "dewford_gym_battle_girl_lilith"
+            ]
+          },
+          {
+            "name": "Black Belt Takao (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "dewford_gym_black_belt_takao"
+            ]
+          },
+          {
+            "name": "Black Belt Cristian (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt.png",
+            "chest_opened_img": "/images/locations/black_belt_bw.png",
+            "visibility_rules": [
+              "dewford_gym_black_belt_cristian"
+            ]
+          },
+          {
+            "name": "Battle Girl Jocelyn (Hint)",
+            "chest_unopened_img": "/images/locations/battle_girl.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "dewford_gym_battle_girl_jocelyn"
+            ]
+          },
+          {
+            "name": "Leader Brawly (Hint)",
+            "chest_unopened_img": "/images/locations/brawly.png",
+            "chest_opened_img": "/images/locations/brawly_bw.png",
+            "visibility_rules": [
+              "dewford_gym_leader_brawly"
+            ]
+          },
+          {
+            "name": "Knuckle Badge (Hint)",
+            "chest_unopened_img": "/images/locations/brawly_knuckle_badge.png",
+            "chest_opened_img": "/images/locations/brawly_knuckle_badge_bw.png",
+            "visibility_rules": [
+              "dewford_gym_knuckle_badge"
+            ]
+          },
+          {
+            "name": "TM08 from Brawly (Hint)",
+            "chest_unopened_img": "/images/locations/brawly_fighting_tm.png",
+            "chest_opened_img": "/images/locations/brawly_fighting_tm_bw.png",
+            "visibility_rules": [
+              "dewford_gym_tm08_from_brawly"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 32,
+            "y": 140
+          }
+        ]
+      },
+      {
+        "name": "Slateport City Hints",
+        "sections": [
+          {
+            "name": "Powder Jar from Lady in Market (Hint)",
+            "chest_unopened_img": "/images/locations/woman_powder_jar.png",
+            "chest_opened_img": "/images/locations/woman_powder_jar_bw.png",
+            "visibility_rules": [
+              "slateport_city_powder_jar_from_lady_in_market"
+            ]
+          },
+          {
+            "name": "Soothe Bell from Woman in Fan Club (Hint)",
+            "chest_unopened_img": "/images/locations/woman_soothe_bell.png",
+            "chest_opened_img": "/images/locations/woman_soothe_bell_bw.png",
+            "visibility_rules": [
+              "slateport_city_soothe_bell_from_woman_in_fan_club"
+            ]
+          },
+          {
+            "name": "TM46 from Aqua Grunt in Museum (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_dark_tm.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_dark_tm_bw.png",
+            "visibility_rules": [
+              "oceanic_museum_tm46_from_aqua_grunt_in_museum"
+            ]
+          },
+          {
+            "name": "Team Aqua Grunt 1 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "oceanic_museum_team_aqua_grunt_1"
+            ]
+          },
+          {
+            "name": "Team Aqua Grunt 2 (Hint)",
+            "chest_unopened_img": "/images/locations/aqua_grunt_male.png",
+            "chest_opened_img": "/images/locations/aqua_grunt_male_bw.png",
+            "visibility_rules": [
+              "oceanic_museum_team_aqua_grunt_2"
+            ]
+          },
+          {
+            "name": "TM41 from Sailor in Battle Tent (Hint)",
+            "chest_unopened_img": "/images/locations/sailor_dark_tm.png",
+            "chest_opened_img": "/images/locations/sailor_dark_tm_bw.png",
+            "visibility_rules": [
+              "slateport_city_tm41_from_sailor_in_battle_tent"
+            ]
+          },
+          {
+            "name": "Deep Sea Scale from Capt. Stern (Hint)",
+            "chest_unopened_img": "/images/locations/captain_stern_deep_sea_scale.png",
+            "chest_opened_img": "/images/locations/captain_stern_deep_sea_scale_bw.png",
+            "visibility_rules": [
+              "slateport_city_deep_sea_scale_from_capt_stern"
+            ]
+          },
+          {
+            "name": "Deep Sea Tooth from Capt. Stern (Hint)",
+            "chest_unopened_img": "/images/locations/captain_stern_deep_sea_tooth.png",
+            "chest_opened_img": "/images/locations/captain_stern_deep_sea_tooth_bw.png",
+            "visibility_rules": [
+              "slateport_city_deep_sea_tooth_from_capt_stern"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 72,
+            "y": 104
+          }
+        ]
+      },
+      {
+        "name": "Mauville City Hints",
+        "sections": [
+          {
+            "name": "Coin Case from Lady in House (Hint)",
+            "chest_unopened_img": "/images/locations/lady_coin_case.png",
+            "chest_opened_img": "/images/locations/lady_coin_case_bw.png",
+            "visibility_rules": [
+              "mauville_city_coin_case_from_lady_in_house"
+            ]
+          },
+          {
+            "name": "HM06 from Rock Smash Guy (Hint)",
+            "chest_unopened_img": "/images/locations/rock_smash_guy_fighting_hm.png",
+            "chest_opened_img": "/images/locations/rock_smash_guy_fighting_hm_bw.png",
+            "visibility_rules": [
+              "mauville_city_hm06_from_rock_smash_guy"
+            ]
+          },
+          {
+            "name": "Item (Hint)",
+            "visibility_rules": [
+              "mauville_city_item"
+            ]
+          },
+          {
+            "name": "Basement Key from Wattson (Hint)",
+            "chest_unopened_img": "/images/locations/wattson_basement_key.png",
+            "chest_opened_img": "/images/locations/wattson_basement_key_bw.png",
+            "visibility_rules": [
+              "mauville_city_basement_key_from_wattson"
+            ]
+          },
+          {
+            "name": "TM24 from Wattson (Hint)",
+            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+            "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+            "visibility_rules": [
+              "mauville_city_tm24_from_wattson"
+            ]
+          },
+          {
+            "name": "Acro Bike (Hint)",
+            "chest_unopened_img": "/images/locations/bike_shop_owner_acro_bike.png",
+            "chest_opened_img": "/images/locations/bike_shop_owner_acro_bike_bw.png",
+            "visibility_rules": [
+              "mauville_city_acro_bike"
+            ]
+          },
+          {
+            "name": "Mach Bike (Hint)",
+            "chest_unopened_img": "/images/locations/bike_shop_owner_mach_bike.png",
+            "chest_opened_img": "/images/locations/bike_shop_owner_mach_bike_bw.png",
+            "visibility_rules": [
+              "mauville_city_mach_bike"
+            ]
+          },
+          {
+            "name": "Rival Wally (Hint)",
+            "chest_unopened_img": "/images/locations/wally.png",
+            "chest_opened_img": "/images/locations/wally_bw.png",
+            "visibility_rules": [
+              "mauville_city_rival_wally"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 84,
+            "y": 64
+          }
+        ]
+      },
+      {
+        "name": "Mauville Gym Hints",
+        "sections": [
+          {
+            "name": "Battle Girl Vivian (Hint)",
+            "chest_unopened_img": "/images/locations/battle_girl.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "mauville_gym_battle_girl_vivian"
+            ]
+          },
+          {
+            "name": "Guitarist Kirk (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "mauville_gym_guitarist_kirk"
+            ]
+          },
+          {
+            "name": "Youngster Ben (Hint)",
+            "chest_unopened_img": "/images/locations/youngster.png",
+            "chest_opened_img": "/images/locations/youngster_bw.png",
+            "visibility_rules": [
+              "mauville_gym_youngster_ben"
+            ]
+          },
+          {
+            "name": "Bug Maniac Angelo (Hint)",
+            "chest_unopened_img": "/images/locations/fossil_maniac.png",
+            "chest_opened_img": "/images/locations/fossil_maniac_bw.png",
+            "visibility_rules": [
+              "mauville_gym_bug_maniac_angelo"
+            ]
+          },
+          {
+            "name": "Guitarist Shawn (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "mauville_gym_guitarist_shawn"
+            ]
+          },
+          {
+            "name": "Leader Wattson (Hint)",
+            "chest_unopened_img": "/images/locations/wattson.png",
+            "chest_opened_img": "/images/locations/wattson_bw.png",
+            "visibility_rules": [
+              "mauville_gym_leader_wattson"
+            ]
+          },
+          {
+            "name": "Dynamo Badge (Hint)",
+            "chest_unopened_img": "/images/locations/wattson_dynamo_badge.png",
+            "chest_opened_img": "/images/locations/wattson_dynamo_badge_bw.png",
+            "visibility_rules": [
+              "mauville_gym_dynamo_badge"
+            ]
+          },
+          {
+            "name": "TM34 from Wattson (Hint)",
+            "chest_unopened_img": "/images/locations/wattson_electric_tm.png",
+            "chest_opened_img": "/images/locations/wattson_electric_tm_bw.png",
+            "visibility_rules": [
+              "mauville_gym_tm34_from_wattson"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 76,
+            "y": 72
+          }
+        ]
+      },
+      {
+        "name": "Fallarbor Town Hints",
+        "sections": [
+          {
+            "name": "TM27 from Cozmo (Hint)",
+            "chest_unopened_img": "/images/locations/cozmo_normal_tm.png",
+            "chest_opened_img": "/images/locations/cozmo_normal_tm_bw.png",
+            "visibility_rules": [
+              "fallarbor_town_tm27_from_cozmo"
+            ]
+          },
+          {
+            "name": "Hidden Item in Crater (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "fallarbor_town_hidden_item_in_crater"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 36,
+            "y": 16
+          }
+        ]
+      },
+      {
+        "name": "Lavaridge Town Hints",
+        "sections": [
+          {
+            "name": "Hidden Item in Springs (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "lavaridge_town_hidden_item_in_springs"
+            ]
+          },
+          {
+            "name": "Charcoal from Man (Hint)",
+            "chest_unopened_img": "/images/locations/old_man_charcoal.png",
+            "chest_opened_img": "/images/locations/old_man_charcoal_bw.png",
+            "visibility_rules": [
+              "lavaridge_town_herb_shop_charcoal_from_man"
+            ]
+          },
+          {
+            "name": "Go Goggles from Rival (Hint)",
+            "chest_unopened_img": "/images/locations/rival_go_goggles.png",
+            "chest_opened_img": "/images/locations/rival_go_goggles_bw.png",
+            "visibility_rules": [
+              "lavaridge_town_go_goggles_from_rival"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 48,
+            "y": 44
+          }
+        ]
+      },
+      {
+        "name": "Lavaridge Gym Hints",
+        "sections": [
+          {
+            "name": "Kindler Jeff (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_kindler_jeff"
+            ]
+          },
+          {
+            "name": "Kindler Jace (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_kindler_jace"
+            ]
+          },
+          {
+            "name": "Hiker Eli (Hint)",
+            "chest_unopened_img": "/images/locations/hiker.png",
+            "chest_opened_img": "/images/locations/hiker_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_hiker_eli"
+            ]
+          },
+          {
+            "name": "Kindler Cole (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_kindler_cole"
+            ]
+          },
+          {
+            "name": "Cooltrainer Gerald (Hint)",
+            "chest_unopened_img": "/images/locations/cooltrainer_male.png",
+            "chest_opened_img": "/images/locations/cooltrainer_male_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_cooltrainer_gerald"
+            ]
+          },
+          {
+            "name": "Kindler Axle (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_kindler_axle"
+            ]
+          },
+          {
+            "name": "Kindler Keegan (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_kindler_keegan"
+            ]
+          },
+          {
+            "name": "Battle Girl Danielle (Hint)",
+            "chest_unopened_img": "/images/locations/battle_girl.png",
+            "chest_opened_img": "/images/locations/battle_girl_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_battle_girl_danielle"
+            ]
+          },
+          {
+            "name": "Leader Flannery (Hint)",
+            "chest_unopened_img": "/images/locations/flannery.png",
+            "chest_opened_img": "/images/locations/flannery_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_leader_flannery"
+            ]
+          },
+          {
+            "name": "Heat Badge (Hint)",
+            "chest_unopened_img": "/images/locations/flannery_heat_badge.png",
+            "chest_opened_img": "/images/locations/flannery_heat_badge_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_heat_badge"
+            ]
+          },
+          {
+            "name": "TM50 from Flannery (Hint)",
+            "chest_unopened_img": "/images/locations/flannery_fire_tm.png",
+            "chest_opened_img": "/images/locations/flannery_fire_tm_bw.png",
+            "visibility_rules": [
+              "lavaridge_gym_tm50_from_flannery"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 48,
+            "y": 52
+          }
+        ]
+      },
+      {
+        "name": "Verdanturf Town Hints",
+        "sections": [
+          {
+            "name": "TM45 from Woman in Battle Tent (Hint)",
+            "chest_unopened_img": "/images/locations/girl_normal_tm.png",
+            "chest_opened_img": "/images/locations/girl_normal_tm_bw.png",
+            "visibility_rules": [
+              "verdanturf_town_tm45_from_woman_in_battle_tent"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 48,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Fortree City Hints",
+        "sections": [
+          {
+            "name": "TM10 from Hidden Power Lady (Hint)",
+            "chest_unopened_img": "/images/locations/old_lady_normal_tm.png",
+            "chest_opened_img": "/images/locations/old_lady_normal_tm_bw.png",
+            "visibility_rules": [
+              "fortree_city_tm10_from_hidden_power_lady"
+            ]
+          },
+          {
+            "name": "Wingull Delivery Reward (Hint)",
+            "chest_unopened_img": "/images/locations/man_mental_herb.png",
+            "chest_opened_img": "/images/locations/man_mental_herb_bw.png",
+            "visibility_rules": [
+              "fortree_city_wingull_delivery_reward"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 108,
+            "y": 24
+          }
+        ]
+      },
+      {
+        "name": "Fortree Gym Hints",
+        "sections": [
+          {
+            "name": "Bird Keeper Humberto (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "fortree_gym_bird_keeper_humberto"
+            ]
+          },
+          {
+            "name": "Picnicker Ashley (Hint)",
+            "chest_unopened_img": "/images/locations/picnicker.png",
+            "chest_opened_img": "/images/locations/picnicker_bw.png",
+            "visibility_rules": [
+              "fortree_gym_picnicker_ashley"
+            ]
+          },
+          {
+            "name": "Bird Keeper Jared (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "fortree_gym_bird_keeper_jared"
+            ]
+          },
+          {
+            "name": "Camper Flint (Hint)",
+            "chest_unopened_img": "/images/locations/camper.png",
+            "chest_opened_img": "/images/locations/camper_bw.png",
+            "visibility_rules": [
+              "fortree_gym_camper_flint"
+            ]
+          },
+          {
+            "name": "Bird Keeper Edwardo (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "fortree_gym_bird_keeper_edwardo"
+            ]
+          },
+          {
+            "name": "Bird Keeper Darius (Hint)",
+            "chest_unopened_img": "/images/locations/guitarist.png",
+            "chest_opened_img": "/images/locations/guitarist_bw.png",
+            "visibility_rules": [
+              "fortree_gym_bird_keeper_darius"
+            ]
+          },
+          {
+            "name": "Leader Winona (Hint)",
+            "chest_unopened_img": "/images/locations/winona.png",
+            "chest_opened_img": "/images/locations/winona_bw.png",
+            "visibility_rules": [
+              "fortree_gym_leader_winona"
+            ]
+          },
+          {
+            "name": "Feather Badge (Hint)",
+            "chest_unopened_img": "/images/locations/winona_feather_badge.png",
+            "chest_opened_img": "/images/locations/winona_feather_badge_bw.png",
+            "visibility_rules": [
+              "fortree_gym_feather_badge"
+            ]
+          },
+          {
+            "name": "TM40 from Winona (Hint)",
+            "chest_unopened_img": "/images/locations/winona_flying_tm.png",
+            "chest_opened_img": "/images/locations/winona_flying_tm_bw.png",
+            "visibility_rules": [
+              "fortree_gym_tm40_from_winona"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 108,
+            "y": 8
+          }
+        ]
+      },
+      {
+        "name": "Lilycove City Hints",
+        "sections": [
+          {
+            "name": "Rival Brendan or May (Hint)",
+            "chest_unopened_img": "/images/locations/rival.png",
+            "chest_opened_img": "/images/locations/rival_bw.png",
+            "visibility_rules": [
+              "lilycove_city_rival_brendan_may"
+            ]
+          },
+          {
+            "name": "Berry from Gentleman Above Ledges (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman_cheri_berry.png",
+            "chest_opened_img": "/images/locations/gentleman_cheri_berry_bw.png",
+            "visibility_rules": [
+              "lilycove_city_berry_from_gentleman_above_ledges"
+            ]
+          },
+          {
+            "name": "TM44 from Man in House (Hint)",
+            "chest_unopened_img": "/images/locations/man_psychic_tm.png",
+            "chest_opened_img": "/images/locations/man_psychic_tm_bw.png",
+            "visibility_rules": [
+              "lilycove_city_tm44_from_man_in_house"
+            ]
+          },
+          {
+            "name": "Hidden Item on Beach North (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "lilycove_city_hidden_item_on_beach_north"
+            ]
+          },
+          {
+            "name": "Hidden Item on Beach East (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "lilycove_city_hidden_item_on_beach_east"
+            ]
+          },
+          {
+            "name": "Hidden Item on Beach West (Hint)",
+            "chest_unopened_img": "/images/locations/hidden_item.png",
+            "chest_opened_img": "/images/locations/hidden_item_bw.png",
+            "visibility_rules": [
+              "lilycove_city_hidden_item_on_beach_west"
+            ]
+          },
+          {
+            "name": "Item on Peninsula (Hint)",
+            "visibility_rules": [
+              "lilycove_city_item_on_peninsula"
+            ]
+          },
+          {
+            "name": "Pokeblock Case from Contest Hall (Hint)",
+            "chest_unopened_img": "/images/locations/contest_hall_employee_pokeblock_case.png",
+            "chest_opened_img": "/images/locations/contest_hall_employee_pokeblock_case_bw.png",
+            "visibility_rules": [
+              "lilycove_city_pokeblock_case_from_contest_hall"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 160,
+            "y": 40
+          }
+        ]
+      },
+      {
+        "name": "Mossdeep City Hints",
+        "sections": [
+          {
+            "name": "King's Rock from Boy (Hint)",
+            "chest_unopened_img": "/images/locations/boy_kings_rock.png",
+            "chest_opened_img": "/images/locations/boy_kings_rock_bw.png",
+            "visibility_rules": [
+              "mossdeep_city_kings_rock_from_boy"
+            ]
+          },
+          {
+            "name": "Item (Hint)",
+            "visibility_rules": [
+              "mossdeep_city_item"
+            ]
+          },
+          {
+            "name": "Super Rod from Fisherman in House (Hint)",
+            "chest_unopened_img": "/images/locations/fisherman_super_rod.png",
+            "chest_opened_img": "/images/locations/fisherman_super_rod_bw.png",
+            "visibility_rules": [
+              "mossdeep_city_super_rod_from_fisherman_in_house"
+            ]
+          },
+          {
+            "name": "HM08 from Steven (Hint)",
+            "chest_unopened_img": "/images/locations/steven_water_hm.png",
+            "chest_opened_img": "/images/locations/steven_water_hm_bw.png",
+            "visibility_rules": [
+              "mossdeep_city_hm08_from_stevens_house"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 208,
+            "y": 64
+          }
+        ]
+      },
+      {
+        "name": "Mossdeep Gym Hints",
+        "sections": [
+          {
+            "name": "Psychic Preston (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_preston"
+            ]
+          },
+          {
+            "name": "Psychic Maura (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_maura"
+            ]
+          },
+          {
+            "name": "Hex Maniac Kathleen (Hint)",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_hex_maniac_kathleen"
+            ]
+          },
+          {
+            "name": "Gentleman Clifford (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+            "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_gentleman_clifford"
+            ]
+          },
+          {
+            "name": "Psychic Nicholas (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_nicholas"
+            ]
+          },
+          {
+            "name": "Psychic Macey (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_macey"
+            ]
+          },
+          {
+            "name": "Psychic Samantha (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_samantha"
+            ]
+          },
+          {
+            "name": "Psychic Blake (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_blake"
+            ]
+          },
+          {
+            "name": "Gentleman Nate (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman.png",
+            "chest_opened_img": "/images/locations/gentleman_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_gentleman_nate"
+            ]
+          },
+          {
+            "name": "Psychic Virgil (Hint)",
+            "chest_unopened_img": "/images/locations/psychic_male.png",
+            "chest_opened_img": "/images/locations/psychic_male_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_virgil"
+            ]
+          },
+          {
+            "name": "Hex Maniac Sylvia (Hint)",
+            "chest_unopened_img": "/images/locations/hex_maniac.png",
+            "chest_opened_img": "/images/locations/hex_maniac_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_hex_maniac_sylvia"
+            ]
+          },
+          {
+            "name": "Psychic Hannah (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_psychic_hannah"
+            ]
+          },
+          {
+            "name": "Leaders Tate & Liza (Hint)",
+            "chest_unopened_img": "/images/locations/tate_and_liza.png",
+            "chest_opened_img": "/images/locations/tate_and_liza_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_leader_tate_and_liza"
+            ]
+          },
+          {
+            "name": "Mind Badge (Hint)",
+            "chest_unopened_img": "/images/locations/tate_and_liza_mind_badge.png",
+            "chest_opened_img": "/images/locations/tate_and_liza_mind_badge_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_mind_badge"
+            ]
+          },
+          {
+            "name": "TM04 from Tate & Liza (Hint)",
+            "chest_unopened_img": "/images/locations/tate_and_liza_psychic_tm.png",
+            "chest_opened_img": "/images/locations/tate_and_liza_psychic_tm_bw.png",
+            "visibility_rules": [
+              "mossdeep_gym_tm04_from_tate_and_liza"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 200,
+            "y": 64
+          }
+        ]
+      },
+      {
+        "name": "Sootopolis City Hints",
+        "sections": [
+          {
+            "name": "Berry from Girl on Grass 1 (Hint)",
+            "chest_unopened_img": "/images/locations/kiri_figy_berry.png",
+            "chest_opened_img": "/images/locations/kiri_figy_berry_bw.png",
+            "visibility_rules": [
+              "sootopolis_city_berry_from_girl_on_grass_1"
+            ]
+          },
+          {
+            "name": "Berry from Girl on Grass 2 (Hint)",
+            "chest_unopened_img": "/images/locations/kiri_figy_berry.png",
+            "chest_opened_img": "/images/locations/kiri_figy_berry_bw.png",
+            "visibility_rules": [
+              "sootopolis_city_berry_from_girl_on_grass_2"
+            ]
+          },
+          {
+            "name": "TM31 from Black Belt in House (Hint)",
+            "chest_unopened_img": "/images/locations/black_belt_fighting_tm.png",
+            "chest_opened_img": "/images/locations/black_belt_fighting_tm_bw.png",
+            "visibility_rules": [
+              "sootopolis_city_tm31_from_black_belt_in_house"
+            ]
+          },
+          {
+            "name": "HM07 from Wallace (Hint)",
+            "chest_unopened_img": "/images/locations/wallace_water_hm.png",
+            "chest_opened_img": "/images/locations/wallace_water_hm_bw.png",
+            "visibility_rules": [
+              "sootopolis_city_hm07_from_wallace"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 176,
+            "y": 76
+          }
+        ]
+      },
+      {
+        "name": "Sootopolis Gym Hints",
+        "sections": [
+          {
+            "name": "Beauty Connie (Hint)",
+            "chest_unopened_img": "/images/locations/beauty.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_beauty_connie"
+            ]
+          },
+          {
+            "name": "Lass Andrea (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_lass_andrea"
+            ]
+          },
+          {
+            "name": "Lady Daphne (Hint)",
+            "chest_unopened_img": "/images/locations/lady.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_lady_daphne"
+            ]
+          },
+          {
+            "name": "Pokefan Annika (Hint)",
+            "chest_unopened_img": "/images/locations/pokefan_female.png",
+            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_pokefan_annika"
+            ]
+          },
+          {
+            "name": "Beauty Tiffany (Hint)",
+            "chest_unopened_img": "/images/locations/beauty.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_beauty_tiffany"
+            ]
+          },
+          {
+            "name": "Lass Crissy (Hint)",
+            "chest_unopened_img": "/images/locations/lass.png",
+            "chest_opened_img": "/images/locations/lass_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_lass_crissy"
+            ]
+          },
+          {
+            "name": "Pokefan Bethany (Hint)",
+            "chest_unopened_img": "/images/locations/pokefan_female.png",
+            "chest_opened_img": "/images/locations/pokefan_female_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_pokefan_bethany"
+            ]
+          },
+          {
+            "name": "Beauty Olivia (Hint)",
+            "chest_unopened_img": "/images/locations/beauty.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_beauty_olivia"
+            ]
+          },
+          {
+            "name": "Lady Brianna (Hint)",
+            "chest_unopened_img": "/images/locations/lady.png",
+            "chest_opened_img": "/images/locations/lady_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_lady_brianna"
+            ]
+          },
+          {
+            "name": "Beauty Bridget (Hint)",
+            "chest_unopened_img": "/images/locations/beauty.png",
+            "chest_opened_img": "/images/locations/beauty_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_beauty_bridget"
+            ]
+          },
+          {
+            "name": "Leader Juan (Hint)",
+            "chest_unopened_img": "/images/locations/juan.png",
+            "chest_opened_img": "/images/locations/juan_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_leader_juan"
+            ]
+          },
+          {
+            "name": "Rain Badge (Hint)",
+            "chest_unopened_img": "/images/locations/juan_rain_badge.png",
+            "chest_opened_img": "/images/locations/juan_rain_badge_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_rain_badge"
+            ]
+          },
+          {
+            "name": "TM03 from Juan (Hint)",
+            "chest_unopened_img": "/images/locations/juan_water_tm.png",
+            "chest_opened_img": "/images/locations/juan_water_tm_bw.png",
+            "visibility_rules": [
+              "sootopolis_gym_tm03_from_juan"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 176,
+            "y": 68
+          }
+        ]
+      },
+      {
+        "name": "Pacifidlog Town Hints",
+        "sections": [
+          {
+            "name": "TM27 from Man in House (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
+            "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
+            "visibility_rules": [
+              "pacifidlog_town_tm27_from_man_in_house"
+            ]
+          },
+          {
+            "name": "TM21 from Man in House (Hint)",
+            "chest_unopened_img": "/images/locations/gentleman_normal_tm.png",
+            "chest_opened_img": "/images/locations/gentleman_normal_tm_bw.png",
+            "visibility_rules": [
+              "pacifidlog_town_tm21_from_man_in_house"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 148,
+            "y": 104
+          },
+          {
+            "map": "pacifidlog",
+            "x": 130,
+            "y": 713
+          },
+          {
+            "map": "pacifidlog_house_2",
+            "x": 126,
+            "y": 166
+          }
+        ]
+      },
+      {
+        "name": "Ever Grande City Hints",
+        "sections": [
+          {
+            "name": "Elite Four Sidney (Hint)",
+            "chest_unopened_img": "/images/locations/sidney.png",
+            "chest_opened_img": "/images/locations/sidney_bw.png",
+            "visibility_rules": [
+              "ever_grande_city_elite_four_sidney"
+            ]
+          },
+          {
+            "name": "Elite Four Phoebe (Hint)",
+            "chest_unopened_img": "/images/locations/phoebe.png",
+            "chest_opened_img": "/images/locations/phoebe_bw.png",
+            "visibility_rules": [
+              "ever_grande_city_elite_four_phoebe"
+            ]
+          },
+          {
+            "name": "Elite Four Glacia (Hint)",
+            "chest_unopened_img": "/images/locations/glacia.png",
+            "chest_opened_img": "/images/locations/glacia_bw.png",
+            "visibility_rules": [
+              "ever_grande_city_elite_four_glacia"
+            ]
+          },
+          {
+            "name": "Elite Four Drake (Hint)",
+            "chest_unopened_img": "/images/locations/drake.png",
+            "chest_opened_img": "/images/locations/drake_bw.png",
+            "visibility_rules": [
+              "ever_grande_city_elite_four_drake"
+            ]
+          },
+          {
+            "name": "Champion Wallace (Hint)",
+            "chest_unopened_img": "/images/locations/wallace.png",
+            "chest_opened_img": "/images/locations/wallace_bw.png",
+            "visibility_rules": [
+              "ever_grande_city_champion_wallace"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "x": 228,
+            "y": 80
+          },
+          {
+            "map": "evergrande",
+            "x": 1879,
+            "y": 258
+          },
+          {
+            "map": "pokemon_league_1f",
+            "x": 319,
+            "y": 54
+          },
+          {
+            "map": "pokemon_league_hall_sydney",
+            "x": 176,
+            "y": 94
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "tab_switch_grid": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "tab_switch"
+              ],
+              [
+                "split_map_overworld"
+              ],
+              [
+                "split_map_encounter"
+              ],
+              [
+                "encounter_locations"
+              ],
+              [
+                "hints_tracking"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "tab_switch_grid_vertical": {
+    "type": "array",
+    "orientation": "vertical",
+    "margin": "0,0",
+    "content": [
+      {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0,0",
+        "content": [
+          {
+            "type": "itemgrid",
+            "item_margin": "2,2",
+            "h_alignment": "center",
+            "rows": [
+              [
+                "tab_switch",
+                "split_map_overworld",
+                "split_map_encounter",
+                "encounter_locations",
+                "hints_tracking"
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
