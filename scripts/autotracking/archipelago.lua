@@ -5,6 +5,7 @@ ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/pokemon_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/setting_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
+ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 
 CUR_INDEX = -1
 PLAYER_ID = -1
@@ -84,12 +85,15 @@ function onClear(slot_data)
     EVENT_ID = "pokemon_emerald_events_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
     KEY_ITEMS_ID = "pokemon_emerald_keys_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
     LEGENDARY_ID = "pokemon_emerald_legendaries_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
+    HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_NUMBER
     Archipelago:SetNotify({EVENT_ID})
     Archipelago:Get({EVENT_ID})
     Archipelago:SetNotify({KEY_ITEMS_ID})
     Archipelago:Get({KEY_ITEMS_ID})
     Archipelago:SetNotify({LEGENDARY_ID})
     Archipelago:Get({LEGENDARY_ID})
+    Archipelago:SetNotify({HINTS_ID})
+    Archipelago:Get({HINTS_ID})
   end
   Tracker:FindObjectForCode("tab_switch").Active = 1
   Tracker.BulkUpdate = false
@@ -149,6 +153,17 @@ function onNotify(key, value, old_value)
       updateKeyItems(value, false)
     elseif key == LEGENDARY_ID then
       updateLegendaries(value, false)
+    elseif key == HINTS_ID then
+      for _, hint in ipairs(value) do
+        if hint.finding_player == Archipelago.PlayerNumber then
+          if not hint.found then
+              updateHints(hint.location)
+          else if hint.found then
+              updateHintsClear(hint.location)
+              end
+          end
+        end
+      end
     end
   end
 end
@@ -160,6 +175,17 @@ function onNotifyLaunch(key, value)
     updateKeyItems(value, false)
   elseif key == LEGENDARY_ID then
     updateLegendaries(value, false)
+  elseif key == HINTS_ID then
+    for _, hint in ipairs(value) do
+      if hint.finding_player == Archipelago.PlayerNumber then
+        if not hint.found then
+            updateHints(hint.location)
+        else if hint.found then
+            updateHintsClear(hint.location)
+            end
+        end
+      end
+    end
   end
 end
 
@@ -233,6 +259,32 @@ function updateLegendaries(value, reset)
       end
     end
     Tracker:FindObjectForCode("legendary_hunt_count").CurrentStage = count
+  end
+end
+
+function updateHints(locationID)
+  local item_codes = HINTS_MAPPING[locationID]
+
+  for _, item_code in ipairs(item_codes) do
+      local obj = Tracker:FindObjectForCode(item_code)
+      if obj then
+          obj.Active = true
+      else
+          print(string.format("No object found for code: %s", item_code))
+      end
+  end
+end
+
+function updateHintsClear(locationID)
+  local item_codes = HINTS_MAPPING[locationID]
+
+  for _, item_code in ipairs(item_codes) do
+      local obj = Tracker:FindObjectForCode(item_code)
+      if obj then
+          obj.Active = false
+      else
+          print(string.format("No object found for code: %s", item_code))
+      end
   end
 end
 

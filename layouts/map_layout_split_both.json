@@ -8,6 +8,24 @@
         "dock": "top",
         "tabs": [
           {
+            "title": "Hoenn",
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "encounters"
+            }
+          },
+          {
+            "title": "Encounters",
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "overworld"
+            }
+          },
+          {
             "title": "Cities",
             "content": {
               "type": "dock",
@@ -54,6 +72,7 @@
         "orientation": "vertical",
         "content": [
           {
+            "title": "Encounters",
             "type": "dock",
             "dock": "top",
             "content": {
@@ -62,6 +81,7 @@
             }
           },
           {
+            "title": "Hoenn",
             "type": "dock",
             "dock": "top",
             "content": {

@@ -14,13 +14,15 @@
         [
           {
             "type": "itemgrid",
-            "item_margin": "2,2",
+            "item_margin": "2,0",
             "item_size": "50",
-            "h_alignment": "left",
+            "h_alignment": "center",
             "rows":
             [
-              [""],
-              ["split_map_overworld","tab_switch", "split_map_encounter"]
+              ["split_map_overworld","tab_switch", "split_map_encounter"],
+              ["overworld_on_label","autotab_label","encounters_on_label"],
+              ["encounter_locations", "hints_tracking"],
+              ["encounter_locations_label","hints_tracking_label"]
             ]
           }
         ]

@@ -14,6 +14,16 @@
         }
       },
       {
+        "title": "Encounters",
+        "content": {
+          "type": "dock",
+          "content": {
+            "type": "layout",
+            "key": "encounters"
+          }
+        }
+      },
+      {
         "title": "Cities",
         "content": {
           "type": "dock",

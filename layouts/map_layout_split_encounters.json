@@ -9,12 +9,20 @@
         "tabs": [
           {
             "title": "Hoenn",
+            "type": "dock",
+            "dock": "top",
             "content": {
-              "type": "dock",
-              "content": {
-                "type": "layout",
-                "key": "overworld"
-              }
+              "type": "layout",
+              "key": "encounters"
+            }
+          },
+          {
+            "title": "Encounters",
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "overworld"
             }
           },
           {
@@ -60,12 +68,19 @@
         ]
       },
       {
-        "type": "dock",
-        "dock": "top",
-        "content": {
-          "type": "layout",
-          "key": "encounters"
-        }
+        "type": "array",
+        "orientation": "vertical",
+        "content": [
+          {
+            "title": "Encounters",
+            "type": "dock",
+            "dock": "top",
+            "content": {
+              "type": "layout",
+              "key": "encounters"
+            }
+          }
+        ]
       }
     ]
   }

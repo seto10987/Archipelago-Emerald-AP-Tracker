@@ -1150,7 +1150,7 @@
         "stages": [
             {
                 "name": "Auto-Tab - Off",
-                "img": "images/settings/autotab_off.png",
+                "img": "images/settings/autotab.png",
                 "img_mods": "@disabled",
                 "inherit_codes": false
             },
@@ -1161,6 +1161,11 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "type": "static",
+        "img": "/images/overlays/auto.png",
+        "codes": "autotab_label"
     },
     {
         "name": "Overworld Map",
@@ -1186,6 +1191,11 @@
         ]
     },
     {
+        "type": "static",
+        "img": "/images/settings/overworld_on_label.png",
+        "codes": "overworld_on_label"
+    },
+    {
         "name": "Encounter Map",
         "type": "progressive",
         "allow_disabled": false,
@@ -1207,5 +1217,66 @@
                 "inherit_codes": false
             }
         ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/encounter_on_label.png",
+        "codes": "encounters_on_label"
+    },
+    {
+        "name": "Encounter Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "encounter_locations",
+        "stages": [
+            {
+                "name": "Encounter Tracking - Off",
+                "img": "images/settings/encounter_locations.png",
+                "img_mods": "@disabled",
+                "codes": "encounter_locations",
+                "inherit_codes": false
+            },
+            {
+                "name": "Encounter Tracking - On",
+                "img": "images/settings/encounter_locations.png",
+                "codes": "encounter_locations, encounter_locations_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/encounter_locations_label.png",
+        "codes": "encounter_locations_label"
+    },
+    {
+        "name": "Hints Tracking",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "codes": "hints_tracking",
+        "stages": [
+            {
+                "name": "Hints Tracking - Off",
+                "img": "images/settings/hints_tracking.png",
+                "img_mods": "@disabled",
+                "codes": "hints_tracking",
+                "inherit_codes": false
+            },
+            {
+                "name": "Hints Tracking - On",
+                "img": "images/settings/hints_tracking.png",
+                "codes": "hints_tracking, hints_tracking_on",
+                "inherit_codes": false
+            }
+        ]
+    },
+    {
+        "type": "static",
+        "img": "/images/settings/hints_tracking_label.png",
+        "codes": "hints_tracking_label"
     }
 ]

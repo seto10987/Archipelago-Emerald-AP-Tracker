@@ -34,7 +34,8 @@
           {
             "map": "rt_101",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -113,7 +114,8 @@
           {
             "map": "rt_102",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -189,7 +191,8 @@
           {
             "map": "rt_103",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -232,7 +235,8 @@
           {
             "map": "petalburg",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -299,12 +303,14 @@
           {
             "map": "rt_104",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_104",
             "x": 1320,
-            "y": 214
+            "y": 214,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -358,7 +364,8 @@
           {
             "map": "petalburg_woods",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -414,7 +421,8 @@
           {
             "map": "rt_105",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -470,7 +478,8 @@
           {
             "map": "rt_106",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -526,7 +535,8 @@
           {
             "map": "dewford",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -566,7 +576,8 @@
           {
             "map": "granite_cave_1f",
             "x": 96,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -611,7 +622,8 @@
           {
             "map": "granite_cave_b1f",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -651,7 +663,8 @@
           {
             "map": "granite_cave_b2f",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -691,7 +704,8 @@
           {
             "map": "granite_cave_s",
             "x": 96,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -747,7 +761,8 @@
           {
             "map": "rt_107",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -803,7 +818,8 @@
           {
             "map": "rt_108",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -851,7 +867,8 @@
           {
             "map": "abandoned_ship_rooms_1_b1f",
             "x": 336,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -899,7 +916,8 @@
           {
             "map": "abandoned_ship_hidden_floor_corridors",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -955,7 +973,8 @@
           {
             "map": "rt_109",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1011,7 +1030,8 @@
           {
             "map": "slateport",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1108,13 +1128,15 @@
           {
             "map": "rt_110",
             "x": 32,
-            "y": 285
+            "y": 285,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
-          //{
-          //  "map": "rt_110",
-          //  "x": 2856,
-          //  "y": 806
-          //}
+          {
+           "map": "rt_110",
+           "x": 2856,
+           "y": 806,
+           "restrict_visibility_rules": ["encounter_locations_on"]
+          }
         ]
       },
       {
@@ -1143,7 +1165,8 @@
           {
             "map": "new_mauville_entrance",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1183,7 +1206,8 @@
           {
             "map": "new_mauville",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1233,7 +1257,8 @@
           {
             "map": "rt_111",
             "x": 219,
-            "y": 791
+            "y": 791,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1273,7 +1298,8 @@
           {
             "map": "rt_111",
             "x": 1705,
-            "y": 878
+            "y": 878,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1303,7 +1329,8 @@
           {
             "map": "mirage_tower_1f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1333,7 +1360,8 @@
           {
             "map": "mirage_tower_2f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1363,7 +1391,8 @@
           {
             "map": "mirage_tower_3f",
             "x": 168,
-            "y": 120
+            "y": 120,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1393,7 +1422,8 @@
           {
             "map": "mirage_tower_4f",
             "x": 32,
-            "y": 39
+            "y": 39,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1443,7 +1473,8 @@
           {
             "map": "fiery_path",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1478,7 +1509,8 @@
           {
             "map": "jagged_pass",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1513,7 +1545,8 @@
           {
             "map": "magma_hideout_1f",
             "x": 160,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1548,7 +1581,8 @@
           {
             "map": "magma_hideout_2f1r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1583,7 +1617,8 @@
           {
             "map": "magma_hideout_2f2r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1618,7 +1653,8 @@
           {
             "map": "magma_hideout_2f3r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1653,7 +1689,8 @@
           {
             "map": "magma_hideout_3f1r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1688,7 +1725,8 @@
           {
             "map": "magma_hideout_3f2r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1723,7 +1761,8 @@
           {
             "map": "magma_hideout_3f3r",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1758,7 +1797,8 @@
           {
             "map": "magma_hideout_4f",
             "x": 32,
-            "y": 96
+            "y": 96,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1788,12 +1828,14 @@
           {
             "map": "rt_112",
             "x": 2391,
-            "y": 685
+            "y": 685,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_112",
             "x": 1071,
-            "y": 571
+            "y": 571,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1828,7 +1870,8 @@
           {
             "map": "rt_113",
             "x": 1256,
-            "y": 948
+            "y": 948,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1903,7 +1946,8 @@
           {
             "map": "rt_114",
             "x": 2124,
-            "y": 803
+            "y": 803,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -1963,7 +2007,8 @@
           {
             "map": "meteor_falls_1f1r",
             "x": 896,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2029,7 +2074,8 @@
           {
             "map": "meteor_falls_1f2r",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2095,7 +2141,8 @@
           {
             "map": "meteor_falls_b1f1r",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2166,7 +2213,8 @@
           {
             "map": "meteor_falls_b1f2r",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2196,7 +2244,8 @@
           {
             "map": "meteor_falls_steven",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2281,12 +2330,14 @@
           {
             "map": "rt_115",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_115",
             "x": 1336,
-            "y": 178
+            "y": 178,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2335,7 +2386,8 @@
           {
             "map": "rt_116",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2359,7 +2411,8 @@
           {
             "map": "rusturf_tunnel",
             "x": 48,
-            "y": 720
+            "y": 720,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2439,7 +2492,8 @@
           {
             "map": "rt_117",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2537,12 +2591,14 @@
           {
             "map": "rt_118",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_118",
             "x": 447,
-            "y": 696
+            "y": 696,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2623,12 +2679,14 @@
           {
             "map": "rt_119",
             "x": 1230,
-            "y": 150
+            "y": 150,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_119",
             "x": 1304,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2713,17 +2771,20 @@
           {
             "map": "rt_120",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_120",
             "x": 1336,
-            "y": 218
+            "y": 218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_120",
             "x": 2624,
-            "y": 218
+            "y": 218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2814,7 +2875,8 @@
           {
             "map": "rt_121",
             "x": 79,
-            "y": 695
+            "y": 695,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2869,7 +2931,8 @@
           {
             "map": "safari_south",
             "x": 1119,
-            "y": 766
+            "y": 766,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -2948,7 +3011,8 @@
           {
             "map": "safari_southwest",
             "x": 1149,
-            "y": 893
+            "y": 893,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3028,7 +3092,8 @@
           {
             "map": "safari_northwest",
             "x": 1087,
-            "y": 1216
+            "y": 1216,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3078,7 +3143,8 @@
           {
             "map": "safari_north",
             "x": 735,
-            "y": 1214
+            "y": 1214,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3138,7 +3204,8 @@
           {
             "map": "safari_northeast",
             "x": 1184,
-            "y": 893
+            "y": 893,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3240,7 +3307,8 @@
           {
             "map": "safari_southeast",
             "x": 1152,
-            "y": 383
+            "y": 383,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3302,7 +3370,8 @@
           {
             "map": "lilycove",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3361,7 +3430,8 @@
           {
             "map": "rt_122",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3471,6 +3541,170 @@
         ]
       },
       {
+          "name": "Mt. Pyre Interior 1F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 1F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 1F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_1f",
+                  "x": 32,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 2F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 2F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 2F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_2f",
+                  "x": 270,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 3F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 3F Encounter 1, 100%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 3F Encounter 1, 100%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_3f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 4F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 4F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 4F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 4F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 4F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_4f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 5F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 5F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 5F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 5F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 5F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_5f",
+                  "x": 224,
+                  "y": 32,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Interior 6F Encounter",
+          "sections": [
+              {
+                  "name": "Mt Pyre Interior 6F Encounter 1, 66.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 1, 66.6%"
+              },
+              {
+                  "name": "Mt Pyre Interior 6F Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Interior Encounters/Mt Pyre Interior 6F Encounter 2, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_6f",
+                  "x": 265,
+                  "y": 33,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Exterior Encounters​",
+          "sections": [
+              {
+                  "name": "Mt Pyre Exterior Encounter 1, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 1, 33.3%"
+              },
+              {
+                  "name": "Mt Pyre Exterior Encounter 2, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 2, 33.3%"
+              },
+              {
+                  "name": "Mt Pyre Exterior Encounter 3, 33.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Exterior Encounter 3, 33.3%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_ext",
+                  "x": 561,
+                  "y": 1026,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
+          "name": "Mt. Pyre Summit Encounters",
+          "sections": [
+              {
+                  "name": "Mt Pyre Summit Encounter 1, 58.3%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 1, 58.3%"
+              },
+              {
+                  "name": "Mt Pyre Summit Encounter 2, 25%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 2, 25%"
+              },
+              {
+                  "name": "Mt Pyre Summit Encounter 3, 16.6%",
+                  "ref": "Encounters Normalized/Mt. Pyre Exterior Encounters/Mt Pyre Summit Encounter 3, 16.6%"
+              }
+          ],
+          "map_locations": [
+              {
+                  "map": "mt_pyre_summit",
+                  "x": 48,
+                  "y": 80,
+                  "restrict_visibility_rules": ["encounter_locations_on"]
+              }
+          ]
+      },
+      {
         "name": "Route 123 Encounters",
         "access_rules": ["$lilycove_access,$surf"],
         "sections":
@@ -3554,12 +3788,14 @@
           {
             "map": "rt_123",
             "x": 1395,
-            "y": 721
+            "y": 721,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "rt_123",
             "x": 971,
-            "y": 1403
+            "y": 1403,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3636,6 +3872,80 @@
         ]
       },
       {
+          "name": "Route 124 Encounters Above",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Surf Encounter 1, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 1, 20%"
+                      },
+                      {
+                          "name": "Surf Encounter 2, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 2, 40%"
+                      },
+                      {
+                          "name": "Surf Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Surf Encounter 3, 40%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 1, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Old-Good Rod Encounter 1, 50%-33.3%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 2, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Old-Good Rod Encounter 2, 50%-33.3%"
+                      },
+                      {
+                          "name": "Good-Super Rod Encounter 3, 33.3%-80%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Good-Super Rod Encounter 3, 33.3%-80%"
+                      },
+                      {
+                          "name": "Super Rod Encounter 4, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Super Rod Encounter 4, 20%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_124",
+                          "x": 2426,
+                          "y": 1059,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Route 124 Encounters Underwater",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Dive Encounter 1, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 1, 40%"
+                      },
+                      {
+                          "name": "Dive Encounter 2, 20%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 2, 20%"
+                      },
+                      {
+                          "name": "Dive Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 124 Encounters/Dive Encounter 3, 40%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_124_underwater",
+                          "x": 32,
+                          "y": 32,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
         "name": "Route 125 Encounters",
         "access_rules": ["$route_124_access"],
         "sections":
@@ -3690,7 +4000,8 @@
           {
             "map": "rt_125",
             "x": 288,
-            "y": 1218
+            "y": 1218,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3753,7 +4064,7 @@
             "map": "mossdeep",
             "x": 48,
             "y": 48,
-            "size": 64
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3824,12 +4135,14 @@
           {
             "map": "shoal_cave_entrance_high",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "shoal_cave_entrance_low",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3900,12 +4213,14 @@
           {
             "map": "shoal_cave_inner_room_high",
             "x": 705,
-            "y": 1044
+            "y": 1044,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           },
           {
             "map": "shoal_cave_inner_room_low",
             "x": 705,
-            "y": 1044
+            "y": 1044,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3940,7 +4255,8 @@
           {
             "map": "shoal_cave_stairs_room",
             "x": 580,
-            "y": 343
+            "y": 343,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -3975,7 +4291,8 @@
           {
             "map": "shoal_cave_lower_room",
             "x": 749,
-            "y": 260
+            "y": 260,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4015,7 +4332,8 @@
           {
             "map": "shoal_cave_ice_room",
             "x": 591,
-            "y": 146
+            "y": 146,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4092,6 +4410,81 @@
         ]
       },
       {
+          "name": "Route 126 Encounters Above",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Surf Encounter 1, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 1, 20%"
+                      },
+                      {
+                          "name": "Surf Encounter 2, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 2, 40%"
+                      },
+                      {
+                          "name": "Surf Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Surf Encounter 3, 40%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 1, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Old-Good Rod Encounter 1, 50%-33.3%"
+                      },
+                      {
+                          "name": "Old-Good Rod Encounter 2, 50%-33.3%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Old-Good Rod Encounter 2, 50%-33.3%"
+                      },
+                      {
+                          "name": "Good-Super Rod Encounter 3, 33.3%-80%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Good-Super Rod Encounter 3, 33.3%-80%"
+                      },
+                      {
+                          "name": "Super Rod Encounter 4, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Super Rod Encounter 4, 20%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_126",
+                          "x": 2452,
+                          "y": 231,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Route 126 Encounters Underwater",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Dive Encounter 1, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 1, 40%"
+                      },
+                      {
+                          "name": "Dive Encounter 2, 20%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 2, 20%"
+                      },
+                      {
+                          "name": "Dive Encounter 3, 40%",
+                          "ref": "Encounters Normalized/Route 126 Encounters/Dive Encounter 3, 40%"
+                      }
+
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "rt_126_underwater",
+                          "x": 32,
+                          "y": 32,
+                          "restrict_visibility_rules": ["encounter_locations_on"]
+                      }
+                  ]
+              }
+          ]
+      },
+      {
         "name": "Sootopolis City Encounters",
         "access_rules": ["$sootopolis_access"],
         "sections":
@@ -4132,7 +4525,7 @@
             "map": "sootopolis",
             "x": 48,
             "y": 48,
-            "size": 64
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4163,7 +4556,7 @@
             "map": "cave_of_origin_entrance",
             "x": 48,
             "y": 48,
-            "size": 48
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4199,7 +4592,7 @@
             "map": "cave_of_origin_1f",
             "x": 48,
             "y": 48,
-            "size": 48
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4258,7 +4651,8 @@
           {
             "map": "rt_127",
             "x": 64,
-            "y": 64
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4314,7 +4708,8 @@
           {
             "map": "seafloor_cavern_ent",
             "x": 282,
-            "y": 65
+            "y": 65,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4344,7 +4739,8 @@
           {
             "map": "seafloor_cavern_1",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4374,7 +4770,8 @@
           {
             "map": "seafloor_cavern_2",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4404,7 +4801,8 @@
           {
             "map": "seafloor_cavern_3",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4434,7 +4832,8 @@
           {
             "map": "seafloor_cavern_4",
             "x": 16,
-            "y": 286
+            "y": 286,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4464,7 +4863,8 @@
           {
             "map": "seafloor_cavern_5",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4530,7 +4930,8 @@
           {
             "map": "seafloor_cavern_6",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4596,7 +4997,8 @@
           {
             "map": "seafloor_cavern_7",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4626,7 +5028,8 @@
           {
             "map": "seafloor_cavern_8",
             "x": 16,
-            "y": 16
+            "y": 16,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4691,7 +5094,8 @@
           {
             "map": "rt_128",
             "x": 1919,
-            "y": 86
+            "y": 86,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4755,7 +5159,8 @@
           {
             "map": "rt_129",
             "x": 64,
-            "y": 64
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4819,7 +5224,8 @@
           {
             "map": "rt_130",
             "x": 64,
-            "y": 64
+            "y": 64,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4878,7 +5284,8 @@
           {
             "map": "rt_131",
             "x": 182,
-            "y": 1175
+            "y": 1175,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4918,7 +5325,8 @@
           {
             "map": "sky_pillar_1f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -4958,7 +5366,8 @@
           {
             "map": "sky_pillar_3f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5003,7 +5412,8 @@
           {
             "map": "sky_pillar_5f",
             "x": 227,
-            "y": 259
+            "y": 259,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5063,7 +5473,7 @@
             "map": "pacifidlog",
             "x": 48,
             "y": 48,
-            "size": 48
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5128,7 +5538,8 @@
           {
             "map": "rt_132",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5193,7 +5604,8 @@
           {
             "map": "rt_133",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5258,16 +5670,14 @@
           {
             "map": "rt_134",
             "x": 2504,
-            "y": 73
+            "y": 73,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
       {
         "name": "Ever Grande City Encounters",
         "access_rules": ["$route_124_access", "$victory_road_access"],
-        // the patch of water below the waterfall also counts for these encounters.
-        // Hence, only needing surf to get here and access to RT124 which can also be achieved by freefly.
-        // This is still in the parent rules because the Fishing Encounters can work with Free Fly only, without surf.
         "sections":
         [
           {
@@ -5330,7 +5740,7 @@
             "map": "evergrande",
             "x": 48,
             "y": 48,
-            "size": 62
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5391,7 +5801,7 @@
             "map": "victory_road_1f",
             "x": 45,
             "y": 184,
-            "size": 64
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5432,7 +5842,7 @@
             "map": "victory_road_b1f",
             "x": 38,
             "y": 170,
-            "size": 64
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5502,9 +5912,49 @@
             "map": "victory_road_b2f",
             "x": 38,
             "y": 170,
-            "size": 64
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
+      },
+      {
+          "name": "Artisan Cave B1F Encounter",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Artisan Cave B1F Encounter 1, 100%​",
+                          "ref": "Encounters Normalized/Artisan Cave Encounters​/Artisan Cave B1F Encounter 1, 100%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "artisan_cave_b1f",
+                          "x": 32,
+                          "y": 32
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+          "name": "Artisan Cave 1F Encounter",
+          "children": [
+              {
+                  "sections": [
+                      {
+                          "name": "Artisan Cave 1F Encounter 1, 100%​",
+                          "ref": "Encounters Normalized/Artisan Cave Encounters​/Artisan Cave 1F Encounter 1, 100%"
+                      }
+                  ],
+                  "map_locations": [
+                      {
+                          "map": "artisan_cave_1f",
+                          "x": 32,
+                          "y": 32
+                      }
+                  ]
+              }
+          ]
       },
       {
         "name": "Desert Tunnel Encounters",
@@ -5537,7 +5987,8 @@
           {
             "map": "desert_underpass",
             "x": 32,
-            "y": 32
+            "y": 32,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       },
@@ -5562,7 +6013,8 @@
           {
             "map": "encountermap",
             "x": 188,
-            "y": 116
+            "y": 116,
+            "restrict_visibility_rules": ["encounter_locations_on"]
           }
         ]
       }
