@@ -13,7 +13,7 @@
             "dock": "top",
             "content": {
               "type": "layout",
-              "key": "encounters"
+              "key": "overworld"
             }
           },
           {
@@ -22,7 +22,7 @@
             "dock": "top",
             "content": {
               "type": "layout",
-              "key": "overworld"
+              "key": "encounters"
             }
           },
           {
