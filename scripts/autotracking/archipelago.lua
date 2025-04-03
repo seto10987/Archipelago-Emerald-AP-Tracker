@@ -18,8 +18,8 @@ LEGENDARY_ID = ""
 OBTAINED_ITEMS = {}
 UNCLEARED_ENCOUNTERS = {}
 
-function resetItems()
-  for _, value in pairs(ITEM_MAPPING) do
+function resetItems(mapping_table)
+  for _, value in pairs(mapping_table) do
     if value[1] then
       local object = Tracker:FindObjectForCode(value[1])
       if object then
@@ -50,7 +50,8 @@ function onClear(slot_data)
   CUR_INDEX = -1
   Tracker.BulkUpdate = true
   OBTAINED_ITEMS = {}
-  resetItems()
+  resetItems(ITEM_MAPPING)
+  resetItems(HINTS_MAPPING)
   resetLocations()
   if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
     print(dump_table(slot_data))
