@@ -224,6 +224,14 @@
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
+          },
+          {
+            "map": "rt_103",
+            "x": 221,
+            "y": 744,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
           }
         ]
       },
@@ -492,6 +500,14 @@
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
+          },
+          {
+            "map": "rt_105",
+            "x": 1321,
+            "y": 163,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
           }
         ]
       },
@@ -561,8 +577,16 @@
           },
           {
             "map": "rt_106",
-            "x": 32,
+            "x": 46,
             "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_106",
+            "x": 32,
+            "y": 680,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -1159,6 +1183,14 @@
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
+          },
+          {
+            "map": "rt_109",
+            "x": 1320,
+            "y": 174,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
           }
         ]
       },
@@ -1370,8 +1402,16 @@
           },
           {
             "map": "rt_110",
-            "x": 2856,
-            "y": 806,
+            "x": 1320,
+            "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_110",
+            "x": 2608,
+            "y": 145,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -1512,8 +1552,8 @@
           },
           {
             "map": "rt_111",
-            "x": 219,
-            "y": 791,
+            "x": 32,
+            "y": 393,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -1555,8 +1595,8 @@
           },
           {
             "map": "rt_111",
-            "x": 1705,
-            "y": 878,
+            "x": 1320,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -1816,8 +1856,8 @@
           },
           {
             "map": "magma_hideout_1f",
-            "x": 160,
-            "y": 32,
+            "x": 42,
+            "y": 95,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -2115,16 +2155,16 @@
           },
           {
             "map": "rt_112",
-            "x": 2391,
-            "y": 685,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
           },
           {
             "map": "rt_112",
-            "x": 1071,
-            "y": 571,
+            "x": 1320,
+            "y": 265,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -2161,8 +2201,16 @@
           },
           {
             "map": "rt_113",
-            "x": 1256,
-            "y": 948,
+            "x": 36,
+            "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_113",
+            "x": 32,
+            "y": 680,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -2252,8 +2300,16 @@
           },
           {
             "map": "rt_114",
-            "x": 2124,
-            "y": 803,
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_114",
+            "x": 1320,
+            "y": 56,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -2328,7 +2384,7 @@
           },
           {
             "map": "meteor_falls_1f1r",
-            "x": 896,
+            "x": 32,
             "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
@@ -2812,8 +2868,8 @@
           },
           {
             "map": "rusturf_tunnel",
-            "x": 48,
-            "y": 720,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3147,16 +3203,24 @@
           },
           {
             "map": "rt_119",
-            "x": 1230,
-            "y": 150,
+            "x": 32,
+            "y": 135,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
           },
           {
             "map": "rt_119",
-            "x": 1304,
+            "x": 1320,
             "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_119",
+            "x": 2608,
+            "y": 135,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3381,8 +3445,16 @@
           },
           {
             "map": "rt_121",
-            "x": 79,
-            "y": 695,
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_121",
+            "x": 175,
+            "y": 680,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3439,8 +3511,8 @@
           },
           {
             "map": "safari_south",
-            "x": 1119,
-            "y": 766,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3532,8 +3604,8 @@
           },
           {
             "map": "safari_southwest",
-            "x": 1149,
-            "y": 893,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3628,8 +3700,8 @@
           },
           {
             "map": "safari_northwest",
-            "x": 1087,
-            "y": 1216,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3681,8 +3753,8 @@
           },
           {
             "map": "safari_north",
-            "x": 735,
-            "y": 1214,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3745,8 +3817,8 @@
           },
           {
             "map": "safari_northeast",
-            "x": 1184,
-            "y": 893,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -3869,8 +3941,8 @@
           },
           {
             "map": "safari_southeast",
-            "x": 1152,
-            "y": 383,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6982,8 +7054,8 @@
           },
           {
             "map": "desert_underpass",
-            "x": 32,
-            "y": 32,
+            "x": 64,
+            "y": 64,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
