@@ -1260,7 +1260,7 @@
           },
           {
             "map": "slateport",
-            "x": 32,
+            "x": 1320,
             "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
@@ -4220,8 +4220,8 @@
         "map_locations": [
           {
             "map": "mt_pyre_1f",
-            "x": 32,
-            "y": 32,
+            "x": 16,
+            "y": 16,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4239,7 +4239,7 @@
         "map_locations": [
           {
             "map": "mt_pyre_2f",
-            "x": 270,
+            "x": 264,
             "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
@@ -4258,8 +4258,8 @@
         "map_locations": [
           {
             "map": "mt_pyre_3f",
-            "x": 265,
-            "y": 33,
+            "x": 264,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4281,8 +4281,8 @@
         "map_locations": [
           {
             "map": "mt_pyre_4f",
-            "x": 265,
-            "y": 33,
+            "x": 264,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4354,8 +4354,8 @@
         "map_locations": [
           {
             "map": "mt_pyre_ext",
-            "x": 561,
-            "y": 1026,
+            "x": 42,
+            "y": 88,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4481,16 +4481,24 @@
           },
           {
             "map": "rt_123",
-            "x": 1395,
-            "y": 721,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
           },
           {
             "map": "rt_123",
-            "x": 971,
-            "y": 1403,
+            "x": 32,
+            "y": 682,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          },
+          {
+            "map": "rt_123",
+            "x": 32,
+            "y": 1332,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4623,8 +4631,8 @@
             "map_locations": [
               {
                 "map": "rt_124",
-                "x": 2426,
-                "y": 1059,
+                "x": 64,
+                "y": 64,
                 "restrict_visibility_rules": [
                   "encounter_locations_on"
                 ]
@@ -4654,8 +4662,8 @@
             "map_locations": [
               {
                 "map": "rt_124_underwater",
-                "x": 32,
-                "y": 32,
+                "x": 64,
+                "y": 64,
                 "restrict_visibility_rules": [
                   "encounter_locations_on"
                 ]
@@ -4729,8 +4737,8 @@
           },
           {
             "map": "rt_125",
-            "x": 288,
-            "y": 1218,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -4997,16 +5005,16 @@
           },
           {
             "map": "shoal_cave_inner_room_high",
-            "x": 705,
-            "y": 1044,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
           },
           {
             "map": "shoal_cave_inner_room_low",
-            "x": 705,
-            "y": 1044,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -5043,8 +5051,8 @@
           },
           {
             "map": "shoal_cave_stairs_room",
-            "x": 580,
-            "y": 343,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -5081,8 +5089,8 @@
           },
           {
             "map": "shoal_cave_lower_room",
-            "x": 749,
-            "y": 260,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -5124,8 +5132,8 @@
           },
           {
             "map": "shoal_cave_ice_room",
-            "x": 591,
-            "y": 146,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -5258,8 +5266,8 @@
             "map_locations": [
               {
                 "map": "rt_126",
-                "x": 2452,
-                "y": 231,
+                "x": 64,
+                "y": 64,
                 "restrict_visibility_rules": [
                   "encounter_locations_on"
                 ]
@@ -5289,8 +5297,8 @@
             "map_locations": [
               {
                 "map": "rt_126_underwater",
-                "x": 32,
-                "y": 32,
+                "x": 64,
+                "y": 64,
                 "restrict_visibility_rules": [
                   "encounter_locations_on"
                 ]
@@ -5567,8 +5575,8 @@
           },
           {
             "map": "seafloor_cavern_ent",
-            "x": 282,
-            "y": 65,
+            "x": 16,
+            "y": 16,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -5701,7 +5709,7 @@
           {
             "map": "seafloor_cavern_4",
             "x": 16,
-            "y": 286,
+            "y": 16,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6016,8 +6024,8 @@
           },
           {
             "map": "rt_128",
-            "x": 1919,
-            "y": 86,
+            "x": 64,
+            "y": 64,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6172,8 +6180,8 @@
           },
           {
             "map": "rt_130",
-            "x": 64,
-            "y": 64,
+            "x": 16,
+            "y": 16,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6245,8 +6253,8 @@
           },
           {
             "map": "rt_131",
-            "x": 182,
-            "y": 1175,
+            "x": 48,
+            "y": 48,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6533,8 +6541,8 @@
           },
           {
             "map": "rt_132",
-            "x": 2504,
-            "y": 73,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6614,8 +6622,8 @@
           },
           {
             "map": "rt_133",
-            "x": 2504,
-            "y": 73,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
@@ -6696,8 +6704,8 @@
           },
           {
             "map": "rt_134",
-            "x": 2504,
-            "y": 73,
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
