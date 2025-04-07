@@ -1981,19 +1981,19 @@
   },
   {
     "name": "rt_132",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_132/rt_132.png"
   },
   {
     "name": "rt_133",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_133/rt_133.png"
   },
   {
     "name": "rt_134",
-    "location_size": 40,
+    "location_size": 32,
     "location_border_thickness": 2,
     "img": "images/maps/routes/rt_134/rt_134.png"
   },
