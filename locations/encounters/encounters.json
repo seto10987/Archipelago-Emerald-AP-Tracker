@@ -6962,7 +6962,7 @@
         ]
       },
       {
-        "name": "Desert Tunnel Encounters",
+        "name": "Desert Underpass Encounters",
         "access_rules": [
           "defeat_champion,$fallarbor_access"
         ],
