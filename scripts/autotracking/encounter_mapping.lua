@@ -2265,18 +2265,18 @@ ENCOUNTER_MAPPING =
   },
   [6242] = {
     [0] = {
-      [0] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"},
-      [1] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 2, 25%"},
-      [2] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"},
-      [3] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 3, 25%"},
-      [4] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"},
-      [5] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 2, 25%"},
-      [6] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 3, 25%"},
-      [7] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"},
-      [8] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 2, 25%"},
-      [9] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"},
-      [10] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 3, 25%"},
-      [11] = {"@Encounters Vanilla/Desert Tunnel Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Tunnel Encounters/Cave Encounter 1, 50%"}
+      [0] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"},
+      [1] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 2, 25%"},
+      [2] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"},
+      [3] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 3, 25%"},
+      [4] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"},
+      [5] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 2, 25%"},
+      [6] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 3, 25%"},
+      [7] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"},
+      [8] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 2, 34%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 2, 25%"},
+      [9] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"},
+      [10] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 3, 16%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 3, 25%"},
+      [11] = {"@Encounters Vanilla/Desert Underpass Encounters/Cave Encounter 1, 50%", "@Encounters Normalized/Desert Underpass Encounters/Cave Encounter 1, 50%"}
     }
   },
   [6243] = {
