@@ -506,7 +506,7 @@
     ]
   },
   {
-    "name": "Petalburg Norman",
+    "name": "Petalburg Gym - Norman Square",
     "children": [
       {
         "sections": [
@@ -662,10 +662,10 @@
     ]
   },
   {
-    "name": "Rustboro City Gym",
+    "name": "Rustboro Gym",
     "children": [
       {
-        "name": "Rustboro City Gym",
+        "name": "Rustboro Gym",
         "sections": [
           {
             "name": "Defeat Roxanne (Event)",
@@ -850,7 +850,7 @@
     ]
   },
   {
-    "name": "Leader Roxanne",
+    "name": "Rustboro Gym - Roxanne Square",
     "children": [
       {
         "sections": [
@@ -1032,10 +1032,10 @@
     ]
   },
   {
-    "name": "Dewford Town Gym",
+    "name": "Dewford Gym",
     "children": [
       {
-        "name": "Dewford Town Gym",
+        "name": "Dewford Gym",
         "sections": [
           {
             "name": "Battle Girl Laura",
@@ -1229,7 +1229,7 @@
     ]
   },
   {
-    "name": "Leader Brawly",
+    "name": "Dewford Gym - Brawly Square",
     "children": [
       {
         "sections": [
@@ -1718,10 +1718,10 @@
     ]
   },
   {
-    "name": "Mauville City Gym",
+    "name": "Mauville Gym",
     "children": [
       {
-        "name": "Mauville City Gym",
+        "name": "Mauville Gym",
         "sections": [
           {
             "name": "Battle Girl Vivian",
@@ -1891,7 +1891,7 @@
     ]
   },
   {
-    "name": "Mauville Gym Leader Wattson",
+    "name": "Mauville Gym - Wattson Square",
     "children": [
       {
         "sections": [
@@ -2218,7 +2218,7 @@
     ]
   },
   {
-    "name": "Lavaridge Gym Leader Flannery",
+    "name": "Lavaridge Gym - Flannery Square",
     "children": [
       {
         "sections": [
@@ -2273,7 +2273,7 @@
     "name": "Lavaridge Gym",
     "children": [
       {
-        "name": "Lavaridge Town Gym",
+        "name": "Lavaridge Gym",
         "sections": [
           {
             "name": "Kindler Jeff",
@@ -2594,7 +2594,7 @@
     ]
   },
   {
-    "name": "Fortree City Winona",
+    "name": "Fortree Gym - Winona Square",
     "children": [
       {
         "sections": [
@@ -2638,8 +2638,85 @@
         "map_locations": [
           {
             "map": "fortree_gym",
-            "x": 495,
-            "y": 77
+            "x": 496,
+            "y": 78
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fortree Gym",
+    "children": [
+      {
+        "name": "Fortree Gym",
+        "sections": [
+          {
+              "name": "Bird Keeper Humberto",
+              "ref": "Cities/Fortree Gym/Bird Keeper Humberto"
+          },
+          {
+              "name": "Picnicker Ashley",
+              "ref": "Cities/Fortree Gym/Picnicker Ashley"
+          },
+          {
+              "name": "Bird Keeper Jared",
+              "ref": "Cities/Fortree Gym/Bird Keeper Jared"
+          },
+          {
+              "name": "Camper Flint",
+              "ref": "Cities/Fortree Gym/Camper Flint"
+          },
+          {
+              "name": "Bird Keeper Edwardo",
+              "ref": "Cities/Fortree Gym/Bird Keeper Edwardo"
+          },
+          {
+              "name": "Bird Keeper Darius",
+              "ref": "Cities/Fortree Gym/Bird Keeper Darius"
+          },
+          {
+            "name": "Defeat Winona (Event)",
+            "ref": "Cities/Fortree City/Defeat Winona (Event)"
+          },
+          {
+            "name": "Feather Badge",
+            "ref": "Cities/Fortree City/Feather Badge"
+          },
+          {
+            "name": "​Feather Badge",
+            "ref": "Cities/Fortree City/​Feather Badge"
+          },
+          {
+            "name": "TM40 from Winona",
+            "ref": "Cities/Fortree City/TM40 from Winona"
+          },
+          {
+            "name": "Defeat Winona (Event)​",
+            "ref": "Cities/Fortree Gym/Defeat Winona (Event)"
+          },
+          {
+            "name": "Leader Winona​",
+            "ref": "Cities/Fortree Gym/Leader Winona"
+          },
+          {
+            "name": "Feather Badge​",
+            "ref": "Cities/Fortree Gym/Feather Badge"
+          },
+          {
+            "name": "​Feather Badge​",
+            "ref": "Cities/Fortree Gym/​Feather Badge"
+          },
+          {
+            "name": "TM40 from Winona​",
+            "ref": "Cities/Fortree Gym/TM40 from Winona"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "fortree",
+            "x": 718,
+            "y": 362
           }
         ]
       }
@@ -2894,8 +2971,8 @@
             "ref": "Cities/Mossdeep City/Super Rod from Fisherman in House"
           },
           {
-            "name": "Super Rod from Fisherman in House (Hosted)",
-            "ref": "Cities/Mossdeep City/Super Rod from Fisherman in House (Hosted)"
+            "name": "​Super Rod from Fisherman in House",
+            "ref": "Cities/Mossdeep City/​Super Rod from Fisherman in House"
           }
         ],
         "map_locations": [
@@ -3075,10 +3152,6 @@
           {
             "name": "Psychic Samantha",
             "ref": "Cities/Mossdeep Gym/Psychic Samantha"
-          },
-          {
-            "name": "Psychic Blake",
-            "ref": "Cities/Mossdeep Gym/Psychic Blake"
           }
         ],
         "map_locations": [
@@ -3192,7 +3265,108 @@
     ]
   },
   {
-    "name": "Mossdeep Gym Tate & Liza",
+    "name": "Mossdeep Gym",
+    "children": [
+      {
+        "name": "Mossdeep Gym",
+        "sections": [
+          {
+            "name": "Psychic Preston",
+            "ref": "Cities/Mossdeep Gym/Psychic Preston"
+          },
+          {
+            "name": "Psychic Maura",
+            "ref": "Cities/Mossdeep Gym/Psychic Maura"
+          },
+          {
+            "name": "Hex Maniac Kathleen",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
+          },
+          {
+            "name": "Gentleman Clifford",
+            "ref": "Cities/Mossdeep Gym/Gentleman Clifford"
+          },
+          {
+            "name": "Psychic Nicholas",
+            "ref": "Cities/Mossdeep Gym/Psychic Nicholas"
+          },
+          {
+            "name": "Psychic Macey",
+            "ref": "Cities/Mossdeep Gym/Psychic Macey"
+          },
+          {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          },
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          },
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          },
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          },
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 1231,
+            "y": 298
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym - Tate & Liza Square",
     "children": [
       {
         "sections": [
@@ -3258,6 +3432,14 @@
     "children": [
       {
         "sections": [
+          {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          },
           {
             "name": "Hex Maniac Kathleen",
             "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
@@ -3936,7 +4118,7 @@
     ]
   },
   {
-    "name": "Sootopolis Gym Defeat Juan (Event)",
+    "name": "Sootopolis Gym - Juan Square",
     "children": [
       {
         "sections": [
@@ -4177,13 +4359,13 @@
         "map_locations": [
           {
             "map": "pokemon_league_champion",
-            "x": 207,
-            "y": 174
+            "x": 208,
+            "y": 164
           },
           {
             "map": "pokemon_league_hall_champion",
             "x": 176,
-            "y": 75
+            "y": 74
           }
         ]
       }

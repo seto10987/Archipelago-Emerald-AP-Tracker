@@ -533,7 +533,7 @@
               },
               {
                 "map": "granite_cave_b1f",
-                "x": 266,
+                "x": 272,
                 "y": 196
               }
             ]
@@ -575,6 +575,30 @@
                 "map": "granite_cave_b2f",
                 "x": 912,
                 "y": 228
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Granite Cave B1F - Items at Marker H - Hints",
+        "children": [
+          {
+            "sections": [
+              {
+                "name": "B2F - Item After Crumbling Floor (Hint)",
+                "ref": "A Dungeon Hints/Granite Cave Hints/B2F - Item After Crumbling Floor (Hint)"
+              },
+              {
+                "name": "B2F - Hidden Item After Crumbling Floor (Hint)",
+                "ref": "A Dungeon Hints/Granite Cave Hints/B2F - Hidden Item After Crumbling Floor (Hint)"
+              }
+            ],
+            "map_locations": [
+              {
+                "map": "granite_cave_b1f",
+                "x": 943,
+                "y": 99
               }
             ]
           }

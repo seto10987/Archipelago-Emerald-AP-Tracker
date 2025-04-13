@@ -2603,6 +2603,14 @@
           {
             "sections": [
               {
+                "name": "Psychic Samantha (Hint)",
+                "ref": "A City Hints/Mossdeep Gym Hints/Psychic Samantha (Hint)"
+              },
+              {
+                "name": "Psychic Blake (Hint)",
+                "ref": "A City Hints/Mossdeep Gym Hints/Psychic Blake (Hint)"
+              },
+              {
                 "name": "Hex Maniac Kathleen (Hint)",
                 "ref": "A City Hints/Mossdeep Gym Hints/Hex Maniac Kathleen (Hint)"
               },
@@ -3541,11 +3549,11 @@
               },
               {
                 "name": "Rain Badge (Hint)",
-                "ref": "A City Hints/Sootopolis City Hints/Rain Badge (Hint)"
+                "ref": "A City Hints/Sootopolis Gym Hints/Rain Badge (Hint)"
               },
               {
                 "name": "TM03 from Juan (Hint)",
-                "ref": "A City Hints/Sootopolis City Hints/TM03 from Juan (Hint)"
+                "ref": "A City Hints/Sootopolis Gym Hints/TM03 from Juan (Hint)"
               }
             ],
             "map_locations": [
@@ -3651,13 +3659,13 @@
             "map_locations": [
               {
                 "map": "pokemon_league_champion",
-                "x": 207,
-                "y": 187
+                "x": 208,
+                "y": 179
               },
               {
                 "map": "pokemon_league_hall_champion",
                 "x": 176,
-                "y": 90
+                "y": 84
               }
             ]
           }
@@ -3689,7 +3697,7 @@
               {
                 "map": "pokemon_league_hall_phoebe",
                 "x": 176,
-                "y": 89
+                "y": 84
               }
             ]
           }
@@ -3717,7 +3725,7 @@
               {
                 "map": "pokemon_league_hall_glacia",
                 "x": 176,
-                "y": 89
+                "y": 84
               }
             ]
           }
@@ -3741,7 +3749,7 @@
               {
                 "map": "pokemon_league_hall_drake",
                 "x": 176,
-                "y": 89
+                "y": 84
               }
             ]
           }
