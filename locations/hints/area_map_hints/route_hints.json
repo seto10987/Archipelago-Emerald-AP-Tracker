@@ -7646,21 +7646,21 @@
         ]
       },
       {
-        "name": "Route 123 East Berry Trees East Hints",
+        "name": "Route 123 East - Berry Trees East 1-3 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 East (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 1 East (Hint)"
+                "name": "Berry Tree East 1 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 1 (Hint)"
               },
               {
-                "name": "Berry Tree 2 East (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 2 East (Hint)"
+                "name": "Berry Tree East 2 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 2 (Hint)"
               },
               {
-                "name": "Berry Tree 3 East (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 3 East (Hint)"
+                "name": "Berry Tree East 3 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 3 (Hint)"
               }
             ],
             "map_locations": [
@@ -7754,21 +7754,21 @@
         ]
       },
       {
-        "name": "Route 123 East Berry Trees West Hints",
+        "name": "Route 123 East - Berry Trees East 4-6 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 West (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 1 West (Hint)"
+                "name": "Berry Tree East 4 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 4 (Hint)"
               },
               {
-                "name": "Berry Tree 2 West (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 2 West (Hint)"
+                "name": "Berry Tree East 5 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 5 (Hint)"
               },
               {
-                "name": "Berry Tree 3 West (Hint)",
-                "ref": "A Route Hints/Route 123 East Hints/Berry Tree 3 West (Hint)"
+                "name": "Berry Tree East 6 (Hint)",
+                "ref": "A Route Hints/Route 123 East Hints/Berry Tree East 6 (Hint)"
               }
             ],
             "map_locations": [

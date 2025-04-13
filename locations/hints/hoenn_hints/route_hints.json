@@ -3953,7 +3953,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 East (Hint)",
+            "name": "Berry Tree East 4 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3961,7 +3961,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 East (Hint)",
+            "name": "Berry Tree East 5 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3969,7 +3969,7 @@
             ]
           },
           {
-            "name": "Berry Tree 3 East (Hint)",
+            "name": "Berry Tree East 6 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -4009,7 +4009,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 West (Hint)",
+            "name": "Berry Tree East 1 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -4017,7 +4017,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 West (Hint)",
+            "name": "Berry Tree East 2 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -4025,7 +4025,7 @@
             ]
           },
           {
-            "name": "Berry Tree 3 West (Hint)",
+            "name": "Berry Tree East 3 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
