@@ -5296,6 +5296,10 @@
           {
             "name": "Good Rod from Fisherman",
             "ref": "Routes/Route 118/Good Rod from Fisherman"
+          },
+          {
+            "name": "​Good Rod from Fisherman",
+            "ref": "Routes/Route 118/​Good Rod from Fisherman"
           }
         ],
         "map_locations": [
