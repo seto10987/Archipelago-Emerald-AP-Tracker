@@ -3433,6 +3433,14 @@
       {
         "sections": [
           {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          },
+          {
             "name": "Hex Maniac Kathleen",
             "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
           },
@@ -4351,13 +4359,13 @@
         "map_locations": [
           {
             "map": "pokemon_league_champion",
-            "x": 207,
-            "y": 174
+            "x": 208,
+            "y": 164
           },
           {
             "map": "pokemon_league_hall_champion",
             "x": 176,
-            "y": 75
+            "y": 74
           }
         ]
       }

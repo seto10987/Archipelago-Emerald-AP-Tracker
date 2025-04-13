@@ -1510,12 +1510,12 @@
           {
             "map": "pokemon_league_1f",
             "x": 319,
-            "y": 54
+            "y": 44
           },
           {
             "map": "pokemon_league_hall_sydney",
             "x": 176,
-            "y": 94
+            "y": 84
           }
         ]
       }
