@@ -3152,10 +3152,6 @@
           {
             "name": "Psychic Samantha",
             "ref": "Cities/Mossdeep Gym/Psychic Samantha"
-          },
-          {
-            "name": "Psychic Blake",
-            "ref": "Cities/Mossdeep Gym/Psychic Blake"
           }
         ],
         "map_locations": [
@@ -3273,6 +3269,106 @@
     "children": [
       {
         "name": "Mossdeep Gym",
+        "sections": [
+          {
+            "name": "Psychic Preston",
+            "ref": "Cities/Mossdeep Gym/Psychic Preston"
+          },
+          {
+            "name": "Psychic Maura",
+            "ref": "Cities/Mossdeep Gym/Psychic Maura"
+          },
+          {
+            "name": "Hex Maniac Kathleen",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Kathleen"
+          },
+          {
+            "name": "Gentleman Clifford",
+            "ref": "Cities/Mossdeep Gym/Gentleman Clifford"
+          },
+          {
+            "name": "Psychic Nicholas",
+            "ref": "Cities/Mossdeep Gym/Psychic Nicholas"
+          },
+          {
+            "name": "Psychic Macey",
+            "ref": "Cities/Mossdeep Gym/Psychic Macey"
+          },
+          {
+            "name": "Psychic Samantha",
+            "ref": "Cities/Mossdeep Gym/Psychic Samantha"
+          },
+          {
+            "name": "Psychic Blake",
+            "ref": "Cities/Mossdeep Gym/Psychic Blake"
+          },
+          {
+            "name": "Gentleman Nate",
+            "ref": "Cities/Mossdeep Gym/Gentleman Nate"
+          },
+          {
+            "name": "Psychic Virgil",
+            "ref": "Cities/Mossdeep Gym/Psychic Virgil"
+          },
+          {
+            "name": "Hex Maniac Sylvia",
+            "ref": "Cities/Mossdeep Gym/Hex Maniac Sylvia"
+          },
+          {
+            "name": "Psychic Hannah",
+            "ref": "Cities/Mossdeep Gym/Psychic Hannah"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)",
+            "ref": "Cities/Mossdeep City/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Mind Badge",
+            "ref": "Cities/Mossdeep City/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge",
+            "ref": "Cities/Mossdeep City/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza",
+            "ref": "Cities/Mossdeep City/TM04 from Tate & Liza"
+          },
+          {
+            "name": "Defeat Tate & Liza (Event)​",
+            "ref": "Cities/Mossdeep Gym/Defeat Tate & Liza (Event)"
+          },
+          {
+            "name": "Leaders Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/Leaders Tate & Liza"
+          },
+          {
+            "name": "Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/Mind Badge"
+          },
+          {
+            "name": "​Mind Badge​",
+            "ref": "Cities/Mossdeep Gym/​Mind Badge"
+          },
+          {
+            "name": "TM04 from Tate & Liza​",
+            "ref": "Cities/Mossdeep Gym/TM04 from Tate & Liza"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "mossdeep",
+            "x": 1231,
+            "y": 298
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Mossdeep Gym - Tate & Liza Square",
+    "children": [
+      {
         "sections": [
           {
             "name": "Defeat Tate & Liza (Event)",
