@@ -7303,8 +7303,12 @@
             "name": "Berry Master's House",
             "sections": [
               {
-                "name": "Berries from Berry Master (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berries from Berry Master (Hint)"
+                "name": "Berry 1 from Berry Master (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry 1 from Berry Master (Hint)"
+              },
+              {
+                "name": "Berry 2 from Berry Master (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry 2 from Berry Master (Hint)"
               },
               {
                 "name": "Berry from Berry Master's Wife (Hint)",
@@ -7362,144 +7366,144 @@
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master SW Hints",
+        "name": "Route 123 West Berry Trees Berry Master 1 & 2 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master SW (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master SW (Hint)"
+                "name": "Berry Tree Berry Master 1 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 1 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master SW (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master SW (Hint)"
+                "name": "Berry Tree Berry Master 2 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 2 (Hint)"
               }
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 395,
-                "y": 1504
+                "x": 396,
+                "y": 1436
               }
             ]
           }
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master S Hints",
+        "name": "Route 123 West Berry Trees Berry Master 3 & 4 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master S (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master S (Hint)"
+                "name": "Berry Tree Berry Master 3 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 3 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master S (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master S (Hint)"
-              }
+                "name": "Berry Tree Berry Master 4 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 4 (Hint)"
+              }            
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 493,
-                "y": 1504
+                "x": 492,
+                "y": 1436
               }
             ]
           }
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master SE Hints",
+        "name": "Route 123 West Berry Trees Berry Master 5 & 6 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master SE (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master SE (Hint)"
+                "name": "Berry Tree Berry Master 5 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 5 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master SE (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master SE (Hint)"
+                "name": "Berry Tree Berry Master 6 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 6 (Hint)"
               }
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 589,
-                "y": 1504
+                "x": 588,
+                "y": 1436
               }
             ]
           }
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master NW Hints",
+        "name": "Route 123 West Berry Trees Berry Master 7 & 8 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master NW (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master NW (Hint)"
+                "name": "Berry Tree Berry Master 7 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 7 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master NW (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master NW (Hint)"
+                "name": "Berry Tree Berry Master 8 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 8 (Hint)"
               }
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 395,
-                "y": 1440
+                "x": 396,
+                "y": 1500
               }
             ]
           }
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master N Hints",
+        "name": "Route 123 West Berry Trees Berry Master 9 & 10 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master N (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master N (Hint)"
+                "name": "Berry Tree Berry Master 9 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 9 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master N (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master N (Hint)"
+                "name": "Berry Tree Berry Master 10 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 10 (Hint)"
               }
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 493,
-                "y": 1440
+                "x": 492,
+                "y": 1500
               }
             ]
           }
         ]
       },
       {
-        "name": "Route 123 West Berry Trees Berry Master NE Hints",
+        "name": "Route 123 West Berry Trees Berry Master 11 & 12 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Berry Tree 1 Berry Master NE (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 1 Berry Master NE (Hint)"
+                "name": "Berry Tree Berry Master 11 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 11 (Hint)"
               },
               {
-                "name": "Berry Tree 2 Berry Master NE (Hint)",
-                "ref": "A Route Hints/Route 123 West Hints/Berry Tree 2 Berry Master NE (Hint)"
+                "name": "Berry Tree Berry Master 12 (Hint)",
+                "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 12 (Hint)"
               }
             ],
             "map_locations": [
               {
                 "map": "rt_123",
-                "x": 589,
-                "y": 1440
+                "x": 588,
+                "y": 1500
               }
             ]
           }

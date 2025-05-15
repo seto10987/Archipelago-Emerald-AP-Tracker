@@ -7211,79 +7211,19 @@
     ]
   },
   {
-    "name": "Route 123 West Berry Trees Berry Master SW",
+    "name": "Route 123 West Berry Trees Berry Master 1 & 2",
     "children": [
       {
         "sections": [
           {
-            "name": "Berry Trees Berry Master SW",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master SW"
+            "name": "Berry Trees Berry Master 1 & 2",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 1 & 2"
           }
         ],
         "map_locations": [
           {
             "map": "rt_123",
-            "x": 395,
-            "y": 1484
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 123 West Berry Trees Berry Master S",
-    "children": [
-      {
-        "sections": [
-          {
-            "name": "Berry Trees Berry Master S",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master S"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "rt_123",
-            "x": 493,
-            "y": 1484
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 123 West Berry Trees Berry Master SE",
-    "children": [
-      {
-        "sections": [
-          {
-            "name": "Berry Trees Berry Master SE",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master SE"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "rt_123",
-            "x": 589,
-            "y": 1484
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "name": "Route 123 West Berry Trees Berry Master NW",
-    "children": [
-      {
-        "sections": [
-          {
-            "name": "Berry Trees Berry Master NW",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master NW"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "rt_123",
-            "x": 395,
+            "x": 396,
             "y": 1420
           }
         ]
@@ -7291,19 +7231,19 @@
     ]
   },
   {
-    "name": "Route 123 West Berry Trees Berry Master N",
+    "name": "Route 123 West Berry Trees Berry Master 3 & 4",
     "children": [
       {
         "sections": [
           {
-            "name": "Berry Trees Berry Master N",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master N"
+            "name": "Berry Trees Berry Master 3 & 4",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 3 & 4"
           }
         ],
         "map_locations": [
           {
             "map": "rt_123",
-            "x": 493,
+            "x": 492,
             "y": 1420
           }
         ]
@@ -7311,20 +7251,80 @@
     ]
   },
   {
-    "name": "Route 123 West Berry Trees Berry Master NE",
+    "name": "Route 123 West Berry Trees Berry Master 5 & 6",
     "children": [
       {
         "sections": [
           {
-            "name": "Berry Trees Berry Master NE",
-            "ref": "Routes/Route 123 West/Berry Trees Berry Master NE"
+            "name": "Berry Trees Berry Master 5 & 6",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 5 & 6"
           }
         ],
         "map_locations": [
           {
             "map": "rt_123",
-            "x": 589,
+            "x": 588,
             "y": 1420
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 123 West Berry Trees Berry Master 7 & 8",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Berry Trees Berry Master 7 & 8",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 7 & 8"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rt_123",
+            "x": 396,
+            "y": 1484
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 123 West Berry Trees Berry Master 9 & 10",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Berry Trees Berry Master 9 & 10",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 9 & 10"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rt_123",
+            "x": 492,
+            "y": 1484
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Route 123 West Berry Trees Berry Master 11 & 12",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Berry Trees Berry Master 11 & 12",
+            "ref": "Routes/Route 123 West/Berry Trees Berry Master 11 & 12"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "rt_123",
+            "x": 588,
+            "y": 1484
           }
         ]
       }

@@ -2469,7 +2469,7 @@
         ],
         "sections": [
           {
-            "name": "Team Magma Grunt East",
+            "name": "Team Magma Grunt 1",
             "chest_unopened_img": "/images/locations/magma_grunt_female.png",
             "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
             "visibility_rules": [
@@ -2477,7 +2477,7 @@
             ]
           },
           {
-            "name": "Team Magma Grunt West",
+            "name": "Team Magma Grunt 2",
             "chest_unopened_img": "/images/locations/magma_grunt_male.png",
             "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
             "visibility_rules": [
@@ -4087,7 +4087,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master SW",
+            "name": "Berry Trees Berry Master 1 & 2",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
@@ -4097,7 +4097,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master S",
+            "name": "Berry Trees Berry Master 3 & 4",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
@@ -4107,7 +4107,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master SE",
+            "name": "Berry Trees Berry Master 5 & 6",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
@@ -4117,7 +4117,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master NW",
+            "name": "Berry Trees Berry Master 7 & 8",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
@@ -4127,7 +4127,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master N",
+            "name": "Berry Trees Berry Master 9 & 10",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,
@@ -4137,7 +4137,7 @@
             ]
           },
           {
-            "name": "Berry Trees Berry Master NE",
+            "name": "Berry Trees Berry Master 11 & 12",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "item_count": 2,

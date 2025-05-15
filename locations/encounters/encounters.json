@@ -7002,46 +7002,6 @@
         ]
       },
       {
-        "name": "Artisan Cave B1F Encounter",
-        "children": [
-          {
-            "sections": [
-              {
-                "name": "Artisan Cave B1F Encounter 1, 100%",
-                "ref": "Encounters Vanilla/Artisan Cave Encounters/Artisan Cave B1F Encounter 1, 100%"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "artisan_cave_b1f",
-                "x": 32,
-                "y": 32
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "name": "Artisan Cave 1F Encounter",
-        "children": [
-          {
-            "sections": [
-              {
-                "name": "Artisan Cave 1F Encounter 1, 100%",
-                "ref": "Encounters Vanilla/Artisan Cave Encounters/Artisan Cave 1F Encounter 1, 100%"
-              }
-            ],
-            "map_locations": [
-              {
-                "map": "artisan_cave_1f",
-                "x": 32,
-                "y": 32
-              }
-            ]
-          }
-        ]
-      },
-      {
         "name": "Desert Underpass Encounters",
         "access_rules": [
           "defeat_champion,$fallarbor_access"
@@ -7080,7 +7040,7 @@
         ]
       },
       {
-        "name": "Artisan Cave Encounters",
+        "name": "Artisan Cave 1F Encounters",
         "access_rules": [
           "$battle_frontier_access,wailmer_pail,$surf"
         ],
@@ -7089,7 +7049,30 @@
             "name": "Artisan Cave 1F Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/cave.png",
             "chest_opened_img": "/images/locations/cave_bw.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "encountermap",
+            "x": 192,
+            "y": 116
           },
+          {
+            "map": "artisan_cave_1f",
+            "x": 32,
+            "y": 32,
+            "restrict_visibility_rules": [
+              "encounter_locations_on"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Artisan Cave B1F Encounters",
+        "access_rules": [
+          "$battle_frontier_access,wailmer_pail,$surf"
+        ],
+        "sections": [
           {
             "name": "Artisan Cave B1F Encounter 1, 100%",
             "chest_unopened_img": "/images/locations/cave.png",
@@ -7099,13 +7082,13 @@
         "map_locations": [
           {
             "map": "encountermap",
-            "x": 188,
+            "x": 184,
             "y": 116
           },
           {
-            "map": "artisan_cave_1f",
-            "x": 334,
-            "y": 185,
+            "map": "artisan_cave_b1f",
+            "x": 32,
+            "y": 32,
             "restrict_visibility_rules": [
               "encounter_locations_on"
             ]
