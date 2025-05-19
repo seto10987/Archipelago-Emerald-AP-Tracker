@@ -2228,7 +2228,7 @@
         "name": "Mt. Chimney Hints",
         "sections": [
           {
-            "name": "Team Magma Grunt East (Hint)",
+            "name": "Team Magma Grunt 1 (Hint)",
             "chest_unopened_img": "/images/locations/magma_grunt_female.png",
             "chest_opened_img": "/images/locations/magma_grunt_female_bw.png",
             "visibility_rules": [
@@ -2236,7 +2236,7 @@
             ]
           },
           {
-            "name": "Team Magma Grunt West (Hint)",
+            "name": "Team Magma Grunt 2 (Hint)",
             "chest_unopened_img": "/images/locations/magma_grunt_male.png",
             "chest_opened_img": "/images/locations/magma_grunt_male_bw.png",
             "visibility_rules": [
@@ -3791,7 +3791,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master SW (Hint)",
+            "name": "Berry Tree Berry Master 1 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3799,7 +3799,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master SW (Hint)",
+            "name": "Berry Tree Berry Master 2 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3807,7 +3807,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master S (Hint)",
+            "name": "Berry Tree Berry Master 3 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3815,7 +3815,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master S (Hint)",
+            "name": "Berry Tree Berry Master 4 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3823,7 +3823,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master SE (Hint)",
+            "name": "Berry Tree Berry Master 5 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3831,7 +3831,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master SE (Hint)",
+            "name": "Berry Tree Berry Master 6 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3839,7 +3839,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master NW (Hint)",
+            "name": "Berry Tree Berry Master 7 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3847,7 +3847,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master NW (Hint)",
+            "name": "Berry Tree Berry Master 8 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3855,7 +3855,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master N (Hint)",
+            "name": "Berry Tree Berry Master 9 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3863,7 +3863,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master N (Hint)",
+            "name": "Berry Tree Berry Master 10 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3871,7 +3871,7 @@
             ]
           },
           {
-            "name": "Berry Tree 1 Berry Master NE (Hint)",
+            "name": "Berry Tree Berry Master 11 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [
@@ -3879,7 +3879,7 @@
             ]
           },
           {
-            "name": "Berry Tree 2 Berry Master NE (Hint)",
+            "name": "Berry Tree Berry Master 12 (Hint)",
             "chest_unopened_img": "/images/locations/berry_tree.png",
             "chest_opened_img": "/images/locations/berry_tree_bw.png",
             "visibility_rules": [

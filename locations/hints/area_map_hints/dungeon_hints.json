@@ -2116,13 +2116,13 @@
         ]
       },
       {
-        "name": "Mt. Chimney Team Magma Grunt East Hints",
+        "name": "Mt. Chimney Team Magma Grunt 1 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Team Magma Grunt East (Hint)",
-                "ref": "A Route Hints/Mt. Chimney Hints/Team Magma Grunt East (Hint)"
+                "name": "Team Magma Grunt 1 (Hint)",
+                "ref": "A Route Hints/Mt. Chimney Hints/Team Magma Grunt 1 (Hint)"
               }
             ],
             "map_locations": [
@@ -2136,13 +2136,13 @@
         ]
       },
       {
-        "name": "Mt. Chimney Team Magma Grunt West Hints",
+        "name": "Mt. Chimney Team Magma Grunt 2 Hints",
         "children": [
           {
             "sections": [
               {
-                "name": "Team Magma Grunt West (Hint)",
-                "ref": "A Route Hints/Mt. Chimney Hints/Team Magma Grunt West (Hint)"
+                "name": "Team Magma Grunt 2 (Hint)",
+                "ref": "A Route Hints/Mt. Chimney Hints/Team Magma Grunt 2 (Hint)"
               }
             ],
             "map_locations": [

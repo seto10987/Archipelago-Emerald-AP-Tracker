@@ -2217,13 +2217,13 @@
     ]
   },
   {
-    "name": "Mt. Chimney Team Magma Grunt East",
+    "name": "Mt. Chimney Team Magma Grunt 1",
     "children": [
       {
         "sections": [
           {
-            "name": "Team Magma Grunt East",
-            "ref": "Routes/Mt. Chimney/Team Magma Grunt East"
+            "name": "Team Magma Grunt 1",
+            "ref": "Routes/Mt. Chimney/Team Magma Grunt 1"
           }
         ],
         "map_locations": [
@@ -2237,13 +2237,13 @@
     ]
   },
   {
-    "name": "Mt. Chimney Team Magma Grunt West",
+    "name": "Mt. Chimney Team Magma Grunt 2",
     "children": [
       {
         "sections": [
           {
-            "name": "Team Magma Grunt West",
-            "ref": "Routes/Mt. Chimney/Team Magma Grunt West"
+            "name": "Team Magma Grunt 2",
+            "ref": "Routes/Mt. Chimney/Team Magma Grunt 2"
           }
         ],
         "map_locations": [
@@ -5651,58 +5651,58 @@
           },
           {
             "map": "navel_rock_down_1",
-            "x": 111,
-            "y": 111
+            "x": 175,
+            "y": 175
           },
           {
             "map": "navel_rock_down_2",
-            "x": 175,
-            "y": 175
+            "x": 111,
+            "y": 111
           },
           {
             "map": "navel_rock_down_3",
-            "x": 111,
-            "y": 111
+            "x": 175,
+            "y": 175
           },
           {
             "map": "navel_rock_down_4",
-            "x": 175,
-            "y": 175
+            "x": 111,
+            "y": 111
           },
           {
             "map": "navel_rock_down_5",
-            "x": 111,
-            "y": 111
+            "x": 175,
+            "y": 175
           },
           {
             "map": "navel_rock_down_6",
-            "x": 175,
-            "y": 175
+            "x": 111,
+            "y": 111
           },
           {
             "map": "navel_rock_down_7",
-            "x": 111,
-            "y": 111
+            "x": 175,
+            "y": 175
           },
           {
             "map": "navel_rock_down_8",
-            "x": 175,
-            "y": 175
+            "x": 111,
+            "y": 111
           },
           {
             "map": "navel_rock_down_9",
-            "x": 111,
-            "y": 111
-          },
-          {
-            "map": "navel_rock_down_10",
             "x": 175,
             "y": 175
           },
           {
-            "map": "navel_rock_down_11",
+            "map": "navel_rock_down_10",
             "x": 111,
             "y": 111
+          },
+          {
+            "map": "navel_rock_down_11",
+            "x": 175,
+            "y": 175
           },
           {
             "map": "navel_rock_bottom",
