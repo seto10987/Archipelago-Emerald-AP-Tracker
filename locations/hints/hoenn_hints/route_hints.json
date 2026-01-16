@@ -4471,7 +4471,7 @@
             "chest_unopened_img": "/images/locations/hidden_item.png",
             "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "visibility_rules": [
-              "route_126_uw_hidden_item_in_southeast"
+              "route_126_uw_hidden_item_in_southwest_area"
             ]
           },
           {
@@ -4487,7 +4487,7 @@
             "chest_unopened_img": "/images/locations/hidden_item.png",
             "chest_opened_img": "/images/locations/hidden_item_bw.png",
             "visibility_rules": [
-              "route_126_uw_hidden_item_in_southwest_area"
+              "route_126_uw_hidden_item_in_southeast"
             ]
           }
         ],
