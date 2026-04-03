@@ -138,13 +138,13 @@ function onLocation(location_id, location_name)
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
             else
-                print(code .. " is now active")
                 object.Active = true
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
             print(string.format("onLocation: could not find object for code %s", code))
         end
     end
+    processUnclearedEncounters()
 end
 
 function onNotify(key, value, old_value)
@@ -302,7 +302,6 @@ function onBounce(json)
             updateMap(data["mapId"])
         elseif data["type"] == "Encounter" then
             updateEncounter(data["species"], data["slot"], data["encounterType"], data["mapId"])
-            processUnclearedEncounters()    -- Call the function to process any uncleared encounters
         end
     end
 end
