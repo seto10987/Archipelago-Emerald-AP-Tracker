@@ -495,6 +495,16 @@
     "codes": "pokedex_kingler"
   },
   {
+    "name": "(Hint) Pokedex - Voltorb",
+    "type": "toggle",
+    "codes": "pokedex_voltorb"
+  },
+  {
+    "name": "(Hint) Pokedex - Electrode",
+    "type": "toggle",
+    "codes": "pokedex_electrode"
+  },
+  {
     "name": "(Hint) Pokedex - Exeggcute",
     "type": "toggle",
     "codes": "pokedex_exeggcute"
@@ -1047,7 +1057,7 @@
   {
     "name": "(Hint) Pokedex - Scizor",
     "type": "toggle",
-    "codes": "pokedex_scion"
+    "codes": "pokedex_scizor"
   },
   {
     "name": "(Hint) Pokedex - Shuckle",
@@ -1947,7 +1957,7 @@
   {
     "name": "(Hint) Littleroot Town - S.S. Ticket from Norman",
     "type": "toggle",
-    "codes": "littleroot_town_s_s_ticket_from_norman"
+    "codes": "littleroot_town_ss_ticket_from_norman"
   },
   {
     "name": "(Hint) Littleroot Town - Pokeballs from Rival",
