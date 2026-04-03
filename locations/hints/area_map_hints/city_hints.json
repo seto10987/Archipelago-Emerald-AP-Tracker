@@ -33,36 +33,27 @@
             "name": "Littleroot Player's House",
             "sections": [
               {
+                "name": "Amulet Coin from Mom (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Amulet Coin from Mom (Hint)"
               },
               {
+                "name": "S.S. Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/S.S. Ticket from Norman (Hint)"
               },
               {
-                "ref": "A City Hints/Littleroot Town Hints/S.S. Ticket from Norman (Hint)"
-              },
-              {
+                "name": "Aurora Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Aurora Ticket from Norman (Hint)"
               },
               {
-                "ref": "A City Hints/Littleroot Town Hints/Aurora Ticket from Norman (Hint)"
-              },
-              {
+                "name": "Mystic Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Mystic Ticket from Norman (Hint)"
               },
               {
-                "ref": "A City Hints/Littleroot Town Hints/Mystic Ticket from Norman (Hint)"
-              },
-              {
+                "name": "Old Sea Map from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Old Sea Map from Norman (Hint)"
               },
               {
-                "ref": "A City Hints/Littleroot Town Hints/Old Sea Map from Norman (Hint)"
-              },
-              {
-                "ref": "A City Hints/Littleroot Town Hints/Eon Ticket from Norman (Hint)"
-              },
-              {
+                "name": "Eon Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Eon Ticket from Norman (Hint)"
               }
             ],
@@ -111,18 +102,23 @@
           {
             "sections": [
               {
+                "name": "S.S. Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/S.S. Ticket from Norman (Hint)"
               },
               {
+                "name": "Aurora Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Aurora Ticket from Norman (Hint)"
               },
               {
+                "name": "Mystic Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Mystic Ticket from Norman (Hint)"
               },
               {
+                "name": "Old Sea Map from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Old Sea Map from Norman (Hint)"
               },
               {
+                "name": "Eon Ticket from Norman (Hint)",
                 "ref": "A City Hints/Littleroot Town Hints/Eon Ticket from Norman (Hint)"
               }
             ],
@@ -3758,6 +3754,3 @@
     ]
   }
 ]
-
-
-
