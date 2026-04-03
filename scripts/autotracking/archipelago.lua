@@ -138,6 +138,7 @@ function onLocation(location_id, location_name)
             if code:sub(1, 1) == "@" then
                 object.AvailableChestCount = object.AvailableChestCount - 1
             else
+                print(code .. " is now active")
                 object.Active = true
             end
         elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
@@ -324,9 +325,7 @@ function updateEncounter(species_id, slot, encounter_type, map_id)
     print(string.format("Encounter Type: %s", encounter_type))
     print(string.format("Map ID: %s", map_id))
     local locations = ENCOUNTER_MAPPING[map_id][encounter_type][slot]
-    if UNCLEARED_ENCOUNTERS == nil then
-        UNCLEARED_ENCOUNTERS = {}
-    end
+
     if has("pokedex_off") or has(POKEMON_MAPPING[species_id]) then
         if locations then
             for _, location in pairs(locations) do
