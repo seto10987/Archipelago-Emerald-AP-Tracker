@@ -302,7 +302,7 @@ function onBounce(json)
             updateMap(data["mapId"])
         elseif data["type"] == "Encounter" then
             updateEncounter(data["species"], data["slot"], data["encounterType"], data["mapId"])
-            processUnclearedEncounters
+            processUnclearedEncounters()
         end
     end
 end
