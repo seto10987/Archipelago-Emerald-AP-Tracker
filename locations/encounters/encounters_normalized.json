@@ -1606,7 +1606,7 @@
       {
         "name": "Mirage Tower 1F Encounters",
         "access_rules": [
-          "$fallarbor_access,go_goggles"
+          "$fallarbor_access, go_goggles, []"
         ],
         "sections": [
           {
@@ -1639,7 +1639,7 @@
       {
         "name": "Mirage Tower 2F Encounters",
         "access_rules": [
-          "$fallarbor_access,go_goggles"
+          "$fallarbor_access,go_goggles, []"
         ],
         "sections": [
           {
@@ -1672,7 +1672,7 @@
       {
         "name": "Mirage Tower 3F Encounters",
         "access_rules": [
-          "$fallarbor_access,go_goggles,mach_bike"
+          "$fallarbor_access,go_goggles,mach_bike, []"
         ],
         "sections": [
           {
@@ -1705,7 +1705,7 @@
       {
         "name": "Mirage Tower 4F Encounters",
         "access_rules": [
-          "$fallarbor_access,go_goggles,mach_bike,$rock_smash"
+          "$fallarbor_access,go_goggles,mach_bike,$rock_smash, []"
         ],
         "sections": [
           {
