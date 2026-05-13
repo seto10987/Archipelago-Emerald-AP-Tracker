@@ -1,0 +1,34 @@
+name: Update versions.json on release
+on:
+  release:
+    types: [published]
+jobs:
+  autoupdate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: versions
+      - name: Download source archive
+        run: curl -L -o source.zip "https://github.com/${{ github.repository }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip"
+      - name: Get checksum
+        run: echo "sha256sum=$(sha256sum source.zip | awk '{print $1}')" >> $GITHUB_OUTPUT
+        id: checksum
+      - name: Git config
+        run: git config user.name "Automation" && git config user.email "automation@localhost"
+      - name: Add to json
+        run: |-
+          jq '.versions |= [{
+            "package_version": "${{ github.event.release.tag_name }}",
+            "download_url": "https://github.com/${{ github.repository }}/archive/refs/tags/${{ github.event.release.tag_name }}.zip",
+            "sha256": "${{ steps.checksum.outputs.sha256sum }}",
+            "changelog": ["Check release notes"]
+          }] + .' versions.json > new_versions.json
+      - name: Move new versions in
+        run: mv new_versions.json versions.json
+      - name: Commit
+        run: git commit -am "Release ${{ github.event.release.tag_name }}"
+      - name: Push
+        run: git push origin HEAD:versions
