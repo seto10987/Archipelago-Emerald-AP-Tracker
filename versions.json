@@ -1,64 +1,92 @@
 {
-	"versions": [
-		{
-			"package_version": "2.0.2",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.2.zip",
-			"sha256": "6d59b892854d7e29e004ed415b5f54200cef9f7b02097cf16c68bf6d5bcfc077",
-			"changelog": ["See release changelog"]
-		},
-		{
-			"package_version": "2.0.1",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.1.zip",
-			"sha256": "d40f26aa51627ccc11f842f2085af5cadb919fb12e4433f5ac69362f2088804e",
-			"changelog": ["See release changelog"]
-		},
-		{
-			"package_version": "2.0.0",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.0.zip",
-			"sha256": "e67451b1d16a90642978efa00e57f371ad5df1a4c1898d5963a139d62b1327cf",
-			"changelog": ["See release changelog"]
-		},
-		{
-			"package_version": "1.3.0",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.3.0.zip",
-			"sha256": "deae1e592450024f3269e24faab4056a5d885a392768cd41bb8dddb4185d29f2",
-			"changelog": ["Encounter Tracker Update,Vertical Layout, Normalized Encounters, hosted items functions update"]
-		},
-		{
-			"package_version": "1.2.0",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.2.0.zip",
-			"sha256": "762bf0a7a06f77d138866c44c18d69ebd21837bd44eaa7024dc316c93fd8e49b",
-			"changelog": ["Encounter Tracker Update,Bug/logic fixes"]
-		},
-		{
-			"package_version": "1.1.0",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.1.0.zip",
-			"sha256": "fa4526f76f3586f8a9b5f497ac0cc72b83d81072b61f5532495d034cc1fcda58",
-			"changelog": ["Bug/logic fixes"]
-		},
-		{
-			"package_version": "1.0.0",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.0.0.zip",
-			"sha256": "70b10ae5d52fedf5b765b145a65ce83868788c9d572142e6b3c21781916dffe0",
-			"changelog": ["Initial Release"]
-		},
-		{
-			"package_version": "0.5.3",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.3.zip",
-			"sha256": "f51bc32697c8ad9a94f04d10af92df43f5445e33e71ec4152fdcce03399a87f2",
-			"changelog": ["Test Release"]
-		},
-		{
-			"package_version": "0.5.2",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.2.zip",
-			"sha256": "209f805cfcfffc7cd43570bfde62b1fb93ae8c9268056d6c3568c7ef9c76c222",
-			"changelog": ["Test Release"]
-		},
-		{
-			"package_version": "0.5.1",
-			"download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.1.zip",
-			"sha256": "413110a000e0f1116fe759344cd70263849b49e4d0538c7e5afd6635c9f3f671",
-			"changelog": ["Test Release"]
-		}
-	]
+  "versions": [
+    {
+      "package_version": "v.2.1.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.1.0.zip",
+      "sha256": "f943d2baa6aadc932927f58db6bd3b92e51486961c902ebb06f8c6b82aac15f2",
+      "changelog": [
+        "Check release notes"
+      ]
+    },
+    {
+      "package_version": "2.0.2",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.2.zip",
+      "sha256": "6d59b892854d7e29e004ed415b5f54200cef9f7b02097cf16c68bf6d5bcfc077",
+      "changelog": [
+        "See release changelog"
+      ]
+    },
+    {
+      "package_version": "2.0.1",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.1.zip",
+      "sha256": "d40f26aa51627ccc11f842f2085af5cadb919fb12e4433f5ac69362f2088804e",
+      "changelog": [
+        "See release changelog"
+      ]
+    },
+    {
+      "package_version": "2.0.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.2.0.0.zip",
+      "sha256": "e67451b1d16a90642978efa00e57f371ad5df1a4c1898d5963a139d62b1327cf",
+      "changelog": [
+        "See release changelog"
+      ]
+    },
+    {
+      "package_version": "1.3.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.3.0.zip",
+      "sha256": "deae1e592450024f3269e24faab4056a5d885a392768cd41bb8dddb4185d29f2",
+      "changelog": [
+        "Encounter Tracker Update,Vertical Layout, Normalized Encounters, hosted items functions update"
+      ]
+    },
+    {
+      "package_version": "1.2.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.2.0.zip",
+      "sha256": "762bf0a7a06f77d138866c44c18d69ebd21837bd44eaa7024dc316c93fd8e49b",
+      "changelog": [
+        "Encounter Tracker Update,Bug/logic fixes"
+      ]
+    },
+    {
+      "package_version": "1.1.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.1.0.zip",
+      "sha256": "fa4526f76f3586f8a9b5f497ac0cc72b83d81072b61f5532495d034cc1fcda58",
+      "changelog": [
+        "Bug/logic fixes"
+      ]
+    },
+    {
+      "package_version": "1.0.0",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.1.0.0.zip",
+      "sha256": "70b10ae5d52fedf5b765b145a65ce83868788c9d572142e6b3c21781916dffe0",
+      "changelog": [
+        "Initial Release"
+      ]
+    },
+    {
+      "package_version": "0.5.3",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.3.zip",
+      "sha256": "f51bc32697c8ad9a94f04d10af92df43f5445e33e71ec4152fdcce03399a87f2",
+      "changelog": [
+        "Test Release"
+      ]
+    },
+    {
+      "package_version": "0.5.2",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.2.zip",
+      "sha256": "209f805cfcfffc7cd43570bfde62b1fb93ae8c9268056d6c3568c7ef9c76c222",
+      "changelog": [
+        "Test Release"
+      ]
+    },
+    {
+      "package_version": "0.5.1",
+      "download_url": "https://github.com/seto10987/Archipelago-Emerald-AP-Tracker/archive/refs/tags/v.0.5.1.zip",
+      "sha256": "413110a000e0f1116fe759344cd70263849b49e4d0538c7e5afd6635c9f3f671",
+      "changelog": [
+        "Test Release"
+      ]
+    }
+  ]
 }
