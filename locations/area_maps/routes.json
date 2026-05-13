@@ -9798,31 +9798,31 @@
       {
         "sections": [
           {
-            "name": "Swimmer Linda",
+            "name": "Route 133 - Swimmer Linda",
             "ref": "Routes/Route 133/Swimmer Linda"
           },
           {
-            "name": "Item 3",
+            "name": "Route 133 - Item 3",
             "ref": "Routes/Route 133/Item 3"
           },
           {
-            "name": "Swimmer Laurel",
+            "name": "Route 134 - Swimmer Laurel",
             "ref": "Routes/Route 134/Swimmer Laurel"
           },
           {
-            "name": "Swimmer Jack",
+            "name": "Route 134 - Swimmer Jack",
             "ref": "Routes/Route 134/Swimmer Jack"
           },
           {
-            "name": "Black Belt Hitoshi",
+            "name": "Route 134 - Black Belt Hitoshi",
             "ref": "Routes/Route 134/Black Belt Hitoshi"
           },
           {
-            "name": "Item 1",
+            "name": "Route 134 - Item 1",
             "ref": "Routes/Route 134/Item 1"
           },
           {
-            "name": "Battle Girl Reyna",
+            "name": "Route 134 - Battle Girl Reyna",
             "ref": "Routes/Route 134/Battle Girl Reyna"
           }
         ],
@@ -9843,23 +9843,23 @@
       {
         "sections": [
           {
-            "name": "Expert Mollie",
+            "name": "Route 133 - Expert Mollie",
             "ref": "Routes/Route 133/Expert Mollie"
           },
           {
-            "name": "Expert Conor",
+            "name": "Route 133 - Expert Conor",
             "ref": "Routes/Route 133/Expert Conor"
           },
           {
-            "name": "Item 1",
+            "name": "Route 133 - Item 1",
             "ref": "Routes/Route 133/Item 1"
           },
           {
-            "name": "Bird Keeper Beck",
+            "name": "Route 133 - Bird Keeper Beck",
             "ref": "Routes/Route 133/Bird Keeper Beck"
           },
           {
-            "name": "Sailor Hudson",
+            "name": "Route 134 - Sailor Hudson",
             "ref": "Routes/Route 134/Sailor Hudson"
           }
         ],
@@ -9880,39 +9880,39 @@
       {
         "sections": [
           {
-            "name": "Swimmer Debra",
+            "name": "Route 133 - Swimmer Debra",
             "ref": "Routes/Route 133/Swimmer Debra"
           },
           {
-            "name": "Swimmer Franklin",
+            "name": "Route 133 - Swimmer Franklin",
             "ref": "Routes/Route 133/Swimmer Franklin"
           },
           {
-            "name": "Item 2",
+            "name": "Route 133 - Item 2",
             "ref": "Routes/Route 133/Item 2"
           },
           {
-            "name": "Undo Regi Seal (Event)",
+            "name": "Route 134 - Undo Regi Seal (Event)",
             "ref": "Dungeons/Sealed Chamber/Undo Regi Seal (Event)"
           },
           {
-            "name": "Cooltrainer Marley",
+            "name": "Route 134 - Cooltrainer Marley",
             "ref": "Routes/Route 134/Cooltrainer Marley"
           },
           {
-            "name": "Dragon Tamer Aaron",
+            "name": "Route 134 - Dragon Tamer Aaron",
             "ref": "Routes/Route 134/Dragon Tamer Aaron"
           },
           {
-            "name": "Bird Keeper Alex",
+            "name": "Route 134 - Bird Keeper Alex",
             "ref": "Routes/Route 134/Bird Keeper Alex"
           },
           {
-            "name": "Sailor Kelvin",
+            "name": "Route 134 - Sailor Kelvin",
             "ref": "Routes/Route 134/Sailor Kelvin"
           },
           {
-            "name": "Item 2",
+            "name": "Route 134 - Item 2",
             "ref": "Routes/Route 134/Item 2"
           }
         ],
@@ -10133,23 +10133,23 @@
       {
         "sections": [
           {
-            "name": "Swimmer Laurel",
+            "name": "Route 134 - Swimmer Laurel",
             "ref": "Routes/Route 134/Swimmer Laurel"
           },
           {
-            "name": "Swimmer Jack",
+            "name": "Route 134 - Swimmer Jack",
             "ref": "Routes/Route 134/Swimmer Jack"
           },
           {
-            "name": "Black Belt Hitoshi",
+            "name": "Route 134 - Black Belt Hitoshi",
             "ref": "Routes/Route 134/Black Belt Hitoshi"
           },
           {
-            "name": "Item 1",
+            "name": "Route 134 - Item 1",
             "ref": "Routes/Route 134/Item 1"
           },
           {
-            "name": "Battle Girl Reyna",
+            "name": "Route 134 - Battle Girl Reyna",
             "ref": "Routes/Route 134/Battle Girl Reyna"
           }
         ],
@@ -10170,7 +10170,7 @@
       {
         "sections": [
           {
-            "name": "Sailor Hudson",
+            "name": "Route 134 - Sailor Hudson",
             "ref": "Routes/Route 134/Sailor Hudson"
           }
         ],
@@ -10186,32 +10186,32 @@
     ]
   },
   {
-    "name": "Rapids - Bottom Route - On 132",
+    "name": "Rapids - Bottom Route - On 132\u200b",
     "children": [
       {
         "sections": [
           {
-            "name": "Undo Regi Seal (Event)",
+            "name": "Route 134 - Undo Regi Seal (Event)",
             "ref": "Dungeons/Sealed Chamber/Undo Regi Seal (Event)"
           },
           {
-            "name": "Cooltrainer Marley",
+            "name": "Route 134 - Cooltrainer Marley",
             "ref": "Routes/Route 134/Cooltrainer Marley"
           },
           {
-            "name": "Dragon Tamer Aaron",
+            "name": "Route 134 - Dragon Tamer Aaron",
             "ref": "Routes/Route 134/Dragon Tamer Aaron"
           },
           {
-            "name": "Bird Keeper Alex",
+            "name": "Route 134 - Bird Keeper Alex",
             "ref": "Routes/Route 134/Bird Keeper Alex"
           },
           {
-            "name": "Sailor Kelvin",
+            "name": "Route 134 - Sailor Kelvin",
             "ref": "Routes/Route 134/Sailor Kelvin"
           },
           {
-            "name": "Item 2",
+            "name": "Route 134 - Item 2",
             "ref": "Routes/Route 134/Item 2"
           }
         ],

@@ -1,6 +1,6 @@
 [
   {
-    "name": "A Route Hints",
+    "name": "A Route Hints\u200b",
     "children": [
       {
         "name": "Route 102 Youngster Calvin Hints",
@@ -7401,7 +7401,7 @@
               {
                 "name": "Berry Tree Berry Master 4 (Hint)",
                 "ref": "A Route Hints/Route 123 West Hints/Berry Tree Berry Master 4 (Hint)"
-              }            
+              }
             ],
             "map_locations": [
               {
@@ -9968,31 +9968,31 @@
           {
             "sections": [
               {
-                "name": "Swimmer Linda (Hint)",
+                "name": "Route 133 - Swimmer Linda (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Swimmer Linda (Hint)"
               },
               {
-                "name": "Item 3 (Hint)",
+                "name": "Route 133 - Item 3 (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Item 3 (Hint)"
               },
               {
-                "name": "Swimmer Laurel (Hint)",
+                "name": "Route 134 - Swimmer Laurel (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Swimmer Laurel (Hint)"
               },
               {
-                "name": "Swimmer Jack (Hint)",
+                "name": "Route 134 - Swimmer Jack (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Swimmer Jack (Hint)"
               },
               {
-                "name": "Black Belt Hitoshi (Hint)",
+                "name": "Route 134 - Black Belt Hitoshi (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Black Belt Hitoshi (Hint)"
               },
               {
-                "name": "Item 1 (Hint)",
+                "name": "Route 134 - Item 1 (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Item 1 (Hint)"
               },
               {
-                "name": "Battle Girl Reyna (Hint)",
+                "name": "Route 134 - Battle Girl Reyna (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Battle Girl Reyna (Hint)"
               }
             ],
@@ -10012,23 +10012,23 @@
           {
             "sections": [
               {
-                "name": "Expert Mollie (Hint)",
+                "name": "Route 133 - Expert Mollie (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Expert Mollie (Hint)"
               },
               {
-                "name": "Expert Conor (Hint)",
+                "name": "Route 133 - Expert Conor (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Expert Conor (Hint)"
               },
               {
-                "name": "Item 1 (Hint)",
+                "name": "Route 133 - Item 1 (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Item 1 (Hint)"
               },
               {
-                "name": "Bird Keeper Beck (Hint)",
+                "name": "Route 133 - Bird Keeper Beck (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Bird Keeper Beck (Hint)"
               },
               {
-                "name": "Sailor Hudson (Hint)",
+                "name": "Route 134 - Sailor Hudson (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Sailor Hudson (Hint)"
               }
             ],
@@ -10043,44 +10043,44 @@
         ]
       },
       {
-        "name": "Rapids - Bottom Route - On 132 Hints",
+        "name": "Rapids - Bottom Route - On 132 Hints\u200b",
         "children": [
           {
             "sections": [
               {
-                "name": "Swimmer Debra (Hint)",
+                "name": "Route 133 - Swimmer Debra (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Swimmer Debra (Hint)"
               },
               {
-                "name": "Swimmer Franklin (Hint)",
+                "name": "Route 133 - Swimmer Franklin (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Swimmer Franklin (Hint)"
               },
               {
-                "name": "Item 2 (Hint)",
+                "name": "Route 133 - Item 2 (Hint)",
                 "ref": "A Route Hints/Route 133 Hints/Item 2 (Hint)"
               },
               {
-                "name": "Undo Regi Seal (Event) (Hint)",
+                "name": "Route 134 - Undo Regi Seal (Event) (Hint)",
                 "ref": "A Dungeons Hints/Sealed Chamber Hints/Undo Regi Seal (Event) (Hint)"
               },
               {
-                "name": "Cooltrainer Marley (Hint)",
+                "name": "Route 134 - Cooltrainer Marley (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Cooltrainer Marley (Hint)"
               },
               {
-                "name": "Dragon Tamer Aaron (Hint)",
+                "name": "Route 134 - Dragon Tamer Aaron (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Dragon Tamer Aaron (Hint)"
               },
               {
-                "name": "Bird Keeper Alex (Hint)",
+                "name": "Route 134 - Bird Keeper Alex (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Bird Keeper Alex (Hint)"
               },
               {
-                "name": "Sailor Kelvin (Hint)",
+                "name": "Route 134 - Sailor Kelvin (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Sailor Kelvin (Hint)"
               },
               {
-                "name": "Item 2 (Hint)",
+                "name": "Route 134 - Item 2 (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Item 2 (Hint)"
               }
             ],
@@ -10300,23 +10300,23 @@
           {
             "sections": [
               {
-                "name": "Swimmer Laurel (Hint)",
+                "name": "Route 134 - Swimmer Laurel (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Swimmer Laurel (Hint)"
               },
               {
-                "name": "Swimmer Jack (Hint)",
+                "name": "Route 134 - Swimmer Jack (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Swimmer Jack (Hint)"
               },
               {
-                "name": "Black Belt Hitoshi (Hint)",
+                "name": "Route 134 - Black Belt Hitoshi (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Black Belt Hitoshi (Hint)"
               },
               {
-                "name": "Item 1 (Hint)",
+                "name": "Route 134 - Item 1 (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Item 1 (Hint)"
               },
               {
-                "name": "Battle Girl Reyna (Hint)",
+                "name": "Route 134 - Battle Girl Reyna (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Battle Girl Reyna (Hint)"
               }
             ],
@@ -10336,7 +10336,7 @@
           {
             "sections": [
               {
-                "name": "Sailor Hudson (Hint)",
+                "name": "Route 134 - Sailor Hudson (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Sailor Hudson (Hint)"
               }
             ],
@@ -10356,27 +10356,27 @@
           {
             "sections": [
               {
-                "name": "Undo Regi Seal (Event) (Hint)",
+                "name": "Route 134 - Undo Regi Seal (Event) (Hint)",
                 "ref": "A Dungeons Hints/Sealed Chamber Hints/Undo Regi Seal (Event) (Hint)"
               },
               {
-                "name": "Cooltrainer Marley (Hint)",
+                "name": "Route 134 - Cooltrainer Marley (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Cooltrainer Marley (Hint)"
               },
               {
-                "name": "Dragon Tamer Aaron (Hint)",
+                "name": "Route 134 - Dragon Tamer Aaron (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Dragon Tamer Aaron (Hint)"
               },
               {
-                "name": "Bird Keeper Alex (Hint)",
+                "name": "Route 134 - Bird Keeper Alex (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Bird Keeper Alex (Hint)"
               },
               {
-                "name": "Sailor Kelvin (Hint)",
+                "name": "Route 134 - Sailor Kelvin (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Sailor Kelvin (Hint)"
               },
               {
-                "name": "Item 2 (Hint)",
+                "name": "Route 134 - Item 2 (Hint)",
                 "ref": "A Route Hints/Route 134 Hints/Item 2 (Hint)"
               }
             ],
