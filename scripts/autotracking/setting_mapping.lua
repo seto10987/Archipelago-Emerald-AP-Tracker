@@ -304,3 +304,10 @@ LEGENDARY_HUNT =
   ["Deoxys"] = "legendary_hunt_deoxys",
   ["Mew"] = "legendary_hunt_mew"
 }
+
+DEXSANITY_ENCOUNTER_TYPES =
+{
+  ["Land"] = "dexsanity_land_setting",
+  ["Water"] = "dexsanity_water_setting",
+  ["Fishing"] = "dexsanity_fishing_setting"
+}

@@ -45,6 +45,7 @@ function resetLocations()
 end
 
 function onClear(slot_data)
+    print(dump_table(slot_data))
     PLAYER_NUMBER = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
     CUR_INDEX = -1
@@ -53,6 +54,8 @@ function onClear(slot_data)
     resetItems(ITEM_MAPPING)
     resetItems(HINTS_MAPPING)
     resetLocations()
+    local wv_obj = Tracker:FindObjectForCode("world_version_missing")
+    if wv_obj then wv_obj.Active = true end
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(dump_table(slot_data))
     end
@@ -75,6 +78,12 @@ function onClear(slot_data)
             for legendary, code in pairs(LEGENDARY_HUNT) do
                 Tracker:FindObjectForCode(code).Active = tableContains(slot_data['allowed_legendary_hunt_encounters'], legendary)
             end
+        elseif key == "dexsanity_encounter_types" then
+            for type_name, code in pairs(DEXSANITY_ENCOUNTER_TYPES) do
+                Tracker:FindObjectForCode(code).CurrentStage = tableContains(slot_data['dexsanity_encounter_types'], type_name) and 1 or 0
+            end
+        elseif key == "world_version" then
+            Tracker:FindObjectForCode("world_version_missing").Active = false
         elseif SLOT_CODES[key] then
             Tracker:FindObjectForCode(SLOT_CODES[key].code).CurrentStage = SLOT_CODES[key].mapping[value]
         end

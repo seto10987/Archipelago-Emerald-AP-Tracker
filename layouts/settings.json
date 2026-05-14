@@ -126,6 +126,26 @@
                 ]
               }
             ]
+          },
+          {
+            "title": "Dexsanity",
+            "type": "array",
+            "orientation": "horizontal",
+            "margin": "0,0",
+            "content": [
+              {
+                "type": "itemgrid",
+                "item_margin": "2,2",
+                "h_alignment": "center",
+                "rows": [
+                  [
+                    "dexsanity_land_setting",
+                    "dexsanity_water_setting",
+                    "dexsanity_fishing_setting"
+                  ]
+                ]
+              }
+            ]
           }
         ]
       }

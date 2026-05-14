@@ -248,6 +248,30 @@ function marine_cave_access()
   return dive() and has("defeat_champion") and has("defeat_shelly")
 end
 
+function dexsanity_land()
+  if has("dexsanity_land_on") then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.SequenceBreak
+  end
+end
+
+function dexsanity_water()
+  if has("dexsanity_water_on") then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.SequenceBreak
+  end
+end
+
+function dexsanity_fishing()
+  if has("dexsanity_fishing_on") then
+    return AccessibilityLevel.Normal
+  else
+    return AccessibilityLevel.SequenceBreak
+  end
+end
+
 -- Visibility Functions
 function legendary_hunt_defeat()
   return has("goal_legendary_hunt") and has("legendary_hunt_req_defeat")

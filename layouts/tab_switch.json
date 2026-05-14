@@ -12,10 +12,11 @@
           {
             "type": "itemgrid",
             "item_margin": "2,2",
-            "h_alignment": "center",
+            "h_alignment": "left",
             "rows": [
               [
-                "tab_switch"
+                "tab_switch",
+                "hide_ool_encounters"
               ],
               [
                 "split_map_overworld"
@@ -55,7 +56,8 @@
                 "split_map_overworld",
                 "split_map_encounter",
                 "encounter_locations",
-                "hints_tracking"
+                "hints_tracking",
+                "hide_ool_encounters"
               ]
             ]
           }

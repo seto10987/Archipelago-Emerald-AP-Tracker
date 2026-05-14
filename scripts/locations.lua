@@ -30,3 +30,7 @@ Tracker:AddLocations("locations/hints/area_map_hints/route_hints.json")
 ------------------------------------------------------------
 
 Tracker:AddLocations("locations/hints/pokedex_hints.json")
+
+------------------------------------------------------------
+
+Tracker:AddLocations("locations/version_warning.json")

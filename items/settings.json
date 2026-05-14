@@ -1282,5 +1282,99 @@
         "inherit_codes": false
       }
     ]
+  },
+  {
+    "name": "Dexsanity Land Encounters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "/images/settings/dexsanity_land.png",
+        "img_mods": "@disabled",
+        "codes": "dexsanity_land_setting,dexsanity_land_off",
+        "inherit_codes": false,
+        "name": "Dexsanity Land Encounters - Off"
+      },
+      {
+        "img": "/images/settings/dexsanity_land.png",
+        "codes": "dexsanity_land_setting,dexsanity_land_on",
+        "inherit_codes": false,
+        "name": "Dexsanity Land Encounters - On"
+      }
+    ]
+  },
+  {
+    "name": "Dexsanity Water Encounters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "/images/settings/dexsanity_water.png",
+        "img_mods": "@disabled",
+        "codes": "dexsanity_water_setting,dexsanity_water_off",
+        "inherit_codes": false,
+        "name": "Dexsanity Water Encounters - Off"
+      },
+      {
+        "img": "/images/settings/dexsanity_water.png",
+        "codes": "dexsanity_water_setting,dexsanity_water_on",
+        "inherit_codes": false,
+        "name": "Dexsanity Water Encounters - On"
+      }
+    ]
+  },
+  {
+    "name": "Dexsanity Fishing Encounters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 1,
+    "stages": [
+      {
+        "img": "/images/settings/dexsanity_fishing.png",
+        "img_mods": "@disabled",
+        "codes": "dexsanity_fishing_setting,dexsanity_fishing_off",
+        "inherit_codes": false,
+        "name": "Dexsanity Fishing Encounters - Off"
+      },
+      {
+        "img": "/images/settings/dexsanity_fishing.png",
+        "codes": "dexsanity_fishing_setting,dexsanity_fishing_on",
+        "inherit_codes": false,
+        "name": "Dexsanity Fishing Encounters - On"
+      }
+    ]
+  },
+  {
+    "name": "Hide Out-of-Logic Encounters",
+    "type": "progressive",
+    "allow_disabled": false,
+    "loop": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "/images/settings/hide_ool_encounters.png",
+        "img_mods": "@disabled",
+        "codes": "hide_ool_encounters,hide_ool_encounters_off",
+        "inherit_codes": false,
+        "name": "Hide Out-of-Logic Encounters - Off"
+      },
+      {
+        "img": "/images/settings/hide_ool_encounters.png",
+        "codes": "hide_ool_encounters,hide_ool_encounters_on",
+        "inherit_codes": false,
+        "name": "Hide Out-of-Logic Encounters - On"
+      }
+    ]
+  },
+  {
+    "name": "World Version Warning",
+    "type": "toggle",
+    "codes": "world_version_missing",
+    "img": "/images/settings/version_warning.png"
   }
 ]

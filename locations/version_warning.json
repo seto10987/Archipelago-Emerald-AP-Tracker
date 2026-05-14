@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Version Warning",
+    "visibility_rules": [
+      "world_version_missing"
+    ],
+    "children": [
+      {
+        "name": "Version Warning",
+        "sections": [
+          {
+          "name": "WARNING\nOn AP 0.6.7 Dexsanity Encounter Types are bugged.\nOnly Pokémon you can find in included types are checks,\nbut the logical access could be an excluded type.\nThis is fixed in the 3.0.0 beta.\n\nAlso, that setting does not auto-track in AP 0.6.7.\nSo you need to change it yourself.",
+            "chest_unopened_img": "/images/settings/trainer.png",
+            "chest_opened_img": "/images/settings/trainer.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hoennmap",
+            "shape": "diamond",
+            "x": 245,
+            "y": 8
+          }
+        ]
+      }
+    ]
+  }
+]
